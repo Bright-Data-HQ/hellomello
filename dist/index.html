@@ -7,40 +7,82 @@
 <title>Hellomello — Bright Data</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#0E1411; --ink-2:#1A211D;
-    --paper:#F4EFE6; --paper-2:#EAE3D5;
-    --rule:#D6CFBE; --rule-soft:#E2DAC7;
-    --muted:#6B6555;
-    --clay:#B96A3D; --clay-2:#8a3f1a; --clay-soft:#F2DDCF; --clay-border:#E9C3B3;
+    /* Hellomello brand tokens */
+    --green:#283718; --green-2:#1F2B12; --green-3:#34481F;
+    --cream:#FEFAE0; --cream-2:#F6F0CC; --cream-3:#FBF6D6;
+    --terra:#BC6C25; --terra-light:#DDA15E;
+    --lavender:#BEB8EB;
+    --sage:#B2DCD0;
+    --blue:#2A78A0;
+    --ink:#283718;
+    --muted:#5F6B4C;
+    --border:#E6DEB4;
+    --border-strong:#D8CE92;
+    --font-display:"League Spartan","Helvetica Neue",system-ui,sans-serif;
+    --font-body:"Inter",system-ui,sans-serif;
+    --font-mono:"JetBrains Mono",ui-monospace,monospace;
   }
   *{box-sizing:border-box}
-  html,body{margin:0;padding:0;background:#16110C;color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
-  .page{min-height:100vh;background:var(--paper);color:var(--ink);padding:64px clamp(24px,6vw,96px)}
+  html,body{margin:0;padding:0;background:var(--cream);color:var(--ink);font-family:var(--font-body);-webkit-font-smoothing:antialiased}
+  .page{min-height:100vh;padding:48px clamp(24px,6vw,96px) 64px}
   .wrap{max-width:1180px;margin:0 auto}
-  .head{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--rule);padding-bottom:18px;margin-bottom:56px}
-  .brand{display:flex;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink)}
-  .brand .dot{width:8px;height:8px;border-radius:50%;background:var(--clay)}
-  .meta{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-  h1.display{font-family:'Fraunces',Georgia,serif;font-weight:400;letter-spacing:-0.02em;line-height:.95;font-size:clamp(56px,9vw,128px);margin:0 0 18px}
-  h1.display em{font-style:italic;color:var(--clay-2)}
-  .lede{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(18px,2vw,22px);line-height:1.4;color:var(--ink-2);max-width:62ch;margin:0 0 56px}
-  .eyebrow{font-family:'JetBrains Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);margin:0 0 14px;display:flex;align-items:center;gap:10px}
-  .eyebrow .num{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border:1px solid var(--rule);border-radius:50%;font-size:9.5px;color:var(--ink)}
-  .section{margin-bottom:48px}
+
+  .head{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border-strong);padding-bottom:18px;margin-bottom:64px}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--green)}
+  .brand .dot{width:8px;height:8px;border-radius:50%;background:var(--terra)}
+  .meta{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+
+  /* Hellomello wordmark — letters from the brand bible */
+  .wordmark{font-family:var(--font-display);font-weight:900;letter-spacing:-.04em;line-height:.85;font-size:clamp(96px,17vw,220px);margin:0 0 24px;display:inline-block}
+  .wordmark span{display:inline-block}
+  .wordmark .w1{color:var(--green)}    /* h */
+  .wordmark .w2{color:var(--terra)}    /* e */
+  .wordmark .w3{color:var(--lavender)} /* l */
+  .wordmark .w4{color:var(--sage)}     /* l */
+  .wordmark .w5{color:var(--blue)}     /* o */
+  .wordmark .w6{color:var(--green)}    /* m */
+  .wordmark .w7{color:var(--terra)}    /* e */
+  .wordmark .w8{color:var(--lavender)} /* l */
+  .wordmark .w9{color:var(--sage)}     /* l */
+  .wordmark .w10{color:var(--blue)}    /* o */
+  .wordmark .dot{color:var(--terra)}
+
+  .lede{font-family:var(--font-display);font-weight:400;font-size:clamp(18px,1.9vw,22px);line-height:1.45;color:var(--green);max-width:62ch;margin:0 0 64px}
+  .lede em{font-style:normal;color:var(--terra);font-weight:600}
+
+  .eyebrow{font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);margin:0 0 18px;display:flex;align-items:center;gap:10px}
+  .eyebrow .num{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border:1px solid var(--border-strong);border-radius:50%;font-size:9.5px;color:var(--green);background:var(--cream-3)}
+
+  .section{margin-bottom:52px}
   .grid{display:grid;gap:14px}
   .grid.cols-2{grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}
   .grid.cols-4{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
-  a.card{display:flex;flex-direction:column;justify-content:space-between;gap:24px;padding:20px 22px 18px;min-height:148px;background:#FBF6EB;border:1px solid var(--rule-soft);border-radius:12px;color:var(--ink);text-decoration:none;transition:transform .15s ease, border-color .15s ease, background .15s ease}
-  a.card:hover{transform:translateY(-2px);border-color:var(--clay-border);background:#fff}
-  a.card .tag{display:inline-flex;align-items:center;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1px solid var(--clay-border);background:var(--clay-soft);color:var(--clay-2);align-self:flex-start}
-  a.card .t{font-family:'Fraunces',serif;font-weight:500;font-size:26px;letter-spacing:-.015em;line-height:1.05;margin:0}
-  a.card .d{font-size:12.5px;color:var(--muted);font-family:'JetBrains Mono',monospace;letter-spacing:.06em;text-transform:uppercase;margin-top:6px}
-  a.card .arrow{font-family:'Fraunces',serif;font-size:22px;color:var(--clay);line-height:1}
+
+  a.card{display:flex;flex-direction:column;justify-content:space-between;gap:24px;padding:22px 24px 20px;min-height:152px;background:var(--cream-3);border:1px solid var(--border);border-radius:14px;color:var(--green);text-decoration:none;transition:transform .15s ease, border-color .15s ease, background .15s ease}
+  a.card:hover{transform:translateY(-2px);border-color:var(--terra-light);background:#fff}
+  a.card .tag{display:inline-flex;align-items:center;font-family:var(--font-mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;padding:3px 9px;border-radius:999px;border:1px solid var(--terra-light);background:var(--cream-2);color:var(--terra);align-self:flex-start;font-weight:500}
+  a.card .t{font-family:var(--font-display);font-weight:700;font-size:26px;letter-spacing:-.02em;line-height:1.0;margin:0;color:var(--green)}
+  a.card .d{font-size:12px;color:var(--muted);font-family:var(--font-mono);letter-spacing:.08em;text-transform:uppercase;margin-top:8px}
+  a.card .arrow{font-family:var(--font-display);font-size:24px;font-weight:700;color:var(--terra);line-height:1}
   a.card .row{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
-  footer{margin-top:72px;padding-top:18px;border-top:1px solid var(--rule);display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+
+  /* Accent variants per section colour */
+  .grid.brand a.card:hover{border-color:var(--lavender)}
+  .grid.brand a.card .tag{border-color:var(--lavender);color:#5a51b0;background:#EFEDFB}
+  .grid.brand a.card .arrow{color:#5a51b0}
+
+  .grid.strategy a.card:hover{border-color:var(--sage)}
+  .grid.strategy a.card .tag{border-color:var(--sage);color:#2f6b5a;background:#E4F1EC}
+  .grid.strategy a.card .arrow{color:#2f6b5a}
+
+  .grid.comp a.card:hover{border-color:var(--terra-light)}
+  .grid.comp a.card .tag{border-color:var(--terra-light);color:var(--terra);background:var(--cream-2)}
+  .grid.comp a.card .arrow{color:var(--terra)}
+
+  footer{margin-top:80px;padding-top:18px;border-top:1px solid var(--border-strong);display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 </style>
 </head>
 <body>
@@ -52,12 +94,14 @@
       <div class="meta">Engagement Workspace</div>
     </div>
 
-    <h1 class="display">Hello<em>mello</em>.</h1>
-    <p class="lede">A working space for the Bright Data &amp; Hellomello engagement — brand reference and competitor intelligence for the Australian medicinal cannabis market.</p>
+    <h1 class="wordmark" aria-label="hellomello">
+      <span class="w1">h</span><span class="w2">e</span><span class="w3">l</span><span class="w4">l</span><span class="w5">o</span><span class="w6">m</span><span class="w7">e</span><span class="w8">l</span><span class="w9">l</span><span class="w10">o</span><span class="dot">.</span>
+    </h1>
+    <p class="lede">A working space for the Bright Data &amp; Hellomello engagement — <em>brand reference</em>, <em>strategy</em>, and <em>competitor intelligence</em> for the Australian medicinal cannabis market.</p>
 
     <div class="section">
       <p class="eyebrow"><span class="num">01</span> Brand</p>
-      <div class="grid cols-2">
+      <div class="grid cols-2 brand">
         <a class="card" href="/hellomello/brand/">
           <span class="tag">Guidelines</span>
           <div class="row">
@@ -83,7 +127,7 @@
 
     <div class="section">
       <p class="eyebrow"><span class="num">02</span> Strategy</p>
-      <div class="grid cols-2">
+      <div class="grid cols-2 strategy">
         <a class="card" href="/hellomello/strategy">
           <span class="tag">SEO &amp; Growth</span>
           <div class="row">
@@ -99,7 +143,7 @@
 
     <div class="section">
       <p class="eyebrow"><span class="num">03</span> Competitor analysis</p>
-      <div class="grid cols-4">
+      <div class="grid cols-4 comp">
         <a class="card" href="/hellomello/competitors/alternaleaf">
           <span class="tag">AU · Telehealth</span>
           <div class="row"><div><p class="t">Alternaleaf</p><p class="d">SEO &amp; market position</p></div><span class="arrow">→</span></div>
