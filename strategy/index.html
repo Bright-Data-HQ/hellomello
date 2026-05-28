@@ -71,12 +71,13 @@ section{margin-bottom:96px;scroll-margin-top:32px}
 
 /* Competitor matrix */
 .matrix{border:1px solid var(--border-strong);border-radius:14px;overflow:hidden;background:var(--surface);margin-top:14px}
-.matrix .r{display:grid;grid-template-columns:160px 100px 1fr 1.4fr;gap:18px;padding:14px 20px;border-bottom:1px solid var(--border);font-size:13.5px;align-items:start}
+.matrix .r{display:grid;grid-template-columns:160px 150px 1fr 1.4fr;gap:18px;padding:14px 20px;border-bottom:1px solid var(--border);font-size:13.5px;align-items:start}
 .matrix .r:last-child{border-bottom:0}
 .matrix .r.head{background:var(--cream-2);font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}
 .matrix .who{font-family:var(--font-display);font-weight:700;font-size:15px;color:var(--green)}
 .matrix .who small{display:block;font-family:var(--font-mono);font-size:10.5px;color:var(--muted);font-weight:400;margin-top:2px}
-.matrix .pos{display:inline-block;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;padding:4px 10px;border-radius:9999px;font-weight:600}
+.matrix .pos{display:inline-block;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;padding:4px 10px;border-radius:9999px;font-weight:600;white-space:nowrap}
+.matrix .r > div:nth-child(2){min-width:0}
 .pos.green{background:var(--ok-bg);color:var(--ok-fg)}
 .pos.amber{background:var(--warn-bg);color:var(--warn-fg)}
 .pos.red{background:var(--bad-bg);color:var(--bad-fg)}
@@ -158,6 +159,7 @@ section{margin-bottom:96px;scroll-margin-top:32px}
   .doc-title{font-size:44px}
   .stats,.pillars,.road,.two{grid-template-columns:1fr 1fr}
   .matrix .r,.metrics .r{grid-template-columns:1fr;gap:6px}
+  .matrix .pos{align-self:flex-start}
   .heat .r{grid-template-columns:1fr}
   .flow{grid-template-columns:1fr 1fr}
   .toc ol{columns:1}
