@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hellomello — SEO & Growth Strategy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#283718; --green-2:#1F2B12; --green-3:#34481F;
+  --cream:#FEFAE0; --cream-2:#F6F0CC; --cream-3:#FBF6D6;
+  --terra:#BC6C25; --terra-light:#DDA15E;
+  --lavender:#BEB8EB; --sage:#B2DCD0; --blue:#2A78A0;
+  --paper:#FBF6D6; --paper-2:#F6F0CC; --surface:#FFFFFF; --surface-2:#FAF7E8;
+  --ink:#283718; --ink-2:#34481F; --muted:#5C6849; --muted-2:#8C9779;
+  --border:#E8E1B8; --border-strong:#CFC68C;
+  --ok-bg:#E4F1D6; --ok-fg:#3F6A1A; --ok-bd:#C5DFA6;
+  --warn-bg:#FBE7C4; --warn-fg:#8A4A0E; --warn-bd:#EFC788;
+  --bad-bg:#F8D7D2; --bad-fg:#9B2418; --bad-bd:#EDB5AC;
+  --font-display:"League Spartan","Helvetica Neue",system-ui,sans-serif;
+  --font-body:"Inter","Helvetica Neue",system-ui,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --sh-soft:0 1px 16px rgba(40,55,24,.07);
+  --content:1120px;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--font-body);color:var(--ink);background:var(--paper);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.page{max-width:var(--content);margin:0 auto;padding:64px 56px 160px}
+
+/* Header */
+.doc-header{padding-bottom:48px;border-bottom:1px solid var(--border-strong);margin-bottom:56px;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.doc-eyebrow{font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.doc-title{font-family:var(--font-display);font-weight:900;font-size:64px;letter-spacing:-.025em;line-height:.94;margin:0 0 20px;max-width:18ch}
+.doc-title em{font-style:normal;color:var(--terra)}
+.doc-lead{font-size:17px;line-height:1.55;color:var(--muted);max-width:62ch;margin:0}
+.doc-meta{display:flex;gap:24px;flex-wrap:wrap;margin-top:32px;font-family:var(--font-mono);font-size:11.5px;color:var(--muted)}
+.doc-meta strong{color:var(--ink);font-weight:600}
+.brandmark{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.brandmark .wordmark{font-family:var(--font-display);font-weight:900;font-size:32px;letter-spacing:-.02em;line-height:1}
+.brandmark .wordmark span:nth-child(1){color:var(--green)}
+.brandmark .wordmark span:nth-child(2){color:var(--terra)}
+.brandmark .wordmark span:nth-child(3){color:var(--lavender)}
+.brandmark .wordmark span:nth-child(4){color:var(--sage)}
+.brandmark .wordmark span:nth-child(5){color:var(--blue)}
+.brandmark .tag{font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted)}
+
+/* Sections */
+section{margin-bottom:96px;scroll-margin-top:32px}
+.sec-num{font-family:var(--font-mono);font-size:11.5px;color:var(--muted);letter-spacing:.1em;margin-bottom:10px;text-transform:uppercase}
+.sec-title{font-family:var(--font-display);font-weight:700;font-size:38px;letter-spacing:-.02em;line-height:1.05;margin:0 0 14px}
+.sec-lead{font-size:15.5px;line-height:1.65;color:var(--muted);max-width:62ch;margin:0 0 36px}
+.sub-title{font-family:var(--font-display);font-weight:600;font-size:18px;margin:40px 0 18px;letter-spacing:-.005em;text-transform:uppercase;color:var(--ink-2)}
+
+/* TOC */
+.toc{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:22px 26px;margin-bottom:80px}
+.toc h3{font-family:var(--font-mono);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin:0 0 12px}
+.toc ol{margin:0;padding-left:22px;columns:2;column-gap:36px;font-size:13.5px;line-height:2}
+.toc a{color:var(--ink);text-decoration:none}
+.toc a:hover{color:var(--terra)}
+
+/* TLDR stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:8px 0 16px}
+.stat{background:var(--green);color:var(--cream);border-radius:14px;padding:22px 22px}
+.stat .n{font-family:var(--font-display);font-weight:900;font-size:38px;letter-spacing:-.02em;line-height:1;color:var(--cream)}
+.stat .n small{font-size:16px;color:var(--terra-light);font-weight:700;margin-left:4px}
+.stat .l{font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--sage);margin-top:10px}
+
+/* Competitor matrix */
+.matrix{border:1px solid var(--border-strong);border-radius:14px;overflow:hidden;background:var(--surface);margin-top:14px}
+.matrix .r{display:grid;grid-template-columns:160px 100px 1fr 1.4fr;gap:18px;padding:14px 20px;border-bottom:1px solid var(--border);font-size:13.5px;align-items:start}
+.matrix .r:last-child{border-bottom:0}
+.matrix .r.head{background:var(--cream-2);font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}
+.matrix .who{font-family:var(--font-display);font-weight:700;font-size:15px;color:var(--green)}
+.matrix .who small{display:block;font-family:var(--font-mono);font-size:10.5px;color:var(--muted);font-weight:400;margin-top:2px}
+.matrix .pos{display:inline-block;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;padding:4px 10px;border-radius:9999px;font-weight:600}
+.pos.green{background:var(--ok-bg);color:var(--ok-fg)}
+.pos.amber{background:var(--warn-bg);color:var(--warn-fg)}
+.pos.red{background:var(--bad-bg);color:var(--bad-fg)}
+.matrix .what{color:var(--ink-2);line-height:1.55}
+.matrix .gap{color:var(--terra);font-style:italic;line-height:1.55}
+
+/* Gap heatmap */
+.heat{border:1px solid var(--border-strong);border-radius:14px;overflow:hidden;background:var(--surface);margin-top:14px}
+.heat .r{display:grid;grid-template-columns:200px repeat(5,1fr) 1.6fr;gap:0;font-size:13px;align-items:stretch}
+.heat .r > div{padding:12px 14px;border-right:1px solid var(--border);border-bottom:1px solid var(--border);display:flex;align-items:center}
+.heat .r > div:last-child{border-right:0}
+.heat .r:last-child > div{border-bottom:0}
+.heat .r.head > div{background:var(--cream-2);font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:600}
+.heat .topic{font-weight:600;color:var(--green)}
+.heat .note{color:var(--muted);font-size:12.5px;line-height:1.45}
+.heat .cell{justify-content:center;font-family:var(--font-mono);font-size:13px;font-weight:600}
+.s0{background:#fff;color:#cfcfcf} .s1{background:#FBE7C4;color:#8A4A0E} .s2{background:#F6D89A;color:#6B3508} .s3{background:#E8C476;color:#4d2503} .s4{background:#C8A03E;color:#2d1500} .s5{background:#9B7826;color:#fff}
+.s-hm{background:#283718;color:#FEFAE0}
+
+/* Pillar cards */
+.pillars{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:8px}
+.pillar{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:26px 26px;display:flex;flex-direction:column;gap:14px}
+.pillar .p-n{font-family:var(--font-mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--terra);font-weight:600}
+.pillar h3{font-family:var(--font-display);font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em;color:var(--green)}
+.pillar .why{font-size:13.5px;color:var(--muted);line-height:1.6;margin:0}
+.pillar .what{font-size:13.5px;color:var(--ink-2);line-height:1.6;margin:0;border-left:3px solid var(--terra);padding-left:14px}
+.pillar .kpi{font-family:var(--font-mono);font-size:11.5px;color:var(--blue);letter-spacing:.04em;border-top:1px solid var(--border);padding-top:12px;margin-top:auto}
+.pillar .kpi b{color:var(--green)}
+
+/* Roadmap */
+.road{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px}
+.month{background:var(--green);color:var(--cream);border-radius:14px;padding:22px 22px;display:flex;flex-direction:column;gap:12px}
+.month .m-n{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--terra-light);font-weight:600}
+.month h4{font-family:var(--font-display);font-weight:700;font-size:20px;margin:0;color:var(--cream);letter-spacing:-.005em}
+.month ul{margin:0;padding-left:18px;font-size:13px;line-height:1.6;color:var(--cream)}
+.month ul li{margin-bottom:4px}
+.month .focus{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--sage);border-top:1px solid var(--green-3);padding-top:10px;margin-top:auto}
+
+/* Metrics */
+.metrics{border:1px solid var(--border-strong);border-radius:14px;overflow:hidden;background:var(--surface);margin-top:14px}
+.metrics .r{display:grid;grid-template-columns:220px 120px 130px 130px 1fr;gap:18px;padding:14px 20px;border-bottom:1px solid var(--border);font-size:13.5px;align-items:center}
+.metrics .r:last-child{border-bottom:0}
+.metrics .r.head{background:var(--cream-2);font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+.metrics .m{font-family:var(--font-display);font-weight:700;font-size:14.5px;color:var(--green)}
+.metrics .v{font-family:var(--font-mono);font-size:13px;color:var(--ink)}
+.metrics .v.t{color:var(--terra);font-weight:600}
+.metrics .why{color:var(--muted);font-size:12.5px;line-height:1.5}
+
+/* Process flow */
+.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:14px;align-items:stretch}
+.step{background:var(--surface);border:1px solid var(--border-strong);border-radius:12px;padding:16px;position:relative;display:flex;flex-direction:column;gap:6px}
+.step .n{font-family:var(--font-mono);font-size:10px;letter-spacing:.16em;color:var(--terra);font-weight:600}
+.step h5{font-family:var(--font-display);font-weight:700;font-size:14px;margin:0;color:var(--green)}
+.step p{margin:0;font-size:12.5px;color:var(--muted);line-height:1.5}
+.step .owner{margin-top:auto;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);font-weight:600;padding-top:8px;border-top:1px solid var(--border)}
+
+/* Banner */
+.banner{background:var(--warn-bg);border:1px solid var(--warn-bd);border-radius:12px;padding:18px 22px;margin:24px 0}
+.banner b{display:block;font-family:var(--font-display);font-weight:700;font-size:13px;color:var(--warn-fg);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+.banner p{margin:0;font-size:13.5px;color:var(--warn-fg);line-height:1.55}
+
+/* Two columns generic */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:var(--surface);border:1px solid var(--border-strong);border-radius:12px;padding:20px 22px}
+.card h4{font-family:var(--font-display);font-weight:700;font-size:15px;margin:0 0 12px;text-transform:uppercase;letter-spacing:.04em;color:var(--green)}
+.card ul{margin:0;padding-left:18px;font-size:13.5px;line-height:1.65;color:var(--ink-2)}
+.card.bad{border-left:3px solid var(--bad-fg)}
+.card.bad h4{color:var(--bad-fg)}
+.card.ok{border-left:3px solid var(--ok-fg)}
+.card.ok h4{color:var(--ok-fg)}
+
+/* Foot */
+.foot{border-top:1px solid var(--border-strong);padding-top:32px;margin-top:80px;display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-family:var(--font-mono);font-size:11.5px}
+
+@media (max-width:920px){
+  .page{padding:40px 24px 120px}
+  .doc-header{grid-template-columns:1fr;gap:24px}
+  .doc-title{font-size:44px}
+  .stats,.pillars,.road,.two{grid-template-columns:1fr 1fr}
+  .matrix .r,.metrics .r{grid-template-columns:1fr;gap:6px}
+  .heat .r{grid-template-columns:1fr}
+  .flow{grid-template-columns:1fr 1fr}
+  .toc ol{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="doc-header">
+    <div>
+      <p class="doc-eyebrow">Hellomello × Bright Data · Strategy v0.1 · May 2026</p>
+      <h1 class="doc-title">Win the category, not the <em>brand fight</em>.</h1>
+      <p class="doc-lead">Every direct competitor's organic engine leaks the same way: brand-heavy, category-light, locations thin, conditions undefended. This is how Hellomello takes those gaps over the next six months — within TGA / AHPRA guardrails.</p>
+      <div class="doc-meta">
+        <span>VERSION <strong>0.1 — Draft for review</strong></span>
+        <span>LAST UPDATED <strong>2026-05-28</strong></span>
+        <span>PREPARED BY <strong>Bright Data</strong></span>
+        <span>FOR <strong>Rod, Alex — Hellomello</strong></span>
+      </div>
+    </div>
+    <div class="brandmark">
+      <div class="wordmark"><span>h</span><span>e</span><span>l</span><span>l</span><span>o</span></div>
+      <div class="tag">Strategy Doc</div>
+    </div>
+  </header>
+
+  <nav class="toc">
+    <h3>Contents</h3>
+    <ol>
+      <li><a href="#tldr">Executive summary</a></li>
+      <li><a href="#landscape">Competitor landscape</a></li>
+      <li><a href="#heatmap">Where the gaps are</a></li>
+      <li><a href="#wedge">Hellomello's wedge</a></li>
+      <li><a href="#pillars">Four strategic pillars</a></li>
+      <li><a href="#roadmap">Six-month roadmap</a></li>
+      <li><a href="#metrics">Success metrics</a></li>
+      <li><a href="#process">Content approval & pSEO process</a></li>
+      <li><a href="#risks">Compliance guardrails</a></li>
+    </ol>
+  </nav>
+
+  <!-- 01 -->
+  <section id="tldr">
+    <p class="sec-num">01 / Executive summary</p>
+    <h2 class="sec-title">The category is undefended.</h2>
+    <p class="sec-lead">Four direct competitors were audited in depth: Alternaleaf (category leader), Polln (credibility template), Herbly (programmatic challenger), Candor (brand fortress). Their organic traffic looks impressive in aggregate — but strip out brand search and the picture is starkly different.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="n">90<small>%</small></div><div class="l">of Alternaleaf's 78K visits/mo are brand search</div></div>
+      <div class="stat"><div class="n">96<small>%</small></div><div class="l">of Candor's 12.7K visits/mo are brand search</div></div>
+      <div class="stat"><div class="n">~0</div><div class="l">competitors defending suburb-level pSEO or "near me"</div></div>
+      <div class="stat"><div class="n">4</div><div class="l">strategic pillars to take the category in 6 months</div></div>
+    </div>
+
+    <p style="margin-top:24px;font-size:15.5px;line-height:1.65;color:var(--ink-2);max-width:68ch">
+      <b>The thesis:</b> we are not going to outspend Alternaleaf on brand or out-shop Herbly on retail intent. We win by being the <em>category-first</em> site — clinically authored conditions, suburb-level locations, named practitioners, real reviews — published faster and with deeper E-E-A-T than anyone in the space. The technical SEO base is already in place. The next six months are about programmatic scale plus a credibility moat that compounds.
+    </p>
+  </section>
+
+  <!-- 02 -->
+  <section id="landscape">
+    <p class="sec-num">02 / Competitor landscape</p>
+    <h2 class="sec-title">Four archetypes, one shared weakness.</h2>
+    <p class="sec-lead">Every player is strong on one axis and hollow on the others. Mapped from the full audits in <code>competitors/{slug}/data/notes.json</code>.</p>
+
+    <div class="matrix">
+      <div class="r head"><div>Competitor</div><div>Posture</div><div>What they do well</div><div>Where they leak (our opening)</div></div>
+      <div class="r">
+        <div class="who">Alternaleaf<small>alternaleaf.com.au</small></div>
+        <div><span class="pos green">Model off</span></div>
+        <div class="what">Three-property architecture (www + patient + support). Editorial city explainers earn citations. Clinical-not-dispensary tone. Trustpilot embeds.</div>
+        <div class="gap">90% brand-dependent. 1,128 location keywords → only 2,447 visits. 53 chronic-pain keywords → 1 visit/mo. Compliance posture slows publishing.</div>
+      </div>
+      <div class="r">
+        <div class="who">Polln<small>polln.com</small></div>
+        <div><span class="pos green">Model off</span></div>
+        <div class="what">Named practitioner pages (real bios). Long-form library (sativa-vs-indica earns 100+/mo). Location FAQs. Cleanest E-E-A-T in the category.</div>
+        <div class="gap">Only 16 library posts; cadence has slowed. 70% brand. 11 city pages, only 2 ranking meaningfully. Cannot out-publish a real content programme.</div>
+      </div>
+      <div class="r">
+        <div class="who">Herbly<small>herbly.com.au</small></div>
+        <div><span class="pos amber">Out-template</span></div>
+        <div class="what">Shopify pSEO engine: ~95 /pages/{city}-dispensary pages drive 70% of traffic. Fast CWV. Aggressive near-me framing.</div>
+        <div class="gap">Storefront language carries TGA risk. Anonymous blog (53 posts → 27 visits). No clinical depth. Capital cities patchy. Suburb-level wide open.</div>
+      </div>
+      <div class="r">
+        <div class="who">Candor<small>candormedical.com</small></div>
+        <div><span class="pos amber">Don't fight brand</span></div>
+        <div class="what">Clean technical baseline. app. subdomain harvests brand+nav. Paid has bought the brand.</div>
+        <div class="gap">96% brand. 10 /treatments pages, 9 earn 0–1 visit. No locations, no city pages, no named practitioners. Pure white space outside brand.</div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <b>Pattern</b>
+      <p>Strip brand search out and every competitor in the category is running on under 5K visits/mo of true category demand. There is no organic incumbent here — only a perception of one.</p>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section id="heatmap">
+    <p class="sec-num">03 / Where the gaps are</p>
+    <h2 class="sec-title">The territory map.</h2>
+    <p class="sec-lead">Synthesised gap matrix across all four audits. 0 = no coverage, 5 = fully owned. Hellomello starts at 0–1 across the board; the columns marked weakest are our entry points.</p>
+
+    <div class="heat">
+      <div class="r head"><div>Territory</div><div class="cell">Alternaleaf</div><div class="cell">Polln</div><div class="cell">Herbly</div><div class="cell">Candor</div><div class="cell">Hellomello</div><div>Read</div></div>
+      <div class="r"><div class="topic">Brand defence</div><div class="cell s5">5</div><div class="cell s4">4</div><div class="cell s2">2</div><div class="cell s5">5</div><div class="cell s-hm">1</div><div class="note">Don't fight here. Theirs to lose.</div></div>
+      <div class="r"><div class="topic">Conditions content</div><div class="cell s1">1</div><div class="cell s1">1</div><div class="cell s1">1</div><div class="cell s1">1</div><div class="cell s-hm">0</div><div class="note">Open field. Highest-impact play in the deck.</div></div>
+      <div class="r"><div class="topic">Locations / pSEO (suburb)</div><div class="cell s2">2</div><div class="cell s2">2</div><div class="cell s4">4</div><div class="cell s0">0</div><div class="cell s-hm">0</div><div class="note">Herbly owns city-level; suburb level uncontested.</div></div>
+      <div class="r"><div class="topic">"Near me" queries</div><div class="cell s1">1</div><div class="cell s1">1</div><div class="cell s3">3</div><div class="cell s0">0</div><div class="cell s-hm">0</div><div class="note">Catchable. Match Herbly's intent, beat their depth.</div></div>
+      <div class="r"><div class="topic">Clinic / doctor SEO</div><div class="cell s2">2</div><div class="cell s3">3</div><div class="cell s1">1</div><div class="cell s0">0</div><div class="cell s-hm">0</div><div class="note">Mirror Polln. /practitioners/{name} with bios.</div></div>
+      <div class="r"><div class="topic">Library / editorial</div><div class="cell s3">3</div><div class="cell s3">3</div><div class="cell s1">1</div><div class="cell s1">1</div><div class="cell s-hm">0</div><div class="note">Out-publish on cadence. Polln proves the format.</div></div>
+      <div class="r"><div class="topic">Pricing transparency</div><div class="cell s4">4</div><div class="cell s3">3</div><div class="cell s1">1</div><div class="cell s2">2</div><div class="cell s-hm">1</div><div class="note">Match Alternaleaf. /pricing on day one.</div></div>
+      <div class="r"><div class="topic">Reviews / social proof</div><div class="cell s3">3</div><div class="cell s2">2</div><div class="cell s1">1</div><div class="cell s1">1</div><div class="cell s-hm">0</div><div class="note">Embed Trustpilot, not inline testimonials.</div></div>
+      <div class="r"><div class="topic">Patient portal SEO</div><div class="cell s5">5</div><div class="cell s4">4</div><div class="cell s0">0</div><div class="cell s4">4</div><div class="cell s-hm">0</div><div class="note">Subdomain (patient. / app.) harvests brand+nav.</div></div>
+      <div class="r"><div class="topic">Help / FAQ long-tail</div><div class="cell s4">4</div><div class="cell s4">4</div><div class="cell s0">0</div><div class="cell s1">1</div><div class="cell s-hm">0</div><div class="note">Alternaleaf's support sub earns 4.4K/mo alone.</div></div>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section id="wedge">
+    <p class="sec-num">04 / The wedge</p>
+    <h2 class="sec-title">Category-first. Clinically authored. Programmatically scaled.</h2>
+    <p class="sec-lead">Three things, said in order, are how we win:</p>
+
+    <div class="two">
+      <div class="card ok">
+        <h4>What we are</h4>
+        <ul>
+          <li><b>Category-first</b> — every published page targets a real category query, not a brand query.</li>
+          <li><b>Clinically authored</b> — named practitioners, dated reviews, citations. The E-E-A-T template Polln only half-built.</li>
+          <li><b>Programmatically scaled</b> — Herbly's template depth, multiplied by Alternaleaf's authority, at a cadence neither can match.</li>
+          <li><b>TGA-aligned, AHPRA-defensible</b> — content we ship cannot become a regulatory event. Compliance is a feature.</li>
+        </ul>
+      </div>
+      <div class="card bad">
+        <h4>What we are not</h4>
+        <ul>
+          <li><b>Not a dispensary</b> — no product framing, no "shop", no "weed" in slugs. Herbly's wins here come with risk we won't carry.</li>
+          <li><b>Not a brand fortress</b> — we don't spend our way to organic. Category demand or nothing.</li>
+          <li><b>Not a wellness blog</b> — Alternaleaf's /hub/ earns 82 visits on 21 posts. We will not publish generic wellness content.</li>
+          <li><b>Not condition-claim heavy on commercial pages</b> — eligibility and education live in separate, properly authored hubs.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 -->
+  <section id="pillars">
+    <p class="sec-num">05 / Four strategic pillars</p>
+    <h2 class="sec-title">Where the hours go.</h2>
+    <p class="sec-lead">15 hrs/month of retainer is allocated across four pillars in roughly equal weight. Each pillar has a measurable outcome, not just an output.</p>
+
+    <div class="pillars">
+      <div class="pillar">
+        <div class="p-n">Pillar 01</div>
+        <h3>Locations & pSEO</h3>
+        <p class="why">Herbly proves the demand exists. They only go as deep as city level — suburb level is uncontested across the entire category.</p>
+        <p class="what">Build a single, well-architected city template, then expand to suburb level for the top 5 metros. Each page: local availability, eligibility, embedded FAQ, LocalBusiness + FAQ schema, real practitioner sign-off.</p>
+        <div class="kpi">Target: <b>indexed location pages</b>, <b>non-brand location keyword count</b>, <b>visits per page</b>.</div>
+      </div>
+      <div class="pillar">
+        <div class="p-n">Pillar 02</div>
+        <h3>Conditions & education</h3>
+        <p class="why">Alternaleaf's restricted copy means 53 chronic-pain keywords return 1 visit/mo. The whole category writes thin condition pages because they're scared.</p>
+        <p class="what">Author conditions content with named clinician reviewer, dated freshness, citations, MedicalCondition schema. Education, not promotion — eligibility framing, not product claims.</p>
+        <div class="kpi">Target: <b>condition keyword rankings (top 20)</b>, <b>library visits/mo</b>, <b>avg position on category terms</b>.</div>
+      </div>
+      <div class="pillar">
+        <div class="p-n">Pillar 03</div>
+        <h3>Authority & E-E-A-T</h3>
+        <p class="why">Polln's /practitioners/dr-joel-wren earns 25 visits/mo on name alone. Named clinicians are the strongest moat in the category — and the cheapest to build.</p>
+        <p class="what">Roll out /practitioners/{name} with real bios, registration numbers, Person schema. Add medical-reviewer blocks on every YMYL page. Replace inline testimonials with Trustpilot embeds.</p>
+        <div class="kpi">Target: <b>practitioner pages live</b>, <b>review volume</b>, <b>schema coverage on YMYL pages</b>.</div>
+      </div>
+      <div class="pillar">
+        <div class="p-n">Pillar 04</div>
+        <h3>Commercial & conversion</h3>
+        <p class="why">Pricing transparency is a top-3 page for Alternaleaf. Reviews rank too. We are leaving easy commercial wins on the table.</p>
+        <p class="what">Publish a real /pricing page, /reviews with embedded Trustpilot, refreshed /how-it-works flow, refreshed homepage (mockup already in review). Measure conversion per source, not just traffic.</p>
+        <div class="kpi">Target: <b>consult-form completion rate</b>, <b>organic conversion rate</b>, <b>CWV pass on all commercial pages</b>.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 -->
+  <section id="roadmap">
+    <p class="sec-num">06 / Six-month roadmap</p>
+    <h2 class="sec-title">Foundations first. Programmatic scale by month 3.</h2>
+    <p class="sec-lead">As agreed at kickoff: fundamental technical fixes before programmatic content. Months 1–2 close out the audit and ship the credibility layer. Months 3–6 are the scale phase.</p>
+
+    <div class="road">
+      <div class="month">
+        <div class="m-n">Month 1 — June</div>
+        <h4>Audit close-out & baselines</h4>
+        <ul>
+          <li>Strategy doc signed off (this doc)</li>
+          <li>Homepage mockup SEO review delivered</li>
+          <li>Meta tags review against /reference/meta-tags.csv</li>
+          <li>Baseline snapshot: GSC, GA4, GBP, CWV</li>
+          <li>Schema audit on commercial pages</li>
+        </ul>
+        <div class="focus">Focus · Foundations</div>
+      </div>
+      <div class="month">
+        <div class="m-n">Month 2 — July</div>
+        <h4>Credibility layer</h4>
+        <ul>
+          <li>/practitioners/{name} pages live</li>
+          <li>/pricing + /reviews (Trustpilot) live</li>
+          <li>Medical-reviewer blocks on YMYL pages</li>
+          <li>City-page template v1 designed</li>
+          <li>Content approval pipeline operational in Forge</li>
+        </ul>
+        <div class="focus">Focus · Authority</div>
+      </div>
+      <div class="month">
+        <div class="m-n">Month 3 — August</div>
+        <h4>Locations v1</h4>
+        <ul>
+          <li>Top 5 capital city pages published</li>
+          <li>LocalBusiness + FAQ schema applied</li>
+          <li>First 10 condition explainers drafted</li>
+          <li>First indexing review — what's ranking, what's not</li>
+        </ul>
+        <div class="focus">Focus · Programmatic v1</div>
+      </div>
+      <div class="month">
+        <div class="m-n">Month 4 — September</div>
+        <h4>Conditions v1 + suburb expansion</h4>
+        <ul>
+          <li>10 condition pages live with clinician sign-off</li>
+          <li>Suburb expansion: 30–50 pages per metro</li>
+          <li>Help / FAQ long-tail hub scoped</li>
+          <li>Library cadence: 2 long-form posts/mo</li>
+        </ul>
+        <div class="focus">Focus · Scale</div>
+      </div>
+      <div class="month">
+        <div class="m-n">Month 5 — October</div>
+        <h4>Help hub + link assets</h4>
+        <ul>
+          <li>Help / FAQ subdomain (or /help) live</li>
+          <li>City-specific editorial explainers (link bait)</li>
+          <li>Condition cluster v2 — gap analysis review</li>
+          <li>CRO pass on top organic landing pages</li>
+        </ul>
+        <div class="focus">Focus · Depth</div>
+      </div>
+      <div class="month">
+        <div class="m-n">Month 6 — November</div>
+        <h4>Review & re-plan</h4>
+        <ul>
+          <li>Six-month results vs. baseline</li>
+          <li>Winning templates doubled down on</li>
+          <li>Losing templates retired</li>
+          <li>Next 6-month roadmap</li>
+        </ul>
+        <div class="focus">Focus · Compounding</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 -->
+  <section id="metrics">
+    <p class="sec-num">07 / Success metrics</p>
+    <h2 class="sec-title">Agreed upfront, measured monthly.</h2>
+    <p class="sec-lead">Per Rod's 26 May ask: we agree the metrics, baseline them now, and report against them every month. Targets below are draft anchors for the Friday call — to be finalised jointly.</p>
+
+    <div class="metrics">
+      <div class="r head"><div>Metric</div><div>Baseline (May'26)</div><div>3-month target</div><div>6-month target</div><div>Why it matters</div></div>
+      <div class="r"><div class="m">Non-brand organic visits / mo</div><div class="v">TBC (snapshot)</div><div class="v t">+50%</div><div class="v t">+200%</div><div class="why">The only honest measure of category demand we've earned.</div></div>
+      <div class="r"><div class="m">Indexed pages</div><div class="v">16</div><div class="v t">~80</div><div class="v t">~250</div><div class="why">Locations + conditions + library publishing volume.</div></div>
+      <div class="r"><div class="m">Non-brand keywords (top 20)</div><div class="v">TBC</div><div class="v t">+100</div><div class="v t">+400</div><div class="why">Real rankings, not vanity impressions.</div></div>
+      <div class="r"><div class="m">Conversion rate (organic)</div><div class="v">TBC</div><div class="v t">+15%</div><div class="v t">+30%</div><div class="why">Traffic that doesn't convert isn't a result.</div></div>
+      <div class="r"><div class="m">GBP actions / mo</div><div class="v">TBC</div><div class="v t">+25%</div><div class="v t">+75%</div><div class="why">Captures local intent that bypasses the website.</div></div>
+      <div class="r"><div class="m">CWV — % URLs passing</div><div class="v">Pass (desktop)</div><div class="v t">100%</div><div class="v t">100%</div><div class="why">Hold the line; don't regress as pages scale.</div></div>
+      <div class="r"><div class="m">Schema coverage (YMYL)</div><div class="v">Partial</div><div class="v t">100% commercial</div><div class="v t">100% YMYL</div><div class="why">MedicalBusiness, MedicalCondition, Person, FAQ.</div></div>
+      <div class="r"><div class="m">Review volume (Trustpilot)</div><div class="v">TBC</div><div class="v t">+100 reviews</div><div class="v t">+300 reviews</div><div class="why">Social proof + SERP rich result eligibility.</div></div>
+    </div>
+  </section>
+
+  <!-- 08 -->
+  <section id="process">
+    <p class="sec-num">08 / Content approval & pSEO process</p>
+    <h2 class="sec-title">Pipeline factory, human-in-the-loop.</h2>
+    <p class="sec-lead">Every page that ships passes through five gates. Rod retains final sign-off authority on all marketing content — confirmed at kickoff.</p>
+
+    <div class="flow">
+      <div class="step"><div class="n">01</div><h5>Brief</h5><p>Topic cluster, intent, target keywords, compliance class.</p><div class="owner">Bright Data</div></div>
+      <div class="step"><div class="n">02</div><h5>Draft</h5><p>Forge generates against template + voice + knowledge base.</p><div class="owner">Forge + Bright Data</div></div>
+      <div class="step"><div class="n">03</div><h5>Clinical review</h5><p>Hellomello clinician signs off medical content. Required for YMYL.</p><div class="owner">Hellomello clinician</div></div>
+      <div class="step"><div class="n">04</div><h5>Brand & legal</h5><p>Rod final sign-off. Voice, TGA / AHPRA check, claims audit.</p><div class="owner">Rod</div></div>
+      <div class="step"><div class="n">05</div><h5>Publish & monitor</h5><p>Ship, index, track ranking + indexing weekly, feed learnings back.</p><div class="owner">Bright Data</div></div>
+    </div>
+
+    <p class="sub-title">SLA</p>
+    <p style="font-size:14px;color:var(--muted);line-height:1.65;max-width:68ch">
+      Standard programmatic templates: 5 business days from brief to publish. Long-form editorial / condition pages: 10 business days (includes clinical review). Approval bottlenecks pause the SLA — Forge surfaces what's queued so the pipeline never silently stalls.
+    </p>
+  </section>
+
+  <!-- 09 -->
+  <section id="risks">
+    <p class="sec-num">09 / Compliance guardrails</p>
+    <h2 class="sec-title">What we don't publish.</h2>
+    <p class="sec-lead">TGA constraints are not negotiable. The audits flagged exactly where competitors get this wrong — Herbly's storefront language, Healing Leaves' TGA-website linking, condition-claim copy on commercial pages. Our guardrails:</p>
+
+    <div class="two">
+      <div class="card ok">
+        <h4>We do</h4>
+        <ul>
+          <li>Frame as a <b>consultation service</b>, not a product or dispensary.</li>
+          <li>Talk about <b>eligibility</b>, <b>process</b>, and <b>cost</b> on commercial pages.</li>
+          <li>Cite TGA / SAS framework correctly in education content.</li>
+          <li>Author condition content with <b>named clinician</b>, <b>review date</b>, <b>citations</b>.</li>
+          <li>Use plain-English, patient-facing language.</li>
+        </ul>
+      </div>
+      <div class="card bad">
+        <h4>We don't</h4>
+        <ul>
+          <li>No "shop", "dispensary", "weed", "buy" in slugs, titles, or H1s on commercial pages.</li>
+          <li>No specific-condition claims on commercial pages (chronic pain, PTSD, etc.).</li>
+          <li>No product comparisons. No product-led content.</li>
+          <li>No anonymous bylines on YMYL pages.</li>
+          <li>No linking to TGA pages in a way that implies endorsement of the product.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="banner" style="margin-top:24px">
+      <b>Sign-off</b>
+      <p>Per kickoff (15 May): Rod retains final sign-off on all marketing content and website design. Bright Data provides technical strategy and execution; legal and compliance authority remains with Hellomello.</p>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span>Hellomello × Bright Data · Strategy v0.1 · 2026-05-28</span>
+    <span>Draft for Friday 2026-05-29 review</span>
+  </footer>
+
+</div>
+</body>
+</html>

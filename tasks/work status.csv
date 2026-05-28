@@ -1,0 +1,23 @@
+HelloMello™ SEO — Session Summary (13 May 2026),,,,
+,,,,
+COMPLETED — Live on site,,,,
+#,Task,What was done,Status,Impact
+1,Sitemap verification,"Confirmed sitemap submitted and reading correctly in GSC. 16 pages discovered, status Success.",DONE,Foundation — Google can find all pages
+2,Logo redirect fix,Changed logo link from /home-3-1-1-1 to / across entire site (header is shared). Fixed 20 internal redirect links.,DONE,High — eliminated 20 unnecessary 301 redirects on every page
+3,Non-www link fix,Updated links on Terms & Conditions and Privacy Policy pages from hellomello.com.au to www.hellomello.com.au,DONE,Low-medium — 2 redirect links fixed
+4,Noindex page audit,Reviewed all 7 noindexed pages in GSC. All confirmed correct (old consult subdomains + app login pages).,DONE,"N/A — no action needed, confirmed healthy"
+5,404 error resolution,"Added 4 URL redirects in Wix for old pages: /about → /about-us, /terms-and-conditions → /terms-conditions, /blog → /, /terms-conditions-1 → /terms-conditions. Validated fix in GSC.",DONE,Medium — cleans up crawl errors and recovers any link equity
+6,Newsletter H1 demotion,Changed footer 'Subscribe to our newsletter' from H1 to H2. This was stealing the H1 tag from 6 pages.,DONE,High — Google was reading 6 pages as being about newsletter subscriptions
+7,H1 tags corrected on all pages,"Set unique, relevant H1 heading on every main page (Homepage, FAQ, About, Pricing, How it Works, Get Started, Our Team, Contact).",DONE,High — Google now understands what each page is about
+8,Homepage H1 variants fixed,Changed both desktop and mobile 'Feel Good Healthcare' headings from H1 to H2. Set 'Healthcare that fits around your life' as the correct H1.,DONE,High — homepage now has one clear H1
+9,GA4 linked to Search Console,Connected Google Search Console to GA4 property. Organic search query data will now flow into GA4 reports.,DONE,High — enables measuring organic SEO performance in GA4
+10,Organization schema markup,"Added MedicalBusiness JSON-LD schema to homepage with name, logo, phone, email, social links, medical specialty, consultation pricing. Validated in Rich Results Test.",DONE,Medium — helps Google understand the business entity and display rich results
+11,GBP quick updates,"Added online operating hours, payment methods, and opening date to Google Business Profile.",DONE,Low — profile completeness signals
+12,Site speed audit,"Ran PageSpeed Insights on mobile and desktop. Core Web Vitals: PASSED on both. Desktop score 83. Mobile 41 (Wix platform limitation, not actionable).",DONE,N/A — confirmed site speed is not a problem for SEO
+,,,,
+AWAITING APPROVAL — Ready to implement,,,,
+#,Task,What needs approval,Status,Supporting document
+13,Meta titles & descriptions,"New TGA-compliant, keyword-optimised meta tags for all 8 main pages. Moves from generic titles ('Pricing | Hellomello') to searchable keywords ('Alternative Healthcare Pricing — From $49 | HelloMello™').",NEEDS APPROVAL,See: Next tab
+14,GBP description update,"Proposed new description with target keywords: 'HelloMello™ is an Australia-wide online alternative healthcare platform. Our qualified practitioners and nurse practitioners provide personalised telehealth consultations for chronic conditions. $49 initial consults, fast medication delivery. Trusted by 50,000+ patients.'",NEEDS APPROVAL,Current desc uses 'Feel Good Healthcare' — same keyword volume issue as meta tags
+15,GBP photos refresh,"Need 5-10 fresh photos uploaded. Last photos added 351 days ago. Team photos, branding, logo variants.",NEEDS APPROVAL,Photos need to be sourced/approved by brand team
+16,GBP services listing,"Add consultation types with pricing: Initial Consultation $49, Follow-up $29, Free Nurse Consult.",NEEDS APPROVAL,Pricing needs confirmation from operations

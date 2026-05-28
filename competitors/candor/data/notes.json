@@ -1,0 +1,68 @@
+{
+  "position": "brand-fortress",
+  "verdict_tone": "amber",
+  "verdict_label": "Don't fight the brand. Take the category.",
+  "tagline": "A near-pure brand fortress. 12.7K visits / mo and 96% of it is the word 'candor'. Outside the brand, almost nothing — 10 treatments pages, 8 education posts, almost zero organic non-brand. They bought the brand with paid; organic is the rounding error.",
+  "period": "April 2026",
+  "brand": {
+    "visual_system": [
+      "Minimal, modern medical aesthetic — sage, cream, generous whitespace.",
+      "Stock-feeling imagery — fewer real patient or clinician portraits than Polln or Alternaleaf.",
+      "Calm typography, soft rounded UI, conservative colour use.",
+      "App / portal lives on a dedicated subdomain (app.candormedical.com)."
+    ],
+    "site_architecture": [
+      "Two properties: www (marketing) + app (patient portal).",
+      "/treatments — 10 condition / category pages (alternative therapy, hair loss, ED, contraceptive pill, herpes, weight loss).",
+      "/education — 8 informational posts.",
+      "Thin commercial layer — /pricing-guide, /contact, /faq, /how-candor-works.",
+      "No locations, no city pages, no practitioner roster, no library at scale."
+    ],
+    "tone_compliance": [
+      "Conservative copy — telehealth-first framing, light on specific claims.",
+      "Treatments pages are short and templated, not evidence-led.",
+      "No bylined authors or medical-reviewer disclosure on education posts.",
+      "Brand-led — copy assumes the user already knows Candor."
+    ]
+  },
+  "eeat": {
+    "https": "green",
+    "schema_medical": "red",
+    "author_bylines": "red",
+    "medical_reviewer": "red",
+    "core_web_vitals": "green",
+    "freshness": "red",
+    "notes": "Technical baseline is clean (HTTPS, CWV, app subdomain). YMYL signals are weak — no authorship on education posts, no medical-reviewer block, thin schema, low freshness. The site behaves like a brand landing surface, not an organic content engine."
+  },
+  "verdict": {
+    "steal": [
+      { "play": "Treatments page templates (as starting structure)", "effort": 2, "impact": 3, "note": "Their /treatments/{condition} URL pattern is sound — replicate the structure but author the content properly with citations and clinician sign-off." },
+      { "play": "App subdomain separation", "effort": 4, "impact": 3, "note": "Patient portal on app. earns clean brand+nav traffic and keeps the marketing site light. Standard pattern — adopt." },
+      { "play": "Clean technical baseline", "effort": 2, "impact": 2, "note": "Speed, schema-light, no bloat. Whatever stack we ship, keep it lean." }
+    ],
+    "avoid": [
+      { "trap": "All-brand, no category", "evidence": "96% of organic traffic is the literal word 'candor' and misspellings. Outside the brand, the organic engine is ~561 visits / mo. If brand demand stalls, the site stalls." },
+      { "trap": "Empty treatments pages", "evidence": "10 /treatments pages ranking, 9 of them earn 0–1 visits / mo. Published but not winning — thin content, no E-E-A-T." },
+      { "trap": "Dormant education hub", "evidence": "8 /education posts → ~6 visits / mo total. Anonymous authorship, no medical reviewer, no freshness — invisible on YMYL search." },
+      { "trap": "No geographic strategy", "evidence": "No /locations, no city pages, no 'near me' coverage. Brand-fortress strategies don't scale into local intent." }
+    ],
+    "implications": [
+      "Candor proves the brand-paid playbook works — but doesn't translate to organic moat.",
+      "The category is wide open against them — almost every non-brand query is undefended.",
+      "Their /treatments URL pattern is the only thing worth copying structurally; the content is empty.",
+      "Hellomello wins by being the category-first site they aren't — locations, conditions, library, named practitioners."
+    ]
+  },
+  "gap_matrix": [
+    { "topic": "Brand defence",         "candor": 5, "hellomello": 1, "comment": "Don't fight here. They've already bought it." },
+    { "topic": "Pricing transparency",  "candor": 2, "hellomello": 1, "comment": "Thin /pricing-guide. Easy to out-publish." },
+    { "topic": "Clinic / doctor SEO",   "candor": 0, "hellomello": 0, "comment": "No practitioner pages. Open field." },
+    { "topic": "Conditions content",    "candor": 1, "hellomello": 0, "comment": "10 thin /treatments pages earn 1 visit. Open." },
+    { "topic": "Locations / pSEO",      "candor": 0, "hellomello": 0, "comment": "No city pages. Completely undefended." },
+    { "topic": "'Near me' queries",     "candor": 0, "hellomello": 0, "comment": "Zero coverage. Pure white space." },
+    { "topic": "Library / editorial",   "candor": 1, "hellomello": 0, "comment": "8 dormant /education posts. Out-publish trivially." },
+    { "topic": "Reviews / social proof","candor": 1, "hellomello": 0, "comment": "Brand search includes 'candor medical reviews' — defensive gap for them, attack for us." },
+    { "topic": "Patient portal SEO",    "candor": 4, "hellomello": 0, "comment": "app. subdomain earns 761 visits — they have it right." },
+    { "topic": "FAQ long-tail",         "candor": 1, "hellomello": 0, "comment": "Single /faq page. Long-tail informational is empty." }
+  ]
+}

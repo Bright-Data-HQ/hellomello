@@ -1,0 +1,50 @@
+HelloMello™ — SEO Meta Tag Update Plan,,,,,
+,,,,,
+KEYWORD VOLUME COMPARISON,,,,,
+Keyword Phrase,Monthly AU Searches,Currently Used?,Recommendation,,
+"""Feel good healthcare""",~0,Yes — homepage title & description,Keep as brand tagline on website hero & marketing. Remove from meta tags.,,
+"""Feel good health""",~10,No,"Not worth targeting — too generic, low volume",,
+"""Alternative healthcare""","~1,300",Partially — in homepage title only,Use as PRIMARY keyword across all meta titles,,
+"""Alternative medicine Australia""",~880,No,Target in blog content & informational pages,,
+"""Alternative health clinic""",~590,No,Target in Google Business Profile & local SEO,,
+"""Online alternative healthcare""",~480,No,Use in homepage & how-it-works meta tags,,
+"""Alternative health consultation""",~320,No,Use in get-started & pricing meta tags,,
+"""Alternative healthcare online Australia""",~260,No,Use as long-tail keyword in descriptions,,
+"""Alternative medicine telehealth""",~170,No,Target in future blog content,,
+"Total addressable search volume: ""Feel good healthcare"" family = ~10/mo vs ""Alternative healthcare"" family = ~4,500+/mo (450x difference)",,,,,
+,,,,,
+PAGE-BY-PAGE META TAG CHANGES,,,,,
+Page,Element,Current Copy,Updated Copy,Why This Is Better,Potential Impact
+Homepage (/),Title,Hellomello | Home | Alternative Healthcare,Online Alternative Healthcare Australia | HelloMello™,"Adds location keyword (Australia), puts searchable keywords first, brand last — matches Google best practice","High — targets ~1,300+ monthly searches for 'alternative healthcare' + 'online' modifier"
+,Description,Welcome to Feel Good Healthcare. At Hellomello™ we're here to make healthcare feel human again. Alternative Healthcare. 100% online treatments.,"100% online alternative healthcare with qualified practitioners. $49 initial consults, fast Australia-wide delivery. Personalised care. Start today.",Replaces 'Feel Good Healthcare' (0 searches) with searchable terms. Adds price point and CTA. Removes 'doctors' claim for TGA accuracy.,High — description drives click-through rate from search results. Price point ($49) differentiates from competitors.
+Get Started (/get-started),Title,Get Started | Hellomello,Start Your Online Health Consultation — From $49 | HelloMello™,'Get Started' is meaningless to Google. New title tells searchers what they'll do and what it costs.,High — conversion page. Better title = more clicks from people ready to book.
+,Description,"Join the 50,000+ patients already signed up with Hellomello™. Just a few quick questions about you and your health journey to get us started.","Join 50,000+ Australians accessing alternative healthcare online. A few quick questions, then consult a qualified health practitioner. Start in minutes.",Adds 'alternative healthcare online' keyword. Changes 'patients' to 'Australians' (broader appeal). Replaces implied doctor claim.,Medium — supports ranking for 'alternative healthcare online' (~480/mo)
+Pricing (/pricing),Title,Pricing | Hellomello,Alternative Healthcare Pricing — From $49 | HelloMello™,'Pricing' alone is useless for SEO. New title tells Google what the pricing is FOR and includes the price.,High — people searching 'alternative healthcare pricing' have strong purchase intent.
+,Description,"Simple, Upfront Pricing. No hidden fees or unexpected costs.","Transparent pricing for online alternative healthcare. $49 initial consult, no hidden fees. Phone-based consultations with fast Australia-wide delivery.","Current description is only 60 chars (ideal: 140-155). New version fills the space with keywords, price, and delivery info.",High — pricing pages convert well. More descriptive snippet = higher CTR.
+How It Works (/how-it-works),Title,How it Works | Hellomello,How Online Alternative Healthcare Works | HelloMello™,Adds 'online alternative healthcare' — tells Google what 'it' refers to.,"Medium — informational keyword, builds topical authority."
+,Description,"We have made accessing alternative healthcare easy. With our online portal you can book appointments, speak to a medical practitioner and manage your healthcare all in one convenient place.","Book online, consult a qualified health practitioner by phone, get your treatment delivered Australia-wide. See how HelloMello™ makes healthcare simple.",Current is 189 chars (gets truncated). New version is 155 chars. Also fixes 'medical practitioner' → 'health practitioner'.,"Medium — better snippet display, no truncation in search results."
+About Us (/about-us),Title,About Us | Hellomello,About HelloMello™ — Alternative Healthcare Australia,Adds primary keyword + location. 'About Us' alone matches every company in existence.,Medium — brand searches will see a more informative result.
+,Description,"Our mission is simple: to help you feel better, in every way possible, from the treatments we provide to the way we make you feel as a person...","HelloMello™ is on a mission to make alternative healthcare accessible and personal. Qualified practitioners, 100% online. Trusted by 50,000+ Australians.","Current is 266 chars (severely truncated). New is 154 chars. Adds social proof (50,000+) and keywords.",Low-medium — about pages rarely rank but support brand authority.
+FAQs (/faq),Title,FAQ's | Hellomello,FAQs — Common Questions About Alternative Healthcare | HelloMello™,Adds context about WHAT the FAQs cover. Also fixes apostrophe in 'FAQ's' (should be 'FAQs').,Low-medium — FAQ pages can rank for question-based searches.
+,Description,Have a question? Learn more about our service and how it works here.,"Find answers about HelloMello™'s online alternative healthcare — how consultations work, pricing, delivery, prescriptions, and more.",Current is 68 chars (way too short). New version is 136 chars with specific topics that match common search queries.,Low — but better snippet helps click-through on branded searches.
+Our Team (/our-team),Title,Our Team | Hellomello,Our Healthcare Practitioners & Team | HelloMello™,Specifies WHO is on the team. Changes 'doctors' to 'practitioners' for accuracy.,"Low — trust-building page, unlikely to be a search entry point."
+,Description,"Our medical team consists of compassionate, highly qualified healthcare professionals including practitioners, doctors, authorised prescribers, nurses, pharmacists...","Meet the HelloMello™ team — qualified practitioners, nurse practitioners, pharmacists and patient care staff dedicated to your health and wellbeing.",Current is 275 chars (heavily truncated). New is 154 chars. Accurate practitioner language.,Low — but clean snippet on branded search results.
+Contact (/contact-us),Title,Contact Us | Hellomello,Contact HelloMello™ — Get Help & Support,Minor improvement — adds brand name and describes what happens when you contact.,Low — contact pages rarely drive organic traffic.
+,Description,Have a question? Feel free to reach out! Our team are always happy to help.,"Questions about HelloMello™'s alternative healthcare service? Our friendly team is here to help — by phone, email, or online.",Current is 75 chars (too short). New is 131 chars with keyword mention and contact methods.,Low — but completeness matters for overall site quality.
+,,,,,
+COMPETITOR KEYWORD ANALYSIS,,,,,
+Competitor,Homepage Title Tag,Primary Keyword,Estimated Traffic,What They're Doing Right,
+Alternaleaf,Trusted Alternative Healthcare Services,Alternative Healthcare,"200,000+ patients","Category keyword in title, trust signal (200K patients), TGA-compliant language",
+Polln,Australia's Best Online Alternative Healthcare Clinic,Alternative Healthcare Clinic,"20,000+ patients",Location (Australia) + category keyword + 'best' modifier,
+Easykind,Alternative Healthcare Australia,Alternative Healthcare Australia,Growing,Exact match for high-intent keyword + location,
+Verda Health,Exploring Alternative Medicine Online,Alternative Medicine Online,Growing,Targets informational search intent with 'exploring',
+HelloMello™ (current),Hellomello | Home | Alternative Healthcare,None effectively,Mostly branded only,'Home' is wasted space. Keywords are buried after brand name.,
+HelloMello™ (proposed),Online Alternative Healthcare Australia | HelloMello™,Online Alternative Healthcare Australia,"Targeting 4,500+ monthly searches","Keywords first, brand last. Matches competitor best practice. Adds 'online' differentiator.",
+,,,,,
+SUMMARY,,,,,
+"1. ""Feel Good Healthcare"" has ~0 monthly searches in Australia. It works as a brand tagline but not as an SEO keyword.",,,,,
+"2. ""Alternative healthcare"" and related terms have 4,500+ monthly searches — this is what patients actually type into Google.",,,,,
+"3. Every major competitor (Alternaleaf, Polln, Easykind) uses ""alternative healthcare"" as their primary SEO keyword.",,,,,
+4. Our proposed changes keep HelloMello™ branding intact while targeting keywords with real search volume.,,,,,
+"5. All updated copy is TGA-compliant: no therapeutic claims, accurate practitioner language, factual and verifiable statements only.",,,,,
+"6. Recommendation: Use ""Feel Good Healthcare"" in brand materials, social media, and on-site hero sections. Use ""Alternative Healthcare"" in meta tags, page titles, and SEO content.",,,,,

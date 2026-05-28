@@ -1,0 +1,69 @@
+{
+  "position": "model",
+  "verdict_tone": "green",
+  "verdict_label": "Model off this",
+  "tagline": "The category leader. Best-funded, most refined digital presence in Australian medicinal cannabis — and the safest legal posture.",
+  "period": "May 2026",
+  "brand": {
+    "visual_system": [
+      "Cream / sage palette — clinical and calm, never green-leaf cliché.",
+      "Real photography of patients and clinicians, never stock imagery.",
+      "Generous whitespace, soft rounded corners, large serif headings.",
+      "No 'buy now' buttons anywhere — only 'book consult'."
+    ],
+    "site_architecture": [
+      "/pricing, /reviews, /doctors, /process are all first-class commercial pages.",
+      "/hub/ — 21 wellness articles (sleep, energy, dopamine, breathwork).",
+      "/post/ — long-form city and condition explainers, many redirected.",
+      "Patient portal and help centre on dedicated subdomains (patient., support.)."
+    ],
+    "tone_compliance": [
+      "Talks about consultations and eligibility, never products.",
+      "Uses TGA / SAS terminology correctly; cites approvals carefully.",
+      "No specific-condition claims on commercial pages.",
+      "Reviews page is real Trustpilot embeds — third-party proof."
+    ]
+  },
+  "eeat": {
+    "https": "green",
+    "schema_medical": "amber",
+    "author_bylines": "amber",
+    "medical_reviewer": "green",
+    "core_web_vitals": "amber",
+    "freshness": "amber",
+    "notes": "Clinician oversight is signalled visually but bylines on the wellness hub lack credentials. Schema coverage is partial — Organization and FAQ are present, MedicalCondition / MedicalWebPage are not."
+  },
+  "verdict": {
+    "steal": [
+      { "play": "Three-property architecture (www + patient + support)", "effort": 4, "impact": 5, "note": "Marketing site for acquisition, portal for retention, Zendesk for long-tail informational. The support hub alone earns 4.4K visits/mo from defensive informational queries." },
+      { "play": "Clinical-not-dispensary tone of voice", "effort": 2, "impact": 4, "note": "Adopt their language: consultations, eligibility, prescribers — never products, never claims. The 'safe' voice is the price of being taken seriously at scale." },
+      { "play": "Editorial blog as link bait", "effort": 3, "impact": 4, "note": "Their best-linked assets are city-specific cannabis explainers that publishers can cite without risk. Replicable in months." },
+      { "play": "Programmatic location pages", "effort": 3, "impact": 5, "note": "1,128 location keywords for them yet only 2,447 visits — they own the inventory but not the rankings. Suburb-level pSEO is uncontested." },
+      { "play": "Condition-led E-E-A-T pages with clinician bios", "effort": 4, "impact": 5, "note": "53 chronic-pain keywords for 1 visit/mo proves they can't write this content aggressively. We can — with proper authorship, dated reviews and citations." },
+      { "play": "Pricing + reviews as first-class pages", "effort": 1, "impact": 3, "note": "Both rank in top 3 and earn category visits. Hellomello should publish a transparent /pricing and a real-review /reviews page on day one." }
+    ],
+    "avoid": [
+      { "trap": "Generic wellness hub", "evidence": "21 /hub/ pages → 82 visits/mo. Sleep, dopamine, energy — wellness topics unrelated to cannabis, ranking nowhere." },
+      { "trap": "Dormant page-2+ inventory", "evidence": "1,597 keywords sitting at #51–100 produce zero traffic. Publishing volume without depth is a tax, not an asset." },
+      { "trap": "Brand-only fortress", "evidence": "1,310 brand keywords carry 70.6K of 78.5K visits (90%). If a competitor outranks them on a single non-brand category term, the moat doesn't help." },
+      { "trap": "National-only location framing", "evidence": "Perth ranks for 74 keywords and earns 9 visits/mo; Adelaide and Canberra are token. Listing 'Australia' is not a location strategy." }
+    ],
+    "implications": [
+      "The structure is replicable — three subdomains, conservative copy, transparent commercial pages.",
+      "The gaps are real and undefended — conditions, capital cities, near-me, clinical authority.",
+      "Speed matters: Alternaleaf's compliance posture slows them down. Hellomello's window is the next two release cycles."
+    ]
+  },
+  "gap_matrix": [
+    { "topic": "Brand defence",        "alternaleaf": 5, "hellomello": 1, "comment": "Their moat. Don't fight here." },
+    { "topic": "Pricing transparency", "alternaleaf": 4, "hellomello": 1, "comment": "Match it." },
+    { "topic": "Clinic / doctor SEO",  "alternaleaf": 2, "hellomello": 0, "comment": "Their copy is restricted — we can author it." },
+    { "topic": "Conditions content",   "alternaleaf": 1, "hellomello": 0, "comment": "Open field. Highest-impact play." },
+    { "topic": "Locations / pSEO",     "alternaleaf": 2, "hellomello": 0, "comment": "Owned inventory, no rankings — easy to displace." },
+    { "topic": "'Near me' queries",    "alternaleaf": 1, "hellomello": 0, "comment": "Undefended high-intent." },
+    { "topic": "Wellness / lifestyle", "alternaleaf": 1, "hellomello": 0, "comment": "Don't bother." },
+    { "topic": "Reviews / social proof","alternaleaf": 3, "hellomello": 0, "comment": "Embed Trustpilot, replicate." },
+    { "topic": "Editorial link bait",  "alternaleaf": 3, "hellomello": 0, "comment": "City explainers earn citations." },
+    { "topic": "Help / support SEO",   "alternaleaf": 4, "hellomello": 0, "comment": "Zendesk subdomain harvests long-tail." }
+  ]
+}

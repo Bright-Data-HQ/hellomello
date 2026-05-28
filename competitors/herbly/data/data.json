@@ -1,0 +1,3738 @@
+{
+  "totals": {
+    "traffic": 824,
+    "keywords": 971,
+    "pages": 149,
+    "backlinks": 0,
+    "backlinked_pages": 0,
+    "brand_traffic": 211,
+    "nonbrand_traffic": 613,
+    "brand_kw": 2,
+    "nonbrand_kw": 969
+  },
+  "topics": [
+    {
+      "name": "Locations",
+      "kw": 427,
+      "traffic": 459,
+      "examples": [
+        {
+          "kw": "dispensary dispensary",
+          "pos": 5,
+          "vol": 3600,
+          "traffic": 86.0
+        },
+        {
+          "kw": "dispensary near me",
+          "pos": 2,
+          "vol": 1300,
+          "traffic": 45.0
+        },
+        {
+          "kw": "dispnsary near me",
+          "pos": 2,
+          "vol": 590,
+          "traffic": 25.0
+        }
+      ]
+    },
+    {
+      "name": "Brand",
+      "kw": 2,
+      "traffic": 211,
+      "examples": [
+        {
+          "kw": "herbly",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 208.0
+        },
+        {
+          "kw": "herbly",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "kw": 244,
+      "traffic": 128,
+      "examples": [
+        {
+          "kw": "weed byron bay",
+          "pos": 1,
+          "vol": 90,
+          "traffic": 22.0
+        },
+        {
+          "kw": "medicinal cannabis port macquarie",
+          "pos": 1,
+          "vol": 90,
+          "traffic": 22.0
+        },
+        {
+          "kw": "cannabisstores",
+          "pos": 4,
+          "vol": 720,
+          "traffic": 17.0
+        }
+      ]
+    },
+    {
+      "name": "Conditions",
+      "kw": 131,
+      "traffic": 13,
+      "examples": [
+        {
+          "kw": "arthritis",
+          "pos": 35,
+          "vol": 22200,
+          "traffic": 6.0
+        },
+        {
+          "kw": "holistic cures for insomnia",
+          "pos": 1,
+          "vol": 170,
+          "traffic": 5.0
+        },
+        {
+          "kw": "period pain remedies",
+          "pos": 22,
+          "vol": 720,
+          "traffic": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "kw": 118,
+      "traffic": 7,
+      "examples": [
+        {
+          "kw": "vegan doctors",
+          "pos": 4,
+          "vol": 210,
+          "traffic": 5.0
+        },
+        {
+          "kw": "natural doctor wetherill park",
+          "pos": 5,
+          "vol": 40,
+          "traffic": 1.0
+        },
+        {
+          "kw": "alternative doctors",
+          "pos": 3,
+          "vol": 40,
+          "traffic": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Product / Strain",
+      "kw": 11,
+      "traffic": 4,
+      "examples": [
+        {
+          "kw": "cbd oil townsville",
+          "pos": 2,
+          "vol": 50,
+          "traffic": 3.0
+        },
+        {
+          "kw": "cbd oil sunshine coast",
+          "pos": 4,
+          "vol": 50,
+          "traffic": 1.0
+        },
+        {
+          "kw": "cbd byron bay",
+          "pos": 33,
+          "vol": 40,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "kw": 11,
+      "traffic": 1,
+      "examples": [
+        {
+          "kw": "cheapest medical marijuanas dispensary near me",
+          "pos": 7,
+          "vol": 110,
+          "traffic": 1.0
+        },
+        {
+          "kw": "free medical cannabis consultation",
+          "pos": 19,
+          "vol": 170,
+          "traffic": 0.0
+        },
+        {
+          "kw": "cheapest medical marijuanas australia",
+          "pos": 77,
+          "vol": 50,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "kw": 3,
+      "traffic": 1,
+      "examples": [
+        {
+          "kw": "releaf caloundra",
+          "pos": 13,
+          "vol": 1600,
+          "traffic": 1.0
+        },
+        {
+          "kw": "releaf sunshine coast",
+          "pos": 26,
+          "vol": 40,
+          "traffic": 0.0
+        },
+        {
+          "kw": "acacia medical armidale",
+          "pos": 44,
+          "vol": 140,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "kw": 3,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "how to apply for medical weed",
+          "pos": 75,
+          "vol": 90,
+          "traffic": 0.0
+        },
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 71,
+          "vol": 170,
+          "traffic": 0.0
+        },
+        {
+          "kw": "how do i get medical weed",
+          "pos": 1,
+          "vol": 50,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "kw": 4,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "how to relieve period bloating",
+          "pos": 76,
+          "vol": 90,
+          "traffic": 0.0
+        },
+        {
+          "kw": "what is reflex sympathetic dystrophy",
+          "pos": 97,
+          "vol": 480,
+          "traffic": 0.0
+        },
+        {
+          "kw": "what is adha",
+          "pos": 73,
+          "vol": 110,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "kw": 4,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "releaf caloundra reviews",
+          "pos": 11,
+          "vol": 70,
+          "traffic": 0.0
+        },
+        {
+          "kw": "manly clinic reviews",
+          "pos": 71,
+          "vol": 50,
+          "traffic": 0.0
+        },
+        {
+          "kw": "burpengary doctors reviews",
+          "pos": 38,
+          "vol": 70,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "kw": 13,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "cann i help dispensary",
+          "pos": 82,
+          "vol": 320,
+          "traffic": 0.0
+        },
+        {
+          "kw": "cann i help dispensary",
+          "pos": 91,
+          "vol": 320,
+          "traffic": 0.0
+        },
+        {
+          "kw": "dispensed contact number",
+          "pos": 29,
+          "vol": 70,
+          "traffic": 0.0
+        }
+      ]
+    }
+  ],
+  "topic_detail": {
+    "Brand": {
+      "total_kw": 2,
+      "total_traffic": 211,
+      "top1_count": 2,
+      "page2_count": 0,
+      "avg_vol": 260,
+      "top_keywords": [
+        {
+          "kw": "herbly",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 208,
+          "url": "https://herbly.com.au/"
+        },
+        {
+          "kw": "herbly",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 3,
+          "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment"
+        }
+      ],
+      "top_nonbrand": []
+    },
+    "Locations": {
+      "total_kw": 427,
+      "total_traffic": 459,
+      "top1_count": 29,
+      "page2_count": 50,
+      "avg_vol": 240,
+      "top_keywords": [
+        {
+          "kw": "dispensary dispensary",
+          "pos": 5,
+          "vol": 3600,
+          "traffic": 86,
+          "url": "https://herbly.com.au/pages/bendigo-dispensary"
+        },
+        {
+          "kw": "dispensary near me",
+          "pos": 2,
+          "vol": 1300,
+          "traffic": 45,
+          "url": "https://herbly.com.au/pages/armidale-dispensary"
+        },
+        {
+          "kw": "dispnsary near me",
+          "pos": 2,
+          "vol": 590,
+          "traffic": 25,
+          "url": "https://herbly.com.au/pages/coffs-harbour-dispensary"
+        },
+        {
+          "kw": "dispensary near ne",
+          "pos": 2,
+          "vol": 590,
+          "traffic": 25,
+          "url": "https://herbly.com.au/pages/coffs-harbour-dispensary"
+        },
+        {
+          "kw": "medical canabis dispensary near.me",
+          "pos": 2,
+          "vol": 260,
+          "traffic": 21,
+          "url": "https://herbly.com.au/pages/morayfield-dispensary"
+        },
+        {
+          "kw": "cannabis shop near me",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 18,
+          "url": "https://herbly.com.au/pages/bunbury-dispensary"
+        },
+        {
+          "kw": "dispensaries",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 13,
+          "url": "https://herbly.com.au/pages/armidale-dispensary"
+        },
+        {
+          "kw": "medical cannabinoids dispensary near me",
+          "pos": 3,
+          "vol": 210,
+          "traffic": 13,
+          "url": "https://herbly.com.au/pages/coffs-harbour-dispensary"
+        },
+        {
+          "kw": "medical cannabis dispensary near me",
+          "pos": 2,
+          "vol": 260,
+          "traffic": 11,
+          "url": "https://herbly.com.au/pages/coffs-harbour-dispensary"
+        },
+        {
+          "kw": "dispensary brisbane",
+          "pos": 3,
+          "vol": 170,
+          "traffic": 11,
+          "url": "https://herbly.com.au/pages/brisbane-dispensary"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "dispensary dispensary",
+          "pos": 5,
+          "vol": 3600,
+          "traffic": 86
+        },
+        {
+          "kw": "dispensary near me",
+          "pos": 2,
+          "vol": 1300,
+          "traffic": 45
+        },
+        {
+          "kw": "dispnsary near me",
+          "pos": 2,
+          "vol": 590,
+          "traffic": 25
+        },
+        {
+          "kw": "dispensary near ne",
+          "pos": 2,
+          "vol": 590,
+          "traffic": 25
+        },
+        {
+          "kw": "medical canabis dispensary near.me",
+          "pos": 2,
+          "vol": 260,
+          "traffic": 21
+        },
+        {
+          "kw": "cannabis shop near me",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 18
+        },
+        {
+          "kw": "dispensaries",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 13
+        },
+        {
+          "kw": "medical cannabinoids dispensary near me",
+          "pos": 3,
+          "vol": 210,
+          "traffic": 13
+        }
+      ]
+    },
+    "Other": {
+      "total_kw": 244,
+      "total_traffic": 128,
+      "top1_count": 10,
+      "page2_count": 27,
+      "avg_vol": 166,
+      "top_keywords": [
+        {
+          "kw": "weed byron bay",
+          "pos": 1,
+          "vol": 90,
+          "traffic": 22,
+          "url": "https://herbly.com.au/pages/byron-bay-dispensary"
+        },
+        {
+          "kw": "medicinal cannabis port macquarie",
+          "pos": 1,
+          "vol": 90,
+          "traffic": 22,
+          "url": "https://herbly.com.au/pages/port-macquarie-dispensary"
+        },
+        {
+          "kw": "cannabisstores",
+          "pos": 4,
+          "vol": 720,
+          "traffic": 17,
+          "url": "https://herbly.com.au/pages/coffs-harbour-dispensary"
+        },
+        {
+          "kw": "medical cannabis port macquarie",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 17,
+          "url": "https://herbly.com.au/pages/port-macquarie-dispensary"
+        },
+        {
+          "kw": "weed stores closest to me",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 7,
+          "url": "https://herbly.com.au/pages/coffs-harbour-dispensary"
+        },
+        {
+          "kw": "how can i get medical weed",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 6,
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/understanding-monthly-limits-and-interval-periods"
+        },
+        {
+          "kw": "medical marijuanas townsville",
+          "pos": 2,
+          "vol": 50,
+          "traffic": 6,
+          "url": "https://herbly.com.au/pages/townsville-dispensary"
+        },
+        {
+          "kw": "medical cannabis sunshine coast",
+          "pos": 3,
+          "vol": 70,
+          "traffic": 5,
+          "url": "https://herbly.com.au/pages/sunshine-coast-dispensary"
+        },
+        {
+          "kw": "ecs drugs",
+          "pos": 11,
+          "vol": 720,
+          "traffic": 3,
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/understanding-the-endocannabinoid-system"
+        },
+        {
+          "kw": "buy weed online",
+          "pos": 10,
+          "vol": 140,
+          "traffic": 3,
+          "url": "https://herbly.com.au/pages/parramatta-dispensary"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "weed byron bay",
+          "pos": 1,
+          "vol": 90,
+          "traffic": 22
+        },
+        {
+          "kw": "medicinal cannabis port macquarie",
+          "pos": 1,
+          "vol": 90,
+          "traffic": 22
+        },
+        {
+          "kw": "cannabisstores",
+          "pos": 4,
+          "vol": 720,
+          "traffic": 17
+        },
+        {
+          "kw": "medical cannabis port macquarie",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 17
+        },
+        {
+          "kw": "weed stores closest to me",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 7
+        },
+        {
+          "kw": "how can i get medical weed",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 6
+        },
+        {
+          "kw": "medical marijuanas townsville",
+          "pos": 2,
+          "vol": 50,
+          "traffic": 6
+        },
+        {
+          "kw": "medical cannabis sunshine coast",
+          "pos": 3,
+          "vol": 70,
+          "traffic": 5
+        }
+      ]
+    },
+    "Conditions": {
+      "total_kw": 131,
+      "total_traffic": 13,
+      "top1_count": 2,
+      "page2_count": 11,
+      "avg_vol": 724,
+      "top_keywords": [
+        {
+          "kw": "arthritis",
+          "pos": 35,
+          "vol": 22200,
+          "traffic": 6,
+          "url": "https://herbly.com.au/blogs/news/understanding-arthritis-causes-impacts-and-treatments"
+        },
+        {
+          "kw": "holistic cures for insomnia",
+          "pos": 1,
+          "vol": 170,
+          "traffic": 5,
+          "url": "https://herbly.com.au/blogs/news/insomnia-therapies-and-treatments-conventional-alternative-and-holistic-approaches"
+        },
+        {
+          "kw": "period pain remedies",
+          "pos": 22,
+          "vol": 720,
+          "traffic": 1,
+          "url": "https://herbly.com.au/blogs/women-s-health/top-7-period-pain-remedies-and-the-role-of-cbd-thc"
+        },
+        {
+          "kw": "holistic healing for anxiety",
+          "pos": 14,
+          "vol": 590,
+          "traffic": 1,
+          "url": "https://herbly.com.au/blogs/news/holistic-treatment-for-anxiety-exploring-alternative-medicine-and-natural-therapies-in-australia"
+        },
+        {
+          "kw": "arthritis",
+          "pos": 54,
+          "vol": 22200,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/news/understanding-arthritis-causes-impacts-and-treatments"
+        },
+        {
+          "kw": "insomnia difficulty sleeping",
+          "pos": 90,
+          "vol": 8100,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/news/understanding-insomnia-the-hidden-struggles-of-sleep"
+        },
+        {
+          "kw": "sleep disorders and insomnia",
+          "pos": 47,
+          "vol": 6600,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/news/understanding-insomnia-the-hidden-struggles-of-sleep"
+        },
+        {
+          "kw": "sleep disorders and insomnia",
+          "pos": 67,
+          "vol": 6600,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/news/understanding-insomnia-the-hidden-struggles-of-sleep"
+        },
+        {
+          "kw": "symptoms of sleeplessness",
+          "pos": 64,
+          "vol": 1900,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/news/understanding-insomnia-the-hidden-struggles-of-sleep"
+        },
+        {
+          "kw": "symptoms of sleeplessness",
+          "pos": 70,
+          "vol": 1900,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/news/understanding-insomnia-the-hidden-struggles-of-sleep"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "arthritis",
+          "pos": 35,
+          "vol": 22200,
+          "traffic": 6
+        },
+        {
+          "kw": "holistic cures for insomnia",
+          "pos": 1,
+          "vol": 170,
+          "traffic": 5
+        },
+        {
+          "kw": "period pain remedies",
+          "pos": 22,
+          "vol": 720,
+          "traffic": 1
+        },
+        {
+          "kw": "holistic healing for anxiety",
+          "pos": 14,
+          "vol": 590,
+          "traffic": 1
+        },
+        {
+          "kw": "arthritis",
+          "pos": 54,
+          "vol": 22200,
+          "traffic": 0
+        },
+        {
+          "kw": "insomnia difficulty sleeping",
+          "pos": 90,
+          "vol": 8100,
+          "traffic": 0
+        },
+        {
+          "kw": "sleep disorders and insomnia",
+          "pos": 47,
+          "vol": 6600,
+          "traffic": 0
+        },
+        {
+          "kw": "sleep disorders and insomnia",
+          "pos": 67,
+          "vol": 6600,
+          "traffic": 0
+        }
+      ]
+    },
+    "Clinic / Doctor": {
+      "total_kw": 118,
+      "total_traffic": 7,
+      "top1_count": 1,
+      "page2_count": 8,
+      "avg_vol": 93,
+      "top_keywords": [
+        {
+          "kw": "vegan doctors",
+          "pos": 4,
+          "vol": 210,
+          "traffic": 5,
+          "url": "https://herbly.com.au/pages/plant-medicine-doctors"
+        },
+        {
+          "kw": "natural doctor wetherill park",
+          "pos": 5,
+          "vol": 40,
+          "traffic": 1,
+          "url": "https://herbly.com.au/pages/wetherill-park-dispensary"
+        },
+        {
+          "kw": "alternative doctors",
+          "pos": 3,
+          "vol": 40,
+          "traffic": 1,
+          "url": "https://herbly.com.au/pages/plant-medicine-doctors"
+        },
+        {
+          "kw": "green life clinics and dispensaries logan",
+          "pos": 23,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/logan-dispensary"
+        },
+        {
+          "kw": "online cannabis prescription",
+          "pos": 85,
+          "vol": 210,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/townsville-dispensary"
+        },
+        {
+          "kw": "medical pot doctors",
+          "pos": 74,
+          "vol": 210,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/mandurah-dispensary"
+        },
+        {
+          "kw": "medical cannabis consultation",
+          "pos": 56,
+          "vol": 210,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/parramatta-dispensary"
+        },
+        {
+          "kw": "doctors who use alternative medicine",
+          "pos": 15,
+          "vol": 210,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/plant-medicine-doctors"
+        },
+        {
+          "kw": "weed prescription online",
+          "pos": 60,
+          "vol": 210,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/wagga-wagga-dispensary"
+        },
+        {
+          "kw": "weed prescription online",
+          "pos": 94,
+          "vol": 210,
+          "traffic": 0,
+          "url": "https://herbly.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "vegan doctors",
+          "pos": 4,
+          "vol": 210,
+          "traffic": 5
+        },
+        {
+          "kw": "natural doctor wetherill park",
+          "pos": 5,
+          "vol": 40,
+          "traffic": 1
+        },
+        {
+          "kw": "alternative doctors",
+          "pos": 3,
+          "vol": 40,
+          "traffic": 1
+        },
+        {
+          "kw": "green life clinics and dispensaries logan",
+          "pos": 23,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "online cannabis prescription",
+          "pos": 85,
+          "vol": 210,
+          "traffic": 0
+        },
+        {
+          "kw": "medical pot doctors",
+          "pos": 74,
+          "vol": 210,
+          "traffic": 0
+        },
+        {
+          "kw": "medical cannabis consultation",
+          "pos": 56,
+          "vol": 210,
+          "traffic": 0
+        },
+        {
+          "kw": "doctors who use alternative medicine",
+          "pos": 15,
+          "vol": 210,
+          "traffic": 0
+        }
+      ]
+    },
+    "Product / Strain": {
+      "total_kw": 11,
+      "total_traffic": 4,
+      "top1_count": 0,
+      "page2_count": 2,
+      "avg_vol": 65,
+      "top_keywords": [
+        {
+          "kw": "cbd oil townsville",
+          "pos": 2,
+          "vol": 50,
+          "traffic": 3,
+          "url": "https://herbly.com.au/pages/townsville-dispensary"
+        },
+        {
+          "kw": "cbd oil sunshine coast",
+          "pos": 4,
+          "vol": 50,
+          "traffic": 1,
+          "url": "https://herbly.com.au/pages/sunshine-coast-dispensary"
+        },
+        {
+          "kw": "medical cannabis vape",
+          "pos": 16,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment"
+        },
+        {
+          "kw": "byron bay cbd",
+          "pos": 27,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/byron-bay-dispensary"
+        },
+        {
+          "kw": "byron bay cbd",
+          "pos": 28,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/byron-bay-dispensary"
+        },
+        {
+          "kw": "mode healthcare bunbury",
+          "pos": 50,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/bunbury-dispensary"
+        },
+        {
+          "kw": "cbd benefits for women",
+          "pos": 15,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/women-s-health/lower-abdominal-pain-in-women-exploring-the-benefits-of-cbd-thc"
+        },
+        {
+          "kw": "medical marijuanas vape",
+          "pos": 94,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment"
+        },
+        {
+          "kw": "alternative healthcare",
+          "pos": 22,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/about-us"
+        },
+        {
+          "kw": "alternative healthcare",
+          "pos": 77,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/news/exploring-alternative-medicine-a-path-to-holistic-wellness"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "cbd oil townsville",
+          "pos": 2,
+          "vol": 50,
+          "traffic": 3
+        },
+        {
+          "kw": "cbd oil sunshine coast",
+          "pos": 4,
+          "vol": 50,
+          "traffic": 1
+        },
+        {
+          "kw": "medical cannabis vape",
+          "pos": 16,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "byron bay cbd",
+          "pos": 27,
+          "vol": 90,
+          "traffic": 0
+        },
+        {
+          "kw": "byron bay cbd",
+          "pos": 28,
+          "vol": 90,
+          "traffic": 0
+        },
+        {
+          "kw": "mode healthcare bunbury",
+          "pos": 50,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "cbd benefits for women",
+          "pos": 15,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "medical marijuanas vape",
+          "pos": 94,
+          "vol": 50,
+          "traffic": 0
+        }
+      ]
+    },
+    "Competitors": {
+      "total_kw": 3,
+      "total_traffic": 1,
+      "top1_count": 0,
+      "page2_count": 1,
+      "avg_vol": 593,
+      "top_keywords": [
+        {
+          "kw": "releaf caloundra",
+          "pos": 13,
+          "vol": 1600,
+          "traffic": 1,
+          "url": "https://herbly.com.au/pages/caloundra-dispensary"
+        },
+        {
+          "kw": "acacia medical armidale",
+          "pos": 44,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/armidale-dispensary"
+        },
+        {
+          "kw": "releaf sunshine coast",
+          "pos": 26,
+          "vol": 40,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/sunshine-coast-dispensary"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "releaf caloundra",
+          "pos": 13,
+          "vol": 1600,
+          "traffic": 1
+        },
+        {
+          "kw": "acacia medical armidale",
+          "pos": 44,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "releaf sunshine coast",
+          "pos": 26,
+          "vol": 40,
+          "traffic": 0
+        }
+      ]
+    },
+    "Pricing": {
+      "total_kw": 11,
+      "total_traffic": 1,
+      "top1_count": 0,
+      "page2_count": 1,
+      "avg_vol": 94,
+      "top_keywords": [
+        {
+          "kw": "cheapest medical marijuanas dispensary near me",
+          "pos": 7,
+          "vol": 110,
+          "traffic": 1,
+          "url": "https://herbly.com.au/pages/tweed-heads-dispensary"
+        },
+        {
+          "kw": "free medical cannabis consultation",
+          "pos": 19,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://herbly.com.au/"
+        },
+        {
+          "kw": "cheapest medical marijuanas dispensary near me",
+          "pos": 38,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/ipswich-dispensary"
+        },
+        {
+          "kw": "cheapest medical marijuanas dispensary near me",
+          "pos": 57,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/toowoomba-dispensary"
+        },
+        {
+          "kw": "cheapest medical marijuanas dispensary near me",
+          "pos": 77,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/noosa-dispensary"
+        },
+        {
+          "kw": "medical marijuanas prices",
+          "pos": 94,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/newtown-dispensary"
+        },
+        {
+          "kw": "free medical marijuanas doctors near me",
+          "pos": 89,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/sunshine-coast-dispensary"
+        },
+        {
+          "kw": "free consult medical weed",
+          "pos": 25,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/sunshine-coast-dispensary"
+        },
+        {
+          "kw": "free consult medical weed",
+          "pos": 32,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/newtown-dispensary"
+        },
+        {
+          "kw": "free consult medical weed",
+          "pos": 50,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/townsville-dispensary"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "cheapest medical marijuanas dispensary near me",
+          "pos": 7,
+          "vol": 110,
+          "traffic": 1
+        },
+        {
+          "kw": "free medical cannabis consultation",
+          "pos": 19,
+          "vol": 170,
+          "traffic": 0
+        },
+        {
+          "kw": "cheapest medical marijuanas dispensary near me",
+          "pos": 38,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "cheapest medical marijuanas dispensary near me",
+          "pos": 57,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "cheapest medical marijuanas dispensary near me",
+          "pos": 77,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "medical marijuanas prices",
+          "pos": 94,
+          "vol": 90,
+          "traffic": 0
+        },
+        {
+          "kw": "free medical marijuanas doctors near me",
+          "pos": 89,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "free consult medical weed",
+          "pos": 25,
+          "vol": 70,
+          "traffic": 0
+        }
+      ]
+    },
+    "Education / How-to": {
+      "total_kw": 4,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 192,
+      "top_keywords": [
+        {
+          "kw": "what is reflex sympathetic dystrophy",
+          "pos": 97,
+          "vol": 480,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/news/comprehensive-guide-to-complex-regional-pain-syndrome-crps-therapies-and-treatment-options"
+        },
+        {
+          "kw": "what is adha",
+          "pos": 73,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/news/what-is-adhd"
+        },
+        {
+          "kw": "how to relieve period bloating",
+          "pos": 76,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/women-s-health/bloating-and-menstruation-can-cbd-provide-relief"
+        },
+        {
+          "kw": "how to relieve menstrual cramps naturally",
+          "pos": 95,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/women-s-health/cbd-and-thc-for-period-pain-natural-ways-to-relieve-menstrual-cramps"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "what is reflex sympathetic dystrophy",
+          "pos": 97,
+          "vol": 480,
+          "traffic": 0
+        },
+        {
+          "kw": "what is adha",
+          "pos": 73,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "how to relieve period bloating",
+          "pos": 76,
+          "vol": 90,
+          "traffic": 0
+        },
+        {
+          "kw": "how to relieve menstrual cramps naturally",
+          "pos": 95,
+          "vol": 90,
+          "traffic": 0
+        }
+      ]
+    },
+    "Contact / Support": {
+      "total_kw": 13,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 1,
+      "avg_vol": 225,
+      "top_keywords": [
+        {
+          "kw": "cann i help dispensary",
+          "pos": 82,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/ipswich-dispensary"
+        },
+        {
+          "kw": "cann i help dispensary",
+          "pos": 91,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/ipswich-dispensary"
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 19,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/caboolture-dispensary"
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 31,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/penrith-dispensary"
+        },
+        {
+          "kw": "sciatica supportive therapy",
+          "pos": 44,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/news/sciatica-therapies-and-treatment-exploring-conventional-alternative-and-natural-options"
+        },
+        {
+          "kw": "cannihelp dispensary",
+          "pos": 34,
+          "vol": 260,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/ipswich-dispensary"
+        },
+        {
+          "kw": "cannihelp dispensary",
+          "pos": 85,
+          "vol": 260,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/morayfield-dispensary"
+        },
+        {
+          "kw": "cannihelp dispensary",
+          "pos": 91,
+          "vol": 260,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/newtown-dispensary"
+        },
+        {
+          "kw": "cannihelp dispensary",
+          "pos": 97,
+          "vol": 260,
+          "traffic": 0,
+          "url": "https://herbly.com.au/"
+        },
+        {
+          "kw": "dispensed contact number",
+          "pos": 29,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/esperance-dispensary"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "cann i help dispensary",
+          "pos": 82,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "cann i help dispensary",
+          "pos": 91,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 19,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 31,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "sciatica supportive therapy",
+          "pos": 44,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "cannihelp dispensary",
+          "pos": 34,
+          "vol": 260,
+          "traffic": 0
+        },
+        {
+          "kw": "cannihelp dispensary",
+          "pos": 85,
+          "vol": 260,
+          "traffic": 0
+        },
+        {
+          "kw": "cannihelp dispensary",
+          "pos": 91,
+          "vol": 260,
+          "traffic": 0
+        }
+      ]
+    },
+    "Eligibility / Legal": {
+      "total_kw": 3,
+      "total_traffic": 0,
+      "top1_count": 1,
+      "page2_count": 0,
+      "avg_vol": 103,
+      "top_keywords": [
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 71,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment"
+        },
+        {
+          "kw": "how to apply for medical weed",
+          "pos": 75,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment"
+        },
+        {
+          "kw": "how do i get medical weed",
+          "pos": 1,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/understanding-monthly-limits-and-interval-periods"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 71,
+          "vol": 170,
+          "traffic": 0
+        },
+        {
+          "kw": "how to apply for medical weed",
+          "pos": 75,
+          "vol": 90,
+          "traffic": 0
+        },
+        {
+          "kw": "how do i get medical weed",
+          "pos": 1,
+          "vol": 50,
+          "traffic": 0
+        }
+      ]
+    },
+    "Reviews": {
+      "total_kw": 4,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 1,
+      "avg_vol": 60,
+      "top_keywords": [
+        {
+          "kw": "releaf caloundra reviews",
+          "pos": 11,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/caloundra-dispensary"
+        },
+        {
+          "kw": "burpengary doctors reviews",
+          "pos": 38,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/burpengary-dispensary"
+        },
+        {
+          "kw": "manly clinic reviews",
+          "pos": 71,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/manly-dispensary"
+        },
+        {
+          "kw": "green leaf boutique reviews",
+          "pos": 3,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "releaf caloundra reviews",
+          "pos": 11,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "burpengary doctors reviews",
+          "pos": 38,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "manly clinic reviews",
+          "pos": 71,
+          "vol": 50,
+          "traffic": 0
+        },
+        {
+          "kw": "green leaf boutique reviews",
+          "pos": 3,
+          "vol": 50,
+          "traffic": 0
+        }
+      ]
+    }
+  },
+  "pillars": [
+    {
+      "name": "Locations",
+      "total_kw": 427,
+      "total_traffic": 459,
+      "efficiency": 1.07,
+      "top1_count": 29,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 171,
+          "traffic": 208,
+          "examples": []
+        },
+        {
+          "label": "\"near me\"",
+          "kw": 120,
+          "traffic": 218,
+          "examples": []
+        },
+        {
+          "label": "Brisbane / QLD",
+          "kw": 47,
+          "traffic": 24,
+          "examples": []
+        },
+        {
+          "label": "Sydney / NSW",
+          "kw": 32,
+          "traffic": 4,
+          "examples": []
+        },
+        {
+          "label": "National / \"Australia\"",
+          "kw": 31,
+          "traffic": 2,
+          "examples": []
+        },
+        {
+          "label": "Melbourne / VIC",
+          "kw": 9,
+          "traffic": 1,
+          "examples": []
+        },
+        {
+          "label": "Adelaide / SA",
+          "kw": 7,
+          "traffic": 2,
+          "examples": []
+        },
+        {
+          "label": "Perth / WA",
+          "kw": 5,
+          "traffic": 0,
+          "examples": []
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+          "traffic": 133,
+          "kw": 20
+        },
+        {
+          "url": "https://herbly.com.au/pages/bendigo-dispensary",
+          "traffic": 96,
+          "kw": 6
+        },
+        {
+          "url": "https://herbly.com.au/pages/armidale-dispensary",
+          "traffic": 58,
+          "kw": 3
+        }
+      ]
+    },
+    {
+      "name": "Brand",
+      "total_kw": 2,
+      "total_traffic": 211,
+      "efficiency": 105.5,
+      "top1_count": 2,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 2,
+          "traffic": 211,
+          "examples": [
+            {
+              "kw": "herbly",
+              "pos": 1,
+              "traffic": 208
+            },
+            {
+              "kw": "herbly",
+              "pos": 1,
+              "traffic": 3
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/",
+          "traffic": 208,
+          "kw": 1
+        },
+        {
+          "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment",
+          "traffic": 3,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "total_kw": 244,
+      "total_traffic": 128,
+      "efficiency": 0.52,
+      "top1_count": 10,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 185,
+          "traffic": 97,
+          "examples": [
+            {
+              "kw": "weed byron bay",
+              "pos": 1,
+              "traffic": 22
+            },
+            {
+              "kw": "medicinal cannabis port macquarie",
+              "pos": 1,
+              "traffic": 22
+            }
+          ]
+        },
+        {
+          "label": "Medical Cannabis",
+          "kw": 20,
+          "traffic": 22,
+          "examples": [
+            {
+              "kw": "medical cannabis port macquarie",
+              "pos": 1,
+              "traffic": 17
+            },
+            {
+              "kw": "medical cannabis sunshine coast",
+              "pos": 3,
+              "traffic": 5
+            }
+          ]
+        },
+        {
+          "label": "Medical Weed",
+          "kw": 14,
+          "traffic": 6,
+          "examples": [
+            {
+              "kw": "how can i get medical weed",
+              "pos": 1,
+              "traffic": 6
+            },
+            {
+              "kw": "buying medical weed online",
+              "pos": 15,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Weed Online",
+          "kw": 6,
+          "traffic": 3,
+          "examples": [
+            {
+              "kw": "buy weed online",
+              "pos": 10,
+              "traffic": 3
+            },
+            {
+              "kw": "weed online",
+              "pos": 79,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Buy Medical",
+          "kw": 7,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "buy medical marijuana",
+              "pos": 14,
+              "traffic": 0
+            },
+            {
+              "kw": "buy medical marijuana",
+              "pos": 53,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Get Medical",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "where to get medical marijuanas",
+              "pos": 48,
+              "traffic": 0
+            },
+            {
+              "kw": "where to get medical marijuanas",
+              "pos": 64,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Ulcerative Colitis",
+          "kw": 10,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "alternative therapies for ulcerative colitis",
+              "pos": 74,
+              "traffic": 0
+            },
+            {
+              "kw": "alternative medicine for ulcerative colitis",
+              "pos": 15,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/pages/port-macquarie-dispensary",
+          "traffic": 39,
+          "kw": 4
+        },
+        {
+          "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+          "traffic": 28,
+          "kw": 8
+        },
+        {
+          "url": "https://herbly.com.au/pages/byron-bay-dispensary",
+          "traffic": 22,
+          "kw": 7
+        }
+      ]
+    },
+    {
+      "name": "Conditions",
+      "total_kw": 131,
+      "total_traffic": 13,
+      "efficiency": 0.1,
+      "top1_count": 2,
+      "sub_clusters": [
+        {
+          "label": "Sleep / insomnia",
+          "kw": 42,
+          "traffic": 5,
+          "examples": [
+            {
+              "kw": "holistic cures for insomnia",
+              "pos": 1,
+              "vol": 170
+            },
+            {
+              "kw": "symptoms of sleeplessness",
+              "pos": 64,
+              "vol": 1900
+            }
+          ]
+        },
+        {
+          "label": "Chronic pain",
+          "kw": 26,
+          "traffic": 7,
+          "examples": [
+            {
+              "kw": "arthritis",
+              "pos": 35,
+              "vol": 22200
+            },
+            {
+              "kw": "period pain remedies",
+              "pos": 22,
+              "vol": 720
+            }
+          ]
+        },
+        {
+          "label": "Epilepsy / MS",
+          "kw": 18,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "natural ms cures",
+              "pos": 36,
+              "vol": 70
+            },
+            {
+              "kw": "natural ms cures",
+              "pos": 49,
+              "vol": 70
+            }
+          ]
+        },
+        {
+          "label": "Anxiety",
+          "kw": 12,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "holistic healing for anxiety",
+              "pos": 14,
+              "vol": 590
+            },
+            {
+              "kw": "herbal remedies for anxiety",
+              "pos": 53,
+              "vol": 110
+            }
+          ]
+        },
+        {
+          "label": "Depression",
+          "kw": 10,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "natural depression remedies",
+              "pos": 68,
+              "vol": 70
+            },
+            {
+              "kw": "depression relief natural",
+              "pos": 36,
+              "vol": 140
+            }
+          ]
+        },
+        {
+          "label": "ADHD",
+          "kw": 9,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "adhd natural therapies",
+              "pos": 93,
+              "vol": 70
+            },
+            {
+              "kw": "adhd natural medicine",
+              "pos": 23,
+              "vol": 210
+            }
+          ]
+        },
+        {
+          "label": "Endo / menopause",
+          "kw": 7,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "holistic medicine for menopause",
+              "pos": 75,
+              "vol": 170
+            },
+            {
+              "kw": "medicinal cannibas menopause",
+              "pos": 9,
+              "vol": 50
+            }
+          ]
+        },
+        {
+          "label": "PTSD",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "what causes ptsd",
+              "pos": 74,
+              "vol": 140
+            },
+            {
+              "kw": "how to treat ptsd",
+              "pos": 87,
+              "vol": 210
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/blogs/news/understanding-arthritis-causes-impacts-and-treatments",
+          "traffic": 6,
+          "kw": 5
+        },
+        {
+          "url": "https://herbly.com.au/blogs/news/insomnia-therapies-and-treatments-conventional-alternative-and-holistic-approaches",
+          "traffic": 5,
+          "kw": 15
+        },
+        {
+          "url": "https://herbly.com.au/blogs/women-s-health/top-7-period-pain-remedies-and-the-role-of-cbd-thc",
+          "traffic": 1,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "total_kw": 118,
+      "total_traffic": 7,
+      "efficiency": 0.06,
+      "top1_count": 1,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 67,
+          "traffic": 7,
+          "examples": [
+            {
+              "kw": "vegan doctors",
+              "pos": 4,
+              "traffic": 5
+            },
+            {
+              "kw": "natural doctor wetherill park",
+              "pos": 5,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Medical Marijuanas",
+          "kw": 14,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "medical marijuanas clinic near me",
+              "pos": 71,
+              "traffic": 0
+            },
+            {
+              "kw": "online medical marijuanas doctor near me",
+              "pos": 19,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Marijuana",
+          "kw": 13,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "medical marijuana consultation",
+              "pos": 100,
+              "traffic": 0
+            },
+            {
+              "kw": "medical marijuana prescription online",
+              "pos": 34,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Clinic",
+          "kw": 13,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "cannabis clinic near me",
+              "pos": 39,
+              "traffic": 0
+            },
+            {
+              "kw": "medicinal cannabis clinic",
+              "pos": 90,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Cannabis",
+          "kw": 6,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "medical cannabis prescription sydney",
+              "pos": 70,
+              "traffic": 0
+            },
+            {
+              "kw": "medical cannabis prescription online",
+              "pos": 69,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Prescription Online",
+          "kw": 5,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "marajuana prescription online",
+              "pos": 23,
+              "traffic": 0
+            },
+            {
+              "kw": "cannabis prescription online",
+              "pos": 83,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/pages/plant-medicine-doctors",
+          "traffic": 6,
+          "kw": 5
+        },
+        {
+          "url": "https://herbly.com.au/pages/wetherill-park-dispensary",
+          "traffic": 1,
+          "kw": 1
+        },
+        {
+          "url": "https://herbly.com.au/pages/penrith-dispensary",
+          "traffic": 0,
+          "kw": 6
+        }
+      ]
+    },
+    {
+      "name": "Product / Strain",
+      "total_kw": 11,
+      "total_traffic": 4,
+      "efficiency": 0.36,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Cbd Oil",
+          "kw": 2,
+          "traffic": 4,
+          "examples": [
+            {
+              "kw": "cbd oil townsville",
+              "pos": 2,
+              "traffic": 3
+            },
+            {
+              "kw": "cbd oil sunshine coast",
+              "pos": 4,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Byron Bay",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "cbd byron bay",
+              "pos": 33,
+              "traffic": 0
+            },
+            {
+              "kw": "byron bay cbd",
+              "pos": 27,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Alternative Healthcare",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "alternative healthcare",
+              "pos": 22,
+              "traffic": 0
+            },
+            {
+              "kw": "alternative healthcare",
+              "pos": 77,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 4,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "mode healthcare bunbury",
+              "pos": 50,
+              "traffic": 0
+            },
+            {
+              "kw": "medical marijuanas vape",
+              "pos": 94,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/pages/townsville-dispensary",
+          "traffic": 3,
+          "kw": 1
+        },
+        {
+          "url": "https://herbly.com.au/pages/sunshine-coast-dispensary",
+          "traffic": 1,
+          "kw": 1
+        },
+        {
+          "url": "https://herbly.com.au/pages/byron-bay-dispensary",
+          "traffic": 0,
+          "kw": 3
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "total_kw": 11,
+      "total_traffic": 1,
+      "efficiency": 0.09,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Medical Marijuanas",
+          "kw": 7,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "cheapest medical marijuanas dispensary near me",
+              "pos": 7,
+              "traffic": 1
+            },
+            {
+              "kw": "cheapest medical marijuanas australia",
+              "pos": 77,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Consult Medical",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "free consult medical weed",
+              "pos": 25,
+              "traffic": 0
+            },
+            {
+              "kw": "free consult medical weed",
+              "pos": 32,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Cannabis",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "free medical cannabis consultation",
+              "pos": 19,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/pages/tweed-heads-dispensary",
+          "traffic": 1,
+          "kw": 1
+        },
+        {
+          "url": "https://herbly.com.au/",
+          "traffic": 0,
+          "kw": 2
+        },
+        {
+          "url": "https://herbly.com.au/pages/ipswich-dispensary",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "total_kw": 3,
+      "total_traffic": 1,
+      "efficiency": 0.33,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Releaf Caloundra",
+          "kw": 1,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "releaf caloundra",
+              "pos": 13,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Releaf Sunshine",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "releaf sunshine coast",
+              "pos": 26,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Acacia Medical",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "acacia medical armidale",
+              "pos": 44,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/pages/caloundra-dispensary",
+          "traffic": 1,
+          "kw": 1
+        },
+        {
+          "url": "https://herbly.com.au/pages/sunshine-coast-dispensary",
+          "traffic": 0,
+          "kw": 1
+        },
+        {
+          "url": "https://herbly.com.au/pages/armidale-dispensary",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "total_kw": 3,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 1,
+      "sub_clusters": [
+        {
+          "label": "Medical Weed",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to apply for medical weed",
+              "pos": 75,
+              "traffic": 0
+            },
+            {
+              "kw": "how do i get medical weed",
+              "pos": 1,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Get Prescribed",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to get prescribed cannabinoids",
+              "pos": 71,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment",
+          "traffic": 0,
+          "kw": 2
+        },
+        {
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/understanding-monthly-limits-and-interval-periods",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "total_kw": 4,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Relieve Period",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to relieve period bloating",
+              "pos": 76,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Reflex Sympathetic",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "what is reflex sympathetic dystrophy",
+              "pos": 97,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Relieve Menstrual",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to relieve menstrual cramps naturally",
+              "pos": 95,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "what is adha",
+              "pos": 73,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/blogs/women-s-health/bloating-and-menstruation-can-cbd-provide-relief",
+          "traffic": 0,
+          "kw": 1
+        },
+        {
+          "url": "https://herbly.com.au/blogs/news/comprehensive-guide-to-complex-regional-pain-syndrome-crps-therapies-and-treatment-options",
+          "traffic": 0,
+          "kw": 1
+        },
+        {
+          "url": "https://herbly.com.au/blogs/news/what-is-adhd",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "total_kw": 4,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Releaf Caloundra",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "releaf caloundra reviews",
+              "pos": 11,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Manly Clinic",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "manly clinic reviews",
+              "pos": 71,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Burpengary Doctors",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "burpengary doctors reviews",
+              "pos": 38,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "green leaf boutique reviews",
+              "pos": 3,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/pages/caloundra-dispensary",
+          "traffic": 0,
+          "kw": 1
+        },
+        {
+          "url": "https://herbly.com.au/pages/manly-dispensary",
+          "traffic": 0,
+          "kw": 1
+        },
+        {
+          "url": "https://herbly.com.au/pages/burpengary-dispensary",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "total_kw": 13,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Help Dispensary",
+          "kw": 8,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "cann i help dispensary",
+              "pos": 82,
+              "traffic": 0
+            },
+            {
+              "kw": "cann i help dispensary",
+              "pos": 91,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Dispensed Contact",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "dispensed contact number",
+              "pos": 29,
+              "traffic": 0
+            },
+            {
+              "kw": "dispensed contact number",
+              "pos": 95,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Chemist Kingaroy",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "chemist kingaroy opening hours",
+              "pos": 47,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "sciatica supportive therapy",
+              "pos": 44,
+              "traffic": 0
+            },
+            {
+              "kw": "natural help for ulcerative colitis",
+              "pos": 33,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://herbly.com.au/pages/ipswich-dispensary",
+          "traffic": 0,
+          "kw": 3
+        },
+        {
+          "url": "https://herbly.com.au/pages/esperance-dispensary",
+          "traffic": 0,
+          "kw": 2
+        },
+        {
+          "url": "https://herbly.com.au/pages/kingaroy-dispensary",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    }
+  ],
+  "content_clusters": [
+    {
+      "name": "City dispensary pages",
+      "pages": 83,
+      "traffic": 580,
+      "kw": 654,
+      "examples": [
+        {
+          "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+          "traffic": 161,
+          "kw": 32,
+          "top_kw": "dispensary near ne",
+          "intent": "Transactional"
+        },
+        {
+          "url": "https://herbly.com.au/pages/bendigo-dispensary",
+          "traffic": 96,
+          "kw": 7,
+          "top_kw": "dispensary dispensary",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://herbly.com.au/pages/armidale-dispensary",
+          "traffic": 58,
+          "kw": 4,
+          "top_kw": "dispensary near me",
+          "intent": "Transactional, Commercial"
+        },
+        {
+          "url": "https://herbly.com.au/pages/port-macquarie-dispensary",
+          "traffic": 39,
+          "kw": 5,
+          "top_kw": "medicinal cannabis port macquarie",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "Homepage",
+      "pages": 1,
+      "traffic": 208,
+      "kw": 24,
+      "examples": [
+        {
+          "url": "https://herbly.com.au/",
+          "traffic": 208,
+          "kw": 24,
+          "top_kw": "herbly",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "Blog / news",
+      "pages": 53,
+      "traffic": 27,
+      "kw": 255,
+      "examples": [
+        {
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/understanding-monthly-limits-and-interval-periods",
+          "traffic": 6,
+          "kw": 3,
+          "top_kw": "how can i get medical weed",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://herbly.com.au/blogs/news/understanding-arthritis-causes-impacts-and-treatments",
+          "traffic": 6,
+          "kw": 10,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://herbly.com.au/blogs/news/insomnia-therapies-and-treatments-conventional-alternative-and-holistic-approaches",
+          "traffic": 5,
+          "kw": 16,
+          "top_kw": "holistic cures for insomnia",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/understanding-the-endocannabinoid-system",
+          "traffic": 3,
+          "kw": 6,
+          "top_kw": "ecs drugs",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "About / doctors / process",
+      "pages": 2,
+      "traffic": 6,
+      "kw": 12,
+      "examples": [
+        {
+          "url": "https://herbly.com.au/pages/plant-medicine-doctors",
+          "traffic": 6,
+          "kw": 8,
+          "top_kw": "vegan doctors",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://herbly.com.au/pages/about-us",
+          "traffic": 0,
+          "kw": 4,
+          "top_kw": "",
+          "intent": ""
+        }
+      ]
+    },
+    {
+      "name": "Other landing pages",
+      "pages": 9,
+      "traffic": 3,
+      "kw": 21,
+      "examples": [
+        {
+          "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment",
+          "traffic": 3,
+          "kw": 11,
+          "top_kw": "herbly",
+          "intent": "Commercial, Navigational"
+        },
+        {
+          "url": "https://herbly.com.au/pages/neuropathy-treatments",
+          "traffic": 0,
+          "kw": 1,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://herbly.com.au/pages/help-centre-faqs",
+          "traffic": 0,
+          "kw": 0,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://herbly.com.au/pages/natural-remedies-for-migraines",
+          "traffic": 0,
+          "kw": 1,
+          "top_kw": "holistic treatment migraines",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "Conditions / education",
+      "pages": 1,
+      "traffic": 0,
+      "kw": 5,
+      "examples": [
+        {
+          "url": "https://herbly.com.au/pages/adhd-treatments-attention-deficit-hyperactivity-disorder",
+          "traffic": 0,
+          "kw": 5,
+          "top_kw": "",
+          "intent": ""
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "Other",
+      "kw": 171,
+      "traffic": 208
+    },
+    {
+      "name": "\"near me\"",
+      "kw": 120,
+      "traffic": 218
+    },
+    {
+      "name": "Brisbane / QLD",
+      "kw": 47,
+      "traffic": 24
+    },
+    {
+      "name": "Sydney / NSW",
+      "kw": 32,
+      "traffic": 4
+    },
+    {
+      "name": "National / \"Australia\"",
+      "kw": 31,
+      "traffic": 2
+    },
+    {
+      "name": "Melbourne / VIC",
+      "kw": 9,
+      "traffic": 1
+    },
+    {
+      "name": "Adelaide / SA",
+      "kw": 7,
+      "traffic": 2
+    },
+    {
+      "name": "Perth / WA",
+      "kw": 5,
+      "traffic": 0
+    },
+    {
+      "name": "Canberra / ACT",
+      "kw": 4,
+      "traffic": 0
+    },
+    {
+      "name": "Darwin / NT",
+      "kw": 1,
+      "traffic": 0
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Sleep / insomnia",
+      "kw": 42,
+      "traffic": 5,
+      "examples": [
+        {
+          "kw": "holistic cures for insomnia",
+          "pos": 1,
+          "vol": 170
+        },
+        {
+          "kw": "symptoms of sleeplessness",
+          "pos": 64,
+          "vol": 1900
+        }
+      ]
+    },
+    {
+      "name": "Chronic pain",
+      "kw": 26,
+      "traffic": 7,
+      "examples": [
+        {
+          "kw": "arthritis",
+          "pos": 35,
+          "vol": 22200
+        },
+        {
+          "kw": "period pain remedies",
+          "pos": 22,
+          "vol": 720
+        }
+      ]
+    },
+    {
+      "name": "Epilepsy / MS",
+      "kw": 18,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "natural ms cures",
+          "pos": 36,
+          "vol": 70
+        },
+        {
+          "kw": "natural ms cures",
+          "pos": 49,
+          "vol": 70
+        }
+      ]
+    },
+    {
+      "name": "Anxiety",
+      "kw": 12,
+      "traffic": 1,
+      "examples": [
+        {
+          "kw": "holistic healing for anxiety",
+          "pos": 14,
+          "vol": 590
+        },
+        {
+          "kw": "herbal remedies for anxiety",
+          "pos": 53,
+          "vol": 110
+        }
+      ]
+    },
+    {
+      "name": "Depression",
+      "kw": 10,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "natural depression remedies",
+          "pos": 68,
+          "vol": 70
+        },
+        {
+          "kw": "depression relief natural",
+          "pos": 36,
+          "vol": 140
+        }
+      ]
+    },
+    {
+      "name": "ADHD",
+      "kw": 9,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "adhd natural therapies",
+          "pos": 93,
+          "vol": 70
+        },
+        {
+          "kw": "adhd natural medicine",
+          "pos": 23,
+          "vol": 210
+        }
+      ]
+    },
+    {
+      "name": "Endo / menopause",
+      "kw": 7,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "holistic medicine for menopause",
+          "pos": 75,
+          "vol": 170
+        },
+        {
+          "kw": "medicinal cannibas menopause",
+          "pos": 9,
+          "vol": 50
+        }
+      ]
+    },
+    {
+      "name": "PTSD",
+      "kw": 3,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "what causes ptsd",
+          "pos": 74,
+          "vol": 140
+        },
+        {
+          "kw": "how to treat ptsd",
+          "pos": 87,
+          "vol": 210
+        }
+      ]
+    }
+  ],
+  "position_distribution": [
+    {
+      "label": "#1",
+      "kw": 45,
+      "traffic": 368
+    },
+    {
+      "label": "#2\u20133",
+      "kw": 28,
+      "traffic": 242
+    },
+    {
+      "label": "#4\u201310",
+      "kw": 50,
+      "traffic": 189
+    },
+    {
+      "label": "#11\u201320",
+      "kw": 102,
+      "traffic": 10
+    },
+    {
+      "label": "#21\u201350",
+      "kw": 286,
+      "traffic": 15
+    },
+    {
+      "label": "#51\u2013100",
+      "kw": 460,
+      "traffic": 0
+    }
+  ],
+  "intents": [
+    {
+      "name": "Informational",
+      "kw": 573,
+      "traffic": 239
+    },
+    {
+      "name": "Navigational",
+      "kw": 85,
+      "traffic": 236
+    },
+    {
+      "name": "Commercial",
+      "kw": 201,
+      "traffic": 193
+    },
+    {
+      "name": "Transactional",
+      "kw": 112,
+      "traffic": 156
+    }
+  ],
+  "top_pages": [
+    {
+      "url": "https://herbly.com.au/",
+      "traffic": 208.0,
+      "kw": 24,
+      "traffic_pct": 25.24,
+      "intent": "Informational",
+      "top_kw": "herbly"
+    },
+    {
+      "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+      "traffic": 161.0,
+      "kw": 32,
+      "traffic_pct": 19.53,
+      "intent": "Transactional",
+      "top_kw": "dispensary near ne"
+    },
+    {
+      "url": "https://herbly.com.au/pages/bendigo-dispensary",
+      "traffic": 96.0,
+      "kw": 7,
+      "traffic_pct": 11.65,
+      "intent": "Navigational",
+      "top_kw": "dispensary dispensary"
+    },
+    {
+      "url": "https://herbly.com.au/pages/armidale-dispensary",
+      "traffic": 58.0,
+      "kw": 4,
+      "traffic_pct": 7.03,
+      "intent": "Transactional, Commercial",
+      "top_kw": "dispensary near me"
+    },
+    {
+      "url": "https://herbly.com.au/pages/port-macquarie-dispensary",
+      "traffic": 39.0,
+      "kw": 5,
+      "traffic_pct": 4.73,
+      "intent": "Informational",
+      "top_kw": "medicinal cannabis port macquarie"
+    },
+    {
+      "url": "https://herbly.com.au/pages/bunbury-dispensary",
+      "traffic": 26.0,
+      "kw": 48,
+      "traffic_pct": 3.15,
+      "intent": "Transactional, Commercial",
+      "top_kw": "cannabis shop near me"
+    },
+    {
+      "url": "https://herbly.com.au/pages/newtown-dispensary",
+      "traffic": 24.0,
+      "kw": 67,
+      "traffic_pct": 2.91,
+      "intent": "Navigational",
+      "top_kw": "newtown dispensary"
+    },
+    {
+      "url": "https://herbly.com.au/pages/wollongong-dispensary",
+      "traffic": 22.0,
+      "kw": 39,
+      "traffic_pct": 2.66,
+      "intent": "Transactional",
+      "top_kw": "weed shop near me"
+    },
+    {
+      "url": "https://herbly.com.au/pages/byron-bay-dispensary",
+      "traffic": 22.0,
+      "kw": 11,
+      "traffic_pct": 2.66,
+      "intent": "Transactional, Commercial",
+      "top_kw": "weed byron bay"
+    },
+    {
+      "url": "https://herbly.com.au/pages/morayfield-dispensary",
+      "traffic": 21.0,
+      "kw": 13,
+      "traffic_pct": 2.54,
+      "intent": "Transactional",
+      "top_kw": "medical canabis dispensary near.me"
+    },
+    {
+      "url": "https://herbly.com.au/pages/sunshine-coast-dispensary",
+      "traffic": 15.0,
+      "kw": 24,
+      "traffic_pct": 1.82,
+      "intent": "Informational",
+      "top_kw": "medical cannabis sunshine coast"
+    },
+    {
+      "url": "https://herbly.com.au/pages/townsville-dispensary",
+      "traffic": 14.0,
+      "kw": 11,
+      "traffic_pct": 1.69,
+      "intent": "Informational",
+      "top_kw": "medical marijuanas townsville"
+    }
+  ],
+  "top_winners": [
+    {
+      "url": "https://herbly.com.au/",
+      "traffic": 208.0,
+      "kw": 24,
+      "traffic_pct": 25.24,
+      "intent": "Informational",
+      "top_kw": "herbly"
+    },
+    {
+      "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+      "traffic": 161.0,
+      "kw": 32,
+      "traffic_pct": 19.53,
+      "intent": "Transactional",
+      "top_kw": "dispensary near ne"
+    },
+    {
+      "url": "https://herbly.com.au/pages/bendigo-dispensary",
+      "traffic": 96.0,
+      "kw": 7,
+      "traffic_pct": 11.65,
+      "intent": "Navigational",
+      "top_kw": "dispensary dispensary"
+    },
+    {
+      "url": "https://herbly.com.au/pages/armidale-dispensary",
+      "traffic": 58.0,
+      "kw": 4,
+      "traffic_pct": 7.03,
+      "intent": "Transactional, Commercial",
+      "top_kw": "dispensary near me"
+    },
+    {
+      "url": "https://herbly.com.au/pages/port-macquarie-dispensary",
+      "traffic": 39.0,
+      "kw": 5,
+      "traffic_pct": 4.73,
+      "intent": "Informational",
+      "top_kw": "medicinal cannabis port macquarie"
+    },
+    {
+      "url": "https://herbly.com.au/pages/bunbury-dispensary",
+      "traffic": 26.0,
+      "kw": 48,
+      "traffic_pct": 3.15,
+      "intent": "Transactional, Commercial",
+      "top_kw": "cannabis shop near me"
+    },
+    {
+      "url": "https://herbly.com.au/pages/newtown-dispensary",
+      "traffic": 24.0,
+      "kw": 67,
+      "traffic_pct": 2.91,
+      "intent": "Navigational",
+      "top_kw": "newtown dispensary"
+    },
+    {
+      "url": "https://herbly.com.au/pages/wollongong-dispensary",
+      "traffic": 22.0,
+      "kw": 39,
+      "traffic_pct": 2.66,
+      "intent": "Transactional",
+      "top_kw": "weed shop near me"
+    },
+    {
+      "url": "https://herbly.com.au/pages/byron-bay-dispensary",
+      "traffic": 22.0,
+      "kw": 11,
+      "traffic_pct": 2.66,
+      "intent": "Transactional, Commercial",
+      "top_kw": "weed byron bay"
+    },
+    {
+      "url": "https://herbly.com.au/pages/morayfield-dispensary",
+      "traffic": 21.0,
+      "kw": 13,
+      "traffic_pct": 2.54,
+      "intent": "Transactional",
+      "top_kw": "medical canabis dispensary near.me"
+    }
+  ],
+  "top_losers": [
+    {
+      "url": "https://herbly.com.au/pages/ipswich-dispensary",
+      "traffic": 5.0,
+      "kw": 41,
+      "traffic_pct": 0.6,
+      "intent": "Transactional",
+      "top_kw": "marijuana dispensary near me"
+    },
+    {
+      "url": "https://herbly.com.au/pages/mandurah-dispensary",
+      "traffic": 2.0,
+      "kw": 36,
+      "traffic_pct": 0.24,
+      "intent": "Transactional, Informational",
+      "top_kw": "marijuana dispensary near me"
+    },
+    {
+      "url": "https://herbly.com.au/pages/parramatta-dispensary",
+      "traffic": 4.0,
+      "kw": 35,
+      "traffic_pct": 0.48,
+      "intent": "Transactional",
+      "top_kw": "buy weed online"
+    },
+    {
+      "url": "https://herbly.com.au/blogs/news/natural-treatments-for-ulcerative-colitis",
+      "traffic": 2.0,
+      "kw": 29,
+      "traffic_pct": 0.24,
+      "intent": "Informational",
+      "top_kw": "alternative treatments for ulcerative colitis"
+    },
+    {
+      "url": "https://herbly.com.au/blogs/news/understanding-insomnia-the-hidden-struggles-of-sleep",
+      "traffic": 0.0,
+      "kw": 26,
+      "traffic_pct": 0.0,
+      "intent": "Informational",
+      "top_kw": "sleep problems australia"
+    },
+    {
+      "url": "https://herbly.com.au/blogs/news/holistic-treatment-for-anxiety-exploring-alternative-medicine-and-natural-therapies-in-australia",
+      "traffic": 1.0,
+      "kw": 17,
+      "traffic_pct": 0.12,
+      "intent": "Informational",
+      "top_kw": "holistic healing for anxiety"
+    },
+    {
+      "url": "https://herbly.com.au/blogs/news/insomnia-therapies-and-treatments-conventional-alternative-and-holistic-approaches",
+      "traffic": 5.0,
+      "kw": 16,
+      "traffic_pct": 0.6,
+      "intent": "Informational",
+      "top_kw": "holistic cures for insomnia"
+    },
+    {
+      "url": "https://herbly.com.au/blogs/news/understanding-multiple-sclerosis",
+      "traffic": 0.0,
+      "kw": 15,
+      "traffic_pct": 0.0,
+      "intent": "Informational",
+      "top_kw": "natural cures for ms disease"
+    },
+    {
+      "url": "https://herbly.com.au/pages/adelaide-dispensary",
+      "traffic": 2.0,
+      "kw": 14,
+      "traffic_pct": 0.24,
+      "intent": "Informational",
+      "top_kw": "buy weed adelaide"
+    },
+    {
+      "url": "https://herbly.com.au/pages/campbelltown-dispensary",
+      "traffic": 0.0,
+      "kw": 12,
+      "traffic_pct": 0.0,
+      "intent": "Transactional, Informational",
+      "top_kw": "weed near me"
+    }
+  ],
+  "subdomains": [
+    {
+      "name": "/pages (city dispensaries)",
+      "traffic": 589,
+      "pages": 95
+    },
+    {
+      "name": "homepage",
+      "traffic": 208,
+      "pages": 1
+    },
+    {
+      "name": "/blogs (editorial)",
+      "traffic": 27,
+      "pages": 53
+    }
+  ],
+  "top_keywords": [
+    {
+      "kw": "herbly",
+      "pos": 1,
+      "vol": 260,
+      "kd": 35.0,
+      "cpc": 12.5,
+      "traffic": 208.0,
+      "url": "https://herbly.com.au/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, People also ask, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "dispensary dispensary",
+      "pos": 5,
+      "vol": 3600,
+      "kd": 48.0,
+      "cpc": 0.0,
+      "traffic": 86.0,
+      "url": "https://herbly.com.au/pages/bendigo-dispensary",
+      "intents": "commercial",
+      "serp": "Local pack, Video, Related searches",
+      "topic": "Locations"
+    },
+    {
+      "kw": "dispensary near me",
+      "pos": 2,
+      "vol": 1300,
+      "kd": 39.0,
+      "cpc": 0.0,
+      "traffic": 45.0,
+      "url": "https://herbly.com.au/pages/armidale-dispensary",
+      "intents": "informational, transactional",
+      "serp": "Local pack, Video, Image, Related searches, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "dispnsary near me",
+      "pos": 2,
+      "vol": 590,
+      "kd": 28.0,
+      "cpc": 0.0,
+      "traffic": 25.0,
+      "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+      "intents": "transactional",
+      "serp": "Local pack, Video, Image, Related searches",
+      "topic": "Locations"
+    },
+    {
+      "kw": "dispensary near ne",
+      "pos": 2,
+      "vol": 590,
+      "kd": 33.0,
+      "cpc": 0.0,
+      "traffic": 25.0,
+      "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+      "intents": "transactional",
+      "serp": "Local pack, Related searches",
+      "topic": "Locations"
+    },
+    {
+      "kw": "weed byron bay",
+      "pos": 1,
+      "vol": 90,
+      "kd": 11.0,
+      "cpc": 2.5,
+      "traffic": 22.0,
+      "url": "https://herbly.com.au/pages/byron-bay-dispensary",
+      "intents": "commercial",
+      "serp": "Sitelinks, Video, Image, People also ask, Discussions and forums",
+      "topic": "Other"
+    },
+    {
+      "kw": "medicinal cannabis port macquarie",
+      "pos": 1,
+      "vol": 90,
+      "kd": 1.0,
+      "cpc": 0.0,
+      "traffic": 22.0,
+      "url": "https://herbly.com.au/pages/port-macquarie-dispensary",
+      "intents": "informational",
+      "serp": "Video, Related searches, AI overview",
+      "topic": "Other"
+    },
+    {
+      "kw": "medical canabis dispensary near.me",
+      "pos": 2,
+      "vol": 260,
+      "kd": 31.0,
+      "cpc": 57.59,
+      "traffic": 21.0,
+      "url": "https://herbly.com.au/pages/morayfield-dispensary",
+      "intents": "transactional",
+      "serp": "Local pack, People also ask",
+      "topic": "Locations"
+    },
+    {
+      "kw": "cannabis shop near me",
+      "pos": 1,
+      "vol": 140,
+      "kd": 37.0,
+      "cpc": 0.0,
+      "traffic": 18.0,
+      "url": "https://herbly.com.au/pages/bunbury-dispensary",
+      "intents": "informational, transactional",
+      "serp": "Knowledge panel, Image, Related searches, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "cannabisstores",
+      "pos": 4,
+      "vol": 720,
+      "kd": 55.0,
+      "cpc": 0.0,
+      "traffic": 17.0,
+      "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+      "intents": "commercial",
+      "serp": "Local pack, Image, Video Carousel, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "medical cannabis port macquarie",
+      "pos": 1,
+      "vol": 70,
+      "kd": 0.0,
+      "cpc": 0.0,
+      "traffic": 17.0,
+      "url": "https://herbly.com.au/pages/port-macquarie-dispensary",
+      "intents": "informational",
+      "serp": "Related searches, AI overview",
+      "topic": "Other"
+    },
+    {
+      "kw": "dispensaries",
+      "pos": 1,
+      "vol": 390,
+      "kd": 50.0,
+      "cpc": 0.0,
+      "traffic": 13.0,
+      "url": "https://herbly.com.au/pages/armidale-dispensary",
+      "intents": "commercial",
+      "serp": "Local pack, Video, Image, Video Carousel, People also ask, Related searches",
+      "topic": "Locations"
+    },
+    {
+      "kw": "medical cannabinoids dispensary near me",
+      "pos": 3,
+      "vol": 210,
+      "kd": 44.0,
+      "cpc": 0.0,
+      "traffic": 13.0,
+      "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+      "intents": "transactional",
+      "serp": "Local pack, Video, Related searches",
+      "topic": "Locations"
+    },
+    {
+      "kw": "dispensary brisbane",
+      "pos": 3,
+      "vol": 170,
+      "kd": 44.0,
+      "cpc": 72.49,
+      "traffic": 11.0,
+      "url": "https://herbly.com.au/pages/brisbane-dispensary",
+      "intents": "commercial",
+      "serp": "Local pack, Sitelinks, Video, Image, Related searches",
+      "topic": "Locations"
+    },
+    {
+      "kw": "medical cannabis dispensary near me",
+      "pos": 2,
+      "vol": 260,
+      "kd": 46.0,
+      "cpc": 0.0,
+      "traffic": 11.0,
+      "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+      "intents": "transactional",
+      "serp": "Local pack, Video, Related searches",
+      "topic": "Locations"
+    }
+  ],
+  "nonbrand_keywords": [
+    {
+      "kw": "dispensary dispensary",
+      "pos": 5,
+      "vol": 3600,
+      "kd": 48.0,
+      "cpc": 0.0,
+      "traffic": 86.0,
+      "url": "https://herbly.com.au/pages/bendigo-dispensary",
+      "intents": "commercial",
+      "serp": "Local pack, Video, Related searches",
+      "topic": "Locations"
+    },
+    {
+      "kw": "dispensary near me",
+      "pos": 2,
+      "vol": 1300,
+      "kd": 39.0,
+      "cpc": 0.0,
+      "traffic": 45.0,
+      "url": "https://herbly.com.au/pages/armidale-dispensary",
+      "intents": "informational, transactional",
+      "serp": "Local pack, Video, Image, Related searches, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "dispnsary near me",
+      "pos": 2,
+      "vol": 590,
+      "kd": 28.0,
+      "cpc": 0.0,
+      "traffic": 25.0,
+      "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+      "intents": "transactional",
+      "serp": "Local pack, Video, Image, Related searches",
+      "topic": "Locations"
+    },
+    {
+      "kw": "dispensary near ne",
+      "pos": 2,
+      "vol": 590,
+      "kd": 33.0,
+      "cpc": 0.0,
+      "traffic": 25.0,
+      "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+      "intents": "transactional",
+      "serp": "Local pack, Related searches",
+      "topic": "Locations"
+    },
+    {
+      "kw": "weed byron bay",
+      "pos": 1,
+      "vol": 90,
+      "kd": 11.0,
+      "cpc": 2.5,
+      "traffic": 22.0,
+      "url": "https://herbly.com.au/pages/byron-bay-dispensary",
+      "intents": "commercial",
+      "serp": "Sitelinks, Video, Image, People also ask, Discussions and forums",
+      "topic": "Other"
+    },
+    {
+      "kw": "medicinal cannabis port macquarie",
+      "pos": 1,
+      "vol": 90,
+      "kd": 1.0,
+      "cpc": 0.0,
+      "traffic": 22.0,
+      "url": "https://herbly.com.au/pages/port-macquarie-dispensary",
+      "intents": "informational",
+      "serp": "Video, Related searches, AI overview",
+      "topic": "Other"
+    },
+    {
+      "kw": "medical canabis dispensary near.me",
+      "pos": 2,
+      "vol": 260,
+      "kd": 31.0,
+      "cpc": 57.59,
+      "traffic": 21.0,
+      "url": "https://herbly.com.au/pages/morayfield-dispensary",
+      "intents": "transactional",
+      "serp": "Local pack, People also ask",
+      "topic": "Locations"
+    },
+    {
+      "kw": "cannabis shop near me",
+      "pos": 1,
+      "vol": 140,
+      "kd": 37.0,
+      "cpc": 0.0,
+      "traffic": 18.0,
+      "url": "https://herbly.com.au/pages/bunbury-dispensary",
+      "intents": "informational, transactional",
+      "serp": "Knowledge panel, Image, Related searches, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "cannabisstores",
+      "pos": 4,
+      "vol": 720,
+      "kd": 55.0,
+      "cpc": 0.0,
+      "traffic": 17.0,
+      "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+      "intents": "commercial",
+      "serp": "Local pack, Image, Video Carousel, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "medical cannabis port macquarie",
+      "pos": 1,
+      "vol": 70,
+      "kd": 0.0,
+      "cpc": 0.0,
+      "traffic": 17.0,
+      "url": "https://herbly.com.au/pages/port-macquarie-dispensary",
+      "intents": "informational",
+      "serp": "Related searches, AI overview",
+      "topic": "Other"
+    },
+    {
+      "kw": "dispensaries",
+      "pos": 1,
+      "vol": 390,
+      "kd": 50.0,
+      "cpc": 0.0,
+      "traffic": 13.0,
+      "url": "https://herbly.com.au/pages/armidale-dispensary",
+      "intents": "commercial",
+      "serp": "Local pack, Video, Image, Video Carousel, People also ask, Related searches",
+      "topic": "Locations"
+    },
+    {
+      "kw": "medical cannabinoids dispensary near me",
+      "pos": 3,
+      "vol": 210,
+      "kd": 44.0,
+      "cpc": 0.0,
+      "traffic": 13.0,
+      "url": "https://herbly.com.au/pages/coffs-harbour-dispensary",
+      "intents": "transactional",
+      "serp": "Local pack, Video, Related searches",
+      "topic": "Locations"
+    }
+  ],
+  "top_backlinks": [],
+  "backlink_groups": [],
+  "backlink_hosts": [],
+  "backlink_histogram": [
+    {
+      "label": "1",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "2\u20135",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "6\u201320",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "21\u201350",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "51\u2013200",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "200+",
+      "pages": 0,
+      "backlinks": 0
+    }
+  ],
+  "notes": {
+    "position": "challenger",
+    "verdict_tone": "amber",
+    "verdict_label": "Out-template them",
+    "tagline": "A small, scrappy Shopify storefront that has quietly built a programmatic-local engine. Their /pages/{city}-dispensary template prints 70% of their traffic \u2014 and every single page is catchable with better depth.",
+    "period": "April 2026",
+    "brand": {
+      "visual_system": [
+        "Storefront aesthetic \u2014 green leaf palette, product-grid layouts, retail typography.",
+        "Stock cannabis imagery; minimal patient or clinician photography.",
+        "Shopify default UX patterns, fast load times, mobile-first.",
+        "'Shop' and 'dispensary' framing front-and-centre \u2014 closer to retail than clinical."
+      ],
+      "site_architecture": [
+        "Single domain on Shopify \u2014 no patient portal, no help centre subdomain.",
+        "/pages/{city}-dispensary \u2014 ~95 templated city landing pages, the entire SEO engine.",
+        "/blogs/news \u2014 53 editorial posts that rank but earn almost no traffic.",
+        "/pages/plant-medicine-doctors and a thin About / Process layer \u2014 no real clinical hub."
+      ],
+      "tone_compliance": [
+        "Aggressive on consumer language \u2014 'dispensary', 'weed', 'cannabis shop' in slugs and titles.",
+        "Higher CTR appeal on near-me queries; higher TGA exposure risk.",
+        "Author bylines absent or anonymous on blog posts \u2014 weak E-E-A-T.",
+        "Reviews live as inline testimonials rather than third-party embeds."
+      ]
+    },
+    "eeat": {
+      "https": "green",
+      "schema_medical": "red",
+      "author_bylines": "red",
+      "medical_reviewer": "amber",
+      "core_web_vitals": "green",
+      "freshness": "amber",
+      "notes": "Shopify gives them speed and a clean technical baseline, but the YMYL signals are thin: no MedicalCondition / MedicalWebPage schema, anonymous blog authorship, no visible medical-reviewer process. Their local pages convert on intent, not on trust."
+    },
+    "verdict": {
+      "steal": [
+        {
+          "play": "Programmatic /pages/{city}-dispensary template",
+          "effort": 2,
+          "impact": 5,
+          "note": "83 city pages earn 580 visits / mo \u2014 the entire model. Replicate the template at suburb level for the top 5 metros, with proper clinical authority on top."
+        },
+        {
+          "play": "Aggressive 'dispensary' / 'near me' framing (compliant version)",
+          "effort": 2,
+          "impact": 4,
+          "note": "They walked into a geo vocabulary larger compliant clinics avoid. Use the same intent language in title tags + H1s without crossing TGA lines on body copy."
+        },
+        {
+          "play": "Shopify-speed technical baseline",
+          "effort": 2,
+          "impact": 3,
+          "note": "Their CWV is good because the platform forces it. Whatever stack we ship, match the load profile \u2014 every city page must feel instant."
+        },
+        {
+          "play": "City-page schema (LocalBusiness + FAQ)",
+          "effort": 1,
+          "impact": 3,
+          "note": "Herbly under-uses schema; adding LocalBusiness / FAQ / MedicalBusiness markup to our city pages is a cheap CTR uplift in SERP features."
+        },
+        {
+          "play": "Capital-city + suburb pSEO blitz",
+          "effort": 3,
+          "impact": 5,
+          "note": "Sydney, Melbourne, Perth coverage is uneven for Herbly. The high-volume metros are wide open to a well-templated, clinically-anchored attack."
+        },
+        {
+          "play": "Condition + city cross-templating",
+          "effort": 4,
+          "impact": 4,
+          "note": "Herbly publishes one or the other (city page OR condition post). The crossover \u2014 'medical cannabis for anxiety in Brisbane' \u2014 is uncontested high-intent inventory."
+        }
+      ],
+      "avoid": [
+        {
+          "trap": "Editorial blog without authorship",
+          "evidence": "53 /blogs/ posts earn 27 visits / mo total. Ranking but not winning \u2014 anonymous bylines, no medical reviewer, no freshness."
+        },
+        {
+          "trap": "Dormant page-2+ inventory",
+          "evidence": "460 keywords at #51\u2013100 produce zero traffic; another 286 at #21\u201350 produce 15. Three-quarters of the inventory is parked."
+        },
+        {
+          "trap": "Storefront language on YMYL pages",
+          "evidence": "'Weed shop', 'cannabis shop' in /pages/ titles \u2014 higher CTR but real TGA risk. Don't copy the slugs verbatim."
+        },
+        {
+          "trap": "Thin / About-page-only clinical hub",
+          "evidence": "131 condition keywords ranking earn 13 visits. Publishing into the space without credentials returns nothing."
+        }
+      ],
+      "implications": [
+        "The template is the moat, not the brand \u2014 replicable in weeks with better depth.",
+        "Capital cities and suburb-level pSEO are wide open \u2014 Herbly only goes as deep as the regional / city level.",
+        "Clinical authority is the wedge \u2014 pair their template with our credentials and we out-rank page by page.",
+        "Their compliance exposure is our defence: stay clean on copy, win on E-E-A-T."
+      ]
+    },
+    "gap_matrix": [
+      {
+        "topic": "Brand defence",
+        "herbly": 2,
+        "hellomello": 1,
+        "comment": "Small brand, low recognition."
+      },
+      {
+        "topic": "Pricing transparency",
+        "herbly": 1,
+        "hellomello": 1,
+        "comment": "Open \u2014 publish a real /pricing."
+      },
+      {
+        "topic": "Clinic / doctor SEO",
+        "herbly": 1,
+        "hellomello": 0,
+        "comment": "Thin About page only. Author it properly."
+      },
+      {
+        "topic": "Conditions content",
+        "herbly": 1,
+        "hellomello": 0,
+        "comment": "131 kw ranking \u2192 13 visits. We win this with E-E-A-T."
+      },
+      {
+        "topic": "Locations / pSEO",
+        "herbly": 4,
+        "hellomello": 0,
+        "comment": "Their engine. Replicate + go deeper."
+      },
+      {
+        "topic": "'Near me' queries",
+        "herbly": 3,
+        "hellomello": 0,
+        "comment": "Owned by Herbly today. Catchable."
+      },
+      {
+        "topic": "Capital-city coverage",
+        "herbly": 2,
+        "hellomello": 0,
+        "comment": "Regional-heavy; metros are open."
+      },
+      {
+        "topic": "Reviews / social proof",
+        "herbly": 1,
+        "hellomello": 0,
+        "comment": "Inline testimonials only \u2014 embed Trustpilot."
+      },
+      {
+        "topic": "Editorial / link bait",
+        "herbly": 1,
+        "hellomello": 0,
+        "comment": "Blog is dormant. Low bar to beat."
+      },
+      {
+        "topic": "Help / support SEO",
+        "herbly": 0,
+        "hellomello": 0,
+        "comment": "No subdomain. Long-tail informational is empty inventory."
+      }
+    ]
+  }
+}

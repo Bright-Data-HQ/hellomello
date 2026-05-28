@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Competitor Analysis — Template</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E1411;
+    --ink-2:#1A211D;
+    --paper:#F4EFE6;
+    --paper-2:#EAE3D5;
+    --rule:#2A332E;
+    --rule-soft:#D7CFBE;
+    --moss:#3E5641;
+    --moss-2:#6B8E68;
+    --sand:#C9B58A;
+    --clay:#B96A3D;
+    --muted:#6E6A60;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:#16110C;color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  body{min-height:100vh}
+
+  /* Deck layout */
+  .deck{display:flex;flex-direction:column;align-items:center;gap:28px;padding:40px 24px 120px}
+  .slide{
+    width:min(1280px, 96vw);
+    aspect-ratio:16/9;
+    background:var(--paper);
+    color:var(--ink);
+    border-radius:18px;
+    box-shadow:0 30px 80px rgba(0,0,0,.45), 0 2px 0 rgba(255,255,255,.04) inset;
+    position:relative;
+    overflow:hidden;
+    display:grid;
+    isolation:isolate;
+  }
+  .slide.dark{background:var(--ink);color:var(--paper)}
+  .slide.dark .rule{background:#2A332E}
+  .slide .pad{padding:64px 72px;display:flex;flex-direction:column;height:100%;width:100%}
+
+  /* Persistent grain + subtle vignette for a non-AI feel */
+  .slide::before{
+    content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
+    background-image:
+      radial-gradient(120% 80% at 0% 0%, rgba(0,0,0,.06), transparent 60%),
+      radial-gradient(120% 80% at 100% 100%, rgba(0,0,0,.05), transparent 60%);
+    mix-blend-mode:multiply;
+  }
+  .slide.dark::before{
+    background-image:
+      radial-gradient(120% 80% at 0% 0%, rgba(255,255,255,.05), transparent 60%),
+      radial-gradient(120% 80% at 100% 100%, rgba(255,255,255,.03), transparent 60%);
+    mix-blend-mode:screen;
+  }
+  .slide::after{
+    content:"";position:absolute;inset:0;pointer-events:none;z-index:0;opacity:.06;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.6 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+
+  .pad > *{position:relative;z-index:1}
+
+  /* Typography */
+  .display{font-family:'Fraunces',Georgia,serif;font-weight:400;letter-spacing:-0.015em;line-height:0.98}
+  .display.italic{font-style:italic}
+  .eyebrow{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.18em;color:var(--muted)}
+  .slide.dark .eyebrow{color:#A39E92}
+  .lede{font-size:18px;line-height:1.55;color:#2B2A24;max-width:62ch}
+  .slide.dark .lede{color:#CFC9BB}
+  .small{font-size:13px;line-height:1.55;color:#56524A}
+  .slide.dark .small{color:#A39E92}
+
+  /* Header / footer */
+  .head{display:flex;align-items:center;justify-content:space-between;gap:24px}
+  .head .brand{display:flex;align-items:center;gap:12px}
+  .head .brand .dot{width:8px;height:8px;border-radius:50%;background:var(--moss-2)}
+  .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:24px}
+  .rule{height:1px;background:var(--rule-soft);width:100%}
+  .pg{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;color:var(--muted);letter-spacing:.1em}
+  .slide.dark .pg{color:#A39E92}
+
+  /* Slide 1 — cover */
+  .cover .pad{justify-content:space-between}
+  .cover h1{font-size:clamp(56px, 7vw, 112px);margin:0}
+  .cover .meta{display:flex;gap:48px;flex-wrap:wrap}
+  .cover .meta div{display:flex;flex-direction:column;gap:6px}
+  .cover .meta b{font-weight:500;font-size:15px}
+  .cover .mark{
+    position:absolute;right:-120px;bottom:-160px;width:560px;height:560px;border-radius:50%;
+    background:radial-gradient(circle at 30% 30%, rgba(107,142,104,.55), rgba(62,86,65,.25) 55%, transparent 70%);
+    filter:blur(2px);z-index:0;
+  }
+
+  /* Two-column generic */
+  .two{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;flex:1;align-items:start}
+  .two.start{align-items:start}
+  .two h2{font-size:clamp(36px,3.6vw,56px);margin:14px 0 18px}
+  .panel{background:var(--paper-2);border-radius:12px;padding:24px;border:1px solid var(--rule-soft)}
+  .slide.dark .panel{background:#1F2722;border-color:#2A332E}
+  .panel h4{margin:0 0 10px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-family:'JetBrains Mono',monospace;font-weight:500}
+  .panel p,.panel li{font-size:14.5px;line-height:1.55}
+  ul.tight{margin:0;padding-left:18px}
+  ul.tight li{margin:6px 0}
+
+  /* KPI tiles */
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .kpi{background:transparent;border:1px solid var(--rule-soft);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:6px;min-height:120px;justify-content:space-between}
+  .slide.dark .kpi{border-color:#2A332E}
+  .kpi .label{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+  .kpi .value{font-family:'Fraunces',serif;font-size:42px;line-height:1;letter-spacing:-.02em}
+  .kpi .delta{font-size:12px;color:var(--moss)}
+  .kpi .delta.neg{color:var(--clay)}
+
+  /* Tables */
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--rule-soft)}
+  .slide.dark th,.slide.dark td{border-color:#2A332E}
+  th{font-weight:500;color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.12em}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  td .url{color:var(--moss);text-decoration:none}
+  .slide.dark td .url{color:var(--moss-2)}
+
+  /* Screenshot grid */
+  .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;flex:1;align-content:start}
+  .shot{background:#0008;border-radius:10px;overflow:hidden;border:1px solid var(--rule-soft);aspect-ratio:16/10}
+  .shot img{width:100%;height:100%;object-fit:cover;display:block}
+
+  /* Swot */
+  .swot{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:16px;flex:1}
+  .swot .panel h4{color:var(--ink)}
+  .slide.dark .swot .panel h4{color:var(--paper)}
+  .swot .panel.s{border-left:3px solid var(--moss-2)}
+  .swot .panel.w{border-left:3px solid var(--clay)}
+  .swot .panel.o{border-left:3px solid var(--sand)}
+  .swot .panel.t{border-left:3px solid #6B6B6B}
+
+  /* Closing slide */
+  .closing h2{font-size:clamp(48px,5vw,80px);margin:18px 0 0;max-width:18ch}
+  .recos{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
+  .reco{padding:22px;border:1px solid var(--rule-soft);border-radius:12px;min-height:170px;display:flex;flex-direction:column;gap:10px}
+  .slide.dark .reco{border-color:#2A332E}
+  .reco .n{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--moss-2);letter-spacing:.16em}
+  .reco h5{font-family:'Fraunces',serif;font-size:22px;margin:0;font-weight:500;letter-spacing:-.01em}
+
+  /* Tags */
+  .tag{display:inline-flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;padding:5px 10px;border-radius:999px;border:1px solid var(--rule-soft);color:var(--muted)}
+  .tag.green{color:var(--moss);border-color:#BBD0B6;background:#E7EFE3}
+  .tag.amber{color:#8a5a1c;border-color:#E6D2A6;background:#F2E8CB}
+  .tag.red{color:#8a2f1a;border-color:#E9C3B3;background:#F2DDCF}
+
+  /* Print / PDF */
+  @media print{
+    html,body{background:#fff}
+    .deck{padding:0;gap:0}
+    .slide{
+      width:100%;max-width:none;border-radius:0;box-shadow:none;
+      page-break-after:always;break-after:page;
+      aspect-ratio:auto;
+      height:100vh;
+    }
+    .toolbar{display:none !important}
+  }
+  @page{size:1280px 720px;margin:0}
+
+  /* Floating toolbar */
+  .toolbar{
+    position:fixed;bottom:16px;left:50%;transform:translateX(-50%);
+    display:flex;gap:6px;background:#0E1411E6;backdrop-filter:blur(8px);
+    border:1px solid #2A332E;border-radius:999px;padding:6px;color:#E9E4D5;z-index:50;
+    font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;
+  }
+  .toolbar button{
+    background:transparent;color:inherit;border:0;padding:8px 14px;border-radius:999px;cursor:pointer;font:inherit
+  }
+  .toolbar button:hover{background:#ffffff14}
+  .toolbar .sep{width:1px;background:#2A332E;margin:4px 2px}
+
+  /* Present mode */
+  body.present{background:#000;overflow:hidden}
+  body.present .toolbar{opacity:.25}
+  body.present .toolbar:hover{opacity:1}
+  body.present .deck{padding:0;gap:0;height:100vh;justify-content:center}
+  body.present .slide{display:none;width:min(96vw, calc(96vh * 16/9));box-shadow:0 40px 120px #000}
+  body.present .slide.active{display:grid}
+</style>
+</head>
+<body>
+
+<!-- =====================================================================
+     DATA — edit this block per competitor. Slides render from this object.
+     ===================================================================== -->
+<script>
+window.COMP = {
+  brand: "Competitor Name",
+  domain: "competitor.com.au",
+  tagline: "One-line positioning statement for the brand.",
+  segment: "Telehealth · Medicinal cannabis · AU",
+  prepared_for: "Hellomello",
+  prepared_by: "Bright Data",
+  date: "May 2026",
+  logo: "logo.png",                 // optional, relative to this file
+  verdict: "Model off this",        // e.g. Model / Avoid / Watch
+  verdict_tone: "green",            // green | amber | red
+
+  overview: {
+    summary: "Short editorial summary of who they are, market position, funding, brand maturity, and how aggressive they are commercially. 2–4 sentences.",
+    facts: [
+      ["Founded", "—"],
+      ["Parent / Group", "—"],
+      ["Market position", "—"],
+      ["Primary audience", "—"],
+    ],
+    legal: "How they treat compliance — safe, grey, or risky. What language they use, what they link to, how their copy reads.",
+  },
+
+  brand: {
+    notes: "Notes on visual identity, tone of voice, photography style, UX patterns, and what feels intentional vs lazy.",
+    screenshots: [
+      // "screenshot-1.png",
+      // "screenshot-2.png",
+    ],
+  },
+
+  seo: {
+    kpis: [
+      { label: "Monthly Organic Traffic", value: "—", delta: "" },
+      { label: "Ranking Keywords",        value: "—", delta: "" },
+      { label: "Referring Domains",       value: "—", delta: "" },
+      { label: "Top Page Share",          value: "—", delta: "" },
+    ],
+    narrative: "What the numbers actually say. Where the traffic concentrates, brand vs non-brand split, growth trajectory.",
+  },
+
+  pages: {
+    headline: "Where the traffic lives",
+    rows: [
+      // { url:"/", kw:0, traffic:0, intent:"Informational" },
+    ],
+    insight: "What pattern emerges across their top pages — pSEO, hub-and-spoke, brand pages, support content, etc.",
+  },
+
+  keywords: {
+    headline: "What they actually rank for",
+    rows: [
+      // { kw:"keyword", pos:1, vol:0, kd:0, intent:"Navigational" },
+    ],
+    insight: "Brand-dominant vs category-dominant. Which non-brand keywords are real wins. Which ones we could attack.",
+  },
+
+  backlinks: {
+    kpis: [
+      { label: "Total Backlinks",   value: "—" },
+      { label: "Referring Domains", value: "—" },
+      { label: "Top Linked Asset",  value: "—" },
+      { label: "Link Profile",      value: "—" },
+    ],
+    notes: "Where their authority comes from — PR, partnerships, directories, content. Anything we could replicate.",
+  },
+
+  swot: {
+    s: ["Strength 1", "Strength 2", "Strength 3"],
+    w: ["Weakness 1", "Weakness 2"],
+    o: ["Opportunity for Hellomello 1", "Opportunity 2"],
+    t: ["Threat 1", "Threat 2"],
+  },
+
+  takeaways: [
+    { title: "What to copy",   body: "Concrete tactic Hellomello should adopt." },
+    { title: "What to avoid",  body: "Concrete trap or compliance risk to sidestep." },
+    { title: "Where to win",   body: "A gap they are leaving open that we can take." },
+  ],
+};
+</script>
+
+<!-- =====================================================================
+     SLIDES
+     ===================================================================== -->
+<main class="deck" id="deck"></main>
+
+<div class="toolbar" role="toolbar" aria-label="Presentation controls">
+  <button id="prev" title="Previous (←)">←</button>
+  <button id="next" title="Next (→)">→</button>
+  <span class="sep"></span>
+  <button id="present" title="Present (P) / Esc to exit">Present</button>
+  <button onclick="window.print()" title="Export to PDF">PDF</button>
+</div>
+
+<template id="tpl">
+  <!-- 1. Cover -->
+  <section class="slide cover dark">
+    <div class="mark"></div>
+    <div class="pad">
+      <div class="head">
+        <div class="brand"><span class="dot"></span><span class="eyebrow" data-bind="segment">Segment</span></div>
+        <span class="eyebrow" data-bind="date">Date</span>
+      </div>
+      <div style="margin-top:auto;display:flex;flex-direction:column;gap:28px">
+        <span class="eyebrow">Competitor Analysis</span>
+        <h1 class="display" data-bind="brand">Brand</h1>
+        <p class="lede" style="max-width:48ch" data-bind="tagline">Tagline</p>
+        <div class="meta">
+          <div><span class="eyebrow">Domain</span><b data-bind="domain"></b></div>
+          <div><span class="eyebrow">Prepared for</span><b data-bind="prepared_for"></b></div>
+          <div><span class="eyebrow">Prepared by</span><b data-bind="prepared_by"></b></div>
+          <div><span class="eyebrow">Verdict</span><b data-verdict></b></div>
+        </div>
+      </div>
+      <div class="foot">
+        <span class="pg">01 / 10</span>
+        <span class="pg">HELLOMELLO · COMPETITOR DECK</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Overview -->
+  <section class="slide">
+    <div class="pad">
+      <div class="head">
+        <span class="eyebrow">02 — Company overview</span>
+        <span class="eyebrow" data-bind="brand"></span>
+      </div>
+      <div class="two" style="margin-top:36px">
+        <div>
+          <h2 class="display">Who they <em class="display italic">actually</em> are.</h2>
+          <p class="lede" data-bind="overview.summary"></p>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <div class="panel">
+            <h4>At a glance</h4>
+            <table data-facts></table>
+          </div>
+          <div class="panel">
+            <h4>Legal &amp; compliance posture</h4>
+            <p data-bind="overview.legal"></p>
+          </div>
+        </div>
+      </div>
+      <div class="foot"><span class="pg">02 / 10</span><span class="pg" data-bind="domain"></span></div>
+    </div>
+  </section>
+
+  <!-- 3. Brand & visual identity -->
+  <section class="slide">
+    <div class="pad">
+      <div class="head"><span class="eyebrow">03 — Brand &amp; visual identity</span><span class="eyebrow" data-bind="brand"></span></div>
+      <div style="display:grid;grid-template-columns:1fr 2fr;gap:40px;margin-top:32px;flex:1">
+        <div>
+          <h2 class="display">A look <em class="display italic">in the wild</em>.</h2>
+          <p class="lede" data-bind="brand.notes"></p>
+        </div>
+        <div class="shots" data-shots></div>
+      </div>
+      <div class="foot"><span class="pg">03 / 10</span><span class="pg" data-bind="domain"></span></div>
+    </div>
+  </section>
+
+  <!-- 4. SEO snapshot -->
+  <section class="slide dark">
+    <div class="pad">
+      <div class="head"><span class="eyebrow">04 — SEO snapshot</span><span class="eyebrow" data-bind="brand"></span></div>
+      <h2 class="display" style="font-size:clamp(40px,4vw,64px);margin:28px 0 24px">The shape of their <em class="display italic">organic presence</em>.</h2>
+      <div class="kpis" data-kpis></div>
+      <p class="lede" style="margin-top:28px" data-bind="seo.narrative"></p>
+      <div class="foot"><span class="pg">04 / 10</span><span class="pg">PREPARED BY BRIGHT DATA</span></div>
+    </div>
+  </section>
+
+  <!-- 5. Top pages -->
+  <section class="slide">
+    <div class="pad">
+      <div class="head"><span class="eyebrow">05 — Top pages</span><span class="eyebrow" data-bind="brand"></span></div>
+      <h2 class="display" style="margin:24px 0 8px" data-bind="pages.headline"></h2>
+      <p class="small" style="max-width:70ch" data-bind="pages.insight"></p>
+      <div style="margin-top:18px;flex:1;overflow:hidden">
+        <table data-pages>
+          <thead><tr><th>URL</th><th class="num">Keywords</th><th class="num">Monthly traffic</th><th>Primary intent</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="foot"><span class="pg">05 / 10</span><span class="pg" data-bind="domain"></span></div>
+    </div>
+  </section>
+
+  <!-- 6. Keywords -->
+  <section class="slide">
+    <div class="pad">
+      <div class="head"><span class="eyebrow">06 — Keyword strategy</span><span class="eyebrow" data-bind="brand"></span></div>
+      <h2 class="display" style="margin:24px 0 8px" data-bind="keywords.headline"></h2>
+      <p class="small" style="max-width:70ch" data-bind="keywords.insight"></p>
+      <div style="margin-top:18px;flex:1;overflow:hidden">
+        <table data-keywords>
+          <thead><tr><th>Keyword</th><th class="num">Position</th><th class="num">Volume</th><th class="num">KD</th><th>Intent</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="foot"><span class="pg">06 / 10</span><span class="pg" data-bind="domain"></span></div>
+    </div>
+  </section>
+
+  <!-- 7. Backlinks -->
+  <section class="slide dark">
+    <div class="pad">
+      <div class="head"><span class="eyebrow">07 — Backlink profile</span><span class="eyebrow" data-bind="brand"></span></div>
+      <h2 class="display" style="font-size:clamp(40px,4vw,64px);margin:28px 0 24px">Where their <em class="display italic">authority</em> is coming from.</h2>
+      <div class="kpis" data-backlink-kpis></div>
+      <p class="lede" style="margin-top:28px" data-bind="backlinks.notes"></p>
+      <div class="foot"><span class="pg">07 / 10</span><span class="pg">PREPARED BY BRIGHT DATA</span></div>
+    </div>
+  </section>
+
+  <!-- 8. SWOT -->
+  <section class="slide">
+    <div class="pad">
+      <div class="head"><span class="eyebrow">08 — SWOT vs Hellomello</span><span class="eyebrow" data-bind="brand"></span></div>
+      <h2 class="display" style="margin:18px 0 18px">How they stack against <em class="display italic">us</em>.</h2>
+      <div class="swot">
+        <div class="panel s"><h4>Strengths</h4><ul class="tight" data-swot="s"></ul></div>
+        <div class="panel w"><h4>Weaknesses</h4><ul class="tight" data-swot="w"></ul></div>
+        <div class="panel o"><h4>Opportunities for Hellomello</h4><ul class="tight" data-swot="o"></ul></div>
+        <div class="panel t"><h4>Threats</h4><ul class="tight" data-swot="t"></ul></div>
+      </div>
+      <div class="foot"><span class="pg">08 / 10</span><span class="pg" data-bind="domain"></span></div>
+    </div>
+  </section>
+
+  <!-- 9. Strategic takeaways -->
+  <section class="slide">
+    <div class="pad closing">
+      <div class="head"><span class="eyebrow">09 — Strategic takeaways</span><span class="eyebrow" data-bind="brand"></span></div>
+      <span class="eyebrow" style="margin-top:24px">What this means for Hellomello</span>
+      <h2 class="display">Three moves we should <em class="display italic">make</em>.</h2>
+      <div class="recos" data-recos></div>
+      <div class="foot" style="margin-top:auto"><span class="pg">09 / 10</span><span class="pg" data-bind="domain"></span></div>
+    </div>
+  </section>
+
+  <!-- 10. Verdict -->
+  <section class="slide dark">
+    <div class="pad">
+      <div class="head"><span class="eyebrow">10 — Verdict</span><span class="eyebrow" data-bind="date"></span></div>
+      <div style="margin-top:auto;display:flex;flex-direction:column;gap:24px">
+        <span class="eyebrow">Our position</span>
+        <h2 class="display" style="font-size:clamp(64px,7vw,120px);margin:0" data-verdict-large></h2>
+        <p class="lede" style="max-width:60ch" data-bind="tagline"></p>
+        <div style="display:flex;gap:12px;margin-top:8px">
+          <span class="tag" data-bind="segment"></span>
+          <span class="tag" data-bind="domain"></span>
+        </div>
+      </div>
+      <div class="foot"><span class="pg">10 / 10</span><span class="pg">END · HELLOMELLO COMPETITOR DECK</span></div>
+    </div>
+  </section>
+</template>
+
+<script>
+(function(){
+  const C = window.COMP;
+  const deck = document.getElementById('deck');
+  const tpl = document.getElementById('tpl');
+  deck.appendChild(tpl.content.cloneNode(true));
+
+  function get(path){ return path.split('.').reduce((a,k)=>a==null?a:a[k], C); }
+
+  // text bindings
+  deck.querySelectorAll('[data-bind]').forEach(el=>{
+    const v = get(el.getAttribute('data-bind'));
+    if(v!=null) el.textContent = v;
+  });
+
+  // verdict
+  deck.querySelectorAll('[data-verdict]').forEach(el=>{ el.textContent = C.verdict || '—'; });
+  deck.querySelectorAll('[data-verdict-large]').forEach(el=>{ el.textContent = (C.verdict||'—'); });
+
+  // facts table
+  const facts = deck.querySelector('[data-facts]');
+  if(facts && C.overview?.facts){
+    facts.innerHTML = C.overview.facts.map(([k,v])=>`<tr><th style="padding-left:0">${k}</th><td class="num">${v}</td></tr>`).join('');
+  }
+
+  // screenshots
+  const shots = deck.querySelector('[data-shots]');
+  if(shots){
+    const list = C.brand?.screenshots || [];
+    shots.innerHTML = list.length
+      ? list.slice(0,6).map(src=>`<figure class="shot"><img src="${src}" alt=""></figure>`).join('')
+      : Array.from({length:6}).map(()=>`<div class="shot"></div>`).join('');
+  }
+
+  // KPIs
+  function renderKpis(target, items){
+    const el = deck.querySelector(target);
+    if(!el || !items) return;
+    el.innerHTML = items.map(k=>`
+      <div class="kpi">
+        <div class="label">${k.label}</div>
+        <div class="value">${k.value}</div>
+        ${k.delta?`<div class="delta ${/^-/.test(k.delta)?'neg':''}">${k.delta}</div>`:'<div></div>'}
+      </div>`).join('');
+  }
+  renderKpis('[data-kpis]', C.seo?.kpis);
+  renderKpis('[data-backlink-kpis]', C.backlinks?.kpis);
+
+  // pages table
+  const pagesBody = deck.querySelector('[data-pages] tbody');
+  if(pagesBody){
+    pagesBody.innerHTML = (C.pages?.rows||[]).slice(0,8).map(r=>`
+      <tr><td><a class="url" href="${r.url}" target="_blank" rel="noopener">${r.url.replace(/^https?:\/\//,'')}</a></td>
+      <td class="num">${r.kw?.toLocaleString?.()||r.kw||'—'}</td>
+      <td class="num">${r.traffic?.toLocaleString?.()||r.traffic||'—'}</td>
+      <td>${r.intent||'—'}</td></tr>`).join('');
+  }
+
+  // keywords table
+  const kwBody = deck.querySelector('[data-keywords] tbody');
+  if(kwBody){
+    kwBody.innerHTML = (C.keywords?.rows||[]).slice(0,9).map(r=>`
+      <tr><td>${r.kw}</td>
+      <td class="num">${r.pos}</td>
+      <td class="num">${r.vol?.toLocaleString?.()||r.vol}</td>
+      <td class="num">${r.kd}</td>
+      <td>${r.intent||'—'}</td></tr>`).join('');
+  }
+
+  // swot
+  deck.querySelectorAll('[data-swot]').forEach(ul=>{
+    const arr = C.swot?.[ul.getAttribute('data-swot')]||[];
+    ul.innerHTML = arr.map(t=>`<li>${t}</li>`).join('');
+  });
+
+  // recos
+  const recos = deck.querySelector('[data-recos]');
+  if(recos){
+    recos.innerHTML = (C.takeaways||[]).slice(0,3).map((r,i)=>`
+      <div class="reco">
+        <span class="n">${String(i+1).padStart(2,'0')}</span>
+        <h5>${r.title}</h5>
+        <p class="small">${r.body}</p>
+      </div>`).join('');
+  }
+
+  // verdict tag color on cover
+  const verdictEl = deck.querySelector('[data-verdict]');
+  if(verdictEl && C.verdict_tone){ verdictEl.style.color = ({green:'#A9CDA0', amber:'#E6CB85', red:'#E0987A'})[C.verdict_tone] || ''; }
+
+  // ---- navigation ----
+  const slides = [...deck.querySelectorAll('.slide')];
+  let idx = 0;
+  function show(i){
+    idx = Math.max(0, Math.min(slides.length-1, i));
+    slides.forEach((s,j)=>s.classList.toggle('active', j===idx));
+    if(document.body.classList.contains('present')){
+      slides[idx].scrollIntoView({behavior:'instant', block:'center'});
+    }
+  }
+  function next(){ show(idx+1); }
+  function prev(){ show(idx-1); }
+  document.getElementById('next').onclick = next;
+  document.getElementById('prev').onclick = prev;
+  document.getElementById('present').onclick = ()=>{
+    document.body.classList.toggle('present');
+    if(document.body.classList.contains('present')){
+      show(idx);
+      if(document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(()=>{});
+    } else if(document.fullscreenElement){ document.exitFullscreen(); }
+  };
+  document.addEventListener('keydown', e=>{
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' ') { next(); e.preventDefault(); }
+    else if(e.key==='ArrowLeft'||e.key==='PageUp') { prev(); e.preventDefault(); }
+    else if(e.key==='p'||e.key==='P') document.getElementById('present').click();
+    else if(e.key==='Escape' && document.body.classList.contains('present')) document.getElementById('present').click();
+  });
+  slides[0].classList.add('active');
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hellomello — Brand Guidelines</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ============================================================================
+   Tokens — Hellomello. Mirrors the Brand Bible (May 26).
+   ========================================================================== */
+:root{
+  /* Brand */
+  --green:#283718;            /* primary dark green */
+  --green-2:#1F2B12;
+  --green-3:#34481F;
+  --cream:#FEFAE0;            /* primary cream */
+  --cream-2:#F6F0CC;          /* tinted cream surface */
+  --cream-3:#FBF6D6;          /* paler cream */
+
+  /* Accent palette (from bible §03) */
+  --terra:#BC6C25;            /* deep terracotta */
+  --terra-light:#DDA15E;      /* light terracotta */
+  --lavender:#BEB8EB;
+  --sage:#B2DCD0;
+  --blue:#2A78A0;
+
+  /* Surfaces */
+  --paper:#FBF6D6;            /* this guideline doc's background */
+  --paper-2:#F6F0CC;          /* nested panel */
+  --surface:#FFFFFF;
+  --surface-2:#FAF7E8;
+
+  /* Ink */
+  --ink:#283718;
+  --ink-2:#34481F;
+  --muted:#5C6849;
+  --muted-2:#8C9779;
+  --disabled:#B5BCA6;
+
+  /* Borders */
+  --border:#E8E1B8;
+  --border-strong:#CFC68C;
+  --rule:#283718;
+
+  /* Status */
+  --ok-bg:#E4F1D6;  --ok-fg:#3F6A1A;  --ok-bd:#C5DFA6;
+  --warn-bg:#FBE7C4; --warn-fg:#8A4A0E; --warn-bd:#EFC788;
+  --bad-bg:#F8D7D2;  --bad-fg:#9B2418;  --bad-bd:#EDB5AC;
+  --info-bg:#DCE9F1; --info-fg:#1F587A; --info-bd:#B6CFDF;
+
+  /* Type */
+  --font-display:"League Spartan","Helvetica Neue",system-ui,sans-serif;
+  --font-sub:"League Spartan",Georgia,serif;
+  --font-body:"Inter","Helvetica Neue",system-ui,-apple-system,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+
+  /* Radii */
+  --r-sm:.25rem; --r-md:.5rem; --r-card:.875rem; --r-lg:1rem; --r-xl:1.5rem; --r-pill:9999px;
+
+  /* Shadow */
+  --sh-card:0 6px 22px rgba(40,55,24,.10);
+  --sh-soft:0 1px 16px rgba(40,55,24,.07);
+
+  --content:1100px;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  font-family:var(--font-body);
+  color:var(--ink);
+  background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+  font-size:15px;
+  line-height:1.6;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+code.inline{font-family:var(--font-mono);font-size:12px;background:var(--paper-2);color:var(--ink);padding:1px 6px;border-radius:4px;border:1px solid var(--border)}
+
+.page{max-width:var(--content);margin:0 auto;padding:64px 56px 160px}
+
+/* Document switcher (mirrors da-sample) */
+.doc-switcher{display:inline-flex;gap:2px;background:var(--surface-2);border:1px solid var(--border-strong);border-radius:9999px;padding:4px;margin-bottom:28px;font-size:13px}
+.doc-switcher a{padding:8px 18px;border-radius:9999px;text-decoration:none;color:var(--muted);font-weight:500;transition:all .15s;font-family:var(--font-body)}
+.doc-switcher a:hover{color:var(--ink)}
+.doc-switcher a.active{background:var(--green);color:var(--cream);box-shadow:var(--sh-soft)}
+
+/* Doc header */
+.doc-header{padding-bottom:48px;border-bottom:1px solid var(--border-strong);margin-bottom:56px;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.doc-eyebrow{font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.doc-title{font-family:var(--font-display);font-weight:900;font-size:64px;letter-spacing:-.025em;line-height:.94;margin:0 0 20px;max-width:14ch;text-transform:none}
+.doc-title em{font-style:normal;color:var(--terra)}
+.doc-lead{font-size:17px;line-height:1.55;color:var(--muted);max-width:60ch;margin:0}
+.doc-meta{display:flex;gap:24px;flex-wrap:wrap;margin-top:32px;font-family:var(--font-mono);font-size:11.5px;color:var(--muted)}
+.doc-meta strong{color:var(--ink);font-weight:600}
+
+.brandmark{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.brandmark .wordmark{font-family:var(--font-display);font-weight:900;font-size:32px;letter-spacing:-.02em;color:var(--green);line-height:1}
+.brandmark .wordmark span:nth-child(1){color:var(--green)}
+.brandmark .wordmark span:nth-child(2){color:var(--terra)}
+.brandmark .wordmark span:nth-child(3){color:var(--lavender)}
+.brandmark .wordmark span:nth-child(4){color:var(--sage)}
+.brandmark .wordmark span:nth-child(5){color:var(--blue)}
+.brandmark .tag{font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted)}
+
+/* Section structure */
+section{margin-bottom:96px;scroll-margin-top:32px}
+.sec-num{font-family:var(--font-mono);font-size:11.5px;color:var(--muted);letter-spacing:.1em;margin-bottom:10px;text-transform:uppercase}
+.sec-title{font-family:var(--font-display);font-weight:700;font-size:38px;letter-spacing:-.02em;line-height:1.05;margin:0 0 14px}
+.sec-lead{font-size:15.5px;line-height:1.65;color:var(--muted);max-width:62ch;margin:0 0 36px}
+.sub-title{font-family:var(--font-display);font-weight:600;font-size:18px;margin:40px 0 18px;letter-spacing:-.005em;text-transform:uppercase;color:var(--ink-2)}
+.sub-title:first-of-type{margin-top:0}
+
+hr.div{border:0;border-top:1px solid var(--border);margin:48px 0}
+
+/* TOC */
+.toc{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:22px 26px;margin-bottom:80px}
+.toc h3{font-family:var(--font-mono);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin:0 0 12px}
+.toc ol{margin:0;padding-left:22px;columns:2;column-gap:36px;font-size:13.5px;line-height:2}
+.toc a{color:var(--ink);text-decoration:none}
+.toc a:hover{color:var(--terra)}
+
+/* Stat row */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
+.stat{background:var(--green);color:var(--cream);border-radius:14px;padding:22px 24px}
+.stat .n{font-family:var(--font-display);font-weight:900;font-size:42px;letter-spacing:-.02em;line-height:1;display:flex;align-items:baseline;gap:6px}
+.stat .n small{font-size:18px;color:var(--terra-light);font-weight:700}
+.stat .l{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--sage);margin-top:10px}
+
+/* Two-col layout for who-we-are */
+.who{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:start}
+.who p{margin:0 0 14px;color:var(--ink-2);line-height:1.7}
+.differs{display:grid;gap:18px}
+.differ{display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start}
+.differ .num{font-family:var(--font-display);font-weight:900;font-size:22px;color:var(--terra);line-height:1.1}
+.differ h4{font-family:var(--font-display);font-weight:700;margin:0 0 4px;font-size:15px;letter-spacing:-.005em}
+.differ p{margin:0;color:var(--muted);font-size:14px;line-height:1.55}
+
+/* Brand heart */
+.heart{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.heart .h{background:var(--green);color:var(--cream);border-radius:14px;padding:26px 24px;min-height:200px;display:flex;flex-direction:column}
+.heart .h .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--terra-light);margin-bottom:18px}
+.heart .h p{margin:0;font-family:var(--font-display);font-weight:500;font-size:18px;line-height:1.35;color:var(--cream)}
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}
+.value{background:var(--surface);border:1px solid var(--border-strong);border-radius:12px;padding:20px}
+.value .vn{font-family:var(--font-display);font-weight:900;font-size:18px;color:var(--terra);letter-spacing:-.01em}
+.value h4{font-family:var(--font-display);font-weight:700;font-size:15px;margin:6px 0 6px;letter-spacing:-.005em}
+.value p{margin:0;font-size:13.5px;color:var(--muted);line-height:1.55}
+
+/* Colour palette */
+.swatches{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}
+.sw{border-radius:12px;overflow:hidden;border:1px solid var(--border)}
+.sw .chip{height:120px}
+.sw .meta{padding:10px 12px;background:var(--surface);font-family:var(--font-mono);font-size:11px;color:var(--ink)}
+.sw .meta b{display:block;color:var(--muted);font-weight:500;text-transform:uppercase;letter-spacing:.1em;font-size:9.5px;margin-bottom:3px}
+.sw.alt .meta{background:var(--green);color:var(--cream)}
+.sw.alt .meta b{color:var(--terra-light)}
+
+/* Typography specimens */
+.spec{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:32px;margin-bottom:18px}
+.spec .label{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}
+.spec .label b{color:var(--terra);font-weight:600}
+.spec .demo-display{font-family:var(--font-display);font-weight:900;font-size:56px;letter-spacing:-.025em;line-height:.94;margin:0 0 20px;color:var(--green)}
+.spec .demo-sub{font-family:var(--font-sub);font-weight:600;font-size:30px;line-height:1.15;margin:0 0 20px;color:var(--green)}
+.spec .demo-body{font-family:var(--font-body);font-size:15px;line-height:1.7;margin:0 0 20px;color:var(--ink-2);max-width:62ch}
+.spec .demo-body b{font-weight:600}
+.spec .meta{font-family:var(--font-mono);font-size:11px;color:var(--muted);border-top:1px solid var(--border);padding-top:14px;line-height:1.7}
+
+/* Spec rows (reusable) */
+.row-block{border:1px solid var(--border-strong);border-radius:14px;overflow:hidden;background:var(--surface)}
+.row-block .r{display:grid;grid-template-columns:240px 1fr 180px;align-items:center;padding:15px 20px;border-bottom:1px solid var(--border);font-size:13.5px;column-gap:18px}
+.row-block .r:last-child{border-bottom:0}
+.row-block .r .k{font-family:var(--font-mono);font-size:12px;color:var(--ink)}
+.row-block .r .v{color:var(--muted);line-height:1.5}
+.row-block .r .hex{font-family:var(--font-mono);font-size:11.5px;color:var(--muted);text-align:right}
+
+/* Logo grid */
+.logo-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:16px}
+.logo-card{border:1px solid var(--border-strong);border-radius:14px;background:var(--surface);padding:26px 22px;text-align:center;display:flex;flex-direction:column;justify-content:space-between;gap:18px;min-height:200px}
+.logo-card.dark{background:var(--green);color:var(--cream);border-color:var(--green-2)}
+.logo-card.cream{background:var(--cream);color:var(--green)}
+.logo-card .label{font-family:var(--font-mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.logo-card.dark .label{color:var(--terra-light)}
+.logo-card .demo{flex:1;display:flex;align-items:center;justify-content:center}
+.logo-wordmark{font-family:var(--font-display);font-weight:900;font-size:38px;letter-spacing:-.025em;line-height:1}
+.logo-wordmark.colored span:nth-child(1){color:var(--green)}
+.logo-wordmark.colored span:nth-child(2){color:var(--terra)}
+.logo-wordmark.colored span:nth-child(3){color:var(--lavender)}
+.logo-wordmark.colored span:nth-child(4){color:var(--sage)}
+.logo-wordmark.colored span:nth-child(5){color:var(--blue)}
+.logo-submark{font-family:var(--font-display);font-weight:900;font-size:34px;letter-spacing:-.025em;width:84px;height:84px;background:var(--terra);color:var(--cream);border-radius:18px;display:flex;align-items:center;justify-content:center}
+.logo-tile{display:grid;grid-template-columns:repeat(5,1fr);font-family:var(--font-display);font-weight:900;font-size:20px;letter-spacing:-.02em;width:100%;max-width:200px}
+.logo-tile div{aspect-ratio:1;display:flex;align-items:center;justify-content:center;color:var(--cream)}
+.logo-tile div:nth-child(1){background:var(--green)}
+.logo-tile div:nth-child(2){background:var(--terra)}
+.logo-tile div:nth-child(3){background:var(--lavender);color:var(--green)}
+.logo-tile div:nth-child(4){background:var(--sage);color:var(--green)}
+.logo-tile div:nth-child(5){background:var(--blue)}
+.logo-tile div:nth-child(6){background:var(--terra-light);color:var(--green)}
+.logo-tile div:nth-child(7){background:var(--cream);color:var(--green)}
+.logo-tile div:nth-child(8){background:var(--green)}
+.logo-tile div:nth-child(9){background:var(--blue)}
+.logo-tile div:nth-child(10){background:var(--terra)}
+
+/* Rules */
+.rules{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.rules h4{font-family:var(--font-display);font-weight:700;font-size:15px;margin:0 0 12px;letter-spacing:-.005em;text-transform:uppercase}
+.rules ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.rules li{background:var(--surface);border:1px solid var(--border-strong);border-radius:10px;padding:12px 14px 12px 40px;position:relative;font-size:13.5px;line-height:1.55;color:var(--ink-2)}
+.rules li:before{position:absolute;left:14px;top:12px;font-family:var(--font-mono);font-size:14px;font-weight:600}
+.rules.do li{border-left:3px solid var(--ok-fg)}
+.rules.do li:before{content:"✓";color:var(--ok-fg)}
+.rules.dont li{border-left:3px solid var(--bad-fg)}
+.rules.dont li:before{content:"×";color:var(--bad-fg)}
+
+/* Voice cards */
+.voice{display:grid;grid-template-columns:1.2fr 1fr;gap:24px}
+.voice .hero{background:var(--green);color:var(--cream);border-radius:16px;padding:28px 30px}
+.voice .hero .label{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--terra-light);margin-bottom:10px}
+.voice .hero h3{font-family:var(--font-display);font-weight:700;font-size:24px;margin:0 0 16px;color:var(--terra-light)}
+.voice .hero p{margin:0 0 14px;font-size:14.5px;line-height:1.6;color:var(--cream)}
+.voice .pillars{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pillar{background:var(--surface);border:1px solid var(--border-strong);border-radius:12px;padding:16px}
+.pillar .pn{font-family:var(--font-display);font-weight:900;font-size:20px;color:var(--terra);line-height:1}
+.pillar h4{font-family:var(--font-display);font-weight:700;font-size:14px;margin:6px 0 6px;color:var(--blue);text-transform:uppercase;letter-spacing:.02em}
+.pillar p{margin:0;font-size:13px;color:var(--muted);line-height:1.55}
+
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.tag{font-family:var(--font-mono);font-size:11.5px;padding:5px 12px;border-radius:9999px;background:var(--sage);color:var(--green);font-weight:500}
+.tag.bad{background:transparent;color:var(--bad-fg);text-decoration:line-through;border:1px solid var(--bad-bd)}
+
+/* Tone by channel */
+.channels{border:1px solid var(--border-strong);border-radius:14px;overflow:hidden;background:var(--surface)}
+.channels .row{display:grid;grid-template-columns:180px 200px 1fr;gap:18px;padding:14px 20px;border-bottom:1px solid var(--border);align-items:start;font-size:13.5px}
+.channels .row:last-child{border-bottom:0}
+.channels .row.head{background:var(--cream-2);font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+.channels .ch{font-weight:600;color:var(--ink)}
+.channels .tn{color:var(--terra);font-style:italic}
+.channels .ex{color:var(--muted)}
+
+.callouts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
+.callout{background:var(--green);color:var(--cream);border-radius:14px;padding:18px 20px;border:1px solid var(--green-3)}
+.callout h5{font-family:var(--font-display);font-weight:700;font-size:14px;margin:0 0 8px;color:var(--sage);text-transform:uppercase;letter-spacing:.02em}
+.callout p{margin:0;font-size:13px;line-height:1.55;color:var(--cream)}
+
+/* TGA / AHPRA banner */
+.ahpra-banner{background:var(--warn-bg);border:1px solid var(--warn-bd);border-radius:12px;padding:18px 22px;margin-bottom:28px}
+.ahpra-banner b{display:block;font-family:var(--font-display);font-weight:700;font-size:13px;color:var(--warn-fg);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+.ahpra-banner p{margin:0;font-size:13.5px;color:var(--warn-fg)}
+
+.lang-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.lang-card{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:22px}
+.lang-card.ok{background:#F6FAEF}
+.lang-card.bad{background:#FDF2F0}
+.lang-card .badge{display:inline-block;font-family:var(--font-mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;padding:4px 10px;border-radius:9999px;margin-right:10px;font-weight:600}
+.lang-card.ok .badge{background:var(--ok-bg);color:var(--ok-fg)}
+.lang-card.bad .badge{background:var(--bad-bg);color:var(--bad-fg)}
+.lang-card h3{font-family:var(--font-display);font-weight:700;font-size:22px;display:inline-block;margin:0 0 18px;vertical-align:middle}
+.lang-group{margin-bottom:16px}
+.lang-group h5{font-family:var(--font-mono);font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin:0 0 10px}
+.lang-card.bad .lang-group h5{color:var(--bad-fg)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip-tag{font-size:12.5px;padding:5px 11px;border-radius:9999px;color:var(--ink);background:#D2E5B4;border:1px solid #B7D293}
+.bad .chip-tag{background:#F3C8C0;border-color:#E3A697;color:#7A1C13}
+
+.grey-table{border:1px solid var(--border-strong);border-radius:14px;overflow:hidden;background:var(--surface);margin-top:14px}
+.grey-table .row{display:grid;grid-template-columns:200px 220px 1fr;gap:18px;padding:14px 20px;border-bottom:1px solid var(--border);font-size:13px;align-items:start}
+.grey-table .row:last-child{border-bottom:0}
+.grey-table .row.head{background:var(--cream-2);font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}
+.grey-table .term{font-family:var(--font-mono);font-size:12px;color:var(--ink)}
+.grey-table .risk{color:var(--terra);font-style:italic}
+
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.ba-row{display:contents}
+.ba-cell{border-radius:12px;padding:14px 16px;font-size:13.5px;line-height:1.5}
+.ba-cell .lbl{font-family:var(--font-mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;margin-bottom:6px;display:block}
+.ba-cell.dont{background:#FDF2F0;border:1px solid #EFCFC9}
+.ba-cell.dont .lbl{color:var(--bad-fg)}
+.ba-cell.dont q{font-style:normal;color:#5A1208}
+.ba-cell.do{background:#EFF7DE;border:1px solid #CFE0A6}
+.ba-cell.do .lbl{color:var(--ok-fg)}
+.ba-cell.do q{font-style:normal;color:#2C4A0E}
+
+/* Conditions */
+.conditions{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cond{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:14px}
+.cond .num{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.cond h4{font-family:var(--font-display);font-weight:700;font-size:20px;margin:0;color:var(--green)}
+.cond .when{background:var(--cream-2);border-left:3px solid var(--terra);padding:10px 14px;border-radius:6px;font-size:13.5px;color:var(--ink-2);font-style:italic;line-height:1.5}
+.cond .body{font-size:13.5px;color:var(--muted);line-height:1.6;margin:0}
+.cond .lbl{align-self:flex-start;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;padding:6px 12px;border-radius:9999px;background:var(--sage);color:var(--green);font-weight:600;margin-top:auto}
+
+/* Testimonials */
+.test-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.test-col h4{font-family:var(--font-display);font-weight:700;font-size:15px;margin:0 0 12px;text-transform:uppercase;letter-spacing:.04em}
+.test-col.ok h4{color:var(--ok-fg)}
+.test-col.bad h4{color:var(--bad-fg)}
+.test-col ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.test-col li{background:var(--surface);border:1px solid var(--border-strong);border-radius:10px;padding:14px 16px;font-size:13.5px;line-height:1.55;color:var(--ink-2)}
+.test-col.ok li{border-left:3px solid var(--ok-fg)}
+.test-col.bad li{border-left:3px solid var(--bad-fg)}
+.test-col li small{display:block;margin-top:6px;font-family:var(--font-mono);font-size:10.5px;color:var(--muted);font-style:italic}
+
+.filters{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-top:24px}
+.filter{background:var(--green);color:var(--cream);border-radius:12px;padding:18px 20px}
+.filter .n{font-family:var(--font-display);font-weight:900;font-size:24px;color:var(--terra-light);line-height:1;margin-bottom:8px}
+.filter h5{font-family:var(--font-display);font-weight:700;font-size:14px;margin:0 0 6px;text-transform:uppercase;color:var(--sage);letter-spacing:.04em}
+.filter p{margin:0;font-size:13px;line-height:1.55;color:var(--cream)}
+
+/* Footer */
+.foot{border-top:1px solid var(--border-strong);padding-top:32px;margin-top:80px;display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-family:var(--font-mono);font-size:11.5px}
+
+@media (max-width:920px){
+  .page{padding:40px 24px 120px}
+  .doc-header{grid-template-columns:1fr;gap:24px}
+  .doc-title{font-size:48px}
+  .who,.voice,.test-grid,.lang-grid,.ba{grid-template-columns:1fr}
+  .heart,.values,.conditions,.callouts,.filters,.stats{grid-template-columns:1fr 1fr}
+  .swatches{grid-template-columns:repeat(3,1fr)}
+  .logo-grid{grid-template-columns:1fr 1fr}
+  .channels .row{grid-template-columns:1fr;gap:6px}
+  .grey-table .row{grid-template-columns:1fr;gap:4px}
+  .toc ol{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <nav class="doc-switcher">
+    <a href="/hellomello/brand/" class="active">Brand Guidelines</a>
+    <a href="/hellomello/brand/kit">Design Kit</a>
+  </nav>
+
+  <header class="doc-header">
+    <div>
+      <p class="doc-eyebrow">Hellomello · Brand Bible · v1.0 · May 2026</p>
+      <h1 class="doc-title">Telehealth built around <em>you</em>.</h1>
+      <p class="doc-lead">Feel-good healthcare, delivered. This document codifies the Hellomello identity — voice, visual system, and the compliance language that keeps every piece of content TGA- and AHPRA-aligned.</p>
+      <div class="doc-meta">
+        <span>VERSION <strong>1.0</strong></span>
+        <span>LAST UPDATED <strong>2026-05-28</strong></span>
+        <span>OWNER <strong>Hellomello Brand</strong></span>
+        <span>STATUS <strong>Live</strong></span>
+      </div>
+    </div>
+    <div class="brandmark" aria-hidden="true">
+      <div class="wordmark"><span>h</span><span>e</span><span>l</span><span>l</span><span>o</span><br><span>m</span><span>e</span><span>l</span><span>l</span><span>o</span></div>
+      <div class="tag">Primary submark</div>
+    </div>
+  </header>
+
+  <div class="toc" aria-label="Table of contents">
+    <h3>Contents</h3>
+    <ol>
+      <li><a href="#who">Who we are</a></li>
+      <li><a href="#heart">Brand heart &amp; values</a></li>
+      <li><a href="#colour">Colour palette</a></li>
+      <li><a href="#type">Typography</a></li>
+      <li><a href="#logo">Logo usage</a></li>
+      <li><a href="#voice">Brand voice</a></li>
+      <li><a href="#tone">Tone by channel</a></li>
+      <li><a href="#ahpra">TGA / AHPRA language</a></li>
+      <li><a href="#conditions">Conditions we can mention</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+    </ol>
+  </div>
+
+  <!-- 01 ------------------------------------------------------------ -->
+  <section id="who">
+    <div class="sec-num">01 — Identity</div>
+    <h2 class="sec-title">Who we are</h2>
+    <p class="sec-lead">An Australian alternative telehealth clinic. AHPRA-registered doctors and nurse practitioners. 100% online. No physical clinics. No GP referral needed. Available anywhere in Australia.</p>
+
+    <div class="who">
+      <div>
+        <h3 class="sub-title">What we do</h3>
+        <p>Patients complete a short pre-screening questionnaire, book a telehealth consultation, and if eligible receive a personalised care plan with medication dispatched via pharmacy partners.</p>
+        <p>Care is delivered end-to-end online — eligibility, consultation, plan, dispatch and aftercare — without the friction of a traditional GP funnel.</p>
+        <div class="stats">
+          <div class="stat"><div class="n">50K<small>+</small></div><div class="l">Patients</div></div>
+          <div class="stat"><div class="n">4.7<small>★</small></div><div class="l">Google rating</div></div>
+          <div class="stat"><div class="n">Same<small>day</small></div><div class="l">Dispatch</div></div>
+        </div>
+      </div>
+      <div>
+        <h3 class="sub-title">What makes us different</h3>
+        <div class="differs">
+          <div class="differ"><div class="num">01</div><div><h4>Feel-good healthcare</h4><p>We care about how the experience feels. Every interaction should leave the patient feeling better, not drained.</p></div></div>
+          <div class="differ"><div class="num">02</div><div><h4>Simple, stress-free process</h4><p>From eligibility to receiving care, every step is designed to feel effortless. No waiting rooms, no referrals.</p></div></div>
+          <div class="differ"><div class="num">03</div><div><h4>Laid-back but legit</h4><p>AHPRA-registered clinicians. Regulated. Compliant. We just don't make it feel stiff or formal.</p></div></div>
+          <div class="differ"><div class="num">04</div><div><h4>Warm, human-centred care</h4><p>Hellomello cares about the person behind the patient — and it shows in every interaction.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 ------------------------------------------------------------ -->
+  <section id="heart">
+    <div class="sec-num">02 — Foundation</div>
+    <h2 class="sec-title">Brand heart</h2>
+    <p class="sec-lead">Why we exist, what we're here to do, and where we're going. Every campaign, page and conversation rolls up to one of these three statements.</p>
+
+    <div class="heart">
+      <div class="h"><div class="k">Our why</div><p>Healthcare should help with headaches, not cause them. We exist to give Australians access to alternative care that actually makes them feel good.</p></div>
+      <div class="h"><div class="k">Mission</div><p>To keep things simple: we're here to help you feel better. Feel-good healthcare that takes the stress out of getting help.</p></div>
+      <div class="h"><div class="k">Vision</div><p>A world where healthcare doesn't suck. Where people feel like a person, not a chart. Where relief is accessible, not a battle to earn.</p></div>
+    </div>
+
+    <h3 class="sub-title" style="margin-top:48px">Our values</h3>
+    <div class="values">
+      <div class="value"><div class="vn">01</div><h4>Kindness &amp; empathy</h4><p>We're not here to rush you out the door. Every person deserves to feel heard and supported.</p></div>
+      <div class="value"><div class="vn">02</div><h4>Patient-centred care</h4><p>You're more than a chart. Your care should be personal and feel good, every time.</p></div>
+      <div class="value"><div class="vn">03</div><h4>Zero judgement</h4><p>No cold stares, no intimidating jargon. A safe, kind space where you can talk about what you need.</p></div>
+      <div class="value"><div class="vn">04</div><h4>Accessible &amp; convenient</h4><p>Healthcare should be set up for the people who need it. Online, simple, no barriers.</p></div>
+      <div class="value"><div class="vn">05</div><h4>Laid-back but legit</h4><p>We keep it chill, but we're serious about providing the best care. Approachable and expert.</p></div>
+      <div class="value"><div class="vn">06</div><h4>Going above &amp; beyond</h4><p>"Good enough" isn't good enough. We go all in because our patients deserve it.</p></div>
+    </div>
+  </section>
+
+  <!-- 03 ------------------------------------------------------------ -->
+  <section id="colour">
+    <div class="sec-num">03 — System</div>
+    <h2 class="sec-title">Colour palette</h2>
+    <p class="sec-lead">Cream and dark green are the load-bearing pair. Terracotta is the primary accent for emphasis, numerals and section markers. Lavender, sage and blue act as supporting tones for illustrations and section tiles.</p>
+
+    <h3 class="sub-title">Primary colours</h3>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#FEFAE0"></div><div class="meta"><b>Cream</b>#FEFAE0</div></div>
+      <div class="sw"><div class="chip" style="background:#DDA15E"></div><div class="meta"><b>Light Terracotta</b>#DDA15E</div></div>
+      <div class="sw"><div class="chip" style="background:#BC6C25"></div><div class="meta"><b>Terracotta</b>#BC6C25</div></div>
+      <div class="sw"><div class="chip" style="background:#BEB8EB"></div><div class="meta"><b>Lavender</b>#BEB8EB</div></div>
+      <div class="sw"><div class="chip" style="background:#B2DCD0"></div><div class="meta"><b>Sage</b>#B2DCD0</div></div>
+      <div class="sw"><div class="chip" style="background:#2A78A0"></div><div class="meta"><b>Blue</b>#2A78A0</div></div>
+      <div class="sw"><div class="chip" style="background:#283718"></div><div class="meta"><b>Dark Green</b>#283718</div></div>
+    </div>
+
+    <h3 class="sub-title">Transparent / on-context</h3>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#FFFFFF;border-bottom:1px solid var(--border)"></div><div class="meta"><b>White</b>#FFFFFF</div></div>
+      <div class="sw alt"><div class="chip" style="background:#283718"></div><div class="meta"><b>Green ink</b>#283718</div></div>
+      <div class="sw alt"><div class="chip" style="background:#BC6C25"></div><div class="meta"><b>Terra ink</b>#BC6C25</div></div>
+      <div class="sw alt"><div class="chip" style="background:#283718"></div><div class="meta"><b>Green ink</b>#283718</div></div>
+      <div class="sw alt"><div class="chip" style="background:#283718"></div><div class="meta"><b>Green ink</b>#283718</div></div>
+      <div class="sw alt"><div class="chip" style="background:#2A78A0"></div><div class="meta"><b>Blue ink</b>#2A78A0</div></div>
+      <div class="sw alt"><div class="chip" style="background:#283718"></div><div class="meta"><b>Green ink</b>#283718</div></div>
+    </div>
+
+    <h3 class="sub-title">Usage rules</h3>
+    <div class="row-block">
+      <div class="r"><span class="k">background.default</span><span class="v">Cream — the warm canvas behind body content.</span><span class="hex">#FEFAE0</span></div>
+      <div class="r"><span class="k">background.inverse</span><span class="v">Dark green — full-bleed sections, footers, value tiles.</span><span class="hex">#283718</span></div>
+      <div class="r"><span class="k">accent.primary</span><span class="v">Terracotta — section numerals, emphasis, primary CTA hover.</span><span class="hex">#BC6C25</span></div>
+      <div class="r"><span class="k">accent.soft</span><span class="v">Light terracotta — eyebrows on dark, highlights, illustration.</span><span class="hex">#DDA15E</span></div>
+      <div class="r"><span class="k">accent.cool</span><span class="v">Sage — approved tags, soft surfaces on dark sections.</span><span class="hex">#B2DCD0</span></div>
+      <div class="r"><span class="k">accent.support</span><span class="v">Lavender — illustration and tertiary supporting moments.</span><span class="hex">#BEB8EB</span></div>
+      <div class="r"><span class="k">accent.info</span><span class="v">Blue — informational labels, links inside dark sections.</span><span class="hex">#2A78A0</span></div>
+    </div>
+  </section>
+
+  <!-- 04 ------------------------------------------------------------ -->
+  <section id="type">
+    <div class="sec-num">04 — System</div>
+    <h2 class="sec-title">Typography</h2>
+    <p class="sec-lead">Three families. League Spartan does the heavy lifting for display. Neue Einstellung is reserved for secondary display moments. Inter carries everything readable. Never substitute, never mix in a fourth.</p>
+
+    <div class="spec">
+      <p class="label"><b>League Spartan</b> · Primary display font</p>
+      <p class="demo-display">Telehealth built around you.</p>
+      <p class="meta">League Spartan 900 · H1 at 54px · line-height 0.92 · letter-spacing -0.025em<br>USE FOR · all headings (H1 / H2 / H3), nav, CTAs, buttons, eyebrows, pricing, section numerals</p>
+    </div>
+
+    <div class="spec">
+      <p class="label"><b>Neue Einstellung</b> · Secondary display font</p>
+      <p class="demo-sub" style="font-family:Georgia,'Times New Roman',serif">Feel-good healthcare, delivered.</p>
+      <p class="meta">Neue Einstellung · Sub-headings and secondary display text · Retained from original brand bible · Never for body copy<br>NOTE · Specimen above renders in a serif fallback when Neue Einstellung is not installed locally; use the licensed file in production.</p>
+    </div>
+
+    <div class="spec">
+      <p class="label"><b>Inter</b> · Body copy font</p>
+      <p class="demo-body">Our AHPRA-registered doctors and nurse practitioners support you through every step of the process. From your pre-screening questionnaire to your personalised care plan, we make sure the experience feels simple, clear, and <b>completely judgement-free</b>.</p>
+      <p class="meta">Inter 400 · Body at 15px · line-height 1.7 · letter-spacing 0<br>USE FOR · website body paragraphs, card descriptions, FAQ answers, blog posts · Inter 600 for inline emphasis</p>
+    </div>
+
+    <h3 class="sub-title">Type scale</h3>
+    <div class="row-block">
+      <div class="r"><span class="k">display / h1</span><span class="v">League Spartan 900 · 54–64px · line-height .92 · -0.025em</span><span class="hex">--font-display</span></div>
+      <div class="r"><span class="k">section / h2</span><span class="v">League Spartan 700 · 38px · line-height 1.05 · -0.02em</span><span class="hex">--font-display</span></div>
+      <div class="r"><span class="k">sub / h3</span><span class="v">League Spartan 700 · 18–20px · UPPERCASE · letter-spacing .02em</span><span class="hex">--font-display</span></div>
+      <div class="r"><span class="k">lead</span><span class="v">Inter 400 · 17px · line-height 1.55 · muted</span><span class="hex">--font-body</span></div>
+      <div class="r"><span class="k">body</span><span class="v">Inter 400 · 15px · line-height 1.7</span><span class="hex">--font-body</span></div>
+      <div class="r"><span class="k">small / caption</span><span class="v">Inter 500 · 13px · line-height 1.55</span><span class="hex">--font-body</span></div>
+      <div class="r"><span class="k">eyebrow / mono</span><span class="v">JetBrains Mono 500 · 11px · UPPERCASE · letter-spacing .14em</span><span class="hex">--font-mono</span></div>
+    </div>
+  </section>
+
+  <!-- 05 ------------------------------------------------------------ -->
+  <section id="logo">
+    <div class="sec-num">05 — System</div>
+    <h2 class="sec-title">Logo usage</h2>
+    <p class="sec-lead">Hellomello has a primary wordmark, a secondary cream-on-green lockup, a coloured-letters alternative, and a single-letter submark. Always use the approved files.</p>
+
+    <h3 class="sub-title">Logo options</h3>
+    <div class="logo-grid">
+      <div class="logo-card cream">
+        <div class="label">Primary logo</div>
+        <div class="demo"><div class="logo-wordmark" style="color:var(--green);font-size:46px">hellomello</div></div>
+        <div class="label">on cream / white</div>
+      </div>
+      <div class="logo-card dark">
+        <div class="label">Secondary logo</div>
+        <div class="demo"><div class="logo-wordmark" style="color:var(--cream)">hellomello</div></div>
+        <div class="label">on dark green</div>
+      </div>
+      <div class="logo-card cream">
+        <div class="label">Alternative — coloured</div>
+        <div class="demo"><div class="logo-wordmark colored"><span>h</span><span>e</span><span>l</span><span>l</span><span>o</span><span>m</span><span>e</span><span>l</span><span>l</span><span>o</span></div></div>
+        <div class="label">social &amp; merchandising</div>
+      </div>
+      <div class="logo-card cream">
+        <div class="label">Submark</div>
+        <div class="demo"><div class="logo-submark">h</div></div>
+        <div class="label">app icons / avatars</div>
+      </div>
+    </div>
+
+    <h3 class="sub-title">Tile lockup</h3>
+    <div class="logo-card cream" style="align-items:center;text-align:center">
+      <div class="label">Coloured tile lockup — social grids, packaging</div>
+      <div class="demo" style="justify-content:center">
+        <div class="logo-tile">
+          <div>H</div><div>E</div><div>L</div><div>L</div><div>O</div>
+          <div>M</div><div>E</div><div>L</div><div>L</div><div>O</div>
+        </div>
+      </div>
+      <div class="label">five-by-two grid · one letter per swatch</div>
+    </div>
+
+    <h3 class="sub-title" style="margin-top:48px">Logo rules</h3>
+    <div class="rules">
+      <div>
+        <h4 style="color:var(--ok-fg)">Always do</h4>
+        <ul class="do">
+          <li>Always use approved logo files; never recreate from type.</li>
+          <li>Maintain minimum clear space equal to the height of the "h" on all sides.</li>
+          <li>Use the dark green logo on cream and white backgrounds.</li>
+          <li>Use the cream logo on dark green backgrounds.</li>
+          <li>Submark is approved for social profile images and app icons.</li>
+          <li>Alternative tile logo is approved for social content and merchandising.</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:var(--bad-fg)">Never do</h4>
+        <ul class="dont">
+          <li>Never stretch, distort or rotate the logo.</li>
+          <li>Never apply gradient fills to the logo.</li>
+          <li>Never place on a busy photographic background without a container.</li>
+          <li>Never use unapproved colours on the logo.</li>
+          <li>Never add drop shadows or glow effects.</li>
+          <li>Never reproduce the wordmark from type — always use the file.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 ------------------------------------------------------------ -->
+  <section id="voice">
+    <div class="sec-num">06 — Voice</div>
+    <h2 class="sec-title">Brand voice</h2>
+    <p class="sec-lead">The friendly fello. Like a mate who knows when to crack a joke and when to get serious — chill, supportive, smart, but never too formal.</p>
+
+    <div class="voice">
+      <div class="hero">
+        <div class="label">The friendly fello</div>
+        <h3>Catching up with a friend over coffee.</h3>
+        <p>Imagine a mate who's always there for you. The one who knows when to crack a joke to lighten the mood and when to get serious. Chill, supportive, smart, but never too formal.</p>
+        <p>When Hellomello talks, it feels relaxed, simple, warm, with a bit of humour but always with kindness and respect. Yes, we can be clinical — it's always done with a warm and friendly tone.</p>
+      </div>
+      <div class="pillars">
+        <div class="pillar"><div class="pn">01</div><h4>Friendly but professional</h4><p>Casual, not too casual. Warm and approachable, but you can trust us.</p></div>
+        <div class="pillar"><div class="pn">02</div><h4>Empathetic &amp; caring</h4><p>We listen. You never feel like just another number. We've always got your back.</p></div>
+        <div class="pillar"><div class="pn">03</div><h4>Honest &amp; transparent</h4><p>Clear, simple answers. No medical jargon. No sugarcoating.</p></div>
+        <div class="pillar"><div class="pn">04</div><h4>Laid-back but legit</h4><p>Chill, but serious about providing the best care. You'll feel at ease knowing we've got it covered.</p></div>
+      </div>
+    </div>
+
+    <h3 class="sub-title" style="margin-top:48px">We are</h3>
+    <div class="tags">
+      <span class="tag">Warm</span><span class="tag">Human</span><span class="tag">Confident</span>
+      <span class="tag">Non-judgemental</span><span class="tag">Accessible</span><span class="tag">Trustworthy</span>
+    </div>
+    <h3 class="sub-title">We never sound like</h3>
+    <div class="tags">
+      <span class="tag bad">A GP waiting room</span><span class="tag bad">Corporate or clinical</span>
+      <span class="tag bad">Jargon-heavy</span><span class="tag bad">Preachy</span>
+      <span class="tag bad">Confusing or formal</span><span class="tag bad">Overpromising results</span>
+    </div>
+  </section>
+
+  <!-- 07 ------------------------------------------------------------ -->
+  <section id="tone">
+    <div class="sec-num">07 — Voice</div>
+    <h2 class="sec-title">Tone by channel</h2>
+    <p class="sec-lead">The voice is constant; the tone flexes per channel. Use this matrix as the first reference when drafting any new piece of copy.</p>
+
+    <div class="channels">
+      <div class="row head"><span>Channel</span><span>Tone</span><span>Example</span></div>
+      <div class="row"><span class="ch">Website</span><span class="tn">Clear, confident, warm</span><span class="ex">"Telehealth consultations built around you. Not the other way round."</span></div>
+      <div class="row"><span class="ch">Blog / SEO</span><span class="tn">Informational, helpful, approachable</span><span class="ex">"Here's everything you need to know about telehealth in Australia."</span></div>
+      <div class="row"><span class="ch">Social media</span><span class="tn">Fun, laid-back, positive</span><span class="ex">"No judgement, just good vibes. Check your eligibility in 2 minutes."</span></div>
+      <div class="row"><span class="ch">Email</span><span class="tn">Warm, calm, one clear action</span><span class="ex">"You're almost there. Finish your sign-up and we'll guide you through the rest."</span></div>
+      <div class="row"><span class="ch">Customer service</span><span class="tn">Warm, patient, helpful</span><span class="ex">"Hey there! Don't worry, we've got this. Let's get you booked in."</span></div>
+      <div class="row"><span class="ch">Reminders</span><span class="tn">Friendly, clear, considerate</span><span class="ex">"Your appointment is just around the corner. Let us know if you need anything."</span></div>
+      <div class="row"><span class="ch">Ads / paid media</span><span class="tn">Direct, benefit-led, compliant</span><span class="ex">"Check your eligibility in 2 minutes. AHPRA-registered doctors, 100% online."</span></div>
+      <div class="row"><span class="ch">Follow-up</span><span class="tn">Supportive, positive, relaxed</span><span class="ex">"How are you doing? We're all ears, reach out any time."</span></div>
+    </div>
+
+    <div class="callouts">
+      <div class="callout"><h5>No urgency language</h5><p>"Limited time only", "Act now", "Don't miss out" create pressure. Hellomello is calm and supportive, not pushy.</p></div>
+      <div class="callout"><h5>Short &amp; mobile-first</h5><p>Most Hellomello traffic is on mobile. Short sentences, short paragraphs, scannable. Never walls of text.</p></div>
+      <div class="callout"><h5>Emoji guidelines</h5><p>Social and informal comms only. Never in website copy, blog posts or professional documents.</p></div>
+    </div>
+  </section>
+
+  <!-- 08 ------------------------------------------------------------ -->
+  <section id="ahpra">
+    <div class="sec-num">08 — Compliance</div>
+    <h2 class="sec-title">TGA / AHPRA language guide</h2>
+    <p class="sec-lead">The single most important section in this document. Run every piece of promotional, social and ad content through this guide before publishing.</p>
+
+    <div class="ahpra-banner">
+      <b>This section is non-negotiable.</b>
+      <p>Apply to every piece of Hellomello content before it is published. When in doubt, default to the approved list. <b>Never guess.</b></p>
+    </div>
+
+    <div class="lang-grid">
+      <div class="lang-card ok">
+        <span class="badge">Approved</span><h3>Use freely</h3>
+        <div class="lang-group"><h5>What we do</h5><div class="chips">
+          <span class="chip-tag">Telehealth consultations</span><span class="chip-tag">Online telehealth clinic</span>
+          <span class="chip-tag">Alternative telehealth clinic</span><span class="chip-tag">Alternative healthcare</span>
+          <span class="chip-tag">Alternative medicine</span><span class="chip-tag">AHPRA-registered clinicians</span>
+          <span class="chip-tag">Access to alternative healthcare</span><span class="chip-tag">Personalised care plans</span>
+        </div></div>
+        <div class="lang-group"><h5>Process &amp; eligibility</h5><div class="chips">
+          <span class="chip-tag">Check your eligibility</span><span class="chip-tag">If eligible, we'll guide you</span>
+          <span class="chip-tag">Pre-screening questionnaire</span><span class="chip-tag">Book a telehealth consultation</span>
+          <span class="chip-tag">Subject to eligibility</span><span class="chip-tag">Results may vary</span>
+          <span class="chip-tag">Outcomes are patient-specific</span>
+        </div></div>
+        <div class="lang-group"><h5>Service &amp; care</h5><div class="chips">
+          <span class="chip-tag">Support for your health journey</span><span class="chip-tag">Ongoing care</span>
+          <span class="chip-tag">Ongoing aftercare</span><span class="chip-tag">Compassionate care</span>
+          <span class="chip-tag">Feel-good healthcare</span><span class="chip-tag">100% online</span>
+          <span class="chip-tag">Same day dispatch</span><span class="chip-tag">Fast, discreet delivery</span>
+          <span class="chip-tag">Non-judgemental environment</span>
+        </div></div>
+        <div class="lang-group"><h5>Credentials</h5><div class="chips">
+          <span class="chip-tag">AHPRA-registered doctors</span><span class="chip-tag">AHPRA-registered nurse practitioners</span>
+          <span class="chip-tag">Qualified practitioners</span><span class="chip-tag">Licensed and confidential</span>
+        </div></div>
+      </div>
+
+      <div class="lang-card bad">
+        <span class="badge">Banned</span><h3>Never use</h3>
+        <div class="lang-group"><h5>Treatment claims</h5><div class="chips">
+          <span class="chip-tag">Treatment for [condition]</span><span class="chip-tag">Relief from [condition]</span>
+          <span class="chip-tag">Cure</span><span class="chip-tag">Fix</span>
+          <span class="chip-tag">Guaranteed results</span><span class="chip-tag">Proven to treat</span>
+          <span class="chip-tag">Clinically proven</span>
+        </div></div>
+        <div class="lang-group"><h5>Restricted substance references</h5><div class="chips">
+          <span class="chip-tag">Medicinal cannabis</span><span class="chip-tag">Cannabis</span>
+          <span class="chip-tag">Marijuana</span><span class="chip-tag">Weed / pot</span>
+          <span class="chip-tag">CBD / THC</span><span class="chip-tag">Plant-based medicine</span>
+          <span class="chip-tag">Natural medicine</span>
+        </div></div>
+        <div class="lang-group"><h5>Conditions in ads / social</h5><div class="chips">
+          <span class="chip-tag">Anxiety</span><span class="chip-tag">Depression</span>
+          <span class="chip-tag">Chronic pain</span><span class="chip-tag">Insomnia</span>
+          <span class="chip-tag">Fibromyalgia</span><span class="chip-tag">PTSD</span>
+        </div></div>
+        <div class="lang-group"><h5>Pressure language</h5><div class="chips">
+          <span class="chip-tag">Limited time only</span><span class="chip-tag">Act now</span>
+          <span class="chip-tag">Don't miss out</span><span class="chip-tag">We're the best</span>
+          <span class="chip-tag">Miracle solution</span>
+        </div></div>
+      </div>
+    </div>
+
+    <h3 class="sub-title" style="margin-top:48px">Grey area — handle with care</h3>
+    <div class="grey-table">
+      <div class="row head"><span>Term</span><span>Risk</span><span>Use instead</span></div>
+      <div class="row"><span class="term">"Help with [condition]"</span><span class="risk">Implies treatment outcome</span><span>"Support for your health"</span></div>
+      <div class="row"><span class="term">"Manage your [condition]"</span><span class="risk">Can imply treatment claim</span><span>"Ongoing health management"</span></div>
+      <div class="row"><span class="term">"Feel better"</span><span class="risk">Implies clinical outcome</span><span>"Feel-good healthcare" only</span></div>
+      <div class="row"><span class="term">"Alternative treatment"</span><span class="risk">TGA regulates "treatment"</span><span>"Alternative care"</span></div>
+      <div class="row"><span class="term">"Symptoms"</span><span class="risk">Risky in ads</span><span>Blog content only</span></div>
+      <div class="row"><span class="term">"Pain"</span><span class="risk">Named condition</span><span>Blog only, never in ads</span></div>
+      <div class="row"><span class="term">"Sleep" in copy</span><span class="risk">Named condition</span><span>"Sleep Quality Support" as website label only</span></div>
+      <div class="row"><span class="term">"Anxiety" / "stress"</span><span class="risk">Named conditions</span><span>"Stress &amp; Wellbeing Support" as website label only</span></div>
+    </div>
+
+    <h3 class="sub-title" style="margin-top:48px">Before / after</h3>
+    <div class="ba">
+      <div class="ba-row"><div class="ba-cell dont"><span class="lbl">Don't</span><q>"Treatment for pain"</q></div><div class="ba-cell do"><span class="lbl">Do</span><q>"Support for your health journey"</q></div></div>
+      <div class="ba-row"><div class="ba-cell dont"><span class="lbl">Don't</span><q>"Relief from anxiety"</q></div><div class="ba-cell do"><span class="lbl">Do</span><q>"Access to alternative healthcare"</q></div></div>
+      <div class="ba-row"><div class="ba-cell dont"><span class="lbl">Don't</span><q>"Cure your sleep problems"</q></div><div class="ba-cell do"><span class="lbl">Do</span><q>"Sleep Quality Support, check your eligibility"</q></div></div>
+      <div class="ba-row"><div class="ba-cell dont"><span class="lbl">Don't</span><q>"We'll fix your chronic illness"</q></div><div class="ba-cell do"><span class="lbl">Do</span><q>"Ongoing health management, if eligible"</q></div></div>
+      <div class="ba-row"><div class="ba-cell dont"><span class="lbl">Don't</span><q>"Medicinal cannabis clinic"</q></div><div class="ba-cell do"><span class="lbl">Do</span><q>"Alternative telehealth clinic"</q></div></div>
+      <div class="ba-row"><div class="ba-cell dont"><span class="lbl">Don't</span><q>"Limited time, act now"</q></div><div class="ba-cell do"><span class="lbl">Do</span><q>"If you've been thinking about it, this may be a good time to start"</q></div></div>
+      <div class="ba-row"><div class="ba-cell dont"><span class="lbl">Don't</span><q>"Best doctors in Australia"</q></div><div class="ba-cell do"><span class="lbl">Do</span><q>"AHPRA-registered doctors who truly listen"</q></div></div>
+      <div class="ba-row"><div class="ba-cell dont"><span class="lbl">Don't</span><q>"Guaranteed results"</q></div><div class="ba-cell do"><span class="lbl">Do</span><q>"Outcomes are patient-specific, our doctors will guide you"</q></div></div>
+      <div class="ba-row"><div class="ba-cell dont"><span class="lbl">Don't</span><q>"Cannabis for your anxiety"</q></div><div class="ba-cell do"><span class="lbl">Do</span><q>"Alternative healthcare, if eligible"</q></div></div>
+    </div>
+  </section>
+
+  <!-- 09 ------------------------------------------------------------ -->
+  <section id="conditions">
+    <div class="sec-num">09 — Compliance</div>
+    <h2 class="sec-title">Conditions we can mention</h2>
+    <p class="sec-lead">Naming a condition is permitted when framed around why someone seeks care, not what the treatment does. Use "may be helpful with issues relating to" or "our clinicians may support patients experiencing" — never "treats", "relieves", or "fixes". The "when [other thing] isn't working" pattern is compliant.</p>
+
+    <div class="conditions">
+      <div class="cond"><div class="num">Condition 01</div><h4>Pain Management</h4><div class="when">When massage, physio or chiro only provide limited relief.</div><p class="body">Managing pain can make life challenging. Our clinicians may support patients experiencing issues relating to pain management.</p><span class="lbl">Pain Management Support</span></div>
+      <div class="cond"><div class="num">Condition 02</div><h4>Sleep Support</h4><div class="when">When sleep apps, acupuncture or white noise aren't improving your rest.</div><p class="body">Sleep affects our daily lives and general health. Our services may be helpful with issues relating to sleep.</p><span class="lbl">Sleep Quality Support</span></div>
+      <div class="cond"><div class="num">Condition 03</div><h4>Stress &amp; Wellbeing</h4><div class="when">When meditation, psychology or breathwork aren't easing day-to-day stress.</div><p class="body">It can be hard to ask for help. Our clinicians may support patients experiencing issues with stress and mental wellbeing.</p><span class="lbl">Stress &amp; Wellbeing Support</span></div>
+      <div class="cond"><div class="num">Condition 04</div><h4>Women's Health</h4><div class="when">When you're looking for more personalised options for your health.</div><p class="body">Our clinicians may support patients experiencing issues relating to women's health and hormonal wellbeing.</p><span class="lbl">Women's Health Support</span></div>
+      <div class="cond"><div class="num">Condition 05</div><h4>Chronic Health</h4><div class="when">When ongoing symptoms are affecting your daily life.</div><p class="body">Our services may be helpful with issues relating to chronic and ongoing health management.</p><span class="lbl">Chronic Health Management</span></div>
+      <div class="cond"><div class="num">Condition 06</div><h4>Neurological Support</h4><div class="when">When conventional options haven't provided the relief you need.</div><p class="body">Our clinicians may support patients experiencing issues relating to neurological symptoms and conditions.</p><span class="lbl">Neurological Support</span></div>
+    </div>
+
+    <h3 class="sub-title" style="margin-top:48px">Framing rules</h3>
+    <div class="grey-table">
+      <div class="row head"><span>Approved</span><span>Never</span><span></span></div>
+      <div class="row"><span class="term">"issues relating to pain management"</span><span class="risk">"treatment for chronic pain"</span><span></span></div>
+      <div class="row"><span class="term">"issues with sleep"</span><span class="risk">"fixes your sleep problems"</span><span></span></div>
+      <div class="row"><span class="term">"may be helpful with issues relating to"</span><span class="risk">"helps with / treats / relieves"</span><span></span></div>
+      <div class="row"><span class="term">"our clinicians may support patients experiencing"</span><span class="risk">"we treat patients with anxiety"</span><span></span></div>
+      <div class="row"><span class="term">"depending on your situation"</span><span class="risk">"guaranteed to work"</span><span></span></div>
+      <div class="row"><span class="term">"check your eligibility"</span><span class="risk">"get started with pain relief"</span><span></span></div>
+      <div class="row"><span class="term">"when [other thing] isn't working"</span><span class="risk">"better than physio / medication"</span><span></span></div>
+      <div class="row"><span class="term">"if eligible, we'll guide you through the rest"</span><span class="risk">"get the relief you deserve"</span><span></span></div>
+    </div>
+  </section>
+
+  <!-- 10 ------------------------------------------------------------ -->
+  <section id="testimonials">
+    <div class="sec-num">10 — Compliance</div>
+    <h2 class="sec-title">Testimonials</h2>
+    <p class="sec-lead">A comment becomes a regulated testimonial the moment it references any clinical aspect of care. Use the one-question filter: does this review mention why they came, what they were treated for, or what changed in their health? If yes — it cannot be used.</p>
+
+    <h3 class="sub-title">The three triggers</h3>
+    <div class="filters">
+      <div class="filter"><div class="n">01</div><h5>Symptom</h5><p>The specific symptom or reason the person sought treatment. Mentioning why they came = clinical aspect.</p></div>
+      <div class="filter"><div class="n">02</div><h5>Diagnosis or treatment</h5><p>The specific diagnosis they received or treatment provided by the practitioner.</p></div>
+      <div class="filter"><div class="n">03</div><h5>Outcome</h5><p>Any specific result, improvement, or reference to the practitioner's skill or effectiveness — directly or by comparison.</p></div>
+    </div>
+
+    <h3 class="sub-title" style="margin-top:48px">Examples</h3>
+    <div class="test-grid">
+      <div class="test-col ok">
+        <h4>✓ We can use these</h4>
+        <ul>
+          <li>"The booking process was so easy. I was set up within a day."</li>
+          <li>"The nurses were so kind and easy to talk to. I never felt judged."</li>
+          <li>"I was surprised how simple the whole process was."</li>
+          <li>"The team was professional and the whole experience felt really smooth."</li>
+          <li>"I wish I had done this sooner. Getting started was the easiest part."</li>
+        </ul>
+      </div>
+      <div class="test-col bad">
+        <h4>× We cannot use these</h4>
+        <ul>
+          <li>"My pain is so much better since starting with Hellomello." <small>outcome</small></li>
+          <li>"I finally got a good night's sleep after my first month." <small>outcome referencing symptom</small></li>
+          <li>"The doctor understood my anxiety and knew exactly what I needed." <small>symptom + clinical skill</small></li>
+          <li>"After years of chronic pain I finally found something that works." <small>outcome</small></li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title" style="margin-top:48px">Review prompts</h3>
+    <div class="rules">
+      <div>
+        <h4 style="color:var(--ok-fg)">What we can ask for</h4>
+        <ul class="do">
+          <li>How easy was the booking process?</li>
+          <li>How did the team make you feel?</li>
+          <li>How was the communication throughout?</li>
+          <li>Would you recommend the experience to a friend?</li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:var(--bad-fg)">What we steer away from</h4>
+        <ul class="dont">
+          <li>Why they originally came to Hellomello.</li>
+          <li>Any health changes since starting.</li>
+          <li>Their specific condition or diagnosis.</li>
+          <li>How effective the treatment or prescription was.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span>HELLOMELLO · BRAND GUIDELINES · V1.0</span>
+    <span>QUESTIONS → BRAND@HELLOMELLO.COM.AU</span>
+  </footer>
+
+</div>
+</body>
+</html>

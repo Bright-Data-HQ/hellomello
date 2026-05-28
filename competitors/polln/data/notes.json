@@ -1,0 +1,70 @@
+{
+  "position": "challenger-refined",
+  "verdict_tone": "amber",
+  "verdict_label": "Out-publish them",
+  "tagline": "A smaller, content-led player. Real subdomain architecture, a credible library, and an honest practitioner page — but only 4.8K visits / mo and 70% of it is brand. The non-brand library and locations are the only real organic engine.",
+  "period": "April 2026",
+  "brand": {
+    "visual_system": [
+      "Pastel green + cream palette — calm, professional, modern Webflow build.",
+      "Photography mixes patients, clinicians and lifestyle — closer to wellness than retail.",
+      "Generous whitespace, rounded cards, large display type.",
+      "Patient portal and shop on dedicated subdomains (patient., shop.) — proper SaaS-style separation."
+    ],
+    "site_architecture": [
+      "Three properties: www (marketing), patient (portal), shop (Shopify).",
+      "/library — ~16 long-form editorial posts; the most credible content on the site.",
+      "/locations — 11 city pages, lightweight but ranking.",
+      "/practitioners — named clinicians with bios — strong E-E-A-T signal that most competitors skip.",
+      "/faqs and /location-faqs — heavy informational coverage targeting long-tail questions."
+    ],
+    "tone_compliance": [
+      "Compliant clinical language — consultations, eligibility, treatment plans.",
+      "Library posts use plain-English explainers; cites TGA framework correctly.",
+      "Names individual prescribers on /practitioners — rare in this category.",
+      "No specific-condition claims on commercial pages."
+    ]
+  },
+  "eeat": {
+    "https": "green",
+    "schema_medical": "amber",
+    "author_bylines": "green",
+    "medical_reviewer": "amber",
+    "core_web_vitals": "amber",
+    "freshness": "amber",
+    "notes": "Polln is the cleanest of the small-cap competitors on E-E-A-T: real named practitioners, dated library posts, plain-English clinical copy. Schema coverage is partial — Organization and Person are present, MedicalCondition / MedicalWebPage are not. Library cadence has slowed."
+  },
+  "verdict": {
+    "steal": [
+      { "play": "Three-property architecture (www + patient + shop)", "effort": 4, "impact": 4, "note": "Patient portal earns 637 visits / mo on 6 keywords — defensive brand+navigational traffic that compounds. Cheap separation that signals scale." },
+      { "play": "Named practitioner pages with bios", "effort": 2, "impact": 4, "note": "/practitioners/dr-joel-wren earns 25 visits / mo just on name search. Strongest E-E-A-T signal in the deck. Replicable in a week with our roster." },
+      { "play": "Long-form library posts on category questions", "effort": 3, "impact": 4, "note": "5 library posts produce 100+ visits each — sativa-vs-indica, vaping guide, how-long-does-cannabis-stay. Educational, evergreen, citable. Highest organic ROI on the site." },
+      { "play": "Location pages with embedded FAQs", "effort": 3, "impact": 3, "note": "11 city pages, each paired with a location-FAQ page targeting 'authorised prescribers [state]'. Beats Herbly's storefront template on intent depth." },
+      { "play": "Plain-English category explainers", "effort": 2, "impact": 3, "note": "Their library out-ranks larger competitors on educational queries because the copy is patient-facing, not pharma-facing. Match the tone." }
+    ],
+    "avoid": [
+      { "trap": "Library publishing slowdown", "evidence": "16 library posts is the entire editorial inventory. Cadence has dropped — recent dates are sparse. The asset that works is starving for fresh entries." },
+      { "trap": "Thin location coverage", "evidence": "11 city pages with only 2 ranking meaningfully (Perth, Adelaide ~54 visits each). Templated but not deep enough to defend." },
+      { "trap": "Brand-dependent demand", "evidence": "70% of traffic is brand — 2,320 visits on 'polln' alone. Outside the brand fortress, the organic engine is small." },
+      { "trap": "Dormant page-2+ inventory", "evidence": "Hundreds of keywords ranking #21–100 producing near-zero traffic. The site has reach but not depth on most queries." }
+    ],
+    "implications": [
+      "Polln is the credibility template — named clinicians, library, FAQs done right.",
+      "The library is small and slowing — they cannot out-publish a serious content programme.",
+      "Locations and 'near me' are still wide open at suburb level.",
+      "Out-author them on the same topics — they prove demand, we win SERPs with depth + cadence."
+    ]
+  },
+  "gap_matrix": [
+    { "topic": "Brand defence",         "polln": 4, "hellomello": 1, "comment": "Brand search is theirs." },
+    { "topic": "Pricing transparency",  "polln": 3, "hellomello": 1, "comment": "Match it — /pricing on day one." },
+    { "topic": "Clinic / doctor SEO",   "polln": 3, "hellomello": 0, "comment": "Best in class. Mirror /practitioners/{name}." },
+    { "topic": "Conditions content",    "polln": 1, "hellomello": 0, "comment": "Open. They publish thin condition pages." },
+    { "topic": "Locations / pSEO",      "polln": 2, "hellomello": 0, "comment": "11 city pages — easy to out-template at suburb level." },
+    { "topic": "'Near me' queries",     "polln": 1, "hellomello": 0, "comment": "Largely undefended." },
+    { "topic": "Library / editorial",   "polln": 3, "hellomello": 0, "comment": "Steal the format. Out-publish on cadence." },
+    { "topic": "Reviews / social proof","polln": 2, "hellomello": 0, "comment": "Inline only. Embed Trustpilot." },
+    { "topic": "Patient portal SEO",    "polln": 4, "hellomello": 0, "comment": "Subdomain harvests 637 visits/mo of brand+nav." },
+    { "topic": "FAQ long-tail",         "polln": 4, "hellomello": 0, "comment": "27 faqs + 9 location-faqs ranking. Replicate." }
+  ]
+}

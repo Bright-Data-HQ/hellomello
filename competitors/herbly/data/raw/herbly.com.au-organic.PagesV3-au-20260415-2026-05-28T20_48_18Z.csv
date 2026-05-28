@@ -1,0 +1,150 @@
+URL,Traffic (%),Number of Keywords,Traffic,Adwords Positions,Positions with commercial intents in top 20,Positions with informational intents in top 20,Positions with navigational intents in top 20,Positions with transactional intents in top 20,Positions with unknown intents in top 20,Traffic with commercial intents in top 20,Traffic with informational intents in top 20,Traffic with navigational intents in top 20,Traffic with transactional intents in top 20,Traffic with unknown intents in top 20,Traffic Change,Answer Engines,Top Keyword,Primary Intent,LLM Prompts
+https://herbly.com.au/,25.24,24,208,0,0,3,2,1,0,0,0,208,0,0,-1,"google, google-ai",herbly,Informational,2
+https://herbly.com.au/pages/coffs-harbour-dispensary,19.53,32,161,0,3,10,1,16,0,26,25,1,126,0,-18,"google, search-gpt",dispensary near ne,Transactional,6
+https://herbly.com.au/pages/bendigo-dispensary,11.65,7,96,0,1,0,3,0,0,86,0,10,0,0,88,"gemini, google-ai",dispensary dispensary,Navigational,2
+https://herbly.com.au/pages/armidale-dispensary,7.03,4,58,0,1,1,0,1,0,13,45,0,45,0,58,,dispensary near me,"Transactional, Commercial",0
+https://herbly.com.au/pages/port-macquarie-dispensary,4.73,5,39,0,0,4,0,0,0,0,39,0,0,0,39,google,medicinal cannabis port macquarie,Informational,1
+https://herbly.com.au/pages/bunbury-dispensary,3.15,48,26,0,3,3,0,3,0,0,26,0,26,0,-40,google,cannabis shop near me,"Transactional, Commercial",1
+https://herbly.com.au/pages/newtown-dispensary,2.91,67,24,0,5,5,7,4,0,16,0,4,4,0,7,"gemini, google, google-ai, search-gpt",newtown dispensary,Navigational,5
+https://herbly.com.au/pages/wollongong-dispensary,2.66,39,22,0,3,9,2,10,0,3,17,0,18,0,-36,google,weed shop near me,Transactional,4
+https://herbly.com.au/pages/byron-bay-dispensary,2.66,11,22,0,1,0,1,1,0,22,0,0,0,0,0,"gemini, google-ai",weed byron bay,"Transactional, Commercial",6
+https://herbly.com.au/pages/morayfield-dispensary,2.54,13,21,0,0,1,0,2,0,0,0,0,21,0,0,google,medical canabis dispensary near.me,Transactional,3
+https://herbly.com.au/pages/sunshine-coast-dispensary,1.82,24,15,0,2,7,0,1,0,2,13,0,0,0,-1,,medical cannabis sunshine coast,Informational,0
+https://herbly.com.au/pages/townsville-dispensary,1.69,11,14,0,0,2,0,0,0,0,9,0,0,0,9,,medical marijuanas townsville,Informational,0
+https://herbly.com.au/pages/north-lakes-dispensary,1.57,22,13,0,2,7,0,0,0,1,12,0,0,0,13,google,cannabis dispensary brisbane,Informational,2
+https://herbly.com.au/pages/penrith-dispensary,1.57,30,13,0,1,4,0,7,0,0,7,0,11,0,6,google,weed near me,Transactional,4
+https://herbly.com.au/pages/hervey-bay-dispensary,1.33,8,11,0,0,3,0,1,0,0,0,0,11,0,11,google,weed place near me,Informational,2
+https://herbly.com.au/pages/brisbane-dispensary,1.33,7,11,0,1,0,0,0,0,11,0,0,0,0,0,,dispensary brisbane,Commercial,0
+https://herbly.com.au/pages/mackay-dispensary,0.84,4,7,0,0,0,1,0,0,0,0,7,0,0,-11,"gemini, google-ai, search-gpt",dispensary mackay,Navigational,3
+https://herbly.com.au/blogs/latest-medical-articles/understanding-monthly-limits-and-interval-periods,0.72,3,6,0,0,3,0,0,0,0,6,0,0,0,6,,how can i get medical weed,Informational,0
+https://herbly.com.au/blogs/news/understanding-arthritis-causes-impacts-and-treatments,0.72,10,6,1,0,0,0,0,0,0,0,0,0,0,6,google,,,1
+https://herbly.com.au/pages/plant-medicine-doctors,0.72,8,6,0,2,6,0,0,0,0,6,0,0,0,0,google,vegan doctors,Informational,3
+https://herbly.com.au/pages/toowoomba-dispensary,0.72,11,6,0,2,0,3,0,0,5,0,1,0,0,2,,dispensary toowoomba,Navigational,0
+https://herbly.com.au/pages/ipswich-dispensary,0.6,41,5,0,1,4,1,5,0,0,4,1,4,0,4,google,marijuana dispensary near me,Transactional,4
+https://herbly.com.au/blogs/news/insomnia-therapies-and-treatments-conventional-alternative-and-holistic-approaches,0.6,16,5,0,0,4,0,0,0,0,5,0,0,0,0,"google, google-ai, search-gpt",holistic cures for insomnia,Informational,7
+https://herbly.com.au/pages/parramatta-dispensary,0.48,35,4,0,0,0,0,2,0,0,0,0,4,0,0,google,buy weed online,Transactional,1
+https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment,0.36,11,3,0,1,1,1,0,0,0,0,3,0,0,0,google-ai,herbly,"Commercial, Navigational",1
+https://herbly.com.au/pages/port-lincoln-dispensary,0.36,2,3,0,0,1,0,0,0,0,3,0,0,0,1,,lincoln dispensary,Informational,0
+https://herbly.com.au/blogs/latest-medical-articles/understanding-the-endocannabinoid-system,0.36,6,3,0,0,1,0,0,0,0,3,0,0,0,3,,ecs drugs,Informational,0
+https://herbly.com.au/blogs/latest-medical-articles/can-you-drive-with-thc-or-cbd-in-your-system,0.24,5,2,0,0,5,0,0,0,0,2,0,0,0,1,"gemini, google",medicinal marijuanas victoria driving,Informational,2
+https://herbly.com.au/pages/adelaide-dispensary,0.24,14,2,0,1,3,0,1,0,1,0,0,1,0,2,google-ai,buy weed adelaide,Informational,1
+https://herbly.com.au/pages/mandurah-dispensary,0.24,36,2,0,0,2,0,2,0,0,2,0,2,0,2,google,marijuana dispensary near me,"Transactional, Informational",4
+https://herbly.com.au/blogs/news/natural-treatments-for-ulcerative-colitis,0.24,29,2,1,0,14,0,0,0,0,2,0,0,0,0,"google, search-gpt",alternative treatments for ulcerative colitis,Informational,10
+https://herbly.com.au/pages/caboolture-dispensary,0.12,9,1,0,0,2,0,1,0,0,1,0,1,0,1,,marijuana near me,Informational,0
+https://herbly.com.au/blogs/news/holistic-treatment-for-anxiety-exploring-alternative-medicine-and-natural-therapies-in-australia,0.12,17,1,0,0,3,0,0,0,0,1,0,0,0,1,"gemini, google",holistic healing for anxiety,Informational,5
+https://herbly.com.au/pages/wetherill-park-dispensary,0.12,3,1,0,0,1,0,0,0,0,1,0,0,0,1,,natural doctor wetherill park,Informational,0
+https://herbly.com.au/pages/caloundra-dispensary,0.12,9,1,0,1,0,4,2,0,0,0,1,1,0,0,google,releaf caloundra,Navigational,1
+https://herbly.com.au/blogs/women-s-health/top-7-period-pain-remedies-and-the-role-of-cbd-thc,0.12,2,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/grafton-dispensary,0.12,1,1,0,1,0,0,0,0,1,0,0,0,0,1,,weed store online,Commercial,0
+https://herbly.com.au/blogs/latest-medical-articles/how-to-access-alternative-medicine-in-australia-a-step-by-step-guide,0.12,5,1,0,0,3,0,0,0,0,1,0,0,0,0,google-ai,alternative medicine in australia,Informational,1
+https://herbly.com.au/pages/tweed-heads-dispensary,0.12,3,1,0,0,0,0,1,0,0,0,0,1,0,0,"google, search-gpt",cheapest medical marijuanas dispensary near me,Transactional,2
+https://herbly.com.au/pages/rockhampton-dispensary,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/sciatica-therapies-and-treatment-exploring-conventional-alternative-and-natural-options,0,4,0,1,0,0,0,0,0,0,0,0,0,0,0,gemini,,,1
+https://herbly.com.au/pages/neuropathy-treatments,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,1
+https://herbly.com.au/blogs/news/natural-treatments-for-fibromyalgia-what-helps-with-pain-fatigue-sleep,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,gemini,,,1
+https://herbly.com.au/pages/yeppoon-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/latest-medical-articles/should-you-get-a-second-opinion-about-alternative-medicine,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/natural-stress-remedies,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,google,natural stress relief,Informational,2
+https://herbly.com.au/pages/port-hedland-dispensary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/latest-medical-articles/what-are-the-types-of-alternative-medicine-doctos-prescribe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/the-known-causes-of-endometriosis-what-science-tells-us,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/the-most-common-symptoms-of-ptsd-and-who-it-affects,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/taree-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,google,,,1
+https://herbly.com.au/blogs/news/chronic-insomnia-causes-and-symptoms,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/bundaberg-dispensary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/help-centre-faqs,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2,,,,0
+https://herbly.com.au/pages/albury-dispensary,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,1
+https://herbly.com.au/pages/torquay-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/women-s-health/hormonal-balance-in-women-how-alternative-medicine-may-help,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/batemans-bay-dispensary,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/muswellbrook-dispensary,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/natural-remedies-for-migraines,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,holistic treatment migraines,Informational,0
+https://herbly.com.au/pages/adhd-treatments-attention-deficit-hyperactivity-disorder,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/fibromyalgia-fatigue-support,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/queanbeyan-dispensary,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/latest-medical-articles/can-alternative-medicine-affect-my-other-medications,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/melbourne-dispensary,0,5,0,0,1,0,0,0,0,0,0,0,0,0,0,,melbourne dispensary,Commercial,0
+https://herbly.com.au/blogs/women-s-health/perimenopause-symptoms-how-cbd-and-thc-support-women-through-change,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,medicinal cannibas menopause,Informational,0
+https://herbly.com.au/blogs/news/understanding-ptsd-who-it-affects-causes-and-treatments,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/joint-pain-understanding-causes-symptoms-and-holistic-treatments,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/women-s-health/cbd-and-thc-for-period-pain-natural-ways-to-relieve-menstrual-cramps,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/natural-medicine-for-inflammatory-bowel-disease,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,1
+https://herbly.com.au/pages/bondi-dispensary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/victoria-point-dispensary,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/gawler-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/latest-medical-articles/alternative-medicine-in-australia,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,"gemini, google-ai, search-gpt",,,12
+https://herbly.com.au/pages/warwick-dispensary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/wagga-wagga-dispensary,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,1
+https://herbly.com.au/pages/maryborough-dispensary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/barwon-heads-dispensary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/latest-medical-articles/what-is-a-health-summary-and-why-herbly-asks-for-it,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/busselton-dispensary,0,3,0,0,0,1,0,1,0,0,0,0,0,0,0,,medical marijuana dispensary near me,"Transactional, Informational",0
+https://herbly.com.au/pages/gympie-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/plantar-fasciitis-heel-pain-therapies-and-treatments,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/a-comprehensive-guide-to-holistic-therapies-and-treatments-for-chronic-pain,0,6,0,0,0,3,0,0,0,0,0,0,0,0,0,"gemini, google-ai",holistic pain killer,Informational,3
+https://herbly.com.au/blogs/news/holistic-treatments-for-adhd-a-comprehensive-approach,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/mareeba-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/mount-barker-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/understanding-depression-and-mental-health,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,google,,,3
+https://herbly.com.au/blogs/news/natural-remedies-for-endometriosis,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,2
+https://herbly.com.au/pages/surry-hills-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/capalaba-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/redbank-plains-dispensary,0,6,0,0,1,0,0,0,0,0,0,0,0,0,0,,brisbane dispensary,Commercial,0
+https://herbly.com.au/pages/rockingham-dispensary,0,10,0,0,0,1,0,1,0,0,0,0,0,0,0,,cannabis store near me,"Transactional, Informational",0
+https://herbly.com.au/blogs/news/understanding-insomnia-the-hidden-struggles-of-sleep,0,26,0,0,0,1,0,0,0,0,0,0,0,0,0,,sleep problems australia,Informational,0
+https://herbly.com.au/pages/bankstown-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/murray-bridge-dispensary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/alternative-medicine-clinic,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,telehealth alternative medicine,Informational,0
+https://herbly.com.au/pages/natural-medicine-doctor-telehealth-0-to-start-with-a-free-nurse-consult-herbly,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/neuropathic-pain-who-it-affects-causes-and-treatments,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,google,,,1
+https://herbly.com.au/pages/australias-trusted-dispensary-services,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/what-is-adhd,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/mount-isa-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,1
+https://herbly.com.au/pages/sunbury-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/cairns-dispensary,0,4,0,0,0,0,1,0,0,0,0,0,0,0,0,,wildleaf dispensary cairns,Navigational,0
+https://herbly.com.au/pages/dubbo-dispensary,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,"gemini, google-ai",,,2
+https://herbly.com.au/pages/murwillumbah-dispensary,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/noosa-dispensary,0,6,0,0,0,1,2,1,0,0,0,0,0,0,0,google,budding wellness noosa,Navigational,1
+https://herbly.com.au/pages/springfield-lakes-dispensary,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/bracken-ridge-dispensary,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/interval-period,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/women-s-health/managing-menopause-symptoms-with-cbd-and-thc-a-complete-guide,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,,medicinal cannibas menopause,Informational,0
+https://herbly.com.au/blogs/latest-medical-articles/is-alternative-medicine-right-for-chronic-pain,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,,alternative pain management,Informational,0
+https://herbly.com.au/blogs/women-s-health/women-turning-to-alternative-medicine-for-relief-of-menopause-symptoms,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/exploring-alternative-medicine-a-path-to-holistic-wellness,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/lithgow-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/common-symptoms-of-multiple-sclerosis,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/esperance-dispensary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/signs-and-symptoms-of-depression-in-men-and-women,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,gemini,,,1
+https://herbly.com.au/pages/shepparton-dispensary,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,,natural solutions shepparton,"Transactional, Informational",0
+https://herbly.com.au/pages/manly-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/logan-dispensary,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/kingaroy-dispensary,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/women-s-health/lower-abdominal-pain-in-women-exploring-the-benefits-of-cbd-thc,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,cbd benefits for women,Informational,0
+https://herbly.com.au/pages/tamworth-dispensary,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,google,,,2
+https://herbly.com.au/blogs/women-s-health/cramp-relief-during-your-period-alternative-medicine-with-cbd-and-thc,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,search-gpt,remedies for painful menstrual cramps,Informational,1
+https://herbly.com.au/pages/bacchus-marsh-dispensary,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/latest-medical-articles/why-our-practitioners-chose-alternative-medicine,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,,alternative healthcare practitioners,Informational,0
+https://herbly.com.au/blogs/news/exploring-natural-treatments-for-epilepsy-evidence-based-approaches-and-current-research,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/diabetic-nerve-pain-comprehensive-therapies-and-treatment-options,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,gemini,,,3
+https://herbly.com.au/pages/holistic-treatment-for-anxiety,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/morwell-dispensary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/comprehensive-guide-to-complex-regional-pain-syndrome-crps-therapies-and-treatment-options,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/women-s-health/bloating-and-menstruation-can-cbd-provide-relief,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/natural-medicine-for-fibromyalgia-a-comprehensive-guide,0,9,0,0,0,3,0,0,0,0,0,0,0,0,0,"gemini, google, search-gpt",natural remedies for fibromyalgia,Informational,6
+https://herbly.com.au/pages/blacktown-dispensary,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/warragul-dispensary,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/bathurst-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,google,,,1
+https://herbly.com.au/pages/burpengary-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/exploring-ptsd-treatment-options-conventional-natural-and-alternative-therapies,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,1
+https://herbly.com.au/pages/coolangatta-dispensary,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/kallangur-dispensary,0,2,0,0,0,0,1,1,0,0,0,0,0,0,0,,get well naturally kallangur,"Transactional, Navigational",0
+https://herbly.com.au/blogs/women-s-health/groin-pain-in-women-can-cbd-and-thc-offer-relief,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/blogs/news/natural-treatments-for-depression,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/multiple-sclerosis,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,1
+https://herbly.com.au/blogs/news/understanding-multiple-sclerosis,0,15,0,0,0,1,0,0,0,0,0,0,0,0,0,google-ai,natural cures for ms disease,Informational,1
+https://herbly.com.au/pages/narangba-dispensary,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/ballina-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://herbly.com.au/pages/redland-bay-dispensary,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,google,,,1
+https://herbly.com.au/pages/campbelltown-dispensary,0,12,0,0,0,2,0,2,0,0,0,0,0,0,-4,"google, search-gpt",weed near me,"Transactional, Informational",4
+https://herbly.com.au/pages/about-us,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0

@@ -1,0 +1,32 @@
+URL,Traffic (%),Number of Keywords,Traffic,Adwords Positions,Positions with commercial intents in top 20,Positions with informational intents in top 20,Positions with navigational intents in top 20,Positions with transactional intents in top 20,Positions with unknown intents in top 20,Traffic with commercial intents in top 20,Traffic with informational intents in top 20,Traffic with navigational intents in top 20,Traffic with transactional intents in top 20,Traffic with unknown intents in top 20,Traffic Change,Answer Engines,Top Keyword,Primary Intent,LLM Prompts
+https://www.candormedical.com/,92.95,311,11793,0,27,61,33,15,0,39,153,11607,76,0,47,"gemini, google, google-ai, search-gpt",candor,Informational,22
+https://app.candormedical.com/,5.99,12,761,0,0,6,5,6,0,0,33,728,734,0,22,,candor login,"Transactional, Informational",0
+https://www.candormedical.com/contact,0.69,8,88,0,1,3,5,4,0,2,42,46,6,0,39,search-gpt,candor medical phone number,Navigational,1
+http://www.candormedical.com/,0.13,6,17,0,2,2,4,0,0,8,8,9,0,0,0,,candor medical reviews,Navigational,0
+https://www.candormedical.com/pricing-guide,0.1,8,13,0,1,1,6,5,0,0,0,13,13,0,0,gemini,candor login,Navigational,2
+https://www.candormedical.com/faq,0.05,18,7,0,4,5,10,7,0,4,4,2,2,0,1,"gemini, google, search-gpt",candor medical reviews,Navigational,6
+https://www.candormedical.com/education/how-to-skip-your-period,0.04,19,6,0,0,3,0,0,0,0,6,0,0,0,4,,how do you skip your period on the pill,Informational,0
+https://www.candormedical.com/terms-and-conditions,0,8,1,0,0,2,3,3,0,0,1,0,1,0,0,search-gpt,camdor,"Transactional, Navigational",2
+https://www.candormedical.com/treatments/alternative-therapy,0,8,1,0,1,0,6,4,0,0,0,1,1,0,0,gemini,candor sign in,Navigational,3
+https://www.candormedical.com/about,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,1
+https://www.candormedical.com/treatments/anti-ageing,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.candormedical.com/education/terpenes,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.candormedical.com/education/social-jet-lag,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,,social jet lag,Informational,0
+https://www.candormedical.com/treatments/allergies,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.candormedical.com/treatments/weight-loss,0,6,0,0,2,1,0,0,0,0,0,0,0,0,0,,candor medical review,Commercial,0
+https://www.candormedical.com/education/what-do-i-do-if-i-miss-a-pill,0,13,0,0,0,1,0,0,0,0,0,0,0,0,0,,what do i do if i missed a pill,Informational,0
+https://app.candormedical.com/alternative-therapy-form,0,2,0,0,0,1,0,1,0,0,0,0,0,0,0,,candor catalogue,"Transactional, Informational",0
+https://www.candormedical.com/education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.candormedical.com/treatments/cold-sores,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.candormedical.com/treatments/herpes,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.candormedical.com/treatments/erectile-dysfunction,0,7,0,0,1,1,0,0,0,0,0,0,0,0,0,search-gpt,candor medical review,"Commercial, Informational",1
+https://www.candormedical.com/education/multi-factor-authentication-guide,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,"gemini, google-ai",candor medical phone number,Navigational,2
+https://www.candormedical.com/treatments/contraceptive-pill,0,16,0,0,1,2,1,1,0,0,0,0,0,0,0,google,candor sign in,Informational,1
+https://www.candormedical.com/treatments/acne,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.candormedical.com/privacy-policy,0,2,0,0,0,1,1,0,0,0,0,0,0,0,0,search-gpt,candor medical phone number,"Navigational, Informational",1
+https://www.candormedical.com/treatments/hair-loss,0,2,0,0,1,1,0,0,0,0,0,0,0,0,0,,candor medical review,"Commercial, Informational",0
+https://www.candormedical.com/education/what-are-cold-sores,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.candormedical.com/how-candor-works,0,4,0,0,0,0,1,1,0,0,0,0,0,0,0,,candor medical login,"Transactional, Navigational",0
+https://www.candormedical.com/disclaimer,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,search-gpt,candor medical login,"Transactional, Navigational",3
+https://www.candormedical.com/education/why-am-i-waking-up-so-tired,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.candormedical.com/work-with-us,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,,,,0

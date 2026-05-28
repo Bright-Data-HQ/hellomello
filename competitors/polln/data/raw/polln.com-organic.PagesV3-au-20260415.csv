@@ -1,0 +1,99 @@
+URL,Traffic (%),Number of Keywords,Traffic,Adwords Positions,Positions with commercial intents in top 20,Positions with informational intents in top 20,Positions with navigational intents in top 20,Positions with transactional intents in top 20,Positions with unknown intents in top 20,Traffic with commercial intents in top 20,Traffic with informational intents in top 20,Traffic with navigational intents in top 20,Traffic with transactional intents in top 20,Traffic with unknown intents in top 20,Traffic Change,Answer Engines,Top Keyword,Primary Intent,LLM Prompts
+https://www.polln.com/,62.22,616,2960,0,81,124,19,14,0,177,243,2530,2469,0,-295,"gemini, google, google-ai, search-gpt",polln,Informational,55
+https://patient.polln.com/,13.39,6,637,0,0,0,3,3,0,0,0,637,637,0,0,google-ai,polln login,"Transactional, Navigational",1
+https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system,3.86,307,184,0,0,144,0,0,0,0,184,0,0,0,-9,"google, search-gpt",how long does weed stay in your system australia,Informational,97
+https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect,3.78,132,180,0,15,75,0,0,0,20,171,0,0,0,-204,,difference between indica and sativa,Informational,0
+https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia,3.27,40,156,0,0,29,0,2,0,0,154,0,2,0,-12,"google, search-gpt",medical marijuanas qld cost,Informational,10
+http://www.polln.com/,3.09,2,147,0,0,0,2,1,0,0,0,147,75,0,72,,polln,Navigational,0
+https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis,2.24,43,107,0,5,26,0,1,0,6,99,0,0,0,-10,"google, search-gpt",vaping weed,Informational,5
+https://www.polln.com/locations/adelaide,1.13,74,54,0,3,16,0,1,0,5,49,0,0,0,-1,google,list of authorised prescribers sa,Informational,4
+https://www.polln.com/locations/perth,1.13,111,54,0,2,23,1,0,0,7,47,0,0,0,9,google,medical marijuanas perth,Informational,5
+https://www.polln.com/library/travelling-as-a-medicinal-cannabis-patient-in-australia-what-you-need-to-know,0.88,15,42,0,0,6,0,0,0,0,42,0,0,0,2,google,can you smoke medical marijuanas in australia in public,Informational,4
+https://www.polln.com/contact,0.88,4,42,0,0,0,4,3,0,0,0,42,41,0,-76,google-ai,pollin,Navigational,1
+https://www.polln.com/practitioners/dr-joel-wren,0.52,37,25,0,1,12,1,5,0,7,17,0,2,0,1,google,dr joel wren,Informational,3
+https://www.polln.com/locations/brisbane,0.37,82,18,0,7,13,0,0,0,6,12,0,0,0,-22,google,list of authorised prescribers qld,Informational,2
+https://www.polln.com/faqs/do-my-prescriptions-expire,0.33,56,16,0,0,21,1,1,0,0,16,0,0,0,1,"google, google-ai",how long do scripts last,Informational,13
+https://www.polln.com/locations/melbourne,0.29,43,14,0,1,5,2,0,0,2,11,0,0,0,-14,,list of authorised prescribers victoria,Informational,0
+https://www.polln.com/faqs/how-do-i-access-repeat-prescriptions-of-my-medication,0.25,2,12,0,0,0,2,2,0,0,0,12,12,0,2,gemini,polln login,"Transactional, Navigational",1
+https://www.polln.com/pricing,0.25,7,12,0,2,0,4,3,0,7,0,5,5,0,1,"google-ai, search-gpt",polln review,Navigational,2
+https://www.polln.com/our-doctors,0.23,22,11,0,0,1,2,1,0,0,0,11,11,0,0,,pollin,Navigational,0
+https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia,0.23,52,11,0,0,18,0,1,0,0,11,0,0,0,-38,"gemini, google, google-ai",how to get medical marijuanas card australia 2024,Informational,15
+https://qa.polln.com/,0.21,1,10,0,0,0,1,1,0,0,0,10,10,0,10,,polln login,"Transactional, Navigational",0
+https://www.polln.com/faqs/how-do-i-get-a-medical-card-in-australia,0.18,11,9,0,0,5,0,0,0,0,9,0,0,0,9,google,med card,Informational,2
+https://www.polln.com/locations/hobart,0.18,22,9,0,0,2,2,0,0,0,0,9,0,0,-5,"gemini, google-ai",cannabis doctors tasmania,"Navigational, Informational",2
+https://www.polln.com/locations/sydney,0.16,43,8,0,1,6,0,0,0,0,8,0,0,0,0,"google, google-ai",medical cannabis prescription sydney,Informational,2
+https://www.polln.com/locations/sunshine-coast,0.14,9,7,0,3,3,0,0,0,2,5,0,0,0,0,,medical cannabis sunshine coast,"Commercial, Informational",0
+https://www.polln.com/library/pharmacy-dispensing-limits-and-intervals,0.14,6,7,0,0,6,0,0,0,0,7,0,0,0,0,google-ai,drug schedules australia,Informational,1
+https://www.polln.com/locations/canberra,0.1,32,5,0,1,5,0,0,0,0,5,0,0,0,0,"google, search-gpt",medical marijuanas canberra,Informational,2
+https://www.polln.com/library/cbd-oil-explained,0.08,41,4,0,3,7,0,0,0,2,3,0,0,0,-37,google,what is cbd oil,Informational,3
+https://www.polln.com/alternative-healthcare,0.08,4,4,0,3,0,1,0,0,4,0,0,0,0,0,"gemini, google-ai, search-gpt",polln review,Commercial,6
+https://www.polln.com/condition/mental-health,0.08,4,4,0,2,0,2,1,0,0,0,4,4,0,4,search-gpt,polln login,"Commercial, Navigational",1
+https://shop.polln.com/products/volcano-medic-2,0.06,4,3,0,1,4,0,1,0,3,3,0,0,0,-1,,volcano medic 2 australia,Informational,0
+https://www.polln.com/locations/gold-coast,0.06,11,3,0,2,3,0,0,0,0,3,0,0,0,2,,medical cannabis gold coast,Informational,0
+https://www.polln.com/faqs,0.04,5,2,0,3,0,1,0,0,2,0,0,0,0,-7,"gemini, google-ai, search-gpt",polln review,Commercial,10
+https://www.polln.com/faqs/what-is-an-authorised-prescriber,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,,authorised prescriber,Informational,0
+https://www.polln.com/library/the-endocannabinoid-system-explained,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/library/medicinal-cannabis-and-driving-what-you-need-to-know-as-a-patient-in-australia,0,32,0,0,0,2,0,0,0,0,0,0,0,0,0,"google, google-ai",how long can you drive after weed,Informational,9
+https://www.polln.com/practitioners/dr-gavin-mcauley,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs-section/bookings-and-payments,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/practitioners/stephanie-grunberg,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs/can-i-choose-which-medication-i-want,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://shop.polln.com/collections/storz-and-bickel,0,7,0,0,0,1,3,1,0,0,0,0,0,0,0,,tga approved vaporisers,Navigational,0
+https://www.polln.com/faqs-section/my-medication-and-prescription,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs/can-i-track-my-order,0,2,0,0,0,0,1,1,0,0,0,0,0,0,0,google-ai,polln dashboard,"Transactional, Navigational",1
+https://www.polln.com/library/natural-therapies-prescription-natural-medicine-and-sleep-disorders,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,google,polln review,Commercial,1
+https://qa-admin.polln.com/,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/locations/darwin,0,5,0,0,0,1,0,1,0,0,0,0,0,0,0,,medical cannabis nt,"Transactional, Informational",0
+https://shop.polln.com/collections/all,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs/how-does-polln-work,0,2,0,0,0,0,1,1,0,0,0,0,0,0,0,"gemini, google-ai, search-gpt",polln dashboard,"Transactional, Navigational",7
+https://www.polln.com/how-it-works,0,4,0,0,0,0,3,2,0,0,0,0,0,0,-4,"gemini, google-ai, search-gpt",polln dashboard,Navigational,7
+https://www.polln.com/faqs/how-do-i-book-a-consultation,0,4,0,0,0,0,3,1,0,0,0,0,0,0,-1,google-ai,polln dashboard,Navigational,1
+https://qa.consultation.polln.com/,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs/can-i-claim-polln-medication-or-services-on-my-private-health-insurance,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/practitioners/dr-bruna-leite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/library,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,,polln review,Commercial,0
+https://www.polln.com/faqs/how-do-i-know-if-im-eligible-for-a-prescription,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/library/what-prescription-natural-medicine-products-are-available-in-australia,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,google-ai,,,1
+https://www.polln.com/location-faqs/can-i-drive-while-taking-medicinal-cannabis-in-tasmania,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,google,,,1
+https://www.polln.com/location-faqs/is-medicinal-cannabis-legal-in-canberra,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,,medical cannabis canberra,Informational,0
+https://www.polln.com/location-faqs/can-i-get-a-polln-consultation-consultation-in-regional-western-australia-f95f9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/terms-and-conditions,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,gemini,,,1
+https://www.polln.com/code-of-conduct,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/library/how-prescription-natural-medicine-can-be-consumed,0,4,0,0,2,0,0,0,0,0,0,0,0,0,0,,polln review,Commercial,0
+https://www.polln.com/free-discovery-call,0,4,0,0,0,0,1,0,0,0,0,0,0,0,0,,polln contact,Navigational,0
+https://www.polln.com/faqs-section/shipping-and-pharmacy-dispensing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/location-faqs/medical-cannabis-in-alice-springs-is-it-legal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs/is-my-polln-consultation-booked-into-my-timezone,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,,polln dashboard,"Transactional, Navigational",0
+https://www.polln.com/faqs/can-i-reschedule-my-consultation,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,,polln dashboard,"Transactional, Navigational",0
+https://www.polln.com/faqs/what-do-i-do-if-there-is-an-issue-with-my-delivery-or-treatment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/for-clinicians/work-with-polln,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,,polln login,"Transactional, Navigational",0
+https://www.polln.com/location-faqs/how-long-does-shipping-to-sydney-warrane-take,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs/who-is-polln-for,0,4,0,0,0,0,2,1,0,0,0,0,0,0,0,google-ai,polln dashboard,Navigational,1
+https://www.polln.com/library/everything-you-need-to-know-about-cannabis-terpenes,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,"gemini, google, search-gpt",,,5
+https://www.polln.com/faqs/how-much-does-medication-shipping-cost,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs/do-i-need-to-use-a-vaporiser-and-can-i-buy-a-vaporiser-through-polln,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs/can-i-bulk-bill-polln-services-through-medicare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs/how-long-will-it-take-for-my-order-to-arrive,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/switch,0,5,0,0,2,0,0,0,0,0,0,0,0,0,-1,google-ai,polln review,Commercial,2
+https://www.polln.com/who-we-are,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,google-ai,,,1
+https://www.polln.com/faqs/how-is-polln-different-from-a-regular-visit-to-the-doctor,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,google-ai,polln login,"Transactional, Navigational",1
+https://www.polln.com/location-faqs/can-i-get-a-polln-consultation-in-the-gold-coast-a1892,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/location-faqs/can-i-get-a-polln-consultation-in-regional-victoria-f04d0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://shop.polln.com/products/mighty-medic-1,0,5,0,0,0,1,0,0,0,0,0,0,0,0,0,,might medic,Informational,0
+https://www.polln.com/faqs/how-much-does-polln-cost,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs-section/using-the-polln-platform,0,3,0,0,0,0,2,1,0,0,0,0,0,0,0,"google-ai, search-gpt",polln dashboard,Navigational,5
+https://www.polln.com/location-faqs/can-i-drive-after-taking-medicinal-cannabis-treatments-in-brisbane,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs/what-sort-of-practitioners-does-polln-connect-me-with,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,polln contact,Navigational,0
+https://www.polln.com/faqs/how-do-i-store-my-medication,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/locations/alice-springs,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/condition/mh-nursecall,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,polln contact,Navigational,0
+https://www.polln.com/location-faqs/can-i-get-a-polln-consultation-in-regional-queensland-e1afa,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/library/choosing-a-natural-medicine-clinic-in-australia-what-to-look-for-and-what-to-avoid,0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,"gemini, google-ai, search-gpt",polln review,Commercial,65
+https://www.polln.com/faqs/what-kind-of-consultation-do-i-need-to-book,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,1
+https://www.polln.com/faqs-section/about-polln,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/faqs/can-i-travel-with-my-prescription-medications,0,37,0,0,0,4,0,0,0,0,0,0,0,0,0,,travel prescription medications,Informational,0
+https://shop.polln.com/,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.polln.com/privacy-policy,0,3,0,0,0,0,1,0,0,0,0,0,0,0,0,google-ai,polln contact,Navigational,1
+https://www.polln.com/faqs/how-much-will-my-prescribed-treatments-cost,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,,polln dashboard,"Transactional, Navigational",0
+https://www.polln.com/for-clinicians/refer-your-patient,0,5,0,0,0,0,1,0,0,0,0,0,0,0,0,,polln contact,Navigational,0
+https://www.polln.com/faqs/do-you-ship-anywhere-in-australia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0

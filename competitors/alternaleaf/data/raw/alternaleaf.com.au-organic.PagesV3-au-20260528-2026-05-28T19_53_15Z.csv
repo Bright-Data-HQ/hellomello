@@ -1,0 +1,107 @@
+URL,Traffic (%),Number of Keywords,Traffic,Adwords Positions,Positions with commercial intents in top 20,Positions with informational intents in top 20,Positions with navigational intents in top 20,Positions with transactional intents in top 20,Positions with unknown intents in top 20,Traffic with commercial intents in top 20,Traffic with informational intents in top 20,Traffic with navigational intents in top 20,Traffic with transactional intents in top 20,Traffic with unknown intents in top 20,Traffic Change,Answer Engines,Top Keyword,Primary Intent,LLM Prompts
+https://www.alternaleaf.com.au/,65.17,2542,51171,126,161,559,140,116,0,1343,4432,45578,1587,0,2292,"gemini, google, google-ai, search-gpt",alternaleaf,Informational,134
+https://patient.alternaleaf.com.au/,27.13,172,21303,0,6,30,61,46,0,208,160,20925,18769,0,5872,"google, google-ai, search-gpt",montu login,Navigational,7
+https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf,2.67,50,2103,4,0,16,17,5,0,0,1994,1131,0,0,34,"google-ai, search-gpt",alternaleaf phone number,Navigational,3
+https://support.alternaleaf.com.au/hc/en-au/articles/10870563222287-Medication,1.14,71,896,4,2,29,9,23,0,5,788,96,677,0,-59,"google, google-ai, search-gpt",alternaleaf product list,Informational,8
+https://support.alternaleaf.com.au/hc/en-au/sections/27145357404697-Patient-portal,0.98,38,773,0,1,0,30,23,0,39,0,734,514,0,-767,search-gpt,montu login,Navigational,2
+https://www.alternaleaf.com.au/contact-us,0.89,60,706,0,1,16,29,19,0,1,461,270,240,0,525,"google-ai, search-gpt",thealite contact us,Navigational,2
+https://www.alternaleaf.com.au/reviews,0.4,31,317,5,15,9,0,0,0,312,238,0,0,0,195,"google, google-ai, search-gpt",alternaleaf reviews,Commercial,12
+https://www.alternaleaf.com.au/pricing,0.29,121,235,6,4,50,14,24,0,1,124,11,117,0,5,"google, google-ai, search-gpt",alternaleaf product price list,Informational,29
+https://support.alternaleaf.com.au/hc/en-au/articles/10869651355023-Regulations-and-approvals,0.13,75,105,0,4,25,11,5,0,35,90,11,12,0,-49,"google, search-gpt",alternaleaf reviews,Informational,5
+https://www.alternaleaf.com.au/promotion-terms,0.11,33,94,0,0,13,1,5,0,0,94,0,74,0,-67,"google, google-ai",alternaleaf discount code,Informational,3
+https://support.alternaleaf.com.au/hc/en-au/articles/10869841424399-Your-patient-portal-explained,0.1,30,79,0,0,1,12,11,0,0,0,79,60,0,11,"gemini, google-ai, search-gpt",alternaleaf login,Navigational,6
+https://support.alternaleaf.com.au/hc/en-au/articles/10869733610639-Technical-support,0.08,29,64,0,0,3,14,11,0,0,1,64,52,0,28,google-ai,alternaleaf login,Navigational,3
+https://support.alternaleaf.com.au/hc/en-au/articles/10870673137807-Managing-your-orders,0.08,22,64,0,0,4,14,9,0,0,2,62,28,0,-33,search-gpt,umeds,Navigational,2
+https://support.alternaleaf.com.au/hc/en-au/articles/11213073235727-Promotions,0.05,29,44,0,0,6,0,3,0,0,44,0,44,0,26,"google, google-ai",alternaleaf discount code,Informational,6
+https://www.alternaleaf.com.au/terms/montu40-terms,0.05,16,43,0,0,9,0,3,0,0,43,0,36,0,-38,"google, search-gpt",alternaleaf discount code,Informational,2
+https://patient.alternaleaf.com.au/patient/refill,0.05,12,42,0,1,0,9,7,0,4,0,38,28,0,4,google-ai,umeds,Navigational,1
+https://www.alternaleaf.com.au/hub/boost-energy-levels-naturally,0.05,53,41,0,0,31,0,0,0,0,41,0,0,0,-54,google,how can i get energy,Informational,13
+https://www.alternaleaf.com.au/concession-program,0.05,48,41,0,0,9,1,0,0,0,41,0,0,0,0,google,how to get medical marijuanas card qld free,Informational,4
+https://support.alternaleaf.com.au/hc/en-au/sections/19289995246873-Prescriptions-and-medications,0.04,11,38,0,0,5,1,5,0,0,35,3,36,0,29,google,alternaleaf products list,"Transactional, Informational",1
+https://support.alternaleaf.com.au/hc/en-au/articles/10831701671567-Concession-benefits,0.04,41,36,0,0,13,4,15,0,0,21,0,34,0,7,google,alternaleaf price list,Transactional,5
+https://support.alternaleaf.com.au/hc/en-au/articles/10870541469839-Prescriptions-and-the-law,0.03,43,31,0,0,8,8,7,0,0,18,13,7,0,-340,"google, search-gpt",alternaleaf products list australia,"Navigational, Informational",4
+https://support.alternaleaf.com.au/hc/en-au/articles/10831537698831-Ordering-process,0.03,43,31,0,1,6,13,10,0,0,11,20,14,0,-32,"gemini, google-ai, search-gpt",alternaleaf,Navigational,3
+https://support.alternaleaf.com.au/hc/en-au/articles/10870378835343-Healthcare-claims,0.03,13,30,0,1,4,5,3,0,28,29,2,0,0,28,google,alternaleaf reviews,Navigational,2
+https://www.alternaleaf.com.au/faq,0.03,59,28,6,1,25,21,16,0,0,22,10,3,0,5,"google, google-ai, search-gpt",alternaleaf phone number,Informational,10
+https://support.alternaleaf.com.au/hc/en-au/articles/10869890340239-Managing-your-account,0.02,41,22,0,0,15,23,10,0,0,4,20,3,0,1,"google-ai, search-gpt",alternaleaf patient portal,Navigational,3
+https://support.alternaleaf.com.au/hc/en-au/articles/10870512848399-Understanding-prescriptions,0.02,43,22,0,1,7,2,4,0,2,22,0,19,0,2,search-gpt,alternaleaf products list,Informational,1
+https://www.alternaleaf.com.au/doctors,0.02,31,19,0,1,5,4,4,0,0,1,18,5,0,15,search-gpt,alternaleaf,Informational,1
+https://support.alternaleaf.com.au/hc/en-au,0.02,19,16,0,0,10,7,0,0,0,16,6,0,0,-1,"google, google-ai, search-gpt",alternaleaf phone number,Informational,3
+https://www.alternaleaf.com.au/concessions,0.02,42,16,2,0,10,1,12,0,0,3,0,12,0,3,google,alternaleaf prices,Transactional,3
+https://www.alternaleaf.com.au/hub/hot-or-cold-shower-before-bed,0.01,8,15,0,2,7,0,0,0,0,15,0,0,0,-8,"gemini, google, google-ai, search-gpt",a hot shower,Informational,7
+https://www.alternaleaf.com.au/process,0.01,107,13,0,4,29,10,12,0,0,10,3,2,0,-2,"gemini, google, google-ai, search-gpt",what is alternaleaf,Informational,4
+https://www.alternaleaf.com.au/terms/20-off-terms,0.01,11,12,0,0,6,0,2,0,0,12,0,12,0,9,google,alternaleaf discount code,Informational,3
+https://www.alternaleaf.com.au/hub/managing-pain-acupressure-reflexology,0.01,21,12,0,0,7,0,0,0,0,12,0,0,0,-10,"gemini, google",hand pressure points,Informational,7
+https://support.alternaleaf.com.au/hc/en-au/articles/10831241604367-How-consultations-work,0.01,20,12,0,2,5,5,0,0,8,4,4,0,0,3,google,leaf doctors reviews,"Navigational, Informational",1
+https://pms.alternaleaf.com.au/,0.01,11,8,0,0,0,4,4,0,0,0,8,8,0,-219,,alternaleaf log in,"Transactional, Navigational",0
+https://www.alternaleaf.com.au/hub/digital-dopamine-detox,0,4,7,0,0,1,0,0,0,0,5,0,0,0,7,,dopamine detox,Informational,0
+https://patient.alternaleaf.com.au/forgot-password,0,2,7,0,0,0,2,2,0,0,0,7,7,0,7,,montu login,"Transactional, Navigational",0
+https://bookings.alternaleaf.com.au/apps/installed/messaging,0,4,6,0,0,0,2,2,0,0,0,6,6,0,2,,https cal com login,"Transactional, Navigational",0
+https://www.alternaleaf.com.au/about-us,0,56,4,0,0,7,4,1,0,0,3,1,1,0,0,google,what is alternaleaf,Informational,1
+https://www.alternaleaf.com.au/hub/mouth-breathing-for-better-sleep,0,7,3,0,0,2,0,0,0,0,3,0,0,0,3,,mouth breathing at night symptoms,Informational,0
+https://www.alternaleaf.com.au/referral,0,29,2,0,0,0,0,0,0,0,0,0,0,0,1,,,,0
+https://www.alternaleaf.com.au/terms/share-terms,0,8,2,0,0,5,0,3,0,0,2,0,2,0,1,google,alternaleaf discount code,Informational,2
+https://www.alternaleaf.com.au/hub/deep-sleep-meditation-restful-sleep,0,5,2,0,0,2,0,0,0,0,2,0,0,0,2,,deep sleep,Informational,0
+https://www.alternaleaf.com.au/terms/follow-up-discount,0,3,1,0,0,2,0,1,0,0,1,0,1,0,1,,alternaleaf discount code,Informational,0
+https://www.alternaleaf.com.au/hub/importance-of-emotional-health,0,28,1,0,0,4,0,0,0,0,0,0,0,0,-9,google,emotional in health,Informational,2
+https://www.alternaleaf.com.au/media,0,10,1,0,1,0,0,0,0,1,0,0,0,0,1,google,alterna,Commercial,1
+https://www.alternaleaf.com.au/hub/natural-ways-to-relieve-muscle-pain,0,125,1,0,2,10,0,0,0,0,1,0,0,0,-17,"gemini, google",what relieves muscle pain,Informational,5
+https://www.alternaleaf.com.au/terms/choose-you,0,3,0,0,0,1,0,1,0,0,0,0,0,0,0,,alternaleaf discount codes,"Transactional, Informational",0
+https://patient.alternaleaf.com.au/login/patient,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,,montu app,Commercial,0
+https://patient.alternaleaf.com.au/patient/orders,0,2,0,0,0,0,0,0,0,0,0,0,0,0,-1,,,,0
+https://patient.alternaleaf.com.au/login/,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://support.alternaleaf.com.au/hc/en-au/articles/10870364236047-Order-payments,0,36,0,0,0,0,1,1,0,0,0,0,0,0,-1,google-ai,alternaleaf montu login,"Transactional, Navigational",1
+https://support.alternaleaf.com.au/hc/en-au/requests/new,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/page/new-south-wales,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-4,,,,0
+https://support.alternaleaf.com.au/hc/en-au/articles/10870696872463-Delivery-process,0,17,0,0,0,3,3,2,0,0,0,0,0,0,-2,google-ai,alternaleaf prices,"Navigational, Informational",1
+https://www.alternaleaf.com.au/terms/follow-up-discount-2026,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/hub/your-guide-to-managing-care-with-a-concession-card,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://support.alternaleaf.com.au/hc/en-au/articles/10831470544143-Managing-consultations,0,15,0,0,0,0,0,0,0,0,0,0,0,0,-1,,,,0
+https://patient.alternaleaf.com.au/faq,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://patient.alternaleaf.com.au/consultations,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/medical-team,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-9,,,,0
+https://www.alternaleaf.com.au/page/sleep,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/terms-of-service,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://calendar.staging.alternaleaf.com.au/,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/hub/does-aging-affect-sleep,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://support.alternaleaf.com.au/hc/en-au/sections/19289969930905-Orders-and-deliveries,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/hub,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/page/act-canberra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/hub/avoiding-muscle-strain-at-gym,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,google,,,2
+https://www.alternaleaf.com.au/hub/knee-injuries-in-sports,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"google, search-gpt",,,3
+https://support.alternaleaf.com.au/hc/en-au/articles/12265588134543-Scam-Alert-Protecting-your-information,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,2
+https://www.alternaleaf.com.au/page/south-australia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/hub/forest-bathing-stress-relief,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,gemini,,,1
+https://www.alternaleaf.com.au/hub/acupuncture-revolutionising-sports-recovery,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,,sports acupuncture,Commercial,0
+https://www.alternaleaf.com.au/press-release/alternaleafs-myles-lawlor-joins-industry-leaders-at-sxsw-sydney,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/privacy,0,17,0,0,0,0,0,0,0,0,0,0,0,0,-1,google-ai,,,1
+https://support.alternaleaf.com.au/hc/en-au/sections/24513160497305-Consultations,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,google,,,1
+https://www.alternaleaf.com.au/hub/social-connectedness-mental-health,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://support.alternaleaf.com.au/hc/en-au/categories/19289929653273-Alternaleaf-patient-guide,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,,alternaleaf catalogue,Informational,0
+https://www.alternaleaf.com.au/communityguidelines,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,1
+https://www.alternaleaf.com.au/hub/guide-to-preventing-burnout,0,14,0,0,0,3,0,0,0,0,0,0,0,0,0,,how to prevent exhaustion,Informational,0
+https://www.alternaleaf.com.au/terms/tas-followup-consult,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://support.alternaleaf.com.au/hc/en-au/articles/14528893016719-Creating-a-Strong-Password,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://pre-screening.alternaleaf.com.au/,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/press-release/montu-australia-appoints-myles-lawlor-as-chief-executive-officer,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/sitemap,0,14,0,0,0,0,1,0,0,0,0,0,0,0,0,,alternaleaf call,Navigational,0
+https://www.alternaleaf.com.au/hub/pain-inflammation-diet,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,gemini,,,1
+https://support.alternaleaf.com.au/hc/en-au/articles/11639830107791-Privacy-Policy-and-Terms-Conditions-update,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/hub/aromatherapy-helping-sleep,0,3,0,0,1,1,0,0,0,0,0,0,0,0,-1,google,essential oils and sleep,"Commercial, Informational",1
+https://www.alternaleaf.com.au/terms/care19-initial-offer-march,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-44,,,,0
+https://www.alternaleaf.com.au/page/pain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/hub/circadian-rhythm-sleep-quality,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://support.alternaleaf.com.au/hc/en-au/articles/10870304782223-Consultation-payments,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://pre-screening.alternaleaf.com.au/?cal=true,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/terms/follow-up-discount-may25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/patient-guide,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,search-gpt,,,1
+https://support.alternaleaf.com.au/hc/en-au/articles/14176101180815-Pre-Consult-Check,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/hub/emotional-benefits-of-physical-activity,0,30,0,0,0,7,0,0,0,0,0,0,0,0,-2,,benefits of exercise emotional,Informational,0
+https://www.alternaleaf.com.au/hub/post-holiday-wellness-tips,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://patient.alternaleaf.com.au/profile-detail,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://pre-consult.alternaleaf.com.au/,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/page/sydney,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://patient.alternaleaf.com.au/login,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-3,,,,0
+https://www.alternaleaf.com.au/terms/patient-interview-terms,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://www.alternaleaf.com.au/page/perth,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0
+https://support.alternaleaf.com.au/hc/en-au/sections/25720623959577-Payments-and-concessions,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0

@@ -1,0 +1,3434 @@
+{
+  "totals": {
+    "traffic": 12687,
+    "keywords": 472,
+    "pages": 31,
+    "backlinks": 4445,
+    "backlinked_pages": 156,
+    "brand_traffic": 12141,
+    "nonbrand_traffic": 546,
+    "brand_kw": 126,
+    "nonbrand_kw": 346
+  },
+  "topics": [
+    {
+      "name": "Brand",
+      "kw": 126,
+      "traffic": 12141,
+      "examples": [
+        {
+          "kw": "candor",
+          "pos": 1,
+          "vol": 9900,
+          "traffic": 7920.0
+        },
+        {
+          "kw": "candor medical",
+          "pos": 1,
+          "vol": 3600,
+          "traffic": 2880.0
+        },
+        {
+          "kw": "candor login",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 472.0
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "kw": 103,
+      "traffic": 476,
+      "examples": [
+        {
+          "kw": "candir",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 208.0
+        },
+        {
+          "kw": "condor medical",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 56.0
+        },
+        {
+          "kw": "csndor",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 56.0
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "kw": 100,
+      "traffic": 57,
+      "examples": [
+        {
+          "kw": "online cannabis prescription australia",
+          "pos": 7,
+          "vol": 480,
+          "traffic": 11.0
+        },
+        {
+          "kw": "telehealth alternative medicine",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 9.0
+        },
+        {
+          "kw": "medical cannabis consultation",
+          "pos": 6,
+          "vol": 210,
+          "traffic": 7.0
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "kw": 97,
+      "traffic": 9,
+      "examples": [
+        {
+          "kw": "medical cannabis online australia",
+          "pos": 10,
+          "vol": 110,
+          "traffic": 2.0
+        },
+        {
+          "kw": "medical cannabis australia online",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 2.0
+        },
+        {
+          "kw": "how to get medical marijuanas card qld",
+          "pos": 24,
+          "vol": 720,
+          "traffic": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "kw": 9,
+      "traffic": 4,
+      "examples": [
+        {
+          "kw": "how to skip your period on the pill",
+          "pos": 7,
+          "vol": 140,
+          "traffic": 2.0
+        },
+        {
+          "kw": "how to skip your period with the pill",
+          "pos": 6,
+          "vol": 110,
+          "traffic": 2.0
+        },
+        {
+          "kw": "how to skip a period on the pill",
+          "pos": 68,
+          "vol": 110,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Product / Strain",
+      "kw": 12,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "medical cannabis oil",
+          "pos": 43,
+          "vol": 140,
+          "traffic": 0.0
+        },
+        {
+          "kw": "dr.cbd",
+          "pos": 63,
+          "vol": 40,
+          "traffic": 0.0
+        },
+        {
+          "kw": "dr.cbd",
+          "pos": 90,
+          "vol": 40,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "kw": 14,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "how much does the combined pill cost",
+          "pos": 11,
+          "vol": 70,
+          "traffic": 0.0
+        },
+        {
+          "kw": "birth control prices",
+          "pos": 67,
+          "vol": 70,
+          "traffic": 0.0
+        },
+        {
+          "kw": "contraceptive pill cost",
+          "pos": 40,
+          "vol": 260,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "kw": 3,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "how do i skip a period on the pill",
+          "pos": 36,
+          "vol": 140,
+          "traffic": 0.0
+        },
+        {
+          "kw": "how do i skip a period",
+          "pos": 36,
+          "vol": 140,
+          "traffic": 0.0
+        },
+        {
+          "kw": "how do i skip a period",
+          "pos": 64,
+          "vol": 140,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Conditions",
+      "kw": 1,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "adhd gummies",
+          "pos": 34,
+          "vol": 110,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "kw": 5,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "phone consultation doctor",
+          "pos": 54,
+          "vol": 480,
+          "traffic": 0.0
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 23,
+          "vol": 320,
+          "traffic": 0.0
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 32,
+          "vol": 320,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "kw": 1,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "dispensed australia reviews",
+          "pos": 18,
+          "vol": 70,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "kw": 1,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "alternaleaf au",
+          "pos": 24,
+          "vol": 50,
+          "traffic": 0.0
+        }
+      ]
+    }
+  ],
+  "topic_detail": {
+    "Brand": {
+      "total_kw": 126,
+      "total_traffic": 12141,
+      "top1_count": 23,
+      "page2_count": 16,
+      "avg_vol": 236,
+      "top_keywords": [
+        {
+          "kw": "candor",
+          "pos": 1,
+          "vol": 9900,
+          "traffic": 7920,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "candor medical",
+          "pos": 1,
+          "vol": 3600,
+          "traffic": 2880,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "candor login",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 472,
+          "url": "https://app.candormedical.com/"
+        },
+        {
+          "kw": "candor sign in",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 112,
+          "url": "https://app.candormedical.com/"
+        },
+        {
+          "kw": "candor app",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 88,
+          "url": "https://app.candormedical.com/"
+        },
+        {
+          "kw": "candor medical contact number",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 88,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "candor medical australia",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 88,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "candormedical",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 88,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "candor australia",
+          "pos": 1,
+          "vol": 90,
+          "traffic": 72,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "candor medical login",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 56,
+          "url": "https://app.candormedical.com/"
+        }
+      ],
+      "top_nonbrand": []
+    },
+    "Other": {
+      "total_kw": 103,
+      "total_traffic": 476,
+      "top1_count": 8,
+      "page2_count": 18,
+      "avg_vol": 186,
+      "top_keywords": [
+        {
+          "kw": "candir",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 208,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "condor medical",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 56,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "csndor",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 56,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "candoor",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 56,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "cnador",
+          "pos": 1,
+          "vol": 40,
+          "traffic": 32,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "online medical marijuanas",
+          "pos": 6,
+          "vol": 390,
+          "traffic": 11,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "alt med",
+          "pos": 1,
+          "vol": 320,
+          "traffic": 7,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical cannabis online",
+          "pos": 6,
+          "vol": 320,
+          "traffic": 7,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "condor dr",
+          "pos": 3,
+          "vol": 90,
+          "traffic": 7,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "c a n d o u r",
+          "pos": 7,
+          "vol": 1000,
+          "traffic": 6,
+          "url": "https://app.candormedical.com/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "candir",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 208
+        },
+        {
+          "kw": "condor medical",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 56
+        },
+        {
+          "kw": "csndor",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 56
+        },
+        {
+          "kw": "candoor",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 56
+        },
+        {
+          "kw": "cnador",
+          "pos": 1,
+          "vol": 40,
+          "traffic": 32
+        },
+        {
+          "kw": "online medical marijuanas",
+          "pos": 6,
+          "vol": 390,
+          "traffic": 11
+        },
+        {
+          "kw": "alt med",
+          "pos": 1,
+          "vol": 320,
+          "traffic": 7
+        },
+        {
+          "kw": "medical cannabis online",
+          "pos": 6,
+          "vol": 320,
+          "traffic": 7
+        }
+      ]
+    },
+    "Clinic / Doctor": {
+      "total_kw": 100,
+      "total_traffic": 57,
+      "top1_count": 4,
+      "page2_count": 10,
+      "avg_vol": 130,
+      "top_keywords": [
+        {
+          "kw": "online cannabis prescription australia",
+          "pos": 7,
+          "vol": 480,
+          "traffic": 11,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "telehealth alternative medicine",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 9,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical cannabis consultation",
+          "pos": 6,
+          "vol": 210,
+          "traffic": 7,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "weed prescription online",
+          "pos": 6,
+          "vol": 210,
+          "traffic": 5,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical cannabis consult",
+          "pos": 4,
+          "vol": 90,
+          "traffic": 5,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical weed doctor near me",
+          "pos": 6,
+          "vol": 110,
+          "traffic": 3,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "online cbd prescription",
+          "pos": 6,
+          "vol": 90,
+          "traffic": 3,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical cannabis telehealth",
+          "pos": 5,
+          "vol": 70,
+          "traffic": 2,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "telehealth alternative medicine",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 2,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical cannabis online consultation",
+          "pos": 5,
+          "vol": 50,
+          "traffic": 2,
+          "url": "https://www.candormedical.com/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "online cannabis prescription australia",
+          "pos": 7,
+          "vol": 480,
+          "traffic": 11
+        },
+        {
+          "kw": "telehealth alternative medicine",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 9
+        },
+        {
+          "kw": "medical cannabis consultation",
+          "pos": 6,
+          "vol": 210,
+          "traffic": 7
+        },
+        {
+          "kw": "weed prescription online",
+          "pos": 6,
+          "vol": 210,
+          "traffic": 5
+        },
+        {
+          "kw": "medical cannabis consult",
+          "pos": 4,
+          "vol": 90,
+          "traffic": 5
+        },
+        {
+          "kw": "medical weed doctor near me",
+          "pos": 6,
+          "vol": 110,
+          "traffic": 3
+        },
+        {
+          "kw": "online cbd prescription",
+          "pos": 6,
+          "vol": 90,
+          "traffic": 3
+        },
+        {
+          "kw": "medical cannabis telehealth",
+          "pos": 5,
+          "vol": 70,
+          "traffic": 2
+        }
+      ]
+    },
+    "Locations": {
+      "total_kw": 97,
+      "total_traffic": 9,
+      "top1_count": 3,
+      "page2_count": 11,
+      "avg_vol": 173,
+      "top_keywords": [
+        {
+          "kw": "medical cannabis australia online",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 2,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical cannabis online australia",
+          "pos": 10,
+          "vol": 110,
+          "traffic": 2,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "how to get medical marijuanas card qld",
+          "pos": 24,
+          "vol": 720,
+          "traffic": 1,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical marijuanas nsw online",
+          "pos": 17,
+          "vol": 590,
+          "traffic": 1,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical cannabis australia online",
+          "pos": 10,
+          "vol": 390,
+          "traffic": 1,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical marijuanas qld online",
+          "pos": 12,
+          "vol": 210,
+          "traffic": 1,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "online medical marijuana australia",
+          "pos": 7,
+          "vol": 70,
+          "traffic": 1,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "burleigh heads medical centre",
+          "pos": 64,
+          "vol": 1300,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "how to get medical marijuanas card qld",
+          "pos": 31,
+          "vol": 720,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "canwell dispensary",
+          "pos": 47,
+          "vol": 590,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "medical cannabis australia online",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 2
+        },
+        {
+          "kw": "medical cannabis online australia",
+          "pos": 10,
+          "vol": 110,
+          "traffic": 2
+        },
+        {
+          "kw": "how to get medical marijuanas card qld",
+          "pos": 24,
+          "vol": 720,
+          "traffic": 1
+        },
+        {
+          "kw": "medical marijuanas nsw online",
+          "pos": 17,
+          "vol": 590,
+          "traffic": 1
+        },
+        {
+          "kw": "medical cannabis australia online",
+          "pos": 10,
+          "vol": 390,
+          "traffic": 1
+        },
+        {
+          "kw": "medical marijuanas qld online",
+          "pos": 12,
+          "vol": 210,
+          "traffic": 1
+        },
+        {
+          "kw": "online medical marijuana australia",
+          "pos": 7,
+          "vol": 70,
+          "traffic": 1
+        },
+        {
+          "kw": "burleigh heads medical centre",
+          "pos": 64,
+          "vol": 1300,
+          "traffic": 0
+        }
+      ]
+    },
+    "Education / How-to": {
+      "total_kw": 9,
+      "total_traffic": 4,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 131,
+      "top_keywords": [
+        {
+          "kw": "how to skip your period on the pill",
+          "pos": 7,
+          "vol": 140,
+          "traffic": 2,
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+        },
+        {
+          "kw": "how to skip your period with the pill",
+          "pos": 6,
+          "vol": 110,
+          "traffic": 2,
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+        },
+        {
+          "kw": "what is alternaleaf",
+          "pos": 74,
+          "vol": 260,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "how to skip a period when on the pill",
+          "pos": 36,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+        },
+        {
+          "kw": "how to skip a period when on the pill",
+          "pos": 55,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+        },
+        {
+          "kw": "how to skip period on pill",
+          "pos": 53,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+        },
+        {
+          "kw": "how to skip a period on the pill",
+          "pos": 68,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+        },
+        {
+          "kw": "what is alternative health care",
+          "pos": 80,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "how to skip your period",
+          "pos": 29,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "how to skip your period on the pill",
+          "pos": 7,
+          "vol": 140,
+          "traffic": 2
+        },
+        {
+          "kw": "how to skip your period with the pill",
+          "pos": 6,
+          "vol": 110,
+          "traffic": 2
+        },
+        {
+          "kw": "what is alternaleaf",
+          "pos": 74,
+          "vol": 260,
+          "traffic": 0
+        },
+        {
+          "kw": "how to skip a period when on the pill",
+          "pos": 36,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "how to skip a period when on the pill",
+          "pos": 55,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "how to skip period on pill",
+          "pos": 53,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "how to skip a period on the pill",
+          "pos": 68,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "what is alternative health care",
+          "pos": 80,
+          "vol": 90,
+          "traffic": 0
+        }
+      ]
+    },
+    "Contact / Support": {
+      "total_kw": 5,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 246,
+      "top_keywords": [
+        {
+          "kw": "phone consultation doctor",
+          "pos": 54,
+          "vol": 480,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 23,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 32,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "can i help clinic",
+          "pos": 25,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical certificate over the phone",
+          "pos": 91,
+          "vol": 40,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "phone consultation doctor",
+          "pos": 54,
+          "vol": 480,
+          "traffic": 0
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 23,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 32,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "can i help clinic",
+          "pos": 25,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "medical certificate over the phone",
+          "pos": 91,
+          "vol": 40,
+          "traffic": 0
+        }
+      ]
+    },
+    "Product / Strain": {
+      "total_kw": 12,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 136,
+      "top_keywords": [
+        {
+          "kw": "online thc",
+          "pos": 31,
+          "vol": 480,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "mode healthcare",
+          "pos": 44,
+          "vol": 390,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "medical cannabis oil",
+          "pos": 43,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "skipping period the oill",
+          "pos": 90,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+        },
+        {
+          "kw": "buy cbd",
+          "pos": 73,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "prescribed thc",
+          "pos": 40,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "thc online",
+          "pos": 23,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "vape shop toowoomba",
+          "pos": 34,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "alternative healthcare",
+          "pos": 81,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "dr.cbd",
+          "pos": 63,
+          "vol": 40,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "online thc",
+          "pos": 31,
+          "vol": 480,
+          "traffic": 0
+        },
+        {
+          "kw": "mode healthcare",
+          "pos": 44,
+          "vol": 390,
+          "traffic": 0
+        },
+        {
+          "kw": "medical cannabis oil",
+          "pos": 43,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "skipping period the oill",
+          "pos": 90,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "buy cbd",
+          "pos": 73,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "prescribed thc",
+          "pos": 40,
+          "vol": 90,
+          "traffic": 0
+        },
+        {
+          "kw": "thc online",
+          "pos": 23,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "vape shop toowoomba",
+          "pos": 34,
+          "vol": 70,
+          "traffic": 0
+        }
+      ]
+    },
+    "Pricing": {
+      "total_kw": 14,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 3,
+      "avg_vol": 133,
+      "top_keywords": [
+        {
+          "kw": "medical marijuanas perth cost",
+          "pos": 57,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "contraceptive pill cost",
+          "pos": 40,
+          "vol": 260,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/treatments/contraceptive-pill"
+        },
+        {
+          "kw": "medical marijuanas nsw cost",
+          "pos": 23,
+          "vol": 260,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        },
+        {
+          "kw": "price of the pill",
+          "pos": 75,
+          "vol": 210,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/treatments/contraceptive-pill"
+        },
+        {
+          "kw": "how much do birth control pills cost",
+          "pos": 89,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/treatments/contraceptive-pill"
+        },
+        {
+          "kw": "cost of oral contraceptives",
+          "pos": 69,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/treatments/contraceptive-pill"
+        },
+        {
+          "kw": "how much does contraception cost",
+          "pos": 19,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/treatments/contraceptive-pill"
+        },
+        {
+          "kw": "cost contraceptive pill",
+          "pos": 46,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/treatments/contraceptive-pill"
+        },
+        {
+          "kw": "how much does the combined pill cost",
+          "pos": 11,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/treatments/contraceptive-pill"
+        },
+        {
+          "kw": "birth control prices",
+          "pos": 67,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/treatments/contraceptive-pill"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "medical marijuanas perth cost",
+          "pos": 57,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "contraceptive pill cost",
+          "pos": 40,
+          "vol": 260,
+          "traffic": 0
+        },
+        {
+          "kw": "medical marijuanas nsw cost",
+          "pos": 23,
+          "vol": 260,
+          "traffic": 0
+        },
+        {
+          "kw": "price of the pill",
+          "pos": 75,
+          "vol": 210,
+          "traffic": 0
+        },
+        {
+          "kw": "how much do birth control pills cost",
+          "pos": 89,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "cost of oral contraceptives",
+          "pos": 69,
+          "vol": 90,
+          "traffic": 0
+        },
+        {
+          "kw": "how much does contraception cost",
+          "pos": 19,
+          "vol": 90,
+          "traffic": 0
+        },
+        {
+          "kw": "cost contraceptive pill",
+          "pos": 46,
+          "vol": 90,
+          "traffic": 0
+        }
+      ]
+    },
+    "Eligibility / Legal": {
+      "total_kw": 3,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 140,
+      "top_keywords": [
+        {
+          "kw": "how do i skip a period on the pill",
+          "pos": 36,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+        },
+        {
+          "kw": "how do i skip a period",
+          "pos": 36,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+        },
+        {
+          "kw": "how do i skip a period",
+          "pos": 64,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "how do i skip a period on the pill",
+          "pos": 36,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "how do i skip a period",
+          "pos": 36,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "how do i skip a period",
+          "pos": 64,
+          "vol": 140,
+          "traffic": 0
+        }
+      ]
+    },
+    "Conditions": {
+      "total_kw": 1,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 110,
+      "top_keywords": [
+        {
+          "kw": "adhd gummies",
+          "pos": 34,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "adhd gummies",
+          "pos": 34,
+          "vol": 110,
+          "traffic": 0
+        }
+      ]
+    },
+    "Reviews": {
+      "total_kw": 1,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 1,
+      "avg_vol": 70,
+      "top_keywords": [
+        {
+          "kw": "dispensed australia reviews",
+          "pos": 18,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "dispensed australia reviews",
+          "pos": 18,
+          "vol": 70,
+          "traffic": 0
+        }
+      ]
+    },
+    "Competitors": {
+      "total_kw": 1,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 50,
+      "top_keywords": [
+        {
+          "kw": "alternaleaf au",
+          "pos": 24,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://www.candormedical.com/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "alternaleaf au",
+          "pos": 24,
+          "vol": 50,
+          "traffic": 0
+        }
+      ]
+    }
+  },
+  "pillars": [
+    {
+      "name": "Brand",
+      "total_kw": 126,
+      "total_traffic": 12141,
+      "efficiency": 96.36,
+      "top1_count": 23,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 30,
+          "traffic": 11266,
+          "examples": [
+            {
+              "kw": "candor",
+              "pos": 1,
+              "traffic": 7920
+            },
+            {
+              "kw": "candor medical",
+              "pos": 1,
+              "traffic": 2880
+            }
+          ]
+        },
+        {
+          "label": "Login",
+          "kw": 31,
+          "traffic": 559,
+          "examples": [
+            {
+              "kw": "candor login",
+              "pos": 1,
+              "traffic": 472
+            },
+            {
+              "kw": "candor medical login",
+              "pos": 1,
+              "traffic": 56
+            }
+          ]
+        },
+        {
+          "label": "Contact Number",
+          "kw": 15,
+          "traffic": 131,
+          "examples": [
+            {
+              "kw": "candor medical contact number",
+              "pos": 1,
+              "traffic": 88
+            },
+            {
+              "kw": "candor contact number",
+              "pos": 1,
+              "traffic": 40
+            }
+          ]
+        },
+        {
+          "label": "Sign",
+          "kw": 11,
+          "traffic": 120,
+          "examples": [
+            {
+              "kw": "candor sign in",
+              "pos": 1,
+              "traffic": 112
+            },
+            {
+              "kw": "candor sign in",
+              "pos": 2,
+              "traffic": 3
+            }
+          ]
+        },
+        {
+          "label": "Phone Number",
+          "kw": 14,
+          "traffic": 41,
+          "examples": [
+            {
+              "kw": "candor medical phone number",
+              "pos": 1,
+              "traffic": 40
+            },
+            {
+              "kw": "candor medical phone number",
+              "pos": 10,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Review",
+          "kw": 23,
+          "traffic": 21,
+          "examples": [
+            {
+              "kw": "candor medical reviews",
+              "pos": 3,
+              "traffic": 5
+            },
+            {
+              "kw": "candor medical reviews",
+              "pos": 10,
+              "traffic": 5
+            }
+          ]
+        },
+        {
+          "label": "Promo Code",
+          "kw": 2,
+          "traffic": 3,
+          "examples": [
+            {
+              "kw": "candor promo code",
+              "pos": 5,
+              "traffic": 2
+            },
+            {
+              "kw": "candor promo code",
+              "pos": 9,
+              "traffic": 1
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 11261,
+          "kw": 27
+        },
+        {
+          "url": "https://app.candormedical.com/",
+          "traffic": 755,
+          "kw": 9
+        },
+        {
+          "url": "https://www.candormedical.com/contact",
+          "traffic": 88,
+          "kw": 8
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "total_kw": 103,
+      "total_traffic": 476,
+      "efficiency": 4.62,
+      "top1_count": 8,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 92,
+          "traffic": 474,
+          "examples": [
+            {
+              "kw": "candir",
+              "pos": 1,
+              "traffic": 208
+            },
+            {
+              "kw": "condor medical",
+              "pos": 1,
+              "traffic": 56
+            }
+          ]
+        },
+        {
+          "label": "Weed Online",
+          "kw": 5,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "medical weed online",
+              "pos": 6,
+              "traffic": 2
+            },
+            {
+              "kw": "buying medical weed online",
+              "pos": 19,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Missed Pill",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "what to do if missed pill",
+              "pos": 46,
+              "traffic": 0
+            },
+            {
+              "kw": "missed pill",
+              "pos": 67,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Miss Pill",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "what to do if miss pill",
+              "pos": 29,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Providers",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "medical cannabis providers",
+              "pos": 16,
+              "traffic": 0
+            },
+            {
+              "kw": "medical cannabis providers",
+              "pos": 39,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 466,
+          "kw": 80
+        },
+        {
+          "url": "https://app.candormedical.com/",
+          "traffic": 6,
+          "kw": 3
+        },
+        {
+          "url": "http://www.candormedical.com/",
+          "traffic": 2,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "total_kw": 100,
+      "total_traffic": 57,
+      "efficiency": 0.57,
+      "top1_count": 4,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 69,
+          "traffic": 39,
+          "examples": [
+            {
+              "kw": "telehealth alternative medicine",
+              "pos": 1,
+              "traffic": 9
+            },
+            {
+              "kw": "medical cannabis consultation",
+              "pos": 6,
+              "traffic": 7
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Prescription",
+          "kw": 9,
+          "traffic": 11,
+          "examples": [
+            {
+              "kw": "online cannabis prescription australia",
+              "pos": 7,
+              "traffic": 11
+            },
+            {
+              "kw": "online cannabis prescription",
+              "pos": 89,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Prescription Online",
+          "kw": 3,
+          "traffic": 6,
+          "examples": [
+            {
+              "kw": "weed prescription online",
+              "pos": 6,
+              "traffic": 5
+            },
+            {
+              "kw": "medical marijuana prescription online",
+              "pos": 10,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Medicinal Cannabis",
+          "kw": 6,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "medicinal cannabis telehealth",
+              "pos": 6,
+              "traffic": 1
+            },
+            {
+              "kw": "medicinal cannabis consultant",
+              "pos": 53,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Prescription Australia",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "online weight loss prescription australia",
+              "pos": 42,
+              "traffic": 0
+            },
+            {
+              "kw": "cbd prescription australia",
+              "pos": 41,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Doctors",
+          "kw": 6,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "tasmanian cannabis doctors",
+              "pos": 53,
+              "traffic": 0
+            },
+            {
+              "kw": "medical cannabis doctors australia",
+              "pos": 16,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Clinic",
+          "kw": 4,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "best cannabis clinic australia",
+              "pos": 28,
+              "traffic": 0
+            },
+            {
+              "kw": "medical cannabis clinic australia",
+              "pos": 13,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 57,
+          "kw": 95
+        },
+        {
+          "url": "https://www.candormedical.com/treatments/contraceptive-pill",
+          "traffic": 0,
+          "kw": 1
+        },
+        {
+          "url": "https://www.candormedical.com/treatments/weight-loss",
+          "traffic": 0,
+          "kw": 3
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "total_kw": 97,
+      "total_traffic": 9,
+      "efficiency": 0.09,
+      "top1_count": 3,
+      "sub_clusters": [
+        {
+          "label": "National / \"Australia\"",
+          "kw": 29,
+          "traffic": 6,
+          "examples": []
+        },
+        {
+          "label": "Brisbane / QLD",
+          "kw": 21,
+          "traffic": 2,
+          "examples": []
+        },
+        {
+          "label": "Other",
+          "kw": 21,
+          "traffic": 0,
+          "examples": []
+        },
+        {
+          "label": "Sydney / NSW",
+          "kw": 6,
+          "traffic": 1,
+          "examples": []
+        },
+        {
+          "label": "Melbourne / VIC",
+          "kw": 5,
+          "traffic": 0,
+          "examples": []
+        },
+        {
+          "label": "Canberra / ACT",
+          "kw": 5,
+          "traffic": 0,
+          "examples": []
+        },
+        {
+          "label": "Perth / WA",
+          "kw": 5,
+          "traffic": 0,
+          "examples": []
+        },
+        {
+          "label": "\"near me\"",
+          "kw": 2,
+          "traffic": 0,
+          "examples": []
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 9,
+          "kw": 83
+        },
+        {
+          "url": "https://www.candormedical.com/treatments/contraceptive-pill",
+          "traffic": 0,
+          "kw": 2
+        },
+        {
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period",
+          "traffic": 0,
+          "kw": 3
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "total_kw": 9,
+      "total_traffic": 4,
+      "efficiency": 0.44,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 7,
+          "traffic": 4,
+          "examples": [
+            {
+              "kw": "how to skip your period on the pill",
+              "pos": 7,
+              "traffic": 2
+            },
+            {
+              "kw": "how to skip your period with the pill",
+              "pos": 6,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "Skip Period",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to skip period on pill",
+              "pos": 53,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Alternative Health",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "what is alternative health care",
+              "pos": 80,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period",
+          "traffic": 4,
+          "kw": 7
+        },
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 0,
+          "kw": 2
+        }
+      ]
+    },
+    {
+      "name": "Product / Strain",
+      "total_kw": 12,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Cannabis Oil",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "medical cannabis oil",
+              "pos": 43,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Thc Online",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "thc online",
+              "pos": 23,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Skipping Period",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "skipping period the oill",
+              "pos": 90,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Vape Shop",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "vape shop toowoomba",
+              "pos": 34,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 8,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "dr.cbd",
+              "pos": 63,
+              "traffic": 0
+            },
+            {
+              "kw": "dr.cbd",
+              "pos": 90,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 0,
+          "kw": 11
+        },
+        {
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "total_kw": 14,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Birth Control",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "birth control prices",
+              "pos": 67,
+              "traffic": 0
+            },
+            {
+              "kw": "cost of birth control",
+              "pos": 72,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Pill Cost",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how much does the combined pill cost",
+              "pos": 11,
+              "traffic": 0
+            },
+            {
+              "kw": "contraceptive pill cost",
+              "pos": 40,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Contraceptive Pill",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "cost contraceptive pill",
+              "pos": 46,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 8,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "cheapest medical weed australia",
+              "pos": 67,
+              "traffic": 0
+            },
+            {
+              "kw": "dispensed australia prices",
+              "pos": 78,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/treatments/contraceptive-pill",
+          "traffic": 0,
+          "kw": 9
+        },
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 0,
+          "kw": 5
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "total_kw": 3,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how do i skip a period on the pill",
+              "pos": 36,
+              "traffic": 0
+            },
+            {
+              "kw": "how do i skip a period",
+              "pos": 36,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period",
+          "traffic": 0,
+          "kw": 3
+        }
+      ]
+    },
+    {
+      "name": "Conditions",
+      "total_kw": 1,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "ADHD",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "adhd gummies",
+              "pos": 34,
+              "vol": 110
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "total_kw": 5,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Help Dispensary",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "can i help dispensary",
+              "pos": 23,
+              "traffic": 0
+            },
+            {
+              "kw": "can i help dispensary",
+              "pos": 32,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Phone Consultation",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "phone consultation doctor",
+              "pos": 54,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Help Clinic",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "can i help clinic",
+              "pos": 25,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "medical certificate over the phone",
+              "pos": 91,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 0,
+          "kw": 5
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "total_kw": 1,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Dispensed Australia",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "dispensed australia reviews",
+              "pos": 18,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "total_kw": 1,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "alternaleaf au",
+              "pos": 24,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    }
+  ],
+  "content_clusters": [
+    {
+      "name": "Homepage",
+      "pages": 2,
+      "traffic": 11810,
+      "kw": 317,
+      "examples": [
+        {
+          "url": "https://www.candormedical.com/",
+          "traffic": 11793,
+          "kw": 311,
+          "top_kw": "candor",
+          "intent": "Informational"
+        },
+        {
+          "url": "http://www.candormedical.com/",
+          "traffic": 17,
+          "kw": 6,
+          "top_kw": "candor medical reviews",
+          "intent": "Navigational"
+        }
+      ]
+    },
+    {
+      "name": "App / patient portal",
+      "pages": 2,
+      "traffic": 761,
+      "kw": 14,
+      "examples": [
+        {
+          "url": "https://app.candormedical.com/",
+          "traffic": 761,
+          "kw": 12,
+          "top_kw": "candor login",
+          "intent": "Transactional, Informational"
+        },
+        {
+          "url": "https://app.candormedical.com/alternative-therapy-form",
+          "traffic": 0,
+          "kw": 2,
+          "top_kw": "candor catalogue",
+          "intent": "Transactional, Informational"
+        }
+      ]
+    },
+    {
+      "name": "Contact / about",
+      "pages": 5,
+      "traffic": 95,
+      "kw": 32,
+      "examples": [
+        {
+          "url": "https://www.candormedical.com/contact",
+          "traffic": 88,
+          "kw": 8,
+          "top_kw": "candor medical phone number",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://www.candormedical.com/faq",
+          "traffic": 7,
+          "kw": 18,
+          "top_kw": "candor medical reviews",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://www.candormedical.com/about",
+          "traffic": 0,
+          "kw": 2,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://www.candormedical.com/how-candor-works",
+          "traffic": 0,
+          "kw": 4,
+          "top_kw": "candor medical login",
+          "intent": "Transactional, Navigational"
+        }
+      ]
+    },
+    {
+      "name": "Pricing / commercial",
+      "pages": 1,
+      "traffic": 13,
+      "kw": 8,
+      "examples": [
+        {
+          "url": "https://www.candormedical.com/pricing-guide",
+          "traffic": 13,
+          "kw": 8,
+          "top_kw": "candor login",
+          "intent": "Navigational"
+        }
+      ]
+    },
+    {
+      "name": "Education / Blog",
+      "pages": 7,
+      "traffic": 6,
+      "kw": 40,
+      "examples": [
+        {
+          "url": "https://www.candormedical.com/education/how-to-skip-your-period",
+          "traffic": 6,
+          "kw": 19,
+          "top_kw": "how do you skip your period on the pill",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.candormedical.com/education/terpenes",
+          "traffic": 0,
+          "kw": 1,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://www.candormedical.com/education/social-jet-lag",
+          "traffic": 0,
+          "kw": 3,
+          "top_kw": "social jet lag",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.candormedical.com/education/what-do-i-do-if-i-miss-a-pill",
+          "traffic": 0,
+          "kw": 13,
+          "top_kw": "what do i do if i missed a pill",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "Legal",
+      "pages": 3,
+      "traffic": 1,
+      "kw": 11,
+      "examples": [
+        {
+          "url": "https://www.candormedical.com/terms-and-conditions",
+          "traffic": 1,
+          "kw": 8,
+          "top_kw": "camdor",
+          "intent": "Transactional, Navigational"
+        },
+        {
+          "url": "https://www.candormedical.com/privacy-policy",
+          "traffic": 0,
+          "kw": 2,
+          "top_kw": "candor medical phone number",
+          "intent": "Navigational, Informational"
+        },
+        {
+          "url": "https://www.candormedical.com/disclaimer",
+          "traffic": 0,
+          "kw": 1,
+          "top_kw": "candor medical login",
+          "intent": "Transactional, Navigational"
+        }
+      ]
+    },
+    {
+      "name": "Treatments",
+      "pages": 10,
+      "traffic": 1,
+      "kw": 50,
+      "examples": [
+        {
+          "url": "https://www.candormedical.com/treatments/alternative-therapy",
+          "traffic": 1,
+          "kw": 8,
+          "top_kw": "candor sign in",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://www.candormedical.com/treatments/anti-ageing",
+          "traffic": 0,
+          "kw": 2,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://www.candormedical.com/treatments/allergies",
+          "traffic": 0,
+          "kw": 3,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://www.candormedical.com/treatments/weight-loss",
+          "traffic": 0,
+          "kw": 6,
+          "top_kw": "candor medical review",
+          "intent": "Commercial"
+        }
+      ]
+    },
+    {
+      "name": "Other pages",
+      "pages": 1,
+      "traffic": 0,
+      "kw": 0,
+      "examples": [
+        {
+          "url": "https://www.candormedical.com/education",
+          "traffic": 0,
+          "kw": 0,
+          "top_kw": "",
+          "intent": ""
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "National / \"Australia\"",
+      "kw": 29,
+      "traffic": 6
+    },
+    {
+      "name": "Brisbane / QLD",
+      "kw": 21,
+      "traffic": 2
+    },
+    {
+      "name": "Other",
+      "kw": 21,
+      "traffic": 0
+    },
+    {
+      "name": "Sydney / NSW",
+      "kw": 6,
+      "traffic": 1
+    },
+    {
+      "name": "Melbourne / VIC",
+      "kw": 5,
+      "traffic": 0
+    },
+    {
+      "name": "Canberra / ACT",
+      "kw": 5,
+      "traffic": 0
+    },
+    {
+      "name": "Perth / WA",
+      "kw": 5,
+      "traffic": 0
+    },
+    {
+      "name": "\"near me\"",
+      "kw": 2,
+      "traffic": 0
+    },
+    {
+      "name": "Darwin / NT",
+      "kw": 2,
+      "traffic": 0
+    },
+    {
+      "name": "Adelaide / SA",
+      "kw": 1,
+      "traffic": 0
+    }
+  ],
+  "conditions": [
+    {
+      "name": "ADHD",
+      "kw": 1,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "adhd gummies",
+          "pos": 34,
+          "vol": 110
+        }
+      ]
+    }
+  ],
+  "position_distribution": [
+    {
+      "label": "#1",
+      "kw": 38,
+      "traffic": 12470
+    },
+    {
+      "label": "#2\u20133",
+      "kw": 26,
+      "traffic": 54
+    },
+    {
+      "label": "#4\u201310",
+      "kw": 75,
+      "traffic": 150
+    },
+    {
+      "label": "#11\u201320",
+      "kw": 59,
+      "traffic": 11
+    },
+    {
+      "label": "#21\u201350",
+      "kw": 131,
+      "traffic": 2
+    },
+    {
+      "label": "#51\u2013100",
+      "kw": 143,
+      "traffic": 0
+    }
+  ],
+  "intents": [
+    {
+      "name": "Navigational",
+      "kw": 118,
+      "traffic": 12398
+    },
+    {
+      "name": "Informational",
+      "kw": 247,
+      "traffic": 230
+    },
+    {
+      "name": "Commercial",
+      "kw": 96,
+      "traffic": 53
+    },
+    {
+      "name": "Transactional",
+      "kw": 11,
+      "traffic": 6
+    }
+  ],
+  "top_pages": [
+    {
+      "url": "https://www.candormedical.com/",
+      "traffic": 11793.0,
+      "kw": 311,
+      "traffic_pct": 92.95,
+      "intent": "Informational",
+      "top_kw": "candor"
+    },
+    {
+      "url": "https://app.candormedical.com/",
+      "traffic": 761.0,
+      "kw": 12,
+      "traffic_pct": 5.99,
+      "intent": "Transactional, Informational",
+      "top_kw": "candor login"
+    },
+    {
+      "url": "https://www.candormedical.com/contact",
+      "traffic": 88.0,
+      "kw": 8,
+      "traffic_pct": 0.69,
+      "intent": "Navigational",
+      "top_kw": "candor medical phone number"
+    },
+    {
+      "url": "http://www.candormedical.com/",
+      "traffic": 17.0,
+      "kw": 6,
+      "traffic_pct": 0.13,
+      "intent": "Navigational",
+      "top_kw": "candor medical reviews"
+    },
+    {
+      "url": "https://www.candormedical.com/pricing-guide",
+      "traffic": 13.0,
+      "kw": 8,
+      "traffic_pct": 0.1,
+      "intent": "Navigational",
+      "top_kw": "candor login"
+    },
+    {
+      "url": "https://www.candormedical.com/faq",
+      "traffic": 7.0,
+      "kw": 18,
+      "traffic_pct": 0.05,
+      "intent": "Navigational",
+      "top_kw": "candor medical reviews"
+    },
+    {
+      "url": "https://www.candormedical.com/education/how-to-skip-your-period",
+      "traffic": 6.0,
+      "kw": 19,
+      "traffic_pct": 0.04,
+      "intent": "Informational",
+      "top_kw": "how do you skip your period on the pill"
+    },
+    {
+      "url": "https://www.candormedical.com/terms-and-conditions",
+      "traffic": 1.0,
+      "kw": 8,
+      "traffic_pct": 0.0,
+      "intent": "Transactional, Navigational",
+      "top_kw": "camdor"
+    },
+    {
+      "url": "https://www.candormedical.com/treatments/alternative-therapy",
+      "traffic": 1.0,
+      "kw": 8,
+      "traffic_pct": 0.0,
+      "intent": "Navigational",
+      "top_kw": "candor sign in"
+    },
+    {
+      "url": "https://www.candormedical.com/about",
+      "traffic": 0.0,
+      "kw": 2,
+      "traffic_pct": 0.0,
+      "intent": "",
+      "top_kw": ""
+    },
+    {
+      "url": "https://www.candormedical.com/treatments/anti-ageing",
+      "traffic": 0.0,
+      "kw": 2,
+      "traffic_pct": 0.0,
+      "intent": "",
+      "top_kw": ""
+    },
+    {
+      "url": "https://www.candormedical.com/education/terpenes",
+      "traffic": 0.0,
+      "kw": 1,
+      "traffic_pct": 0.0,
+      "intent": "",
+      "top_kw": ""
+    }
+  ],
+  "top_winners": [
+    {
+      "url": "https://www.candormedical.com/",
+      "traffic": 11793.0,
+      "kw": 311,
+      "traffic_pct": 92.95,
+      "intent": "Informational",
+      "top_kw": "candor"
+    },
+    {
+      "url": "https://app.candormedical.com/",
+      "traffic": 761.0,
+      "kw": 12,
+      "traffic_pct": 5.99,
+      "intent": "Transactional, Informational",
+      "top_kw": "candor login"
+    },
+    {
+      "url": "https://www.candormedical.com/contact",
+      "traffic": 88.0,
+      "kw": 8,
+      "traffic_pct": 0.69,
+      "intent": "Navigational",
+      "top_kw": "candor medical phone number"
+    },
+    {
+      "url": "http://www.candormedical.com/",
+      "traffic": 17.0,
+      "kw": 6,
+      "traffic_pct": 0.13,
+      "intent": "Navigational",
+      "top_kw": "candor medical reviews"
+    },
+    {
+      "url": "https://www.candormedical.com/pricing-guide",
+      "traffic": 13.0,
+      "kw": 8,
+      "traffic_pct": 0.1,
+      "intent": "Navigational",
+      "top_kw": "candor login"
+    },
+    {
+      "url": "https://www.candormedical.com/faq",
+      "traffic": 7.0,
+      "kw": 18,
+      "traffic_pct": 0.05,
+      "intent": "Navigational",
+      "top_kw": "candor medical reviews"
+    },
+    {
+      "url": "https://www.candormedical.com/education/how-to-skip-your-period",
+      "traffic": 6.0,
+      "kw": 19,
+      "traffic_pct": 0.04,
+      "intent": "Informational",
+      "top_kw": "how do you skip your period on the pill"
+    },
+    {
+      "url": "https://www.candormedical.com/terms-and-conditions",
+      "traffic": 1.0,
+      "kw": 8,
+      "traffic_pct": 0.0,
+      "intent": "Transactional, Navigational",
+      "top_kw": "camdor"
+    },
+    {
+      "url": "https://www.candormedical.com/treatments/alternative-therapy",
+      "traffic": 1.0,
+      "kw": 8,
+      "traffic_pct": 0.0,
+      "intent": "Navigational",
+      "top_kw": "candor sign in"
+    },
+    {
+      "url": "https://www.candormedical.com/about",
+      "traffic": 0.0,
+      "kw": 2,
+      "traffic_pct": 0.0,
+      "intent": "",
+      "top_kw": ""
+    }
+  ],
+  "top_losers": [
+    {
+      "url": "https://www.candormedical.com/treatments/contraceptive-pill",
+      "traffic": 0.0,
+      "kw": 16,
+      "traffic_pct": 0.0,
+      "intent": "Informational",
+      "top_kw": "candor sign in"
+    },
+    {
+      "url": "https://www.candormedical.com/education/what-do-i-do-if-i-miss-a-pill",
+      "traffic": 0.0,
+      "kw": 13,
+      "traffic_pct": 0.0,
+      "intent": "Informational",
+      "top_kw": "what do i do if i missed a pill"
+    },
+    {
+      "url": "https://www.candormedical.com/terms-and-conditions",
+      "traffic": 1.0,
+      "kw": 8,
+      "traffic_pct": 0.0,
+      "intent": "Transactional, Navigational",
+      "top_kw": "camdor"
+    },
+    {
+      "url": "https://www.candormedical.com/treatments/alternative-therapy",
+      "traffic": 1.0,
+      "kw": 8,
+      "traffic_pct": 0.0,
+      "intent": "Navigational",
+      "top_kw": "candor sign in"
+    },
+    {
+      "url": "https://www.candormedical.com/treatments/erectile-dysfunction",
+      "traffic": 0.0,
+      "kw": 7,
+      "traffic_pct": 0.0,
+      "intent": "Commercial, Informational",
+      "top_kw": "candor medical review"
+    },
+    {
+      "url": "https://www.candormedical.com/treatments/weight-loss",
+      "traffic": 0.0,
+      "kw": 6,
+      "traffic_pct": 0.0,
+      "intent": "Commercial",
+      "top_kw": "candor medical review"
+    },
+    {
+      "url": "https://www.candormedical.com/how-candor-works",
+      "traffic": 0.0,
+      "kw": 4,
+      "traffic_pct": 0.0,
+      "intent": "Transactional, Navigational",
+      "top_kw": "candor medical login"
+    },
+    {
+      "url": "https://www.candormedical.com/education/social-jet-lag",
+      "traffic": 0.0,
+      "kw": 3,
+      "traffic_pct": 0.0,
+      "intent": "Informational",
+      "top_kw": "social jet lag"
+    },
+    {
+      "url": "https://www.candormedical.com/treatments/allergies",
+      "traffic": 0.0,
+      "kw": 3,
+      "traffic_pct": 0.0,
+      "intent": "",
+      "top_kw": ""
+    },
+    {
+      "url": "https://www.candormedical.com/treatments/cold-sores",
+      "traffic": 0.0,
+      "kw": 3,
+      "traffic_pct": 0.0,
+      "intent": "",
+      "top_kw": ""
+    }
+  ],
+  "subdomains": [
+    {
+      "name": "www",
+      "traffic": 11926,
+      "pages": 29
+    },
+    {
+      "name": "app",
+      "traffic": 761,
+      "pages": 2
+    }
+  ],
+  "top_keywords": [
+    {
+      "kw": "candor",
+      "pos": 1,
+      "vol": 9900,
+      "kd": 61.0,
+      "cpc": 2.42,
+      "traffic": 7920.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Sitelinks, Video, People also ask, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "candor medical",
+      "pos": 1,
+      "vol": 3600,
+      "kd": 42.0,
+      "cpc": 1.78,
+      "traffic": 2880.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, Video, Image, Ads bottom, People also ask, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "candor login",
+      "pos": 1,
+      "vol": 590,
+      "kd": 16.0,
+      "cpc": 0.16,
+      "traffic": 472.0,
+      "url": "https://app.candormedical.com/",
+      "intents": "navigational, transactional",
+      "serp": "Sitelinks, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "candir",
+      "pos": 1,
+      "vol": 260,
+      "kd": 60.0,
+      "cpc": 2.42,
+      "traffic": 208.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Sitelinks, Video, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "candor sign in",
+      "pos": 1,
+      "vol": 140,
+      "kd": 17.0,
+      "cpc": 0.51,
+      "traffic": 112.0,
+      "url": "https://app.candormedical.com/",
+      "intents": "navigational, transactional",
+      "serp": "Sitelinks, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "candor app",
+      "pos": 1,
+      "vol": 110,
+      "kd": 28.0,
+      "cpc": 0.61,
+      "traffic": 88.0,
+      "url": "https://app.candormedical.com/",
+      "intents": "navigational, transactional",
+      "serp": "Sitelinks, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "candor medical contact number",
+      "pos": 1,
+      "vol": 110,
+      "kd": 27.0,
+      "cpc": 1.72,
+      "traffic": 88.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, Video, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "candor medical australia",
+      "pos": 1,
+      "vol": 110,
+      "kd": 28.0,
+      "cpc": 2.97,
+      "traffic": 88.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Sitelinks, Video, People also ask, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "candormedical",
+      "pos": 1,
+      "vol": 110,
+      "kd": 46.0,
+      "cpc": 1.63,
+      "traffic": 88.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, Image, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "candor australia",
+      "pos": 1,
+      "vol": 90,
+      "kd": 18.0,
+      "cpc": 3.73,
+      "traffic": 72.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Sitelinks, Video, Image, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "condor medical",
+      "pos": 1,
+      "vol": 70,
+      "kd": 28.0,
+      "cpc": 3.86,
+      "traffic": 56.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "csndor",
+      "pos": 1,
+      "vol": 70,
+      "kd": 56.0,
+      "cpc": 2.42,
+      "traffic": 56.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Sitelinks, Video, Video Carousel, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "candor medical login",
+      "pos": 1,
+      "vol": 70,
+      "kd": 20.0,
+      "cpc": 0.62,
+      "traffic": 56.0,
+      "url": "https://app.candormedical.com/",
+      "intents": "navigational, transactional",
+      "serp": "Sitelinks, Video, People also ask, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "candoor",
+      "pos": 1,
+      "vol": 70,
+      "kd": 18.0,
+      "cpc": 1.12,
+      "traffic": 56.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Image pack, Sitelinks, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "candor contact number",
+      "pos": 1,
+      "vol": 50,
+      "kd": 12.0,
+      "cpc": 1.71,
+      "traffic": 40.0,
+      "url": "https://www.candormedical.com/contact",
+      "intents": "informational",
+      "serp": "Ads bottom, People also ask, Related searches",
+      "topic": "Brand"
+    }
+  ],
+  "nonbrand_keywords": [
+    {
+      "kw": "candir",
+      "pos": 1,
+      "vol": 260,
+      "kd": 60.0,
+      "cpc": 2.42,
+      "traffic": 208.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Sitelinks, Video, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "condor medical",
+      "pos": 1,
+      "vol": 70,
+      "kd": 28.0,
+      "cpc": 3.86,
+      "traffic": 56.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "csndor",
+      "pos": 1,
+      "vol": 70,
+      "kd": 56.0,
+      "cpc": 2.42,
+      "traffic": 56.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Sitelinks, Video, Video Carousel, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "candoor",
+      "pos": 1,
+      "vol": 70,
+      "kd": 18.0,
+      "cpc": 1.12,
+      "traffic": 56.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Image pack, Sitelinks, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "cnador",
+      "pos": 1,
+      "vol": 40,
+      "kd": 52.0,
+      "cpc": 2.42,
+      "traffic": 32.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "navigational",
+      "serp": "Sitelinks, Video, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "online medical marijuanas",
+      "pos": 6,
+      "vol": 390,
+      "kd": 50.0,
+      "cpc": 74.47,
+      "traffic": 11.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "informational",
+      "serp": "Video, Related searches, AI overview",
+      "topic": "Other"
+    },
+    {
+      "kw": "online cannabis prescription australia",
+      "pos": 7,
+      "vol": 480,
+      "kd": 51.0,
+      "cpc": 0.0,
+      "traffic": 11.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "informational",
+      "serp": "Video, Related searches, AI overview",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "telehealth alternative medicine",
+      "pos": 1,
+      "vol": 70,
+      "kd": 48.0,
+      "cpc": 0.0,
+      "traffic": 9.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "informational",
+      "serp": "Video, People also ask, Related searches, AI overview",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "alt med",
+      "pos": 1,
+      "vol": 320,
+      "kd": 74.0,
+      "cpc": 66.82,
+      "traffic": 7.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "informational, navigational",
+      "serp": "Sitelinks, Related searches, AI overview",
+      "topic": "Other"
+    },
+    {
+      "kw": "medical cannabis online",
+      "pos": 6,
+      "vol": 320,
+      "kd": 49.0,
+      "cpc": 0.0,
+      "traffic": 7.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "commercial",
+      "serp": "Video, Related searches, Discussions and forums",
+      "topic": "Other"
+    },
+    {
+      "kw": "medical cannabis consultation",
+      "pos": 6,
+      "vol": 210,
+      "kd": 53.0,
+      "cpc": 0.0,
+      "traffic": 7.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "informational",
+      "serp": "Knowledge panel, Related searches",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "condor dr",
+      "pos": 3,
+      "vol": 90,
+      "kd": 16.0,
+      "cpc": 0.0,
+      "traffic": 7.0,
+      "url": "https://www.candormedical.com/",
+      "intents": "informational",
+      "serp": "Video, Related searches",
+      "topic": "Other"
+    }
+  ],
+  "top_backlinks": [
+    {
+      "url": "https://www.candormedical.com/",
+      "title": "Candor Medical | Alternative Telehealth Consultations Australia",
+      "code": "200",
+      "backlinks": 4088,
+      "domains": 299
+    },
+    {
+      "url": "https://candormedical.com/",
+      "title": "",
+      "code": "301",
+      "backlinks": 212,
+      "domains": 128
+    },
+    {
+      "url": "http://candormedical.com/",
+      "title": "",
+      "code": "301",
+      "backlinks": 36,
+      "domains": 26
+    },
+    {
+      "url": "https://www.candormedical.com/404",
+      "title": "Not Found",
+      "code": "200",
+      "backlinks": 7,
+      "domains": 1
+    },
+    {
+      "url": "https://app.candormedical.com/",
+      "title": "Candor",
+      "code": "200",
+      "backlinks": 6,
+      "domains": 5
+    },
+    {
+      "url": "https://www.candormedical.com/treatments/natural-treatments",
+      "title": "",
+      "code": "301",
+      "backlinks": 6,
+      "domains": 4
+    },
+    {
+      "url": "https://app.candormedical.com/acne-form",
+      "title": "Candor",
+      "code": "200",
+      "backlinks": 5,
+      "domains": 3
+    },
+    {
+      "url": "https://app.candormedical.com/allergies-form",
+      "title": "Candor",
+      "code": "200",
+      "backlinks": 5,
+      "domains": 3
+    },
+    {
+      "url": "https://app.candormedical.com/cold-sores-form",
+      "title": "Candor",
+      "code": "200",
+      "backlinks": 5,
+      "domains": 3
+    },
+    {
+      "url": "https://app.candormedical.com/contraceptive-pill-form",
+      "title": "Candor",
+      "code": "200",
+      "backlinks": 5,
+      "domains": 3
+    }
+  ],
+  "backlink_groups": [
+    {
+      "name": "Homepage",
+      "backlinks": 4338,
+      "pages": 4
+    },
+    {
+      "name": "App / Portal",
+      "backlinks": 42,
+      "pages": 23
+    },
+    {
+      "name": "Other",
+      "backlinks": 31,
+      "pages": 85
+    },
+    {
+      "name": "Treatments",
+      "backlinks": 20,
+      "pages": 17
+    },
+    {
+      "name": "Education / Blog",
+      "backlinks": 14,
+      "pages": 27
+    }
+  ],
+  "backlink_hosts": [
+    {
+      "name": "International / other",
+      "backlinks": 4445,
+      "pages": 156
+    }
+  ],
+  "backlink_histogram": [
+    {
+      "label": "1",
+      "pages": 33,
+      "backlinks": 33
+    },
+    {
+      "label": "2\u20135",
+      "pages": 17,
+      "backlinks": 57
+    },
+    {
+      "label": "6\u201320",
+      "pages": 3,
+      "backlinks": 19
+    },
+    {
+      "label": "21\u201350",
+      "pages": 1,
+      "backlinks": 36
+    },
+    {
+      "label": "51\u2013200",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "200+",
+      "pages": 2,
+      "backlinks": 4300
+    }
+  ],
+  "notes": {
+    "position": "brand-fortress",
+    "verdict_tone": "amber",
+    "verdict_label": "Don't fight the brand. Take the category.",
+    "tagline": "A near-pure brand fortress. 12.7K visits / mo and 96% of it is the word 'candor'. Outside the brand, almost nothing \u2014 10 treatments pages, 8 education posts, almost zero organic non-brand. They bought the brand with paid; organic is the rounding error.",
+    "period": "April 2026",
+    "brand": {
+      "visual_system": [
+        "Minimal, modern medical aesthetic \u2014 sage, cream, generous whitespace.",
+        "Stock-feeling imagery \u2014 fewer real patient or clinician portraits than Polln or Alternaleaf.",
+        "Calm typography, soft rounded UI, conservative colour use.",
+        "App / portal lives on a dedicated subdomain (app.candormedical.com)."
+      ],
+      "site_architecture": [
+        "Two properties: www (marketing) + app (patient portal).",
+        "/treatments \u2014 10 condition / category pages (alternative therapy, hair loss, ED, contraceptive pill, herpes, weight loss).",
+        "/education \u2014 8 informational posts.",
+        "Thin commercial layer \u2014 /pricing-guide, /contact, /faq, /how-candor-works.",
+        "No locations, no city pages, no practitioner roster, no library at scale."
+      ],
+      "tone_compliance": [
+        "Conservative copy \u2014 telehealth-first framing, light on specific claims.",
+        "Treatments pages are short and templated, not evidence-led.",
+        "No bylined authors or medical-reviewer disclosure on education posts.",
+        "Brand-led \u2014 copy assumes the user already knows Candor."
+      ]
+    },
+    "eeat": {
+      "https": "green",
+      "schema_medical": "red",
+      "author_bylines": "red",
+      "medical_reviewer": "red",
+      "core_web_vitals": "green",
+      "freshness": "red",
+      "notes": "Technical baseline is clean (HTTPS, CWV, app subdomain). YMYL signals are weak \u2014 no authorship on education posts, no medical-reviewer block, thin schema, low freshness. The site behaves like a brand landing surface, not an organic content engine."
+    },
+    "verdict": {
+      "steal": [
+        {
+          "play": "Treatments page templates (as starting structure)",
+          "effort": 2,
+          "impact": 3,
+          "note": "Their /treatments/{condition} URL pattern is sound \u2014 replicate the structure but author the content properly with citations and clinician sign-off."
+        },
+        {
+          "play": "App subdomain separation",
+          "effort": 4,
+          "impact": 3,
+          "note": "Patient portal on app. earns clean brand+nav traffic and keeps the marketing site light. Standard pattern \u2014 adopt."
+        },
+        {
+          "play": "Clean technical baseline",
+          "effort": 2,
+          "impact": 2,
+          "note": "Speed, schema-light, no bloat. Whatever stack we ship, keep it lean."
+        }
+      ],
+      "avoid": [
+        {
+          "trap": "All-brand, no category",
+          "evidence": "96% of organic traffic is the literal word 'candor' and misspellings. Outside the brand, the organic engine is ~561 visits / mo. If brand demand stalls, the site stalls."
+        },
+        {
+          "trap": "Empty treatments pages",
+          "evidence": "10 /treatments pages ranking, 9 of them earn 0\u20131 visits / mo. Published but not winning \u2014 thin content, no E-E-A-T."
+        },
+        {
+          "trap": "Dormant education hub",
+          "evidence": "8 /education posts \u2192 ~6 visits / mo total. Anonymous authorship, no medical reviewer, no freshness \u2014 invisible on YMYL search."
+        },
+        {
+          "trap": "No geographic strategy",
+          "evidence": "No /locations, no city pages, no 'near me' coverage. Brand-fortress strategies don't scale into local intent."
+        }
+      ],
+      "implications": [
+        "Candor proves the brand-paid playbook works \u2014 but doesn't translate to organic moat.",
+        "The category is wide open against them \u2014 almost every non-brand query is undefended.",
+        "Their /treatments URL pattern is the only thing worth copying structurally; the content is empty.",
+        "Hellomello wins by being the category-first site they aren't \u2014 locations, conditions, library, named practitioners."
+      ]
+    },
+    "gap_matrix": [
+      {
+        "topic": "Brand defence",
+        "candor": 5,
+        "hellomello": 1,
+        "comment": "Don't fight here. They've already bought it."
+      },
+      {
+        "topic": "Pricing transparency",
+        "candor": 2,
+        "hellomello": 1,
+        "comment": "Thin /pricing-guide. Easy to out-publish."
+      },
+      {
+        "topic": "Clinic / doctor SEO",
+        "candor": 0,
+        "hellomello": 0,
+        "comment": "No practitioner pages. Open field."
+      },
+      {
+        "topic": "Conditions content",
+        "candor": 1,
+        "hellomello": 0,
+        "comment": "10 thin /treatments pages earn 1 visit. Open."
+      },
+      {
+        "topic": "Locations / pSEO",
+        "candor": 0,
+        "hellomello": 0,
+        "comment": "No city pages. Completely undefended."
+      },
+      {
+        "topic": "'Near me' queries",
+        "candor": 0,
+        "hellomello": 0,
+        "comment": "Zero coverage. Pure white space."
+      },
+      {
+        "topic": "Library / editorial",
+        "candor": 1,
+        "hellomello": 0,
+        "comment": "8 dormant /education posts. Out-publish trivially."
+      },
+      {
+        "topic": "Reviews / social proof",
+        "candor": 1,
+        "hellomello": 0,
+        "comment": "Brand search includes 'candor medical reviews' \u2014 defensive gap for them, attack for us."
+      },
+      {
+        "topic": "Patient portal SEO",
+        "candor": 4,
+        "hellomello": 0,
+        "comment": "app. subdomain earns 761 visits \u2014 they have it right."
+      },
+      {
+        "topic": "FAQ long-tail",
+        "candor": 1,
+        "hellomello": 0,
+        "comment": "Single /faq page. Long-tail informational is empty."
+      }
+    ]
+  }
+}

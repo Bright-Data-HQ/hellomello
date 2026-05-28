@@ -1,0 +1,1092 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="template-version" content="2.0" />
+<title>Competitor Analysis — Polln</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E1411; --ink-2:#1A211D;
+    --paper:#F4EFE6; --paper-2:#EAE3D5;
+    --rule:#2A332E; --rule-soft:#D7CFBE;
+    --moss:#3E5641; --moss-2:#6B8E68; --moss-3:#A9CDA0;
+    --sand:#C9B58A; --clay:#B96A3D;
+    --muted:#6E6A60;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:#16110C;color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+
+  .deck{display:flex;flex-direction:column;align-items:center;gap:28px;padding:40px 24px 120px}
+  .slide{
+    width:min(1280px, 96vw); aspect-ratio:16/9;
+    background:var(--paper); color:var(--ink);
+    border-radius:18px; box-shadow:0 30px 80px rgba(0,0,0,.45), 0 2px 0 rgba(255,255,255,.04) inset;
+    position:relative; overflow:hidden; display:grid; isolation:isolate;
+  }
+  .slide.dark{background:var(--ink);color:var(--paper)}
+  .slide .pad{padding:48px 56px;display:flex;flex-direction:column;height:100%;width:100%;gap:8px}
+
+  .slide::before{
+    content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
+    background-image:
+      radial-gradient(120% 80% at 0% 0%, rgba(0,0,0,.06), transparent 60%),
+      radial-gradient(120% 80% at 100% 100%, rgba(0,0,0,.05), transparent 60%);
+    mix-blend-mode:multiply;
+  }
+  .slide.dark::before{
+    background-image:
+      radial-gradient(120% 80% at 0% 0%, rgba(255,255,255,.05), transparent 60%),
+      radial-gradient(120% 80% at 100% 100%, rgba(255,255,255,.03), transparent 60%);
+    mix-blend-mode:screen;
+  }
+  .slide::after{
+    content:"";position:absolute;inset:0;pointer-events:none;z-index:0;opacity:.06;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.6 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  .pad > *{position:relative;z-index:1}
+
+  .display{font-family:'Fraunces',Georgia,serif;font-weight:400;letter-spacing:-0.015em;line-height:1.0}
+  .display.italic{font-style:italic}
+  .eyebrow{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:0.18em;color:var(--muted)}
+  .slide.dark .eyebrow{color:#A39E92}
+  .lede{font-size:16px;line-height:1.55;color:#2B2A24;max-width:72ch}
+  .slide.dark .lede{color:#CFC9BB}
+  .small{font-size:12.5px;line-height:1.5;color:#56524A}
+  .slide.dark .small{color:#A39E92}
+  .mono{font-family:'JetBrains Mono',monospace}
+
+  .head{display:flex;align-items:center;justify-content:space-between;gap:24px}
+  .head .brand-mark{display:flex;align-items:center;gap:10px}
+  .head .brand-mark .dot{width:8px;height:8px;border-radius:50%;background:var(--moss-2)}
+  .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:14px}
+  .pg{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--muted);letter-spacing:.1em}
+  .slide.dark .pg{color:#A39E92}
+
+  /* COVER */
+  .cover h1{font-size:clamp(56px, 8vw, 132px);margin:0}
+  .cover .meta{display:flex;gap:44px;flex-wrap:wrap}
+  .cover .meta div{display:flex;flex-direction:column;gap:6px}
+  .cover .meta b{font-weight:500;font-size:14px}
+  .cover .mark{
+    position:absolute;right:-140px;bottom:-180px;width:620px;height:620px;border-radius:50%;
+    background:radial-gradient(circle at 30% 30%, rgba(107,142,104,.55), rgba(62,86,65,.25) 55%, transparent 70%);
+    filter:blur(2px);z-index:0;
+  }
+
+  /* KPI tiles */
+  .kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+  .kpis.four{grid-template-columns:repeat(4,1fr)}
+  .kpi{border:1px solid var(--rule-soft);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-height:100px;justify-content:space-between}
+  .slide.dark .kpi{border-color:#2A332E}
+  .kpi .label{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .slide.dark .kpi .label{color:#A39E92}
+  .kpi .value{font-family:'Fraunces',serif;font-size:30px;line-height:1;letter-spacing:-.02em}
+  .kpi .sub{font-size:10.5px;color:var(--muted);font-family:'JetBrains Mono',monospace;letter-spacing:.05em}
+  .slide.dark .kpi .sub{color:#A39E92}
+
+  table{width:100%;border-collapse:collapse;font-size:12px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--rule-soft);vertical-align:middle}
+  .slide.dark th,.slide.dark td{border-color:#2A332E}
+  th{font-weight:500;color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.12em}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;font-family:'JetBrains Mono',monospace}
+  td .url{color:var(--moss);text-decoration:none}
+  .slide.dark td .url{color:var(--moss-3)}
+
+  .chart-title{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+  .slide.dark .chart-title{color:#A39E92}
+  .legend{display:flex;flex-wrap:wrap;gap:10px;font-size:10.5px;color:var(--muted);margin-top:4px;font-family:'JetBrains Mono',monospace}
+  .slide.dark .legend{color:#A39E92}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .legend i{display:inline-block;width:10px;height:10px;border-radius:2px}
+
+  .panel{background:var(--paper-2);border:1px solid var(--rule-soft);border-radius:12px;padding:16px}
+  .slide.dark .panel{background:#1F2722;border-color:#2A332E}
+  .panel h4{margin:0 0 8px;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-family:'JetBrains Mono',monospace;font-weight:500}
+
+  .callout{position:absolute;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--moss);background:#E7EFE3;border:1px solid #BBD0B6;padding:4px 8px;border-radius:6px}
+  .callout.clay{color:#8a2f1a;background:#F2DDCF;border-color:#E9C3B3}
+
+  .tag{display:inline-flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:4px 9px;border-radius:999px;border:1px solid var(--rule-soft);color:var(--muted)}
+  .tag.green{color:var(--moss);border-color:#BBD0B6;background:#E7EFE3}
+  .tag.amber{color:#8a5a1c;border-color:#E6D2A6;background:#F2E8CB}
+  .tag.red{color:#8a2f1a;border-color:#E9C3B3;background:#F2DDCF}
+
+  ul.tight{margin:0;padding-left:18px}
+  ul.tight li{margin:5px 0;font-size:12.5px;line-height:1.5}
+
+  /* Heatmap cells */
+  .heat{display:grid;gap:4px}
+  .heat .cell{padding:8px 10px;border-radius:6px;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:8px}
+  .heat .cell.h-green{background:#3E5641}
+  .heat .cell.h-amber{background:#A8893E;color:#1A1100}
+  .heat .cell.h-red{background:#B96A3D}
+  .heat .cell.h-na{background:#2A332E;color:#A39E92}
+  .heat .lbl{font-weight:500;letter-spacing:.06em}
+
+  @media print{
+    html,body{background:#fff}
+    .deck{padding:0;gap:0}
+    .slide{width:100%;max-width:none;border-radius:0;box-shadow:none;page-break-after:always;break-after:page;aspect-ratio:auto;height:100vh}
+    .toolbar{display:none !important}
+  }
+  @page{size:1280px 720px;margin:0}
+
+  .toolbar{
+    position:fixed;bottom:16px;left:50%;transform:translateX(-50%);
+    display:flex;gap:6px;background:#0E1411E6;backdrop-filter:blur(8px);
+    border:1px solid #2A332E;border-radius:999px;padding:6px;color:#E9E4D5;z-index:50;
+    font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;
+  }
+  .toolbar button{background:transparent;color:inherit;border:0;padding:8px 14px;border-radius:999px;cursor:pointer;font:inherit}
+  .toolbar button:hover{background:#ffffff14}
+  .toolbar .sep{width:1px;background:#2A332E;margin:4px 2px}
+
+  body.present{background:#000;overflow:hidden}
+  body.present .toolbar{opacity:.25}
+  body.present .toolbar:hover{opacity:1}
+  body.present .deck{padding:0;gap:0;height:100vh;justify-content:center}
+  body.present .slide{display:none;width:min(96vw, calc(96vh * 16/9));box-shadow:0 40px 120px #000}
+  body.present .slide.active{display:grid}
+</style>
+</head>
+<body>
+
+<script src="data.js"></script>
+
+<main class="deck" id="deck">
+
+<!-- 01 · COVER · D -->
+<section class="slide cover dark" data-slide="01">
+  <div class="mark"></div>
+  <div class="pad">
+    <div class="head">
+      <div class="brand-mark"><span class="dot"></span><span class="eyebrow">Telehealth · Medicinal cannabis · AU</span></div>
+      <span class="eyebrow" data-bind="period">May 2026</span>
+    </div>
+    <div style="margin-top:auto;display:flex;flex-direction:column;gap:24px">
+      <span class="eyebrow">01 · Competitor Analysis</span>
+      <h1 class="display">Polln<span style="color:var(--moss-3)">.</span></h1>
+      <p class="lede" style="max-width:54ch" data-bind="tagline"></p>
+      <div class="meta">
+        <div><span class="eyebrow">Domain</span><b>polln.com</b></div>
+        <div><span class="eyebrow">Stack</span><b>Webflow + Shopify</b></div>
+        <div><span class="eyebrow">Prepared for</span><b>Hellomello</b></div>
+        <div><span class="eyebrow">Verdict</span><b style="color:var(--moss-3)" data-bind="verdict_label"></b></div>
+      </div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">HELLOMELLO · COMPETITOR DECK · v2</span></div>
+  </div>
+</section>
+
+<!-- 02 · EXECUTIVE SNAPSHOT · L -->
+<section class="slide" data-slide="02">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">02 · Executive snapshot</span><span class="eyebrow">Polln · May 2026</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:14px 0 4px">A <em class="display italic">credible</em> small player.</h2>
+    <p class="lede">Six metrics, one read: 4.8K monthly visits with proper architecture &mdash; www + patient + shop subdomains, a real library, named practitioners. But 70% of the traffic is the word &ldquo;polln&rdquo; and the non-brand engine is small.</p>
+    <div class="kpis" style="margin-top:16px" id="exec-kpis"></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px">
+      <div class="panel"><h4>Digital footprint</h4><p class="small" style="margin:0">Three properties on three stacks: <b class="mono">www</b> (Webflow marketing), <b class="mono">patient</b> (portal), <b class="mono">shop</b> (Shopify). The marketing site carries ~16 library posts, 11 city pages, 27 FAQs and a real /practitioners roster.</p></div>
+      <div class="panel"><h4>Legal &amp; compliance posture</h4><p class="small" style="margin:0">Compliant. Patient-facing copy, named clinicians, dated library posts, plain-English treatment of TGA framework. Anything we copy from here is safe to ship.</p></div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">PREPARED BY BRIGHT DATA</span></div>
+  </div>
+</section>
+
+<!-- 03 · BRAND & UX READ · L -->
+<section class="slide" data-slide="03">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">03 · Brand &amp; UX read</span><span class="eyebrow">polln.com</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:14px 0 4px">A patient-facing <em class="display italic">clinic</em>, not a shop.</h2>
+    <p class="lede">The visual and content system signals modern healthcare &mdash; pastel sage, named clinicians, library long-form. They have the credibility template that most small competitors skip. The cap is reach, not posture.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-top:16px;flex:1;min-height:0">
+      <div class="panel"><h4>Visual system</h4><ul class="tight" data-notes="brand.visual_system"></ul></div>
+      <div class="panel"><h4>Site architecture</h4><ul class="tight" data-notes="brand.site_architecture"></ul></div>
+      <div class="panel"><h4>Tone &amp; compliance</h4><ul class="tight" data-notes="brand.tone_compliance"></ul></div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">SITE AUDIT · MAY 2026</span></div>
+  </div>
+</section>
+
+<!-- 04 · POSITION DISTRIBUTION · D -->
+<section class="slide dark" data-slide="04">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">04 · Position distribution</span><span class="eyebrow">How they rank, where the traffic lands</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:14px 0 4px">A wide tail. A <em class="display italic">narrow</em> winner's circle.</h2>
+    <p class="lede">2,045 ranking keywords &mdash; yet the homepage and patient portal alone carry 75% of traffic. A large tail sits on page 2+ producing very little. The library and locations earn the rest in clean, citable chunks.</p>
+    <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:18px;margin-top:14px;flex:1;min-height:0">
+      <div class="panel" style="position:relative">
+        <div class="chart-title">Ranking keywords by SERP position (depth-graded)</div>
+        <svg id="chart-pos" viewBox="0 0 600 320" style="width:100%;height:auto"></svg>
+      </div>
+      <div class="panel" style="display:flex;flex-direction:column;gap:8px">
+        <div class="chart-title">Read-out</div>
+        <ul class="tight" style="color:#CFC9BB">
+          <li id="ro-1"></li>
+          <li id="ro-2"></li>
+          <li id="ro-3"></li>
+          <li id="ro-4"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">N = 2,045 KEYWORDS</span></div>
+  </div>
+</section>
+
+<!-- 05 · TRAJECTORY 12mo · L · OPT (hidden — no trends data) -->
+<section class="slide" data-slide="05" data-requires="trends" hidden>
+  <div class="pad"><div class="head"><span class="eyebrow">05 · Trajectory 12mo</span></div>
+    <p class="lede">Trends export not provided — slide hidden.</p>
+  </div>
+</section>
+
+<!-- 06 · SERP FEATURES · D · OPT (hidden) -->
+<section class="slide dark" data-slide="06" data-requires="serp_features" hidden>
+  <div class="pad"><div class="head"><span class="eyebrow">06 · SERP features</span></div>
+    <p class="lede">SERP-feature export not provided — slide hidden.</p>
+  </div>
+</section>
+
+<!-- 07 · INTENT MIX · L -->
+<section class="slide" data-slide="07">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">07 · Search-intent mix</span><span class="eyebrow">How much of their traffic is just brand?</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:14px 0 4px">It's the brand. <em class="display italic">Mostly.</em></h2>
+    <p class="lede">Two cuts of the same question: by intent label, and by brand vs non-brand. 70% of traffic is people typing &ldquo;polln&rdquo; or a misspelling. The non-brand sliver &mdash; library posts and locations &mdash; is small but high-quality category traffic.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:14px;flex:1;min-height:0">
+      <div class="panel">
+        <div class="chart-title">Traffic by search intent</div>
+        <svg id="chart-intent-stack" viewBox="0 0 560 130" style="width:100%;height:auto"></svg>
+        <div class="chart-title" style="margin-top:18px">Keywords by search intent</div>
+        <svg id="chart-intent-kw-stack" viewBox="0 0 560 130" style="width:100%;height:auto"></svg>
+      </div>
+      <div class="panel">
+        <div class="chart-title">Brand vs non-brand · traffic</div>
+        <svg id="chart-brand-stack" viewBox="0 0 560 130" style="width:100%;height:auto"></svg>
+        <div class="chart-title" style="margin-top:18px">Brand vs non-brand · keywords</div>
+        <svg id="chart-brand-kw-stack" viewBox="0 0 560 130" style="width:100%;height:auto"></svg>
+        <p class="small" style="margin-top:14px"><b>Read:</b> the non-brand sliver (~30% of traffic) is concentrated in 5 library posts and 2 location pages. That&rsquo;s the entire organic content engine outside the brand fortress.</p>
+      </div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">PREPARED BY BRIGHT DATA</span></div>
+  </div>
+</section>
+
+<!-- 08 · SOV · D · OPT (hidden) -->
+<section class="slide dark" data-slide="08" data-requires="sov" hidden>
+  <div class="pad"><div class="head"><span class="eyebrow">08 · Share of voice</span></div>
+    <p class="lede">Market Explorer export not provided — slide hidden.</p>
+  </div>
+</section>
+
+<!-- 09 · TOPIC MAP · L -->
+<section class="slide" data-slide="09">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">09 · Content pillars</span><span class="eyebrow">What they publish, organised</span></div>
+    <h2 class="display" style="font-size:clamp(30px,3.0vw,42px);margin:10px 0 2px">Their pillar universe — at a glance.</h2>
+    <p class="lede" style="margin-bottom:8px">Every ranking keyword classified into a pillar, and each pillar broken into its working sub-clusters. The size of each card reflects monthly traffic; the chips inside show which sub-topics are actually doing the work.</p>
+    <div id="pillar-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;flex:1;min-height:0;align-content:start"></div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">N = 2,045 KEYWORDS</span></div>
+  </div>
+</section>
+
+<!-- 09b · PILLAR DEEP DIVE · D (top 3 by traffic, sub-cluster bars) -->
+<section class="slide dark" data-slide="09b">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">09b · Inside the biggest pillars</span><span class="eyebrow">Where the traffic actually sits</span></div>
+    <h2 class="display" style="font-size:clamp(30px,3.0vw,42px);margin:10px 0 2px">The three pillars that <em class="display italic">carry the site</em>.</h2>
+    <p class="lede" style="color:#CFC9BB;margin-bottom:10px">Top 3 pillars by traffic, fully decomposed. Bars show keyword count vs traffic per sub-cluster; the rows below each pillar are the URLs absorbing it.</p>
+    <div id="pillar-deepdive" style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;flex:1;min-height:0"></div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">PREPARED BY BRIGHT DATA</span></div>
+  </div>
+</section>
+
+<!-- 10 · CONTENT CLUSTERS · D (scatter / quadrant) -->
+<section class="slide dark" data-slide="10">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">10 · Content clusters</span><span class="eyebrow">Pages × traffic — where the bets sit</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:12px 0 4px">Homepage + portal carry the site. <em class="display italic">Library</em> earns the rest.</h2>
+    <p class="lede">~98 ranking pages plotted on pages-published &times; traffic-earned. Two pages (homepage + patient portal) hold ~75% of traffic. The library and locations sit as compact workhorses; the FAQ inventory is large but thin.</p>
+    <div style="display:grid;grid-template-columns:1.6fr 1fr;gap:18px;margin-top:10px;flex:1;min-height:0">
+      <div class="panel" style="position:relative">
+        <div class="chart-title">Content clusters · scatter</div>
+        <svg id="chart-clusters" viewBox="0 0 560 340" style="width:100%;height:auto"></svg>
+      </div>
+      <div class="panel">
+        <div class="chart-title">What this tells us</div>
+        <ul class="tight" style="color:#CFC9BB">
+          <li><b>Star</b> &middot; homepage + patient portal &mdash; 2 pages &rarr; ~75% of traffic.</li>
+          <li><b>Workhorse</b> &middot; /library &mdash; 16 long-form posts, top 5 earn 100+ visits each.</li>
+          <li><b>Bloat</b> &middot; /faqs (27 pages) and /location-faqs (9 pages) &mdash; small per-page traffic.</li>
+          <li><b>Hidden gem</b> &middot; /practitioners &mdash; named clinicians earn brand+name traffic, strongest E-E-A-T signal.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">N = 98 PAGES</span></div>
+  </div>
+</section>
+
+<!-- 11 · LOCATION STRATEGY · L (state grid + city bars) -->
+<section class="slide" data-slide="11">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">11 · Location strategy</span><span class="eyebrow">11 city pages · location keywords</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:12px 0 4px">11 cities, <em class="display italic">2</em> that actually rank.</h2>
+    <p class="lede">They&rsquo;ve built 11 location pages and paired most with a location-specific FAQ. Perth and Adelaide work (54 visits each on &ldquo;authorised prescribers&rdquo;). Brisbane, Melbourne, Sydney are thin. &ldquo;Near me&rdquo; is essentially undefended.</p>
+    <div style="display:grid;grid-template-columns:1.05fr 1fr;gap:18px;margin-top:10px;flex:1;min-height:0">
+      <div class="panel">
+        <div class="chart-title">AU coverage · keywords ranked (size) &amp; traffic earned (colour)</div>
+        <svg id="map-au" viewBox="0 0 360 280" style="width:100%;height:auto"></svg>
+        <div class="legend"><span><i style="background:var(--moss-3)"></i>&lt; 50 visits</span><span><i style="background:var(--moss-2)"></i>50–200</span><span><i style="background:var(--moss)"></i>200+</span><span><i style="background:#5C4A40"></i>National framing</span></div>
+      </div>
+      <div class="panel">
+        <div class="chart-title">Locations · keywords vs traffic</div>
+        <svg id="chart-loc" viewBox="0 0 480 320" style="width:100%;height:auto"></svg>
+        <p class="small" style="margin-top:8px"><b>Hellomello play:</b> deeper city pages (suburb-templated) with embedded location FAQs &mdash; copy the format, scale the depth. Their best city page earns 54 visits &mdash; catchable in a quarter.</p>
+      </div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">N = 11 CITY PAGES + LOCATION FAQS</span></div>
+  </div>
+</section>
+
+<!-- 12 · CONDITIONS & CLINICAL · L (lollipop + table) -->
+<section class="slide" data-slide="12">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">12 · Conditions &amp; clinical</span><span class="eyebrow">The compliance trap</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:12px 0 4px">They have the <em class="display italic">template</em> right.</h2>
+    <p class="lede">Polln names individual practitioners with bios &mdash; the strongest E-E-A-T signal in the deck. Library posts cover anxiety, sleep, vaping, prescription expiry. The volume of clinical / condition content is small but the credibility is real. The cap is cadence, not posture.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:10px;flex:1;min-height:0">
+      <div class="panel">
+        <div class="chart-title">Condition keywords ranking · dot = traffic (clay if &lt; 5)</div>
+        <svg id="chart-cond" viewBox="0 0 480 320" style="width:100%;height:auto"></svg>
+      </div>
+      <div class="panel">
+        <div class="chart-title">Clinic &amp; doctor · top non-brand keywords</div>
+        <table id="table-clinic"><thead><tr><th>Keyword</th><th class="num">Pos</th><th class="num">Vol</th></tr></thead><tbody></tbody></table>
+        <p class="small" style="margin-top:8px"><b>Hellomello play:</b> condition-led landing pages with real E-E-A-T (clinician bios, citations, dated reviews). Polln is publishing into the space without the credibility to convert — we own this category by being more demonstrably expert.</p>
+      </div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">N = 131 CONDITIONS + 118 CLINIC KEYWORDS</span></div>
+  </div>
+</section>
+
+<!-- 13 · TOP PAGES — WINNERS & LOSERS · D (two ranked tables) -->
+<section class="slide dark" data-slide="13">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">13 · Top pages</span><span class="eyebrow">Winners &amp; losers</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:12px 0 4px">Five library posts <em class="display italic">do the work</em>. Most pages are dormant.</h2>
+    <p class="lede">Homepage and patient portal carry the brand layer. Below them, five library posts earn 100&ndash;200 visits each. Below that, a long tail of FAQs and locations producing single-digit traffic. The site has reach but most of the inventory is decaying.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:10px;flex:1;min-height:0">
+      <div class="panel" style="overflow:hidden;display:flex;flex-direction:column">
+        <div class="chart-title" style="color:var(--moss-3)">Winners · top 10 pages by monthly traffic</div>
+        <table id="tbl-winners"><thead><tr><th>URL</th><th class="num">KW</th><th class="num">Traffic</th></tr></thead><tbody></tbody></table>
+      </div>
+      <div class="panel" style="overflow:hidden;display:flex;flex-direction:column;border-left:3px solid var(--clay)">
+        <div class="chart-title" style="color:#E0987A">Decaying · ≥3 keywords yet ≤5 visits/mo</div>
+        <table id="tbl-losers"><thead><tr><th>URL</th><th class="num">KW</th><th class="num">Traffic</th></tr></thead><tbody></tbody></table>
+      </div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">PREPARED BY BRIGHT DATA</span></div>
+  </div>
+</section>
+
+<!-- 14 · KEYWORDS · L (two ranked tables) -->
+<section class="slide" data-slide="14">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">14 · Keyword strategy</span><span class="eyebrow">Fortress + opening</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:12px 0 4px">What they rank for — and where we <em class="display italic">attack</em>.</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:10px;flex:1;min-height:0">
+      <div class="panel" style="overflow:hidden;display:flex;flex-direction:column">
+        <div class="chart-title">Top 10 by traffic · the fortress</div>
+        <table id="tbl-top-kw"><thead><tr><th>Keyword</th><th class="num">Pos</th><th class="num">Vol</th><th class="num">Traffic</th></tr></thead><tbody></tbody></table>
+        <p class="small" style="margin-top:8px">Brand spellings + portal navigation. Defensive. Not contestable in months.</p>
+      </div>
+      <div class="panel" style="overflow:hidden;display:flex;flex-direction:column;border-left:3px solid var(--moss-2)">
+        <div class="chart-title" style="color:var(--moss)">Top non-brand · the opportunity</div>
+        <table id="tbl-nonbrand"><thead><tr><th>Keyword</th><th class="num">Pos</th><th class="num">Vol</th><th class="num">KD</th></tr></thead><tbody></tbody></table>
+        <p class="small" style="margin-top:8px">Category terms &mdash; <i>indica vs sativa</i>, <i>how long does cannabis stay</i>, <i>authorised prescribers [state]</i>. The library + locations are the contestable surface.</p>
+      </div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">PREPARED BY BRIGHT DATA</span></div>
+  </div>
+</section>
+
+<!-- 15 · BACKLINKS PROFILE · D (hidden — no backlinks export available) -->
+<section class="slide dark" data-slide="15" hidden>
+  <div class="pad">
+    <div class="head"><span class="eyebrow">15 · Backlinks profile</span></div>
+    <p class="lede">Backlinks export not provided — slide hidden.</p>
+  </div>
+</section>
+
+<!-- 16 · BACKLINK VELOCITY · L · OPT (hidden) -->
+<section class="slide" data-slide="16" data-requires="backlinks_new_lost" hidden>
+  <div class="pad"><div class="head"><span class="eyebrow">16 · Backlink velocity</span></div>
+    <p class="lede">New / lost export not provided — slide hidden.</p>
+  </div>
+</section>
+
+<!-- 17 · TECHNICAL & E-E-A-T · D (heatmap from notes) -->
+<section class="slide dark" data-slide="17">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">17 · Technical &amp; E-E-A-T</span><span class="eyebrow">YMYL posture</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:12px 0 4px">E-E-A-T is the <em class="display italic">strongest</em> in their tier. Cadence is the weak seam.</h2>
+    <p class="lede">Polln has the credibility signals: named clinicians, dated library posts, plain-English copy. What they don&rsquo;t have is publishing volume &mdash; 16 library posts is the entire editorial inventory and the cadence has slowed. Hellomello out-ranks by matching the posture and beating the throughput.</p>
+    <div style="display:grid;grid-template-columns:1.2fr 1fr;gap:18px;margin-top:10px;flex:1;min-height:0">
+      <div class="panel">
+        <div class="chart-title">E-E-A-T signals · self-assessed from site audit</div>
+        <div class="heat" id="heat-eeat" style="grid-template-columns:1fr"></div>
+      </div>
+      <div class="panel">
+        <div class="chart-title">Auditor's note</div>
+        <p class="small" id="eeat-notes" style="margin:0;color:#CFC9BB"></p>
+        <div class="legend" style="margin-top:14px">
+          <span><i style="background:#3E5641"></i>Strong</span>
+          <span><i style="background:#A8893E"></i>Mixed</span>
+          <span><i style="background:#B96A3D"></i>Weak</span>
+        </div>
+      </div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">SITE AUDIT · NO LIGHTHOUSE EXPORT</span></div>
+  </div>
+</section>
+
+<!-- 18 · WHAT TO STEAL · L (Effort × Impact 2×2) -->
+<section class="slide" data-slide="18">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">18 · What to steal</span><span class="eyebrow">Effort × Impact</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:12px 0 4px">Six plays. Three to <em class="display italic">do first</em>.</h2>
+    <p class="lede">Plotted on a 2×2 of how hard it is to ship vs how much organic upside it unlocks. The top-left quadrant — <i>low effort, high impact</i> — is where Hellomello should spend the next two release cycles.</p>
+    <div style="display:grid;grid-template-columns:1.2fr 1fr;gap:18px;margin-top:10px;flex:1;min-height:0">
+      <div class="panel" style="position:relative">
+        <div class="chart-title">Effort (→) × Impact (↑)</div>
+        <svg id="chart-steal" viewBox="0 0 520 360" style="width:100%;height:auto"></svg>
+      </div>
+      <div class="panel" style="display:flex;flex-direction:column;gap:6px;overflow:hidden">
+        <div class="chart-title">Plays · ranked by impact ÷ effort</div>
+        <div id="steal-list" style="display:flex;flex-direction:column;font-size:11.5px;line-height:1.45"></div>
+      </div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">SOURCE · NOTES · VERDICT</span></div>
+  </div>
+</section>
+
+<!-- 19 · WHAT TO AVOID · D (annotated callouts over failure bars) -->
+<section class="slide dark" data-slide="19">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">19 · What to avoid</span><span class="eyebrow">Don't repeat their mistakes</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:12px 0 4px">Four <em class="display italic">traps</em>, each priced in keywords and visits.</h2>
+    <p class="lede">Where Polln&rsquo;s strategy quietly costs them — published in volume, returns nothing. Each trap is annotated with the exact inventory and the visits it produces.</p>
+    <div class="panel" style="margin-top:10px;flex:1;display:flex;flex-direction:column;min-height:0">
+      <div class="chart-title">Failure inventory · keywords / pages published vs traffic earned</div>
+      <svg id="chart-avoid" viewBox="0 0 1100 360" style="width:100%;height:auto;flex:1"></svg>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">SOURCE · NOTES · POSITIONS · PAGES</span></div>
+  </div>
+</section>
+
+<!-- 20 · IMPLICATIONS FOR HELLOMELLO · L (gap matrix) -->
+<section class="slide" data-slide="20">
+  <div class="pad">
+    <div class="head"><span class="eyebrow">20 · Implications for Hellomello</span><span class="eyebrow">The white space</span></div>
+    <h2 class="display" style="font-size:clamp(34px,3.4vw,48px);margin:12px 0 4px">Where the field is <em class="display italic">open</em>.</h2>
+    <p class="lede">Ten topics, scored 0–5 for Polln&rsquo;s presence and Hellomello&rsquo;s current presence. The orange row is the gap we own &mdash; every row where Polln scores 2 or less is a contested or open field.</p>
+    <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:18px;margin-top:10px;flex:1;min-height:0">
+      <div class="panel">
+        <div class="chart-title">Gap matrix · topic × competitor (0 = nothing · 5 = dominant)</div>
+        <svg id="chart-gap" viewBox="0 0 560 380" style="width:100%;height:auto"></svg>
+      </div>
+      <div class="panel" style="display:flex;flex-direction:column;gap:10px">
+        <div class="chart-title">Implications</div>
+        <ul class="tight" data-notes="verdict.implications"></ul>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px">
+          <span class="tag green">Compliance · safe to copy</span>
+          <span class="tag amber">Coverage · thin</span>
+          <span class="tag green">Brand · dominant</span>
+        </div>
+        <p class="small" style="margin-top:6px"><b>Bottom line.</b> Polln is the credibility template in the small-cap tier &mdash; named clinicians, real library, decent posture. The gaps they leave &mdash; cadence, location depth, conditions volume, FAQ thinness &mdash; are all wide open to a content programme that ships weekly.</p>
+      </div>
+    </div>
+    <div class="foot pg-foot"><span class="pg pg-num"></span><span class="pg">END · POLLN · v1</span></div>
+  </div>
+</section>
+
+</main>
+
+<div class="toolbar" role="toolbar">
+  <button id="prev">←</button>
+  <button id="next">→</button>
+  <span class="sep"></span>
+  <button id="present">Present</button>
+  <button onclick="window.print()">PDF</button>
+</div>
+
+<script>
+(function(){
+  const D = window.DATA;
+  const N = D.notes || {};
+  const fmt = n => (typeof n === 'number' ? n.toLocaleString() : n);
+  const compact = n => n>=1000 ? (n/1000).toFixed(n>=10000?0:1)+'K' : (''+Math.round(n));
+  const SVGNS = 'http://www.w3.org/2000/svg';
+  const el = (tag, attrs={}, parent) => {
+    const e = document.createElementNS(SVGNS, tag);
+    for (const k in attrs) e.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(e);
+    return e;
+  };
+  const get = (path, obj=N) => path.split('.').reduce((a,k)=>a==null?a:a[k], obj);
+
+  // ---- text bindings ----
+  document.querySelectorAll('[data-bind]').forEach(e=>{
+    const v = get(e.getAttribute('data-bind'));
+    if (v!=null) e.textContent = v;
+  });
+  document.querySelectorAll('[data-notes]').forEach(ul=>{
+    const arr = get(ul.getAttribute('data-notes')) || [];
+    ul.innerHTML = arr.map(x=>`<li>${x}</li>`).join('');
+  });
+
+  // ---- footer pagination based on visible slides ----
+  const visibleSlides = [...document.querySelectorAll('.slide:not([hidden])')];
+  const total = visibleSlides.length;
+  visibleSlides.forEach((s,i)=>{
+    const n = s.querySelector('.pg-num');
+    if (n) n.textContent = String(i+1).padStart(2,'0') + ' / ' + String(total).padStart(2,'0');
+  });
+
+  // ===== SLIDE 02 · KPI tiles =====
+  const t = D.totals;
+  const brandShare = Math.round(t.brand_traffic / t.traffic * 100);
+  const top2 = D.top_pages.slice(0,2).reduce((s,p)=>s+p.traffic,0);
+  const top2pct = Math.round(top2 / t.traffic * 100);
+  document.getElementById('exec-kpis').innerHTML = [
+    {label:'Monthly traffic',    value:compact(t.traffic),       sub:'visits / mo'},
+    {label:'Ranking keywords',   value:fmt(t.keywords),          sub:'AU positions'},
+    {label:'Pages w/ traffic',   value:fmt(t.pages),             sub:'www + portal + support'},
+    {label:'Brand share',        value:brandShare+'%',           sub:compact(t.brand_traffic)+' visits'},
+    {label:'Backlinked pages',   value:fmt(t.backlinked_pages),  sub:compact(t.backlinks)+' backlinks'},
+    {label:'Top-2 page share',   value:top2pct+'%',              sub:'concentration risk'},
+  ].map(k=>`<div class="kpi"><div class="label">${k.label}</div><div class="value">${k.value}</div><div class="sub">${k.sub}</div></div>`).join('');
+
+  // ===== SLIDE 04 · Position distribution — vertical bar, depth gradient =====
+  (function(){
+    const svg = document.getElementById('chart-pos');
+    const items = D.position_distribution;
+    const W=600, H=320, padL=44, padR=14, padT=18, padB=48;
+    const cw = (W-padL-padR)/items.length;
+    const maxKw = Math.max(...items.map(d=>d.kw));
+    const ramp = ['#3E5641','#56754F','#6B8E68','#9BB498','#BFCBB4','#D2D2C8'];
+    items.forEach((d,i)=>{
+      const cx = padL + i*cw + cw/2;
+      const bw = cw*0.55;
+      const h = (d.kw/maxKw)*(H-padT-padB);
+      el('rect',{x:cx-bw/2,y:H-padB-h,width:bw,height:h,fill:ramp[i]||'#D2D2C8',rx:3},svg);
+      el('text',{x:cx,y:H-padB-h-6,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':10.5,fill:'#F4EFE6'},svg).textContent = fmt(d.kw);
+      el('text',{x:cx,y:H-padB-h-19,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':9,fill:'#A39E92'},svg).textContent = compact(d.traffic)+' visits';
+      el('text',{x:cx,y:H-padB+18,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':10.5,fill:'#F4EFE6'},svg).textContent = d.label;
+      el('text',{x:cx,y:H-padB+32,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':8.5,fill:'#A39E92','letter-spacing':'.12em'},svg).textContent = 'SERP';
+    });
+    el('line',{x1:padL,y1:H-padB,x2:W-padR,y2:H-padB,stroke:'#2A332E','stroke-width':1},svg);
+    // readouts
+    const byLabel = Object.fromEntries(items.map(x=>[x.label,x]));
+    const set = (id, html)=>{ const e=document.getElementById(id); if(e) e.innerHTML=html; };
+    set('ro-1', `<b>${fmt(byLabel['#1'].kw)} #1 rankings</b> deliver <b>${compact(byLabel['#1'].traffic)} visits / mo</b> — the brand moat.`);
+    set('ro-2', `<b>${fmt(byLabel['#51–100'].kw)} keywords at #51–100</b> produce essentially zero traffic — dormant inventory.`);
+    set('ro-3', `<b>${fmt(byLabel['#11–20'].kw)} keywords on page 2</b> are their most realistic uplift — and our easiest to displace.`);
+    set('ro-4', `<b>${fmt(byLabel['#2–3'].kw)} in #2–3</b> earn only <b>${compact(byLabel['#2–3'].traffic)} visits</b> — SERP-feature noise dilutes CTR.`);
+  })();
+
+  // ===== SLIDE 07 · stacked bars =====
+  function stackBar(svgId, items, accessor, fmtVal, colors){
+    const svg = document.getElementById(svgId);
+    if (!svg) return;
+    const W=560, H=130, padL=8, padR=8, padT=40, padB=12;
+    const total = items.reduce((s,it)=>s+accessor(it),0);
+    let x = padL;
+    const usable = W-padL-padR;
+    items.forEach((it,i)=>{
+      const w = accessor(it)/total * usable;
+      const c = colors[i%colors.length];
+      el('rect',{x, y:padT, width:w, height:H-padT-padB, fill:c, rx:i===0?6:0, ry:i===0?6:0},svg);
+      const pct = Math.round(accessor(it)/total*100);
+      if (w>52){
+        el('text',{x:x+8,y:padT+22,'font-family':'JetBrains Mono','font-size':11,fill:'#fff'},svg).textContent = it.name+' · '+pct+'%';
+        el('text',{x:x+8,y:padT+38,'font-family':'JetBrains Mono','font-size':10,fill:'#ffffffb0'},svg).textContent = fmtVal(accessor(it));
+      } else if (w>20){
+        el('text',{x:x+w/2,y:padT-6,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':9.5,fill:'#2B2A24'},svg).textContent = pct+'%';
+      }
+      x += w;
+    });
+  }
+  const palette = ['#3E5641','#6B8E68','#A9CDA0','#C9B58A','#B96A3D'];
+  stackBar('chart-intent-stack', D.intents, d=>d.traffic, compact, palette);
+  stackBar('chart-intent-kw-stack', D.intents, d=>d.kw, fmt, palette);
+  stackBar('chart-brand-stack', [
+    {name:'Brand', traffic:t.brand_traffic, kw:t.brand_kw},
+    {name:'Non-brand', traffic:t.nonbrand_traffic, kw:t.nonbrand_kw}
+  ], d=>d.traffic, compact, ['#3E5641','#B96A3D']);
+  stackBar('chart-brand-kw-stack', [
+    {name:'Brand', traffic:t.brand_traffic, kw:t.brand_kw},
+    {name:'Non-brand', traffic:t.nonbrand_traffic, kw:t.nonbrand_kw}
+  ], d=>d.kw, fmt, ['#3E5641','#B96A3D']);
+
+  // ===== SLIDE 09 · content pillars grid =====
+  (function(){
+    const grid = document.getElementById('pillar-grid');
+    if (!grid || !D.pillars) return;
+    const maxTr = Math.max(...D.pillars.map(p=>p.total_traffic));
+    const html = D.pillars.map(p=>{
+      const heat = Math.max(0.08, p.total_traffic / maxTr);
+      const subs = (p.sub_clusters||[]).filter(s=>s.label!=='Other').slice(0,5);
+      const subMaxKw = Math.max(1, ...subs.map(s=>s.kw));
+      const subRows = subs.map(s=>{
+        const w = Math.round((s.kw/subMaxKw)*100);
+        return `<div style="display:flex;align-items:center;gap:6px;font-size:9.5px;line-height:1.25">
+          <div style="flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#2B2A24">${s.label}</div>
+          <div style="flex:0 0 56px;height:6px;background:#E7DFCE;border-radius:2px;position:relative;overflow:hidden">
+            <div style="position:absolute;inset:0;width:${w}%;background:var(--moss-2)"></div>
+          </div>
+          <div class="mono" style="flex:0 0 36px;text-align:right;color:#3E5641;font-size:9px">${compact(s.traffic)}</div>
+        </div>`;
+      }).join('');
+      const eff = p.efficiency.toFixed(1);
+      return `<div style="background:#FBF6EB;border:1px solid var(--rule-soft);border-left:3px solid rgba(62,86,65,${0.25+heat*0.75});border-radius:6px;padding:10px 11px;display:flex;flex-direction:column;gap:6px;min-height:0;overflow:hidden">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:6px">
+          <div style="font-family:Fraunces,serif;font-size:14px;font-weight:600;color:#0E1411;line-height:1.15">${p.name}</div>
+          <div class="mono" style="font-size:9px;color:#7A746A;letter-spacing:.06em">${fmt(p.total_kw)} KW</div>
+        </div>
+        <div style="display:flex;align-items:baseline;gap:8px">
+          <div style="font-family:Fraunces,serif;font-size:22px;font-weight:600;color:var(--moss);line-height:1">${compact(p.total_traffic)}</div>
+          <div class="mono" style="font-size:9px;color:#7A746A">visits/mo · ${eff}/kw</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:3px;margin-top:2px">${subRows||'<div class="small mono" style="font-size:9.5px;color:#A39E92">no clear sub-clusters</div>'}</div>
+      </div>`;
+    }).join('');
+    grid.innerHTML = html;
+  })();
+
+  // ===== SLIDE 09b · top-3 pillar deep dive =====
+  (function(){
+    const root = document.getElementById('pillar-deepdive');
+    if (!root || !D.pillars) return;
+    const top3 = D.pillars.slice(0,3);
+    root.innerHTML = top3.map(p=>{
+      const subs = (p.sub_clusters||[]).filter(s=>s.label!=='Other').slice(0,7);
+      const maxKw = Math.max(1, ...subs.map(s=>s.kw));
+      const maxTr = Math.max(1, ...subs.map(s=>s.traffic));
+      const rows = subs.map(s=>{
+        const wK = Math.round((s.kw/maxKw)*100);
+        const wT = Math.round((s.traffic/maxTr)*100);
+        return `<div style="display:flex;flex-direction:column;gap:2px;margin-bottom:7px">
+          <div style="display:flex;justify-content:space-between;gap:6px;font-size:11px;color:#E8E2D4">
+            <span style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1">${s.label}</span>
+            <span class="mono" style="font-size:9.5px;color:#A39E92">${fmt(s.kw)} kw · ${compact(s.traffic)}</span>
+          </div>
+          <div style="height:5px;background:#1B2620;border-radius:2px;position:relative;overflow:hidden">
+            <div style="position:absolute;inset:0;width:${wK}%;background:var(--moss-3)"></div>
+          </div>
+          <div style="height:5px;background:#1B2620;border-radius:2px;position:relative;overflow:hidden;margin-top:2px">
+            <div style="position:absolute;inset:0;width:${wT}%;background:var(--moss)"></div>
+          </div>
+        </div>`;
+      }).join('');
+      const urls = (p.top_urls||[]).slice(0,2).map(u=>{
+        const path = (u.url||'').replace(/^https?:\/\/[^/]+/,'') || '/';
+        return `<div style="display:flex;justify-content:space-between;gap:6px;font-size:9.5px;line-height:1.25;color:#CFC9BB;padding:2px 0;border-top:1px solid #1F2A23">
+          <span class="mono" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1">${path}</span>
+          <span class="mono" style="color:var(--moss-3)">${compact(u.traffic)}</span>
+        </div>`;
+      }).join('');
+      return `<div style="background:#101814;border:1px solid #1F2A23;border-radius:6px;padding:12px 13px;display:flex;flex-direction:column;min-height:0;overflow:hidden">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:6px">
+          <div style="font-family:Fraunces,serif;font-size:18px;font-weight:600;color:#F4EFE6">${p.name}</div>
+          <div class="mono" style="font-size:9px;color:#7A746A;letter-spacing:.06em">${fmt(p.total_kw)} KW · ${compact(p.total_traffic)}</div>
+        </div>
+        <div class="legend" style="margin:6px 0 8px;color:#A39E92"><span><i style="background:var(--moss-3)"></i>kw count</span><span><i style="background:var(--moss)"></i>traffic</span></div>
+        <div style="flex:1;min-height:0;overflow:hidden">${rows}</div>
+        <div style="margin-top:6px">${urls}</div>
+      </div>`;
+    }).join('');
+  })();
+
+  // ===== SLIDE 10 · scatter clusters =====
+  (function(){
+    const svg = document.getElementById('chart-clusters');
+    const items = D.content_clusters;
+    const W=560, H=340, padL=44, padR=24, padT=24, padB=44;
+    const maxP = Math.max(...items.map(d=>d.pages));
+    const maxT = Math.max(...items.map(d=>d.traffic));
+    // log-scale helper for traffic so the homepage doesn't crush the rest
+    const sx = v => padL + (Math.log1p(v)/Math.log1p(maxP)) * (W-padL-padR);
+    const sy = v => H-padB - (Math.log1p(v)/Math.log1p(maxT)) * (H-padT-padB);
+    // axes
+    el('line',{x1:padL,y1:H-padB,x2:W-padR,y2:H-padB,stroke:'#2A332E'},svg);
+    el('line',{x1:padL,y1:padT,x2:padL,y2:H-padB,stroke:'#2A332E'},svg);
+    // quadrant guides
+    const cx = (padL+W-padR)/2, cy = (padT+H-padB)/2;
+    el('line',{x1:cx,y1:padT,x2:cx,y2:H-padB,stroke:'#2A332E','stroke-dasharray':'2 4',opacity:.5},svg);
+    el('line',{x1:padL,y1:cy,x2:W-padR,y2:cy,stroke:'#2A332E','stroke-dasharray':'2 4',opacity:.5},svg);
+    const ql = (x,y,t,a='middle')=>{const e=el('text',{x,y,'text-anchor':a,'font-family':'JetBrains Mono','font-size':9,fill:'#A39E92','letter-spacing':'.12em'},svg);e.textContent=t;};
+    ql((padL+cx)/2, padT+12,'HIDDEN GEM');
+    ql((cx+W-padR)/2, padT+12,'STAR');
+    ql((padL+cx)/2, H-padB-6,'OTHER');
+    ql((cx+W-padR)/2, H-padB-6,'BLOAT');
+    // points
+    items.forEach(d=>{
+      const x = sx(d.pages), y = sy(d.traffic);
+      const r = Math.max(4, Math.min(22, Math.sqrt(d.pages)*3.2));
+      let fill = '#6B8E68';
+      if (d.traffic <= 100 && d.pages >= 10) fill = '#B96A3D';
+      else if (d.traffic > 5000) fill = '#3E5641';
+      else if (d.pages < 4 && d.traffic > 200) fill = '#A9CDA0';
+      el('circle',{cx:x,cy:y,r,fill,opacity:.82,stroke:'#0E1411','stroke-width':1},svg);
+      const label = d.name.length>22 ? d.name.slice(0,20)+'…' : d.name;
+      el('text',{x:x+r+6,y:y+3,'font-family':'JetBrains Mono','font-size':9.5,fill:'#F4EFE6'},svg).textContent = label;
+      el('text',{x:x+r+6,y:y+15,'font-family':'JetBrains Mono','font-size':8.5,fill:'#A39E92'},svg).textContent = d.pages+' pg · '+compact(d.traffic)+' tr';
+    });
+    el('text',{x:(W-padR+padL)/2,y:H-6,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':9.5,fill:'#A39E92','letter-spacing':'.16em'},svg).textContent='PAGES PUBLISHED (LOG) →';
+    el('text',{x:14,y:(H+padT-padB)/2,'transform':`rotate(-90, 14, ${(H+padT-padB)/2})`,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':9.5,fill:'#A39E92','letter-spacing':'.16em'},svg).textContent='TRAFFIC EARNED (LOG) ↑';
+  })();
+
+  // ===== SLIDE 11 · AU map + city bars =====
+  (function(){
+    const svg = document.getElementById('map-au');
+    if (!svg) return;
+    // simplified state-grid map of AU (viewBox 360×280)
+    const states = [
+      // [name, x, y, w, h, key-pattern, statsOutside?, statsAnchorXY?]
+      ['WA',  10,  70, 110, 130, 'Perth / WA',       false],
+      ['NT',  124, 70,  60,  90, 'Darwin / NT',      false],
+      ['SA',  124, 164, 60,  60, 'Adelaide / SA',    false],
+      ['QLD', 188, 30,  90,  90, 'Brisbane / QLD',   false],
+      ['NSW', 188, 124, 90,  50, 'Sydney / NSW',     false],
+      ['VIC', 188, 178, 60,  44, 'Melbourne / VIC',  false],
+      ['TAS', 220, 232, 32,  32, 'Tasmania',         true, [292, 246]],
+      ['ACT', 256, 134, 18,  18, 'Canberra / ACT',   true, [328, 144]],
+    ];
+    const byKey = Object.fromEntries(D.locations.map(l=>[l.name, l]));
+    const colorFor = tr => tr<50?'#A9CDA0':tr<200?'#6B8E68':'#3E5641';
+    states.forEach(([abbr,x,y,w,h,key,outside,anchor])=>{
+      const loc = byKey[key];
+      const fill = loc ? colorFor(loc.traffic) : '#5C4A40';
+      el('rect',{x,y,width:w,height:h,fill,stroke:'#0E1411','stroke-width':1.5,rx:4},svg);
+      // abbreviation: scale to fit smaller boxes
+      const abbrSize = Math.min(14, Math.max(8, Math.min(w,h)*0.32));
+      el('text',{x:x+w/2,y:y+h/2+(outside?abbrSize/3:-2),'text-anchor':'middle','font-family':'Fraunces','font-size':abbrSize,fill:'#fff'},svg).textContent = abbr;
+      if (loc && !outside){
+        const stats = loc.kw+' kw · '+compact(loc.traffic)+' tr';
+        // shrink stats font to fit box width (rough estimate: 5.2px per char @ size 8.5)
+        const maxByW = (w-6) / (stats.length*0.55);
+        const sz = Math.max(6.5, Math.min(8.5, maxByW));
+        el('text',{x:x+w/2,y:y+h/2+abbrSize*0.85,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':sz,fill:'#fffd'},svg).textContent = stats;
+      } else if (loc && outside){
+        // pull stats out into the empty SE corner so they don't sit on top of small boxes
+        el('text',{x:anchor[0],y:anchor[1],'text-anchor':'start','font-family':'JetBrains Mono','font-size':7.5,fill:'#3E5641'},svg).textContent = abbr+' · '+loc.kw+' kw';
+      }
+    });
+    // national framing bubble — moved down and out of the way of TAS
+    const nat = byKey['National / "Australia"'];
+    if (nat){
+      el('circle',{cx:316,cy:226,r:30,fill:'#5C4A40',stroke:'#0E1411','stroke-width':1.5},svg);
+      el('text',{x:316,y:223,'text-anchor':'middle','font-family':'Fraunces','font-size':11,fill:'#fff'},svg).textContent='AU';
+      el('text',{x:316,y:236,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':8,fill:'#fffd'},svg).textContent = nat.kw+' kw';
+    }
+    // near-me callout
+    const near = byKey['"near me"'];
+    if (near){
+      el('rect',{x:8,y:8,width:170,height:42,rx:6,fill:'#B96A3D'},svg);
+      el('text',{x:18,y:26,'font-family':'JetBrains Mono','font-size':9.5,fill:'#fff','letter-spacing':'.1em'},svg).textContent='"NEAR ME" — UNDEFENDED';
+      el('text',{x:18,y:42,'font-family':'JetBrains Mono','font-size':9.5,fill:'#fff'},svg).textContent = near.kw+' kw · '+near.traffic+' visits/mo';
+    }
+  })();
+  // city bars (right panel)
+  (function(){
+    const svg = document.getElementById('chart-loc');
+    if (!svg) return;
+    const items = D.locations;
+    const W=480, H=Math.max(320, items.length*26), padL=160, padR=70, padT=8, padB=8;
+    svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+    const slot = (H-padT-padB)/items.length;
+    const maxK = Math.max(...items.map(d=>d.kw));
+    const maxT = Math.max(...items.map(d=>d.traffic),1);
+    items.forEach((d,i)=>{
+      const y = padT + i*slot;
+      const bh = slot - 8;
+      const wK = (d.kw/maxK)*(W-padL-padR);
+      const wT = (d.traffic/maxT)*(W-padL-padR);
+      el('text',{x:padL-8, y:y+bh/2+3.5,'text-anchor':'end','font-family':'JetBrains Mono','font-size':9.5, fill:'#2B2A24'}, svg).textContent = d.name;
+      el('rect',{x:padL, y, width:Math.max(wK,1), height:bh*0.42, fill:'#6B8E68', rx:2}, svg);
+      el('text',{x:padL+Math.max(wK,1)+5, y:y+bh*0.42/2+3.5,'font-family':'JetBrains Mono','font-size':9, fill:'#3E5641'}, svg).textContent = d.kw+' kw';
+      el('rect',{x:padL, y:y+bh*0.42+3, width:Math.max(wT,1), height:bh*0.42, fill:'#B96A3D', rx:2}, svg);
+      el('text',{x:padL+Math.max(wT,1)+5, y:y+bh*0.42+3+bh*0.42/2+3.5,'font-family':'JetBrains Mono','font-size':9, fill:'#B96A3D'}, svg).textContent = d.traffic+' tr';
+    });
+  })();
+
+  // ===== SLIDE 12 · conditions (lollipop) =====
+  (function(){
+    const svg = document.getElementById('chart-cond');
+    if (!svg) return;
+    const items = D.conditions;
+    const W=480, H=Math.max(320, items.length*36), padL=150, padR=70, padT=10, padB=10;
+    svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+    const slot = (H-padT-padB)/items.length;
+    const max = Math.max(...items.map(d=>d.kw));
+    items.forEach((d,i)=>{
+      const y = padT + i*slot + slot/2;
+      const w = (d.kw/max)*(W-padL-padR);
+      el('text',{x:padL-8,y:y+4,'text-anchor':'end','font-family':'JetBrains Mono','font-size':10,fill:'#2B2A24'},svg).textContent = d.name;
+      el('line',{x1:padL,y1:y,x2:padL+w,y2:y,stroke:'#A9CDA0','stroke-width':2},svg);
+      const dotColor = d.traffic<5 ? '#B96A3D' : (d.traffic<50 ? '#C9B58A' : '#3E5641');
+      const r = Math.max(5, Math.min(14, Math.sqrt(Math.max(d.traffic,1))*1.6));
+      el('circle',{cx:padL+w,cy:y,r,fill:dotColor,stroke:'#0E1411','stroke-width':1},svg);
+      el('text',{x:padL+w+r+6,y:y+4,'font-family':'JetBrains Mono','font-size':10,fill:'#2B2A24'},svg).textContent = d.kw+' kw · '+d.traffic+' tr';
+    });
+  })();
+  // clinic table
+  (function(){
+    const tbody = document.querySelector('#table-clinic tbody');
+    if (!tbody) return;
+    const detail = (D.topic_detail||{})['Clinic / Doctor'];
+    if (!detail) return;
+    tbody.innerHTML = detail.top_nonbrand.slice(0,9).map(k=>`<tr><td>${k.kw}</td><td class="num">${k.pos}</td><td class="num">${fmt(k.vol)}</td></tr>`).join('');
+  })();
+
+  // ===== SLIDE 13 · winners / losers =====
+  function pgUrl(u){ const s = u.replace(/^https?:\/\//,'').replace(/\/$/,''); return s.length>46 ? s.slice(0,44)+'…' : s; }
+  document.querySelector('#tbl-winners tbody').innerHTML = D.top_winners.slice(0,10).map(p=>
+    `<tr><td><a class="url" href="${p.url}" target="_blank">${pgUrl(p.url)}</a></td><td class="num">${fmt(p.kw)}</td><td class="num">${compact(p.traffic)}</td></tr>`).join('');
+  document.querySelector('#tbl-losers tbody').innerHTML = D.top_losers.slice(0,10).map(p=>
+    `<tr><td><a class="url" href="${p.url}" target="_blank">${pgUrl(p.url)}</a></td><td class="num">${fmt(p.kw)}</td><td class="num">${Math.round(p.traffic)}</td></tr>`).join('');
+
+  // ===== SLIDE 14 · keyword tables =====
+  document.querySelector('#tbl-top-kw tbody').innerHTML = D.top_keywords.slice(0,10).map(k=>
+    `<tr><td>${k.kw}</td><td class="num">${k.pos}</td><td class="num">${fmt(k.vol)}</td><td class="num">${compact(k.traffic)}</td></tr>`).join('');
+  document.querySelector('#tbl-nonbrand tbody').innerHTML = D.nonbrand_keywords.slice(0,10).map(k=>
+    `<tr><td>${k.kw}</td><td class="num">${k.pos}</td><td class="num">${fmt(k.vol)}</td><td class="num">${k.kd}</td></tr>`).join('');
+
+  // ===== SLIDE 15 · backlinks =====
+  (function(){
+    const svg = document.getElementById('chart-bl-host');
+    const items = D.backlink_hosts;
+    const W=420, H=230, padT=18, padB=18;
+    // when there's only one host class, a bar chart looks silly — render a summary tile instead
+    if (items.length <= 1){
+      const d = items[0] || {name:'—', backlinks:0, pages:0};
+      el('text',{x:W/2,y:H/2-30,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':10,fill:'#A39E92','letter-spacing':'.14em'},svg).textContent = d.name.toUpperCase();
+      el('text',{x:W/2,y:H/2+8,'text-anchor':'middle','font-family':'Fraunces','font-size':52,fill:'#A9CDA0'},svg).textContent = fmt(d.backlinks);
+      el('text',{x:W/2,y:H/2+32,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':10,fill:'#CFC9BB'},svg).textContent = 'backlinks across '+fmt(d.pages)+' source pages';
+      el('text',{x:W/2,y:H-12,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':9,fill:'#7A746A','letter-spacing':'.12em'},svg).textContent='SINGLE HOST CLASS — NO DIVERSITY';
+      return;
+    }
+    const padL=140, padR=60;
+    const slot = (H-padT-padB)/items.length;
+    const bh = slot - 8;
+    const max = Math.max(...items.map(d=>d.backlinks));
+    items.forEach((d,i)=>{
+      const y = padT + i*slot;
+      const w = (d.backlinks/max)*(W-padL-padR);
+      el('text',{x:padL-8,y:y+bh/2+3.5,'text-anchor':'end','font-family':'JetBrains Mono','font-size':9.5,fill:'#CFC9BB'},svg).textContent = d.name;
+      el('rect',{x:padL,y,width:Math.max(w,1),height:bh,fill:i===0?'#A9CDA0':i===1?'#6B8E68':'#3E5641',rx:2},svg);
+      el('text',{x:padL+Math.max(w,1)+5,y:y+bh/2-1,'font-family':'JetBrains Mono','font-size':10,fill:'#F4EFE6'},svg).textContent = fmt(d.backlinks);
+      el('text',{x:padL+Math.max(w,1)+5,y:y+bh/2+12,'font-family':'JetBrains Mono','font-size':9,fill:'#A39E92'},svg).textContent = d.pages+' pages';
+    });
+  })();
+  (function(){
+    const svg = document.getElementById('chart-bl-hist');
+    const items = D.backlink_histogram;
+    const W=420, H=230, padL=40, padR=14, padT=18, padB=44;
+    const cw = (W-padL-padR)/items.length;
+    const max = Math.max(...items.map(d=>d.pages));
+    const ramp = ['#A9CDA0','#9BB498','#6B8E68','#56754F','#3E5641','#2A3A2D'];
+    items.forEach((d,i)=>{
+      const cx = padL + i*cw + cw/2;
+      const bw = cw*0.55;
+      const h = (d.pages/max)*(H-padT-padB);
+      el('rect',{x:cx-bw/2,y:H-padB-h,width:bw,height:h,fill:ramp[i],rx:2},svg);
+      el('text',{x:cx,y:H-padB-h-4,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':10,fill:'#F4EFE6'},svg).textContent = fmt(d.pages);
+      el('text',{x:cx,y:H-padB+15,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':9.5,fill:'#CFC9BB'},svg).textContent = d.label;
+      el('text',{x:cx,y:H-padB+28,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':8.5,fill:'#A39E92'},svg).textContent = 'backlinks';
+    });
+    el('text',{x:(W+padL-padR)/2,y:H-6,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':9,fill:'#A39E92','letter-spacing':'.16em'},svg).textContent='LINKED PAGES PER BACKLINK BUCKET';
+  })();
+
+  // ===== SLIDE 17 · E-E-A-T heatmap =====
+  (function(){
+    const e = N.eeat || {};
+    const order = [
+      ['HTTPS',                 e.https],
+      ['Schema (medical)',      e.schema_medical],
+      ['Author bylines',        e.author_bylines],
+      ['Medical reviewer',      e.medical_reviewer],
+      ['Core Web Vitals',       e.core_web_vitals],
+      ['Content freshness',     e.freshness],
+    ];
+    const map = {green:'h-green', amber:'h-amber', red:'h-red'};
+    const heat = document.getElementById('heat-eeat');
+    heat.innerHTML = order.map(([k,v])=>{
+      const cls = map[v]||'h-na';
+      const label = (v||'n/a').toUpperCase();
+      return `<div class="cell ${cls}"><span class="lbl">${k}</span><span>${label}</span></div>`;
+    }).join('');
+    document.getElementById('eeat-notes').textContent = e.notes || '—';
+  })();
+
+  // ===== SLIDE 18 · 2×2 Effort × Impact =====
+  (function(){
+    const svg = document.getElementById('chart-steal');
+    const plays = (N.verdict?.steal)||[];
+    const W=520, H=360, padL=44, padR=24, padT=24, padB=44;
+    el('line',{x1:padL,y1:H-padB,x2:W-padR,y2:H-padB,stroke:'#D7CFBE'},svg);
+    el('line',{x1:padL,y1:padT,x2:padL,y2:H-padB,stroke:'#D7CFBE'},svg);
+    const cx=(padL+W-padR)/2, cy=(padT+H-padB)/2;
+    el('line',{x1:cx,y1:padT,x2:cx,y2:H-padB,stroke:'#D7CFBE','stroke-dasharray':'2 4'},svg);
+    el('line',{x1:padL,y1:cy,x2:W-padR,y2:cy,stroke:'#D7CFBE','stroke-dasharray':'2 4'},svg);
+    const ql=(x,y,t,a='middle')=>{const e=el('text',{x,y,'text-anchor':a,'font-family':'JetBrains Mono','font-size':9.5,fill:'#6E6A60','letter-spacing':'.12em'},svg);e.textContent=t;};
+    ql((padL+cx)/2,padT+10,'DO FIRST'); ql((cx+W-padR)/2,padT+10,'BIG BETS');
+    ql((padL+cx)/2,H-padB-4,'FILLER');   ql((cx+W-padR)/2,H-padB-4,'TIMESINK');
+    el('text',{x:(W-padR+padL)/2,y:H-6,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':9.5,fill:'#6E6A60','letter-spacing':'.16em'},svg).textContent='EFFORT (1–5) →';
+    el('text',{x:12,y:(H+padT-padB)/2,'transform':`rotate(-90, 12, ${(H+padT-padB)/2})`,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':9.5,fill:'#6E6A60','letter-spacing':'.16em'},svg).textContent='IMPACT (1–5) ↑';
+    const sx = e => padL + ((e-0.5)/5) * (W-padL-padR);
+    const sy = i => H-padB - ((i-0.5)/5) * (H-padT-padB);
+    // tick labels
+    for (let i=1;i<=5;i++){
+      el('text',{x:sx(i),y:H-padB+14,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':9,fill:'#6E6A60'},svg).textContent=i;
+      el('text',{x:padL-6,y:sy(i)+3,'text-anchor':'end','font-family':'JetBrains Mono','font-size':9,fill:'#6E6A60'},svg).textContent=i;
+    }
+    plays.forEach((p,i)=>{
+      const x = sx(p.effort), y = sy(p.impact);
+      el('circle',{cx:x,cy:y,r:14,fill:'#3E5641',stroke:'#F4EFE6','stroke-width':1.5},svg);
+      el('text',{x,y:y+4,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':10,fill:'#F4EFE6','font-weight':600},svg).textContent = String(i+1).padStart(2,'0');
+    });
+    // list
+    document.getElementById('steal-list').innerHTML = plays
+      .map((p,i)=>({p,i,score:(p.impact||0)/Math.max(p.effort||1,1)}))
+      .sort((a,b)=>b.score-a.score)
+      .map(({p,i})=>`
+        <div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid var(--rule-soft)">
+          <div class="mono" style="font-size:10px;color:var(--moss);padding-top:2px">${String(i+1).padStart(2,'0')}</div>
+          <div style="flex:1;min-width:0">
+            <div style="font-weight:600;font-size:11.5px">${p.play}</div>
+            <div class="small" style="font-size:10.5px;line-height:1.4;margin-top:2px">${p.note||''}</div>
+            <div class="mono" style="font-size:9.5px;color:var(--muted);margin-top:3px">Effort ${p.effort} · Impact ${p.impact}</div>
+          </div>
+        </div>`).join('');
+  })();
+
+  // ===== SLIDE 19 · what to avoid (annotated bars) =====
+  (function(){
+    const svg = document.getElementById('chart-avoid');
+    const traps = (N.verdict?.avoid)||[];
+    if (!traps.length) return;
+    const W=1100, H=360, padL=24, padR=24, padT=24, padB=24;
+    const cw = (W-padL-padR)/traps.length;
+    // helper: wrap text into <=maxChars-per-line lines
+    const wrap = (str, maxChars) => {
+      const words = (str||'').split(/\s+/);
+      const lines = []; let line = '';
+      words.forEach(wd=>{
+        if ((line+' '+wd).trim().length > maxChars){ lines.push(line.trim()); line = wd; }
+        else line += ' '+wd;
+      });
+      if (line.trim()) lines.push(line.trim());
+      return lines;
+    };
+    traps.forEach((t,i)=>{
+      const x = padL + i*cw + 12;
+      const w = cw - 24;
+      const innerX = x + 58;          // text column start
+      const innerW = w - 58 - 14;     // available text width
+      const charsPerLineHead = Math.max(14, Math.floor(innerW / 10.5)); // Fraunces 16px ~ 10.5px/char
+      const charsPerLineBody = Math.max(20, Math.floor(innerW / 7));    // Inter 12.5px ~ 7px/char
+      // panel
+      el('rect',{x,y:padT,width:w,height:H-padT-padB,rx:10,fill:'#1F2722',stroke:'#2A332E'},svg);
+      // marker bar
+      el('rect',{x:x+18,y:padT+18,width:24,height:H-padT-padB-36,rx:4,fill:'#B96A3D'},svg);
+      // headline (wrapped)
+      const headPrefix = String(i+1).padStart(2,'0')+' · ';
+      const headLines = wrap(headPrefix+t.trap, charsPerLineHead);
+      let hy = padT + 30;
+      headLines.forEach(ln=>{
+        el('text',{x:innerX,y:hy,'font-family':'Fraunces','font-size':16,fill:'#F4EFE6'},svg).textContent = ln;
+        hy += 20;
+      });
+      // evidence (wrapped)
+      let by = hy + 8;
+      const bodyLines = wrap(t.evidence||'', charsPerLineBody);
+      bodyLines.forEach(ln=>{
+        if (by > H - padB - 40) return; // don't overflow into the AVOID tag
+        el('text',{x:innerX,y:by,'font-family':'Inter','font-size':12.5,fill:'#CFC9BB'},svg).textContent = ln;
+        by += 17;
+      });
+      // tag
+      el('rect',{x:innerX,y:H-padB-28,width:74,height:18,rx:9,fill:'#B96A3D'},svg);
+      el('text',{x:innerX+37,y:H-padB-15,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':9.5,fill:'#fff','letter-spacing':'.14em'},svg).textContent='AVOID';
+    });
+  })();
+
+  // ===== SLIDE 20 · gap matrix =====
+  (function(){
+    const svg = document.getElementById('chart-gap');
+    const rows = (N.gap_matrix)||[];
+    if (!rows.length) return;
+    const W=560, H=Math.max(360, rows.length*32+50), padL=190, padR=20, padT=44, padB=10;
+    svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+    const cols = [['Polln','polln'],['Hellomello','hellomello']];
+    const colW = (W-padL-padR-20)/cols.length;
+    // headers
+    cols.forEach((c,ci)=>{
+      const cx = padL + 10 + ci*colW + colW/2;
+      el('text',{x:cx,y:padT-14,'text-anchor':'middle','font-family':'JetBrains Mono','font-size':10,fill:'#2B2A24','letter-spacing':'.12em'},svg).textContent = c[0].toUpperCase();
+    });
+    const slot = (H-padT-padB)/rows.length;
+    rows.forEach((r,ri)=>{
+      const y = padT + ri*slot;
+      const bh = slot - 6;
+      // row label
+      el('text',{x:padL-8,y:y+bh/2+4,'text-anchor':'end','font-family':'JetBrains Mono','font-size':10.5,fill:'#2B2A24'},svg).textContent = r.topic;
+      // comment
+      el('text',{x:padL-8,y:y+bh/2+18,'text-anchor':'end','font-family':'JetBrains Mono','font-size':9,fill:'#6E6A60'},svg).textContent = r.comment||'';
+      cols.forEach((c,ci)=>{
+        const cx = padL + 10 + ci*colW;
+        const val = r[c[1]] || 0;
+        // base cell
+        el('rect',{x:cx,y,width:colW-8,height:bh,rx:6,fill:'#EAE3D5',stroke:'#D7CFBE'},svg);
+        // fill ramp
+        const ramp = ['#F4EFE6','#DCE6D7','#BCD2B5','#9BBE92','#6B8E68','#3E5641'];
+        el('rect',{x:cx,y,width:(colW-8)*(val/5),height:bh,rx:6,fill:ramp[val]||ramp[0]},svg);
+        el('text',{x:cx+colW-16,y:y+bh/2+4,'text-anchor':'end','font-family':'JetBrains Mono','font-size':11,fill:val>=3?'#fff':'#2B2A24'},svg).textContent = val;
+        // highlight Hellomello-open opportunities
+        if (c[1]==='hellomello' && (r.polln<=2) && r.hellomello<=1){
+          el('rect',{x:cx-2,y:y-2,width:colW-4,height:bh+4,rx:8,fill:'none',stroke:'#B96A3D','stroke-width':2},svg);
+        }
+      });
+    });
+  })();
+
+  // ===== NAV =====
+  const slides = [...document.querySelectorAll('.slide:not([hidden])')];
+  let idx = 0;
+  const show = i => { idx = Math.max(0,Math.min(slides.length-1,i)); slides.forEach((s,j)=>s.classList.toggle('active', j===idx)); };
+  document.getElementById('next').onclick = ()=>show(idx+1);
+  document.getElementById('prev').onclick = ()=>show(idx-1);
+  document.getElementById('present').onclick = ()=>{
+    document.body.classList.toggle('present');
+    if (document.body.classList.contains('present')){
+      show(idx);
+      if (document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(()=>{});
+    } else if (document.fullscreenElement) document.exitFullscreen();
+  };
+  document.addEventListener('keydown', e=>{
+    if (e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){ show(idx+1); e.preventDefault(); }
+    else if (e.key==='ArrowLeft'||e.key==='PageUp'){ show(idx-1); e.preventDefault(); }
+    else if (e.key==='p'||e.key==='P') document.getElementById('present').click();
+    else if (e.key==='Escape' && document.body.classList.contains('present')) document.getElementById('present').click();
+  });
+  slides[0].classList.add('active');
+})();
+</script>
+</body>
+</html>

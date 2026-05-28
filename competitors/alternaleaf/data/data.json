@@ -1,0 +1,4955 @@
+{
+  "totals": {
+    "traffic": 78519,
+    "keywords": 4536,
+    "pages": 106,
+    "backlinks": 2180,
+    "backlinked_pages": 670,
+    "brand_traffic": 70559,
+    "nonbrand_traffic": 7960,
+    "brand_kw": 1310,
+    "nonbrand_kw": 3226
+  },
+  "topics": [
+    {
+      "name": "Brand",
+      "kw": 1215,
+      "traffic": 59036,
+      "examples": [
+        {
+          "kw": "alternaleaf",
+          "pos": 1,
+          "vol": 49500,
+          "traffic": 39600.0
+        },
+        {
+          "kw": "alternaleaf login",
+          "pos": 1,
+          "vol": 8100,
+          "traffic": 6480.0
+        },
+        {
+          "kw": "alternaleaf",
+          "pos": 10,
+          "vol": 49500,
+          "traffic": 1574.0
+        }
+      ]
+    },
+    {
+      "name": "Login / Portal",
+      "kw": 157,
+      "traffic": 11564,
+      "examples": [
+        {
+          "kw": "montu login",
+          "pos": 1,
+          "vol": 12100,
+          "traffic": 9680.0
+        },
+        {
+          "kw": "montu patient portal",
+          "pos": 1,
+          "vol": 1300,
+          "traffic": 322.0
+        },
+        {
+          "kw": "montu patient login",
+          "pos": 1,
+          "vol": 720,
+          "traffic": 178.0
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "kw": 730,
+      "traffic": 3335,
+      "examples": [
+        {
+          "kw": "alteraleaf",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 208.0
+        },
+        {
+          "kw": "medical cannabis",
+          "pos": 1,
+          "vol": 2400,
+          "traffic": 196.0
+        },
+        {
+          "kw": "alrernaleaf",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 168.0
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "kw": 1128,
+      "traffic": 2447,
+      "examples": [
+        {
+          "kw": "medical marijuanas australia",
+          "pos": 2,
+          "vol": 1900,
+          "traffic": 155.0
+        },
+        {
+          "kw": "montu circuit",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 146.0
+        },
+        {
+          "kw": "medical cannabis australia",
+          "pos": 2,
+          "vol": 1600,
+          "traffic": 131.0
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "kw": 663,
+      "traffic": 1361,
+      "examples": [
+        {
+          "kw": "medical cannabis prescription",
+          "pos": 2,
+          "vol": 590,
+          "traffic": 77.0
+        },
+        {
+          "kw": "online cannabis prescription",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 52.0
+        },
+        {
+          "kw": "weed prescription online",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 52.0
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "kw": 74,
+      "traffic": 470,
+      "examples": [
+        {
+          "kw": "thealite contact us",
+          "pos": 3,
+          "vol": 6600,
+          "traffic": 290.0
+        },
+        {
+          "kw": "thealite contact us",
+          "pos": 6,
+          "vol": 6600,
+          "traffic": 79.0
+        },
+        {
+          "kw": "montu phone number",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 34.0
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "kw": 140,
+      "traffic": 174,
+      "examples": [
+        {
+          "kw": "how to get medical marijuanas card qld free",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 35.0
+        },
+        {
+          "kw": "medical marijuanas perth cost",
+          "pos": 2,
+          "vol": 320,
+          "traffic": 26.0
+        },
+        {
+          "kw": "how to get medical marijuanas card qld free",
+          "pos": 5,
+          "vol": 590,
+          "traffic": 20.0
+        }
+      ]
+    },
+    {
+      "name": "Product / Strain",
+      "kw": 137,
+      "traffic": 76,
+      "examples": [
+        {
+          "kw": "online thc",
+          "pos": 3,
+          "vol": 480,
+          "traffic": 39.0
+        },
+        {
+          "kw": "med thc",
+          "pos": 2,
+          "vol": 170,
+          "traffic": 13.0
+        },
+        {
+          "kw": "medical thc",
+          "pos": 3,
+          "vol": 170,
+          "traffic": 7.0
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "kw": 80,
+      "traffic": 22,
+      "examples": [
+        {
+          "kw": "how to get medical cannabis",
+          "pos": 3,
+          "vol": 170,
+          "traffic": 4.0
+        },
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 6,
+          "vol": 170,
+          "traffic": 3.0
+        },
+        {
+          "kw": "how to get medical mar",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 2.0
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "kw": 30,
+      "traffic": 18,
+      "examples": [
+        {
+          "kw": "leaf doctors reviews",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 8.0
+        },
+        {
+          "kw": "leaf doctors reviews",
+          "pos": 5,
+          "vol": 260,
+          "traffic": 6.0
+        },
+        {
+          "kw": "dispensed natural therapy clinic reviews",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "kw": 84,
+      "traffic": 10,
+      "examples": [
+        {
+          "kw": "cannabis card benefits",
+          "pos": 3,
+          "vol": 110,
+          "traffic": 3.0
+        },
+        {
+          "kw": "how to boost energy levels",
+          "pos": 8,
+          "vol": 320,
+          "traffic": 2.0
+        },
+        {
+          "kw": "how to increase energy levels",
+          "pos": 7,
+          "vol": 390,
+          "traffic": 2.0
+        }
+      ]
+    },
+    {
+      "name": "Conditions",
+      "kw": 81,
+      "traffic": 6,
+      "examples": [
+        {
+          "kw": "mouth breathing at night symptoms",
+          "pos": 15,
+          "vol": 2400,
+          "traffic": 3.0
+        },
+        {
+          "kw": "deep sleep",
+          "pos": 16,
+          "vol": 1300,
+          "traffic": 1.0
+        },
+        {
+          "kw": "deep sleep",
+          "pos": 19,
+          "vol": 1300,
+          "traffic": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "kw": 17,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "acacia medical weed",
+          "pos": 21,
+          "vol": 320,
+          "traffic": 0.0
+        },
+        {
+          "kw": "honahlee catalyst",
+          "pos": 19,
+          "vol": 720,
+          "traffic": 0.0
+        },
+        {
+          "kw": "releaf group",
+          "pos": 23,
+          "vol": 90,
+          "traffic": 0.0
+        }
+      ]
+    }
+  ],
+  "topic_detail": {
+    "Brand": {
+      "total_kw": 1215,
+      "total_traffic": 59036,
+      "top1_count": 139,
+      "page2_count": 167,
+      "avg_vol": 838,
+      "top_keywords": [
+        {
+          "kw": "alternaleaf",
+          "pos": 1,
+          "vol": 49500,
+          "traffic": 39600,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternaleaf login",
+          "pos": 1,
+          "vol": 8100,
+          "traffic": 6480,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternaleaf",
+          "pos": 10,
+          "vol": 49500,
+          "traffic": 1574,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternaleaf patient portal",
+          "pos": 1,
+          "vol": 1900,
+          "traffic": 1520,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternaleaf phone number",
+          "pos": 1,
+          "vol": 1000,
+          "traffic": 800,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf"
+        },
+        {
+          "kw": "alterleaf",
+          "pos": 1,
+          "vol": 720,
+          "traffic": 576,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternaleaf log in",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 472,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternleaf",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 472,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternaleaf portal",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 472,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternalead",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 472,
+          "url": "https://www.alternaleaf.com.au/"
+        }
+      ],
+      "top_nonbrand": []
+    },
+    "Login / Portal": {
+      "total_kw": 157,
+      "total_traffic": 11564,
+      "top1_count": 10,
+      "page2_count": 25,
+      "avg_vol": 786,
+      "top_keywords": [
+        {
+          "kw": "montu login",
+          "pos": 1,
+          "vol": 12100,
+          "traffic": 9680,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "montu patient portal",
+          "pos": 1,
+          "vol": 1300,
+          "traffic": 322,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "montu patient login",
+          "pos": 1,
+          "vol": 720,
+          "traffic": 178,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "montu login",
+          "pos": 4,
+          "vol": 12100,
+          "traffic": 169,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/sections/27145357404697-Patient-portal"
+        },
+        {
+          "kw": "montu login",
+          "pos": 6,
+          "vol": 12100,
+          "traffic": 121,
+          "url": "https://www.alternaleaf.com.au/contact-us"
+        },
+        {
+          "kw": "montu patient portal",
+          "pos": 3,
+          "vol": 1300,
+          "traffic": 106,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/sections/27145357404697-Patient-portal"
+        },
+        {
+          "kw": "montu circuit login",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 96,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternate leaf login",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 88,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "pt portal",
+          "pos": 4,
+          "vol": 1300,
+          "traffic": 84,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "patient portal patient portal",
+          "pos": 3,
+          "vol": 1300,
+          "traffic": 84,
+          "url": "https://patient.alternaleaf.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "alternate leaf login",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 88
+        },
+        {
+          "kw": "pt portal",
+          "pos": 4,
+          "vol": 1300,
+          "traffic": 84
+        },
+        {
+          "kw": "patient portal patient portal",
+          "pos": 3,
+          "vol": 1300,
+          "traffic": 84
+        },
+        {
+          "kw": "patient to portal",
+          "pos": 4,
+          "vol": 1000,
+          "traffic": 65
+        },
+        {
+          "kw": "log in patient portal",
+          "pos": 4,
+          "vol": 390,
+          "traffic": 25
+        },
+        {
+          "kw": "leaf doctor login",
+          "pos": 4,
+          "vol": 320,
+          "traffic": 20
+        },
+        {
+          "kw": "sign in patient portal",
+          "pos": 4,
+          "vol": 260,
+          "traffic": 16
+        },
+        {
+          "kw": "login patient portal",
+          "pos": 4,
+          "vol": 210,
+          "traffic": 13
+        }
+      ]
+    },
+    "Contact / Support": {
+      "total_kw": 74,
+      "total_traffic": 470,
+      "top1_count": 3,
+      "page2_count": 2,
+      "avg_vol": 414,
+      "top_keywords": [
+        {
+          "kw": "thealite contact us",
+          "pos": 3,
+          "vol": 6600,
+          "traffic": 290,
+          "url": "https://www.alternaleaf.com.au/contact-us"
+        },
+        {
+          "kw": "thealite contact us",
+          "pos": 6,
+          "vol": 6600,
+          "traffic": 79,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf"
+        },
+        {
+          "kw": "montu phone number",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 34,
+          "url": "https://www.alternaleaf.com.au/contact-us"
+        },
+        {
+          "kw": "can i help",
+          "pos": 9,
+          "vol": 1000,
+          "traffic": 24,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "montu contact number",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 11,
+          "url": "https://www.alternaleaf.com.au/contact-us"
+        },
+        {
+          "kw": "montu phone number",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 9,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf"
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 6,
+          "vol": 320,
+          "traffic": 7,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "montu phone number",
+          "pos": 3,
+          "vol": 140,
+          "traffic": 4,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf"
+        },
+        {
+          "kw": "can i help clinic",
+          "pos": 5,
+          "vol": 70,
+          "traffic": 3,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "montu contact number",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 2,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "thealite contact us",
+          "pos": 3,
+          "vol": 6600,
+          "traffic": 290
+        },
+        {
+          "kw": "thealite contact us",
+          "pos": 6,
+          "vol": 6600,
+          "traffic": 79
+        },
+        {
+          "kw": "can i help",
+          "pos": 9,
+          "vol": 1000,
+          "traffic": 24
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 6,
+          "vol": 320,
+          "traffic": 7
+        },
+        {
+          "kw": "can i help clinic",
+          "pos": 5,
+          "vol": 70,
+          "traffic": 3
+        },
+        {
+          "kw": "canni help",
+          "pos": 7,
+          "vol": 70,
+          "traffic": 2
+        },
+        {
+          "kw": "thealite contact us",
+          "pos": 42,
+          "vol": 6600,
+          "traffic": 1
+        },
+        {
+          "kw": "umeds contact number",
+          "pos": 2,
+          "vol": 70,
+          "traffic": 1
+        }
+      ]
+    },
+    "Other": {
+      "total_kw": 730,
+      "total_traffic": 3335,
+      "top1_count": 67,
+      "page2_count": 85,
+      "avg_vol": 240,
+      "top_keywords": [
+        {
+          "kw": "alteraleaf",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 208,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical cannabis",
+          "pos": 1,
+          "vol": 2400,
+          "traffic": 196,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alrernaleaf",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 168,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alterneaf",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 168,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternative leaf",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 168,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "aus medical weed",
+          "pos": 2,
+          "vol": 1900,
+          "traffic": 155,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical cann",
+          "pos": 2,
+          "vol": 1600,
+          "traffic": 131,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternalesf",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 112,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical marijuana",
+          "pos": 1,
+          "vol": 1300,
+          "traffic": 106,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medicinal marijuana",
+          "pos": 1,
+          "vol": 720,
+          "traffic": 95,
+          "url": "https://www.alternaleaf.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "alteraleaf",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 208
+        },
+        {
+          "kw": "medical cannabis",
+          "pos": 1,
+          "vol": 2400,
+          "traffic": 196
+        },
+        {
+          "kw": "alrernaleaf",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 168
+        },
+        {
+          "kw": "alterneaf",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 168
+        },
+        {
+          "kw": "alternative leaf",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 168
+        },
+        {
+          "kw": "aus medical weed",
+          "pos": 2,
+          "vol": 1900,
+          "traffic": 155
+        },
+        {
+          "kw": "medical cann",
+          "pos": 2,
+          "vol": 1600,
+          "traffic": 131
+        },
+        {
+          "kw": "alternalesf",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 112
+        }
+      ]
+    },
+    "Locations": {
+      "total_kw": 1128,
+      "total_traffic": 2447,
+      "top1_count": 61,
+      "page2_count": 95,
+      "avg_vol": 181,
+      "top_keywords": [
+        {
+          "kw": "medical marijuanas australia",
+          "pos": 2,
+          "vol": 1900,
+          "traffic": 155,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "montu circuit",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 146,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical cannabis australia",
+          "pos": 2,
+          "vol": 1600,
+          "traffic": 131,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "circuit montu",
+          "pos": 1,
+          "vol": 480,
+          "traffic": 119,
+          "url": "https://patient.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical marijuanas nsw",
+          "pos": 1,
+          "vol": 2400,
+          "traffic": 105,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical marijuanas victoria",
+          "pos": 2,
+          "vol": 880,
+          "traffic": 72,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical marijuanas australia",
+          "pos": 2,
+          "vol": 1900,
+          "traffic": 66,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical marijuanas australia",
+          "pos": 1,
+          "vol": 1900,
+          "traffic": 65,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical marijuanas qld",
+          "pos": 2,
+          "vol": 1600,
+          "traffic": 56,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical cannabis australia",
+          "pos": 1,
+          "vol": 1600,
+          "traffic": 55,
+          "url": "https://www.alternaleaf.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "medical marijuanas australia",
+          "pos": 2,
+          "vol": 1900,
+          "traffic": 155
+        },
+        {
+          "kw": "medical cannabis australia",
+          "pos": 2,
+          "vol": 1600,
+          "traffic": 131
+        },
+        {
+          "kw": "medical marijuanas nsw",
+          "pos": 1,
+          "vol": 2400,
+          "traffic": 105
+        },
+        {
+          "kw": "medical marijuanas victoria",
+          "pos": 2,
+          "vol": 880,
+          "traffic": 72
+        },
+        {
+          "kw": "medical marijuanas australia",
+          "pos": 2,
+          "vol": 1900,
+          "traffic": 66
+        },
+        {
+          "kw": "medical marijuanas australia",
+          "pos": 1,
+          "vol": 1900,
+          "traffic": 65
+        },
+        {
+          "kw": "medical marijuanas qld",
+          "pos": 2,
+          "vol": 1600,
+          "traffic": 56
+        },
+        {
+          "kw": "medical cannabis australia",
+          "pos": 1,
+          "vol": 1600,
+          "traffic": 55
+        }
+      ]
+    },
+    "Clinic / Doctor": {
+      "total_kw": 663,
+      "total_traffic": 1361,
+      "top1_count": 90,
+      "page2_count": 25,
+      "avg_vol": 159,
+      "top_keywords": [
+        {
+          "kw": "medical cannabis prescription",
+          "pos": 2,
+          "vol": 590,
+          "traffic": 77,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "online cannabis prescription",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 52,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "weed prescription online",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 52,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "marijuanas prescription",
+          "pos": 3,
+          "vol": 590,
+          "traffic": 38,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "cannabis prescription online",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 34,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "cannabis scripts",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 34,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "online cannabis prescription australia",
+          "pos": 3,
+          "vol": 480,
+          "traffic": 31,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medicinal cannabis prescription",
+          "pos": 2,
+          "vol": 390,
+          "traffic": 31,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "leaf doctors",
+          "pos": 4,
+          "vol": 2900,
+          "traffic": 29,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical mj doctors",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 27,
+          "url": "https://www.alternaleaf.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "medical cannabis prescription",
+          "pos": 2,
+          "vol": 590,
+          "traffic": 77
+        },
+        {
+          "kw": "online cannabis prescription",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 52
+        },
+        {
+          "kw": "weed prescription online",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 52
+        },
+        {
+          "kw": "marijuanas prescription",
+          "pos": 3,
+          "vol": 590,
+          "traffic": 38
+        },
+        {
+          "kw": "cannabis prescription online",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 34
+        },
+        {
+          "kw": "cannabis scripts",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 34
+        },
+        {
+          "kw": "online cannabis prescription australia",
+          "pos": 3,
+          "vol": 480,
+          "traffic": 31
+        },
+        {
+          "kw": "medicinal cannabis prescription",
+          "pos": 2,
+          "vol": 390,
+          "traffic": 31
+        }
+      ]
+    },
+    "Product / Strain": {
+      "total_kw": 137,
+      "total_traffic": 76,
+      "top1_count": 4,
+      "page2_count": 7,
+      "avg_vol": 160,
+      "top_keywords": [
+        {
+          "kw": "online thc",
+          "pos": 3,
+          "vol": 480,
+          "traffic": 39,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "med thc",
+          "pos": 2,
+          "vol": 170,
+          "traffic": 13,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical thc",
+          "pos": 3,
+          "vol": 170,
+          "traffic": 7,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "alternative healthcare",
+          "pos": 1,
+          "vol": 50,
+          "traffic": 4,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical thc card",
+          "pos": 4,
+          "vol": 90,
+          "traffic": 3,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical cannabis vape",
+          "pos": 6,
+          "vol": 110,
+          "traffic": 2,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medicinal cbd",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 2,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medicinal cbd oil",
+          "pos": 4,
+          "vol": 90,
+          "traffic": 2,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "prescribed thc",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 2,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "online thc",
+          "pos": 14,
+          "vol": 480,
+          "traffic": 1,
+          "url": "https://www.alternaleaf.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "online thc",
+          "pos": 3,
+          "vol": 480,
+          "traffic": 39
+        },
+        {
+          "kw": "med thc",
+          "pos": 2,
+          "vol": 170,
+          "traffic": 13
+        },
+        {
+          "kw": "medical thc",
+          "pos": 3,
+          "vol": 170,
+          "traffic": 7
+        },
+        {
+          "kw": "alternative healthcare",
+          "pos": 1,
+          "vol": 50,
+          "traffic": 4
+        },
+        {
+          "kw": "medical thc card",
+          "pos": 4,
+          "vol": 90,
+          "traffic": 3
+        },
+        {
+          "kw": "medical cannabis vape",
+          "pos": 6,
+          "vol": 110,
+          "traffic": 2
+        },
+        {
+          "kw": "medicinal cbd",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 2
+        },
+        {
+          "kw": "medicinal cbd oil",
+          "pos": 4,
+          "vol": 90,
+          "traffic": 2
+        }
+      ]
+    },
+    "Pricing": {
+      "total_kw": 140,
+      "total_traffic": 174,
+      "top1_count": 12,
+      "page2_count": 10,
+      "avg_vol": 151,
+      "top_keywords": [
+        {
+          "kw": "how to get medical marijuanas card qld free",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 35,
+          "url": "https://www.alternaleaf.com.au/concession-program"
+        },
+        {
+          "kw": "medical marijuanas perth cost",
+          "pos": 2,
+          "vol": 320,
+          "traffic": 26,
+          "url": "https://www.alternaleaf.com.au/pricing"
+        },
+        {
+          "kw": "how to get medical marijuanas card qld free",
+          "pos": 5,
+          "vol": 590,
+          "traffic": 20,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "cheapest medical cannabis australia",
+          "pos": 3,
+          "vol": 720,
+          "traffic": 17,
+          "url": "https://www.alternaleaf.com.au/pricing"
+        },
+        {
+          "kw": "medical marijuanas nsw cost",
+          "pos": 3,
+          "vol": 260,
+          "traffic": 16,
+          "url": "https://www.alternaleaf.com.au/pricing"
+        },
+        {
+          "kw": "medical marijuanas australia cost",
+          "pos": 10,
+          "vol": 480,
+          "traffic": 9,
+          "url": "https://www.alternaleaf.com.au/pricing"
+        },
+        {
+          "kw": "free medical cannabis consultation",
+          "pos": 4,
+          "vol": 170,
+          "traffic": 5,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medical marijuanas brisbane cost",
+          "pos": 6,
+          "vol": 170,
+          "traffic": 5,
+          "url": "https://www.alternaleaf.com.au/pricing"
+        },
+        {
+          "kw": "free consultation medical weed",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 5,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "cheapest medical marijuanas dispensary near me",
+          "pos": 2,
+          "vol": 110,
+          "traffic": 4,
+          "url": "https://www.alternaleaf.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "how to get medical marijuanas card qld free",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 35
+        },
+        {
+          "kw": "medical marijuanas perth cost",
+          "pos": 2,
+          "vol": 320,
+          "traffic": 26
+        },
+        {
+          "kw": "how to get medical marijuanas card qld free",
+          "pos": 5,
+          "vol": 590,
+          "traffic": 20
+        },
+        {
+          "kw": "cheapest medical cannabis australia",
+          "pos": 3,
+          "vol": 720,
+          "traffic": 17
+        },
+        {
+          "kw": "medical marijuanas nsw cost",
+          "pos": 3,
+          "vol": 260,
+          "traffic": 16
+        },
+        {
+          "kw": "medical marijuanas australia cost",
+          "pos": 10,
+          "vol": 480,
+          "traffic": 9
+        },
+        {
+          "kw": "free medical cannabis consultation",
+          "pos": 4,
+          "vol": 170,
+          "traffic": 5
+        },
+        {
+          "kw": "medical marijuanas brisbane cost",
+          "pos": 6,
+          "vol": 170,
+          "traffic": 5
+        }
+      ]
+    },
+    "Reviews": {
+      "total_kw": 30,
+      "total_traffic": 18,
+      "top1_count": 1,
+      "page2_count": 6,
+      "avg_vol": 98,
+      "top_keywords": [
+        {
+          "kw": "leaf doctors reviews",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 8,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10831241604367-How-consultations-work"
+        },
+        {
+          "kw": "leaf doctors reviews",
+          "pos": 5,
+          "vol": 260,
+          "traffic": 6,
+          "url": "https://www.alternaleaf.com.au/reviews"
+        },
+        {
+          "kw": "dispensed natural therapy clinic reviews",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 3,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "leaf doctors review",
+          "pos": 9,
+          "vol": 110,
+          "traffic": 1,
+          "url": "https://www.alternaleaf.com.au/reviews"
+        },
+        {
+          "kw": "leaf doctors reviews",
+          "pos": 23,
+          "vol": 260,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "clinic 66 reviews",
+          "pos": 34,
+          "vol": 210,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "vapes australia review",
+          "pos": 74,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "canna reviews product list",
+          "pos": 55,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "cannabis doctors tasmania reviews",
+          "pos": 13,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "medreleaf reviews",
+          "pos": 12,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/reviews"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "leaf doctors reviews",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 8
+        },
+        {
+          "kw": "leaf doctors reviews",
+          "pos": 5,
+          "vol": 260,
+          "traffic": 6
+        },
+        {
+          "kw": "dispensed natural therapy clinic reviews",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 3
+        },
+        {
+          "kw": "leaf doctors review",
+          "pos": 9,
+          "vol": 110,
+          "traffic": 1
+        },
+        {
+          "kw": "leaf doctors reviews",
+          "pos": 23,
+          "vol": 260,
+          "traffic": 0
+        },
+        {
+          "kw": "clinic 66 reviews",
+          "pos": 34,
+          "vol": 210,
+          "traffic": 0
+        },
+        {
+          "kw": "vapes australia review",
+          "pos": 74,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "canna reviews product list",
+          "pos": 55,
+          "vol": 110,
+          "traffic": 0
+        }
+      ]
+    },
+    "Eligibility / Legal": {
+      "total_kw": 80,
+      "total_traffic": 22,
+      "top1_count": 1,
+      "page2_count": 11,
+      "avg_vol": 189,
+      "top_keywords": [
+        {
+          "kw": "how to get medical cannabis",
+          "pos": 3,
+          "vol": 170,
+          "traffic": 4,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 6,
+          "vol": 170,
+          "traffic": 3,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "how to get medical mar",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 2,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "how to get medical mar",
+          "pos": 9,
+          "vol": 390,
+          "traffic": 2,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "how to apply for medical marijuanas",
+          "pos": 6,
+          "vol": 90,
+          "traffic": 2,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "special access scheme tga",
+          "pos": 17,
+          "vol": 1000,
+          "traffic": 1,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10869651355023-Regulations-and-approvals"
+        },
+        {
+          "kw": "special access scheme tga",
+          "pos": 21,
+          "vol": 1000,
+          "traffic": 1,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10869651355023-Regulations-and-approvals"
+        },
+        {
+          "kw": "tga special access scheme",
+          "pos": 22,
+          "vol": 880,
+          "traffic": 1,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10869651355023-Regulations-and-approvals"
+        },
+        {
+          "kw": "how to get medical marijuanas",
+          "pos": 7,
+          "vol": 480,
+          "traffic": 1,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "tga approval",
+          "pos": 10,
+          "vol": 480,
+          "traffic": 1,
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10869651355023-Regulations-and-approvals"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "how to get medical cannabis",
+          "pos": 3,
+          "vol": 170,
+          "traffic": 4
+        },
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 6,
+          "vol": 170,
+          "traffic": 3
+        },
+        {
+          "kw": "how to get medical mar",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 2
+        },
+        {
+          "kw": "how to get medical mar",
+          "pos": 9,
+          "vol": 390,
+          "traffic": 2
+        },
+        {
+          "kw": "how to apply for medical marijuanas",
+          "pos": 6,
+          "vol": 90,
+          "traffic": 2
+        },
+        {
+          "kw": "special access scheme tga",
+          "pos": 17,
+          "vol": 1000,
+          "traffic": 1
+        },
+        {
+          "kw": "special access scheme tga",
+          "pos": 21,
+          "vol": 1000,
+          "traffic": 1
+        },
+        {
+          "kw": "tga special access scheme",
+          "pos": 22,
+          "vol": 880,
+          "traffic": 1
+        }
+      ]
+    },
+    "Conditions": {
+      "total_kw": 81,
+      "total_traffic": 6,
+      "top1_count": 0,
+      "page2_count": 7,
+      "avg_vol": 225,
+      "top_keywords": [
+        {
+          "kw": "mouth breathing at night symptoms",
+          "pos": 15,
+          "vol": 2400,
+          "traffic": 3,
+          "url": "https://www.alternaleaf.com.au/hub/mouth-breathing-for-better-sleep"
+        },
+        {
+          "kw": "deep sleep",
+          "pos": 16,
+          "vol": 1300,
+          "traffic": 1,
+          "url": "https://www.alternaleaf.com.au/hub/deep-sleep-meditation-restful-sleep"
+        },
+        {
+          "kw": "deep sleep",
+          "pos": 19,
+          "vol": 1300,
+          "traffic": 1,
+          "url": "https://www.alternaleaf.com.au/hub/deep-sleep-meditation-restful-sleep"
+        },
+        {
+          "kw": "what relieves muscle pain",
+          "pos": 7,
+          "vol": 170,
+          "traffic": 1,
+          "url": "https://www.alternaleaf.com.au/hub/natural-ways-to-relieve-muscle-pain"
+        },
+        {
+          "kw": "muscle and pain",
+          "pos": 82,
+          "vol": 1300,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/hub/natural-ways-to-relieve-muscle-pain"
+        },
+        {
+          "kw": "muscle pain relief",
+          "pos": 39,
+          "vol": 1000,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/hub/natural-ways-to-relieve-muscle-pain"
+        },
+        {
+          "kw": "muscle pain relief",
+          "pos": 61,
+          "vol": 1000,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/hub/natural-ways-to-relieve-muscle-pain"
+        },
+        {
+          "kw": "st t depression",
+          "pos": 78,
+          "vol": 720,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "a deep sleep",
+          "pos": 35,
+          "vol": 480,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/hub/deep-sleep-meditation-restful-sleep"
+        },
+        {
+          "kw": "aromatherapy oils for sleep",
+          "pos": 65,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/hub/aromatherapy-helping-sleep"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "mouth breathing at night symptoms",
+          "pos": 15,
+          "vol": 2400,
+          "traffic": 3
+        },
+        {
+          "kw": "deep sleep",
+          "pos": 16,
+          "vol": 1300,
+          "traffic": 1
+        },
+        {
+          "kw": "deep sleep",
+          "pos": 19,
+          "vol": 1300,
+          "traffic": 1
+        },
+        {
+          "kw": "what relieves muscle pain",
+          "pos": 7,
+          "vol": 170,
+          "traffic": 1
+        },
+        {
+          "kw": "muscle and pain",
+          "pos": 82,
+          "vol": 1300,
+          "traffic": 0
+        },
+        {
+          "kw": "muscle pain relief",
+          "pos": 39,
+          "vol": 1000,
+          "traffic": 0
+        },
+        {
+          "kw": "muscle pain relief",
+          "pos": 61,
+          "vol": 1000,
+          "traffic": 0
+        },
+        {
+          "kw": "st t depression",
+          "pos": 78,
+          "vol": 720,
+          "traffic": 0
+        }
+      ]
+    },
+    "Education / How-to": {
+      "total_kw": 84,
+      "total_traffic": 10,
+      "top1_count": 2,
+      "page2_count": 9,
+      "avg_vol": 142,
+      "top_keywords": [
+        {
+          "kw": "cannabis card benefits",
+          "pos": 3,
+          "vol": 110,
+          "traffic": 3,
+          "url": "https://www.alternaleaf.com.au/concessions"
+        },
+        {
+          "kw": "how to increase energy levels",
+          "pos": 7,
+          "vol": 390,
+          "traffic": 2,
+          "url": "https://www.alternaleaf.com.au/hub/boost-energy-levels-naturally"
+        },
+        {
+          "kw": "how to boost energy levels",
+          "pos": 8,
+          "vol": 320,
+          "traffic": 2,
+          "url": "https://www.alternaleaf.com.au/hub/boost-energy-levels-naturally"
+        },
+        {
+          "kw": "how to improve energy levels",
+          "pos": 8,
+          "vol": 260,
+          "traffic": 1,
+          "url": "https://www.alternaleaf.com.au/hub/boost-energy-levels-naturally"
+        },
+        {
+          "kw": "how to boost energy",
+          "pos": 9,
+          "vol": 140,
+          "traffic": 1,
+          "url": "https://www.alternaleaf.com.au/hub/boost-energy-levels-naturally"
+        },
+        {
+          "kw": "how to sign up for medical marijuanas",
+          "pos": 5,
+          "vol": 50,
+          "traffic": 1,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "weed side effects",
+          "pos": 80,
+          "vol": 480,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "side effects of using weed",
+          "pos": 89,
+          "vol": 480,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "what is emotional health",
+          "pos": 16,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/hub/importance-of-emotional-health"
+        },
+        {
+          "kw": "how to raise energy levels",
+          "pos": 28,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/hub/boost-energy-levels-naturally"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "cannabis card benefits",
+          "pos": 3,
+          "vol": 110,
+          "traffic": 3
+        },
+        {
+          "kw": "how to increase energy levels",
+          "pos": 7,
+          "vol": 390,
+          "traffic": 2
+        },
+        {
+          "kw": "how to boost energy levels",
+          "pos": 8,
+          "vol": 320,
+          "traffic": 2
+        },
+        {
+          "kw": "how to improve energy levels",
+          "pos": 8,
+          "vol": 260,
+          "traffic": 1
+        },
+        {
+          "kw": "how to boost energy",
+          "pos": 9,
+          "vol": 140,
+          "traffic": 1
+        },
+        {
+          "kw": "how to sign up for medical marijuanas",
+          "pos": 5,
+          "vol": 50,
+          "traffic": 1
+        },
+        {
+          "kw": "weed side effects",
+          "pos": 80,
+          "vol": 480,
+          "traffic": 0
+        },
+        {
+          "kw": "side effects of using weed",
+          "pos": 89,
+          "vol": 480,
+          "traffic": 0
+        }
+      ]
+    },
+    "Competitors": {
+      "total_kw": 17,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 3,
+      "avg_vol": 585,
+      "top_keywords": [
+        {
+          "kw": "candor medical",
+          "pos": 45,
+          "vol": 3600,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/about-us"
+        },
+        {
+          "kw": "honahlee",
+          "pos": 33,
+          "vol": 1300,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "honahlee",
+          "pos": 64,
+          "vol": 1300,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/about-us"
+        },
+        {
+          "kw": "catalyst honahlee",
+          "pos": 20,
+          "vol": 1000,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "honahlee catalyst",
+          "pos": 19,
+          "vol": 720,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "acacia medical cannabis",
+          "pos": 28,
+          "vol": 390,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "acacia medical cannabis",
+          "pos": 47,
+          "vol": 390,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "acacia medical weed",
+          "pos": 21,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "acacia medicinal cannabis",
+          "pos": 31,
+          "vol": 260,
+          "traffic": 0,
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "kw": "med releaf",
+          "pos": 29,
+          "vol": 210,
+          "traffic": 0,
+          "url": "https://patient.alternaleaf.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "candor medical",
+          "pos": 45,
+          "vol": 3600,
+          "traffic": 0
+        },
+        {
+          "kw": "honahlee",
+          "pos": 33,
+          "vol": 1300,
+          "traffic": 0
+        },
+        {
+          "kw": "honahlee",
+          "pos": 64,
+          "vol": 1300,
+          "traffic": 0
+        },
+        {
+          "kw": "catalyst honahlee",
+          "pos": 20,
+          "vol": 1000,
+          "traffic": 0
+        },
+        {
+          "kw": "honahlee catalyst",
+          "pos": 19,
+          "vol": 720,
+          "traffic": 0
+        },
+        {
+          "kw": "acacia medical cannabis",
+          "pos": 28,
+          "vol": 390,
+          "traffic": 0
+        },
+        {
+          "kw": "acacia medical cannabis",
+          "pos": 47,
+          "vol": 390,
+          "traffic": 0
+        },
+        {
+          "kw": "acacia medical weed",
+          "pos": 21,
+          "vol": 320,
+          "traffic": 0
+        }
+      ]
+    }
+  },
+  "pillars": [
+    {
+      "name": "Brand",
+      "total_kw": 1215,
+      "total_traffic": 59036,
+      "efficiency": 48.59,
+      "top1_count": 139,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 884,
+          "traffic": 55415,
+          "examples": [
+            {
+              "kw": "alternaleaf",
+              "pos": 1,
+              "traffic": 39600
+            },
+            {
+              "kw": "alternaleaf login",
+              "pos": 1,
+              "traffic": 6480
+            }
+          ]
+        },
+        {
+          "label": "Patient Portal",
+          "kw": 104,
+          "traffic": 1756,
+          "examples": [
+            {
+              "kw": "alternaleaf patient portal",
+              "pos": 1,
+              "traffic": 1520
+            },
+            {
+              "kw": "patient portal alternaleaf",
+              "pos": 1,
+              "traffic": 72
+            }
+          ]
+        },
+        {
+          "label": "Phone Number",
+          "kw": 81,
+          "traffic": 1162,
+          "examples": [
+            {
+              "kw": "alternaleaf phone number",
+              "pos": 1,
+              "traffic": 800
+            },
+            {
+              "kw": "alternaleaf phone number australia",
+              "pos": 1,
+              "traffic": 136
+            }
+          ]
+        },
+        {
+          "label": "Products List",
+          "kw": 44,
+          "traffic": 370,
+          "examples": [
+            {
+              "kw": "alternaleaf products list",
+              "pos": 1,
+              "traffic": 95
+            },
+            {
+              "kw": "alternaleaf products list australia",
+              "pos": 1,
+              "traffic": 94
+            }
+          ]
+        },
+        {
+          "label": "Contact Number",
+          "kw": 41,
+          "traffic": 280,
+          "examples": [
+            {
+              "kw": "alternaleaf contact number",
+              "pos": 1,
+              "traffic": 256
+            },
+            {
+              "kw": "alternaleaf contact number",
+              "pos": 10,
+              "traffic": 9
+            }
+          ]
+        },
+        {
+          "label": "Portal Login",
+          "kw": 27,
+          "traffic": 41,
+          "examples": [
+            {
+              "kw": "alternaleaf portal login",
+              "pos": 1,
+              "traffic": 40
+            },
+            {
+              "kw": "alternaleaf portal login",
+              "pos": 2,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Consult Cost",
+          "kw": 34,
+          "traffic": 12,
+          "examples": [
+            {
+              "kw": "alternaleaf consult cost",
+              "pos": 1,
+              "traffic": 7
+            },
+            {
+              "kw": "alternaleaf consult cost",
+              "pos": 1,
+              "traffic": 4
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 44461,
+          "kw": 107
+        },
+        {
+          "url": "https://patient.alternaleaf.com.au/",
+          "traffic": 10089,
+          "kw": 35
+        },
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf",
+          "traffic": 2003,
+          "kw": 30
+        }
+      ]
+    },
+    {
+      "name": "Login / Portal",
+      "total_kw": 157,
+      "total_traffic": 11564,
+      "efficiency": 73.66,
+      "top1_count": 10,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 89,
+          "traffic": 10757,
+          "examples": [
+            {
+              "kw": "montu login",
+              "pos": 1,
+              "traffic": 9680
+            },
+            {
+              "kw": "montu patient login",
+              "pos": 1,
+              "traffic": 178
+            }
+          ]
+        },
+        {
+          "label": "Patient Portal",
+          "kw": 25,
+          "traffic": 571,
+          "examples": [
+            {
+              "kw": "montu patient portal",
+              "pos": 1,
+              "traffic": 322
+            },
+            {
+              "kw": "montu patient portal",
+              "pos": 3,
+              "traffic": 106
+            }
+          ]
+        },
+        {
+          "label": "Circuit Login",
+          "kw": 5,
+          "traffic": 141,
+          "examples": [
+            {
+              "kw": "montu circuit login",
+              "pos": 1,
+              "traffic": 96
+            },
+            {
+              "kw": "montu circuit login",
+              "pos": 3,
+              "traffic": 31
+            }
+          ]
+        },
+        {
+          "label": "Login Patient",
+          "kw": 12,
+          "traffic": 48,
+          "examples": [
+            {
+              "kw": "montu login patient",
+              "pos": 1,
+              "traffic": 34
+            },
+            {
+              "kw": "montu login patient",
+              "pos": 3,
+              "traffic": 11
+            }
+          ]
+        },
+        {
+          "label": "Umeds Login",
+          "kw": 16,
+          "traffic": 26,
+          "examples": [
+            {
+              "kw": "umeds login",
+              "pos": 3,
+              "traffic": 12
+            },
+            {
+              "kw": "umeds login",
+              "pos": 5,
+              "traffic": 7
+            }
+          ]
+        },
+        {
+          "label": "Doctor Login",
+          "kw": 10,
+          "traffic": 21,
+          "examples": [
+            {
+              "kw": "leaf doctor login",
+              "pos": 4,
+              "traffic": 20
+            },
+            {
+              "kw": "leaf doctor login",
+              "pos": 16,
+              "traffic": 1
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://patient.alternaleaf.com.au/",
+          "traffic": 10899,
+          "kw": 46
+        },
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/sections/27145357404697-Patient-portal",
+          "traffic": 431,
+          "kw": 17
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/contact-us",
+          "traffic": 182,
+          "kw": 8
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "total_kw": 730,
+      "total_traffic": 3335,
+      "efficiency": 4.57,
+      "top1_count": 67,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 618,
+          "traffic": 2382,
+          "examples": [
+            {
+              "kw": "alteraleaf",
+              "pos": 1,
+              "traffic": 208
+            },
+            {
+              "kw": "alrernaleaf",
+              "pos": 1,
+              "traffic": 168
+            }
+          ]
+        },
+        {
+          "label": "Medical Cannabis",
+          "kw": 22,
+          "traffic": 330,
+          "examples": [
+            {
+              "kw": "medical cannabis",
+              "pos": 1,
+              "traffic": 196
+            },
+            {
+              "kw": "medical cannabis online",
+              "pos": 1,
+              "traffic": 79
+            }
+          ]
+        },
+        {
+          "label": "Medical Weed",
+          "kw": 31,
+          "traffic": 310,
+          "examples": [
+            {
+              "kw": "aus medical weed",
+              "pos": 2,
+              "traffic": 155
+            },
+            {
+              "kw": "aus medical weed",
+              "pos": 1,
+              "traffic": 65
+            }
+          ]
+        },
+        {
+          "label": "Medical Marijuana",
+          "kw": 14,
+          "traffic": 183,
+          "examples": [
+            {
+              "kw": "medical marijuana",
+              "pos": 1,
+              "traffic": 106
+            },
+            {
+              "kw": "medical marijuana online",
+              "pos": 1,
+              "traffic": 34
+            }
+          ]
+        },
+        {
+          "label": "Medical Marijuanas",
+          "kw": 31,
+          "traffic": 129,
+          "examples": [
+            {
+              "kw": "online medical marijuanas",
+              "pos": 1,
+              "traffic": 51
+            },
+            {
+              "kw": "online medical marijuanas",
+              "pos": 1,
+              "traffic": 23
+            }
+          ]
+        },
+        {
+          "label": "Emotional Health",
+          "kw": 11,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "emotional health health",
+              "pos": 21,
+              "traffic": 1
+            },
+            {
+              "kw": "emotional health examples",
+              "pos": 31,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Get Medical",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "where to get medical cannabis",
+              "pos": 1,
+              "traffic": 0
+            },
+            {
+              "kw": "where to get medical cannabis",
+              "pos": 1,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 3166,
+          "kw": 493
+        },
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10870673137807-Managing-your-orders",
+          "traffic": 38,
+          "kw": 3
+        },
+        {
+          "url": "https://patient.alternaleaf.com.au/",
+          "traffic": 35,
+          "kw": 28
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "total_kw": 1128,
+      "total_traffic": 2447,
+      "efficiency": 2.17,
+      "top1_count": 61,
+      "sub_clusters": [
+        {
+          "label": "National / \"Australia\"",
+          "kw": 330,
+          "traffic": 1002,
+          "examples": []
+        },
+        {
+          "label": "Other",
+          "kw": 252,
+          "traffic": 505,
+          "examples": []
+        },
+        {
+          "label": "Melbourne / VIC",
+          "kw": 133,
+          "traffic": 421,
+          "examples": []
+        },
+        {
+          "label": "Brisbane / QLD",
+          "kw": 131,
+          "traffic": 198,
+          "examples": []
+        },
+        {
+          "label": "Sydney / NSW",
+          "kw": 74,
+          "traffic": 234,
+          "examples": []
+        },
+        {
+          "label": "Perth / WA",
+          "kw": 74,
+          "traffic": 9,
+          "examples": []
+        },
+        {
+          "label": "\"near me\"",
+          "kw": 49,
+          "traffic": 52,
+          "examples": []
+        },
+        {
+          "label": "Adelaide / SA",
+          "kw": 32,
+          "traffic": 17,
+          "examples": []
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 2014,
+          "kw": 961
+        },
+        {
+          "url": "https://patient.alternaleaf.com.au/",
+          "traffic": 280,
+          "kw": 35
+        },
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/sections/27145357404697-Patient-portal",
+          "traffic": 90,
+          "kw": 3
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "total_kw": 663,
+      "total_traffic": 1361,
+      "efficiency": 2.05,
+      "top1_count": 90,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 504,
+          "traffic": 713,
+          "examples": [
+            {
+              "kw": "marijuanas prescription",
+              "pos": 3,
+              "traffic": 38
+            },
+            {
+              "kw": "cannabis scripts",
+              "pos": 1,
+              "traffic": 34
+            }
+          ]
+        },
+        {
+          "label": "Medical Cannabis",
+          "kw": 33,
+          "traffic": 273,
+          "examples": [
+            {
+              "kw": "medical cannabis prescription",
+              "pos": 2,
+              "traffic": 77
+            },
+            {
+              "kw": "medical cannabis consultation",
+              "pos": 1,
+              "traffic": 27
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Prescription",
+          "kw": 23,
+          "traffic": 189,
+          "examples": [
+            {
+              "kw": "online cannabis prescription",
+              "pos": 1,
+              "traffic": 52
+            },
+            {
+              "kw": "cannabis prescription online",
+              "pos": 1,
+              "traffic": 34
+            }
+          ]
+        },
+        {
+          "label": "Weed Prescription",
+          "kw": 20,
+          "traffic": 121,
+          "examples": [
+            {
+              "kw": "weed prescription online",
+              "pos": 1,
+              "traffic": 52
+            },
+            {
+              "kw": "weed prescription australia",
+              "pos": 1,
+              "traffic": 18
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Clinic",
+          "kw": 24,
+          "traffic": 49,
+          "examples": [
+            {
+              "kw": "cannabis clinic australia",
+              "pos": 3,
+              "traffic": 9
+            },
+            {
+              "kw": "cannabis clinic melbourne",
+              "pos": 1,
+              "traffic": 9
+            }
+          ]
+        },
+        {
+          "label": "Prescription Australia",
+          "kw": 11,
+          "traffic": 16,
+          "examples": [
+            {
+              "kw": "medical marijuana prescription australia",
+              "pos": 1,
+              "traffic": 9
+            },
+            {
+              "kw": "how to get cbd oil prescription australia",
+              "pos": 1,
+              "traffic": 4
+            }
+          ]
+        },
+        {
+          "label": "Bulk Bill",
+          "kw": 48,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "bulk billed telehealth brisbane",
+              "pos": 96,
+              "traffic": 0
+            },
+            {
+              "kw": "bulk billed telehealth doctors",
+              "pos": 72,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 1360,
+          "kw": 585
+        },
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10870512848399-Understanding-prescriptions",
+          "traffic": 1,
+          "kw": 4
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/pricing",
+          "traffic": 0,
+          "kw": 10
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "total_kw": 74,
+      "total_traffic": 470,
+      "efficiency": 6.35,
+      "top1_count": 3,
+      "sub_clusters": [
+        {
+          "label": "Thealite Contact",
+          "kw": 3,
+          "traffic": 370,
+          "examples": [
+            {
+              "kw": "thealite contact us",
+              "pos": 3,
+              "traffic": 290
+            },
+            {
+              "kw": "thealite contact us",
+              "pos": 6,
+              "traffic": 79
+            }
+          ]
+        },
+        {
+          "label": "Phone Number",
+          "kw": 14,
+          "traffic": 47,
+          "examples": [
+            {
+              "kw": "montu phone number",
+              "pos": 1,
+              "traffic": 34
+            },
+            {
+              "kw": "montu phone number",
+              "pos": 1,
+              "traffic": 9
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 34,
+          "traffic": 36,
+          "examples": [
+            {
+              "kw": "can i help",
+              "pos": 9,
+              "traffic": 24
+            },
+            {
+              "kw": "can i help dispensary",
+              "pos": 6,
+              "traffic": 7
+            }
+          ]
+        },
+        {
+          "label": "Contact Number",
+          "kw": 6,
+          "traffic": 17,
+          "examples": [
+            {
+              "kw": "montu contact number",
+              "pos": 2,
+              "traffic": 11
+            },
+            {
+              "kw": "montu contact number",
+              "pos": 2,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "After Hours",
+          "kw": 14,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "after hours doctors brisbane",
+              "pos": 55,
+              "traffic": 0
+            },
+            {
+              "kw": "after hours dr brisbane",
+              "pos": 54,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Doctor Australia",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "telephone doctor australia",
+              "pos": 60,
+              "traffic": 0
+            },
+            {
+              "kw": "telephone doctor australia",
+              "pos": 75,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.alternaleaf.com.au/contact-us",
+          "traffic": 335,
+          "kw": 8
+        },
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf",
+          "traffic": 97,
+          "kw": 9
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 36,
+          "kw": 45
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "total_kw": 140,
+      "total_traffic": 174,
+      "efficiency": 1.24,
+      "top1_count": 12,
+      "sub_clusters": [
+        {
+          "label": "Medical Marijuanas",
+          "kw": 40,
+          "traffic": 130,
+          "examples": [
+            {
+              "kw": "how to get medical marijuanas card qld free",
+              "pos": 1,
+              "traffic": 35
+            },
+            {
+              "kw": "medical marijuanas perth cost",
+              "pos": 2,
+              "traffic": 26
+            }
+          ]
+        },
+        {
+          "label": "Cheapest Medical",
+          "kw": 5,
+          "traffic": 23,
+          "examples": [
+            {
+              "kw": "cheapest medical cannabis australia",
+              "pos": 3,
+              "traffic": 17
+            },
+            {
+              "kw": "cheapest medical cannabis australia",
+              "pos": 1,
+              "traffic": 3
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 68,
+          "traffic": 10,
+          "examples": [
+            {
+              "kw": "free consultation medical weed",
+              "pos": 1,
+              "traffic": 5
+            },
+            {
+              "kw": "medicinal cannabis price",
+              "pos": 6,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "Medical Cannabis",
+          "kw": 7,
+          "traffic": 6,
+          "examples": [
+            {
+              "kw": "free medical cannabis consultation",
+              "pos": 4,
+              "traffic": 5
+            },
+            {
+              "kw": "medical cannabis cost",
+              "pos": 4,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Discount Code",
+          "kw": 20,
+          "traffic": 5,
+          "examples": [
+            {
+              "kw": "montu discount code",
+              "pos": 3,
+              "traffic": 4
+            },
+            {
+              "kw": "umeds discount code",
+              "pos": 3,
+              "traffic": 1
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.alternaleaf.com.au/pricing",
+          "traffic": 97,
+          "kw": 35
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 37,
+          "kw": 78
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/concession-program",
+          "traffic": 35,
+          "kw": 6
+        }
+      ]
+    },
+    {
+      "name": "Product / Strain",
+      "total_kw": 137,
+      "total_traffic": 76,
+      "efficiency": 0.55,
+      "top1_count": 4,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 106,
+          "traffic": 62,
+          "examples": [
+            {
+              "kw": "online thc",
+              "pos": 3,
+              "traffic": 39
+            },
+            {
+              "kw": "med thc",
+              "pos": 2,
+              "traffic": 13
+            }
+          ]
+        },
+        {
+          "label": "Medical Thc",
+          "kw": 5,
+          "traffic": 10,
+          "examples": [
+            {
+              "kw": "medical thc",
+              "pos": 3,
+              "traffic": 7
+            },
+            {
+              "kw": "medical thc card",
+              "pos": 4,
+              "traffic": 3
+            }
+          ]
+        },
+        {
+          "label": "Cbd Oil",
+          "kw": 9,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "medicinal cbd oil",
+              "pos": 4,
+              "traffic": 2
+            },
+            {
+              "kw": "cbd oil where to buy",
+              "pos": 39,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medicinal Cbd",
+          "kw": 2,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "medicinal cbd",
+              "pos": 1,
+              "traffic": 2
+            },
+            {
+              "kw": "medicinal cbd",
+              "pos": 6,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Weed",
+          "kw": 5,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "medical weed oil",
+              "pos": 18,
+              "traffic": 0
+            },
+            {
+              "kw": "medical weed vape",
+              "pos": 16,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Hash Oil",
+          "kw": 5,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "hash oil",
+              "pos": 85,
+              "traffic": 0
+            },
+            {
+              "kw": "hash oil",
+              "pos": 88,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Thc Gummies",
+          "kw": 5,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to make thc gummies with oil",
+              "pos": 81,
+              "traffic": 0
+            },
+            {
+              "kw": "thc gummies aus",
+              "pos": 23,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 76,
+          "kw": 135
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/hub/avoiding-muscle-strain-at-gym",
+          "traffic": 0,
+          "kw": 2
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "total_kw": 80,
+      "total_traffic": 22,
+      "efficiency": 0.28,
+      "top1_count": 1,
+      "sub_clusters": [
+        {
+          "label": "Get Medical",
+          "kw": 12,
+          "traffic": 10,
+          "examples": [
+            {
+              "kw": "how to get medical cannabis",
+              "pos": 3,
+              "traffic": 4
+            },
+            {
+              "kw": "how to get medical mar",
+              "pos": 1,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 40,
+          "traffic": 6,
+          "examples": [
+            {
+              "kw": "special access scheme tga",
+              "pos": 17,
+              "traffic": 1
+            },
+            {
+              "kw": "special access scheme tga",
+              "pos": 21,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Get Prescribed",
+          "kw": 5,
+          "traffic": 3,
+          "examples": [
+            {
+              "kw": "how to get prescribed cannabinoids",
+              "pos": 6,
+              "traffic": 3
+            },
+            {
+              "kw": "how to get prescribed cannabinoids",
+              "pos": 78,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Marijuanas",
+          "kw": 6,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "how to apply for medical marijuanas",
+              "pos": 6,
+              "traffic": 2
+            },
+            {
+              "kw": "how to get a medical marijuanas card",
+              "pos": 13,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Get Energy",
+          "kw": 5,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "how to get energy quick",
+              "pos": 7,
+              "traffic": 1
+            },
+            {
+              "kw": "how to get energy",
+              "pos": 21,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Weed",
+          "kw": 6,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to get a medical weed card",
+              "pos": 10,
+              "traffic": 0
+            },
+            {
+              "kw": "how to get a medical weed card",
+              "pos": 53,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Card",
+          "kw": 6,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to get weed medical card",
+              "pos": 17,
+              "traffic": 0
+            },
+            {
+              "kw": "how to get weed medical card",
+              "pos": 47,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 15,
+          "kw": 42
+        },
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10869651355023-Regulations-and-approvals",
+          "traffic": 4,
+          "kw": 9
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/hub/boost-energy-levels-naturally",
+          "traffic": 2,
+          "kw": 10
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "total_kw": 30,
+      "total_traffic": 18,
+      "efficiency": 0.6,
+      "top1_count": 1,
+      "sub_clusters": [
+        {
+          "label": "Doctors Reviews",
+          "kw": 3,
+          "traffic": 14,
+          "examples": [
+            {
+              "kw": "leaf doctors reviews",
+              "pos": 1,
+              "traffic": 8
+            },
+            {
+              "kw": "leaf doctors reviews",
+              "pos": 5,
+              "traffic": 6
+            }
+          ]
+        },
+        {
+          "label": "Clinic Reviews",
+          "kw": 2,
+          "traffic": 3,
+          "examples": [
+            {
+              "kw": "dispensed natural therapy clinic reviews",
+              "pos": 2,
+              "traffic": 3
+            },
+            {
+              "kw": "cannalink clinic reviews",
+              "pos": 16,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 15,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "leaf doctors review",
+              "pos": 9,
+              "traffic": 1
+            },
+            {
+              "kw": "plntd reviews",
+              "pos": 14,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Australia Reviews",
+          "kw": 6,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "online weight loss prescription australia reviews",
+              "pos": 72,
+              "traffic": 0
+            },
+            {
+              "kw": "doctors on demand australia reviews",
+              "pos": 56,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Hub Reviews",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "sydney vapes hub reviews",
+              "pos": 33,
+              "traffic": 0
+            },
+            {
+              "kw": "women's health hub reviews",
+              "pos": 65,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Demand Reviews",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "dr on demand reviews",
+              "pos": 74,
+              "traffic": 0
+            },
+            {
+              "kw": "doctor on demand reviews",
+              "pos": 79,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10831241604367-How-consultations-work",
+          "traffic": 8,
+          "kw": 1
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/reviews",
+          "traffic": 7,
+          "kw": 8
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 3,
+          "kw": 21
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "total_kw": 84,
+      "total_traffic": 10,
+      "efficiency": 0.12,
+      "top1_count": 2,
+      "sub_clusters": [
+        {
+          "label": "Energy Levels",
+          "kw": 5,
+          "traffic": 5,
+          "examples": [
+            {
+              "kw": "how to boost energy levels",
+              "pos": 8,
+              "traffic": 2
+            },
+            {
+              "kw": "how to increase energy levels",
+              "pos": 7,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 52,
+          "traffic": 4,
+          "examples": [
+            {
+              "kw": "cannabis card benefits",
+              "pos": 3,
+              "traffic": 3
+            },
+            {
+              "kw": "how to boost energy",
+              "pos": 9,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Medical Marijuanas",
+          "kw": 5,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "how to sign up for medical marijuanas",
+              "pos": 5,
+              "traffic": 1
+            },
+            {
+              "kw": "how to sign up for medical marijuanas",
+              "pos": 1,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Sore Muscles",
+          "kw": 12,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to relieve sore muscles fast",
+              "pos": 45,
+              "traffic": 0
+            },
+            {
+              "kw": "how to cure sore muscles",
+              "pos": 74,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Emotional Health",
+          "kw": 4,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "what is the emotional health",
+              "pos": 30,
+              "traffic": 0
+            },
+            {
+              "kw": "what is an emotional health",
+              "pos": 29,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Muscle Ache",
+          "kw": 6,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to ease muscle aches",
+              "pos": 58,
+              "traffic": 0
+            },
+            {
+              "kw": "how to reduce muscle ache",
+              "pos": 33,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.alternaleaf.com.au/hub/boost-energy-levels-naturally",
+          "traffic": 6,
+          "kw": 14
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/concessions",
+          "traffic": 3,
+          "kw": 1
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 1,
+          "kw": 18
+        }
+      ]
+    },
+    {
+      "name": "Conditions",
+      "total_kw": 81,
+      "total_traffic": 6,
+      "efficiency": 0.07,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Chronic pain",
+          "kw": 53,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "what relieves muscle pain",
+              "pos": 7,
+              "vol": 170
+            },
+            {
+              "kw": "how to avoid muscle pain",
+              "pos": 13,
+              "vol": 110
+            }
+          ]
+        },
+        {
+          "label": "Sleep / insomnia",
+          "kw": 16,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "deep sleep",
+              "pos": 16,
+              "vol": 1300
+            },
+            {
+              "kw": "deep sleep",
+              "pos": 19,
+              "vol": 1300
+            }
+          ]
+        },
+        {
+          "label": "Anxiety",
+          "kw": 7,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "anxiety gummy",
+              "pos": 44,
+              "vol": 50
+            },
+            {
+              "kw": "cbd gummies for anxiety",
+              "pos": 64,
+              "vol": 50
+            }
+          ]
+        },
+        {
+          "label": "Depression",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "pot for depression",
+              "pos": 48,
+              "vol": 110
+            },
+            {
+              "kw": "st t depression",
+              "pos": 78,
+              "vol": 720
+            }
+          ]
+        },
+        {
+          "label": "ADHD",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "adhd medical weed",
+              "pos": 99,
+              "vol": 50
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.alternaleaf.com.au/hub/mouth-breathing-for-better-sleep",
+          "traffic": 3,
+          "kw": 2
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/hub/deep-sleep-meditation-restful-sleep",
+          "traffic": 2,
+          "kw": 4
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/hub/natural-ways-to-relieve-muscle-pain",
+          "traffic": 1,
+          "kw": 49
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "total_kw": 17,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Acacia Medical",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "acacia medical weed",
+              "pos": 21,
+              "traffic": 0
+            },
+            {
+              "kw": "acacia medical cannabis",
+              "pos": 28,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Weed",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "candor medical weed",
+              "pos": 24,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Candor Medical",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "candor medical",
+              "pos": 45,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Honahlee Catalyst",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "honahlee catalyst",
+              "pos": 19,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Releaf Group",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "releaf group",
+              "pos": 23,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 10,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "dispensed au",
+              "pos": 27,
+              "traffic": 0
+            },
+            {
+              "kw": "honahlee",
+              "pos": 33,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 0,
+          "kw": 13
+        },
+        {
+          "url": "https://patient.alternaleaf.com.au/",
+          "traffic": 0,
+          "kw": 2
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/about-us",
+          "traffic": 0,
+          "kw": 2
+        }
+      ]
+    }
+  ],
+  "content_clusters": [
+    {
+      "name": "Homepage",
+      "pages": 1,
+      "traffic": 51171,
+      "kw": 2542,
+      "examples": [
+        {
+          "url": "https://www.alternaleaf.com.au/",
+          "traffic": 51171,
+          "kw": 2542,
+          "top_kw": "alternaleaf",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "Patient portal",
+      "pages": 9,
+      "traffic": 21352,
+      "kw": 195,
+      "examples": [
+        {
+          "url": "https://patient.alternaleaf.com.au/",
+          "traffic": 21303,
+          "kw": 172,
+          "top_kw": "montu login",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://patient.alternaleaf.com.au/patient/refill",
+          "traffic": 42,
+          "kw": 12,
+          "top_kw": "umeds",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://patient.alternaleaf.com.au/forgot-password",
+          "traffic": 7,
+          "kw": 2,
+          "top_kw": "montu login",
+          "intent": "Transactional, Navigational"
+        },
+        {
+          "url": "https://patient.alternaleaf.com.au/login/patient",
+          "traffic": 0,
+          "kw": 2,
+          "top_kw": "montu app",
+          "intent": "Commercial"
+        }
+      ]
+    },
+    {
+      "name": "Support / help centre",
+      "pages": 30,
+      "traffic": 4366,
+      "kw": 726,
+      "examples": [
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf",
+          "traffic": 2103,
+          "kw": 50,
+          "top_kw": "alternaleaf phone number",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10870563222287-Medication",
+          "traffic": 896,
+          "kw": 71,
+          "top_kw": "alternaleaf product list",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/sections/27145357404697-Patient-portal",
+          "traffic": 773,
+          "kw": 38,
+          "top_kw": "montu login",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10869651355023-Regulations-and-approvals",
+          "traffic": 105,
+          "kw": 75,
+          "top_kw": "alternaleaf reviews",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "Contact / about",
+      "pages": 6,
+      "traffic": 770,
+      "kw": 313,
+      "examples": [
+        {
+          "url": "https://www.alternaleaf.com.au/contact-us",
+          "traffic": 706,
+          "kw": 60,
+          "top_kw": "thealite contact us",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/faq",
+          "traffic": 28,
+          "kw": 59,
+          "top_kw": "alternaleaf phone number",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/doctors",
+          "traffic": 19,
+          "kw": 31,
+          "top_kw": "alternaleaf",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/process",
+          "traffic": 13,
+          "kw": 107,
+          "top_kw": "what is alternaleaf",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "Pricing & promos",
+      "pages": 14,
+      "traffic": 444,
+      "kw": 287,
+      "examples": [
+        {
+          "url": "https://www.alternaleaf.com.au/pricing",
+          "traffic": 235,
+          "kw": 121,
+          "top_kw": "alternaleaf product price list",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/promotion-terms",
+          "traffic": 94,
+          "kw": 33,
+          "top_kw": "alternaleaf discount code",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/terms/montu40-terms",
+          "traffic": 43,
+          "kw": 16,
+          "top_kw": "alternaleaf discount code",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/concession-program",
+          "traffic": 41,
+          "kw": 48,
+          "top_kw": "how to get medical marijuanas card qld free",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "pages": 1,
+      "traffic": 317,
+      "kw": 31,
+      "examples": [
+        {
+          "url": "https://www.alternaleaf.com.au/reviews",
+          "traffic": 317,
+          "kw": 31,
+          "top_kw": "alternaleaf reviews",
+          "intent": "Commercial"
+        }
+      ]
+    },
+    {
+      "name": "Wellness hub (/hub/)",
+      "pages": 21,
+      "traffic": 82,
+      "kw": 315,
+      "examples": [
+        {
+          "url": "https://www.alternaleaf.com.au/hub/boost-energy-levels-naturally",
+          "traffic": 41,
+          "kw": 53,
+          "top_kw": "how can i get energy",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/hub/hot-or-cold-shower-before-bed",
+          "traffic": 15,
+          "kw": 8,
+          "top_kw": "a hot shower",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/hub/managing-pain-acupressure-reflexology",
+          "traffic": 12,
+          "kw": 21,
+          "top_kw": "hand pressure points",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/hub/digital-dopamine-detox",
+          "traffic": 7,
+          "kw": 4,
+          "top_kw": "dopamine detox",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "Other www pages",
+      "pages": 24,
+      "traffic": 17,
+      "kw": 127,
+      "examples": [
+        {
+          "url": "https://pms.alternaleaf.com.au/",
+          "traffic": 8,
+          "kw": 11,
+          "top_kw": "alternaleaf log in",
+          "intent": "Transactional, Navigational"
+        },
+        {
+          "url": "https://bookings.alternaleaf.com.au/apps/installed/messaging",
+          "traffic": 6,
+          "kw": 4,
+          "top_kw": "https cal com login",
+          "intent": "Transactional, Navigational"
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/referral",
+          "traffic": 2,
+          "kw": 29,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://www.alternaleaf.com.au/media",
+          "traffic": 1,
+          "kw": 10,
+          "top_kw": "alterna",
+          "intent": "Commercial"
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "National / \"Australia\"",
+      "kw": 330,
+      "traffic": 1002
+    },
+    {
+      "name": "Other",
+      "kw": 252,
+      "traffic": 505
+    },
+    {
+      "name": "Melbourne / VIC",
+      "kw": 133,
+      "traffic": 421
+    },
+    {
+      "name": "Brisbane / QLD",
+      "kw": 131,
+      "traffic": 198
+    },
+    {
+      "name": "Sydney / NSW",
+      "kw": 74,
+      "traffic": 234
+    },
+    {
+      "name": "Perth / WA",
+      "kw": 74,
+      "traffic": 9
+    },
+    {
+      "name": "\"near me\"",
+      "kw": 49,
+      "traffic": 52
+    },
+    {
+      "name": "Adelaide / SA",
+      "kw": 32,
+      "traffic": 17
+    },
+    {
+      "name": "Canberra / ACT",
+      "kw": 31,
+      "traffic": 1
+    },
+    {
+      "name": "Tasmania",
+      "kw": 16,
+      "traffic": 8
+    },
+    {
+      "name": "Darwin / NT",
+      "kw": 6,
+      "traffic": 0
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Chronic pain",
+      "kw": 53,
+      "traffic": 1,
+      "examples": [
+        {
+          "kw": "what relieves muscle pain",
+          "pos": 7,
+          "vol": 170
+        },
+        {
+          "kw": "how to avoid muscle pain",
+          "pos": 13,
+          "vol": 110
+        }
+      ]
+    },
+    {
+      "name": "Sleep / insomnia",
+      "kw": 16,
+      "traffic": 2,
+      "examples": [
+        {
+          "kw": "deep sleep",
+          "pos": 16,
+          "vol": 1300
+        },
+        {
+          "kw": "deep sleep",
+          "pos": 19,
+          "vol": 1300
+        }
+      ]
+    },
+    {
+      "name": "Anxiety",
+      "kw": 7,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "anxiety gummy",
+          "pos": 44,
+          "vol": 50
+        },
+        {
+          "kw": "cbd gummies for anxiety",
+          "pos": 64,
+          "vol": 50
+        }
+      ]
+    },
+    {
+      "name": "Depression",
+      "kw": 2,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "pot for depression",
+          "pos": 48,
+          "vol": 110
+        },
+        {
+          "kw": "st t depression",
+          "pos": 78,
+          "vol": 720
+        }
+      ]
+    },
+    {
+      "name": "ADHD",
+      "kw": 1,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "adhd medical weed",
+          "pos": 99,
+          "vol": 50
+        }
+      ]
+    }
+  ],
+  "position_distribution": [
+    {
+      "label": "#1",
+      "kw": 390,
+      "traffic": 70461
+    },
+    {
+      "label": "#2\u20133",
+      "kw": 313,
+      "traffic": 3862
+    },
+    {
+      "label": "#4\u201310",
+      "kw": 544,
+      "traffic": 4021
+    },
+    {
+      "label": "#11\u201320",
+      "kw": 452,
+      "traffic": 142
+    },
+    {
+      "label": "#21\u201350",
+      "kw": 1240,
+      "traffic": 33
+    },
+    {
+      "label": "#51\u2013100",
+      "kw": 1597,
+      "traffic": 0
+    }
+  ],
+  "intents": [
+    {
+      "name": "Navigational",
+      "kw": 1125,
+      "traffic": 67988
+    },
+    {
+      "name": "Informational",
+      "kw": 2462,
+      "traffic": 8261
+    },
+    {
+      "name": "Commercial",
+      "kw": 772,
+      "traffic": 1987
+    },
+    {
+      "name": "Transactional",
+      "kw": 177,
+      "traffic": 283
+    }
+  ],
+  "top_pages": [
+    {
+      "url": "https://www.alternaleaf.com.au/",
+      "traffic": 51171.0,
+      "kw": 2542,
+      "traffic_pct": 65.17,
+      "intent": "Informational",
+      "top_kw": "alternaleaf"
+    },
+    {
+      "url": "https://patient.alternaleaf.com.au/",
+      "traffic": 21303.0,
+      "kw": 172,
+      "traffic_pct": 27.13,
+      "intent": "Navigational",
+      "top_kw": "montu login"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf",
+      "traffic": 2103.0,
+      "kw": 50,
+      "traffic_pct": 2.67,
+      "intent": "Navigational",
+      "top_kw": "alternaleaf phone number"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10870563222287-Medication",
+      "traffic": 896.0,
+      "kw": 71,
+      "traffic_pct": 1.14,
+      "intent": "Informational",
+      "top_kw": "alternaleaf product list"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/sections/27145357404697-Patient-portal",
+      "traffic": 773.0,
+      "kw": 38,
+      "traffic_pct": 0.98,
+      "intent": "Navigational",
+      "top_kw": "montu login"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/contact-us",
+      "traffic": 706.0,
+      "kw": 60,
+      "traffic_pct": 0.89,
+      "intent": "Navigational",
+      "top_kw": "thealite contact us"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/reviews",
+      "traffic": 317.0,
+      "kw": 31,
+      "traffic_pct": 0.4,
+      "intent": "Commercial",
+      "top_kw": "alternaleaf reviews"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/pricing",
+      "traffic": 235.0,
+      "kw": 121,
+      "traffic_pct": 0.29,
+      "intent": "Informational",
+      "top_kw": "alternaleaf product price list"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10869651355023-Regulations-and-approvals",
+      "traffic": 105.0,
+      "kw": 75,
+      "traffic_pct": 0.13,
+      "intent": "Informational",
+      "top_kw": "alternaleaf reviews"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/promotion-terms",
+      "traffic": 94.0,
+      "kw": 33,
+      "traffic_pct": 0.11,
+      "intent": "Informational",
+      "top_kw": "alternaleaf discount code"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10869841424399-Your-patient-portal-explained",
+      "traffic": 79.0,
+      "kw": 30,
+      "traffic_pct": 0.1,
+      "intent": "Navigational",
+      "top_kw": "alternaleaf login"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10869733610639-Technical-support",
+      "traffic": 64.0,
+      "kw": 29,
+      "traffic_pct": 0.08,
+      "intent": "Navigational",
+      "top_kw": "alternaleaf login"
+    }
+  ],
+  "top_winners": [
+    {
+      "url": "https://www.alternaleaf.com.au/",
+      "traffic": 51171.0,
+      "kw": 2542,
+      "traffic_pct": 65.17,
+      "intent": "Informational",
+      "top_kw": "alternaleaf"
+    },
+    {
+      "url": "https://patient.alternaleaf.com.au/",
+      "traffic": 21303.0,
+      "kw": 172,
+      "traffic_pct": 27.13,
+      "intent": "Navigational",
+      "top_kw": "montu login"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf",
+      "traffic": 2103.0,
+      "kw": 50,
+      "traffic_pct": 2.67,
+      "intent": "Navigational",
+      "top_kw": "alternaleaf phone number"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10870563222287-Medication",
+      "traffic": 896.0,
+      "kw": 71,
+      "traffic_pct": 1.14,
+      "intent": "Informational",
+      "top_kw": "alternaleaf product list"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/sections/27145357404697-Patient-portal",
+      "traffic": 773.0,
+      "kw": 38,
+      "traffic_pct": 0.98,
+      "intent": "Navigational",
+      "top_kw": "montu login"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/contact-us",
+      "traffic": 706.0,
+      "kw": 60,
+      "traffic_pct": 0.89,
+      "intent": "Navigational",
+      "top_kw": "thealite contact us"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/reviews",
+      "traffic": 317.0,
+      "kw": 31,
+      "traffic_pct": 0.4,
+      "intent": "Commercial",
+      "top_kw": "alternaleaf reviews"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/pricing",
+      "traffic": 235.0,
+      "kw": 121,
+      "traffic_pct": 0.29,
+      "intent": "Informational",
+      "top_kw": "alternaleaf product price list"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10869651355023-Regulations-and-approvals",
+      "traffic": 105.0,
+      "kw": 75,
+      "traffic_pct": 0.13,
+      "intent": "Informational",
+      "top_kw": "alternaleaf reviews"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/promotion-terms",
+      "traffic": 94.0,
+      "kw": 33,
+      "traffic_pct": 0.11,
+      "intent": "Informational",
+      "top_kw": "alternaleaf discount code"
+    }
+  ],
+  "top_losers": [
+    {
+      "url": "https://www.alternaleaf.com.au/hub/natural-ways-to-relieve-muscle-pain",
+      "traffic": 1.0,
+      "kw": 125,
+      "traffic_pct": 0.0,
+      "intent": "Informational",
+      "top_kw": "what relieves muscle pain"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/about-us",
+      "traffic": 4.0,
+      "kw": 56,
+      "traffic_pct": 0.0,
+      "intent": "Informational",
+      "top_kw": "what is alternaleaf"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10870364236047-Order-payments",
+      "traffic": 0.0,
+      "kw": 36,
+      "traffic_pct": 0.0,
+      "intent": "Transactional, Navigational",
+      "top_kw": "alternaleaf montu login"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/hub/emotional-benefits-of-physical-activity",
+      "traffic": 0.0,
+      "kw": 30,
+      "traffic_pct": 0.0,
+      "intent": "Informational",
+      "top_kw": "benefits of exercise emotional"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/referral",
+      "traffic": 2.0,
+      "kw": 29,
+      "traffic_pct": 0.0,
+      "intent": "",
+      "top_kw": ""
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/hub/importance-of-emotional-health",
+      "traffic": 1.0,
+      "kw": 28,
+      "traffic_pct": 0.0,
+      "intent": "Informational",
+      "top_kw": "emotional in health"
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10870696872463-Delivery-process",
+      "traffic": 0.0,
+      "kw": 17,
+      "traffic_pct": 0.0,
+      "intent": "Navigational, Informational",
+      "top_kw": "alternaleaf prices"
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/terms-of-service",
+      "traffic": 0.0,
+      "kw": 17,
+      "traffic_pct": 0.0,
+      "intent": "",
+      "top_kw": ""
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/privacy",
+      "traffic": 0.0,
+      "kw": 17,
+      "traffic_pct": 0.0,
+      "intent": "",
+      "top_kw": ""
+    },
+    {
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10831470544143-Managing-consultations",
+      "traffic": 0.0,
+      "kw": 15,
+      "traffic_pct": 0.0,
+      "intent": "",
+      "top_kw": ""
+    }
+  ],
+  "subdomains": [
+    {
+      "name": "www",
+      "traffic": 52801,
+      "pages": 66
+    },
+    {
+      "name": "patient",
+      "traffic": 21352,
+      "pages": 10
+    },
+    {
+      "name": "support",
+      "traffic": 4366,
+      "pages": 30
+    }
+  ],
+  "top_keywords": [
+    {
+      "kw": "alternaleaf",
+      "pos": 1,
+      "vol": 49500,
+      "kd": 41.0,
+      "cpc": 47.48,
+      "traffic": 39600.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, Video, People also ask, Related searches, Ads middle",
+      "topic": "Brand"
+    },
+    {
+      "kw": "montu login",
+      "pos": 1,
+      "vol": 12100,
+      "kd": 26.0,
+      "cpc": 3.75,
+      "traffic": 9680.0,
+      "url": "https://patient.alternaleaf.com.au/",
+      "intents": "navigational, transactional",
+      "serp": "Sitelinks, Related searches",
+      "topic": "Login / Portal"
+    },
+    {
+      "kw": "alternaleaf login",
+      "pos": 1,
+      "vol": 8100,
+      "kd": 25.0,
+      "cpc": 7.79,
+      "traffic": 6480.0,
+      "url": "https://patient.alternaleaf.com.au/",
+      "intents": "navigational, transactional",
+      "serp": "Sitelinks, Video, Ads top, Ads bottom, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "alternaleaf",
+      "pos": 10,
+      "vol": 49500,
+      "kd": 41.0,
+      "cpc": 47.48,
+      "traffic": 1574.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, Video, People also ask, Related searches, Ads middle",
+      "topic": "Brand"
+    },
+    {
+      "kw": "alternaleaf patient portal",
+      "pos": 1,
+      "vol": 1900,
+      "kd": 26.0,
+      "cpc": 13.84,
+      "traffic": 1520.0,
+      "url": "https://patient.alternaleaf.com.au/",
+      "intents": "navigational",
+      "serp": "Sitelinks, Video, Ads top, Ads bottom, People also ask, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "alternaleaf phone number",
+      "pos": 1,
+      "vol": 1000,
+      "kd": 29.0,
+      "cpc": 28.67,
+      "traffic": 800.0,
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf",
+      "intents": "informational",
+      "serp": "Knowledge panel, Featured snippet, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "alterleaf",
+      "pos": 1,
+      "vol": 720,
+      "kd": 41.0,
+      "cpc": 43.9,
+      "traffic": 576.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "navigational, transactional",
+      "serp": "Knowledge panel, Sitelinks, Video, Image, Ads bottom, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "alternaleaf log in",
+      "pos": 1,
+      "vol": 590,
+      "kd": 21.0,
+      "cpc": 7.79,
+      "traffic": 472.0,
+      "url": "https://patient.alternaleaf.com.au/",
+      "intents": "navigational, transactional",
+      "serp": "Video, Ads bottom, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "alternleaf",
+      "pos": 1,
+      "vol": 590,
+      "kd": 25.0,
+      "cpc": 43.9,
+      "traffic": 472.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, Video, Ads bottom, People also ask, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "alternaleaf portal",
+      "pos": 1,
+      "vol": 590,
+      "kd": 15.0,
+      "cpc": 7.87,
+      "traffic": 472.0,
+      "url": "https://patient.alternaleaf.com.au/",
+      "intents": "navigational, transactional",
+      "serp": "Sitelinks, Video, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "alternalead",
+      "pos": 1,
+      "vol": 590,
+      "kd": 27.0,
+      "cpc": 43.9,
+      "traffic": 472.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, Video, Ads bottom, People also ask, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "alterna leaf",
+      "pos": 1,
+      "vol": 480,
+      "kd": 24.0,
+      "cpc": 43.9,
+      "traffic": 384.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, Video, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "montu patient portal",
+      "pos": 1,
+      "vol": 1300,
+      "kd": 8.0,
+      "cpc": 0.0,
+      "traffic": 322.0,
+      "url": "https://patient.alternaleaf.com.au/",
+      "intents": "navigational",
+      "serp": "Video, Related searches",
+      "topic": "Login / Portal"
+    },
+    {
+      "kw": "alternaleaf contact",
+      "pos": 1,
+      "vol": 390,
+      "kd": 29.0,
+      "cpc": 11.91,
+      "traffic": 312.0,
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/34017993658905-Contact-Alternaleaf",
+      "intents": "informational, navigational",
+      "serp": "Knowledge panel, Video, Featured snippet, Ads bottom, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "alternaleaf product list",
+      "pos": 1,
+      "vol": 390,
+      "kd": 24.0,
+      "cpc": 28.11,
+      "traffic": 312.0,
+      "url": "https://support.alternaleaf.com.au/hc/en-au/articles/10870563222287-Medication",
+      "intents": "informational, transactional",
+      "serp": "Image pack, Sitelinks, Ads bottom, People also ask, Related searches",
+      "topic": "Brand"
+    }
+  ],
+  "nonbrand_keywords": [
+    {
+      "kw": "thealite contact us",
+      "pos": 3,
+      "vol": 6600,
+      "kd": 8.0,
+      "cpc": 0.0,
+      "traffic": 290.0,
+      "url": "https://www.alternaleaf.com.au/contact-us",
+      "intents": "informational",
+      "serp": "People also ask, Related searches, AI overview",
+      "topic": "Contact / Support"
+    },
+    {
+      "kw": "alteraleaf",
+      "pos": 1,
+      "vol": 260,
+      "kd": 29.0,
+      "cpc": 43.9,
+      "traffic": 208.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "navigational, transactional",
+      "serp": "Knowledge panel, Sitelinks, Video, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "medical cannabis",
+      "pos": 1,
+      "vol": 2400,
+      "kd": 63.0,
+      "cpc": 0.0,
+      "traffic": 196.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "informational",
+      "serp": "Video, Video Carousel, People also ask, Related searches, AI overview",
+      "topic": "Other"
+    },
+    {
+      "kw": "alrernaleaf",
+      "pos": 1,
+      "vol": 210,
+      "kd": 31.0,
+      "cpc": 0.0,
+      "traffic": 168.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "navigational, transactional",
+      "serp": "Knowledge panel, Sitelinks, Video, Image, Ads top, Ads bottom, Video Carousel, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "alterneaf",
+      "pos": 1,
+      "vol": 210,
+      "kd": 34.0,
+      "cpc": 43.9,
+      "traffic": 168.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "navigational",
+      "serp": "Knowledge panel, Sitelinks, Video, Ads bottom, Video Carousel, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "alternative leaf",
+      "pos": 1,
+      "vol": 210,
+      "kd": 22.0,
+      "cpc": 53.83,
+      "traffic": 168.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "navigational",
+      "serp": "Image pack, Sitelinks, Video, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "aus medical weed",
+      "pos": 2,
+      "vol": 1900,
+      "kd": 60.0,
+      "cpc": 35.16,
+      "traffic": 155.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "informational",
+      "serp": "Video, Video Carousel, People also ask, AI overview",
+      "topic": "Other"
+    },
+    {
+      "kw": "medical marijuanas australia",
+      "pos": 2,
+      "vol": 1900,
+      "kd": 70.0,
+      "cpc": 60.24,
+      "traffic": 155.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "informational",
+      "serp": "Local pack, Video, Ads bottom, Related searches, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "medical cannabis australia",
+      "pos": 2,
+      "vol": 1600,
+      "kd": 65.0,
+      "cpc": 0.0,
+      "traffic": 131.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "informational",
+      "serp": "Local pack, Video, Image, People also ask, Related searches, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "medical cann",
+      "pos": 2,
+      "vol": 1600,
+      "kd": 63.0,
+      "cpc": 47.85,
+      "traffic": 131.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "informational",
+      "serp": "Video, People also ask, Related searches, Discussions and forums, AI overview",
+      "topic": "Other"
+    },
+    {
+      "kw": "alternalesf",
+      "pos": 1,
+      "vol": 140,
+      "kd": 26.0,
+      "cpc": 43.9,
+      "traffic": 112.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "navigational, transactional",
+      "serp": "Knowledge panel, Sitelinks, Video, Image, Ads bottom, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "medical marijuana",
+      "pos": 1,
+      "vol": 1300,
+      "kd": 61.0,
+      "cpc": 0.0,
+      "traffic": 106.0,
+      "url": "https://www.alternaleaf.com.au/",
+      "intents": "informational",
+      "serp": "Local pack, Video, Video Carousel, People also ask, Related searches, AI overview",
+      "topic": "Other"
+    }
+  ],
+  "top_backlinks": [
+    {
+      "url": "https://www.alternaleaf.com.au/",
+      "title": "Alternaleaf Australia | Trusted Alternative Healthcare Services",
+      "code": "200",
+      "backlinks": 844,
+      "domains": 253
+    },
+    {
+      "url": "http://alternaleaf.com.au/",
+      "title": "",
+      "code": "301",
+      "backlinks": 200,
+      "domains": 169
+    },
+    {
+      "url": "https://alternaleaf.com.au/",
+      "title": "",
+      "code": "301",
+      "backlinks": 165,
+      "domains": 86
+    },
+    {
+      "url": "https://patient.alternaleaf.com.au/",
+      "title": "Alternaleaf Patient Portal | For A Better You",
+      "code": "200",
+      "backlinks": 126,
+      "domains": 8
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/post/medical-cannabis-in-brisbane-access-eligibility-in-qld",
+      "title": "",
+      "code": "301",
+      "backlinks": 120,
+      "domains": 17
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/post/cannabis-and-alternative-therapies-for-anxiety-a-quick-reference",
+      "title": "",
+      "code": "301",
+      "backlinks": 106,
+      "domains": 8
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/post/what-is-cannabis-oil-benefits-effects",
+      "title": "",
+      "code": "301",
+      "backlinks": 84,
+      "domains": 12
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/medical-cannabis",
+      "title": "",
+      "code": "301",
+      "backlinks": 66,
+      "domains": 46
+    },
+    {
+      "url": "https://www.alternaleaf.com.au/post/medical-cannabis-in-sydney-and-nsw",
+      "title": "",
+      "code": "301",
+      "backlinks": 49,
+      "domains": 23
+    },
+    {
+      "url": "https://patient.alternaleaf.com.au/pharmacyaccount",
+      "title": "Just a moment...",
+      "code": "403",
+      "backlinks": 36,
+      "domains": 2
+    }
+  ],
+  "backlink_groups": [
+    {
+      "name": "Homepage",
+      "backlinks": 1276,
+      "pages": 15
+    },
+    {
+      "name": "Blog / Editorial",
+      "backlinks": 496,
+      "pages": 376
+    },
+    {
+      "name": "Patient portal",
+      "backlinks": 171,
+      "pages": 7
+    },
+    {
+      "name": "Other",
+      "backlinks": 156,
+      "pages": 169
+    },
+    {
+      "name": "Hub: Medical cannabis",
+      "backlinks": 66,
+      "pages": 1
+    },
+    {
+      "name": "Support / help centre",
+      "backlinks": 15,
+      "pages": 102
+    }
+  ],
+  "backlink_hosts": [
+    {
+      "name": "AU commercial",
+      "backlinks": 2180,
+      "pages": 670
+    }
+  ],
+  "backlink_histogram": [
+    {
+      "label": "1",
+      "pages": 35,
+      "backlinks": 35
+    },
+    {
+      "label": "2\u20135",
+      "pages": 37,
+      "backlinks": 113
+    },
+    {
+      "label": "6\u201320",
+      "pages": 14,
+      "backlinks": 148
+    },
+    {
+      "label": "21\u201350",
+      "pages": 5,
+      "backlinks": 173
+    },
+    {
+      "label": "51\u2013200",
+      "pages": 7,
+      "backlinks": 867
+    },
+    {
+      "label": "200+",
+      "pages": 1,
+      "backlinks": 844
+    }
+  ],
+  "notes": {
+    "position": "model",
+    "verdict_tone": "green",
+    "verdict_label": "Model off this",
+    "tagline": "The category leader. Best-funded, most refined digital presence in Australian medicinal cannabis \u2014 and the safest legal posture.",
+    "period": "May 2026",
+    "brand": {
+      "visual_system": [
+        "Cream / sage palette \u2014 clinical and calm, never green-leaf clich\u00e9.",
+        "Real photography of patients and clinicians, never stock imagery.",
+        "Generous whitespace, soft rounded corners, large serif headings.",
+        "No 'buy now' buttons anywhere \u2014 only 'book consult'."
+      ],
+      "site_architecture": [
+        "/pricing, /reviews, /doctors, /process are all first-class commercial pages.",
+        "/hub/ \u2014 21 wellness articles (sleep, energy, dopamine, breathwork).",
+        "/post/ \u2014 long-form city and condition explainers, many redirected.",
+        "Patient portal and help centre on dedicated subdomains (patient., support.)."
+      ],
+      "tone_compliance": [
+        "Talks about consultations and eligibility, never products.",
+        "Uses TGA / SAS terminology correctly; cites approvals carefully.",
+        "No specific-condition claims on commercial pages.",
+        "Reviews page is real Trustpilot embeds \u2014 third-party proof."
+      ]
+    },
+    "eeat": {
+      "https": "green",
+      "schema_medical": "amber",
+      "author_bylines": "amber",
+      "medical_reviewer": "green",
+      "core_web_vitals": "amber",
+      "freshness": "amber",
+      "notes": "Clinician oversight is signalled visually but bylines on the wellness hub lack credentials. Schema coverage is partial \u2014 Organization and FAQ are present, MedicalCondition / MedicalWebPage are not."
+    },
+    "verdict": {
+      "steal": [
+        {
+          "play": "Three-property architecture (www + patient + support)",
+          "effort": 4,
+          "impact": 5,
+          "note": "Marketing site for acquisition, portal for retention, Zendesk for long-tail informational. The support hub alone earns 4.4K visits/mo from defensive informational queries."
+        },
+        {
+          "play": "Clinical-not-dispensary tone of voice",
+          "effort": 2,
+          "impact": 4,
+          "note": "Adopt their language: consultations, eligibility, prescribers \u2014 never products, never claims. The 'safe' voice is the price of being taken seriously at scale."
+        },
+        {
+          "play": "Editorial blog as link bait",
+          "effort": 3,
+          "impact": 4,
+          "note": "Their best-linked assets are city-specific cannabis explainers that publishers can cite without risk. Replicable in months."
+        },
+        {
+          "play": "Programmatic location pages",
+          "effort": 3,
+          "impact": 5,
+          "note": "1,128 location keywords for them yet only 2,447 visits \u2014 they own the inventory but not the rankings. Suburb-level pSEO is uncontested."
+        },
+        {
+          "play": "Condition-led E-E-A-T pages with clinician bios",
+          "effort": 4,
+          "impact": 5,
+          "note": "53 chronic-pain keywords for 1 visit/mo proves they can't write this content aggressively. We can \u2014 with proper authorship, dated reviews and citations."
+        },
+        {
+          "play": "Pricing + reviews as first-class pages",
+          "effort": 1,
+          "impact": 3,
+          "note": "Both rank in top 3 and earn category visits. Hellomello should publish a transparent /pricing and a real-review /reviews page on day one."
+        }
+      ],
+      "avoid": [
+        {
+          "trap": "Generic wellness hub",
+          "evidence": "21 /hub/ pages \u2192 82 visits/mo. Sleep, dopamine, energy \u2014 wellness topics unrelated to cannabis, ranking nowhere."
+        },
+        {
+          "trap": "Dormant page-2+ inventory",
+          "evidence": "1,597 keywords sitting at #51\u2013100 produce zero traffic. Publishing volume without depth is a tax, not an asset."
+        },
+        {
+          "trap": "Brand-only fortress",
+          "evidence": "1,310 brand keywords carry 70.6K of 78.5K visits (90%). If a competitor outranks them on a single non-brand category term, the moat doesn't help."
+        },
+        {
+          "trap": "National-only location framing",
+          "evidence": "Perth ranks for 74 keywords and earns 9 visits/mo; Adelaide and Canberra are token. Listing 'Australia' is not a location strategy."
+        }
+      ],
+      "implications": [
+        "The structure is replicable \u2014 three subdomains, conservative copy, transparent commercial pages.",
+        "The gaps are real and undefended \u2014 conditions, capital cities, near-me, clinical authority.",
+        "Speed matters: Alternaleaf's compliance posture slows them down. Hellomello's window is the next two release cycles."
+      ]
+    },
+    "gap_matrix": [
+      {
+        "topic": "Brand defence",
+        "alternaleaf": 5,
+        "hellomello": 1,
+        "comment": "Their moat. Don't fight here."
+      },
+      {
+        "topic": "Pricing transparency",
+        "alternaleaf": 4,
+        "hellomello": 1,
+        "comment": "Match it."
+      },
+      {
+        "topic": "Clinic / doctor SEO",
+        "alternaleaf": 2,
+        "hellomello": 0,
+        "comment": "Their copy is restricted \u2014 we can author it."
+      },
+      {
+        "topic": "Conditions content",
+        "alternaleaf": 1,
+        "hellomello": 0,
+        "comment": "Open field. Highest-impact play."
+      },
+      {
+        "topic": "Locations / pSEO",
+        "alternaleaf": 2,
+        "hellomello": 0,
+        "comment": "Owned inventory, no rankings \u2014 easy to displace."
+      },
+      {
+        "topic": "'Near me' queries",
+        "alternaleaf": 1,
+        "hellomello": 0,
+        "comment": "Undefended high-intent."
+      },
+      {
+        "topic": "Wellness / lifestyle",
+        "alternaleaf": 1,
+        "hellomello": 0,
+        "comment": "Don't bother."
+      },
+      {
+        "topic": "Reviews / social proof",
+        "alternaleaf": 3,
+        "hellomello": 0,
+        "comment": "Embed Trustpilot, replicate."
+      },
+      {
+        "topic": "Editorial link bait",
+        "alternaleaf": 3,
+        "hellomello": 0,
+        "comment": "City explainers earn citations."
+      },
+      {
+        "topic": "Help / support SEO",
+        "alternaleaf": 4,
+        "hellomello": 0,
+        "comment": "Zendesk subdomain harvests long-tail."
+      }
+    ]
+  }
+}

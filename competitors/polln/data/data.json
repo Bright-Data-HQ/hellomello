@@ -1,0 +1,4218 @@
+{
+  "totals": {
+    "traffic": 4757,
+    "keywords": 2045,
+    "pages": 98,
+    "backlinks": 1895,
+    "backlinked_pages": 50,
+    "brand_traffic": 3346,
+    "nonbrand_traffic": 1411,
+    "brand_kw": 137,
+    "nonbrand_kw": 1908
+  },
+  "topics": [
+    {
+      "name": "Brand",
+      "kw": 137,
+      "traffic": 3346,
+      "examples": [
+        {
+          "kw": "polln",
+          "pos": 1,
+          "vol": 2900,
+          "traffic": 2320.0
+        },
+        {
+          "kw": "polln login",
+          "pos": 1,
+          "vol": 720,
+          "traffic": 576.0
+        },
+        {
+          "kw": "polln",
+          "pos": 1,
+          "vol": 2900,
+          "traffic": 75.0
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "kw": 595,
+      "traffic": 495,
+      "examples": [
+        {
+          "kw": "difference between indica and sativa",
+          "pos": 1,
+          "vol": 1000,
+          "traffic": 60.0
+        },
+        {
+          "kw": "how long does weed stay in your system australia",
+          "pos": 1,
+          "vol": 880,
+          "traffic": 53.0
+        },
+        {
+          "kw": "can you smoke medical marijuanas in australia in public",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 35.0
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "kw": 549,
+      "traffic": 377,
+      "examples": [
+        {
+          "kw": "poln",
+          "pos": 1,
+          "vol": 90,
+          "traffic": 72.0
+        },
+        {
+          "kw": "vaping weed",
+          "pos": 1,
+          "vol": 1300,
+          "traffic": 45.0
+        },
+        {
+          "kw": "how long does weed stay in urine",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 20.0
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "kw": 483,
+      "traffic": 306,
+      "examples": [
+        {
+          "kw": "online cannabis prescription australia",
+          "pos": 4,
+          "vol": 480,
+          "traffic": 21.0
+        },
+        {
+          "kw": "list of authorised prescribers sa",
+          "pos": 3,
+          "vol": 320,
+          "traffic": 20.0
+        },
+        {
+          "kw": "list of authorised prescribers wa",
+          "pos": 3,
+          "vol": 320,
+          "traffic": 20.0
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "kw": 60,
+      "traffic": 127,
+      "examples": [
+        {
+          "kw": "medical marijuanas qld cost",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 27.0
+        },
+        {
+          "kw": "medical marijuanas victoria cost",
+          "pos": 4,
+          "vol": 480,
+          "traffic": 21.0
+        },
+        {
+          "kw": "medical marijuanas australia cost",
+          "pos": 5,
+          "vol": 480,
+          "traffic": 16.0
+        }
+      ]
+    },
+    {
+      "name": "Product / Strain",
+      "kw": 161,
+      "traffic": 101,
+      "examples": [
+        {
+          "kw": "how long does thc stay in urine test",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 15.0
+        },
+        {
+          "kw": "how long does the thc stay in your blood",
+          "pos": 1,
+          "vol": 320,
+          "traffic": 11.0
+        },
+        {
+          "kw": "indica meaning",
+          "pos": 8,
+          "vol": 1300,
+          "traffic": 11.0
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "kw": 7,
+      "traffic": 2,
+      "examples": [
+        {
+          "kw": "how to obtain a medical card",
+          "pos": 5,
+          "vol": 90,
+          "traffic": 2.0
+        },
+        {
+          "kw": "how to sign up for medical marijuanas",
+          "pos": 14,
+          "vol": 50,
+          "traffic": 0.0
+        },
+        {
+          "kw": "how to obtain a medical card",
+          "pos": 59,
+          "vol": 90,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "kw": 8,
+      "traffic": 2,
+      "examples": [
+        {
+          "kw": "can i help clinic",
+          "pos": 6,
+          "vol": 70,
+          "traffic": 2.0
+        },
+        {
+          "kw": "dr canna contact",
+          "pos": 42,
+          "vol": 40,
+          "traffic": 0.0
+        },
+        {
+          "kw": "dr canna contact",
+          "pos": 85,
+          "vol": 40,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "kw": 32,
+      "traffic": 1,
+      "examples": [
+        {
+          "kw": "how to get a medical marijuanas card",
+          "pos": 4,
+          "vol": 70,
+          "traffic": 1.0
+        },
+        {
+          "kw": "how to apply for medical weed",
+          "pos": 77,
+          "vol": 90,
+          "traffic": 0.0
+        },
+        {
+          "kw": "how to get medical marijuana",
+          "pos": 19,
+          "vol": 90,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Login / Portal",
+      "kw": 3,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "log in patient portal",
+          "pos": 45,
+          "vol": 390,
+          "traffic": 0.0
+        },
+        {
+          "kw": "australian access clinics patient portal",
+          "pos": 17,
+          "vol": 70,
+          "traffic": 0.0
+        },
+        {
+          "kw": "clinic login",
+          "pos": 62,
+          "vol": 90,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "kw": 4,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "dispensed au",
+          "pos": 80,
+          "vol": 70,
+          "traffic": 0.0
+        },
+        {
+          "kw": "dispensed medical",
+          "pos": 29,
+          "vol": 40,
+          "traffic": 0.0
+        },
+        {
+          "kw": "dispensed medical",
+          "pos": 52,
+          "vol": 40,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "kw": 2,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "cannabis doctors tasmania reviews",
+          "pos": 21,
+          "vol": 110,
+          "traffic": 0.0
+        },
+        {
+          "kw": "medication review",
+          "pos": 75,
+          "vol": 140,
+          "traffic": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Conditions",
+      "kw": 4,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "book dr sleep",
+          "pos": 59,
+          "vol": 1600,
+          "traffic": 0.0
+        },
+        {
+          "kw": "online sleep medication",
+          "pos": 29,
+          "vol": 70,
+          "traffic": 0.0
+        },
+        {
+          "kw": "alternative medicine for anxiety",
+          "pos": 63,
+          "vol": 320,
+          "traffic": 0.0
+        }
+      ]
+    }
+  ],
+  "topic_detail": {
+    "Brand": {
+      "total_kw": 137,
+      "total_traffic": 3346,
+      "top1_count": 12,
+      "page2_count": 27,
+      "avg_vol": 254,
+      "top_keywords": [
+        {
+          "kw": "polln",
+          "pos": 1,
+          "vol": 2900,
+          "traffic": 2320,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "polln login",
+          "pos": 1,
+          "vol": 720,
+          "traffic": 576,
+          "url": "https://patient.polln.com/"
+        },
+        {
+          "kw": "polln",
+          "pos": 1,
+          "vol": 2900,
+          "traffic": 75,
+          "url": "http://www.polln.com/"
+        },
+        {
+          "kw": "polln contact",
+          "pos": 1,
+          "vol": 90,
+          "traffic": 72,
+          "url": "http://www.polln.com/"
+        },
+        {
+          "kw": "pollin",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 64,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "polln",
+          "pos": 1,
+          "vol": 2900,
+          "traffic": 52,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "polln dashboard",
+          "pos": 1,
+          "vol": 50,
+          "traffic": 40,
+          "url": "https://patient.polln.com/"
+        },
+        {
+          "kw": "pollin",
+          "pos": 2,
+          "vol": 260,
+          "traffic": 34,
+          "url": "https://www.polln.com/contact"
+        },
+        {
+          "kw": "pollin",
+          "pos": 3,
+          "vol": 260,
+          "traffic": 21,
+          "url": "https://patient.polln.com/"
+        },
+        {
+          "kw": "polln login",
+          "pos": 2,
+          "vol": 720,
+          "traffic": 18,
+          "url": "https://www.polln.com/"
+        }
+      ],
+      "top_nonbrand": []
+    },
+    "Other": {
+      "total_kw": 549,
+      "total_traffic": 377,
+      "top1_count": 30,
+      "page2_count": 118,
+      "avg_vol": 228,
+      "top_keywords": [
+        {
+          "kw": "poln",
+          "pos": 1,
+          "vol": 90,
+          "traffic": 72,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "vaping weed",
+          "pos": 1,
+          "vol": 1300,
+          "traffic": 45,
+          "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis"
+        },
+        {
+          "kw": "how long does weed stay in urine",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 20,
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system"
+        },
+        {
+          "kw": "online medical marijuanas",
+          "pos": 4,
+          "vol": 390,
+          "traffic": 17,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "online medical marijuanas",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 13,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "vaping weed",
+          "pos": 5,
+          "vol": 1300,
+          "traffic": 11,
+          "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis"
+        },
+        {
+          "kw": "how long does bhang stay in your system",
+          "pos": 6,
+          "vol": 1300,
+          "traffic": 9,
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system"
+        },
+        {
+          "kw": "medical cannabis online",
+          "pos": 5,
+          "vol": 320,
+          "traffic": 9,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "cannabinoids online",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 9,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "how much is medical marijuanas",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 9,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "poln",
+          "pos": 1,
+          "vol": 90,
+          "traffic": 72
+        },
+        {
+          "kw": "vaping weed",
+          "pos": 1,
+          "vol": 1300,
+          "traffic": 45
+        },
+        {
+          "kw": "how long does weed stay in urine",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 20
+        },
+        {
+          "kw": "online medical marijuanas",
+          "pos": 4,
+          "vol": 390,
+          "traffic": 17
+        },
+        {
+          "kw": "online medical marijuanas",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 13
+        },
+        {
+          "kw": "vaping weed",
+          "pos": 5,
+          "vol": 1300,
+          "traffic": 11
+        },
+        {
+          "kw": "how long does bhang stay in your system",
+          "pos": 6,
+          "vol": 1300,
+          "traffic": 9
+        },
+        {
+          "kw": "medical cannabis online",
+          "pos": 5,
+          "vol": 320,
+          "traffic": 9
+        }
+      ]
+    },
+    "Locations": {
+      "total_kw": 595,
+      "total_traffic": 495,
+      "top1_count": 34,
+      "page2_count": 101,
+      "avg_vol": 237,
+      "top_keywords": [
+        {
+          "kw": "difference between indica and sativa",
+          "pos": 1,
+          "vol": 1000,
+          "traffic": 60,
+          "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect"
+        },
+        {
+          "kw": "how long does weed stay in your system australia",
+          "pos": 1,
+          "vol": 880,
+          "traffic": 53,
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system"
+        },
+        {
+          "kw": "can you smoke medical marijuanas in australia in public",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 35,
+          "url": "https://www.polln.com/library/travelling-as-a-medicinal-cannabis-patient-in-australia-what-you-need-to-know"
+        },
+        {
+          "kw": "difference between sativa and indica",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 35,
+          "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect"
+        },
+        {
+          "kw": "best online medical cannabis australia",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 27,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "medical marijuanas nsw online",
+          "pos": 4,
+          "vol": 590,
+          "traffic": 25,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "medical cannabis australia online",
+          "pos": 3,
+          "vol": 390,
+          "traffic": 25,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "medical marijuanas perth",
+          "pos": 6,
+          "vol": 880,
+          "traffic": 21,
+          "url": "https://www.polln.com/locations/perth"
+        },
+        {
+          "kw": "medical cannabis australia online",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 13,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "medical marijuana adelaide",
+          "pos": 3,
+          "vol": 140,
+          "traffic": 9,
+          "url": "https://www.polln.com/locations/adelaide"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "difference between indica and sativa",
+          "pos": 1,
+          "vol": 1000,
+          "traffic": 60
+        },
+        {
+          "kw": "how long does weed stay in your system australia",
+          "pos": 1,
+          "vol": 880,
+          "traffic": 53
+        },
+        {
+          "kw": "can you smoke medical marijuanas in australia in public",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 35
+        },
+        {
+          "kw": "difference between sativa and indica",
+          "pos": 1,
+          "vol": 590,
+          "traffic": 35
+        },
+        {
+          "kw": "best online medical cannabis australia",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 27
+        },
+        {
+          "kw": "medical marijuanas nsw online",
+          "pos": 4,
+          "vol": 590,
+          "traffic": 25
+        },
+        {
+          "kw": "medical cannabis australia online",
+          "pos": 3,
+          "vol": 390,
+          "traffic": 25
+        },
+        {
+          "kw": "medical marijuanas perth",
+          "pos": 6,
+          "vol": 880,
+          "traffic": 21
+        }
+      ]
+    },
+    "Pricing": {
+      "total_kw": 60,
+      "total_traffic": 127,
+      "top1_count": 3,
+      "page2_count": 11,
+      "avg_vol": 183,
+      "top_keywords": [
+        {
+          "kw": "medical marijuanas qld cost",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 27,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        },
+        {
+          "kw": "medical marijuanas victoria cost",
+          "pos": 4,
+          "vol": 480,
+          "traffic": 21,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        },
+        {
+          "kw": "medical marijuanas australia cost",
+          "pos": 5,
+          "vol": 480,
+          "traffic": 16,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        },
+        {
+          "kw": "medical marijuanas perth cost",
+          "pos": 4,
+          "vol": 320,
+          "traffic": 14,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        },
+        {
+          "kw": "how much should weed cost",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 7,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        },
+        {
+          "kw": "how much does medical marijuanas cost",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 7,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        },
+        {
+          "kw": "medical marijuanas nsw cost",
+          "pos": 9,
+          "vol": 260,
+          "traffic": 5,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        },
+        {
+          "kw": "free medical cannabis consultation",
+          "pos": 5,
+          "vol": 170,
+          "traffic": 5,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "how much does medicinal cannabis cost",
+          "pos": 3,
+          "vol": 90,
+          "traffic": 5,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        },
+        {
+          "kw": "medical marijuanas prices",
+          "pos": 3,
+          "vol": 90,
+          "traffic": 5,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "medical marijuanas qld cost",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 27
+        },
+        {
+          "kw": "medical marijuanas victoria cost",
+          "pos": 4,
+          "vol": 480,
+          "traffic": 21
+        },
+        {
+          "kw": "medical marijuanas australia cost",
+          "pos": 5,
+          "vol": 480,
+          "traffic": 16
+        },
+        {
+          "kw": "medical marijuanas perth cost",
+          "pos": 4,
+          "vol": 320,
+          "traffic": 14
+        },
+        {
+          "kw": "how much should weed cost",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 7
+        },
+        {
+          "kw": "how much does medical marijuanas cost",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 7
+        },
+        {
+          "kw": "medical marijuanas nsw cost",
+          "pos": 9,
+          "vol": 260,
+          "traffic": 5
+        },
+        {
+          "kw": "free medical cannabis consultation",
+          "pos": 5,
+          "vol": 170,
+          "traffic": 5
+        }
+      ]
+    },
+    "Clinic / Doctor": {
+      "total_kw": 483,
+      "total_traffic": 306,
+      "top1_count": 30,
+      "page2_count": 69,
+      "avg_vol": 149,
+      "top_keywords": [
+        {
+          "kw": "online cannabis prescription australia",
+          "pos": 4,
+          "vol": 480,
+          "traffic": 21,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "list of authorised prescribers sa",
+          "pos": 3,
+          "vol": 320,
+          "traffic": 20,
+          "url": "https://www.polln.com/locations/adelaide"
+        },
+        {
+          "kw": "list of authorised prescribers wa",
+          "pos": 3,
+          "vol": 320,
+          "traffic": 20,
+          "url": "https://www.polln.com/locations/perth"
+        },
+        {
+          "kw": "best cannabis clinic australia",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 14,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "how much is cbd oil on prescription",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 13,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        },
+        {
+          "kw": "online cannabis prescription",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 12,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "list of authorised prescribers victoria",
+          "pos": 6,
+          "vol": 390,
+          "traffic": 11,
+          "url": "https://www.polln.com/locations/melbourne"
+        },
+        {
+          "kw": "how much is cbd oil on prescription",
+          "pos": 2,
+          "vol": 390,
+          "traffic": 11,
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        },
+        {
+          "kw": "list of authorised prescribers sa",
+          "pos": 1,
+          "vol": 320,
+          "traffic": 11,
+          "url": "https://www.polln.com/locations/adelaide"
+        },
+        {
+          "kw": "how long do scripts last",
+          "pos": 8,
+          "vol": 390,
+          "traffic": 9,
+          "url": "https://www.polln.com/faqs/do-my-prescriptions-expire"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "online cannabis prescription australia",
+          "pos": 4,
+          "vol": 480,
+          "traffic": 21
+        },
+        {
+          "kw": "list of authorised prescribers sa",
+          "pos": 3,
+          "vol": 320,
+          "traffic": 20
+        },
+        {
+          "kw": "list of authorised prescribers wa",
+          "pos": 3,
+          "vol": 320,
+          "traffic": 20
+        },
+        {
+          "kw": "best cannabis clinic australia",
+          "pos": 1,
+          "vol": 110,
+          "traffic": 14
+        },
+        {
+          "kw": "how much is cbd oil on prescription",
+          "pos": 1,
+          "vol": 390,
+          "traffic": 13
+        },
+        {
+          "kw": "online cannabis prescription",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 12
+        },
+        {
+          "kw": "list of authorised prescribers victoria",
+          "pos": 6,
+          "vol": 390,
+          "traffic": 11
+        },
+        {
+          "kw": "how much is cbd oil on prescription",
+          "pos": 2,
+          "vol": 390,
+          "traffic": 11
+        }
+      ]
+    },
+    "Product / Strain": {
+      "total_kw": 161,
+      "total_traffic": 101,
+      "top1_count": 18,
+      "page2_count": 34,
+      "avg_vol": 269,
+      "top_keywords": [
+        {
+          "kw": "how long does thc stay in urine test",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 15,
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system"
+        },
+        {
+          "kw": "indica meaning",
+          "pos": 8,
+          "vol": 1300,
+          "traffic": 11,
+          "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect"
+        },
+        {
+          "kw": "how long does the thc stay in your blood",
+          "pos": 1,
+          "vol": 320,
+          "traffic": 11,
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system"
+        },
+        {
+          "kw": "how long does thc stay in system",
+          "pos": 1,
+          "vol": 170,
+          "traffic": 10,
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system"
+        },
+        {
+          "kw": "how long does thc stay in your blood for",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 7,
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system"
+        },
+        {
+          "kw": "medical cannabis vape",
+          "pos": 4,
+          "vol": 110,
+          "traffic": 7,
+          "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis"
+        },
+        {
+          "kw": "thc vaping",
+          "pos": 9,
+          "vol": 720,
+          "traffic": 6,
+          "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis"
+        },
+        {
+          "kw": "how long will thc stay in system",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 4,
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system"
+        },
+        {
+          "kw": "indica meaning",
+          "pos": 12,
+          "vol": 1300,
+          "traffic": 3,
+          "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect"
+        },
+        {
+          "kw": "how long thc stay in blood",
+          "pos": 6,
+          "vol": 140,
+          "traffic": 3,
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "how long does thc stay in urine test",
+          "pos": 1,
+          "vol": 260,
+          "traffic": 15
+        },
+        {
+          "kw": "indica meaning",
+          "pos": 8,
+          "vol": 1300,
+          "traffic": 11
+        },
+        {
+          "kw": "how long does the thc stay in your blood",
+          "pos": 1,
+          "vol": 320,
+          "traffic": 11
+        },
+        {
+          "kw": "how long does thc stay in system",
+          "pos": 1,
+          "vol": 170,
+          "traffic": 10
+        },
+        {
+          "kw": "how long does thc stay in your blood for",
+          "pos": 1,
+          "vol": 210,
+          "traffic": 7
+        },
+        {
+          "kw": "medical cannabis vape",
+          "pos": 4,
+          "vol": 110,
+          "traffic": 7
+        },
+        {
+          "kw": "thc vaping",
+          "pos": 9,
+          "vol": 720,
+          "traffic": 6
+        },
+        {
+          "kw": "how long will thc stay in system",
+          "pos": 1,
+          "vol": 140,
+          "traffic": 4
+        }
+      ]
+    },
+    "Education / How-to": {
+      "total_kw": 7,
+      "total_traffic": 2,
+      "top1_count": 0,
+      "page2_count": 1,
+      "avg_vol": 107,
+      "top_keywords": [
+        {
+          "kw": "how to obtain a medical card",
+          "pos": 5,
+          "vol": 90,
+          "traffic": 2,
+          "url": "https://www.polln.com/faqs/how-do-i-get-a-medical-card-in-australia"
+        },
+        {
+          "kw": "what is a terpenes",
+          "pos": 28,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://www.polln.com/library/everything-you-need-to-know-about-cannabis-terpenes"
+        },
+        {
+          "kw": "what is a terpene",
+          "pos": 30,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://www.polln.com/library/everything-you-need-to-know-about-cannabis-terpenes"
+        },
+        {
+          "kw": "what is medical weed",
+          "pos": 66,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia"
+        },
+        {
+          "kw": "how to obtain a medical card",
+          "pos": 59,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia"
+        },
+        {
+          "kw": "what is medical marijuanas",
+          "pos": 79,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "how to sign up for medical marijuanas",
+          "pos": 14,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "how to obtain a medical card",
+          "pos": 5,
+          "vol": 90,
+          "traffic": 2
+        },
+        {
+          "kw": "what is a terpenes",
+          "pos": 28,
+          "vol": 170,
+          "traffic": 0
+        },
+        {
+          "kw": "what is a terpene",
+          "pos": 30,
+          "vol": 170,
+          "traffic": 0
+        },
+        {
+          "kw": "what is medical weed",
+          "pos": 66,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "how to obtain a medical card",
+          "pos": 59,
+          "vol": 90,
+          "traffic": 0
+        },
+        {
+          "kw": "what is medical marijuanas",
+          "pos": 79,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "how to sign up for medical marijuanas",
+          "pos": 14,
+          "vol": 50,
+          "traffic": 0
+        }
+      ]
+    },
+    "Contact / Support": {
+      "total_kw": 8,
+      "total_traffic": 2,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 135,
+      "top_keywords": [
+        {
+          "kw": "can i help clinic",
+          "pos": 6,
+          "vol": 70,
+          "traffic": 2,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "doctor after hours",
+          "pos": 54,
+          "vol": 390,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 37,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "after hours doctor adelaide",
+          "pos": 60,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "over the phone prescription",
+          "pos": 36,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "dr canna contact",
+          "pos": 42,
+          "vol": 40,
+          "traffic": 0,
+          "url": "https://www.polln.com/locations/adelaide"
+        },
+        {
+          "kw": "dr canna contact",
+          "pos": 85,
+          "vol": 40,
+          "traffic": 0,
+          "url": "https://www.polln.com/locations/perth"
+        },
+        {
+          "kw": "cannihelp contact",
+          "pos": 25,
+          "vol": 40,
+          "traffic": 0,
+          "url": "https://www.polln.com/locations/perth"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "can i help clinic",
+          "pos": 6,
+          "vol": 70,
+          "traffic": 2
+        },
+        {
+          "kw": "doctor after hours",
+          "pos": 54,
+          "vol": 390,
+          "traffic": 0
+        },
+        {
+          "kw": "can i help dispensary",
+          "pos": 37,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "after hours doctor adelaide",
+          "pos": 60,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "over the phone prescription",
+          "pos": 36,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "dr canna contact",
+          "pos": 42,
+          "vol": 40,
+          "traffic": 0
+        },
+        {
+          "kw": "dr canna contact",
+          "pos": 85,
+          "vol": 40,
+          "traffic": 0
+        },
+        {
+          "kw": "cannihelp contact",
+          "pos": 25,
+          "vol": 40,
+          "traffic": 0
+        }
+      ]
+    },
+    "Eligibility / Legal": {
+      "total_kw": 32,
+      "total_traffic": 1,
+      "top1_count": 0,
+      "page2_count": 5,
+      "avg_vol": 122,
+      "top_keywords": [
+        {
+          "kw": "how to get a medical marijuanas card",
+          "pos": 4,
+          "vol": 70,
+          "traffic": 1,
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia"
+        },
+        {
+          "kw": "how to get medical marijuanas",
+          "pos": 45,
+          "vol": 480,
+          "traffic": 0,
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia"
+        },
+        {
+          "kw": "medicinal legal",
+          "pos": 54,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "how do i get medical cannabis",
+          "pos": 70,
+          "vol": 210,
+          "traffic": 0,
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia"
+        },
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 32,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia"
+        },
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 79,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://www.polln.com/locations/sydney"
+        },
+        {
+          "kw": "how to get medical cannabis",
+          "pos": 21,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "how to get medical cannabis",
+          "pos": 37,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "how to get medical cannabis",
+          "pos": 84,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://www.polln.com/locations/brisbane"
+        },
+        {
+          "kw": "how to get prescribed weed",
+          "pos": 37,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "how to get a medical marijuanas card",
+          "pos": 4,
+          "vol": 70,
+          "traffic": 1
+        },
+        {
+          "kw": "how to get medical marijuanas",
+          "pos": 45,
+          "vol": 480,
+          "traffic": 0
+        },
+        {
+          "kw": "medicinal legal",
+          "pos": 54,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "how do i get medical cannabis",
+          "pos": 70,
+          "vol": 210,
+          "traffic": 0
+        },
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 32,
+          "vol": 170,
+          "traffic": 0
+        },
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 79,
+          "vol": 170,
+          "traffic": 0
+        },
+        {
+          "kw": "how to get medical cannabis",
+          "pos": 21,
+          "vol": 170,
+          "traffic": 0
+        },
+        {
+          "kw": "how to get medical cannabis",
+          "pos": 37,
+          "vol": 170,
+          "traffic": 0
+        }
+      ]
+    },
+    "Conditions": {
+      "total_kw": 4,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 510,
+      "top_keywords": [
+        {
+          "kw": "book dr sleep",
+          "pos": 59,
+          "vol": 1600,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "alternative medicine for anxiety",
+          "pos": 63,
+          "vol": 320,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "online sleep medication",
+          "pos": 29,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "sleeping medicine online",
+          "pos": 36,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "book dr sleep",
+          "pos": 59,
+          "vol": 1600,
+          "traffic": 0
+        },
+        {
+          "kw": "alternative medicine for anxiety",
+          "pos": 63,
+          "vol": 320,
+          "traffic": 0
+        },
+        {
+          "kw": "online sleep medication",
+          "pos": 29,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "sleeping medicine online",
+          "pos": 36,
+          "vol": 50,
+          "traffic": 0
+        }
+      ]
+    },
+    "Login / Portal": {
+      "total_kw": 3,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 1,
+      "avg_vol": 183,
+      "top_keywords": [
+        {
+          "kw": "log in patient portal",
+          "pos": 45,
+          "vol": 390,
+          "traffic": 0,
+          "url": "https://patient.polln.com/"
+        },
+        {
+          "kw": "clinic login",
+          "pos": 62,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "australian access clinics patient portal",
+          "pos": 17,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "log in patient portal",
+          "pos": 45,
+          "vol": 390,
+          "traffic": 0
+        },
+        {
+          "kw": "clinic login",
+          "pos": 62,
+          "vol": 90,
+          "traffic": 0
+        },
+        {
+          "kw": "australian access clinics patient portal",
+          "pos": 17,
+          "vol": 70,
+          "traffic": 0
+        }
+      ]
+    },
+    "Reviews": {
+      "total_kw": 2,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 125,
+      "top_keywords": [
+        {
+          "kw": "medication review",
+          "pos": 75,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "cannabis doctors tasmania reviews",
+          "pos": 21,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "medication review",
+          "pos": 75,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "cannabis doctors tasmania reviews",
+          "pos": 21,
+          "vol": 110,
+          "traffic": 0
+        }
+      ]
+    },
+    "Competitors": {
+      "total_kw": 4,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 55,
+      "top_keywords": [
+        {
+          "kw": "dispensed au",
+          "pos": 80,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "dispensed global",
+          "pos": 26,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.polln.com/"
+        },
+        {
+          "kw": "dispensed medical",
+          "pos": 29,
+          "vol": 40,
+          "traffic": 0,
+          "url": "https://www.polln.com/locations/brisbane"
+        },
+        {
+          "kw": "dispensed medical",
+          "pos": 52,
+          "vol": 40,
+          "traffic": 0,
+          "url": "https://www.polln.com/locations/brisbane"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "dispensed au",
+          "pos": 80,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "dispensed global",
+          "pos": 26,
+          "vol": 70,
+          "traffic": 0
+        },
+        {
+          "kw": "dispensed medical",
+          "pos": 29,
+          "vol": 40,
+          "traffic": 0
+        },
+        {
+          "kw": "dispensed medical",
+          "pos": 52,
+          "vol": 40,
+          "traffic": 0
+        }
+      ]
+    }
+  },
+  "pillars": [
+    {
+      "name": "Brand",
+      "total_kw": 137,
+      "total_traffic": 3346,
+      "efficiency": 24.42,
+      "top1_count": 12,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 8,
+          "traffic": 2577,
+          "examples": [
+            {
+              "kw": "polln",
+              "pos": 1,
+              "traffic": 2320
+            },
+            {
+              "kw": "polln",
+              "pos": 1,
+              "traffic": 75
+            }
+          ]
+        },
+        {
+          "label": "Login",
+          "kw": 25,
+          "traffic": 632,
+          "examples": [
+            {
+              "kw": "polln login",
+              "pos": 1,
+              "traffic": 576
+            },
+            {
+              "kw": "polln login",
+              "pos": 2,
+              "traffic": 18
+            }
+          ]
+        },
+        {
+          "label": "Contact",
+          "kw": 29,
+          "traffic": 76,
+          "examples": [
+            {
+              "kw": "polln contact",
+              "pos": 1,
+              "traffic": 72
+            },
+            {
+              "kw": "polln contact",
+              "pos": 1,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "Dashboard",
+          "kw": 40,
+          "traffic": 41,
+          "examples": [
+            {
+              "kw": "polln dashboard",
+              "pos": 1,
+              "traffic": 40
+            },
+            {
+              "kw": "polln dashboard",
+              "pos": 2,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Review",
+          "kw": 31,
+          "traffic": 20,
+          "examples": [
+            {
+              "kw": "polln review",
+              "pos": 3,
+              "traffic": 5
+            },
+            {
+              "kw": "polln reviews",
+              "pos": 1,
+              "traffic": 3
+            }
+          ]
+        },
+        {
+          "label": "Australia",
+          "kw": 4,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "pollen australia",
+              "pos": 24,
+              "traffic": 0
+            },
+            {
+              "kw": "australian pollen",
+              "pos": 43,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 2465,
+          "kw": 12
+        },
+        {
+          "url": "https://patient.polln.com/",
+          "traffic": 637,
+          "kw": 5
+        },
+        {
+          "url": "http://www.polln.com/",
+          "traffic": 147,
+          "kw": 2
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "total_kw": 595,
+      "total_traffic": 495,
+      "efficiency": 0.83,
+      "top1_count": 34,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 158,
+          "traffic": 162,
+          "examples": []
+        },
+        {
+          "label": "National / \"Australia\"",
+          "kw": 134,
+          "traffic": 214,
+          "examples": []
+        },
+        {
+          "label": "Brisbane / QLD",
+          "kw": 83,
+          "traffic": 29,
+          "examples": []
+        },
+        {
+          "label": "Melbourne / VIC",
+          "kw": 54,
+          "traffic": 2,
+          "examples": []
+        },
+        {
+          "label": "Sydney / NSW",
+          "kw": 45,
+          "traffic": 28,
+          "examples": []
+        },
+        {
+          "label": "\"near me\"",
+          "kw": 34,
+          "traffic": 0,
+          "examples": []
+        },
+        {
+          "label": "Perth / WA",
+          "kw": 27,
+          "traffic": 32,
+          "examples": []
+        },
+        {
+          "label": "Adelaide / SA",
+          "kw": 27,
+          "traffic": 23,
+          "examples": []
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+          "traffic": 161,
+          "kw": 103
+        },
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 148,
+          "kw": 189
+        },
+        {
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system",
+          "traffic": 53,
+          "kw": 27
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "total_kw": 549,
+      "total_traffic": 377,
+      "efficiency": 0.69,
+      "top1_count": 30,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 450,
+          "traffic": 295,
+          "examples": [
+            {
+              "kw": "poln",
+              "pos": 1,
+              "traffic": 72
+            },
+            {
+              "kw": "vaping weed",
+              "pos": 1,
+              "traffic": 45
+            }
+          ]
+        },
+        {
+          "label": "Medical Marijuanas",
+          "kw": 28,
+          "traffic": 46,
+          "examples": [
+            {
+              "kw": "online medical marijuanas",
+              "pos": 4,
+              "traffic": 17
+            },
+            {
+              "kw": "online medical marijuanas",
+              "pos": 1,
+              "traffic": 13
+            }
+          ]
+        },
+        {
+          "label": "Weed Stay",
+          "kw": 57,
+          "traffic": 36,
+          "examples": [
+            {
+              "kw": "how long does weed stay in urine",
+              "pos": 1,
+              "traffic": 20
+            },
+            {
+              "kw": "how long does weed stay in your blood system",
+              "pos": 6,
+              "traffic": 4
+            }
+          ]
+        },
+        {
+          "label": "Long Weed",
+          "kw": 8,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how long weed stay in system",
+              "pos": 34,
+              "traffic": 0
+            },
+            {
+              "kw": "how long weed stays in the system",
+              "pos": 64,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Long Cannabis",
+          "kw": 4,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how long cannabis urine",
+              "pos": 40,
+              "traffic": 0
+            },
+            {
+              "kw": "how long cannabis in system",
+              "pos": 31,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Long Pot",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how long pot in system",
+              "pos": 14,
+              "traffic": 0
+            },
+            {
+              "kw": "how long pot stays in system",
+              "pos": 35,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 177,
+          "kw": 153
+        },
+        {
+          "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+          "traffic": 80,
+          "kw": 13
+        },
+        {
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system",
+          "traffic": 78,
+          "kw": 230
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "total_kw": 483,
+      "total_traffic": 306,
+      "efficiency": 0.63,
+      "top1_count": 30,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 344,
+          "traffic": 157,
+          "examples": [
+            {
+              "kw": "list of authorised prescribers sa",
+              "pos": 3,
+              "traffic": 20
+            },
+            {
+              "kw": "list of authorised prescribers wa",
+              "pos": 3,
+              "traffic": 20
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Prescription",
+          "kw": 36,
+          "traffic": 55,
+          "examples": [
+            {
+              "kw": "online cannabis prescription australia",
+              "pos": 4,
+              "traffic": 21
+            },
+            {
+              "kw": "online cannabis prescription",
+              "pos": 1,
+              "traffic": 12
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Clinic",
+          "kw": 23,
+          "traffic": 30,
+          "examples": [
+            {
+              "kw": "best cannabis clinic australia",
+              "pos": 1,
+              "traffic": 14
+            },
+            {
+              "kw": "cannabis clinic australia",
+              "pos": 5,
+              "traffic": 4
+            }
+          ]
+        },
+        {
+          "label": "Cbd Oil",
+          "kw": 23,
+          "traffic": 30,
+          "examples": [
+            {
+              "kw": "how much is cbd oil on prescription",
+              "pos": 1,
+              "traffic": 13
+            },
+            {
+              "kw": "how much is cbd oil on prescription",
+              "pos": 2,
+              "traffic": 11
+            }
+          ]
+        },
+        {
+          "label": "Medical Cannabis",
+          "kw": 24,
+          "traffic": 23,
+          "examples": [
+            {
+              "kw": "medical cannabis consultation",
+              "pos": 5,
+              "traffic": 9
+            },
+            {
+              "kw": "medical cannabis doctors australia",
+              "pos": 4,
+              "traffic": 3
+            }
+          ]
+        },
+        {
+          "label": "Prescription Online",
+          "kw": 14,
+          "traffic": 9,
+          "examples": [
+            {
+              "kw": "weed prescription online",
+              "pos": 4,
+              "traffic": 6
+            },
+            {
+              "kw": "medical marijuana prescription online",
+              "pos": 5,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "Weed Prescription",
+          "kw": 19,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "online weed prescription",
+              "pos": 5,
+              "traffic": 1
+            },
+            {
+              "kw": "weed prescription perth",
+              "pos": 7,
+              "traffic": 1
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 162,
+          "kw": 197
+        },
+        {
+          "url": "https://www.polln.com/locations/adelaide",
+          "traffic": 36,
+          "kw": 30
+        },
+        {
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia",
+          "traffic": 24,
+          "kw": 3
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "total_kw": 60,
+      "total_traffic": 127,
+      "efficiency": 2.12,
+      "top1_count": 3,
+      "sub_clusters": [
+        {
+          "label": "Medical Marijuanas",
+          "kw": 27,
+          "traffic": 103,
+          "examples": [
+            {
+              "kw": "medical marijuanas qld cost",
+              "pos": 1,
+              "traffic": 27
+            },
+            {
+              "kw": "medical marijuanas victoria cost",
+              "pos": 4,
+              "traffic": 21
+            }
+          ]
+        },
+        {
+          "label": "Weed Cost",
+          "kw": 5,
+          "traffic": 10,
+          "examples": [
+            {
+              "kw": "how much should weed cost",
+              "pos": 1,
+              "traffic": 7
+            },
+            {
+              "kw": "how much does a weed cost",
+              "pos": 6,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 13,
+          "traffic": 7,
+          "examples": [
+            {
+              "kw": "how much does medicinal cannabis cost",
+              "pos": 3,
+              "traffic": 5
+            },
+            {
+              "kw": "medicinal cannabis price",
+              "pos": 7,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "Medical Cannabis",
+          "kw": 7,
+          "traffic": 6,
+          "examples": [
+            {
+              "kw": "free medical cannabis consultation",
+              "pos": 5,
+              "traffic": 5
+            },
+            {
+              "kw": "cheapest medical cannabis australia",
+              "pos": 15,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Medical Weed",
+          "kw": 8,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "free consultation medical weed",
+              "pos": 7,
+              "traffic": 1
+            },
+            {
+              "kw": "free consultation medical weed",
+              "pos": 19,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia",
+          "traffic": 120,
+          "kw": 30
+        },
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 6,
+          "kw": 15
+        },
+        {
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia",
+          "traffic": 1,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Product / Strain",
+      "total_kw": 161,
+      "total_traffic": 101,
+      "efficiency": 0.63,
+      "top1_count": 18,
+      "sub_clusters": [
+        {
+          "label": "Thc Stay",
+          "kw": 32,
+          "traffic": 48,
+          "examples": [
+            {
+              "kw": "how long does thc stay in urine test",
+              "pos": 1,
+              "traffic": 15
+            },
+            {
+              "kw": "how long does the thc stay in your blood",
+              "pos": 1,
+              "traffic": 11
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 113,
+          "traffic": 45,
+          "examples": [
+            {
+              "kw": "indica meaning",
+              "pos": 8,
+              "traffic": 11
+            },
+            {
+              "kw": "medical cannabis vape",
+              "pos": 4,
+              "traffic": 7
+            }
+          ]
+        },
+        {
+          "label": "Long Thc",
+          "kw": 1,
+          "traffic": 3,
+          "examples": [
+            {
+              "kw": "how long thc stay in blood",
+              "pos": 6,
+              "traffic": 3
+            }
+          ]
+        },
+        {
+          "label": "Cbd Oil",
+          "kw": 9,
+          "traffic": 3,
+          "examples": [
+            {
+              "kw": "what is cbd oil",
+              "pos": 15,
+              "traffic": 2
+            },
+            {
+              "kw": "cbd oil sunshine coast",
+              "pos": 5,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Cannabinoid Oil",
+          "kw": 6,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "how long does cannabinoid oil stay in your system",
+              "pos": 5,
+              "traffic": 1
+            },
+            {
+              "kw": "cannabinoid oil",
+              "pos": 12,
+              "traffic": 1
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system",
+          "traffic": 53,
+          "kw": 50
+        },
+        {
+          "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+          "traffic": 24,
+          "kw": 21
+        },
+        {
+          "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+          "traffic": 19,
+          "kw": 27
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "total_kw": 7,
+      "total_traffic": 2,
+      "efficiency": 0.29,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Medical Card",
+          "kw": 2,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "how to obtain a medical card",
+              "pos": 5,
+              "traffic": 2
+            },
+            {
+              "kw": "how to obtain a medical card",
+              "pos": 59,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Marijuanas",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to sign up for medical marijuanas",
+              "pos": 14,
+              "traffic": 0
+            },
+            {
+              "kw": "what is medical marijuanas",
+              "pos": 79,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Weed",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "what is medical weed",
+              "pos": 66,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "what is a terpenes",
+              "pos": 28,
+              "traffic": 0
+            },
+            {
+              "kw": "what is a terpene",
+              "pos": 30,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/faqs/how-do-i-get-a-medical-card-in-australia",
+          "traffic": 2,
+          "kw": 1
+        },
+        {
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia",
+          "traffic": 0,
+          "kw": 3
+        },
+        {
+          "url": "https://www.polln.com/library/everything-you-need-to-know-about-cannabis-terpenes",
+          "traffic": 0,
+          "kw": 2
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "total_kw": 8,
+      "total_traffic": 2,
+      "efficiency": 0.25,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Help Clinic",
+          "kw": 1,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "can i help clinic",
+              "pos": 6,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "Canna Contact",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "dr canna contact",
+              "pos": 42,
+              "traffic": 0
+            },
+            {
+              "kw": "dr canna contact",
+              "pos": 85,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "After Hours",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "doctor after hours",
+              "pos": 54,
+              "traffic": 0
+            },
+            {
+              "kw": "after hours doctor adelaide",
+              "pos": 60,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Phone Prescription",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "over the phone prescription",
+              "pos": 36,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Cannihelp Contact",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "cannihelp contact",
+              "pos": 25,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "can i help dispensary",
+              "pos": 37,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 2,
+          "kw": 5
+        },
+        {
+          "url": "https://www.polln.com/locations/adelaide",
+          "traffic": 0,
+          "kw": 1
+        },
+        {
+          "url": "https://www.polln.com/locations/perth",
+          "traffic": 0,
+          "kw": 2
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "total_kw": 32,
+      "total_traffic": 1,
+      "efficiency": 0.03,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Medical Marijuanas",
+          "kw": 3,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "how to get a medical marijuanas card",
+              "pos": 4,
+              "traffic": 1
+            },
+            {
+              "kw": "how to apply for medical marijuanas",
+              "pos": 36,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Get Medical",
+          "kw": 7,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to get medical marijuana",
+              "pos": 19,
+              "traffic": 0
+            },
+            {
+              "kw": "how to get medical cannabis",
+              "pos": 21,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Get Prescribed",
+          "kw": 7,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to get prescribed cannabinoids",
+              "pos": 32,
+              "traffic": 0
+            },
+            {
+              "kw": "how to get prescribed cannabinoids",
+              "pos": 79,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Tga Approved",
+          "kw": 5,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "tga approved vaporisers",
+              "pos": 10,
+              "traffic": 0
+            },
+            {
+              "kw": "tga approved vaporisers",
+              "pos": 17,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Weed",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to apply for medical weed",
+              "pos": 77,
+              "traffic": 0
+            },
+            {
+              "kw": "how to be eligible for medical weed",
+              "pos": 49,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 7,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "medicinal legal",
+              "pos": 54,
+              "traffic": 0
+            },
+            {
+              "kw": "how to get weed",
+              "pos": 8,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia",
+          "traffic": 1,
+          "kw": 14
+        },
+        {
+          "url": "https://www.polln.com/locations/perth",
+          "traffic": 0,
+          "kw": 2
+        },
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 0,
+          "kw": 7
+        }
+      ]
+    },
+    {
+      "name": "Login / Portal",
+      "total_kw": 3,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Patient Portal",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "log in patient portal",
+              "pos": 45,
+              "traffic": 0
+            },
+            {
+              "kw": "australian access clinics patient portal",
+              "pos": 17,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Clinic Login",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "clinic login",
+              "pos": 62,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://patient.polln.com/",
+          "traffic": 0,
+          "kw": 1
+        },
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 0,
+          "kw": 2
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "total_kw": 4,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Dispensed Medical",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "dispensed medical",
+              "pos": 29,
+              "traffic": 0
+            },
+            {
+              "kw": "dispensed medical",
+              "pos": 52,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Dispensed Global",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "dispensed global",
+              "pos": 26,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "dispensed au",
+              "pos": 80,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 0,
+          "kw": 2
+        },
+        {
+          "url": "https://www.polln.com/locations/brisbane",
+          "traffic": 0,
+          "kw": 2
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "total_kw": 2,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Cannabis Doctors",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "cannabis doctors tasmania reviews",
+              "pos": 21,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medication Review",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "medication review",
+              "pos": 75,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 0,
+          "kw": 2
+        }
+      ]
+    },
+    {
+      "name": "Conditions",
+      "total_kw": 4,
+      "total_traffic": 0,
+      "efficiency": 0.0,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Sleep / insomnia",
+          "kw": 3,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "book dr sleep",
+              "pos": 59,
+              "vol": 1600
+            },
+            {
+              "kw": "online sleep medication",
+              "pos": 29,
+              "vol": 70
+            }
+          ]
+        },
+        {
+          "label": "Anxiety",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "alternative medicine for anxiety",
+              "pos": 63,
+              "vol": 320
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 0,
+          "kw": 4
+        }
+      ]
+    }
+  ],
+  "content_clusters": [
+    {
+      "name": "Homepage",
+      "pages": 2,
+      "traffic": 3107,
+      "kw": 618,
+      "examples": [
+        {
+          "url": "https://www.polln.com/",
+          "traffic": 2960,
+          "kw": 616,
+          "top_kw": "polln",
+          "intent": "Informational"
+        },
+        {
+          "url": "http://www.polln.com/",
+          "traffic": 147,
+          "kw": 2,
+          "top_kw": "polln",
+          "intent": "Navigational"
+        }
+      ]
+    },
+    {
+      "name": "Library (editorial)",
+      "pages": 15,
+      "traffic": 691,
+      "kw": 694,
+      "examples": [
+        {
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system",
+          "traffic": 184,
+          "kw": 307,
+          "top_kw": "how long does weed stay in your system australia",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+          "traffic": 180,
+          "kw": 132,
+          "top_kw": "difference between indica and sativa",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia",
+          "traffic": 156,
+          "kw": 40,
+          "top_kw": "medical marijuanas qld cost",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+          "traffic": 107,
+          "kw": 43,
+          "top_kw": "vaping weed",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "Patient portal",
+      "pages": 1,
+      "traffic": 637,
+      "kw": 6,
+      "examples": [
+        {
+          "url": "https://patient.polln.com/",
+          "traffic": 637,
+          "kw": 6,
+          "top_kw": "polln login",
+          "intent": "Transactional, Navigational"
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "pages": 11,
+      "traffic": 172,
+      "kw": 437,
+      "examples": [
+        {
+          "url": "https://www.polln.com/locations/adelaide",
+          "traffic": 54,
+          "kw": 74,
+          "top_kw": "list of authorised prescribers sa",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.polln.com/locations/perth",
+          "traffic": 54,
+          "kw": 111,
+          "top_kw": "medical marijuanas perth",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.polln.com/locations/brisbane",
+          "traffic": 18,
+          "kw": 82,
+          "top_kw": "list of authorised prescribers qld",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.polln.com/locations/melbourne",
+          "traffic": 14,
+          "kw": 43,
+          "top_kw": "list of authorised prescribers victoria",
+          "intent": "Informational"
+        }
+      ]
+    },
+    {
+      "name": "Pricing / commercial",
+      "pages": 5,
+      "traffic": 65,
+      "kw": 39,
+      "examples": [
+        {
+          "url": "https://www.polln.com/contact",
+          "traffic": 42,
+          "kw": 4,
+          "top_kw": "pollin",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://www.polln.com/pricing",
+          "traffic": 12,
+          "kw": 7,
+          "top_kw": "polln review",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://www.polln.com/our-doctors",
+          "traffic": 11,
+          "kw": 22,
+          "top_kw": "pollin",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://www.polln.com/for-clinicians/work-with-polln",
+          "traffic": 0,
+          "kw": 1,
+          "top_kw": "polln login",
+          "intent": "Transactional, Navigational"
+        }
+      ]
+    },
+    {
+      "name": "FAQs",
+      "pages": 41,
+      "traffic": 39,
+      "kw": 162,
+      "examples": [
+        {
+          "url": "https://www.polln.com/faqs/do-my-prescriptions-expire",
+          "traffic": 16,
+          "kw": 56,
+          "top_kw": "how long do scripts last",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.polln.com/faqs/how-do-i-access-repeat-prescriptions-of-my-medication",
+          "traffic": 12,
+          "kw": 2,
+          "top_kw": "polln login",
+          "intent": "Transactional, Navigational"
+        },
+        {
+          "url": "https://www.polln.com/faqs/how-do-i-get-a-medical-card-in-australia",
+          "traffic": 9,
+          "kw": 11,
+          "top_kw": "med card",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.polln.com/faqs",
+          "traffic": 2,
+          "kw": 5,
+          "top_kw": "polln review",
+          "intent": "Commercial"
+        }
+      ]
+    },
+    {
+      "name": "Practitioners",
+      "pages": 4,
+      "traffic": 25,
+      "kw": 40,
+      "examples": [
+        {
+          "url": "https://www.polln.com/practitioners/dr-joel-wren",
+          "traffic": 25,
+          "kw": 37,
+          "top_kw": "dr joel wren",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://www.polln.com/practitioners/dr-gavin-mcauley",
+          "traffic": 0,
+          "kw": 1,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://www.polln.com/practitioners/stephanie-grunberg",
+          "traffic": 0,
+          "kw": 2,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://www.polln.com/practitioners/dr-bruna-leite",
+          "traffic": 0,
+          "kw": 0,
+          "top_kw": "",
+          "intent": ""
+        }
+      ]
+    },
+    {
+      "name": "Other pages",
+      "pages": 12,
+      "traffic": 14,
+      "kw": 27,
+      "examples": [
+        {
+          "url": "https://qa.polln.com/",
+          "traffic": 10,
+          "kw": 1,
+          "top_kw": "polln login",
+          "intent": "Transactional, Navigational"
+        },
+        {
+          "url": "https://www.polln.com/alternative-healthcare",
+          "traffic": 4,
+          "kw": 4,
+          "top_kw": "polln review",
+          "intent": "Commercial"
+        },
+        {
+          "url": "https://qa-admin.polln.com/",
+          "traffic": 0,
+          "kw": 0,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://www.polln.com/how-it-works",
+          "traffic": 0,
+          "kw": 4,
+          "top_kw": "polln dashboard",
+          "intent": "Navigational"
+        }
+      ]
+    },
+    {
+      "name": "Conditions",
+      "pages": 2,
+      "traffic": 4,
+      "kw": 5,
+      "examples": [
+        {
+          "url": "https://www.polln.com/condition/mental-health",
+          "traffic": 4,
+          "kw": 4,
+          "top_kw": "polln login",
+          "intent": "Commercial, Navigational"
+        },
+        {
+          "url": "https://www.polln.com/condition/mh-nursecall",
+          "traffic": 0,
+          "kw": 1,
+          "top_kw": "polln contact",
+          "intent": "Navigational"
+        }
+      ]
+    },
+    {
+      "name": "Shop",
+      "pages": 5,
+      "traffic": 3,
+      "kw": 17,
+      "examples": [
+        {
+          "url": "https://shop.polln.com/products/volcano-medic-2",
+          "traffic": 3,
+          "kw": 4,
+          "top_kw": "volcano medic 2 australia",
+          "intent": "Informational"
+        },
+        {
+          "url": "https://shop.polln.com/collections/storz-and-bickel",
+          "traffic": 0,
+          "kw": 7,
+          "top_kw": "tga approved vaporisers",
+          "intent": "Navigational"
+        },
+        {
+          "url": "https://shop.polln.com/collections/all",
+          "traffic": 0,
+          "kw": 0,
+          "top_kw": "",
+          "intent": ""
+        },
+        {
+          "url": "https://shop.polln.com/products/mighty-medic-1",
+          "traffic": 0,
+          "kw": 5,
+          "top_kw": "might medic",
+          "intent": "Informational"
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "Other",
+      "kw": 158,
+      "traffic": 162
+    },
+    {
+      "name": "National / \"Australia\"",
+      "kw": 134,
+      "traffic": 214
+    },
+    {
+      "name": "Brisbane / QLD",
+      "kw": 83,
+      "traffic": 29
+    },
+    {
+      "name": "Melbourne / VIC",
+      "kw": 54,
+      "traffic": 2
+    },
+    {
+      "name": "Sydney / NSW",
+      "kw": 45,
+      "traffic": 28
+    },
+    {
+      "name": "\"near me\"",
+      "kw": 34,
+      "traffic": 0
+    },
+    {
+      "name": "Perth / WA",
+      "kw": 27,
+      "traffic": 32
+    },
+    {
+      "name": "Adelaide / SA",
+      "kw": 27,
+      "traffic": 23
+    },
+    {
+      "name": "Canberra / ACT",
+      "kw": 15,
+      "traffic": 5
+    },
+    {
+      "name": "Tasmania",
+      "kw": 15,
+      "traffic": 0
+    },
+    {
+      "name": "Darwin / NT",
+      "kw": 3,
+      "traffic": 0
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Sleep / insomnia",
+      "kw": 3,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "book dr sleep",
+          "pos": 59,
+          "vol": 1600
+        },
+        {
+          "kw": "online sleep medication",
+          "pos": 29,
+          "vol": 70
+        }
+      ]
+    },
+    {
+      "name": "Anxiety",
+      "kw": 1,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "alternative medicine for anxiety",
+          "pos": 63,
+          "vol": 320
+        }
+      ]
+    }
+  ],
+  "position_distribution": [
+    {
+      "label": "#1",
+      "kw": 127,
+      "traffic": 3830
+    },
+    {
+      "label": "#2\u20133",
+      "kw": 44,
+      "traffic": 274
+    },
+    {
+      "label": "#4\u201310",
+      "kw": 230,
+      "traffic": 589
+    },
+    {
+      "label": "#11\u201320",
+      "kw": 367,
+      "traffic": 56
+    },
+    {
+      "label": "#21\u201350",
+      "kw": 730,
+      "traffic": 8
+    },
+    {
+      "label": "#51\u2013100",
+      "kw": 547,
+      "traffic": 0
+    }
+  ],
+  "intents": [
+    {
+      "name": "Navigational",
+      "kw": 203,
+      "traffic": 3407
+    },
+    {
+      "name": "Informational",
+      "kw": 1382,
+      "traffic": 1082
+    },
+    {
+      "name": "Commercial",
+      "kw": 381,
+      "traffic": 251
+    },
+    {
+      "name": "Transactional",
+      "kw": 79,
+      "traffic": 17
+    }
+  ],
+  "top_pages": [
+    {
+      "url": "https://www.polln.com/",
+      "traffic": 2960.0,
+      "kw": 616,
+      "traffic_pct": 62.22,
+      "intent": "Informational",
+      "top_kw": "polln"
+    },
+    {
+      "url": "https://patient.polln.com/",
+      "traffic": 637.0,
+      "kw": 6,
+      "traffic_pct": 13.39,
+      "intent": "Transactional, Navigational",
+      "top_kw": "polln login"
+    },
+    {
+      "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system",
+      "traffic": 184.0,
+      "kw": 307,
+      "traffic_pct": 3.86,
+      "intent": "Informational",
+      "top_kw": "how long does weed stay in your system australia"
+    },
+    {
+      "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+      "traffic": 180.0,
+      "kw": 132,
+      "traffic_pct": 3.78,
+      "intent": "Informational",
+      "top_kw": "difference between indica and sativa"
+    },
+    {
+      "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia",
+      "traffic": 156.0,
+      "kw": 40,
+      "traffic_pct": 3.27,
+      "intent": "Informational",
+      "top_kw": "medical marijuanas qld cost"
+    },
+    {
+      "url": "http://www.polln.com/",
+      "traffic": 147.0,
+      "kw": 2,
+      "traffic_pct": 3.09,
+      "intent": "Navigational",
+      "top_kw": "polln"
+    },
+    {
+      "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+      "traffic": 107.0,
+      "kw": 43,
+      "traffic_pct": 2.24,
+      "intent": "Informational",
+      "top_kw": "vaping weed"
+    },
+    {
+      "url": "https://www.polln.com/locations/adelaide",
+      "traffic": 54.0,
+      "kw": 74,
+      "traffic_pct": 1.13,
+      "intent": "Informational",
+      "top_kw": "list of authorised prescribers sa"
+    },
+    {
+      "url": "https://www.polln.com/locations/perth",
+      "traffic": 54.0,
+      "kw": 111,
+      "traffic_pct": 1.13,
+      "intent": "Informational",
+      "top_kw": "medical marijuanas perth"
+    },
+    {
+      "url": "https://www.polln.com/library/travelling-as-a-medicinal-cannabis-patient-in-australia-what-you-need-to-know",
+      "traffic": 42.0,
+      "kw": 15,
+      "traffic_pct": 0.88,
+      "intent": "Informational",
+      "top_kw": "can you smoke medical marijuanas in australia in public"
+    },
+    {
+      "url": "https://www.polln.com/contact",
+      "traffic": 42.0,
+      "kw": 4,
+      "traffic_pct": 0.88,
+      "intent": "Navigational",
+      "top_kw": "pollin"
+    },
+    {
+      "url": "https://www.polln.com/practitioners/dr-joel-wren",
+      "traffic": 25.0,
+      "kw": 37,
+      "traffic_pct": 0.52,
+      "intent": "Informational",
+      "top_kw": "dr joel wren"
+    }
+  ],
+  "top_winners": [
+    {
+      "url": "https://www.polln.com/",
+      "traffic": 2960.0,
+      "kw": 616,
+      "traffic_pct": 62.22,
+      "intent": "Informational",
+      "top_kw": "polln"
+    },
+    {
+      "url": "https://patient.polln.com/",
+      "traffic": 637.0,
+      "kw": 6,
+      "traffic_pct": 13.39,
+      "intent": "Transactional, Navigational",
+      "top_kw": "polln login"
+    },
+    {
+      "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system",
+      "traffic": 184.0,
+      "kw": 307,
+      "traffic_pct": 3.86,
+      "intent": "Informational",
+      "top_kw": "how long does weed stay in your system australia"
+    },
+    {
+      "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+      "traffic": 180.0,
+      "kw": 132,
+      "traffic_pct": 3.78,
+      "intent": "Informational",
+      "top_kw": "difference between indica and sativa"
+    },
+    {
+      "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia",
+      "traffic": 156.0,
+      "kw": 40,
+      "traffic_pct": 3.27,
+      "intent": "Informational",
+      "top_kw": "medical marijuanas qld cost"
+    },
+    {
+      "url": "http://www.polln.com/",
+      "traffic": 147.0,
+      "kw": 2,
+      "traffic_pct": 3.09,
+      "intent": "Navigational",
+      "top_kw": "polln"
+    },
+    {
+      "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+      "traffic": 107.0,
+      "kw": 43,
+      "traffic_pct": 2.24,
+      "intent": "Informational",
+      "top_kw": "vaping weed"
+    },
+    {
+      "url": "https://www.polln.com/locations/adelaide",
+      "traffic": 54.0,
+      "kw": 74,
+      "traffic_pct": 1.13,
+      "intent": "Informational",
+      "top_kw": "list of authorised prescribers sa"
+    },
+    {
+      "url": "https://www.polln.com/locations/perth",
+      "traffic": 54.0,
+      "kw": 111,
+      "traffic_pct": 1.13,
+      "intent": "Informational",
+      "top_kw": "medical marijuanas perth"
+    },
+    {
+      "url": "https://www.polln.com/library/travelling-as-a-medicinal-cannabis-patient-in-australia-what-you-need-to-know",
+      "traffic": 42.0,
+      "kw": 15,
+      "traffic_pct": 0.88,
+      "intent": "Informational",
+      "top_kw": "can you smoke medical marijuanas in australia in public"
+    }
+  ],
+  "top_losers": [
+    {
+      "url": "https://www.polln.com/library/cbd-oil-explained",
+      "traffic": 4.0,
+      "kw": 41,
+      "traffic_pct": 0.08,
+      "intent": "Informational",
+      "top_kw": "what is cbd oil"
+    },
+    {
+      "url": "https://www.polln.com/faqs/can-i-travel-with-my-prescription-medications",
+      "traffic": 0.0,
+      "kw": 37,
+      "traffic_pct": 0.0,
+      "intent": "Informational",
+      "top_kw": "travel prescription medications"
+    },
+    {
+      "url": "https://www.polln.com/locations/canberra",
+      "traffic": 5.0,
+      "kw": 32,
+      "traffic_pct": 0.1,
+      "intent": "Informational",
+      "top_kw": "medical marijuanas canberra"
+    },
+    {
+      "url": "https://www.polln.com/library/medicinal-cannabis-and-driving-what-you-need-to-know-as-a-patient-in-australia",
+      "traffic": 0.0,
+      "kw": 32,
+      "traffic_pct": 0.0,
+      "intent": "Informational",
+      "top_kw": "how long can you drive after weed"
+    },
+    {
+      "url": "https://www.polln.com/library/everything-you-need-to-know-about-cannabis-terpenes",
+      "traffic": 0.0,
+      "kw": 12,
+      "traffic_pct": 0.0,
+      "intent": "",
+      "top_kw": ""
+    },
+    {
+      "url": "https://www.polln.com/locations/gold-coast",
+      "traffic": 3.0,
+      "kw": 11,
+      "traffic_pct": 0.06,
+      "intent": "Informational",
+      "top_kw": "medical cannabis gold coast"
+    },
+    {
+      "url": "https://shop.polln.com/collections/storz-and-bickel",
+      "traffic": 0.0,
+      "kw": 7,
+      "traffic_pct": 0.0,
+      "intent": "Navigational",
+      "top_kw": "tga approved vaporisers"
+    },
+    {
+      "url": "https://www.polln.com/faqs",
+      "traffic": 2.0,
+      "kw": 5,
+      "traffic_pct": 0.04,
+      "intent": "Commercial",
+      "top_kw": "polln review"
+    },
+    {
+      "url": "https://www.polln.com/locations/darwin",
+      "traffic": 0.0,
+      "kw": 5,
+      "traffic_pct": 0.0,
+      "intent": "Transactional, Informational",
+      "top_kw": "medical cannabis nt"
+    },
+    {
+      "url": "https://www.polln.com/switch",
+      "traffic": 0.0,
+      "kw": 5,
+      "traffic_pct": 0.0,
+      "intent": "Commercial",
+      "top_kw": "polln review"
+    }
+  ],
+  "subdomains": [
+    {
+      "name": "www",
+      "traffic": 4107,
+      "pages": 89
+    },
+    {
+      "name": "patient",
+      "traffic": 637,
+      "pages": 1
+    },
+    {
+      "name": "qa.polln.com",
+      "traffic": 10,
+      "pages": 1
+    },
+    {
+      "name": "shop",
+      "traffic": 3,
+      "pages": 5
+    },
+    {
+      "name": "qa-admin.polln.com",
+      "traffic": 0,
+      "pages": 1
+    },
+    {
+      "name": "qa.consultation.polln.com",
+      "traffic": 0,
+      "pages": 1
+    }
+  ],
+  "top_keywords": [
+    {
+      "kw": "polln",
+      "pos": 1,
+      "vol": 2900,
+      "kd": 32.0,
+      "cpc": 0.0,
+      "traffic": 2320.0,
+      "url": "https://www.polln.com/",
+      "intents": "navigational, transactional",
+      "serp": "Local pack, Sitelinks, Video, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "polln login",
+      "pos": 1,
+      "vol": 720,
+      "kd": 12.0,
+      "cpc": 3.68,
+      "traffic": 576.0,
+      "url": "https://patient.polln.com/",
+      "intents": "navigational, transactional",
+      "serp": "Sitelinks, Video, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "polln",
+      "pos": 1,
+      "vol": 2900,
+      "kd": 32.0,
+      "cpc": 0.0,
+      "traffic": 75.0,
+      "url": "http://www.polln.com/",
+      "intents": "navigational, transactional",
+      "serp": "Local pack, Sitelinks, Video, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "polln contact",
+      "pos": 1,
+      "vol": 90,
+      "kd": 14.0,
+      "cpc": 4.26,
+      "traffic": 72.0,
+      "url": "http://www.polln.com/",
+      "intents": "navigational",
+      "serp": "Local pack, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "poln",
+      "pos": 1,
+      "vol": 90,
+      "kd": 28.0,
+      "cpc": 4.24,
+      "traffic": 72.0,
+      "url": "https://www.polln.com/",
+      "intents": "navigational",
+      "serp": "Sitelinks, Video, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "pollin",
+      "pos": 1,
+      "vol": 260,
+      "kd": 24.0,
+      "cpc": 2.33,
+      "traffic": 64.0,
+      "url": "https://www.polln.com/",
+      "intents": "navigational, transactional",
+      "serp": "Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "difference between indica and sativa",
+      "pos": 1,
+      "vol": 1000,
+      "kd": 69.0,
+      "cpc": 0.0,
+      "traffic": 60.0,
+      "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+      "intents": "informational",
+      "serp": "Image pack, Sitelinks, Video, Video Carousel, People also ask, Related searches, Short videos, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "how long does weed stay in your system australia",
+      "pos": 1,
+      "vol": 880,
+      "kd": 35.0,
+      "cpc": 0.0,
+      "traffic": 53.0,
+      "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system",
+      "intents": "informational",
+      "serp": "Video, Related searches, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "polln",
+      "pos": 1,
+      "vol": 2900,
+      "kd": 32.0,
+      "cpc": 0.0,
+      "traffic": 52.0,
+      "url": "https://www.polln.com/",
+      "intents": "navigational, transactional",
+      "serp": "Local pack, Sitelinks, Video, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "vaping weed",
+      "pos": 1,
+      "vol": 1300,
+      "kd": 54.0,
+      "cpc": 0.0,
+      "traffic": 45.0,
+      "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+      "intents": "informational",
+      "serp": "Sitelinks, Video, Video Carousel, People also ask, AI overview",
+      "topic": "Other"
+    },
+    {
+      "kw": "polln dashboard",
+      "pos": 1,
+      "vol": 50,
+      "kd": 9.0,
+      "cpc": 0.0,
+      "traffic": 40.0,
+      "url": "https://patient.polln.com/",
+      "intents": "navigational, transactional",
+      "serp": "Sitelinks, Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "can you smoke medical marijuanas in australia in public",
+      "pos": 1,
+      "vol": 590,
+      "kd": 59.0,
+      "cpc": 4.56,
+      "traffic": 35.0,
+      "url": "https://www.polln.com/library/travelling-as-a-medicinal-cannabis-patient-in-australia-what-you-need-to-know",
+      "intents": "informational",
+      "serp": "Sitelinks, Video, Related searches, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "difference between sativa and indica",
+      "pos": 1,
+      "vol": 590,
+      "kd": 68.0,
+      "cpc": 0.0,
+      "traffic": 35.0,
+      "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+      "intents": "informational",
+      "serp": "Image pack, Sitelinks, Video, Related searches, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "pollin",
+      "pos": 2,
+      "vol": 260,
+      "kd": 24.0,
+      "cpc": 2.33,
+      "traffic": 34.0,
+      "url": "https://www.polln.com/contact",
+      "intents": "navigational, transactional",
+      "serp": "Related searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "medical marijuanas qld cost",
+      "pos": 1,
+      "vol": 210,
+      "kd": 6.0,
+      "cpc": 0.0,
+      "traffic": 27.0,
+      "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia",
+      "intents": "informational",
+      "serp": "Sitelinks, Related searches, AI overview",
+      "topic": "Pricing"
+    }
+  ],
+  "nonbrand_keywords": [
+    {
+      "kw": "poln",
+      "pos": 1,
+      "vol": 90,
+      "kd": 28.0,
+      "cpc": 4.24,
+      "traffic": 72.0,
+      "url": "https://www.polln.com/",
+      "intents": "navigational",
+      "serp": "Sitelinks, Video, People also ask, Related searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "difference between indica and sativa",
+      "pos": 1,
+      "vol": 1000,
+      "kd": 69.0,
+      "cpc": 0.0,
+      "traffic": 60.0,
+      "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+      "intents": "informational",
+      "serp": "Image pack, Sitelinks, Video, Video Carousel, People also ask, Related searches, Short videos, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "how long does weed stay in your system australia",
+      "pos": 1,
+      "vol": 880,
+      "kd": 35.0,
+      "cpc": 0.0,
+      "traffic": 53.0,
+      "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system",
+      "intents": "informational",
+      "serp": "Video, Related searches, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "vaping weed",
+      "pos": 1,
+      "vol": 1300,
+      "kd": 54.0,
+      "cpc": 0.0,
+      "traffic": 45.0,
+      "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+      "intents": "informational",
+      "serp": "Sitelinks, Video, Video Carousel, People also ask, AI overview",
+      "topic": "Other"
+    },
+    {
+      "kw": "can you smoke medical marijuanas in australia in public",
+      "pos": 1,
+      "vol": 590,
+      "kd": 59.0,
+      "cpc": 4.56,
+      "traffic": 35.0,
+      "url": "https://www.polln.com/library/travelling-as-a-medicinal-cannabis-patient-in-australia-what-you-need-to-know",
+      "intents": "informational",
+      "serp": "Sitelinks, Video, Related searches, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "difference between sativa and indica",
+      "pos": 1,
+      "vol": 590,
+      "kd": 68.0,
+      "cpc": 0.0,
+      "traffic": 35.0,
+      "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+      "intents": "informational",
+      "serp": "Image pack, Sitelinks, Video, Related searches, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "medical marijuanas qld cost",
+      "pos": 1,
+      "vol": 210,
+      "kd": 6.0,
+      "cpc": 0.0,
+      "traffic": 27.0,
+      "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia",
+      "intents": "informational",
+      "serp": "Sitelinks, Related searches, AI overview",
+      "topic": "Pricing"
+    },
+    {
+      "kw": "best online medical cannabis australia",
+      "pos": 1,
+      "vol": 210,
+      "kd": 47.0,
+      "cpc": 0.0,
+      "traffic": 27.0,
+      "url": "https://www.polln.com/",
+      "intents": "commercial",
+      "serp": "Sitelinks, Video, People also ask, Related searches, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "medical marijuanas nsw online",
+      "pos": 4,
+      "vol": 590,
+      "kd": 39.0,
+      "cpc": 0.0,
+      "traffic": 25.0,
+      "url": "https://www.polln.com/",
+      "intents": "informational",
+      "serp": "Video, People also ask, Related searches, Ads middle, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "medical cannabis australia online",
+      "pos": 3,
+      "vol": 390,
+      "kd": 48.0,
+      "cpc": 0.0,
+      "traffic": 25.0,
+      "url": "https://www.polln.com/",
+      "intents": "informational",
+      "serp": "Related searches, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "medical marijuanas perth",
+      "pos": 6,
+      "vol": 880,
+      "kd": 54.0,
+      "cpc": 66.98,
+      "traffic": 21.0,
+      "url": "https://www.polln.com/locations/perth",
+      "intents": "informational",
+      "serp": "Knowledge panel, Video, People also ask, Related searches, Discussions and forums, AI overview",
+      "topic": "Locations"
+    },
+    {
+      "kw": "online cannabis prescription australia",
+      "pos": 4,
+      "vol": 480,
+      "kd": 51.0,
+      "cpc": 0.0,
+      "traffic": 21.0,
+      "url": "https://www.polln.com/",
+      "intents": "informational",
+      "serp": "Video, Related searches, AI overview",
+      "topic": "Clinic / Doctor"
+    }
+  ],
+  "top_backlinks": [
+    {
+      "url": "https://polln.com/",
+      "title": "",
+      "code": "200",
+      "backlinks": 367,
+      "domains": 230
+    },
+    {
+      "url": "https://www.polln.com/",
+      "title": "",
+      "code": "200",
+      "backlinks": 246,
+      "domains": 167
+    },
+    {
+      "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+      "title": "",
+      "code": "200",
+      "backlinks": 246,
+      "domains": 236
+    },
+    {
+      "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+      "title": "",
+      "code": "200",
+      "backlinks": 240,
+      "domains": 219
+    },
+    {
+      "url": "https://www.polln.com/library/travelling-as-a-medicinal-cannabis-patient-in-australia-what-you-need-to-know",
+      "title": "",
+      "code": "200",
+      "backlinks": 235,
+      "domains": 235
+    },
+    {
+      "url": "https://www.polln.com/locations/adelaide",
+      "title": "",
+      "code": "200",
+      "backlinks": 127,
+      "domains": 112
+    },
+    {
+      "url": "https://www.polln.com/library/how-long-do-edibles-take-to-expire",
+      "title": "",
+      "code": "200",
+      "backlinks": 100,
+      "domains": 100
+    },
+    {
+      "url": "https://www.polln.com/locations/canberra",
+      "title": "",
+      "code": "200",
+      "backlinks": 100,
+      "domains": 100
+    },
+    {
+      "url": "https://www.polln.com/medicinal-cannabis-library/everything-you-need-to-know-about-cannabis-terpenes",
+      "title": "",
+      "code": "200",
+      "backlinks": 55,
+      "domains": 50
+    },
+    {
+      "url": "http://polln.com/",
+      "title": "",
+      "code": "200",
+      "backlinks": 47,
+      "domains": 39
+    }
+  ],
+  "backlink_groups": [
+    {
+      "name": "Library / Editorial",
+      "backlinks": 838,
+      "pages": 6
+    },
+    {
+      "name": "Homepage",
+      "backlinks": 681,
+      "pages": 4
+    },
+    {
+      "name": "Locations",
+      "backlinks": 240,
+      "pages": 6
+    },
+    {
+      "name": "Other",
+      "backlinks": 125,
+      "pages": 29
+    },
+    {
+      "name": "Shop",
+      "backlinks": 5,
+      "pages": 2
+    },
+    {
+      "name": "Patient portal",
+      "backlinks": 5,
+      "pages": 2
+    },
+    {
+      "name": "Practitioners",
+      "backlinks": 1,
+      "pages": 1
+    }
+  ],
+  "backlink_hosts": [
+    {
+      "name": "International / other",
+      "backlinks": 1895,
+      "pages": 50
+    }
+  ],
+  "backlink_histogram": [
+    {
+      "label": "1",
+      "pages": 13,
+      "backlinks": 13
+    },
+    {
+      "label": "2\u20135",
+      "pages": 22,
+      "backlinks": 59
+    },
+    {
+      "label": "6\u201320",
+      "pages": 4,
+      "backlinks": 39
+    },
+    {
+      "label": "21\u201350",
+      "pages": 2,
+      "backlinks": 68
+    },
+    {
+      "label": "51\u2013200",
+      "pages": 4,
+      "backlinks": 382
+    },
+    {
+      "label": "200+",
+      "pages": 5,
+      "backlinks": 1334
+    }
+  ],
+  "notes": {
+    "position": "challenger-refined",
+    "verdict_tone": "amber",
+    "verdict_label": "Out-publish them",
+    "tagline": "A smaller, content-led player. Real subdomain architecture, a credible library, and an honest practitioner page \u2014 but only 4.8K visits / mo and 70% of it is brand. The non-brand library and locations are the only real organic engine.",
+    "period": "April 2026",
+    "brand": {
+      "visual_system": [
+        "Pastel green + cream palette \u2014 calm, professional, modern Webflow build.",
+        "Photography mixes patients, clinicians and lifestyle \u2014 closer to wellness than retail.",
+        "Generous whitespace, rounded cards, large display type.",
+        "Patient portal and shop on dedicated subdomains (patient., shop.) \u2014 proper SaaS-style separation."
+      ],
+      "site_architecture": [
+        "Three properties: www (marketing), patient (portal), shop (Shopify).",
+        "/library \u2014 ~16 long-form editorial posts; the most credible content on the site.",
+        "/locations \u2014 11 city pages, lightweight but ranking.",
+        "/practitioners \u2014 named clinicians with bios \u2014 strong E-E-A-T signal that most competitors skip.",
+        "/faqs and /location-faqs \u2014 heavy informational coverage targeting long-tail questions."
+      ],
+      "tone_compliance": [
+        "Compliant clinical language \u2014 consultations, eligibility, treatment plans.",
+        "Library posts use plain-English explainers; cites TGA framework correctly.",
+        "Names individual prescribers on /practitioners \u2014 rare in this category.",
+        "No specific-condition claims on commercial pages."
+      ]
+    },
+    "eeat": {
+      "https": "green",
+      "schema_medical": "amber",
+      "author_bylines": "green",
+      "medical_reviewer": "amber",
+      "core_web_vitals": "amber",
+      "freshness": "amber",
+      "notes": "Polln is the cleanest of the small-cap competitors on E-E-A-T: real named practitioners, dated library posts, plain-English clinical copy. Schema coverage is partial \u2014 Organization and Person are present, MedicalCondition / MedicalWebPage are not. Library cadence has slowed."
+    },
+    "verdict": {
+      "steal": [
+        {
+          "play": "Three-property architecture (www + patient + shop)",
+          "effort": 4,
+          "impact": 4,
+          "note": "Patient portal earns 637 visits / mo on 6 keywords \u2014 defensive brand+navigational traffic that compounds. Cheap separation that signals scale."
+        },
+        {
+          "play": "Named practitioner pages with bios",
+          "effort": 2,
+          "impact": 4,
+          "note": "/practitioners/dr-joel-wren earns 25 visits / mo just on name search. Strongest E-E-A-T signal in the deck. Replicable in a week with our roster."
+        },
+        {
+          "play": "Long-form library posts on category questions",
+          "effort": 3,
+          "impact": 4,
+          "note": "5 library posts produce 100+ visits each \u2014 sativa-vs-indica, vaping guide, how-long-does-cannabis-stay. Educational, evergreen, citable. Highest organic ROI on the site."
+        },
+        {
+          "play": "Location pages with embedded FAQs",
+          "effort": 3,
+          "impact": 3,
+          "note": "11 city pages, each paired with a location-FAQ page targeting 'authorised prescribers [state]'. Beats Herbly's storefront template on intent depth."
+        },
+        {
+          "play": "Plain-English category explainers",
+          "effort": 2,
+          "impact": 3,
+          "note": "Their library out-ranks larger competitors on educational queries because the copy is patient-facing, not pharma-facing. Match the tone."
+        }
+      ],
+      "avoid": [
+        {
+          "trap": "Library publishing slowdown",
+          "evidence": "16 library posts is the entire editorial inventory. Cadence has dropped \u2014 recent dates are sparse. The asset that works is starving for fresh entries."
+        },
+        {
+          "trap": "Thin location coverage",
+          "evidence": "11 city pages with only 2 ranking meaningfully (Perth, Adelaide ~54 visits each). Templated but not deep enough to defend."
+        },
+        {
+          "trap": "Brand-dependent demand",
+          "evidence": "70% of traffic is brand \u2014 2,320 visits on 'polln' alone. Outside the brand fortress, the organic engine is small."
+        },
+        {
+          "trap": "Dormant page-2+ inventory",
+          "evidence": "Hundreds of keywords ranking #21\u2013100 producing near-zero traffic. The site has reach but not depth on most queries."
+        }
+      ],
+      "implications": [
+        "Polln is the credibility template \u2014 named clinicians, library, FAQs done right.",
+        "The library is small and slowing \u2014 they cannot out-publish a serious content programme.",
+        "Locations and 'near me' are still wide open at suburb level.",
+        "Out-author them on the same topics \u2014 they prove demand, we win SERPs with depth + cadence."
+      ]
+    },
+    "gap_matrix": [
+      {
+        "topic": "Brand defence",
+        "polln": 4,
+        "hellomello": 1,
+        "comment": "Brand search is theirs."
+      },
+      {
+        "topic": "Pricing transparency",
+        "polln": 3,
+        "hellomello": 1,
+        "comment": "Match it \u2014 /pricing on day one."
+      },
+      {
+        "topic": "Clinic / doctor SEO",
+        "polln": 3,
+        "hellomello": 0,
+        "comment": "Best in class. Mirror /practitioners/{name}."
+      },
+      {
+        "topic": "Conditions content",
+        "polln": 1,
+        "hellomello": 0,
+        "comment": "Open. They publish thin condition pages."
+      },
+      {
+        "topic": "Locations / pSEO",
+        "polln": 2,
+        "hellomello": 0,
+        "comment": "11 city pages \u2014 easy to out-template at suburb level."
+      },
+      {
+        "topic": "'Near me' queries",
+        "polln": 1,
+        "hellomello": 0,
+        "comment": "Largely undefended."
+      },
+      {
+        "topic": "Library / editorial",
+        "polln": 3,
+        "hellomello": 0,
+        "comment": "Steal the format. Out-publish on cadence."
+      },
+      {
+        "topic": "Reviews / social proof",
+        "polln": 2,
+        "hellomello": 0,
+        "comment": "Inline only. Embed Trustpilot."
+      },
+      {
+        "topic": "Patient portal SEO",
+        "polln": 4,
+        "hellomello": 0,
+        "comment": "Subdomain harvests 637 visits/mo of brand+nav."
+      },
+      {
+        "topic": "FAQ long-tail",
+        "polln": 4,
+        "hellomello": 0,
+        "comment": "27 faqs + 9 location-faqs ranking. Replicate."
+      }
+    ]
+  }
+}

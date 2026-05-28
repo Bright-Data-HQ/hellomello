@@ -1,0 +1,70 @@
+{
+  "position": "challenger",
+  "verdict_tone": "amber",
+  "verdict_label": "Out-template them",
+  "tagline": "A small, scrappy Shopify storefront that has quietly built a programmatic-local engine. Their /pages/{city}-dispensary template prints 70% of their traffic — and every single page is catchable with better depth.",
+  "period": "April 2026",
+  "brand": {
+    "visual_system": [
+      "Storefront aesthetic — green leaf palette, product-grid layouts, retail typography.",
+      "Stock cannabis imagery; minimal patient or clinician photography.",
+      "Shopify default UX patterns, fast load times, mobile-first.",
+      "'Shop' and 'dispensary' framing front-and-centre — closer to retail than clinical."
+    ],
+    "site_architecture": [
+      "Single domain on Shopify — no patient portal, no help centre subdomain.",
+      "/pages/{city}-dispensary — ~95 templated city landing pages, the entire SEO engine.",
+      "/blogs/news — 53 editorial posts that rank but earn almost no traffic.",
+      "/pages/plant-medicine-doctors and a thin About / Process layer — no real clinical hub."
+    ],
+    "tone_compliance": [
+      "Aggressive on consumer language — 'dispensary', 'weed', 'cannabis shop' in slugs and titles.",
+      "Higher CTR appeal on near-me queries; higher TGA exposure risk.",
+      "Author bylines absent or anonymous on blog posts — weak E-E-A-T.",
+      "Reviews live as inline testimonials rather than third-party embeds."
+    ]
+  },
+  "eeat": {
+    "https": "green",
+    "schema_medical": "red",
+    "author_bylines": "red",
+    "medical_reviewer": "amber",
+    "core_web_vitals": "green",
+    "freshness": "amber",
+    "notes": "Shopify gives them speed and a clean technical baseline, but the YMYL signals are thin: no MedicalCondition / MedicalWebPage schema, anonymous blog authorship, no visible medical-reviewer process. Their local pages convert on intent, not on trust."
+  },
+  "verdict": {
+    "steal": [
+      { "play": "Programmatic /pages/{city}-dispensary template", "effort": 2, "impact": 5, "note": "83 city pages earn 580 visits / mo — the entire model. Replicate the template at suburb level for the top 5 metros, with proper clinical authority on top." },
+      { "play": "Aggressive 'dispensary' / 'near me' framing (compliant version)", "effort": 2, "impact": 4, "note": "They walked into a geo vocabulary larger compliant clinics avoid. Use the same intent language in title tags + H1s without crossing TGA lines on body copy." },
+      { "play": "Shopify-speed technical baseline", "effort": 2, "impact": 3, "note": "Their CWV is good because the platform forces it. Whatever stack we ship, match the load profile — every city page must feel instant." },
+      { "play": "City-page schema (LocalBusiness + FAQ)", "effort": 1, "impact": 3, "note": "Herbly under-uses schema; adding LocalBusiness / FAQ / MedicalBusiness markup to our city pages is a cheap CTR uplift in SERP features." },
+      { "play": "Capital-city + suburb pSEO blitz", "effort": 3, "impact": 5, "note": "Sydney, Melbourne, Perth coverage is uneven for Herbly. The high-volume metros are wide open to a well-templated, clinically-anchored attack." },
+      { "play": "Condition + city cross-templating", "effort": 4, "impact": 4, "note": "Herbly publishes one or the other (city page OR condition post). The crossover — 'medical cannabis for anxiety in Brisbane' — is uncontested high-intent inventory." }
+    ],
+    "avoid": [
+      { "trap": "Editorial blog without authorship", "evidence": "53 /blogs/ posts earn 27 visits / mo total. Ranking but not winning — anonymous bylines, no medical reviewer, no freshness." },
+      { "trap": "Dormant page-2+ inventory", "evidence": "460 keywords at #51–100 produce zero traffic; another 286 at #21–50 produce 15. Three-quarters of the inventory is parked." },
+      { "trap": "Storefront language on YMYL pages", "evidence": "'Weed shop', 'cannabis shop' in /pages/ titles — higher CTR but real TGA risk. Don't copy the slugs verbatim." },
+      { "trap": "Thin / About-page-only clinical hub", "evidence": "131 condition keywords ranking earn 13 visits. Publishing into the space without credentials returns nothing." }
+    ],
+    "implications": [
+      "The template is the moat, not the brand — replicable in weeks with better depth.",
+      "Capital cities and suburb-level pSEO are wide open — Herbly only goes as deep as the regional / city level.",
+      "Clinical authority is the wedge — pair their template with our credentials and we out-rank page by page.",
+      "Their compliance exposure is our defence: stay clean on copy, win on E-E-A-T."
+    ]
+  },
+  "gap_matrix": [
+    { "topic": "Brand defence",         "herbly": 2, "hellomello": 1, "comment": "Small brand, low recognition." },
+    { "topic": "Pricing transparency",  "herbly": 1, "hellomello": 1, "comment": "Open — publish a real /pricing." },
+    { "topic": "Clinic / doctor SEO",   "herbly": 1, "hellomello": 0, "comment": "Thin About page only. Author it properly." },
+    { "topic": "Conditions content",    "herbly": 1, "hellomello": 0, "comment": "131 kw ranking → 13 visits. We win this with E-E-A-T." },
+    { "topic": "Locations / pSEO",      "herbly": 4, "hellomello": 0, "comment": "Their engine. Replicate + go deeper." },
+    { "topic": "'Near me' queries",     "herbly": 3, "hellomello": 0, "comment": "Owned by Herbly today. Catchable." },
+    { "topic": "Capital-city coverage", "herbly": 2, "hellomello": 0, "comment": "Regional-heavy; metros are open." },
+    { "topic": "Reviews / social proof","herbly": 1, "hellomello": 0, "comment": "Inline testimonials only — embed Trustpilot." },
+    { "topic": "Editorial / link bait", "herbly": 1, "hellomello": 0, "comment": "Blog is dormant. Low bar to beat." },
+    { "topic": "Help / support SEO",    "herbly": 0, "hellomello": 0, "comment": "No subdomain. Long-tail informational is empty inventory." }
+  ]
+}
