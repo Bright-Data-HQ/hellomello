@@ -157,6 +157,97 @@ Sent ahead of the Friday meeting:
 
 ---
 
+## 2026-06-01 (Mon, 16:57) — Vahid → Rod
+**Topics:** post-call recap, location landing pages, five-pillar roadmap, Bright Data deliverables, requests from Rod
+
+Recap of the Friday call and next steps.
+
+**What we agreed**
+- Prioritise **location-specific landing pages** for the top 20 suburbs, split across delivery and pickup intent.
+- Build an **organic growth roadmap on five pillars**: brand, location, condition, education, and clinical expertise — all kept within TGA boundaries.
+
+**What Bright Data is handling (this week unless noted)**
+- Building out the [company profile](https://client.brightdata.com.au/hellomello) as the single source of truth (brand guidelines, strategy doc, competitive analysis). Deep-dive on the four major competitors complete; remainder being added.
+- Finalising the suggested content pillars / educational topics for sign-off.
+- Reviewing and rewriting **technical SEO sitewide**.
+- CRO + UX/UI + SEO review of the homepage ahead of launch (Tuesday).
+- Building location landing pages and contextual copy once suburb data is received (before 14 June).
+- Booking a one-hour follow-up on performance and the tech offload (in 2–3 weeks).
+
+**What Bright Data needs from Rod**
+- TGA warning letter re: restricted terms (chronic pain, anxiety, depression) — *received, thanks*.
+- List of **20 best-performing suburbs** by patient residence to drive landing page priority.
+- Any supporting clinical references (PubMed etc.) to strengthen content credibility.
+
+---
+
+## 2026-06-02 (Tue, 15:12) — Rod → Vahid, Alex
+**Topics:** reply to recap (inline comments), pSEO strategy doubts, scope of suburbs, TGA/YMYL content sign-off, technical SEO scope, suburb data commitment
+
+Forwarded Vahid's 2026-06-01 recap back with inline comments (in blue). Key responses:
+
+- **On location landing pages / pSEO:** Notes Bright Data's analysis shows **Herbly's pSEO**, while comprehensive, doesn't appear successful — they rank low vs competition and the traffic looks low value. Defers to Bright Data's expertise: if the strategy has potential and can be optimised, proceed. Asks directly:
+  - Is this the **best strategy** for Hellomello based on the business landscape, with the most potential?
+  - Since pSEO is dynamic and database-fed, **why only 20 suburbs?** Assumes no additional work once templates/foundations are set up, so why not do more.
+- **On the five-pillar roadmap / TGA:** Agrees content rollout is needed but must stay within TGA boundaries. Cites risk examples — **Polln** risks fines by mentioning cannabis on-site (e.g. blog "How to Get Medical Cannabis in Australia"); **Alternaleaf** has removed similar articles. Asks:
+  - Do **HM doctors need to sign off** on content for YMYL topics, or can content written by **3rd-party doctors** be published?
+- **On technical SEO:** Asks Bright Data to share a **list of the technical SEO work** needed. Points to the [SEO Handover doc](https://docs.google.com/spreadsheets/d/1qT3972ykMl2jVu4chdMuvdBqaKGrocdsfBwxnm0wvZc/edit?usp=sharing) listing the key items the in-house team was working on, and wants to understand what **additional areas** Bright Data's team is covering.
+- **On homepage CRO/UX review (Tuesday):** Asks whether "Tuesday" means today or next week.
+- **On suburb data:** Will send a list of top-performing suburbs / cities.
+- **On clinical references:** Has nothing to provide; leaves this with Bright Data.
+
+---
+
+## 2026-06-03 (Wed, 09:05) — Vahid → Rod
+**Topics:** homepage + pricing content review, telehealth → alternative healthcare framing, competitor homepage benchmarking, homepage depth
+
+Content pass on the new homepage and pricing page (based on screenshots only — FAQ setup, schema, meta titles/descriptions and technical SEO come once the page is live). Verdict: content is in good shape, warm and clear, with one main change plus a few small tweaks.
+
+**The main change — reframe from "telehealth" to "alternative healthcare"**
+- Both pages currently lead with "telehealth", a huge, crowded national term that's hard to win.
+- "Alternative healthcare" is the winnable term every competitor is chasing — that search group pulls **over 4,500/month**.
+- Not about cramming the phrase in; it just needs to land in the right couple of spots per page (the small label above the headline, and the first line of body copy), then read naturally.
+
+**Competitor benchmarking (live homepages pulled to verify)** — all lead with "alternative":
+- **Alternaleaf:** title "Trusted Alternative Healthcare Services"; headline "Australia's leading alternative health clinic".
+- **Polln:** "Australia's first online alternative healthcare clinic".
+- **Easykind:** title "Alternative healthcare Australia".
+- **Candor:** headline "Candid about alternative healthcare".
+- Usage count of "alternative" on each homepage: Alternaleaf 27, Easykind 18, Candor 8, Herbly 8, Polln 6. Count isn't the point (Alternaleaf is highest because it has the most page content); the point is **every competitor leads with it in title + opening line**. Hellomello's pages lead with "telehealth" and mention "alternative healthcare" only once, down in the FAQ. Competitors keep the headline human and let the keyword sit in the small label and page title.
+
+**Homepage tweaks**
+- Eyebrow: "Australia's Alternative Telehealth Clinic" → **"Australia's Online Alternative Healthcare Clinic"** ("alternative healthcare clinic" gets searched; "alternative telehealth clinic" doesn't).
+- Headline: "Telehealth consultations built around you." → e.g. **"Healthcare built around you."** (drop "telehealth"; keyword needn't be in the headline).
+- First body line: "Online telehealth consultations for real life." → **"Online alternative healthcare for real life."** (keep the following sentence).
+- FAQ heading "Common questions about alternative healthcare" is already perfect — leave it.
+- Everything else reads well, leave as is.
+
+**Pricing page tweaks**
+- Eyebrow: "Telehealth Pricing" → **"Alternative Healthcare Pricing"**.
+- Headline: "Simple, upfront telehealth pricing" → **"Simple, upfront pricing"** (prices are on the cards anyway).
+- Subhead: one natural mention, e.g. **"Simple, upfront pricing for alternative healthcare. No hidden fees, no surprises."**
+- Pricing cards are the strongest part of either page — leave exactly as is.
+
+**For down the track:** homepage is a bit light on content vs competitors (depth helps ranking). Not a blocker — fine to ship as is — but flagged for the wider website revamp; building out useful content over time is part of the broader site work.
+
+**In short:** content is solid; the real job is shifting the framing from "telehealth" to "alternative healthcare", done naturally in a couple of spots per page. FAQ, schema, titles, descriptions and technical SEO follow once the page is built.
+
+---
+
+## 2026-06-03 (Wed, 09:13) — Vahid → Rod, Alex
+**Topics:** reply to Rod's 2026-06-02 inline comments — pSEO/Herbly, staged 20-suburb rollout, YMYL doctor sign-off, technical SEO list, homepage review status
+
+Responses to Rod's questions:
+
+- **On pSEO and Herbly:** Caution against leaning on third-party tool traffic numbers — they're only rough, not a reliable measure of how well a strategy works. What's clear is Herbly's **city pages do pull traffic and rank for the right terms** — a solid sign the approach works. Their gap is **depth and authority, not the pSEO idea itself** — exactly the gap Bright Data closes.
+- **pSEO + pillar pages run together, not sequentially:** pillars build authority, pSEO pages give coverage, and they feed each other. Bright Data goes **deeper than Herbly, down to suburb level** where the big metros are wide open. Confident pSEO is the best play **as long as it's done well**, with clear success metrics agreed up front.
+- **On only 20 suburbs:** this is the **starting batch, not the limit**. Prove the engine on the best 20 first, then scale to hundreds plus conditions and other page types. A **staged rollout keeps Google happy** and it's far cheaper to fix the template on 20 pages than on 200.
+- **On doctor sign-off:** keep it simple to start — **no HM doctor needs to sign off every piece right now**. Use **3rd-party doctors as the named reviewer** to keep things moving with a credible name on the page. Adding an HM doctor later would be a bonus, not a blocker. **Final publish call stays with Rod**, everything kept inside TGA boundaries.
+- **On technical SEO:** will share the full list once done, as a **simple table against the handover doc** showing what's already covered in-house and what Bright Data is adding, with no overlap.
+- **On the homepage review:** already sent (see 09:05 email).
+
+---
+
 ## Open Items / Commitments
 
 | Item | Owner | Status |
@@ -175,6 +266,25 @@ Sent ahead of the Friday meeting:
 | Success metrics agreement | Both | To agree at Fri 2026-05-29 meeting |
 | pSEO landing page design process walkthrough | Vahid | Fri 2026-05-29 meeting |
 | Content approval process walkthrough | Vahid | Fri 2026-05-29 meeting |
+| Confirm pSEO is best strategy + justify 20-suburb cap | Vahid | Asked by Rod 2026-06-02 |
+| Clarify YMYL content sign-off (HM doctors vs 3rd-party) | Vahid | Asked by Rod 2026-06-02 |
+| Share list of technical SEO work + scope vs in-house | Vahid | Asked by Rod 2026-06-02 |
+| Clarify homepage CRO/UX review date ("Tuesday") | Vahid | Asked by Rod 2026-06-02 |
+| Company profile (single source of truth) build-out | Vahid | In progress (this week, per 2026-06-01) |
+| 4 major competitor deep-dives | Vahid | Complete (per 2026-06-01); rest being added |
+| Suggested content pillars / topics for sign-off | Vahid | This week (per 2026-06-01) |
+| Sitewide technical SEO review + rewrite | Vahid | This week (per 2026-06-01) |
+| Homepage CRO + UX/UI + SEO review | Vahid | Targeted Tuesday (per 2026-06-01) |
+| Location landing pages build | Vahid | Before 14 June (per 2026-06-01) |
+| One-hour follow-up (performance + tech offload) | Vahid | In 2–3 weeks (per 2026-06-01) |
+| TGA warning letter | Rod | Received (per 2026-06-01) |
+| List of 20 best-performing suburbs | Rod | Committed 2026-06-02 — to send |
+| Clinical references (PubMed etc.) | Rod | None available — left to Bright Data |
+| Confirm pSEO is best strategy + justify 20-suburb cap | Vahid | Answered 2026-06-03 — staged rollout, prove on 20 then scale |
+| Clarify YMYL content sign-off (HM doctors vs 3rd-party) | Vahid | Answered 2026-06-03 — 3rd-party reviewer OK to start; HM doctor optional later |
+| Share list of technical SEO work + scope vs in-house | Vahid | Answered 2026-06-03 — will send as table vs handover doc (no overlap) |
+| Homepage + pricing content review (telehealth → alternative healthcare) | Vahid | Delivered 2026-06-03 |
+| Apply homepage/pricing copy changes (eyebrow, headline, body line, subhead) | Rod | Open — recommended 2026-06-03 |
 
 ---
 
@@ -188,3 +298,13 @@ Sent ahead of the Friday meeting:
   - Blog centre + article layout: $1,500–$2,500 ex GST
 - **Standing meeting:** Fri 2026-05-29, 10:00–10:45 AM AEST (Brisbane) — strategy + action items + pSEO + content approval
 - **Kickoff meeting (reference):** 2026-05-15, 12:00 AEST — Kickoff & Build Phase Plan (Gemini notes linked above)
+- **Company profile (single source of truth):** https://client.brightdata.com.au/hellomello — holds brand guidelines, strategy doc, competitive analysis
+- **Five-pillar roadmap:** brand, location, condition, education, clinical expertise (all within TGA boundaries)
+- **Location landing pages:** top 20 suburbs, split delivery vs pickup intent; build targeted before 14 June
+- **TGA restricted terms (per 2026-06-01):** chronic pain, anxiety, depression
+- **Competitor signals (Rod, 2026-06-02):** Herbly pSEO comprehensive but low ranking / low-value traffic; Polln risks fines mentioning cannabis on-site; Alternaleaf removed similar articles
+- **Bright Data view on Herbly (2026-06-03):** city pages do pull traffic and rank for the right terms — pSEO works; their gap is depth/authority, not the pSEO idea. Tool traffic numbers are only rough — don't over-rely on them
+- **pSEO model (2026-06-03):** pSEO + pillar pages run together (pillars = authority, pSEO = coverage); go deeper than Herbly to suburb level; 20 suburbs is the proving batch, then scale to hundreds + conditions
+- **YMYL content sign-off (resolved 2026-06-03):** 3rd-party doctors can be the named reviewer to start; HM doctor sign-off optional later, not a blocker; final publish call stays with Rod, within TGA boundaries
+- **Core keyword shift (2026-06-03):** move homepage + pricing framing from "telehealth" to **"alternative healthcare"** (~4,500 searches/month); every competitor leads with "alternative" in title + opening line. "alternative" homepage usage: Alternaleaf 27, Easykind 18, Candor 8, Herbly 8, Polln 6
+- **Competitor homepage framing:** Alternaleaf "Trusted Alternative Healthcare Services" / "Australia's leading alternative health clinic"; Polln "Australia's first online alternative healthcare clinic"; Easykind "Alternative healthcare Australia"; Candor "Candid about alternative healthcare"

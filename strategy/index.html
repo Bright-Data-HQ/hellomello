@@ -150,6 +150,14 @@ section{margin-bottom:96px;scroll-margin-top:32px}
 .card.ok{border-left:3px solid var(--ok-fg)}
 .card.ok h4{color:var(--ok-fg)}
 
+/* Glossary */
+.glossary{border:1px solid var(--border-strong);border-radius:14px;background:var(--surface);margin-top:14px;overflow:hidden}
+.glossary dl{margin:0;display:grid;grid-template-columns:170px 1fr}
+.glossary dt{font-family:var(--font-mono);font-size:11.5px;font-weight:600;letter-spacing:.06em;color:var(--green);text-transform:uppercase;padding:16px 18px;border-bottom:1px solid var(--border);background:var(--cream-2);display:flex;align-items:flex-start}
+.glossary dd{margin:0;padding:16px 20px;font-size:13.5px;color:var(--ink-2);line-height:1.6;border-bottom:1px solid var(--border)}
+.glossary dl > dt:last-of-type,.glossary dl > dd:last-of-type{border-bottom:0}
+.inline-def{border-bottom:1px dotted var(--muted);cursor:help}
+
 /* Foot */
 .foot{border-top:1px solid var(--border-strong);padding-top:32px;margin-top:80px;display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-family:var(--font-mono);font-size:11.5px}
 
@@ -199,6 +207,8 @@ section{margin-bottom:96px;scroll-margin-top:32px}
       <li><a href="#metrics">Success metrics</a></li>
       <li><a href="#process">Content approval & pSEO process</a></li>
       <li><a href="#risks">Compliance guardrails</a></li>
+      <li><a href="#tga-scan">TGA-restricted topics: what competitors do</a></li>
+      <li><a href="#glossary">Glossary</a></li>
     </ol>
   </nav>
 
@@ -340,16 +350,16 @@ section{margin-bottom:96px;scroll-margin-top:32px}
       <div class="pillar">
         <div class="p-n">Pillar 04 · Authority</div>
         <h3>E-E-A-T &amp; trust</h3>
-        <p class="why">Polln's named practitioner pages rank on the clinicians' names alone. Named clinicians are the strongest moat in the category, and one of the cheapest to build.</p>
+        <p class="why"><b>E-E-A-T</b> is Google's framework for ranking health and medical content: <b>Experience</b>, <b>Expertise</b>, <b>Authoritativeness</b>, <b>Trustworthiness</b>. For YMYL (Your Money or Your Life) topics like medical cannabis, Google needs to see a real, named, credentialled human behind the page. Polln's named practitioner pages already rank on the clinicians' names alone. Named clinicians are the strongest moat in the category, and one of the cheapest to build.</p>
         <p class="what">Roll out /practitioners/{name} with real bios, registration numbers, and Person schema. Add medical-reviewer blocks on every YMYL page across pillars 02 and 03. Replace inline testimonials with Trustpilot embeds.</p>
         <div class="kpi">Target: <b>practitioner pages live</b>, <b>review volume</b>, <b>schema coverage on YMYL pages</b>.</div>
       </div>
       <div class="pillar">
         <div class="p-n">Pillar 05 · Commercial</div>
-        <h3>Commercial &amp; conversion</h3>
+        <h3>Commercial pages</h3>
         <p class="why">Pricing transparency is a top-3 page for Alternaleaf. Reviews rank too. We are leaving easy commercial wins on the table.</p>
-        <p class="what">Publish a real /pricing page, /reviews with embedded Trustpilot, a refreshed /how-it-works flow, and the refreshed homepage (mockup already in review). Measure conversion per source, not just traffic.</p>
-        <div class="kpi">Target: <b>consult-form completion rate</b>, <b>organic conversion rate</b>, <b>CWV pass on all commercial pages</b>.</div>
+        <p class="what">Publish a real /pricing page, /reviews with embedded Trustpilot, a refreshed /how-it-works flow, and the refreshed homepage (mockup already in review). Measure consult-form completions per source, not just traffic.</p>
+        <div class="kpi">Target: <b>consult-form completions per source</b>, <b>CWV pass on all commercial pages</b>.</div>
       </div>
     </div>
   </section>
@@ -414,7 +424,7 @@ section{margin-bottom:96px;scroll-margin-top:32px}
           <li>Help / FAQ subdomain (or /help) live</li>
           <li>City-specific editorial explainers (link bait)</li>
           <li>Condition cluster v2 gap analysis</li>
-          <li>CRO pass on top organic landing pages</li>
+          <li>UX review of top organic landing pages</li>
         </ul>
         <div class="focus">Focus · Depth</div>
       </div>
@@ -436,18 +446,17 @@ section{margin-bottom:96px;scroll-margin-top:32px}
   <section id="metrics">
     <p class="sec-num">07 / Success metrics</p>
     <h2 class="sec-title">Agreed upfront, measured monthly.</h2>
-    <p class="sec-lead">Per Rod's 26 May ask: we agree the metrics, baseline them now, and report against them every month. The targets below are draft anchors for the Friday call, to be finalised jointly.</p>
+    <p class="sec-lead">Per Rod's 26 May ask: we agree the metrics, baseline them now, and report against them every month. The list below is the proposed shape, no numbers committed. Targets are set jointly on Friday once baselines are in front of us.</p>
 
     <div class="metrics">
       <div class="r head"><div>Metric</div><div>Baseline (May'26)</div><div>3-month target</div><div>6-month target</div><div>Why it matters</div></div>
-      <div class="r"><div class="m">Non-brand organic visits / mo</div><div class="v">TBC (snapshot)</div><div class="v t">+50%</div><div class="v t">+200%</div><div class="why">The honest measure of category demand we've earned.</div></div>
-      <div class="r"><div class="m">Indexed pages</div><div class="v">16</div><div class="v t">~80</div><div class="v t">~250</div><div class="why">Locations + conditions + library publishing volume.</div></div>
-      <div class="r"><div class="m">Non-brand keywords (top 20)</div><div class="v">TBC</div><div class="v t">+100</div><div class="v t">+400</div><div class="why">Real rankings, not vanity impressions.</div></div>
-      <div class="r"><div class="m">Conversion rate (organic)</div><div class="v">TBC</div><div class="v t">+15%</div><div class="v t">+30%</div><div class="why">Traffic that doesn't convert isn't a result.</div></div>
-      <div class="r"><div class="m">GBP actions / mo</div><div class="v">TBC</div><div class="v t">+25%</div><div class="v t">+75%</div><div class="why">Captures local intent that bypasses the website.</div></div>
-      <div class="r"><div class="m">CWV, % URLs passing</div><div class="v">Pass (desktop)</div><div class="v t">100%</div><div class="v t">100%</div><div class="why">Hold the line; don't regress as pages scale.</div></div>
-      <div class="r"><div class="m">Schema coverage (YMYL)</div><div class="v">Partial</div><div class="v t">100% commercial</div><div class="v t">100% YMYL</div><div class="why">MedicalBusiness, MedicalCondition, Person, FAQ.</div></div>
-      <div class="r"><div class="m">Review volume (Trustpilot)</div><div class="v">TBC</div><div class="v t">+100 reviews</div><div class="v t">+300 reviews</div><div class="why">Social proof + SERP rich result eligibility.</div></div>
+      <div class="r"><div class="m">Non-brand organic visits / mo</div><div class="v">TBC (snapshot)</div><div class="v t">TBD</div><div class="v t">TBD</div><div class="why">The honest measure of category demand we've earned.</div></div>
+      <div class="r"><div class="m">Indexed pages</div><div class="v">16</div><div class="v t">TBD</div><div class="v t">TBD</div><div class="why">Locations + conditions + library publishing volume.</div></div>
+      <div class="r"><div class="m">Non-brand keywords (top 20)</div><div class="v">TBC</div><div class="v t">TBD</div><div class="v t">TBD</div><div class="why">Real rankings, not vanity impressions.</div></div>
+      <div class="r"><div class="m">GBP actions / mo</div><div class="v">TBC</div><div class="v t">TBD</div><div class="v t">TBD</div><div class="why">Captures local intent that bypasses the website.</div></div>
+      <div class="r"><div class="m">CWV, % URLs passing</div><div class="v">Pass (desktop)</div><div class="v t">Hold</div><div class="v t">Hold</div><div class="why">Don't regress as pages scale.</div></div>
+      <div class="r"><div class="m">Schema coverage (YMYL)</div><div class="v">Partial</div><div class="v t">TBD</div><div class="v t">TBD</div><div class="why">MedicalBusiness, MedicalCondition, Person, FAQ.</div></div>
+      <div class="r"><div class="m">Review volume (Trustpilot)</div><div class="v">TBC</div><div class="v t">TBD</div><div class="v t">TBD</div><div class="why">Social proof + SERP rich result eligibility.</div></div>
     </div>
   </section>
 
@@ -503,6 +512,89 @@ section{margin-bottom:96px;scroll-margin-top:32px}
     <div class="banner" style="margin-top:24px">
       <b>Sign-off</b>
       <p>Per kickoff (15 May): Rod retains final sign-off on all marketing content and website design. Bright Data provides technical strategy and execution; legal and compliance authority remains with Hellomello.</p>
+    </div>
+  </section>
+
+  <!-- 10 -->
+  <section id="tga-scan">
+    <p class="sec-num">10 / TGA-restricted topics, what competitors do</p>
+    <h2 class="sec-title">Where the line actually sits.</h2>
+    <p class="sec-lead">Rod flagged chronic pain, PTSD, treatment-type pages, and product comparison as TGA-restricted territory. Short answer from the audits: yes, lightly. None of the four competitors have built a defensible commercial product around condition claims, and none are doing product comparisons. The careful operators keep clinical content well away from commercial pages, which is exactly the posture this strategy proposes.</p>
+
+    <div class="matrix">
+      <div class="r head"><div>Competitor</div><div>Posture</div><div>Conditions / treatments on commercial pages</div><div>Product comparison</div></div>
+      <div class="r">
+        <div class="who">Alternaleaf<small>alternaleaf.com.au</small></div>
+        <div><span class="pos green">Cautious</span></div>
+        <div class="what">None on commercial. /hub/ wellness articles only (sleep, energy, dopamine). Adjacent topics, not condition claims.</div>
+        <div class="what">None.</div>
+      </div>
+      <div class="r">
+        <div class="who">Polln<small>polln.com</small></div>
+        <div><span class="pos green">Compliant</span></div>
+        <div class="what">Thin condition pages exist but treated cautiously. Language is compliant: consultations, eligibility, treatment plans.</div>
+        <div class="what">None.</div>
+      </div>
+      <div class="r">
+        <div class="who">Herbly<small>herbly.com.au</small></div>
+        <div><span class="pos amber">Mixed</span></div>
+        <div class="what">Condition blog posts (e.g. anxiety) and city pages exist separately. Never crossed into a commercial-page condition claim.</div>
+        <div class="what">None.</div>
+      </div>
+      <div class="r">
+        <div class="who">Candor<small>candormedical.com</small></div>
+        <div><span class="pos amber">Thin</span></div>
+        <div class="what">/treatments/{condition} URL pattern with around ten pages: alternative therapy, hair loss, ED, herpes, weight loss, contraceptive pill. Short, templated, mostly empty. The cannabis-condition crossover (chronic pain, PTSD) is <b>not</b> on commercial pages.</div>
+        <div class="what">None.</div>
+      </div>
+    </div>
+
+    <div class="two" style="margin-top:24px">
+      <div class="card ok">
+        <h4>What this confirms on the restricted list</h4>
+        <ul>
+          <li><b>Chronic pain / PTSD on commercial pages.</b> None of the four audited competitors do this. Herbly touches anxiety in blog posts, which is the closest. Rod's read that it is restricted territory is correct.</li>
+          <li><b>Treatment-type pages.</b> Only Candor has a /treatments directory, and it is mostly non-cannabis (hair loss, ED, contraceptive). Not condition-claim heavy.</li>
+          <li><b>Product comparison.</b> Zero competitors are doing this.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>What this means for our plan</h4>
+        <p style="margin:0 0 10px;font-size:13.5px;color:var(--ink-2);line-height:1.6">Our instinct holds: keep clinical content in a separate /conditions hub with named clinician sign-off, kept off commercial pages. That is what every careful competitor in the category is already doing.</p>
+        <p style="margin:0;font-size:13.5px;color:var(--ink-2);line-height:1.6">Candor shows the lazy version: thin templated condition pages that do not rank. We are proposing the authored version: fewer pages, real reviewer, citations, dated freshness. Same architecture, different quality bar.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11 -->
+  <section id="glossary">
+    <p class="sec-num">11 / Glossary</p>
+    <h2 class="sec-title">Plain English.</h2>
+    <p class="sec-lead">Acronyms and terms used across this document, defined in the order they typically come up in a strategy conversation.</p>
+
+    <div class="glossary">
+      <dl>
+        <dt>SEO</dt><dd>Search Engine Optimisation. The practice of earning visibility in unpaid (organic) Google results by aligning content, structure, and authority with how Google ranks pages.</dd>
+        <dt>pSEO</dt><dd>Programmatic SEO. Generating a large set of pages from a single template plus a structured data source (e.g. one city page template &times; every Australian metro). Used to capture long-tail intent at scale.</dd>
+        <dt>E-E-A-T</dt><dd>Experience, Expertise, Authoritativeness, Trustworthiness. Google's quality framework for evaluating content, especially health and finance topics. Signalled through named authors, credentials, citations, reviewer blocks, and dated freshness.</dd>
+        <dt>YMYL</dt><dd>Your Money or Your Life. Google's label for topics that can materially affect a reader's health, finances, safety, or wellbeing. Medical cannabis is YMYL. These pages are held to a higher E-E-A-T bar.</dd>
+        <dt>Schema</dt><dd>Structured data (schema.org) added to a page so search engines can read it as a specific entity rather than free text. We use <b>LocalBusiness</b>, <b>MedicalBusiness</b>, <b>MedicalCondition</b>, <b>Person</b>, and <b>FAQ</b>.</dd>
+        <dt>SERP</dt><dd>Search Engine Results Page. The page Google returns for a query, including organic results, ads, and rich results (reviews, FAQs, maps).</dd>
+        <dt>CWV</dt><dd>Core Web Vitals. Google's measured page-experience signals: load speed (LCP), interactivity (INP), and visual stability (CLS). Required to pass on mobile and desktop.</dd>
+        <dt>CTR</dt><dd>Click-through rate. The percentage of search-result impressions that result in a click. Tracked per query and per page in GSC.</dd>
+        <dt>CRO</dt><dd>Conversion Rate Optimisation. Improving the percentage of visitors who complete the desired action (consult-form submission, signup). Lives at the intersection of design, copy, and SEO.</dd>
+        <dt>GSC</dt><dd>Google Search Console. Google's free tool reporting how the site performs in search: queries, impressions, clicks, indexing status, CWV.</dd>
+        <dt>GA4</dt><dd>Google Analytics 4. Behavioural analytics on what users do once they reach the site (sessions, events, conversions).</dd>
+        <dt>GBP</dt><dd>Google Business Profile. The map / local listing surface. Critical for &ldquo;near me&rdquo; intent.</dd>
+        <dt>TGA</dt><dd>Therapeutic Goods Administration. Australia's medicines and therapeutic-products regulator. Restricts what can be said publicly about prescription-only medicines, including medical cannabis.</dd>
+        <dt>AHPRA</dt><dd>Australian Health Practitioner Regulation Agency. Regulates registered health practitioners and the advertising of regulated health services (including testimonials and claims).</dd>
+        <dt>SAS</dt><dd>Special Access Scheme. The TGA pathway by which Australian patients can access unapproved therapeutic goods (the route most medical cannabis prescriptions follow).</dd>
+        <dt>Suburb-level</dt><dd>Page coverage one level below capital city, e.g. <i>medical cannabis in Bondi</i> rather than <i>in Sydney</i>. High-intent, lower competition, where most competitor pSEO stops.</dd>
+        <dt>Brand vs non-brand</dt><dd>Brand search = users typing your name (&ldquo;hellomello&rdquo;). Non-brand = users typing a need or topic (&ldquo;medical cannabis prescription brisbane&rdquo;). Non-brand traffic is the real test of an SEO program.</dd>
+        <dt>Long-tail</dt><dd>Low-volume, specific search queries (3+ words). Individually small, collectively the majority of all searches. The natural home of pSEO and a strong conditions hub.</dd>
+        <dt>Backlink / referring domain</dt><dd>A backlink is a link from another site to yours. A referring domain is one unique site linking in. Referring domains are a proxy for off-site authority.</dd>
+        <dt>Trustpilot</dt><dd>Independent third-party review platform. Embedded reviews are eligible for SERP rich results and avoid AHPRA testimonial issues that on-site quotes raise.</dd>
+      </dl>
     </div>
   </section>
 
