@@ -16,7 +16,7 @@ Every topic below is backed by evidence. For each one we show the real Australia
 We split educational content into four groups:
 
 1. **Product forms.** What CBD oil, flower, vaporisers, gummies and capsules are, in plain terms.
-2. **Education.** Simple explainers: what CBD is, what THC is, indica versus sativa, the endocannabinoid system, and so on.
+2. **How it works.** Simple explainers: what CBD is, what THC is, indica versus sativa, the endocannabinoid system, and so on.
 3. **Symptoms.** General, helpful articles on things like sleep, nausea, muscle pain and inflammation.
 4. **Conditions.** Careful, general health information on areas like menopause, migraine and arthritis.
 
@@ -66,7 +66,7 @@ Most competitor pages come from the three Australian sites running educational c
 
 ---
 
-## Group 2: Education explainers
+## Group 2: How it works
 
 **Why this section.** These are the foundational "how it works" topics that every other page links back to. We chose it because it is the safest group on compliance and the richest on evidence, and most competitors already rank here, so it sets up the whole library.
 
@@ -139,7 +139,7 @@ Most competitor pages come from the three Australian sites running educational c
 Forty four educational topics, in priority order, all backed by real competitor links.
 
 **Product forms (9):** what is CBD oil, vaporiser, oil, flower, gummies and edibles, capsules, topicals and creams, tinctures, how it is taken.
-**Education (13):** cannabinoids, indica vs sativa, what is CBD, what is THC, endocannabinoid system, terpenes, driving, what is medical cannabis, CBD versus THC, how long it stays in your system, full spectrum versus isolate, the entourage effect, how it works.
+**How it works (13):** cannabinoids, indica vs sativa, what is CBD, what is THC, endocannabinoid system, terpenes, driving, what is medical cannabis, CBD versus THC, how long it stays in your system, full spectrum versus isolate, the entourage effect, how it works.
 **Symptoms (9):** sleep, inflammation, muscle pain, nausea, stress, chronic pain, low energy and fatigue, period and menstrual pain, nerve and neuropathic pain.
 **Conditions (13):** menopause, migraine, arthritis, endometriosis, fibromyalgia, anxiety, epilepsy, ADHD, depression and low mood, PTSD, multiple sclerosis, sciatica, ulcerative colitis and IBD.
 
