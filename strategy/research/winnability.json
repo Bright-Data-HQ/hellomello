@@ -1,0 +1,451 @@
+{
+  "telehealth-consult": {
+    "kw": "medical cannabis consultation",
+    "top": [
+      [
+        1,
+        "www.alternaleaf.com.au"
+      ],
+      [
+        2,
+        "cannadoc.com.au"
+      ],
+      [
+        3,
+        "www.cannalinkclinic.com.au"
+      ],
+      [
+        4,
+        "consult.grovehealth.com.au"
+      ],
+      [
+        5,
+        "www.ivymedclinic.com.au"
+      ],
+      [
+        6,
+        "www.polln.com"
+      ],
+      [
+        7,
+        "www.medigreenaustralia.com.au"
+      ],
+      [
+        8,
+        "www.kildaremedical.com.au"
+      ]
+    ],
+    "gov5": 0,
+    "global5": 0,
+    "competitors": [
+      [
+        1,
+        "www.alternaleaf.com.au"
+      ],
+      [
+        6,
+        "www.polln.com"
+      ]
+    ],
+    "hm": [],
+    "verdict": "WINNABLE (commercial SERP)"
+  },
+  "access-pathways": {
+    "kw": "how to get medical marijuanas australia",
+    "top": [
+      [
+        1,
+        "www.sahealth.sa.gov.au"
+      ],
+      [
+        2,
+        "www.healthdirect.gov.au"
+      ],
+      [
+        3,
+        "www.alternaleaf.com.au"
+      ],
+      [
+        4,
+        "www.health.qld.gov.au"
+      ],
+      [
+        5,
+        "www.tga.gov.au"
+      ],
+      [
+        6,
+        "www.sydney.edu.au"
+      ],
+      [
+        7,
+        "www.health.vic.gov.au"
+      ],
+      [
+        8,
+        "canndelta.com"
+      ]
+    ],
+    "gov5": 4,
+    "global5": 0,
+    "competitors": [
+      [
+        3,
+        "www.alternaleaf.com.au"
+      ]
+    ],
+    "hm": [],
+    "verdict": "HARD (gov/global lock-in)"
+  },
+  "costs": {
+    "kw": "medical marijuanas cost",
+    "top": [
+      [
+        1,
+        "www.healthdirect.gov.au"
+      ],
+      [
+        2,
+        "www.polln.com"
+      ],
+      [
+        3,
+        "www.medio.com.au"
+      ],
+      [
+        4,
+        "www.health.vic.gov.au"
+      ],
+      [
+        5,
+        "www.reddit.com"
+      ],
+      [
+        6,
+        "cannaaidmedical.com.au"
+      ],
+      [
+        7,
+        "www.tga.gov.au"
+      ],
+      [
+        8,
+        "www.alternaleaf.com.au"
+      ]
+    ],
+    "gov5": 2,
+    "global5": 0,
+    "competitors": [
+      [
+        2,
+        "www.polln.com"
+      ],
+      [
+        8,
+        "www.alternaleaf.com.au"
+      ]
+    ],
+    "hm": [],
+    "verdict": "MIXED"
+  },
+  "practitioners": {
+    "kw": "medical cannabis prescriber",
+    "top": [
+      [
+        1,
+        "www.health.qld.gov.au"
+      ],
+      [
+        2,
+        "www.health.vic.gov.au"
+      ],
+      [
+        3,
+        "www.alternaleaf.com.au"
+      ],
+      [
+        4,
+        "australianprescriber.tg.org.au"
+      ],
+      [
+        5,
+        "www.ivymedclinic.com.au"
+      ],
+      [
+        6,
+        "www.healthdirect.gov.au"
+      ],
+      [
+        7,
+        "www.act.gov.au"
+      ],
+      [
+        8,
+        "www.hotdoc.com.au"
+      ]
+    ],
+    "gov5": 2,
+    "global5": 0,
+    "competitors": [
+      [
+        3,
+        "www.alternaleaf.com.au"
+      ]
+    ],
+    "hm": [],
+    "verdict": "MIXED"
+  },
+  "clinic": {
+    "kw": "medicinal cannabis clinic australia",
+    "top": [
+      [
+        1,
+        "amcc.au"
+      ],
+      [
+        2,
+        "www.cannabisclinic.au"
+      ],
+      [
+        3,
+        "www.polln.com"
+      ],
+      [
+        4,
+        "www.alternaleaf.com.au"
+      ],
+      [
+        5,
+        "www.hotdoc.com.au"
+      ],
+      [
+        6,
+        "theconversation.com"
+      ],
+      [
+        7,
+        "www.tga.gov.au"
+      ],
+      [
+        8,
+        "www.ivymedclinic.com.au"
+      ]
+    ],
+    "gov5": 0,
+    "global5": 0,
+    "competitors": [
+      [
+        3,
+        "www.polln.com"
+      ],
+      [
+        4,
+        "www.alternaleaf.com.au"
+      ]
+    ],
+    "hm": [],
+    "verdict": "WINNABLE (commercial SERP)"
+  },
+  "what-is-mc": {
+    "kw": "what is medical cannabis",
+    "top": [
+      [
+        1,
+        "www.healthdirect.gov.au"
+      ],
+      [
+        2,
+        "www.mayoclinic.org"
+      ],
+      [
+        3,
+        "www.nhs.uk"
+      ],
+      [
+        4,
+        "adf.org.au"
+      ],
+      [
+        5,
+        "www.tga.gov.au"
+      ],
+      [
+        6,
+        "www.sydney.edu.au"
+      ],
+      [
+        7,
+        "www.health.vic.gov.au"
+      ],
+      [
+        8,
+        "en.wikipedia.org"
+      ]
+    ],
+    "gov5": 2,
+    "global5": 2,
+    "competitors": [],
+    "hm": [],
+    "verdict": "HARD (gov/global lock-in)"
+  },
+  "endocannabinoid": {
+    "kw": "endocannabinoid system",
+    "top": [
+      [
+        1,
+        "www.health.harvard.edu"
+      ],
+      [
+        2,
+        "en.wikipedia.org"
+      ],
+      [
+        3,
+        "pmc.ncbi.nlm.nih.gov"
+      ],
+      [
+        4,
+        "www.healthline.com"
+      ],
+      [
+        5,
+        "pmc.ncbi.nlm.nih.gov"
+      ],
+      [
+        6,
+        "psychiatryonline.org"
+      ],
+      [
+        7,
+        "www.sciencedirect.com"
+      ],
+      [
+        8,
+        "hhs.iowa.gov"
+      ]
+    ],
+    "gov5": 2,
+    "global5": 5,
+    "competitors": [],
+    "hm": [],
+    "verdict": "HARD (gov/global lock-in)"
+  },
+  "cbd-vs-thc": {
+    "kw": "what is cbd",
+    "top": [
+      [
+        1,
+        "www.health.harvard.edu"
+      ],
+      [
+        2,
+        "en.wikipedia.org"
+      ],
+      [
+        3,
+        "www.mayoclinic.org"
+      ],
+      [
+        4,
+        "adf.org.au"
+      ],
+      [
+        5,
+        "www.healthline.com"
+      ],
+      [
+        6,
+        "www.kind.com.au"
+      ]
+    ],
+    "gov5": 0,
+    "global5": 4,
+    "competitors": [],
+    "hm": [],
+    "verdict": "HARD (gov/global lock-in)"
+  },
+  "is-it-legal": {
+    "kw": "medical cannabis laws australia",
+    "top": [
+      [
+        1,
+        "www.sahealth.sa.gov.au"
+      ],
+      [
+        2,
+        "www.healthdirect.gov.au"
+      ],
+      [
+        3,
+        "www.odc.gov.au"
+      ],
+      [
+        4,
+        "www.health.vic.gov.au"
+      ],
+      [
+        5,
+        "www.tga.gov.au"
+      ],
+      [
+        6,
+        "www.health.wa.gov.au"
+      ],
+      [
+        7,
+        "www.health.qld.gov.au"
+      ],
+      [
+        8,
+        "www.healthywa.wa.gov.au"
+      ]
+    ],
+    "gov5": 5,
+    "global5": 0,
+    "competitors": [],
+    "hm": [],
+    "verdict": "HARD (gov/global lock-in)"
+  },
+  "driving": {
+    "kw": "how long does thc stay in your system",
+    "top": [
+      [
+        1,
+        "americanaddictioncenters.org"
+      ],
+      [
+        2,
+        "www.priorygroup.com"
+      ],
+      [
+        3,
+        "www.healthline.com"
+      ],
+      [
+        4,
+        "adf.org.au"
+      ],
+      [
+        5,
+        "ntcrc.org"
+      ],
+      [
+        6,
+        "safeworkhealth.com.au"
+      ],
+      [
+        7,
+        "www.webmd.com"
+      ],
+      [
+        8,
+        "wishrehab.com"
+      ]
+    ],
+    "gov5": 0,
+    "global5": 1,
+    "competitors": [],
+    "hm": [],
+    "verdict": "MIXED"
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "topics": [
+    {
+      "id": "cbd-oil",
+      "title": "What is CBD oil",
+      "subtype": "Product form",
+      "volume": 12100,
+      "serp_owner": "www.healthline.com",
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/library/cbd-oil-explained",
+          "keyword": "can cbd oil",
+          "position": 27,
+          "volume": 1000,
+          "content_page": true
+        },
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/can-you-drive-with-thc-or-cbd-in-your-system",
+          "keyword": "can you drive with cbd oil in australia",
+          "position": 8,
+          "volume": 50,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "cbd oil in australia",
+          "position": 37,
+          "volume": 590,
+          "content_page": false
+        },
+        {
+          "comp": "candor",
+          "url": "https://www.candormedical.com/",
+          "keyword": "australian cbd oil",
+          "position": 56,
+          "volume": 320,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "vape",
+      "title": "Medical cannabis vaporiser",
+      "subtype": "Product form",
+      "volume": 210,
+      "serp_owner": "www.tga.gov.au",
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+          "keyword": "weed vaporizing",
+          "position": 16,
+          "volume": 3600,
+          "content_page": true
+        },
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment",
+          "keyword": "medical cannabis vape",
+          "position": 16,
+          "volume": 110,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "pot vape",
+          "position": 61,
+          "volume": 1600,
+          "content_page": false
+        },
+        {
+          "comp": "candor",
+          "url": "https://www.candormedical.com/",
+          "keyword": "vape shop toowoomba",
+          "position": 34,
+          "volume": 70,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "cannabis-oil",
+      "title": "Medical cannabis oil",
+      "subtype": "Product form",
+      "volume": null,
+      "serp_owner": "www.healthdirect.gov.au",
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/library/cbd-oil-explained",
+          "keyword": "cannabis oil",
+          "position": 89,
+          "volume": 1300,
+          "content_page": true
+        },
+        {
+          "comp": "candor",
+          "url": "https://www.candormedical.com/",
+          "keyword": "medical cannabis oil",
+          "position": 43,
+          "volume": 140,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "flower",
+      "title": "Medical cannabis flower",
+      "subtype": "Product form",
+      "volume": null,
+      "serp_owner": "www.tga.gov.au",
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+          "keyword": "sativa bud vs indica bud",
+          "position": 31,
+          "volume": 2900,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "same day flower delivery st kilda",
+          "position": 89,
+          "volume": 170,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "gummies",
+      "title": "THC / CBD gummies",
+      "subtype": "Product form",
+      "volume": null,
+      "serp_owner": "www.naturecan.com.au",
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "hemp gummies australia",
+          "position": 52,
+          "volume": 1600,
+          "content_page": false
+        },
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/",
+          "keyword": "thc gummies ship to australia",
+          "position": 24,
+          "volume": 210,
+          "content_page": false
+        },
+        {
+          "comp": "candor",
+          "url": "https://www.candormedical.com/",
+          "keyword": "edibles sydney",
+          "position": 45,
+          "volume": 140,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": false
+    },
+    {
+      "id": "capsules",
+      "title": "Cannabis capsules",
+      "subtype": "Product form",
+      "volume": null,
+      "serp_owner": null,
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "best sleeping tablet australia",
+          "position": 75,
+          "volume": 140,
+          "content_page": false
+        },
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/",
+          "keyword": "cbd capsules australia",
+          "position": 53,
+          "volume": 140,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": false
+    },
+    {
+      "id": "topicals",
+      "title": "Cannabis topicals",
+      "subtype": "Product form",
+      "volume": null,
+      "serp_owner": null,
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "best cream for arthritis australia",
+          "position": 81,
+          "volume": 70,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": false
+    },
+    {
+      "id": "cannabinoids",
+      "title": "Cannabinoids explained",
+      "subtype": "Education",
+      "volume": 6600,
+      "serp_owner": "www.healthdirect.gov.au",
+      "tga": "Safe",
+      "evidence": [
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/library/cbd-oil-explained",
+          "keyword": "cannabinoid oil",
+          "position": 12,
+          "volume": 880,
+          "content_page": true
+        },
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/understanding-the-endocannabinoid-system",
+          "keyword": "endocannabinoid system",
+          "position": 38,
+          "volume": 720,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "cannabinoids plant",
+          "position": 28,
+          "volume": 1000,
+          "content_page": false
+        },
+        {
+          "comp": "candor",
+          "url": "https://www.candormedical.com/",
+          "keyword": "medicinal cannabinoids qld",
+          "position": 13,
+          "volume": 170,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "indica-sativa",
+      "title": "Indica vs sativa",
+      "subtype": "Education",
+      "volume": 4400,
+      "serp_owner": "www.webmd.com",
+      "tga": "Safe",
+      "evidence": [
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+          "keyword": "indica",
+          "position": 28,
+          "volume": 3600,
+          "content_page": true
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "what-is-cbd",
+      "title": "What is CBD",
+      "subtype": "Education",
+      "volume": 1900,
+      "serp_owner": "www.health.harvard.edu",
+      "tga": "Safe",
+      "evidence": [
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/library/cbd-oil-explained",
+          "keyword": "what is cbd",
+          "position": 69,
+          "volume": 1600,
+          "content_page": true
+        },
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/women-s-health/lower-abdominal-pain-in-women-exploring-the-benefits-of-cbd-thc",
+          "keyword": "cbd benefits for women",
+          "position": 15,
+          "volume": 70,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "physio perth cbd",
+          "position": 77,
+          "volume": 720,
+          "content_page": false
+        },
+        {
+          "comp": "candor",
+          "url": "https://www.candormedical.com/",
+          "keyword": "medical centre darwin cbd",
+          "position": 96,
+          "volume": 390,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "what-is-thc",
+      "title": "What is THC",
+      "subtype": "Education",
+      "volume": 1600,
+      "serp_owner": "www.webmd.com",
+      "tga": "Safe",
+      "evidence": [
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+          "keyword": "thc vaping",
+          "position": 9,
+          "volume": 720,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "vaporizer thc",
+          "position": 42,
+          "volume": 1000,
+          "content_page": false
+        },
+        {
+          "comp": "candor",
+          "url": "https://www.candormedical.com/",
+          "keyword": "thc gummies canberra",
+          "position": 40,
+          "volume": 70,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "endocannabinoid",
+      "title": "Endocannabinoid system",
+      "subtype": "Education",
+      "volume": 1300,
+      "serp_owner": "www.health.harvard.edu",
+      "tga": "Safe",
+      "evidence": [
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/understanding-the-endocannabinoid-system",
+          "keyword": "ecs drugs",
+          "position": 11,
+          "volume": 720,
+          "content_page": true
+        },
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/library/the-endocannabinoid-system-explained",
+          "keyword": "the endocannabinoid system",
+          "position": 55,
+          "volume": 210,
+          "content_page": true
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "cbd-vs-thc",
+      "title": "CBD vs THC",
+      "subtype": "Education",
+      "volume": 720,
+      "serp_owner": "www.webmd.com",
+      "tga": "Safe",
+      "evidence": [],
+      "has_content_evidence": false
+    },
+    {
+      "id": "driving",
+      "title": "Cannabis and driving / how long THC stays",
+      "subtype": "Education",
+      "volume": 260,
+      "serp_owner": "americanaddictioncenters.org",
+      "tga": "Safe",
+      "evidence": [
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system",
+          "keyword": "how long does weed stay in your system for",
+          "position": 42,
+          "volume": 2400,
+          "content_page": true
+        },
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/can-you-drive-with-thc-or-cbd-in-your-system",
+          "keyword": "medicinal marijuanas victoria driving",
+          "position": 8,
+          "volume": 110,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "how long does weed stay in your system australia",
+          "position": 81,
+          "volume": 880,
+          "content_page": false
+        },
+        {
+          "comp": "candor",
+          "url": "https://www.candormedical.com/",
+          "keyword": "can you drive with medical marijuanas victoria",
+          "position": 89,
+          "volume": 110,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "how-works",
+      "title": "How medical cannabis works",
+      "subtype": "Education",
+      "volume": 40,
+      "serp_owner": "www.healthdirect.gov.au",
+      "tga": "Care",
+      "evidence": [],
+      "has_content_evidence": false
+    },
+    {
+      "id": "terpenes",
+      "title": "Terpenes explained",
+      "subtype": "Education",
+      "volume": null,
+      "serp_owner": null,
+      "tga": "Safe",
+      "evidence": [
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/library/everything-you-need-to-know-about-cannabis-terpenes",
+          "keyword": "terpenes",
+          "position": 58,
+          "volume": 1600,
+          "content_page": true
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "what-is-mc",
+      "title": "What is medical cannabis",
+      "subtype": "Education",
+      "volume": null,
+      "serp_owner": "www.healthdirect.gov.au",
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/alternative-medicine-in-australia",
+          "keyword": "medical cannabis nt",
+          "position": 28,
+          "volume": 50,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "medical cannabis",
+          "position": 1,
+          "volume": 2400,
+          "content_page": false
+        },
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/",
+          "keyword": "medical cannabis australia",
+          "position": 14,
+          "volume": 1600,
+          "content_page": false
+        },
+        {
+          "comp": "candor",
+          "url": "https://www.candormedical.com/",
+          "keyword": "medical cannabis perth",
+          "position": 37,
+          "volume": 260,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "nausea",
+      "title": "Cannabis and nausea",
+      "subtype": "Symptom",
+      "volume": 1900,
+      "serp_owner": "www.healthdirect.gov.au",
+      "tga": "Care",
+      "evidence": [],
+      "has_content_evidence": false
+    },
+    {
+      "id": "sleep",
+      "title": "Cannabis and sleep",
+      "subtype": "Symptom",
+      "volume": 880,
+      "serp_owner": "www.mayoclinic.org",
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/news/understanding-insomnia-the-hidden-struggles-of-sleep",
+          "keyword": "insomnia difficulty sleeping",
+          "position": 90,
+          "volume": 8100,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/hub/deep-sleep-meditation-restful-sleep",
+          "keyword": "deep sleep",
+          "position": 16,
+          "volume": 1300,
+          "content_page": true
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "inflammation",
+      "title": "Inflammation",
+      "subtype": "Symptom",
+      "volume": 720,
+      "serp_owner": "www.hopkinsmedicine.org",
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/hub/pain-inflammation-diet",
+          "keyword": "detox for inflammation",
+          "position": 41,
+          "volume": 70,
+          "content_page": true
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "muscle-pain",
+      "title": "Muscle and body pain relief",
+      "subtype": "Symptom",
+      "volume": 390,
+      "serp_owner": "my.clevelandclinic.org",
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/hub/natural-ways-to-relieve-muscle-pain",
+          "keyword": "muscle pain relief",
+          "position": 39,
+          "volume": 1000,
+          "content_page": true
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "appetite",
+      "title": "Appetite",
+      "subtype": "Symptom",
+      "volume": null,
+      "serp_owner": null,
+      "tga": "Care",
+      "evidence": [],
+      "has_content_evidence": false
+    },
+    {
+      "id": "anxiety",
+      "title": "Anxiety (general/holistic)",
+      "subtype": "Condition",
+      "volume": 880,
+      "serp_owner": "www.goodrx.com",
+      "tga": "Restricted",
+      "evidence": [
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/news/holistic-treatment-for-anxiety-exploring-alternative-medicine-and-natural-therapies-in-australia",
+          "keyword": "holistic healing for anxiety",
+          "position": 14,
+          "volume": 590,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "anxiety gummies",
+          "position": 38,
+          "volume": 320,
+          "content_page": false
+        },
+        {
+          "comp": "polln",
+          "url": "https://www.polln.com/",
+          "keyword": "alternative medicine for anxiety",
+          "position": 63,
+          "volume": 320,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "menopause",
+      "title": "Menopause / women's health",
+      "subtype": "Condition",
+      "volume": 320,
+      "serp_owner": "www.nhs.uk",
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/women-s-health/women-turning-to-alternative-medicine-for-relief-of-menopause-symptoms",
+          "keyword": "alternative remedies for menopause",
+          "position": 48,
+          "volume": 210,
+          "content_page": true
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "migraine",
+      "title": "Migraine / headache",
+      "subtype": "Condition",
+      "volume": null,
+      "serp_owner": null,
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/pages/natural-remedies-for-migraines",
+          "keyword": "holistic treatment migraines",
+          "position": 18,
+          "volume": 210,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "migraine australia",
+          "position": 84,
+          "volume": 390,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "arthritis",
+      "title": "Arthritis / joint",
+      "subtype": "Condition",
+      "volume": null,
+      "serp_owner": null,
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/news/understanding-arthritis-causes-impacts-and-treatments",
+          "keyword": "arthritis",
+          "position": 35,
+          "volume": 22200,
+          "content_page": true
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "best cream for arthritis australia",
+          "position": 81,
+          "volume": 70,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "endometriosis",
+      "title": "Endometriosis",
+      "subtype": "Condition",
+      "volume": null,
+      "serp_owner": null,
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/news/natural-remedies-for-endometriosis",
+          "keyword": "endometriosis relief naturally",
+          "position": 35,
+          "volume": 210,
+          "content_page": true
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "fibromyalgia",
+      "title": "Fibromyalgia",
+      "subtype": "Condition",
+      "volume": null,
+      "serp_owner": null,
+      "tga": "Care",
+      "evidence": [
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/news/natural-medicine-for-fibromyalgia-a-comprehensive-guide",
+          "keyword": "natural relief for fibromyalgia",
+          "position": 13,
+          "volume": 50,
+          "content_page": true
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "epilepsy",
+      "title": "Epilepsy / seizures",
+      "subtype": "Condition",
+      "volume": null,
+      "serp_owner": null,
+      "tga": "Restricted",
+      "evidence": [
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/news/exploring-natural-treatments-for-epilepsy-evidence-based-approaches-and-current-research",
+          "keyword": "remedies for epilepsy",
+          "position": 48,
+          "volume": 110,
+          "content_page": true
+        }
+      ],
+      "has_content_evidence": true
+    },
+    {
+      "id": "adhd",
+      "title": "ADHD",
+      "subtype": "Condition",
+      "volume": null,
+      "serp_owner": null,
+      "tga": "Restricted",
+      "evidence": [
+        {
+          "comp": "herbly",
+          "url": "https://herbly.com.au/blogs/news/what-is-adhd",
+          "keyword": "whats adhd",
+          "position": 77,
+          "volume": 390,
+          "content_page": true
+        },
+        {
+          "comp": "candor",
+          "url": "https://www.candormedical.com/",
+          "keyword": "adhd gummies",
+          "position": 34,
+          "volume": 110,
+          "content_page": false
+        },
+        {
+          "comp": "alternaleaf",
+          "url": "https://www.alternaleaf.com.au/",
+          "keyword": "adhd medical weed",
+          "position": 99,
+          "volume": 50,
+          "content_page": false
+        }
+      ],
+      "has_content_evidence": true
+    }
+  ]
+}

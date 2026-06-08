@@ -248,6 +248,41 @@ Responses to Rod's questions:
 
 ---
 
+## 2026-06-03 (Wed, 09:58) — Rod → Vahid
+**Topics:** homepage/pricing content feedback accepted, v1 approach confirmed, designer handoff
+
+Rod acknowledges the 09:05 content review and confirms the recommendations are suitable at this stage of the website journey ("version 1.0, with more to come").
+
+Commitment made:
+- Rod will pass the homepage and pricing copy updates to the designer for implementation.
+
+---
+
+## 2026-06-03 (Wed, 10:43) — Rod → Vahid, Alex
+**Topics:** suburb performance data shared, pickup vs delivery location split, local delivery copy guidance, pSEO + pillar confirmation
+
+Rod confirms alignment with the combined strategy of pSEO and content pillars, and shares the suburb dataset prepared by Alex:
+- Google Sheet: https://docs.google.com/spreadsheets/d/1e6A8p3uBi0ZsDqZpbie7wxbfjpEN89cqn07-PlLYYaY/edit?usp=sharing
+
+Important notes on the dataset:
+- **Column B:** all users who signed up, regardless of funnel outcome (signup, booked, paid). Rod flags this as the better column for larger sample size and broad intent signal.
+- **Column F:** users who ended up paying for medication (active patients). Suggested as a secondary conversion-focused measure.
+
+Pickup locations provided:
+- **Melbourne:** Bayswater, Caulfield South, South Melbourne
+- **Brisbane:** Wakerley
+- **Gold Coast:** Upper Coomera
+
+All other listed locations should be treated as delivery-only, with suggested local copy patterns:
+- "prescription delivery services to [INSERT]"
+- "dispensary delivery services to [INSERT]"
+- "alternative healthcare prescription delivery to [INSERT]"
+
+Additional delivery message to include where relevant:
+- "Next Business Day Delivery for Orders placed before 12pm"
+
+---
+
 ## Open Items / Commitments
 
 | Item | Owner | Status |
@@ -278,13 +313,14 @@ Responses to Rod's questions:
 | Location landing pages build | Vahid | Before 14 June (per 2026-06-01) |
 | One-hour follow-up (performance + tech offload) | Vahid | In 2–3 weeks (per 2026-06-01) |
 | TGA warning letter | Rod | Received (per 2026-06-01) |
-| List of 20 best-performing suburbs | Rod | Committed 2026-06-02 — to send |
+| List of 20 best-performing suburbs | Rod | Delivered 2026-06-03 (Google Sheet shared) |
+| Apply pickup vs delivery split in location page rollout | Vahid | Open — pickup suburbs and delivery-only guidance provided 2026-06-03 |
 | Clinical references (PubMed etc.) | Rod | None available — left to Bright Data |
 | Confirm pSEO is best strategy + justify 20-suburb cap | Vahid | Answered 2026-06-03 — staged rollout, prove on 20 then scale |
 | Clarify YMYL content sign-off (HM doctors vs 3rd-party) | Vahid | Answered 2026-06-03 — 3rd-party reviewer OK to start; HM doctor optional later |
 | Share list of technical SEO work + scope vs in-house | Vahid | Answered 2026-06-03 — will send as table vs handover doc (no overlap) |
 | Homepage + pricing content review (telehealth → alternative healthcare) | Vahid | Delivered 2026-06-03 |
-| Apply homepage/pricing copy changes (eyebrow, headline, body line, subhead) | Rod | Open — recommended 2026-06-03 |
+| Apply homepage/pricing copy changes (eyebrow, headline, body line, subhead) | Rod | In progress — acknowledged and passed to designer 2026-06-03 |
 
 ---
 

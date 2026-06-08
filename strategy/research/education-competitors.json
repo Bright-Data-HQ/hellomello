@@ -1,0 +1,417 @@
+{
+  "topics": [
+    {
+      "id": "cbd-oil",
+      "title": "What is CBD oil",
+      "subtype": "Product form",
+      "volume": 12100,
+      "competitors": [
+        {
+          "name": "Polln",
+          "url": "https://www.polln.com/library/cbd-oil-explained",
+          "label": "cbd oil explained"
+        },
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/can-you-drive-with-thc-or-cbd-in-your-system",
+          "label": "can you drive with thc or cbd in your system"
+        }
+      ]
+    },
+    {
+      "id": "what-is-cbd",
+      "title": "What is CBD",
+      "subtype": "Education",
+      "volume": 1900,
+      "competitors": [
+        {
+          "name": "Polln",
+          "url": "https://www.polln.com/library/cbd-oil-explained",
+          "label": "cbd oil explained"
+        },
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/women-s-health/lower-abdominal-pain-in-women-exploring-the-benefits-of-cbd-thc",
+          "label": "lower abdominal pain in women exploring the benefits of cbd thc"
+        }
+      ]
+    },
+    {
+      "id": "what-is-thc",
+      "title": "What is THC",
+      "subtype": "Education",
+      "volume": 1600,
+      "competitors": [
+        {
+          "name": "Polln",
+          "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+          "label": "ultimate guide to vaping medicinal cannabis"
+        },
+        {
+          "name": "Alternaleaf NZ",
+          "url": "https://www.alternaleaf.co.nz/post/guide-to-tetrahydrocannabinol-thc",
+          "label": "guide to tetrahydrocannabinol thc"
+        },
+        {
+          "name": "Leafwell",
+          "url": "https://leafwell.com/blog/what-is-thc-tetrahydrocannabinol",
+          "label": "what is thc tetrahydrocannabinol"
+        },
+        {
+          "name": "Releaf",
+          "url": "https://releaf.co.uk/education/cannabis-101/thc/what-is-thc-and-how-does-it-work-in-the-body",
+          "label": "what is thc and how does it work in the body"
+        }
+      ]
+    },
+    {
+      "id": "cbd-vs-thc",
+      "title": "CBD vs THC",
+      "subtype": "Education",
+      "volume": 720,
+      "competitors": []
+    },
+    {
+      "id": "indica-sativa",
+      "title": "Indica vs sativa",
+      "subtype": "Education",
+      "volume": 4400,
+      "competitors": [
+        {
+          "name": "Polln",
+          "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+          "label": "sativa vs indica vs hybrid cannabis what to expect"
+        },
+        {
+          "name": "Releaf",
+          "url": "https://releaf.co.uk/blog/indica-vs-sativa-effects-differences",
+          "label": "indica vs sativa effects differences"
+        },
+        {
+          "name": "Leafwell",
+          "url": "https://leafwell.com/blog/sativa-indica-difference-which-is-right-for-me",
+          "label": "sativa indica difference which is right for me"
+        }
+      ]
+    },
+    {
+      "id": "cannabinoids",
+      "title": "Cannabinoids explained",
+      "subtype": "Education",
+      "volume": 6600,
+      "competitors": [
+        {
+          "name": "Polln",
+          "url": "https://www.polln.com/library/cbd-oil-explained",
+          "label": "cbd oil explained"
+        },
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/understanding-the-endocannabinoid-system",
+          "label": "understanding the endocannabinoid system"
+        }
+      ]
+    },
+    {
+      "id": "terpenes",
+      "title": "Terpenes explained",
+      "subtype": "Education",
+      "volume": null,
+      "competitors": [
+        {
+          "name": "Polln",
+          "url": "https://www.polln.com/library/everything-you-need-to-know-about-cannabis-terpenes",
+          "label": "everything you need to know about cannabis terpenes"
+        }
+      ]
+    },
+    {
+      "id": "cannabis-oil",
+      "title": "Medical cannabis oil",
+      "subtype": "Product form",
+      "volume": null,
+      "competitors": [
+        {
+          "name": "Polln",
+          "url": "https://www.polln.com/library/cbd-oil-explained",
+          "label": "cbd oil explained"
+        }
+      ]
+    },
+    {
+      "id": "flower",
+      "title": "Medical cannabis flower",
+      "subtype": "Product form",
+      "volume": null,
+      "competitors": [
+        {
+          "name": "Polln",
+          "url": "https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect",
+          "label": "sativa vs indica vs hybrid cannabis what to expect"
+        }
+      ]
+    },
+    {
+      "id": "gummies",
+      "title": "THC / CBD gummies",
+      "subtype": "Product form",
+      "volume": null,
+      "competitors": []
+    },
+    {
+      "id": "vape",
+      "title": "Medical cannabis vaporiser",
+      "subtype": "Product form",
+      "volume": 210,
+      "competitors": [
+        {
+          "name": "Polln",
+          "url": "https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis",
+          "label": "ultimate guide to vaping medicinal cannabis"
+        },
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment",
+          "label": "patient information for medicinal cannabis treatment"
+        }
+      ]
+    },
+    {
+      "id": "capsules",
+      "title": "Cannabis capsules",
+      "subtype": "Product form",
+      "volume": null,
+      "competitors": []
+    },
+    {
+      "id": "topicals",
+      "title": "Cannabis topicals",
+      "subtype": "Product form",
+      "volume": null,
+      "competitors": []
+    },
+    {
+      "id": "endocannabinoid",
+      "title": "Endocannabinoid system",
+      "subtype": "Education",
+      "volume": 1300,
+      "competitors": [
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/understanding-the-endocannabinoid-system",
+          "label": "understanding the endocannabinoid system"
+        },
+        {
+          "name": "Polln",
+          "url": "https://www.polln.com/library/the-endocannabinoid-system-explained",
+          "label": "the endocannabinoid system explained"
+        }
+      ]
+    },
+    {
+      "id": "what-is-mc",
+      "title": "What is medical cannabis",
+      "subtype": "Education",
+      "volume": null,
+      "competitors": [
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/alternative-medicine-in-australia",
+          "label": "alternative medicine in australia"
+        }
+      ]
+    },
+    {
+      "id": "how-works",
+      "title": "How medical cannabis works",
+      "subtype": "Education",
+      "volume": 40,
+      "competitors": []
+    },
+    {
+      "id": "driving",
+      "title": "Cannabis and driving / how long THC stays",
+      "subtype": "Education",
+      "volume": 260,
+      "competitors": [
+        {
+          "name": "Polln",
+          "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system",
+          "label": "how long does cannabis stay in your system"
+        },
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/latest-medical-articles/can-you-drive-with-thc-or-cbd-in-your-system",
+          "label": "can you drive with thc or cbd in your system"
+        },
+        {
+          "name": "Leafwell",
+          "url": "https://leafwell.com/blog/does-marijuana-show-up-in-regular-blood-work",
+          "label": "does marijuana show up in regular blood work"
+        }
+      ]
+    },
+    {
+      "id": "sleep",
+      "title": "Cannabis and sleep",
+      "subtype": "Symptom",
+      "volume": 880,
+      "competitors": [
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/news/understanding-insomnia-the-hidden-struggles-of-sleep",
+          "label": "understanding insomnia the hidden struggles of sleep"
+        },
+        {
+          "name": "Alternaleaf",
+          "url": "https://www.alternaleaf.com.au/hub/deep-sleep-meditation-restful-sleep",
+          "label": "deep sleep meditation restful sleep"
+        }
+      ]
+    },
+    {
+      "id": "nausea",
+      "title": "Cannabis and nausea",
+      "subtype": "Symptom",
+      "volume": 1900,
+      "competitors": []
+    },
+    {
+      "id": "muscle-pain",
+      "title": "Muscle and body pain relief",
+      "subtype": "Symptom",
+      "volume": 390,
+      "competitors": [
+        {
+          "name": "Alternaleaf",
+          "url": "https://www.alternaleaf.com.au/hub/natural-ways-to-relieve-muscle-pain",
+          "label": "natural ways to relieve muscle pain"
+        }
+      ]
+    },
+    {
+      "id": "inflammation",
+      "title": "Inflammation",
+      "subtype": "Symptom",
+      "volume": 720,
+      "competitors": [
+        {
+          "name": "Alternaleaf",
+          "url": "https://www.alternaleaf.com.au/hub/pain-inflammation-diet",
+          "label": "pain inflammation diet"
+        }
+      ]
+    },
+    {
+      "id": "appetite",
+      "title": "Appetite",
+      "subtype": "Symptom",
+      "volume": null,
+      "competitors": []
+    },
+    {
+      "id": "anxiety",
+      "title": "Anxiety (general/holistic)",
+      "subtype": "Condition",
+      "volume": 880,
+      "competitors": [
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/news/holistic-treatment-for-anxiety-exploring-alternative-medicine-and-natural-therapies-in-australia",
+          "label": "holistic treatment for anxiety exploring alternative medicine and natural therapies in australia"
+        }
+      ]
+    },
+    {
+      "id": "menopause",
+      "title": "Menopause / women's health",
+      "subtype": "Condition",
+      "volume": 320,
+      "competitors": [
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/women-s-health/women-turning-to-alternative-medicine-for-relief-of-menopause-symptoms",
+          "label": "women turning to alternative medicine for relief of menopause symptoms"
+        }
+      ]
+    },
+    {
+      "id": "migraine",
+      "title": "Migraine / headache",
+      "subtype": "Condition",
+      "volume": null,
+      "competitors": [
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/pages/natural-remedies-for-migraines",
+          "label": "natural remedies for migraines"
+        }
+      ]
+    },
+    {
+      "id": "arthritis",
+      "title": "Arthritis / joint",
+      "subtype": "Condition",
+      "volume": null,
+      "competitors": [
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/news/understanding-arthritis-causes-impacts-and-treatments",
+          "label": "understanding arthritis causes impacts and treatments"
+        }
+      ]
+    },
+    {
+      "id": "endometriosis",
+      "title": "Endometriosis",
+      "subtype": "Condition",
+      "volume": null,
+      "competitors": [
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/news/natural-remedies-for-endometriosis",
+          "label": "natural remedies for endometriosis"
+        }
+      ]
+    },
+    {
+      "id": "fibromyalgia",
+      "title": "Fibromyalgia",
+      "subtype": "Condition",
+      "volume": null,
+      "competitors": [
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/news/natural-medicine-for-fibromyalgia-a-comprehensive-guide",
+          "label": "natural medicine for fibromyalgia a comprehensive guide"
+        }
+      ]
+    },
+    {
+      "id": "epilepsy",
+      "title": "Epilepsy / seizures",
+      "subtype": "Condition",
+      "volume": null,
+      "competitors": [
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/news/exploring-natural-treatments-for-epilepsy-evidence-based-approaches-and-current-research",
+          "label": "exploring natural treatments for epilepsy evidence based approaches and current research"
+        }
+      ]
+    },
+    {
+      "id": "adhd",
+      "title": "ADHD",
+      "subtype": "Condition",
+      "volume": null,
+      "competitors": [
+        {
+          "name": "Herbly",
+          "url": "https://herbly.com.au/blogs/news/what-is-adhd",
+          "label": "what is adhd"
+        }
+      ]
+    }
+  ]
+}

@@ -21,7 +21,7 @@ A running checklist of who owes what. Update the boxes as items close. Related c
 
 - [ ] Rod: send the list of top 20 best-performing suburbs (needed before 14 June).
 - [ ] Bright Data: share the technical SEO scope table, mapped to the handover doc (in-house / Bright Data / shared).
-- [ ] Bright Data: finalise content pillars and educational topics for HM sign-off.
+- [x] Bright Data: finalise content pillars and educational topics for HM sign-off. Done: see [strategy/content-pillars-signoff.md](../strategy/content-pillars-signoff.md). Ready to send to Rod for his approve/change/drop call.
 - [ ] Bright Data: finish the company profile build-out (remaining competitors).
 - [ ] Bright Data: book the follow-up call on performance and tech offload (2 to 3 weeks from 1 June).
 - [ ] Both: agree success metrics (which metrics, before/after baselines, results timeline).

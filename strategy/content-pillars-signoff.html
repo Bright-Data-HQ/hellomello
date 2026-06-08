@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hellomello, Educational Topics, For Sign-off</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#283718; --green-2:#1F2B12; --green-3:#34481F;
+  --cream:#FEFAE0; --cream-2:#F6F0CC; --cream-3:#FBF6D6;
+  --terra:#BC6C25; --terra-light:#DDA15E;
+  --lavender:#BEB8EB; --sage:#B2DCD0; --blue:#2A78A0;
+  --paper:#FBF6D6; --paper-2:#F6F0CC; --surface:#FFFFFF; --surface-2:#FAF7E8;
+  --ink:#283718; --ink-2:#34481F; --muted:#5C6849; --muted-2:#8C9779;
+  --border:#E8E1B8; --border-strong:#CFC68C;
+  --ok-bg:#E4F1D6; --ok-fg:#3F6A1A; --ok-bd:#C5DFA6;
+  --warn-bg:#FBE7C4; --warn-fg:#8A4A0E; --warn-bd:#EFC788;
+  --bad-bg:#F8D7D2; --bad-fg:#9B2418; --bad-bd:#EDB5AC;
+  --font-display:"League Spartan","Helvetica Neue",system-ui,sans-serif;
+  --font-body:"Inter","Helvetica Neue",system-ui,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --sh-soft:0 1px 16px rgba(40,55,24,.07);
+  --content:1120px;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--font-body);color:var(--ink);background:var(--paper);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.page{max-width:var(--content);margin:0 auto;padding:64px 56px 140px}
+
+/* Header */
+.doc-header{padding-bottom:42px;border-bottom:1px solid var(--border-strong);margin-bottom:52px;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.doc-eyebrow{font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.doc-title{font-family:var(--font-display);font-weight:900;font-size:56px;letter-spacing:-.025em;line-height:.96;margin:0 0 20px;max-width:20ch}
+.doc-title em{font-style:normal;color:var(--terra)}
+.doc-lead{font-size:16.5px;line-height:1.55;color:var(--muted);max-width:64ch;margin:0}
+.doc-meta{display:flex;gap:24px;flex-wrap:wrap;margin-top:30px;font-family:var(--font-mono);font-size:11.5px;color:var(--muted)}
+.doc-meta strong{color:var(--ink);font-weight:600}
+.brandmark{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.brandmark .wordmark{font-family:var(--font-display);font-weight:900;font-size:30px;letter-spacing:-.02em;line-height:1}
+.brandmark .wordmark span:nth-child(1){color:var(--green)}
+.brandmark .wordmark span:nth-child(2){color:var(--terra)}
+.brandmark .wordmark span:nth-child(3){color:var(--lavender)}
+.brandmark .wordmark span:nth-child(4){color:var(--sage)}
+.brandmark .wordmark span:nth-child(5){color:var(--blue)}
+.brandmark .tag{font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted)}
+
+/* Sections */
+section{margin-bottom:80px;scroll-margin-top:32px}
+.sec-num{font-family:var(--font-mono);font-size:11.5px;color:var(--muted);letter-spacing:.1em;margin-bottom:10px;text-transform:uppercase}
+.sec-title{font-family:var(--font-display);font-weight:700;font-size:34px;letter-spacing:-.02em;line-height:1.06;margin:0 0 14px}
+.sec-lead{font-size:15.5px;line-height:1.65;color:var(--muted);max-width:66ch;margin:0 0 30px}
+p{max-width:74ch}
+.sub-title{font-family:var(--font-display);font-weight:600;font-size:16px;margin:34px 0 14px;letter-spacing:.02em;text-transform:uppercase;color:var(--ink-2)}
+
+/* Pillars */
+.pillars{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:18px}
+.pillar{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:18px 16px}
+.pillar .n{font-family:var(--font-mono);font-size:10.5px;color:var(--terra);letter-spacing:.12em}
+.pillar h4{font-family:var(--font-display);font-weight:700;font-size:17px;margin:8px 0 8px;color:var(--green)}
+.pillar p{font-size:12.5px;color:var(--muted);margin:0;line-height:1.5}
+
+/* Stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:8px 0 28px}
+.stat{background:var(--green);color:var(--cream);border-radius:14px;padding:22px 22px}
+.stat .n{font-family:var(--font-display);font-weight:900;font-size:34px;letter-spacing:-.02em;line-height:1;color:var(--cream)}
+.stat .n small{font-size:15px;color:var(--terra-light);font-weight:700;margin-left:4px}
+.stat .l{font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--sage);margin-top:10px;line-height:1.5}
+
+/* Callouts */
+.callout{border:1px solid var(--border-strong);border-left-width:4px;border-radius:12px;padding:18px 22px;margin:16px 0;background:var(--surface)}
+.callout.warn{border-left-color:var(--terra);background:#FCF4E6}
+.callout.ok{border-left-color:var(--ok-fg);background:#F1F7E9}
+.callout h4{margin:0 0 8px;font-family:var(--font-display);font-weight:700;font-size:16px;color:var(--green)}
+.callout p{margin:0;font-size:14px;color:var(--ink-2);max-width:none}
+
+/* Tier blocks */
+.tier{margin-top:30px}
+.tier-head{display:flex;align-items:baseline;gap:14px;margin-bottom:6px}
+.tier-tag{font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;padding:4px 11px;border-radius:9999px;font-weight:600}
+.tier-tag.t1{background:var(--ok-bg);color:var(--ok-fg)}
+.tier-tag.t2{background:var(--warn-bg);color:var(--warn-fg)}
+.tier-tag.t3{background:#E7E4F6;color:#5847A8}
+.tier-tag.no{background:var(--bad-bg);color:var(--bad-fg)}
+.tier h3{font-family:var(--font-display);font-weight:700;font-size:21px;margin:0;color:var(--green)}
+.tier .desc{font-size:13.5px;color:var(--muted);margin:4px 0 14px;max-width:72ch}
+
+/* Table */
+.tbl{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--border-strong);border-radius:14px;overflow:hidden;background:var(--surface);font-size:13px;margin-top:6px}
+.tbl th{background:var(--cream-2);font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:600;text-align:left;padding:11px 14px;border-bottom:1px solid var(--border)}
+.tbl td{padding:13px 14px;border-bottom:1px solid var(--border);vertical-align:top;line-height:1.5}
+.tbl tr:last-child td{border-bottom:0}
+.tbl .topic{font-family:var(--font-display);font-weight:600;font-size:14.5px;color:var(--green)}
+.tbl .num{font-family:var(--font-mono);font-size:11px;color:var(--muted);width:30px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:9999px;font-weight:600;white-space:nowrap}
+.badge.win{background:var(--ok-bg);color:var(--ok-fg)}
+.badge.mix{background:var(--warn-bg);color:var(--warn-fg)}
+.badge.hard{background:var(--bad-bg);color:var(--bad-fg)}
+.badge.safe{background:var(--ok-bg);color:var(--ok-fg)}
+.badge.care{background:var(--warn-bg);color:var(--warn-fg)}
+.yes{color:var(--ok-fg);font-weight:600}
+.no-rank{color:var(--muted)}
+.calls{font-family:var(--font-mono);font-size:11px;color:var(--muted);white-space:nowrap;letter-spacing:.04em}
+
+/* Coverage note */
+.cov{font-size:12.5px;color:var(--ink-2);line-height:1.5}
+.cov b{color:var(--green)}
+.proof{font-size:12.5px;line-height:1.5}
+.proof .item{margin-bottom:5px}
+.proof .item:last-child{margin-bottom:0}
+.proof a{color:var(--blue);text-decoration:none;border-bottom:1px solid var(--border-strong);font-weight:500}
+.proof a:hover{border-bottom-color:var(--blue)}
+.proof .src{font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);display:inline-block;min-width:78px}
+.proof.none{color:var(--muted)}
+.badge.restricted{background:var(--bad-bg);color:var(--bad-fg)}
+
+footer{border-top:1px solid var(--border-strong);margin-top:60px;padding-top:24px;font-family:var(--font-mono);font-size:11px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+
+@media(max-width:860px){
+  .page{padding:40px 22px 100px}
+  .doc-header{grid-template-columns:1fr}
+  .doc-title{font-size:40px}
+  .pillars{grid-template-columns:repeat(2,1fr)}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .tbl{display:block;overflow-x:auto;white-space:nowrap}
+}
+@media print{
+  body{background:#fff}
+  .stat{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="doc-header">
+    <div>
+      <p class="doc-eyebrow">For sign-off, educational content</p>
+      <h1 class="doc-title">Educational <em>topics</em></h1>
+      <p class="doc-lead">The educational list we want your approval on before we start writing. Product forms, plain explainers, symptoms and conditions. Every topic shows real Australian demand and the actual competitor pages that already rank for it. We checked each link by hand and every one loads.</p>
+      <div class="doc-meta">
+        <span>FOR <strong>Rod, Hellomello</strong></span>
+        <span>FROM <strong>Bright Data</strong></span>
+        <span>DATE <strong>June 2026</strong></span>
+        <span>STATUS <strong>Draft for sign-off</strong></span>
+      </div>
+    </div>
+    <div class="brandmark">
+      <div class="wordmark"><span>h</span><span>e</span><span>l</span><span>l</span><span>o</span><span style="color:var(--green)">mello</span></div>
+      <div class="tag">SEO &amp; Growth</div>
+    </div>
+  </header>
+
+  <!-- SCOPE -->
+  <section>
+    <p class="sec-num">Scope</p>
+    <h2 class="sec-title">What "educational" means here</h2>
+    <p class="sec-lead">This list covers educational content only. It does not cover location pages, prescription and access pages, or cost pages. Those sit in separate pillars and come to you on their own list.</p>
+    <div class="pillars" style="grid-template-columns:repeat(4,1fr)">
+      <div class="pillar"><div class="n">01</div><h4>Product forms</h4><p>What CBD oil, flower, vaporisers and gummies are, in plain terms.</p></div>
+      <div class="pillar"><div class="n">02</div><h4>Education</h4><p>Simple explainers: CBD, THC, indica vs sativa, the endocannabinoid system.</p></div>
+      <div class="pillar"><div class="n">03</div><h4>Symptoms</h4><p>General, helpful articles on sleep, nausea, muscle pain and inflammation.</p></div>
+      <div class="pillar"><div class="n">04</div><h4>Conditions</h4><p>Careful, general information on menopause, migraine, arthritis and more.</p></div>
+    </div>
+  </section>
+
+  <!-- WHY IT MATTERS -->
+  <section>
+    <p class="sec-num">The evidence</p>
+    <h2 class="sec-title">Why this matters</h2>
+    <p class="sec-lead">The three competitors you care about are already running full educational libraries. Hellomello has none of it. This is the gap, with the real links as proof.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="n">24</div><div class="l">Educational topics offered, all evidence backed</div></div>
+      <div class="stat"><div class="n">26</div><div class="l">Real competitor pages found and checked live</div></div>
+      <div class="stat"><div class="n">3</div><div class="l">Australian competitors running educational libraries</div></div>
+      <div class="stat"><div class="n">0<small>edu</small></div><div class="l">Education terms Hellomello ranks for today</div></div>
+    </div>
+
+    <div class="callout warn">
+      <h4>Polln runs a content library</h4>
+      <p>At <span style="font-family:var(--font-mono);font-size:12px">polln.com/library/</span>, covering CBD, indica versus sativa, terpenes, vaping and the endocannabinoid system.</p>
+    </div>
+    <div class="callout warn">
+      <h4>Herbly runs a large blog</h4>
+      <p>At <span style="font-family:var(--font-mono);font-size:12px">herbly.com.au/blogs/</span>, covering the endocannabinoid system, anxiety, menopause, arthritis, endometriosis, fibromyalgia, epilepsy, ADHD, sleep and driving.</p>
+    </div>
+    <div class="callout warn">
+      <h4>Alternaleaf runs a hub</h4>
+      <p>At <span style="font-family:var(--font-mono);font-size:12px">alternaleaf.com.au/hub/</span>, covering sleep, muscle pain and inflammation.</p>
+    </div>
+    <div class="callout ok">
+      <h4>Hellomello has nothing here</h4>
+      <p>We rank for about 92 keywords in Australia and not one is an educational term. Every non-brand term we rank for is transactional. The competitors decided educational content was worth doing, published it, and it is ranking. We have the actual links below.</p>
+    </div>
+  </section>
+
+  <!-- THE TOPICS -->
+  <section>
+    <p class="sec-num">The topics</p>
+    <h2 class="sec-title">What we recommend, with proof</h2>
+    <p class="sec-lead"><b>Volume</b> is the monthly Australian search demand for the lead term. <b>Competitors covering it</b> lists every competitor we found with a real page for that topic, each with its actual link, checked live. Tick approve, change or drop in the last column.</p>
+
+    <!-- GROUP 1 -->
+    <div class="tier">
+      <div class="tier-head"><span class="tier-tag t1">Group 1</span><h3>Product forms</h3></div>
+      <p class="desc">What the products are, in plain terms. Kept general, with no claim that a product treats anything.</p>
+      <table class="tbl">
+        <thead><tr><th>Topic</th><th>Volume</th><th>Competitors covering it</th><th>TGA</th><th>Your call</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="topic">What is CBD oil</td><td>12,100/mo</td>
+            <td class="proof"><div class="item"><span class="src">Polln</span><a href="https://www.polln.com/library/cbd-oil-explained" target="_blank" rel="noopener">cbd-oil-explained</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Medical cannabis vaporiser</td><td>210/mo</td>
+            <td class="proof"><div class="item"><span class="src">Polln</span><a href="https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis" target="_blank" rel="noopener">guide to vaping</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Medical cannabis oil</td><td>Low</td>
+            <td class="proof"><div class="item"><span class="src">Polln</span><a href="https://www.polln.com/library/cbd-oil-explained" target="_blank" rel="noopener">cbd-oil-explained</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Medical cannabis flower</td><td>Low</td>
+            <td class="proof"><div class="item"><span class="src">Polln</span><a href="https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect" target="_blank" rel="noopener">sativa vs indica</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="desc">"What is CBD oil" is the single biggest educational term in this whole set at 12,100 a month, and Polln already ranks for it. Polln is the one Australian competitor that has built out a product library, so it is the proof on this group.</p>
+    </div>
+
+    <!-- GROUP 2 -->
+    <div class="tier">
+      <div class="tier-head"><span class="tier-tag t1">Group 2</span><h3>Education explainers</h3></div>
+      <p class="desc">The safest group on compliance and the richest on evidence.</p>
+      <table class="tbl">
+        <thead><tr><th>Topic</th><th>Volume</th><th>Competitors covering it</th><th>TGA</th><th>Your call</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="topic">Cannabinoids explained</td><td>6,600/mo</td>
+            <td class="proof"><div class="item"><span class="src">Polln</span><a href="https://www.polln.com/library/cbd-oil-explained" target="_blank" rel="noopener">cbd-oil-explained</a></div><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/latest-medical-articles/understanding-the-endocannabinoid-system" target="_blank" rel="noopener">understanding the ECS</a></div></td>
+            <td><span class="badge safe">Safe</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Indica vs sativa</td><td>4,400/mo</td>
+            <td class="proof"><div class="item"><span class="src">Polln</span><a href="https://www.polln.com/library/sativa-vs-indica-vs-hybrid-cannabis-what-to-expect" target="_blank" rel="noopener">sativa vs indica vs hybrid</a></div><div class="item"><span class="src">Leafwell</span><a href="https://leafwell.com/blog/sativa-indica-difference-which-is-right-for-me" target="_blank" rel="noopener">sativa vs indica</a></div><div class="item"><span class="src">Releaf</span><a href="https://releaf.co.uk/blog/indica-vs-sativa-effects-differences" target="_blank" rel="noopener">indica vs sativa</a></div></td>
+            <td><span class="badge safe">Safe</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">What is CBD</td><td>1,900/mo</td>
+            <td class="proof"><div class="item"><span class="src">Polln</span><a href="https://www.polln.com/library/cbd-oil-explained" target="_blank" rel="noopener">cbd-oil-explained</a></div></td>
+            <td><span class="badge safe">Safe</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">What is THC</td><td>1,600/mo</td>
+            <td class="proof"><div class="item"><span class="src">Polln</span><a href="https://www.polln.com/library/ultimate-guide-to-vaping-medicinal-cannabis" target="_blank" rel="noopener">guide to vaping</a></div><div class="item"><span class="src">Leafwell</span><a href="https://leafwell.com/blog/what-is-thc-tetrahydrocannabinol" target="_blank" rel="noopener">what is THC</a></div><div class="item"><span class="src">Releaf</span><a href="https://releaf.co.uk/education/cannabis-101/thc/what-is-thc-and-how-does-it-work-in-the-body" target="_blank" rel="noopener">what is THC</a></div></td>
+            <td><span class="badge safe">Safe</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Endocannabinoid system</td><td>1,300/mo</td>
+            <td class="proof"><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/latest-medical-articles/understanding-the-endocannabinoid-system" target="_blank" rel="noopener">understanding the ECS</a></div><div class="item"><span class="src">Polln</span><a href="https://www.polln.com/library/the-endocannabinoid-system-explained" target="_blank" rel="noopener">the ECS explained</a></div></td>
+            <td><span class="badge safe">Safe</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Terpenes explained</td><td>1,600/mo</td>
+            <td class="proof"><div class="item"><span class="src">Polln</span><a href="https://www.polln.com/library/everything-you-need-to-know-about-cannabis-terpenes" target="_blank" rel="noopener">cannabis terpenes</a></div></td>
+            <td><span class="badge safe">Safe</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Cannabis and driving</td><td>260/mo</td>
+            <td class="proof"><div class="item"><span class="src">Polln</span><a href="https://www.polln.com/library/medicinal-cannabis-and-driving-what-you-need-to-know-as-a-patient-in-australia" target="_blank" rel="noopener">cannabis and driving</a></div><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/latest-medical-articles/can-you-drive-with-thc-or-cbd-in-your-system" target="_blank" rel="noopener">drive with THC or CBD</a></div><div class="item"><span class="src">Leafwell</span><a href="https://leafwell.com/blog/does-marijuana-show-up-in-regular-blood-work" target="_blank" rel="noopener">cannabis in blood work</a></div></td>
+            <td><span class="badge safe">Safe</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">What is medical cannabis</td><td>Low</td>
+            <td class="proof"><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/latest-medical-articles/alternative-medicine-in-australia" target="_blank" rel="noopener">alternative medicine in Australia</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="desc">"Cannabinoids" and "indica vs sativa" carry real volume, and several competitors already cover the indica versus sativa and THC clusters. The very big terms are held by Harvard and WebMD in the live results, so treat those as slow authority pieces rather than fast wins.</p>
+    </div>
+
+    <!-- GROUP 3 -->
+    <div class="tier">
+      <div class="tier-head"><span class="tier-tag t2">Group 3</span><h3>Symptoms</h3></div>
+      <p class="desc">General wellbeing advice that builds authority without making a treatment claim. Copy the Alternaleaf hub model.</p>
+      <table class="tbl">
+        <thead><tr><th>Topic</th><th>Volume</th><th>Competitors covering it</th><th>TGA</th><th>Your call</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="topic">Sleep</td><td>880/mo</td>
+            <td class="proof"><div class="item"><span class="src">Alternaleaf</span><a href="https://www.alternaleaf.com.au/hub/deep-sleep-meditation-restful-sleep" target="_blank" rel="noopener">deep sleep</a></div><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/news/understanding-insomnia-the-hidden-struggles-of-sleep" target="_blank" rel="noopener">understanding insomnia</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Inflammation</td><td>720/mo</td>
+            <td class="proof"><div class="item"><span class="src">Alternaleaf</span><a href="https://www.alternaleaf.com.au/hub/pain-inflammation-diet" target="_blank" rel="noopener">pain and inflammation diet</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Muscle and body pain</td><td>390/mo</td>
+            <td class="proof"><div class="item"><span class="src">Alternaleaf</span><a href="https://www.alternaleaf.com.au/hub/natural-ways-to-relieve-muscle-pain" target="_blank" rel="noopener">relieve muscle pain</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Nausea</td><td>1,900/mo</td>
+            <td class="proof none">No competitor page found, open run</td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="desc">Keep every symptom page general and helpful. Do not link a symptom to a cannabis product. Nausea has strong demand but no competitor page yet.</p>
+    </div>
+
+    <!-- GROUP 4 -->
+    <div class="tier">
+      <div class="tier-head"><span class="tier-tag t3">Group 4</span><h3>Conditions, handle with care</h3></div>
+      <p class="desc">Herbly has built a full condition library and ranks for all of these. That is the evidence the play works. The catch is compliance.</p>
+      <table class="tbl">
+        <thead><tr><th>Topic</th><th>Volume</th><th>Competitors covering it</th><th>TGA</th><th>Your call</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="topic">Menopause and women's health</td><td>320/mo</td>
+            <td class="proof"><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/women-s-health/women-turning-to-alternative-medicine-for-relief-of-menopause-symptoms" target="_blank" rel="noopener">menopause and natural therapies</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Migraine and headache</td><td>Mid</td>
+            <td class="proof"><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/pages/natural-remedies-for-migraines" target="_blank" rel="noopener">natural remedies for migraines</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Arthritis and joints</td><td>High</td>
+            <td class="proof"><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/news/understanding-arthritis-causes-impacts-and-treatments" target="_blank" rel="noopener">understanding arthritis</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Endometriosis</td><td>Low</td>
+            <td class="proof"><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/news/natural-remedies-for-endometriosis" target="_blank" rel="noopener">natural remedies for endometriosis</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Fibromyalgia</td><td>Low</td>
+            <td class="proof"><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/news/natural-medicine-for-fibromyalgia-a-comprehensive-guide" target="_blank" rel="noopener">natural medicine for fibromyalgia</a></div></td>
+            <td><span class="badge care">Care</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Anxiety, general</td><td>880/mo</td>
+            <td class="proof"><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/news/holistic-treatment-for-anxiety-exploring-alternative-medicine-and-natural-therapies-in-australia" target="_blank" rel="noopener">holistic support for anxiety</a></div></td>
+            <td><span class="badge restricted">Restricted</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">Epilepsy</td><td>Low</td>
+            <td class="proof"><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/news/exploring-natural-treatments-for-epilepsy-evidence-based-approaches-and-current-research" target="_blank" rel="noopener">natural approaches to epilepsy</a></div></td>
+            <td><span class="badge restricted">Restricted</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+          <tr>
+            <td class="topic">ADHD</td><td>Low</td>
+            <td class="proof"><div class="item"><span class="src">Herbly</span><a href="https://herbly.com.au/blogs/news/what-is-adhd" target="_blank" rel="noopener">what is ADHD</a></div></td>
+            <td><span class="badge restricted">Restricted</span></td><td class="calls">Approve / Change / Drop</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="desc">Herbly has built a full condition library and ranks for all of these, which is why it is the proof on every row. Conditions marked Restricted (anxiety, epilepsy, ADHD) sit close to the TGA line that caught Polln. If we write them they must stay general, carry no cannabis claim, and be reviewed by your named doctor before publishing. The Care conditions are safer, so we suggest starting there.</p>
+    </div>
+  </section>
+
+  <!-- ORDER -->
+  <section>
+    <p class="sec-num">Our recommendation</p>
+    <h2 class="sec-title">A suggested order</h2>
+    <p class="sec-lead">If you want a starting order, we suggest this.</p>
+    <table class="tbl">
+      <thead><tr><th class="num">#</th><th>Batch</th><th>Topics</th></tr></thead>
+      <tbody>
+        <tr><td class="num">1</td><td class="topic">Lowest risk, clearest evidence</td><td class="cov">Cannabinoids, indica vs sativa, what is CBD, what is THC, endocannabinoid system, terpenes, driving. All Safe, strongest proof.</td></tr>
+        <tr><td class="num">2</td><td class="topic">The product hub</td><td class="cov">What is CBD oil, vaporiser, oil, flower. Big demand, kept general.</td></tr>
+        <tr><td class="num">3</td><td class="topic">Symptoms</td><td class="cov">Sleep, inflammation, muscle pain, nausea. Copy the Alternaleaf hub model.</td></tr>
+        <tr><td class="num">4</td><td class="topic">Care conditions, doctor reviewed</td><td class="cov">Menopause, migraine, arthritis, endometriosis, fibromyalgia.</td></tr>
+        <tr><td class="num">5</td><td class="topic">Only with sign-off and doctor review</td><td class="cov">Anxiety, epilepsy, ADHD.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- GUARDRAILS -->
+  <section>
+    <p class="sec-num">Compliance</p>
+    <h2 class="sec-title">The guardrails on all of it</h2>
+    <div class="callout ok">
+      <h4>Everything stays inside TGA and AHPRA boundaries</h4>
+      <p>No claim that a product or cannabis treats, cures or helps any condition. Symptom and condition pages stay general and helpful, never tied to a product. Restricted topics are written as plain health education and reviewed by your named doctor before they go live. Nothing publishes without your sign-off.</p>
+    </div>
+  </section>
+
+  <footer>
+    <span>Hellomello &times; Bright Data, educational topics for sign-off</span>
+    <span>Data source: DataForSEO, Australia, June 2026. All competitor links checked live.</span>
+  </footer>
+
+</div>
+</body>
+</html>

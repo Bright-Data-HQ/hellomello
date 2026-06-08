@@ -1,0 +1,1495 @@
+{
+  "topics": [
+    {
+      "id": "how-it-works-consult",
+      "title": "What to expect from a telehealth consultation",
+      "pillar": "Education",
+      "tga": "Safe",
+      "seed": "telehealth consultation",
+      "volume": null,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 103,
+          "traffic": 104,
+          "best": {
+            "kw": "medical cannabis consultation",
+            "pos": 1,
+            "vol": 210,
+            "traffic": 27.0,
+            "url": "https://www.alternaleaf.com.au/"
+          }
+        },
+        "polln": {
+          "kw_count": 19,
+          "traffic": 22,
+          "best": {
+            "kw": "medical cannabis online consultation",
+            "pos": 4,
+            "vol": 50,
+            "traffic": 3.0,
+            "url": "https://www.polln.com/"
+          }
+        },
+        "herbly": {
+          "kw_count": 6,
+          "traffic": 0,
+          "best": {
+            "kw": "telehealth alternative medicine",
+            "pos": 12,
+            "vol": 70,
+            "traffic": 0.0,
+            "url": "https://herbly.com.au/pages/alternative-medicine-clinic"
+          }
+        },
+        "candor": {
+          "kw_count": 21,
+          "traffic": 24,
+          "best": {
+            "kw": "telehealth alternative medicine",
+            "pos": 1,
+            "vol": 70,
+            "traffic": 9.0,
+            "url": "https://www.candormedical.com/"
+          }
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.digitalhealth.gov.au",
+          "url": "https://www.digitalhealth.gov.au/initiatives-and-programs/telehealth"
+        },
+        {
+          "rank": 2,
+          "domain": "www.doctorsondemand.com.au",
+          "url": "https://www.doctorsondemand.com.au/"
+        },
+        {
+          "rank": 3,
+          "domain": "updoc.com.au",
+          "url": "https://updoc.com.au/telehealth-consultation?srsltid=AfmBOopUFrNi_LlPSQ7dftIKBHqvbfHzTwtw5qXjQ2_q455GQ1C58TIi"
+        },
+        {
+          "rank": 4,
+          "domain": "www.health.gov.au",
+          "url": "https://www.health.gov.au/topics/health-technologies-and-digital-health/about/telehealth?language=en"
+        },
+        {
+          "rank": 5,
+          "domain": "www.medicalboard.gov.au",
+          "url": "https://www.medicalboard.gov.au/Codes-Guidelines-Policies/Telehealth-consultations-with-patients.aspx"
+        },
+        {
+          "rank": 6,
+          "domain": "24-7medcare.com.au",
+          "url": "https://24-7medcare.com.au/services/telehealth/"
+        },
+        {
+          "rank": 7,
+          "domain": "southmelbournemedicalhub.com.au",
+          "url": "https://southmelbournemedicalhub.com.au/services/telehealth-consultations/"
+        },
+        {
+          "rank": 8,
+          "domain": "www.allianzcare.com.au",
+          "url": "https://www.allianzcare.com.au/en/support/apps-and-tools/doctors-on-demand.html"
+        },
+        {
+          "rank": 9,
+          "domain": "13sick.com.au",
+          "url": "https://13sick.com.au/th-free-telehealth-doctor/"
+        },
+        {
+          "rank": 10,
+          "domain": "www.mqhealth.org.au",
+          "url": "https://www.mqhealth.org.au/services/find-a-service/telehealth-service"
+        }
+      ],
+      "live_known_competitors": []
+    },
+    {
+      "id": "endocannabinoid",
+      "title": "How the endocannabinoid system works",
+      "pillar": "Education",
+      "tga": "Safe",
+      "seed": "endocannabinoid system",
+      "volume": 1300,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        },
+        "polln": {
+          "kw_count": 2,
+          "traffic": 0,
+          "best": {
+            "kw": "the endocannabinoid system",
+            "pos": 55,
+            "vol": 210,
+            "traffic": 0.0,
+            "url": "https://www.polln.com/library/the-endocannabinoid-system-explained"
+          }
+        },
+        "herbly": {
+          "kw_count": 4,
+          "traffic": 3,
+          "best": {
+            "kw": "ecs drugs",
+            "pos": 11,
+            "vol": 720,
+            "traffic": 3.0,
+            "url": "https://herbly.com.au/blogs/latest-medical-articles/understanding-the-endocannabinoid-system"
+          }
+        },
+        "candor": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.health.harvard.edu",
+          "url": "https://www.health.harvard.edu/blog/the-endocannabinoid-system-essential-and-mysterious-202108112569"
+        },
+        {
+          "rank": 2,
+          "domain": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Endocannabinoid_system"
+        },
+        {
+          "rank": 3,
+          "domain": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8221009/"
+        },
+        {
+          "rank": 4,
+          "domain": "www.healthline.com",
+          "url": "https://www.healthline.com/health/endocannabinoid-system"
+        },
+        {
+          "rank": 5,
+          "domain": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4789136/"
+        },
+        {
+          "rank": 6,
+          "domain": "psychiatryonline.org",
+          "url": "https://psychiatryonline.org/doi/full/10.1176/appi.ajp.2021.21111138"
+        },
+        {
+          "rank": 7,
+          "domain": "www.sciencedirect.com",
+          "url": "https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/endocannabinoid-system"
+        },
+        {
+          "rank": 8,
+          "domain": "hhs.iowa.gov",
+          "url": "https://hhs.iowa.gov/media/9137/download?inline"
+        }
+      ],
+      "live_known_competitors": []
+    },
+    {
+      "id": "cbd-vs-thc",
+      "title": "CBD and THC: the difference explained",
+      "pillar": "Education",
+      "tga": "Safe",
+      "seed": "cbd vs thc",
+      "volume": 720,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        },
+        "polln": {
+          "kw_count": 3,
+          "traffic": 2,
+          "best": {
+            "kw": "what is cbd oil",
+            "pos": 15,
+            "vol": 590,
+            "traffic": 2.0,
+            "url": "https://www.polln.com/library/cbd-oil-explained"
+          }
+        },
+        "herbly": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        },
+        "candor": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.webmd.com",
+          "url": "https://www.webmd.com/pain-management/cbd-thc-difference"
+        },
+        {
+          "rank": 2,
+          "domain": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9898277/"
+        },
+        {
+          "rank": 3,
+          "domain": "www.healthline.com",
+          "url": "https://www.healthline.com/health/cbd-vs-thc"
+        },
+        {
+          "rank": 4,
+          "domain": "safeworkhealth.com.au",
+          "url": "https://safeworkhealth.com.au/cbd-vs-thc-everything-you-need-to-know-about-medicinal-cannabis/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.goodrx.com",
+          "url": "https://www.goodrx.com/classes/cannabinoids/cbd-vs-thc?srsltid=AfmBOopd40GOxp0kUSlu_a-xCbFPlrCBOrsFCMF13QAOMUMWfXepFHJe"
+        },
+        {
+          "rank": 6,
+          "domain": "adf.org.au",
+          "url": "https://adf.org.au/drug-facts/cannabinoids/"
+        },
+        {
+          "rank": 7,
+          "domain": "www.sciencedirect.com",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0896627322011199"
+        }
+      ],
+      "live_known_competitors": []
+    },
+    {
+      "id": "driving-laws",
+      "title": "Medical cannabis and driving laws in Australia",
+      "pillar": "Education",
+      "tga": "Safe",
+      "seed": "cbd and driving australia",
+      "volume": null,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 3,
+          "traffic": 0,
+          "best": {
+            "kw": "monivea road login",
+            "pos": 26,
+            "vol": 210,
+            "traffic": 0.0,
+            "url": "https://patient.alternaleaf.com.au/"
+          }
+        },
+        "polln": {
+          "kw_count": 53,
+          "traffic": 17,
+          "best": {
+            "kw": "how long does thc stay in system",
+            "pos": 1,
+            "vol": 170,
+            "traffic": 10.0,
+            "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system"
+          }
+        },
+        "herbly": {
+          "kw_count": 5,
+          "traffic": 2,
+          "best": {
+            "kw": "can you drive with medical marijuanas nsw",
+            "pos": 1,
+            "vol": 40,
+            "traffic": 0.0,
+            "url": "https://herbly.com.au/blogs/latest-medical-articles/can-you-drive-with-thc-or-cbd-in-your-system"
+          }
+        },
+        "candor": {
+          "kw_count": 1,
+          "traffic": 0,
+          "best": {
+            "kw": "can you drive with medical marijuanas victoria",
+            "pos": 89,
+            "vol": 110,
+            "traffic": 0.0,
+            "url": "https://www.candormedical.com/"
+          }
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.vic.gov.au",
+          "url": "https://www.vic.gov.au/Medicinal-Cannabis-and-Safe-Driving-Closed-Circuit-Track-Trial"
+        },
+        {
+          "rank": 2,
+          "domain": "www1.racgp.org.au",
+          "url": "https://www1.racgp.org.au/newsgp/clinical/new-guidance-on-driving-and-medicinal-cannabis"
+        },
+        {
+          "rank": 3,
+          "domain": "transport.vic.gov.au",
+          "url": "https://transport.vic.gov.au/road-and-active-transport/road-rules-and-safety/alcohol-drugs-and-driving/medicinal-cannabis-and-driving"
+        },
+        {
+          "rank": 4,
+          "domain": "www.abc.net.au",
+          "url": "https://www.abc.net.au/news/2025-03-16/medicinal-cannabis-driving-law-reform-push/104927466"
+        },
+        {
+          "rank": 5,
+          "domain": "adf.org.au",
+          "url": "https://adf.org.au/reducing-risk/aod-and-driving/"
+        },
+        {
+          "rank": 6,
+          "domain": "www.qld.gov.au",
+          "url": "https://www.qld.gov.au/transport/licensing/healthy-to-drive/can-i-drive/medications-and-treatments/medicinal-cannabis"
+        },
+        {
+          "rank": 7,
+          "domain": "www.tga.gov.au",
+          "url": "https://www.tga.gov.au/resources/explore-topic/medicinal-cannabis-hub/medicinal-cannabis-guidance-documents/guidance-use-medicinal-cannabis-australia-patient-information"
+        },
+        {
+          "rank": 8,
+          "domain": "andatech.com.au",
+          "url": "https://andatech.com.au/blogs/resources/driving-after-cannabis"
+        }
+      ],
+      "live_known_competitors": []
+    },
+    {
+      "id": "access-pathways",
+      "title": "How patients access treatment in Australia (SAS, Authorised Prescriber)",
+      "pillar": "Education",
+      "tga": "Needs care",
+      "seed": "how to access medical cannabis australia",
+      "volume": null,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 121,
+          "traffic": 208,
+          "best": {
+            "kw": "how to get medical marijuanas card qld free",
+            "pos": 1,
+            "vol": 590,
+            "traffic": 35.0,
+            "url": "https://www.alternaleaf.com.au/concession-program"
+          }
+        },
+        "polln": {
+          "kw_count": 76,
+          "traffic": 87,
+          "best": {
+            "kw": "list of authorised prescribers sa",
+            "pos": 1,
+            "vol": 320,
+            "traffic": 11.0,
+            "url": "https://www.polln.com/locations/adelaide"
+          }
+        },
+        "herbly": {
+          "kw_count": 5,
+          "traffic": 0,
+          "best": {
+            "kw": "how to get arthritis",
+            "pos": 57,
+            "vol": 170,
+            "traffic": 0.0,
+            "url": "https://herbly.com.au/blogs/news/understanding-arthritis-causes-impacts-and-treatments"
+          }
+        },
+        "candor": {
+          "kw_count": 8,
+          "traffic": 1,
+          "best": {
+            "kw": "how to get medical marijuanas card qld online",
+            "pos": 1,
+            "vol": 260,
+            "traffic": 0.0,
+            "url": "https://www.candormedical.com/"
+          }
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.tga.gov.au",
+          "url": "https://www.tga.gov.au/resources/explore-topic/medicinal-cannabis-hub/medicinal-cannabis-information-patients"
+        },
+        {
+          "rank": 2,
+          "domain": "www.health.vic.gov.au",
+          "url": "https://www.health.vic.gov.au/drugs-and-poisons/frequently-asked-questions-about-medicinal-cannabis"
+        },
+        {
+          "rank": 3,
+          "domain": "www.sydney.edu.au",
+          "url": "https://www.sydney.edu.au/lambert/how-to-get-medicinal-cannabis.html"
+        },
+        {
+          "rank": 4,
+          "domain": "www.alternaleaf.com.au",
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.sahealth.sa.gov.au",
+          "url": "https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/conditions/medicines/medicinal+cannabis/medicinal+cannabis+patient+access+in+south+australia"
+        },
+        {
+          "rank": 6,
+          "domain": "www.health.qld.gov.au",
+          "url": "https://www.health.qld.gov.au/public-health/topics/medicinal-cannabis/prescribing"
+        },
+        {
+          "rank": 7,
+          "domain": "adf.org.au",
+          "url": "https://adf.org.au/insights/accessing-medicinal-cannabis/"
+        },
+        {
+          "rank": 8,
+          "domain": "canndelta.com",
+          "url": "https://canndelta.com/how-to-access-medicinal-cannabis-in-western-australia/"
+        },
+        {
+          "rank": 9,
+          "domain": "www.healthdirect.gov.au",
+          "url": "https://www.healthdirect.gov.au/medicinal-cannabis"
+        }
+      ],
+      "live_known_competitors": [
+        {
+          "rank": 4,
+          "domain": "www.alternaleaf.com.au",
+          "url": "https://www.alternaleaf.com.au/"
+        }
+      ]
+    },
+    {
+      "id": "is-it-legal",
+      "title": "Is medical cannabis legal in Australia",
+      "pillar": "Education",
+      "tga": "Safe",
+      "seed": "is medical cannabis legal in australia",
+      "volume": null,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 42,
+          "traffic": 0,
+          "best": {
+            "kw": "legal cannabinoids australia",
+            "pos": 8,
+            "vol": 70,
+            "traffic": 0.0,
+            "url": "https://www.alternaleaf.com.au/"
+          }
+        },
+        "polln": {
+          "kw_count": 6,
+          "traffic": 0,
+          "best": {
+            "kw": "is medical marijuana legal in south australia",
+            "pos": 11,
+            "vol": 50,
+            "traffic": 0.0,
+            "url": "https://www.polln.com/locations/adelaide"
+          }
+        },
+        "herbly": {
+          "kw_count": 1,
+          "traffic": 0,
+          "best": {
+            "kw": "thc vape pen australia legal",
+            "pos": 43,
+            "vol": 50,
+            "traffic": 0.0,
+            "url": "https://herbly.com.au/pages/patient-information-for-medicinal-cannabis-treatment"
+          }
+        },
+        "candor": {
+          "kw_count": 2,
+          "traffic": 0,
+          "best": {
+            "kw": "is weed legal in melbourne",
+            "pos": 68,
+            "vol": 170,
+            "traffic": 0.0,
+            "url": "https://www.candormedical.com/"
+          }
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.healthdirect.gov.au",
+          "url": "https://www.healthdirect.gov.au/medicinal-cannabis"
+        },
+        {
+          "rank": 2,
+          "domain": "www.sahealth.sa.gov.au",
+          "url": "https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/conditions/medicines/medicinal+cannabis/frequently+asked+questions+on+medicinal+cannabis"
+        },
+        {
+          "rank": 3,
+          "domain": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11131250/"
+        },
+        {
+          "rank": 4,
+          "domain": "www.odc.gov.au",
+          "url": "https://www.odc.gov.au/medicinal-cannabis"
+        },
+        {
+          "rank": 5,
+          "domain": "www.health.vic.gov.au",
+          "url": "https://www.health.vic.gov.au/drugs-and-poisons/frequently-asked-questions-about-medicinal-cannabis"
+        },
+        {
+          "rank": 6,
+          "domain": "www.tga.gov.au",
+          "url": "https://www.tga.gov.au/news/blog/introduction-medicinal-cannabis-regulation-australia"
+        },
+        {
+          "rank": 7,
+          "domain": "positivechoices.org.au",
+          "url": "https://positivechoices.org.au/teachers/medicinal-cannabis-factsheet"
+        },
+        {
+          "rank": 8,
+          "domain": "www.healthywa.wa.gov.au",
+          "url": "https://www.healthywa.wa.gov.au/Articles/A_E/Cannabis"
+        },
+        {
+          "rank": 9,
+          "domain": "goldcoastpharmasupport.com.au",
+          "url": "https://goldcoastpharmasupport.com.au/blog/traveling-with-medical-marijuanas-a-guide-for-australian-residents"
+        }
+      ],
+      "live_known_competitors": []
+    },
+    {
+      "id": "costs-medicare",
+      "title": "What treatment costs and how Medicare fits in",
+      "pillar": "Education",
+      "tga": "Safe",
+      "seed": "medical cannabis cost australia",
+      "volume": null,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 292,
+          "traffic": 289,
+          "best": {
+            "kw": "alternaleaf product price list",
+            "pos": 1,
+            "vol": 210,
+            "traffic": 41.0,
+            "url": "https://www.alternaleaf.com.au/pricing"
+          }
+        },
+        "polln": {
+          "kw_count": 59,
+          "traffic": 157,
+          "best": {
+            "kw": "medical marijuanas qld cost",
+            "pos": 1,
+            "vol": 210,
+            "traffic": 27.0,
+            "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+          }
+        },
+        "herbly": {
+          "kw_count": 6,
+          "traffic": 1,
+          "best": {
+            "kw": "cheapest medical marijuanas dispensary near me",
+            "pos": 7,
+            "vol": 110,
+            "traffic": 1.0,
+            "url": "https://herbly.com.au/pages/tweed-heads-dispensary"
+          }
+        },
+        "candor": {
+          "kw_count": 15,
+          "traffic": 0,
+          "best": {
+            "kw": "how much does the combined pill cost",
+            "pos": 11,
+            "vol": 70,
+            "traffic": 0.0,
+            "url": "https://www.candormedical.com/treatments/contraceptive-pill"
+          }
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.healthdirect.gov.au",
+          "url": "https://www.healthdirect.gov.au/medicinal-cannabis"
+        },
+        {
+          "rank": 2,
+          "domain": "www.health.vic.gov.au",
+          "url": "https://www.health.vic.gov.au/drugs-and-poisons/frequently-asked-questions-about-medicinal-cannabis"
+        },
+        {
+          "rank": 3,
+          "domain": "www.medio.com.au",
+          "url": "https://www.medio.com.au/cheap-medical-cannabis"
+        },
+        {
+          "rank": 4,
+          "domain": "cannaaidmedical.com.au",
+          "url": "https://cannaaidmedical.com.au/how-much-does-medical-cannabis-cost-in-australia/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/AskAnAustralian/comments/1ihcwfp/my_medicinal_marijuana_is_so_expensive/"
+        },
+        {
+          "rank": 6,
+          "domain": "www.betterhealth.vic.gov.au",
+          "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/medicinal-cannabis"
+        },
+        {
+          "rank": 7,
+          "domain": "www.polln.com",
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        },
+        {
+          "rank": 8,
+          "domain": "www.tga.gov.au",
+          "url": "https://www.tga.gov.au/resources/explore-topic/medicinal-cannabis-hub/medicinal-cannabis-information-patients"
+        },
+        {
+          "rank": 9,
+          "domain": "www.cannabiz.com.au",
+          "url": "https://www.cannabiz.com.au/australian-flower-prices-hit-new-low-as-concern-grows-for-cultivators/"
+        }
+      ],
+      "live_known_competitors": [
+        {
+          "rank": 7,
+          "domain": "www.polln.com",
+          "url": "https://www.polln.com/library/how-much-does-medicinal-cannabis-cost-in-australia"
+        }
+      ]
+    },
+    {
+      "id": "practitioners",
+      "title": "Meet the practitioners: what a plant medicine doctor does",
+      "pillar": "Clinical expertise",
+      "tga": "Safe",
+      "seed": "plant medicine doctor",
+      "volume": 10,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 352,
+          "traffic": 377,
+          "best": {
+            "kw": "medical mj doctors",
+            "pos": 1,
+            "vol": 210,
+            "traffic": 27.0,
+            "url": "https://www.alternaleaf.com.au/"
+          }
+        },
+        "polln": {
+          "kw_count": 180,
+          "traffic": 126,
+          "best": {
+            "kw": "list of authorised prescribers sa",
+            "pos": 1,
+            "vol": 320,
+            "traffic": 11.0,
+            "url": "https://www.polln.com/locations/adelaide"
+          }
+        },
+        "herbly": {
+          "kw_count": 54,
+          "traffic": 7,
+          "best": {
+            "kw": "alternative doctors",
+            "pos": 1,
+            "vol": 40,
+            "traffic": 0.0,
+            "url": "https://herbly.com.au/pages/plant-medicine-doctors"
+          }
+        },
+        "candor": {
+          "kw_count": 27,
+          "traffic": 5,
+          "best": {
+            "kw": "doctors weed",
+            "pos": 4,
+            "vol": 40,
+            "traffic": 1.0,
+            "url": "https://www.candormedical.com/"
+          }
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "herbly.com.au",
+          "url": "https://herbly.com.au/pages/plant-medicine-doctors?srsltid=AfmBOorTeItDoxj3x2k9biRIXq-Ms3VHbLDq8CzOa6c2iOYCJZiRTK4P"
+        },
+        {
+          "rank": 2,
+          "domain": "plantmed.net.au",
+          "url": "https://plantmed.net.au/"
+        },
+        {
+          "rank": 3,
+          "domain": "www.medigreenaustralia.com.au",
+          "url": "https://www.medigreenaustralia.com.au/clinic/"
+        },
+        {
+          "rank": 4,
+          "domain": "narangbastationmedical.com.au",
+          "url": "https://narangbastationmedical.com.au/services/alternative-medicine/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.hotdoc.com.au",
+          "url": "https://www.hotdoc.com.au/medical-centres/telehealth/horizon-health-natural-medicines/doctors"
+        },
+        {
+          "rank": 6,
+          "domain": "my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/articles/24103-holistic-doctor"
+        },
+        {
+          "rank": 7,
+          "domain": "medifloraorganic.com.au",
+          "url": "https://medifloraorganic.com.au/choose-alternative-medicine-doctor/"
+        },
+        {
+          "rank": 8,
+          "domain": "spencerhealth.com.au",
+          "url": "https://spencerhealth.com.au/plant-medicine-clinic/"
+        },
+        {
+          "rank": 9,
+          "domain": "mintclinic.com.au",
+          "url": "https://mintclinic.com.au/"
+        },
+        {
+          "rank": 10,
+          "domain": "www.mygreenmedical.com.au",
+          "url": "https://www.mygreenmedical.com.au/doctors/"
+        }
+      ],
+      "live_known_competitors": [
+        {
+          "rank": 1,
+          "domain": "herbly.com.au",
+          "url": "https://herbly.com.au/pages/plant-medicine-doctors?srsltid=AfmBOorTeItDoxj3x2k9biRIXq-Ms3VHbLDq8CzOa6c2iOYCJZiRTK4P"
+        }
+      ]
+    },
+    {
+      "id": "what-is-mc",
+      "title": "What is medical cannabis: a plain guide",
+      "pillar": "Education",
+      "tga": "Needs care",
+      "seed": "what is medical cannabis",
+      "volume": null,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 4,
+          "traffic": 0,
+          "best": {
+            "kw": "tga guidelines",
+            "pos": 46,
+            "vol": 170,
+            "traffic": 0.0,
+            "url": "https://www.alternaleaf.com.au/"
+          }
+        },
+        "polln": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        },
+        "herbly": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        },
+        "candor": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.healthdirect.gov.au",
+          "url": "https://www.healthdirect.gov.au/medicinal-cannabis"
+        },
+        {
+          "rank": 2,
+          "domain": "www.mayoclinic.org",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/medical-marijuana/art-20137855"
+        },
+        {
+          "rank": 3,
+          "domain": "www.nhs.uk",
+          "url": "https://www.nhs.uk/medicines/medical-cannabis/"
+        },
+        {
+          "rank": 4,
+          "domain": "adf.org.au",
+          "url": "https://adf.org.au/drug-facts/medicinal-cannabis/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.tga.gov.au",
+          "url": "https://www.tga.gov.au/products/unapproved-therapeutic-goods/medicinal-cannabis"
+        },
+        {
+          "rank": 6,
+          "domain": "www.sydney.edu.au",
+          "url": "https://www.sydney.edu.au/lambert/how-to-get-medicinal-cannabis/what-products-are-available.html"
+        },
+        {
+          "rank": 7,
+          "domain": "www.health.vic.gov.au",
+          "url": "https://www.health.vic.gov.au/drugs-and-poisons/frequently-asked-questions-about-medicinal-cannabis"
+        },
+        {
+          "rank": 8,
+          "domain": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Medical_cannabis"
+        },
+        {
+          "rank": 9,
+          "domain": "www.racgp.org.au",
+          "url": "https://www.racgp.org.au/advocacy/position-statements/view-all-position-statements/clinical-and-practice-management/medical-cannabis"
+        },
+        {
+          "rank": 10,
+          "domain": "www.health.qld.gov.au",
+          "url": "https://www.health.qld.gov.au/public-health/topics/medicinal-cannabis/prescribing"
+        }
+      ],
+      "live_known_competitors": []
+    },
+    {
+      "id": "sleep-education",
+      "title": "Sleep quality: general education",
+      "pillar": "Condition (careful)",
+      "tga": "Needs care",
+      "seed": "how to sleep better",
+      "volume": 880,
+      "cpc": 2.19,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 53,
+          "traffic": 2,
+          "best": {
+            "kw": "essential oils and sleep",
+            "pos": 15,
+            "vol": 320,
+            "traffic": 0.0,
+            "url": "https://www.alternaleaf.com.au/hub/aromatherapy-helping-sleep"
+          }
+        },
+        "polln": {
+          "kw_count": 3,
+          "traffic": 0,
+          "best": {
+            "kw": "online sleep medication",
+            "pos": 29,
+            "vol": 70,
+            "traffic": 0.0,
+            "url": "https://www.polln.com/"
+          }
+        },
+        "herbly": {
+          "kw_count": 46,
+          "traffic": 5,
+          "best": {
+            "kw": "holistic cures for insomnia",
+            "pos": 1,
+            "vol": 170,
+            "traffic": 5.0,
+            "url": "https://herbly.com.au/blogs/news/insomnia-therapies-and-treatments-conventional-alternative-and-holistic-approaches"
+          }
+        },
+        "candor": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.mayoclinic.org",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/sleep/art-20048379"
+        },
+        {
+          "rank": 2,
+          "domain": "www.healthline.com",
+          "url": "https://www.healthline.com/nutrition/17-tips-to-sleep-better"
+        },
+        {
+          "rank": 3,
+          "domain": "www.nhs.uk",
+          "url": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-fall-asleep-faster-and-sleep-better/"
+        },
+        {
+          "rank": 4,
+          "domain": "www.sleephealthfoundation.org.au",
+          "url": "https://www.sleephealthfoundation.org.au/sleep-topics/ten-tips-for-a-good-nights-sleep"
+        },
+        {
+          "rank": 5,
+          "domain": "www.cancercouncil.com.au",
+          "url": "https://www.cancercouncil.com.au/news/8-tips-to-help-you-get-a-better-sleep/"
+        },
+        {
+          "rank": 6,
+          "domain": "www.healthdirect.gov.au",
+          "url": "https://www.healthdirect.gov.au/sleep"
+        },
+        {
+          "rank": 7,
+          "domain": "www.hopkinsmedicine.org",
+          "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/natural-sleep-aids-home-remedies-to-help-you-sleep"
+        },
+        {
+          "rank": 8,
+          "domain": "newsinhealth.nih.gov",
+          "url": "https://newsinhealth.nih.gov/2021/04/good-sleep-good-health"
+        },
+        {
+          "rank": 9,
+          "domain": "www.health.harvard.edu",
+          "url": "https://www.health.harvard.edu/newsletter_article/8-secrets-to-a-good-nights-sleep"
+        }
+      ],
+      "live_known_competitors": []
+    },
+    {
+      "id": "womens-health",
+      "title": "Women's health and natural therapies",
+      "pillar": "Condition (careful)",
+      "tga": "Needs care",
+      "seed": "natural therapies womens health",
+      "volume": null,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 7,
+          "traffic": 0,
+          "best": {
+            "kw": "airlee womens clinic",
+            "pos": 29,
+            "vol": 390,
+            "traffic": 0.0,
+            "url": "https://www.alternaleaf.com.au/"
+          }
+        },
+        "polln": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        },
+        "herbly": {
+          "kw_count": 16,
+          "traffic": 1,
+          "best": {
+            "kw": "medicinal cannibas menopause",
+            "pos": 9,
+            "vol": 50,
+            "traffic": 0.0,
+            "url": "https://herbly.com.au/blogs/women-s-health/perimenopause-symptoms-how-cbd-and-thc-support-women-through-change"
+          }
+        },
+        "candor": {
+          "kw_count": 18,
+          "traffic": 6,
+          "best": {
+            "kw": "how do you skip your period on the pill",
+            "pos": 6,
+            "vol": 110,
+            "traffic": 2.0,
+            "url": "https://www.candormedical.com/education/how-to-skip-your-period"
+          }
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.nicolewoodcock.com.au",
+          "url": "https://www.nicolewoodcock.com.au/"
+        },
+        {
+          "rank": 2,
+          "domain": "www.lwchc.org.au",
+          "url": "https://www.lwchc.org.au/services/naturopathy"
+        },
+        {
+          "rank": 3,
+          "domain": "www.bodybraincentre.com.au",
+          "url": "https://www.bodybraincentre.com.au/services/womens-health-naturopathy"
+        },
+        {
+          "rank": 4,
+          "domain": "hausofholistichealth.com.au",
+          "url": "https://hausofholistichealth.com.au/menopause-specialist-adelaide/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.papayaclinic.com.au",
+          "url": "https://www.papayaclinic.com.au/naturopathy"
+        },
+        {
+          "rank": 6,
+          "domain": "www.guidedbytradition.com.au",
+          "url": "https://www.guidedbytradition.com.au/womens-health/"
+        },
+        {
+          "rank": 7,
+          "domain": "hermonahealth.com.au",
+          "url": "https://hermonahealth.com.au/"
+        },
+        {
+          "rank": 8,
+          "domain": "therapia.com.au",
+          "url": "https://therapia.com.au/physiotherapy/naturopathy-herbal-medicine-womens-health/"
+        },
+        {
+          "rank": 9,
+          "domain": "www.healthhealingwellness.net.au",
+          "url": "https://www.healthhealingwellness.net.au/naturopathy/womens-health-naturopath"
+        },
+        {
+          "rank": 10,
+          "domain": "www.liverpoolwomenshealth.org.au",
+          "url": "https://www.liverpoolwomenshealth.org.au/alliedhealthnaturaltherapies"
+        }
+      ],
+      "live_known_competitors": []
+    },
+    {
+      "id": "nausea",
+      "title": "Nausea: causes and relief options",
+      "pillar": "Condition (careful)",
+      "tga": "Needs care",
+      "seed": "nausea relief",
+      "volume": 1000,
+      "cpc": 0.43,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        },
+        "polln": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        },
+        "herbly": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        },
+        "candor": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.healthdirect.gov.au",
+          "url": "https://www.healthdirect.gov.au/nausea"
+        },
+        {
+          "rank": 2,
+          "domain": "my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/symptoms/nausea"
+        },
+        {
+          "rank": 3,
+          "domain": "www.healthline.com",
+          "url": "https://www.healthline.com/health/how-to-get-rid-of-nausea"
+        },
+        {
+          "rank": 4,
+          "domain": "findapharmacy.com.au",
+          "url": "https://findapharmacy.com.au/latest-updates/nausea-vomiting"
+        },
+        {
+          "rank": 5,
+          "domain": "www.henryford.com",
+          "url": "https://www.henryford.com/blog/2019/05/7-remedies-for-taming-nausea"
+        },
+        {
+          "rank": 6,
+          "domain": "pepto-bismol.com",
+          "url": "https://pepto-bismol.com/en-us/symptoms/all-nausea-articles/wondering-how-to-get-rid-of-nausea-learn-what-helps-it-go-away"
+        },
+        {
+          "rank": 7,
+          "domain": "stanfordhealthcare.org",
+          "url": "https://stanfordhealthcare.org/medical-conditions/digestion-and-metabolic-health/nausea-and-vomiting/treatments.html"
+        },
+        {
+          "rank": 8,
+          "domain": "www.chemistsown.com.au",
+          "url": "https://www.chemistsown.com.au/products/anti-nausea/"
+        },
+        {
+          "rank": 9,
+          "domain": "www.cancer.org",
+          "url": "https://www.cancer.org/cancer/managing-cancer/side-effects/eating-problems/nausea-and-vomiting/managing.html"
+        }
+      ],
+      "live_known_competitors": []
+    },
+    {
+      "id": "delivery",
+      "title": "How medication delivery works",
+      "pillar": "Location / service",
+      "tga": "Safe",
+      "seed": "medication delivery australia",
+      "volume": 10,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 111,
+          "traffic": 209,
+          "best": {
+            "kw": "dispensary melbourne",
+            "pos": 1,
+            "vol": 320,
+            "traffic": 42.0,
+            "url": "https://www.alternaleaf.com.au/"
+          }
+        },
+        "polln": {
+          "kw_count": 60,
+          "traffic": 8,
+          "best": {
+            "kw": "medical cannabis delivery",
+            "pos": 2,
+            "vol": 50,
+            "traffic": 6.0,
+            "url": "https://www.polln.com/"
+          }
+        },
+        "herbly": {
+          "kw_count": 185,
+          "traffic": 319,
+          "best": {
+            "kw": "newtown dispensary",
+            "pos": 1,
+            "vol": 110,
+            "traffic": 9.0,
+            "url": "https://herbly.com.au/pages/newtown-dispensary"
+          }
+        },
+        "candor": {
+          "kw_count": 9,
+          "traffic": 0,
+          "best": {
+            "kw": "med dispensary",
+            "pos": 20,
+            "vol": 90,
+            "traffic": 0.0,
+            "url": "https://www.candormedical.com/"
+          }
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "chemist2u.com.au",
+          "url": "https://chemist2u.com.au/"
+        },
+        {
+          "rank": 2,
+          "domain": "www.priceline.com.au",
+          "url": "https://www.priceline.com.au/pharmacy-services/home-delivery?srsltid=AfmBOoqQJcprl9dQNN5Dgu6L1VucV4OUBHeGpGVnxrBpbrBwt9frSqY0"
+        },
+        {
+          "rank": 3,
+          "domain": "medmate.com.au",
+          "url": "https://medmate.com.au/fill-script/"
+        },
+        {
+          "rank": 4,
+          "domain": "www.evermed.com.au",
+          "url": "https://www.evermed.com.au/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.abbyhealth.app",
+          "url": "https://www.abbyhealth.app/blog/same-day-medication-delivery-australia-how-it-works"
+        },
+        {
+          "rank": 6,
+          "domain": "www.chemistwarehouse.com.au",
+          "url": "https://www.chemistwarehouse.com.au/fast-delivery"
+        },
+        {
+          "rank": 7,
+          "domain": "holameds.com.au",
+          "url": "https://holameds.com.au/"
+        },
+        {
+          "rank": 8,
+          "domain": "blua.bupa.com.au",
+          "url": "https://blua.bupa.com.au/chemist-delivery"
+        },
+        {
+          "rank": 9,
+          "domain": "bursthealth.com.au",
+          "url": "https://bursthealth.com.au/?srsltid=AfmBOoqF-9VH3UQ0mhvtwnvx3E4E-luKZb_whzCrdWd9B9hEn9JBN7Y2"
+        },
+        {
+          "rank": 10,
+          "domain": "www.pharmacy777.com.au",
+          "url": "https://www.pharmacy777.com.au/medication-services/express-delivery"
+        }
+      ],
+      "live_known_competitors": []
+    },
+    {
+      "id": "near-me",
+      "title": "Finding a clinic near you",
+      "pillar": "Location / service",
+      "tga": "Safe",
+      "seed": "medical cannabis clinic near me",
+      "volume": null,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 296,
+          "traffic": 419,
+          "best": {
+            "kw": "dispensary melbourne",
+            "pos": 1,
+            "vol": 320,
+            "traffic": 42.0,
+            "url": "https://www.alternaleaf.com.au/"
+          }
+        },
+        "polln": {
+          "kw_count": 193,
+          "traffic": 57,
+          "best": {
+            "kw": "best cannabis clinic australia",
+            "pos": 1,
+            "vol": 110,
+            "traffic": 14.0,
+            "url": "https://www.polln.com/"
+          }
+        },
+        "herbly": {
+          "kw_count": 334,
+          "traffic": 436,
+          "best": {
+            "kw": "cannabis shop near me",
+            "pos": 1,
+            "vol": 140,
+            "traffic": 18.0,
+            "url": "https://herbly.com.au/pages/bunbury-dispensary"
+          }
+        },
+        "candor": {
+          "kw_count": 38,
+          "traffic": 6,
+          "best": {
+            "kw": "cda clinic",
+            "pos": 3,
+            "vol": 90,
+            "traffic": 1.0,
+            "url": "https://www.candormedical.com/"
+          }
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.alternaleaf.com.au",
+          "url": "https://www.alternaleaf.com.au/"
+        },
+        {
+          "rank": 2,
+          "domain": "www.kildaremedical.com.au",
+          "url": "https://www.kildaremedical.com.au/medicinal-cannabis-clinic/"
+        },
+        {
+          "rank": 3,
+          "domain": "www.hotdoc.com.au",
+          "url": "https://www.hotdoc.com.au/medical-centres/telehealth/horizon-health-natural-medicines/doctors"
+        },
+        {
+          "rank": 4,
+          "domain": "www.warringahmedicalcentre.com.au",
+          "url": "https://www.warringahmedicalcentre.com.au/plant-medicine-clinic/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.medwestmedical.com.au",
+          "url": "https://www.medwestmedical.com.au/"
+        },
+        {
+          "rank": 6,
+          "domain": "greenlifeclinics.com.au",
+          "url": "https://greenlifeclinics.com.au/"
+        },
+        {
+          "rank": 7,
+          "domain": "www.medigreenaustralia.com.au",
+          "url": "https://www.medigreenaustralia.com.au/"
+        },
+        {
+          "rank": 8,
+          "domain": "caulfieldhealth.com.au",
+          "url": "https://caulfieldhealth.com.au/health-and-wellbeing/medical-cannabis/"
+        },
+        {
+          "rank": 9,
+          "domain": "www.ivymedclinic.com.au",
+          "url": "https://www.ivymedclinic.com.au/"
+        }
+      ],
+      "live_known_competitors": [
+        {
+          "rank": 1,
+          "domain": "www.alternaleaf.com.au",
+          "url": "https://www.alternaleaf.com.au/"
+        }
+      ]
+    },
+    {
+      "id": "eligibility",
+      "title": "Am I eligible: who can be treated",
+      "pillar": "Education",
+      "tga": "Needs care",
+      "seed": "medical cannabis eligibility australia",
+      "volume": 10,
+      "cpc": null,
+      "local_coverage": {
+        "alternaleaf": {
+          "kw_count": 7,
+          "traffic": 7,
+          "best": {
+            "kw": "doctors who can prescribe cbd oil melbourne",
+            "pos": 3,
+            "vol": 70,
+            "traffic": 2.0,
+            "url": "https://www.alternaleaf.com.au/"
+          }
+        },
+        "polln": {
+          "kw_count": 20,
+          "traffic": 6,
+          "best": {
+            "kw": "doctors who can prescribe cbd oil in adelaide",
+            "pos": 1,
+            "vol": 110,
+            "traffic": 3.0,
+            "url": "https://www.polln.com/practitioners/dr-joel-wren"
+          }
+        },
+        "herbly": {
+          "kw_count": 0,
+          "traffic": 0,
+          "best": null
+        },
+        "candor": {
+          "kw_count": 2,
+          "traffic": 0,
+          "best": {
+            "kw": "doctors who can prescribe cbd oil gold coast",
+            "pos": 40,
+            "vol": 70,
+            "traffic": 0.0,
+            "url": "https://www.candormedical.com/"
+          }
+        }
+      },
+      "live_serp_top": [
+        {
+          "rank": 1,
+          "domain": "www.health.vic.gov.au",
+          "url": "https://www.health.vic.gov.au/drugs-and-poisons/frequently-asked-questions-about-medicinal-cannabis"
+        },
+        {
+          "rank": 2,
+          "domain": "www.sahealth.sa.gov.au",
+          "url": "https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/conditions/medicines/medicinal+cannabis/medicinal+cannabis+patient+access+in+south+australia"
+        },
+        {
+          "rank": 3,
+          "domain": "www.sydney.edu.au",
+          "url": "https://www.sydney.edu.au/lambert/how-to-get-medicinal-cannabis.html"
+        },
+        {
+          "rank": 4,
+          "domain": "www.tga.gov.au",
+          "url": "https://www.tga.gov.au/resources/explore-topic/medicinal-cannabis-hub/medicinal-cannabis-information-patients/accessing-medicinal-cannabis-patient"
+        },
+        {
+          "rank": 5,
+          "domain": "adf.org.au",
+          "url": "https://adf.org.au/talking-about-drugs/medicinal-cannabis-products/medicinal-cannabis-use/"
+        },
+        {
+          "rank": 6,
+          "domain": "www.ahpra.gov.au",
+          "url": "https://www.ahpra.gov.au/Resources/Medicinal-cannabis-prescribing.aspx"
+        },
+        {
+          "rank": 7,
+          "domain": "www.polln.com",
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia"
+        },
+        {
+          "rank": 8,
+          "domain": "www.odc.gov.au",
+          "url": "https://www.odc.gov.au/medicinal-cannabis/grow-produce-or-manufacture-cannabis-australia/apply-medicinal-cannabis-licence"
+        },
+        {
+          "rank": 9,
+          "domain": "www.littlegreenpharma.com",
+          "url": "https://www.littlegreenpharma.com/au/about-us/"
+        }
+      ],
+      "live_known_competitors": [
+        {
+          "rank": 7,
+          "domain": "www.polln.com",
+          "url": "https://www.polln.com/library/getting-access-to-prescription-natural-medicine-in-australia"
+        }
+      ]
+    }
+  ],
+  "total_cost": 0.1809
+}
