@@ -1,0 +1,158 @@
+{
+  "gummies": {
+    "seed": "cannabis edibles",
+    "hits": []
+  },
+  "gummies2": {
+    "seed": "thc gummies",
+    "hits": []
+  },
+  "capsules": {
+    "seed": "cbd capsules",
+    "hits": []
+  },
+  "topicals": {
+    "seed": "cbd cream",
+    "hits": [
+      {
+        "rank": 8,
+        "domain": "releaf.co.uk",
+        "url": "https://releaf.co.uk/education/cannabis-101/administration/topical/a-beginners-guide-to-topical-cannabinoids-and-cbd-cream"
+      }
+    ]
+  },
+  "topicals2": {
+    "seed": "cbd topical",
+    "hits": [
+      {
+        "rank": 7,
+        "domain": "releaf.co.uk",
+        "url": "https://releaf.co.uk/education/cannabis-101/administration/topical/a-beginners-guide-to-topical-cannabinoids-and-cbd-cream"
+      },
+      {
+        "rank": 25,
+        "domain": "releaf.co.uk",
+        "url": "https://releaf.co.uk/education/cannabis-101/administration/topical/cbd-topical-application-how-does-it-work"
+      },
+      {
+        "rank": 37,
+        "domain": "leafwell.com",
+        "url": "https://leafwell.com/blog/cannabis-topicals"
+      }
+    ]
+  },
+  "tinctures": {
+    "seed": "cbd tincture",
+    "hits": []
+  },
+  "howtaken": {
+    "seed": "ways to take cbd",
+    "hits": []
+  },
+  "cbdthc": {
+    "seed": "cbd vs thc",
+    "hits": []
+  },
+  "howlong": {
+    "seed": "how long does weed stay in your system",
+    "hits": [
+      {
+        "rank": 16,
+        "domain": "leafwell.com",
+        "url": "https://leafwell.com/blog/does-marijuana-show-up-in-regular-blood-work"
+      },
+      {
+        "rank": 43,
+        "domain": "www.polln.com",
+        "url": "https://www.polln.com/library/how-long-does-cannabis-stay-in-your-system"
+      }
+    ]
+  },
+  "fullspec": {
+    "seed": "full spectrum vs isolate",
+    "hits": [
+      {
+        "rank": 6,
+        "domain": "leafwell.com",
+        "url": "https://leafwell.com/blog/full-spectrum-cbd-vs-cbd-isolate"
+      },
+      {
+        "rank": 21,
+        "domain": "leafwell.com",
+        "url": "https://leafwell.com/blog/broad-spectrum-cbd-vs-cbd-isolate"
+      }
+    ]
+  },
+  "entourage": {
+    "seed": "entourage effect",
+    "hits": [
+      {
+        "rank": 20,
+        "domain": "leafwell.com",
+        "url": "https://leafwell.com/blog/entourage-effect"
+      }
+    ]
+  },
+  "howworks": {
+    "seed": "how does cbd work",
+    "hits": [
+      {
+        "rank": 31,
+        "domain": "leafwell.com",
+        "url": "https://leafwell.com/blog/what-does-smoking-cbd-do"
+      }
+    ]
+  },
+  "stress": {
+    "seed": "natural stress relief",
+    "hits": [
+      {
+        "rank": 37,
+        "domain": "herbly.com.au",
+        "url": "https://herbly.com.au/blogs/news/natural-stress-remedies?srsltid=AfmBOorHVJ4eQ1SLolV32EmhEN1QhM8Hw-NaNNVJcUw4bjr91UL2pdQH"
+      }
+    ]
+  },
+  "chronicpain": {
+    "seed": "natural pain relief",
+    "hits": []
+  },
+  "energy": {
+    "seed": "how to boost energy naturally",
+    "hits": [
+      {
+        "rank": 5,
+        "domain": "www.alternaleaf.com.au",
+        "url": "https://www.alternaleaf.com.au/hub/boost-energy-levels-naturally"
+      }
+    ]
+  },
+  "period": {
+    "seed": "period pain remedies",
+    "hits": []
+  },
+  "nerve": {
+    "seed": "neuropathic pain",
+    "hits": []
+  },
+  "depression": {
+    "seed": "natural remedies for depression",
+    "hits": []
+  },
+  "ptsd": {
+    "seed": "ptsd treatment",
+    "hits": []
+  },
+  "ms": {
+    "seed": "multiple sclerosis treatment",
+    "hits": []
+  },
+  "sciatica": {
+    "seed": "sciatica treatment",
+    "hits": []
+  },
+  "ibd": {
+    "seed": "natural remedies for ulcerative colitis",
+    "hits": []
+  }
+}
