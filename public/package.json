@@ -1,0 +1,6 @@
+{
+  "name": "hellomello-public",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site plus serverless API for the Hellomello Vercel project."
+}

@@ -1,0 +1,10 @@
+# Files in public/ that should not be uploaded as static assets.
+# Gitignore-style patterns. These belong to the old Vercel deployment or are
+# internal notes, so they stay in the repo but are not served publicly.
+api
+package.json
+vercel.json
+.vercel
+.vercelignore
+.assetsignore
+README.md

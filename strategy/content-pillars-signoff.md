@@ -5,9 +5,9 @@
 **Date:** 2026-06
 **Status:** Draft for your sign-off
 
-This is the educational content list we want your approval on before we start writing. It covers one thing only: educational topics. That means product forms, plain explainers, symptoms, and conditions. It does not cover location pages, prescription and access pages, or cost pages. Those sit in separate pillars and come to you on their own list.
+This is the educational content we'd like you to sign off before we start writing. It covers one thing only: educational topics. That means product forms, plain explainers, symptoms and conditions. It does not include location pages, access pages or pricing pages. Those are separate pillars, and we'll bring them to you on their own lists.
 
-Every topic below is backed by evidence. For each one we show the real Australian search demand and the actual competitor pages that already rank for it, each with its real link. We checked every competitor link by hand and they all load. Nothing gets written until you sign it off. The final publish call stays with you.
+For each topic we show what people are searching for in Australia and the competitor pages already ranking for it, each with a real link. We checked every link by hand, and they all work. Nothing gets written until you sign it off, and the final publish call stays with you.
 
 ---
 
@@ -22,33 +22,32 @@ We split educational content into four groups:
 
 ---
 
-## Why this matters: the evidence in one line
+## Why this matters
 
-We found that the three competitors you care about are already running full educational libraries, and Hellomello has none of it.
+The three competitors you watch most closely already run full educational libraries. Hellomello has none.
 
 - **Polln** runs a content library at `/library/...` covering CBD, indica versus sativa, terpenes, vaping and the endocannabinoid system.
 - **Herbly** runs a large blog at `/blogs/...` covering the endocannabinoid system, anxiety, menopause, arthritis, endometriosis, fibromyalgia, epilepsy, ADHD, sleep and driving.
 - **Alternaleaf** runs a hub at `/hub/...` covering sleep, muscle pain and inflammation.
 - **Hellomello** ranks for about 92 keywords in Australia, and not one of them is an educational term. Every non-brand term we rank for is transactional.
 
-So this is a real gap. The competitors have decided educational content is worth doing, they have published it, and it is ranking. We have the actual links below as proof.
+So this is a real gap. The competitors have decided this content is worth doing, they've published it, and it's ranking. The links are all below.
 
 ---
 
 ## How to read the tables
 
-- **Volume** is the monthly Australian search demand for the lead term, from DataForSEO Google Ads data, shown as Low, Mid or High. High is roughly 1,500 searches a month or more, Mid is a few hundred to about 1,500, and Low is under a few hundred or not separately measured.
 - **Competitors covering it** lists every competitor we found with a real page for that topic, each with its actual link. Every link was checked and loads.
 - **TGA** flags the compliance care needed: Safe, Care, or Restricted.
 - **Your call** is where you mark Approve, Change, or Drop.
 
-Most competitor pages come from the three Australian sites running educational content: Polln, Herbly and Alternaleaf. For a few of the explainer terms we also include the international cannabis sites (Leafwell, Releaf) that rank in the Australian results, so you can see how the topic is being covered.
+Most competitor pages come from the Australian sites running educational content: Polln, Herbly and Alternaleaf. For a few of the explainer terms we also include the international cannabis sites (Leafwell, Releaf) that rank in the Australian results, so you can see how the topic is being covered.
 
 ---
 
 ## Group 1: Product forms
 
-**Why this section.** These pages explain what each product format is, in plain language, so a new patient understands their options before a consult. We chose it because it answers the practical "what is" questions people search, with the lowest claim risk, and it mirrors the product library Polln has already built.
+These pages explain each product format in plain language, so a new patient understands their options before a consult. They answer the simple "what is" questions people search, they carry the lowest claim risk, and they match the product library Polln has already built.
 
 | Topic | Volume | Competitors covering it | TGA | Your call |
 |---|---|---|---|---|
@@ -62,13 +61,13 @@ Most competitor pages come from the three Australian sites running educational c
 | Tinctures | Low | Leafwell: [dosing tinctures](https://leafwell.com/blog/how-to-dose-cannabis-tinctures); Leafwell: [tincture vs oil](https://leafwell.com/blog/cbd-tincture-vs-oil) | Care | Approve / Change / Drop |
 | How medical cannabis is taken | Low | Polln: [how medicine is taken](https://www.polln.com/library/how-prescription-natural-medicine-can-be-consumed); Leafwell: [how to use CBD oil](https://leafwell.com/blog/how-to-use-cbd-oil) | Care | Approve / Change / Drop |
 
-**Read:** Polln is the only Australian competitor with a real product library, so it is the proof on every row here. "What is CBD oil" is the single biggest educational term in the whole set, with High demand and a Polln page already ranking. We recommend starting with "What is CBD oil" and building the other format pages around it. Keep all product content general and never claim a product treats anything.
+**Read:** Of the competitors we looked at, Polln has the strongest product library, so it's the proof on most rows here. "What is CBD oil" is the biggest educational term in the whole set, with High demand and a Polln page already ranking. We'd start there and build the other format pages around it.
 
 ---
 
 ## Group 2: How it works
 
-**Why this section.** These are the foundational "how it works" topics that every other page links back to. We chose it because it is the safest group on compliance and the richest on evidence, and most competitors already rank here, so it sets up the whole library.
+These are the "how it works" basics that every other page links back to. It's the safest group on compliance and the strongest on evidence, and most competitors already rank here, so it sets up the rest of the library.
 
 | Topic | Volume | Competitors covering it | TGA | Your call |
 |---|---|---|---|---|
@@ -86,13 +85,13 @@ Most competitor pages come from the three Australian sites running educational c
 | The entourage effect | Low | Leafwell: [the entourage effect](https://leafwell.com/blog/entourage-effect); Polln: [cannabis terpenes](https://www.polln.com/library/everything-you-need-to-know-about-cannabis-terpenes) | Safe | Approve / Change / Drop |
 | How medical cannabis works | Low | Leafwell: [what is CBD](https://leafwell.com/blog/what-is-cbd); Herbly: [understanding the ECS](https://herbly.com.au/blogs/latest-medical-articles/understanding-the-endocannabinoid-system); Polln: [the ECS explained](https://www.polln.com/library/the-endocannabinoid-system-explained) | Care | Approve / Change / Drop |
 
-**Read:** This is the safest group on compliance and the richest on evidence. "Cannabinoids" and "indica vs sativa" carry real demand, and several competitors already cover the indica versus sativa and THC clusters, so they are proven and Safe. The very big terms, like "what is CBD", are held by Harvard and WebMD in the live results, so treat those as slow authority pieces rather than fast wins. We recommend starting with indica vs sativa and cannabinoids, then filling in the THC and CBD explainers.
+**Read:** This is the safest group on compliance and the strongest on evidence. "Cannabinoids" and "indica vs sativa" both carry real demand, and several competitors already cover the indica versus sativa and THC topics, so they're proven and Safe. We'd start with indica vs sativa and cannabinoids, then fill in the THC and CBD explainers.
 
 ---
 
 ## Group 3: Symptoms
 
-**Why this section.** These are the everyday wellbeing topics people search for. We chose it because it builds authority and traffic without naming a product or making a treatment claim, copying the Alternaleaf hub model that already ranks.
+These are the everyday wellbeing topics people search for. They build authority and traffic without naming a product or making a treatment claim, the same way the Alternaleaf hub does, and that hub already ranks.
 
 | Topic | Volume | Competitors covering it | TGA | Your call |
 |---|---|---|---|---|
@@ -106,13 +105,13 @@ Most competitor pages come from the three Australian sites running educational c
 | Period and menstrual pain | Low | Herbly: [period pain remedies](https://herbly.com.au/blogs/women-s-health/top-7-period-pain-remedies-and-the-role-of-cbd-thc); Herbly: [relieving menstrual cramps](https://herbly.com.au/blogs/women-s-health/cbd-and-thc-for-period-pain-natural-ways-to-relieve-menstrual-cramps) | Care | Approve / Change / Drop |
 | Nerve and neuropathic pain | Low | Herbly: [neuropathic pain](https://herbly.com.au/blogs/news/neuropathic-pain-who-it-affects-causes-and-treatments); Herbly: [diabetic nerve pain](https://herbly.com.au/blogs/news/diabetic-nerve-pain-comprehensive-therapies-and-treatment-options) | Care | Approve / Change / Drop |
 
-**Read:** Alternaleaf is the model to copy here. Its hub pages on sleep, inflammation and muscle pain show the play: general wellbeing advice that builds authority without making a treatment claim. Herbly covers sleep too. Sleep has clear demand and competitor proof, so we recommend starting there. Nausea has High demand but no competitor page yet, so it is an open run worth taking next. Keep every symptom page general and do not link a symptom to a cannabis product.
+**Read:** Alternaleaf is the model to copy here. Its hub pages on sleep, inflammation and muscle pain show the play: general wellbeing advice that builds authority. Herbly covers sleep too. Sleep has clear demand and competitor proof, so it's the place to start. Nausea also has strong demand but no competitor page yet, so it's an open run worth taking next.
 
 ---
 
 ## Group 4: Conditions (handle with care)
 
-**Why this section.** These are the condition topics patients actually search before they ask about cannabis. We chose it because Herbly ranks for every one of them, which proves the demand is real, but it is the highest compliance risk in the set, so it needs care.
+These are the conditions patients search before they ever ask about cannabis. Herbly ranks for every one of them, which proves the demand is real, but this is also the riskiest group on compliance, so it needs care.
 
 | Topic | Volume | Competitors covering it | TGA | Your call |
 |---|---|---|---|---|
@@ -130,7 +129,7 @@ Most competitor pages come from the three Australian sites running educational c
 | Sciatica | Low | Herbly: [sciatica support options](https://herbly.com.au/blogs/news/sciatica-therapies-and-treatment-exploring-conventional-alternative-and-natural-options); Herbly: [joint and back pain](https://herbly.com.au/blogs/news/joint-pain-understanding-causes-symptoms-and-holistic-treatments) | Care | Approve / Change / Drop |
 | Ulcerative colitis and IBD | Low | Herbly: [natural support for colitis](https://herbly.com.au/blogs/news/natural-treatments-for-ulcerative-colitis); Herbly: [natural medicine for IBD](https://herbly.com.au/blogs/news/natural-medicine-for-inflammatory-bowel-disease) | Care | Approve / Change / Drop |
 
-**Read:** Herbly has built a full condition library and is ranking for all of these, which is why it is the proof on every row. That is the evidence the play works. The catch is compliance. Conditions marked Restricted (anxiety, epilepsy, ADHD) sit close to the TGA line that caught Polln, so if we write them they must stay general, carry no cannabis claim, and be reviewed by your named doctor before publishing. The Care conditions (menopause, migraine, arthritis, endometriosis, fibromyalgia) are safer and still well covered by Herbly, so we suggest starting there.
+**Read:** Herbly has built a full condition library and ranks for all of these, which is the proof the demand is real. We'd start with the Care conditions (menopause, migraine, arthritis, endometriosis, fibromyalgia), which carry the lowest risk and are still well covered by Herbly. The Restricted conditions need special handling, which we cover in the guardrails section at the end.
 
 ---
 
@@ -147,21 +146,26 @@ Forty four educational topics, in priority order, all backed by real competitor 
 
 ## Our recommendation on order
 
-If you want a starting order, we suggest this:
+If you'd like a running order, here's what we suggest:
 
 1. **Start here, lowest risk, clearest evidence:** cannabinoids, indica vs sativa, what is CBD, what is THC, CBD versus THC, endocannabinoid system, terpenes, the entourage effect, driving, how long it stays in your system. These are Safe on compliance and the competitor proof is strongest.
 2. **Add the product hub:** what is CBD oil, vaporiser, oil, flower, gummies and edibles, capsules, topicals and creams, tinctures, how it is taken. Big demand, kept general.
 3. **Add symptoms next, copying the Alternaleaf hub model:** sleep, inflammation, muscle pain, nausea, stress, chronic pain, low energy, period pain, nerve pain.
 4. **Add Care conditions, doctor reviewed:** menopause, migraine, arthritis, endometriosis, fibromyalgia, multiple sclerosis, sciatica, ulcerative colitis and IBD.
-5. **Only with your sign-off and doctor review:** anxiety, epilepsy, ADHD, depression and low mood, PTSD.
+5. **Hold, compliance and legal sign-off required:** anxiety, depression and low mood, PTSD, ADHD, epilepsy. See the guardrails section at the end.
 
 ---
 
-## The guardrails on all of it
+## Before we start: winnability, structure and the guardrails
 
-Everything above stays inside TGA and AHPRA boundaries:
+A few things that apply across every topic above, kept in one place rather than repeated on each group.
 
-- No claim that a product or cannabis treats, cures or helps any condition.
-- Symptom and condition pages stay general and helpful, never tied to a product.
-- Restricted topics are written as plain health education and reviewed by your named doctor before they go live.
-- Nothing publishes without your sign-off.
+**A competitor ranking is not a promise we will rank.** Competitor presence shows the demand is real, not that we will rank quickly. The broad, high-demand health terms, like arthritis, multiple sclerosis or nausea, are mostly held by government and major health sites such as Healthdirect and Better Health, so treat those as long-term authority plays. Our early wins come from the focused, lower-competition explainers where the cannabis clinics, not the health giants, own the results.
+
+**Fewer, deeper pages, not 44 thin ones.** Some topics are best built as one strong pillar page with sections rather than separate thin pages, the way Polln covers several on a single article. So the 44 topics here become a smaller set of deeper pages, which ranks better and reads better.
+
+**Everything stays inside TGA and AHPRA boundaries.** No claim that a product or cannabis treats, cures or helps any condition. Symptom and condition pages stay general and helpful, never tied to a product. Nothing publishes without your sign-off.
+
+**Two separate checks, not one.** Clinical review and advertising compliance are different risks. Your named doctor confirms the content is medically accurate. That does not make it compliant with the Therapeutic Goods Act, which can treat health content from a clinic that sells access to prescription medicines as advertising to the public. Every Care and Restricted page gets both checks before it goes live, and the page carries a named medical reviewer, their credentials, primary-source citations and a visible "last reviewed" date.
+
+**Hold the Restricted conditions until legal sign-off.** The Restricted rows, anxiety, depression and low mood, PTSD, ADHD and epilepsy, sit inside the same TGA territory as the warning Hellomello has already received, and as you noted, Polln and Alternaleaf have run into trouble here. A competitor publishing it is a sign of their risk appetite, not a green light for us. Hold every Restricted condition until it has had a compliance and legal review, separate from clinical review, and drop the Schedule-controlled mental health conditions if there is any doubt.

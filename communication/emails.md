@@ -6,6 +6,7 @@ Chronological log of correspondence. Each entry is tagged with date, sender, and
 - **Rod** — Rod, Hellomello (rod@hellomello.com.au, 0438 889 827, www.hellomello.com.au)
 - **Vahid** — Vahid Ebrahimi, Managing Director, Bright Data (vahid@brightdata.com.au, 0434 966 529, brightdata.com.au)
 - **Alex** — Hellomello team (cc'd on most threads)
+- **Zac** — Hellomello marketing team (blog page design)
 
 **Shared artefacts referenced in this thread**
 - SEO Handover document (Google Sheet, includes competitors tab): https://docs.google.com/spreadsheets/d/1qT3972ykMl2jVu4chdMuvdBqaKGrocdsfBwxnm0wvZc/edit?usp=sharing
@@ -283,6 +284,85 @@ Additional delivery message to include where relevant:
 
 ---
 
+## 2026-06-09 (Tue, 17:41) — Vahid → Rod
+**Topics:** education content pillar sign-off, sign-off page link + password, how the review works
+
+- Education content pillar topics prepared and put on a simple sign-off page for easy review (approve, change, or drop per topic, with optional notes).
+- Link: https://clients.brightdata.com.au/hellomello/strategy/educational-signoff
+- Password protected — password: hellomello-2026!
+- How it works: go through topics one group at a time; progress saves as you go on the same device; add your name and submit when done; decisions come straight to Bright Data by email.
+- Offers a quick walk-through call if anything is unclear.
+
+---
+
+## 2026-06-10 (Wed, 10:23) — Rod → Vahid
+**Topics:** education sign-off complete, cannabis mentions = orange flags, safe-articles-first approach, low-hanging fruit
+
+- Confirms the education topic sign-off is **all done**.
+- Flags **a lot of orange flags around mentioning cannabis**.
+- Proposes finding ways to mention cannabis **only after producing 10–20 safe articles**, and then only **1–2 of them** referencing cannabis within a larger healthcare topic.
+- Wants to **knock off the low-hanging fruit first** and get content moving, then discuss the cannabis approach.
+- Asks what else Vahid needs from him.
+
+---
+
+## 2026-06-10 (Wed, 10:25) — Rod → Vahid, Zac
+**Topics:** blog page design, intro to Zac (marketing), blog page requirements request
+
+- Introduces **Zac from Hellomello's marketing team**, who will **design a blog page** to house all the content articles.
+- Asks Vahid to confirm the **blog page requirements**:
+  - Any particular design features?
+  - Headings / body / other structure?
+  - Footnotes?
+  - Any guidance document to work from?
+
+---
+
+## 2026-06-10 (Wed) — Vahid → Rod
+**Topics:** reply to education sign-off, safe-topics-first agreement, first batch drafting, blog page layout next
+
+- Confirms the sign-off decisions have **come through on Bright Data's end**.
+- Agrees with Rod's approach: **get a good run of safe topics out first** to build the base, then look at working cannabis in **further down the track**, once it can sit inside a broader health topic.
+- Bright Data has **everything it needs to start drafting the first batch** and will get moving on those.
+- Next thing on Bright Data's side is **getting the blog page layout sorted with Zac**.
+
+---
+
+## 2026-06-10 (Wed) — Vahid → Rod, Zac
+**Topics:** blog page wireframe approach, blog hub + article page requirements, SEO notes, walkthrough call
+
+Proposes building a **quick wireframe of the blog page** rather than handing over a list of requirements. Built off the brand guidelines and what's already on the site so it slots straight in, then handed to Zac to review, tweak and finish.
+
+**Blog hub (index) page**
+- Clean grid or list of all articles, newest first.
+- Topic / category filtering.
+- A featured or pinned article slot up top.
+- A search box.
+- Each article card showing image, title, short intro, category and read time.
+- Pagination or load more for when the library grows.
+
+**Individual article page**
+- Proper heading structure (one main title, then sections below) — matters a lot for SEO, so set in the template.
+- Intro, scannable body with subheadings, and a clear call to action at the end.
+- Author and reviewer byline area, plus published and updated dates.
+- Featured image and support for images through the body.
+- A table of contents for longer articles.
+- A references / footnotes section at the bottom for clinical claims.
+- FAQ block and a key takeaways box.
+- Related articles at the bottom to keep people reading.
+- Internal links back to relevant service and location pages.
+- Social share buttons.
+- Estimated read time.
+
+**Across the whole thing**
+- Fast loading and mobile-first.
+- Consistent with the Hellomello brand — warm and human rather than clinical.
+- Set up so SEO basics (meta titles, descriptions, schema, clean URLs) can be added per article.
+
+Next step: Bright Data prepares the wireframe with a few short SEO notes for Zac, then a quick call to walk through it once Rod and Zac have had a look.
+
+---
+
 ## Open Items / Commitments
 
 | Item | Owner | Status |
@@ -304,6 +384,8 @@ Additional delivery message to include where relevant:
 | Confirm pSEO is best strategy + justify 20-suburb cap | Vahid | Asked by Rod 2026-06-02 |
 | Clarify YMYL content sign-off (HM doctors vs 3rd-party) | Vahid | Asked by Rod 2026-06-02 |
 | Share list of technical SEO work + scope vs in-house | Vahid | Asked by Rod 2026-06-02 |
+| Education content pillar topic sign-off | Rod | Completed 2026-06-10 |
+| Confirm blog page requirements (design, structure, footnotes, guidance doc) for Zac | Vahid | Asked by Rod 2026-06-10 |
 | Clarify homepage CRO/UX review date ("Tuesday") | Vahid | Asked by Rod 2026-06-02 |
 | Company profile (single source of truth) build-out | Vahid | In progress (this week, per 2026-06-01) |
 | 4 major competitor deep-dives | Vahid | Complete (per 2026-06-01); rest being added |
