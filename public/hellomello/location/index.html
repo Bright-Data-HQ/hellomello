@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="ext-resource-dependency" content="assets/caboolture.png">
+<meta name="ext-resource-dependency" content="assets/coomera.png">
+<meta name="ext-resource-dependency" content="assets/melbourne.png">
+<script src="./support.js"></script>
+</head>
+<body>
+<template id="__bundler_thumbnail">
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="18" fill="#283718"/>
+  <g transform="translate(50,48)" fill="none" stroke="#FEFAE0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 -20 C 13 -20, 20 -10, 20 0 C 20 13, 0 24, 0 24 C 0 24, -20 13, -20 0 C -20 -10, -13 -20, 0 -20 Z"/>
+    <circle cx="0" cy="-3" r="7" fill="#DDA15E" stroke="none"/>
+  </g>
+</svg>
+</template>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{font-family:"Inter","Helvetica Neue",system-ui,sans-serif;background:#E7E3CE;color:#283718;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;display:block}
+  .fq summary{list-style:none;cursor:pointer}
+  .fq summary::-webkit-details-marker{display:none}
+  .fq .fqp{transition:transform .18s ease}
+  .fq[open] .fqp{transform:rotate(45deg)}
+  .lnk{transition:color .15s ease}
+  .lnk:hover{color:#BC6C25 !important}
+  .btnp{transition:background .15s ease,transform .1s ease}
+  .btnp:active{transform:translateY(1px)}
+</style>
+</helmet>
+
+<div style="min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:0 0 64px">
+
+  <!-- ===== MOCKUP CONTROL BAR (not part of the page) ===== -->
+  <div style="position:sticky;top:0;z-index:50;width:100%;background:#1F2B12;border-bottom:1px solid #34481F;display:flex;flex-wrap:wrap;align-items:center;gap:18px;padding:11px 20px;font-family:'JetBrains Mono',monospace">
+    <span style="font-family:'League Spartan',sans-serif;font-weight:900;font-size:15px;color:#FEFAE0;letter-spacing:-.02em">hellomello</span>
+    <span style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#B2DCD0">Location page · template v1</span>
+    <div style="flex:1"></div>
+
+    <span style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:#8C9779">Example</span>
+    <div style="display:inline-flex;gap:3px;background:#283718;border:1px solid #34481F;border-radius:9999px;padding:3px">
+      <button class="btnp" onClick="{{ pickCab }}" style="{{ exCab }}">Caboolture · delivery</button>
+      <button class="btnp" onClick="{{ pickUC }}" style="{{ exUC }}">Upper Coomera · pickup</button>
+      <button class="btnp" onClick="{{ pickMel }}" style="{{ exMel }}">Melbourne · city</button>
+    </div>
+
+    <span style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:#8C9779">View</span>
+    <div style="display:inline-flex;gap:3px;background:#283718;border:1px solid #34481F;border-radius:9999px;padding:3px">
+      <button class="btnp" onClick="{{ viewDesktop }}" style="{{ vD }}">Desktop</button>
+      <button class="btnp" onClick="{{ viewMobile }}" style="{{ vM }}">Mobile</button>
+    </div>
+
+    <button class="btnp" onClick="{{ toggleHl }}" style="{{ hlBtn }}">{{ hlLabel }}</button>
+  </div>
+
+  <!-- legend when highlighting -->
+  <sc-if value="{{ highlight }}" hint-placeholder-val="{{ false }}">
+    <div style="width:100%;background:#FBE7C4;border-bottom:1px solid #EFC788;padding:8px 20px;font-family:'JetBrains Mono',monospace;font-size:11px;color:#8A4A0E;text-align:center">
+      Dashed terracotta = a field filled programmatically per location. Everything else is fixed template.
+    </div>
+  </sc-if>
+
+  <!-- ===== THE PAGE FRAME ===== -->
+  <div style="{{ frameStyle }}">
+
+    <!-- 01 · Announcement bar -->
+    <sc-if value="{{ announce }}" hint-placeholder-val="{{ true }}">
+      <div style="background:#283718;color:#FEFAE0;display:flex;align-items:center;justify-content:center;gap:12px;padding:9px 16px;text-align:center;position:relative">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#DDA15E">Next business day delivery</span>
+        <span style="font-size:12.5px;color:#FEFAE0;opacity:.92">for orders placed before 12pm</span>
+        <button class="btnp" onClick="{{ dismiss }}" aria-label="Dismiss" style="position:absolute;right:12px;top:50%;transform:translateY(-50%);background:transparent;border:0;color:#B2DCD0;font-size:16px;cursor:pointer;line-height:1">×</button>
+      </div>
+    </sc-if>
+
+    <!-- 02 · Top nav -->
+    <div style="background:#283718;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 24px">
+      <img src="assets/logo.png" alt="hellomello" style="height:44px;width:auto;display:block" />
+      <div style="display:flex;align-items:center;gap:26px">
+        <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+          <nav style="display:flex;gap:24px;font-size:14px;font-weight:500">
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">How it Works</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">Pricing</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">FAQs</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">Login</a>
+          </nav>
+        </sc-if>
+        <a class="btnp" href="#" style="display:inline-flex;align-items:center;gap:8px;font-family:'League Spartan',sans-serif;font-weight:700;font-size:13px;background:#FEFAE0;color:#283718;text-decoration:none;padding:5px 16px 5px 5px;border-radius:9999px;white-space:nowrap"><span style="display:inline-flex;width:26px;height:26px;border-radius:50%;background:#283718;align-items:center;justify-content:center;flex-shrink:0"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#FEFAE0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>Get started</a>
+        <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+          <button aria-label="Menu" style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:9999px;background:transparent;border:1px solid rgba(254,250,224,.4);color:#FEFAE0;cursor:pointer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          </button>
+        </sc-if>
+      </div>
+    </div>
+
+    <!-- padded content column -->
+    <div style="background:#FBF6D6;display:flex;flex-direction:column;gap:{{ gap }};padding:{{ pad }}">
+
+      <!-- 03 · Hero -->
+      <section data-screen-label="Hero" style="background:#283718;border-radius:24px;display:grid;gap:34px;align-items:center;overflow:hidden;grid-template-columns:{{ heroCols }};padding:{{ heroPad }}">
+        <div>
+          <p style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#DDA15E;margin:0 0 16px">
+            <span style="{{ tf }}">{{ d.eyebrow }}</span>
+          </p>
+          <h1 style="font-family:'League Spartan',sans-serif;font-weight:900;line-height:.98;letter-spacing:-.025em;color:#FEFAE0;margin:0 0 16px;font-size:{{ h1Size }}">
+            <span style="{{ tf }}">{{ d.h1 }}</span>
+          </h1>
+          <p style="font-size:15.5px;line-height:1.6;color:#FEFAE0;opacity:.9;margin:0 0 22px;max-width:48ch">
+            <span style="{{ tf }}">{{ d.subhead }}</span>
+          </p>
+          <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:22px">
+            <div style="font-family:'League Spartan',sans-serif;font-weight:900;font-size:34px;color:#DDA15E;line-height:1">$49<span style="font-size:14px;font-weight:700;color:#B2DCD0;margin-left:6px">to get started</span></div>
+          </div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <a class="btnp" href="#" style="display:inline-flex;align-items:center;gap:9px;font-family:'League Spartan',sans-serif;font-weight:700;font-size:15px;background:#FEFAE0;color:#283718;text-decoration:none;padding:7px 24px 7px 7px;border-radius:9999px;white-space:nowrap"><span style="display:inline-flex;width:32px;height:32px;border-radius:50%;background:#283718;align-items:center;justify-content:center;flex-shrink:0"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FEFAE0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>Get started</a>
+            <a class="btnp" href="#" style="display:inline-flex;align-items:center;font-family:'League Spartan',sans-serif;font-weight:700;font-size:15px;background:transparent;color:#FEFAE0;text-decoration:none;padding:14px 24px;border-radius:9999px;border:1.5px solid rgba(254,250,224,.55);white-space:nowrap">Check my eligibility</a>
+          </div>
+          <p style="display:flex;align-items:center;gap:8px;margin:20px 0 0;font-size:13px;color:#B2DCD0">
+            <span style="display:inline-flex;width:18px;height:18px;border-radius:50%;background:#34481F;color:#DDA15E;align-items:center;justify-content:center;font-size:11px;flex-shrink:0">→</span>
+            <span style="{{ tf }}">{{ d.deliveryLine }}</span>
+          </p>
+        </div>
+        <div style="aspect-ratio:4/3;border-radius:18px;overflow:hidden">
+          <img src="{{ d.heroImg }}" alt="{{ d.imageAlt }}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block" />
+        </div>
+      </section>
+
+      <!-- 04 · Trust bar -->
+      <section data-screen-label="Trust bar" style="background:#F6F0CC;border:1px solid #CFC68C;border-radius:14px;display:flex;flex-wrap:{{ twWrap }};align-items:center;justify-content:center;gap:14px 20px;padding:20px 18px">
+        <div style="display:flex;align-items:center;gap:9px;font-size:13.5px;color:#34481F;white-space:nowrap">
+          <span style="display:inline-flex;width:30px;height:30px;border-radius:50%;background:#B2DCD0;align-items:center;justify-content:center;flex-shrink:0"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#283718" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
+          4.7 Google rating
+        </div>
+        <div style="display:flex;align-items:center;gap:9px;font-size:13.5px;color:#34481F;white-space:nowrap">
+          <span style="display:inline-flex;width:30px;height:30px;border-radius:50%;background:#B2DCD0;align-items:center;justify-content:center;flex-shrink:0"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#283718" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+          50,000+ patients
+        </div>
+        <div style="display:flex;align-items:center;gap:9px;font-size:13.5px;color:#34481F;white-space:nowrap">
+          <span style="display:inline-flex;width:30px;height:30px;border-radius:50%;background:#B2DCD0;align-items:center;justify-content:center;flex-shrink:0"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#283718" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          AHPRA-registered clinicians
+        </div>
+        <div style="display:flex;align-items:center;gap:9px;font-size:13.5px;color:#34481F;white-space:nowrap">
+          <span style="display:inline-flex;width:30px;height:30px;border-radius:50%;background:#B2DCD0;align-items:center;justify-content:center;flex-shrink:0"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#283718" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></span>
+          Australia-wide
+        </div>
+        <div style="display:flex;align-items:center;gap:9px;font-size:13.5px;color:#34481F;white-space:nowrap">
+          <span style="display:inline-flex;width:30px;height:30px;border-radius:50%;background:#B2DCD0;align-items:center;justify-content:center;flex-shrink:0"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#283718" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></span>
+          Same-day dispatch
+        </div>
+      </section>
+
+      <!-- 05 · Local availability block (the heart) -->
+      <section data-screen-label="Local availability">
+        <p style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#5C6849;margin:0 0 10px">Local availability</p>
+        <h2 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:30px;letter-spacing:-.02em;line-height:1.08;margin:0 0 26px;color:#283718;max-width:20ch">
+          <span style="{{ tf }}">{{ d.localHeading }}</span>
+        </h2>
+        <div style="display:grid;gap:22px;align-items:start;grid-template-columns:{{ localCols }}">
+          <div>
+            <p style="font-size:15px;line-height:1.7;color:#34481F;margin:0 0 24px">
+              <span style="{{ tf }}">{{ d.localBody }}</span>
+            </p>
+            <p style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:#283718;margin:0 0 14px">How it reaches you</p>
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <sc-for list="{{ d.reach }}" as="r" hint-placeholder-count="3">
+                <div style="display:grid;grid-template-columns:28px 1fr;gap:13px;align-items:center">
+                  <span style="font-family:'League Spartan',sans-serif;font-weight:900;font-size:15px;color:#FEFAE0;background:#BC6C25;width:28px;height:28px;border-radius:9999px;display:flex;align-items:center;justify-content:center">{{ r.n }}</span>
+                  <p style="margin:0;font-size:14px;line-height:1.55;color:#34481F"><span style="{{ tf }}">{{ r.t }}</span></p>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+
+          <div style="display:flex;flex-direction:column;gap:14px">
+            <!-- expected delivery card -->
+            <div style="background:#B2DCD0;border:1px solid #9ccabb;border-radius:16px;padding:22px">
+              <p style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#1f5a4a;margin:0 0 10px">Expected delivery</p>
+              <p style="margin:0 0 14px;font-size:14px;line-height:1.6;color:#1d3b2e"><span style="{{ tf }}">{{ d.expected }}</span></p>
+              <span style="display:inline-flex;align-items:center;gap:7px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;background:#283718;color:#FEFAE0;padding:6px 12px;border-radius:9999px">Next business day · before 12pm</span>
+            </div>
+
+            <!-- pickup panel (pickup variant only) -->
+            <sc-if value="{{ isPickup }}" hint-placeholder-val="{{ false }}">
+              <div style="background:#FFFFFF;border:1px solid #CFC68C;border-radius:16px;padding:22px">
+                <p style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#BC6C25;margin:0 0 6px">Collect locally</p>
+                <h3 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:18px;margin:0 0 14px;color:#283718"><span style="{{ tf }}">{{ d.pickup.pharmacy }}</span></h3>
+                <div style="display:flex;flex-direction:column;gap:8px;font-size:13.5px;color:#34481F;margin-bottom:14px">
+                  <div style="display:flex;gap:9px"><span style="color:#8C9779;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding-top:2px;flex-shrink:0">Addr</span><span style="{{ tf }}">{{ d.pickup.address }}</span></div>
+                  <div style="display:flex;gap:9px"><span style="color:#8C9779;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding-top:2px;flex-shrink:0">Hours</span><span style="{{ tf }}">{{ d.pickup.hours }}</span></div>
+                </div>
+                <div style="height:120px;border-radius:12px;background-image:repeating-linear-gradient(45deg,#F6F0CC,#F6F0CC 10px,#FBF6D6 10px,#FBF6D6 20px);border:1px solid #CFC68C;display:flex;align-items:center;justify-content:center;margin-bottom:12px">
+                  <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8C9779">Map · pickup location</span>
+                </div>
+                <p style="margin:0;font-size:12.5px;color:#5C6849;line-height:1.5">{{ d.pickup.note }}</p>
+              </div>
+            </sc-if>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06 · What we help with -->
+      <section data-screen-label="What we help with">
+        <p style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#5C6849;margin:0 0 10px">What we help with</p>
+        <h2 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:30px;letter-spacing:-.02em;margin:0 0 8px;color:#283718">Support, framed around you</h2>
+        <p style="font-size:14.5px;color:#5C6849;margin:0 0 24px;max-width:58ch">Our clinicians may support patients experiencing a range of issues. Eligibility is always determined during your consultation.</p>
+        <div style="display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+          <div style="background:#FFFFFF;border:1px solid #CFC68C;border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:13px">
+            <span style="width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;background:#B2DCD0;flex-shrink:0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#283718" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9"/></svg></span>
+            <h3 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:17px;margin:0;color:#283718">Sleep Quality Support</h3>
+            <p style="margin:0;font-size:13px;line-height:1.55;color:#5C6849">Our services may be helpful with issues relating to sleep.</p>
+            <a class="lnk" href="#" style="margin-top:auto;font-family:'League Spartan',sans-serif;font-weight:700;font-size:13px;color:#BC6C25;text-decoration:none">Check eligibility →</a>
+          </div>
+          <div style="background:#FFFFFF;border:1px solid #CFC68C;border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:13px">
+            <span style="width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;background:#BC6C25;flex-shrink:0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FEFAE0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+            <h3 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:17px;margin:0;color:#283718">Pain Management Support</h3>
+            <p style="margin:0;font-size:13px;line-height:1.55;color:#5C6849">Our clinicians may support patients experiencing issues relating to pain management.</p>
+            <a class="lnk" href="#" style="margin-top:auto;font-family:'League Spartan',sans-serif;font-weight:700;font-size:13px;color:#BC6C25;text-decoration:none">Check eligibility →</a>
+          </div>
+          <div style="background:#FFFFFF;border:1px solid #CFC68C;border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:13px">
+            <span style="width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;background:#BEB8EB;flex-shrink:0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#283718" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"/></svg></span>
+            <h3 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:17px;margin:0;color:#283718">Chronic Health Management</h3>
+            <p style="margin:0;font-size:13px;line-height:1.55;color:#5C6849">Our services may be helpful with issues relating to chronic and ongoing health.</p>
+            <a class="lnk" href="#" style="margin-top:auto;font-family:'League Spartan',sans-serif;font-weight:700;font-size:13px;color:#BC6C25;text-decoration:none">Check eligibility →</a>
+          </div>
+          <div style="background:#FFFFFF;border:1px solid #CFC68C;border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:13px">
+            <span style="width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;background:#2A78A0;flex-shrink:0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FEFAE0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg></span>
+            <h3 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:17px;margin:0;color:#283718">Stress &amp; Wellbeing Support</h3>
+            <p style="margin:0;font-size:13px;line-height:1.55;color:#5C6849">Our clinicians may support patients experiencing issues with stress and mental wellbeing.</p>
+            <a class="lnk" href="#" style="margin-top:auto;font-family:'League Spartan',sans-serif;font-weight:700;font-size:13px;color:#BC6C25;text-decoration:none">Check eligibility →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 07 · How HelloMello works -->
+      <section data-screen-label="How it works">
+        <p style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#5C6849;margin:0 0 10px">How hellomello works</p>
+        <h2 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:30px;letter-spacing:-.02em;margin:0 0 24px;color:#283718">Four simple steps</h2>
+        <div style="display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+          <sc-for list="{{ steps }}" as="s" hint-placeholder-count="4">
+            <div style="background:#F6F0CC;border:1px solid #CFC68C;border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:10px">
+              <span style="font-family:'League Spartan',sans-serif;font-weight:900;font-size:22px;color:#BC6C25;line-height:1">{{ s.n }}</span>
+              <h3 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:16px;margin:0;color:#283718">{{ s.t }}</h3>
+              <p style="margin:0;font-size:13px;line-height:1.55;color:#5C6849">{{ s.d }}</p>
+            </div>
+          </sc-for>
+        </div>
+      </section>
+
+      <!-- 08 · Pricing teaser -->
+      <section data-screen-label="Pricing teaser">
+        <div style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:24px">
+          <div>
+            <p style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#5C6849;margin:0 0 10px">Pricing</p>
+            <h2 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:30px;letter-spacing:-.02em;margin:0;color:#283718">Simple, upfront pricing</h2>
+          </div>
+          <a class="lnk" href="#" style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:14px;color:#BC6C25;text-decoration:none">See full pricing →</a>
+        </div>
+        <div style="display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+          <sc-for list="{{ pricing }}" as="p" hint-placeholder-count="3">
+            <div style="border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:8px;{{ p.style }}">
+              <p style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;margin:0;{{ p.tagStyle }}">{{ p.name }}</p>
+              <div style="font-family:'League Spartan',sans-serif;font-weight:900;font-size:34px;line-height:1;{{ p.priceStyle }}">{{ p.price }}</div>
+              <p style="margin:6px 0 0;font-size:13px;line-height:1.55;{{ p.bodyStyle }}">{{ p.d }}</p>
+            </div>
+          </sc-for>
+        </div>
+      </section>
+
+      <!-- 09 · Practitioner / credibility -->
+      <section data-screen-label="Practitioner">
+        <div style="background:#FFFFFF;border:1px solid #CFC68C;border-radius:18px;padding:26px;display:grid;gap:24px;align-items:center;grid-template-columns:{{ practCols }}">
+          <div style="aspect-ratio:1;border-radius:16px;overflow:hidden;border:1px solid #CFC68C;max-width:200px">
+            <img src="assets/sarah.png" alt="{{ pract.name }}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block" />
+          </div>
+          <div>
+            <p style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#BC6C25;margin:0 0 8px">Medically reviewed by</p>
+            <h2 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:24px;margin:0 0 4px;color:#283718"><span style="{{ tf }}">{{ pract.name }}</span></h2>
+            <p style="margin:0 0 14px;font-size:13.5px;color:#5C6849"><span style="{{ tf }}">{{ pract.title }}</span> · <span style="font-family:'JetBrains Mono',monospace;font-size:12px"><span style="{{ tf }}">{{ pract.reg }}</span></span></p>
+            <p style="margin:0 0 16px;font-size:14px;line-height:1.65;color:#34481F"><span style="{{ tf }}">{{ pract.bio }}</span></p>
+            <span style="display:inline-flex;align-items:center;gap:7px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;background:#DCE9F1;color:#1F587A;border:1px solid #B6CFDF;padding:6px 12px;border-radius:9999px">AHPRA-registered clinician</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10 · Reviews -->
+      <section data-screen-label="Reviews">
+        <div style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:22px">
+          <div>
+            <p style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#5C6849;margin:0 0 10px">What patients say</p>
+            <h2 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:30px;letter-spacing:-.02em;margin:0;color:#283718">4.7 ★ across 2,000+ reviews</h2>
+          </div>
+        </div>
+        <div style="display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+          <sc-for list="{{ reviews }}" as="rv" hint-placeholder-count="3">
+            <div style="background:#FFFFFF;border:1px solid #CFC68C;border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:12px">
+              <span style="color:#DDA15E;font-size:14px;letter-spacing:2px">★★★★★</span>
+              <p style="margin:0;font-size:14px;line-height:1.6;color:#283718">{{ rv.q }}</p>
+              <p style="margin:0;font-family:'JetBrains Mono',monospace;font-size:11px;color:#8C9779">{{ rv.n }}</p>
+            </div>
+          </sc-for>
+        </div>
+      </section>
+
+      <!-- 11 · Local FAQ -->
+      <section data-screen-label="Local FAQ">
+        <p style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#5C6849;margin:0 0 10px">Local FAQs</p>
+        <h2 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:30px;letter-spacing:-.02em;margin:0 0 22px;color:#283718">Questions, answered</h2>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <sc-for list="{{ d.faqs }}" as="f" hint-placeholder-count="5">
+            <details class="fq" style="background:#FFFFFF;border:1px solid #CFC68C;border-radius:12px;padding:16px 18px">
+              <summary style="display:flex;align-items:center;justify-content:space-between;gap:14px;font-family:'League Spartan',sans-serif;font-weight:700;font-size:15.5px;color:#283718">
+                <span style="{{ tf }}">{{ f.q }}</span>
+                <span class="fqp" style="flex-shrink:0;font-family:'League Spartan',sans-serif;font-weight:900;font-size:20px;color:#BC6C25;line-height:1">+</span>
+              </summary>
+              <p style="margin:12px 0 0;font-size:14px;line-height:1.65;color:#34481F"><span style="{{ tf }}">{{ f.a }}</span></p>
+            </details>
+          </sc-for>
+        </div>
+      </section>
+
+      <!-- 12 · Closing CTA band -->
+      <section data-screen-label="Closing CTA" style="background-image:linear-gradient(135deg,#F6F0CC,#B2DCD0 240%);border:1px solid #CFC68C;border-radius:18px;padding:32px 34px;display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap">
+        <div>
+          <h2 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:26px;letter-spacing:-.02em;margin:0 0 6px;color:#283718">Get started today</h2>
+          <p style="margin:0;font-size:14.5px;color:#5C6849">Check your eligibility in about two minutes. No referral needed.</p>
+        </div>
+        <a class="btnp" href="#" style="display:inline-flex;align-items:center;gap:9px;font-family:'League Spartan',sans-serif;font-weight:700;font-size:15px;background:#283718;color:#FEFAE0;text-decoration:none;padding:7px 26px 7px 7px;border-radius:9999px;white-space:nowrap"><span style="display:inline-flex;width:32px;height:32px;border-radius:50%;background:#FEFAE0;align-items:center;justify-content:center;flex-shrink:0"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#283718" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>Check eligibility</a>
+      </section>
+
+      <!-- 13 · Internal links -->
+      <section data-screen-label="Internal links">
+        <p style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#5C6849;margin:0 0 14px"><span style="{{ tf }}">{{ d.internalHeading }}</span></p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px">
+          <sc-for list="{{ d.nearby }}" as="n" hint-placeholder-count="5">
+            <a class="lnk" href="#" style="font-family:'Inter',sans-serif;font-size:13.5px;font-weight:500;background:#FFFFFF;border:1px solid #CFC68C;color:#283718;text-decoration:none;padding:9px 15px;border-radius:9999px"><span style="{{ tf }}">{{ n }}</span></a>
+          </sc-for>
+        </div>
+        <sc-if value="{{ isSuburb }}" hint-placeholder-val="{{ true }}">
+          <a class="lnk" href="#" style="text-decoration:none;color:#BC6C25">
+            <span style="display:inline-flex;align-items:center;gap:8px;font-family:'League Spartan',sans-serif;font-weight:700;font-size:14px">
+              <span style="font-size:17px;line-height:1">&larr;</span>
+              <span style="white-space:nowrap">Back to <span style="{{ tf }}">{{ d.parentCity }}</span></span>
+            </span>
+          </a>
+        </sc-if>
+      </section>
+
+    </div>
+
+    <!-- 14 · Footer -->
+    <div style="background:#283718;color:#FEFAE0;padding:46px 34px 30px">
+      <div style="display:grid;gap:40px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));margin-bottom:40px">
+        <div>
+          <img src="assets/logo.png" alt="hellomello" style="height:48px;width:auto;display:block;margin-bottom:22px" />
+          <p style="margin:0 0 12px;font-size:13px;color:#FEFAE0;opacity:.85">Subscribe to our newsletter</p>
+          <div style="display:flex;flex-direction:column;gap:10px;max-width:300px">
+            <input type="email" placeholder="Email*" style="background:#BEB8EB;border:0;border-radius:8px;padding:13px 14px;font-family:'Inter',sans-serif;font-size:14px;color:#283718" />
+            <button style="background:#BC6C25;color:#FEFAE0;border:0;border-radius:8px;padding:13px;font-family:'League Spartan',sans-serif;font-weight:700;font-size:14px;cursor:pointer">Subscribe</button>
+          </div>
+        </div>
+
+        <div>
+          <h4 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:23px;letter-spacing:-.01em;color:#BEB8EB;margin:0 0 22px">For Patients</h4>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:13px 24px;font-size:14px">
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">About</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">Get Started</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">Our Team</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">How it Works</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">Pricing</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">Privacy Policy</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">FAQ</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">T's &amp; C's</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:underline">Login</a>
+            <a class="lnk" href="#" style="color:#FEFAE0;text-decoration:none">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 style="font-family:'League Spartan',sans-serif;font-weight:700;font-size:23px;letter-spacing:-.01em;color:#BEB8EB;margin:0 0 22px">Get in Touch</h4>
+          <div style="display:flex;flex-direction:column;gap:14px;font-size:14px">
+            <a class="lnk" href="tel:0388996484" style="color:#FEFAE0;text-decoration:none">(03) 8899 6484</a>
+            <a class="lnk" href="mailto:support@hellomello.com.au" style="color:#FEFAE0;text-decoration:none">support@hellomello.com.au</a>
+            <span style="color:#FEFAE0">Servicing Australia</span>
+            <div style="display:flex;gap:18px;margin-top:8px">
+              <a class="lnk" href="#" aria-label="Instagram" style="color:#BEB8EB"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+              <a class="lnk" href="#" aria-label="Facebook" style="color:#BEB8EB"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+              <a class="lnk" href="#" aria-label="LinkedIn" style="color:#BEB8EB"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p style="max-width:96ch;margin:0 auto 18px;text-align:center;font-size:11.5px;line-height:1.6;color:#B2DCD0">The information on this website is provided for educational and informational purposes only and not intended for use as medical advice. Everyone's circumstances are different, and what works well for one person might not work for another, with side effects possible. It's always best to chat with your healthcare professional to figure out what's right for you. Our health professionals will consider your circumstances and whether our services are appropriate for you. Please see our <a href="#" style="color:#B2DCD0;text-decoration:underline">terms and conditions</a> for more information.</p>
+      <p style="text-align:center;margin:0;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:#B2DCD0">© 2026 by Hellomello™</p>
+    </div>
+
+  </div>
+
+  <!-- mobile sticky CTA -->
+  <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+    <div style="display:flex;position:fixed;bottom:0;left:0;right:0;z-index:40;background:#FEFAE0;border-top:1px solid #CFC68C;padding:12px 18px;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 -4px 16px rgba(40,55,24,.1)">
+      <div style="font-family:'League Spartan',sans-serif;font-weight:900;font-size:18px;color:#283718;line-height:1">$49<span style="font-size:12px;font-weight:700;color:#5C6849;margin-left:5px">to start</span></div>
+      <a class="btnp" href="#" style="display:inline-flex;align-items:center;gap:8px;font-family:'League Spartan',sans-serif;font-weight:700;font-size:14px;background:#283718;color:#FEFAE0;text-decoration:none;padding:5px 18px 5px 5px;border-radius:9999px;white-space:nowrap"><span style="display:inline-flex;width:28px;height:28px;border-radius:50%;background:#FEFAE0;align-items:center;justify-content:center;flex-shrink:0"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#283718" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>Check eligibility</a>
+    </div>
+  </sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { example: 'caboolture', view: 'desktop', highlight: false, announce: true };
+
+  shared = {
+    steps: [
+      { n: '01', t: 'Pre-screening', d: 'Answer a short eligibility questionnaire online. Takes about two minutes.' },
+      { n: '02', t: 'Telehealth consult', d: 'If suitable, speak with an AHPRA-registered clinician, 100% online.' },
+      { n: '03', t: 'Care delivered', d: 'If eligible, your personalised care plan is dispensed and dispatched.' },
+      { n: '04', t: 'Ongoing aftercare', d: 'We check in and adjust your plan over time. Support whenever you need it.' },
+    ],
+    pricing: [
+      { name: 'Nurse call', price: 'Free', d: 'A no-obligation call with our nursing team to talk through the process.',
+        style: { background: '#FFFFFF', border: '1px solid #CFC68C' }, tagStyle: { color: '#5C6849' }, priceStyle: { color: '#283718' }, bodyStyle: { color: '#5C6849' } },
+      { name: 'Initial consult', price: '$49', d: 'Your first telehealth consultation with an AHPRA-registered clinician.',
+        style: { background: '#283718', border: '1px solid #1F2B12' }, tagStyle: { color: '#B2DCD0' }, priceStyle: { color: '#DDA15E' }, bodyStyle: { color: '#FEFAE0', opacity: '.88' } },
+      { name: 'Follow-up', price: '$29', d: 'Ongoing follow-up consultations as part of your aftercare.',
+        style: { background: '#FFFFFF', border: '1px solid #CFC68C' }, tagStyle: { color: '#5C6849' }, priceStyle: { color: '#283718' }, bodyStyle: { color: '#5C6849' } },
+    ],
+    reviews: [
+      { q: '“The booking process was so easy. I was set up within a day.”', n: 'Verified patient' },
+      { q: '“The nurses were so kind and easy to talk to. I never felt judged.”', n: 'Verified patient' },
+      { q: '“I was surprised how simple the whole process was, start to finish.”', n: 'Verified patient' },
+    ],
+    pract: {
+      name: 'Dr. Sarah Whitman',
+      title: 'MBBS, FRACGP',
+      reg: 'AHPRA Reg. MED0001234567',
+      bio: 'Sarah is an AHPRA-registered doctor and the named medical reviewer for this page. She reviews HelloMello’s location content for clinical accuracy and alignment with TGA and AHPRA advertising guidelines. Eligibility and any care plan are always determined during your own consultation.',
+    },
+  };
+
+  examples = {
+    caboolture: {
+      locName: 'Caboolture', state: 'QLD', intent: 'delivery', locType: 'suburb', parentCity: 'Brisbane',
+      eyebrow: 'Alternative healthcare in Caboolture',
+      h1: 'Alternative healthcare in Caboolture, delivered to your door.',
+      subhead: 'AHPRA-registered clinicians, 100% online, with prescription delivery to Caboolture and the surrounding Moreton Bay area.',
+      deliveryLine: 'Next Business Day Delivery for orders placed before 12pm.',
+      imageAlt: 'Alternative healthcare delivery in Caboolture, QLD',
+      heroImg: 'assets/caboolture.png',
+      localHeading: 'Alternative healthcare prescription delivery to Caboolture',
+      localBody: 'HelloMello offers alternative healthcare prescription delivery to Caboolture and across the Moreton Bay region. Everything happens online, with no clinic visit and no referral. If eligible, your care plan is dispensed and posted discreetly to your door.',
+      expected: 'Most Caboolture orders arrive within 1–2 business days. Next Business Day Delivery applies to orders placed before 12pm AEST.',
+      reach: [
+        { n: '1', t: 'Check your eligibility online in about two minutes.' },
+        { n: '2', t: 'Have your telehealth consult with an AHPRA-registered clinician.' },
+        { n: '3', t: 'If eligible, your order is dispensed and posted to Caboolture.' },
+      ],
+      nearby: ['Morayfield', 'Deception Bay', 'Burpengary', 'Narangba', 'Kallangur'],
+      internalHeading: 'Nearby areas we deliver to',
+      faqs: [
+        { q: 'How long does delivery to Caboolture take?', a: 'For orders placed before 12pm, we offer Next Business Day Delivery. Most Caboolture orders arrive within 1–2 business days, dispatched discreetly through our pharmacy partners.' },
+        { q: 'Do I need a referral to get started in Caboolture?', a: 'No referral is needed. You complete a short eligibility check online, and if suitable, book a telehealth consultation with an AHPRA-registered clinician.' },
+        { q: 'Is HelloMello available across QLD?', a: 'Yes. HelloMello is 100% online and available Australia-wide, including right across Queensland.' },
+        { q: 'How much does it cost to get started?', a: 'A nurse call is free. Your initial consultation is $49, and follow-up consultations are $29. See our pricing page for full details.' },
+        { q: 'Who will I speak with?', a: 'Your consultation is with an AHPRA-registered doctor or nurse practitioner. Eligibility and any care plan are always determined by the clinician.' },
+      ],
+    },
+    upperCoomera: {
+      locName: 'Upper Coomera', state: 'QLD', intent: 'pickup', locType: 'suburb', parentCity: 'Gold Coast',
+      eyebrow: 'Alternative healthcare in Upper Coomera',
+      h1: 'Alternative healthcare in Upper Coomera, delivered or collected locally.',
+      subhead: 'AHPRA-registered clinicians, 100% online, with prescription delivery across the Gold Coast and local pickup in Upper Coomera.',
+      deliveryLine: 'Next Business Day Delivery before 12pm, or collect from a local partner pharmacy.',
+      imageAlt: 'Alternative healthcare in Upper Coomera, Gold Coast QLD',
+      heroImg: 'assets/coomera.png',
+      localHeading: 'Alternative healthcare prescription delivery to Upper Coomera',
+      localBody: 'HelloMello offers alternative healthcare prescription delivery to Upper Coomera and the northern Gold Coast. Prefer to collect in person? Upper Coomera is one of our local pickup locations, so you can collect from a partner pharmacy, or have your order delivered to your door.',
+      expected: 'Most Upper Coomera orders arrive within 1–2 business days. Local pickup is usually ready the same or next business day.',
+      reach: [
+        { n: '1', t: 'Check your eligibility and have your telehealth consult, all online.' },
+        { n: '2', t: 'If eligible, your order is dispensed by a local partner pharmacy.' },
+        { n: '3', t: 'Collect in Upper Coomera, or have it delivered. Your choice.' },
+      ],
+      pickup: {
+        pharmacy: '[Partner Pharmacy Name]',
+        address: '[Shop 0, 000 Example Rd, Upper Coomera QLD 4209]',
+        hours: 'Mon–Fri 9am–6pm · Sat 9am–1pm',
+        note: 'Bring photo ID. We’ll text you when your order is ready to collect.',
+      },
+      nearby: ['Coomera', 'Pimpama', 'Oxenford', 'Helensvale', 'Pacific Pines'],
+      internalHeading: 'Nearby areas we deliver to',
+      faqs: [
+        { q: 'Can I collect my order locally in Upper Coomera?', a: 'Yes. Upper Coomera is one of our local pickup locations. Once your order is ready we’ll text you, and you can collect it from our partner pharmacy. Delivery is also available if you’d prefer.' },
+        { q: 'How long does delivery to Upper Coomera take?', a: 'For orders placed before 12pm, we offer Next Business Day Delivery. Most Gold Coast orders arrive within 1–2 business days.' },
+        { q: 'Do I need a referral to get started?', a: 'No referral is needed. You complete a short eligibility check online, and if suitable, book a telehealth consultation with an AHPRA-registered clinician.' },
+        { q: 'Is HelloMello available across QLD?', a: 'Yes. HelloMello is 100% online and available Australia-wide, including right across Queensland.' },
+        { q: 'How much does it cost to get started?', a: 'A nurse call is free. Your initial consultation is $49, and follow-up consultations are $29. See our pricing page for full details.' },
+      ],
+    },
+    melbourne: {
+      locName: 'Melbourne', state: 'VIC', intent: 'delivery', locType: 'city', parentCity: '',
+      eyebrow: 'Alternative healthcare in Melbourne',
+      h1: 'Alternative healthcare in Melbourne, delivered across the city.',
+      subhead: 'AHPRA-registered clinicians, 100% online, with prescription delivery to homes right across Melbourne and Victoria.',
+      deliveryLine: 'Next Business Day Delivery for orders placed before 12pm.',
+      imageAlt: 'Alternative healthcare delivery across Melbourne, VIC',
+      heroImg: 'assets/melbourne.png',
+      localHeading: 'Alternative healthcare prescription delivery across Melbourne',
+      localBody: 'HelloMello offers alternative healthcare prescription delivery across Melbourne and greater Victoria. Care is delivered entirely online, from eligibility and consultation through to plan and dispatch, with medication posted discreetly to your door anywhere in the metro area.',
+      expected: 'Most Melbourne orders arrive within 1–2 business days. Next Business Day Delivery applies to orders placed before 12pm AEST.',
+      reach: [
+        { n: '1', t: 'Check your eligibility online in about two minutes.' },
+        { n: '2', t: 'Have your telehealth consult with an AHPRA-registered clinician.' },
+        { n: '3', t: 'If eligible, your order is dispensed and posted anywhere in Melbourne.' },
+      ],
+      nearby: ['South Melbourne', 'Caulfield South', 'Bayswater', 'Preston', 'Frankston', 'Pakenham'],
+      internalHeading: 'Suburbs we serve across Melbourne',
+      faqs: [
+        { q: 'How long does delivery in Melbourne take?', a: 'For orders placed before 12pm, we offer Next Business Day Delivery. Most Melbourne metro orders arrive within 1–2 business days, dispatched discreetly through our pharmacy partners.' },
+        { q: 'Which Melbourne suburbs do you deliver to?', a: 'We deliver right across the Melbourne metro area and greater Victoria. Browse the suburbs below, or simply check your eligibility, delivery is available Victoria-wide.' },
+        { q: 'Do I need a referral to get started?', a: 'No referral is needed. You complete a short eligibility check online, and if suitable, book a telehealth consultation with an AHPRA-registered clinician.' },
+        { q: 'Is HelloMello available across VIC?', a: 'Yes. HelloMello is 100% online and available Australia-wide, including right across Victoria.' },
+        { q: 'How much does it cost to get started?', a: 'A nurse call is free. Your initial consultation is $49, and follow-up consultations are $29. See our pricing page for full details.' },
+      ],
+    },
+  };
+
+  seg(on) {
+    return {
+      fontFamily: '"League Spartan", sans-serif', fontWeight: 700, fontSize: '11.5px',
+      padding: '7px 13px', borderRadius: '9999px', border: '0', cursor: 'pointer',
+      whiteSpace: 'nowrap', background: on ? '#FEFAE0' : 'transparent', color: on ? '#283718' : '#8C9779',
+    };
+  }
+
+  renderVals() {
+    const d = this.examples[this.state.example];
+    const isMobile = this.state.view === 'mobile';
+    const isPickup = d.intent === 'pickup';
+    const isCity = d.locType === 'city';
+    const isSuburb = d.locType === 'suburb';
+    const hl = this.state.highlight;
+    const tf = hl
+      ? { outline: '1.5px dashed #BC6C25', background: 'rgba(188,108,37,0.10)', borderRadius: '3px', padding: '0 3px', WebkitBoxDecorationBreak: 'clone', boxDecorationBreak: 'clone' }
+      : {};
+
+    return {
+      ...this.shared,
+      d, isPickup, isCity, isSuburb, isMobile, isDesktop: !isMobile, highlight: hl, announce: this.state.announce,
+      tf,
+
+      // layout (viewport-driven)
+      frameStyle: {
+        width: isMobile ? '404px' : '1180px',
+        maxWidth: '100%',
+        background: '#FBF6D6',
+        borderRadius: isMobile ? '40px' : '14px',
+        border: isMobile ? '8px solid #283718' : '1px solid #CFC68C',
+        boxShadow: '0 12px 40px rgba(40,55,24,.16)',
+        overflow: 'hidden',
+        marginTop: '28px',
+      },
+      pad: isMobile ? '22px 16px' : '40px 44px',
+      gap: isMobile ? '40px' : '56px',
+      heroCols: isMobile ? '1fr' : '1.25fr 0.85fr',
+      heroPad: isMobile ? '30px 22px' : '50px 46px',
+      h1Size: isMobile ? '31px' : '50px',
+      localCols: isMobile ? '1fr' : '1fr 0.85fr',
+      practCols: isMobile ? '1fr' : '200px 1fr',
+      twWrap: isMobile ? 'wrap' : 'nowrap',
+
+      // control bar
+      exCab: this.seg(this.state.example === 'caboolture'),
+      exUC: this.seg(this.state.example === 'upperCoomera'),
+      exMel: this.seg(this.state.example === 'melbourne'),
+      vD: this.seg(this.state.view === 'desktop'),
+      vM: this.seg(this.state.view === 'mobile'),
+      hlBtn: {
+        fontFamily: '"League Spartan", sans-serif', fontWeight: 700, fontSize: '11.5px',
+        padding: '8px 14px', borderRadius: '9999px', cursor: 'pointer',
+        background: hl ? '#BC6C25' : 'transparent', color: hl ? '#FEFAE0' : '#DDA15E',
+        border: '1px solid ' + (hl ? '#BC6C25' : '#34481F'),
+      },
+      hlLabel: hl ? 'Template fields: on' : 'Highlight template fields',
+
+      // handlers
+      pickCab: () => this.setState({ example: 'caboolture' }),
+      pickUC: () => this.setState({ example: 'upperCoomera' }),
+      pickMel: () => this.setState({ example: 'melbourne' }),
+      viewDesktop: () => this.setState({ view: 'desktop' }),
+      viewMobile: () => this.setState({ view: 'mobile' }),
+      toggleHl: () => this.setState(s => ({ highlight: !s.highlight })),
+      dismiss: () => this.setState({ announce: false }),
+    };
+  }
+}
+</script>
+</body>
+</html>
