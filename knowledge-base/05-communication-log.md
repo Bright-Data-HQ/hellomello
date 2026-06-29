@@ -22,6 +22,10 @@ A chronological summary of correspondence and meetings. Full detail in [emails.m
 | 1 June 2026 | Vahid → Rod | Post-call recap. Location pages for top 20 suburbs, five-pillar roadmap, Bright Data deliverables, requests from Rod. (See below.) |
 | 2 June 2026 | Rod → Vahid, Alex | Inline comments on the recap: pSEO doubts (Herbly), why only 20 suburbs, YMYL sign-off, tech SEO scope, suburb data commitment. |
 | 2 June 2026 | Vahid → Rod (draft) | Point-by-point reply. (See [draft-reply-rod-2026-06-02.md](../communication/draft-reply-rod-2026-06-02.md).) |
+| 15 June 2026 | Rod → Vahid, Zac | Zac working on all the blog page dot points; working designs to follow. |
+| 15 June 2026 | Rod → Vahid, Alex | Chases progress on location landing pages and contextual copy (due before 14 June). |
+| 16 June 2026 | Vahid → Rod, Zac | Acknowledges Zac's progress; looking forward to the blog designs. |
+| 16 June 2026 | Vahid → Rod, Alex | Location pages being finalised; handover committed by Thursday 18 June. |
 
 ## Kickoff meeting, 15 May 2026 (key alignments)
 

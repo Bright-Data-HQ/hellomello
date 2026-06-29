@@ -1,0 +1,3039 @@
+{
+  "totals": {
+    "traffic": 1258,
+    "keywords": 176,
+    "pages": 27,
+    "backlinks": 0,
+    "backlinked_pages": 0,
+    "brand_traffic": 682,
+    "nonbrand_traffic": 576,
+    "brand_kw": 6,
+    "nonbrand_kw": 170
+  },
+  "topics": [
+    {
+      "name": "Brand",
+      "kw": 6,
+      "traffic": 682,
+      "examples": [
+        {
+          "kw": "healing leaves",
+          "pos": 1,
+          "vol": 1600,
+          "traffic": 486.4
+        },
+        {
+          "kw": "healing leaves clinic",
+          "pos": 1,
+          "vol": 480,
+          "traffic": 145.92
+        },
+        {
+          "kw": "healing leaves phone number",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 21.28
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "kw": 5,
+      "traffic": 367,
+      "examples": [
+        {
+          "kw": "easykind",
+          "pos": 9,
+          "vol": 22200,
+          "traffic": 333.0
+        },
+        {
+          "kw": "polln",
+          "pos": 11,
+          "vol": 3600,
+          "traffic": 32.76
+        },
+        {
+          "kw": "releaf byron bay",
+          "pos": 16,
+          "vol": 110,
+          "traffic": 0.47
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "kw": 63,
+      "traffic": 114,
+      "examples": [
+        {
+          "kw": "leaf doctors",
+          "pos": 13,
+          "vol": 8100,
+          "traffic": 47.79
+        },
+        {
+          "kw": "your script",
+          "pos": 2,
+          "vol": 70,
+          "traffic": 11.34
+        },
+        {
+          "kw": "leaf doctor",
+          "pos": 12,
+          "vol": 1300,
+          "traffic": 9.75
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "kw": 40,
+      "traffic": 34,
+      "examples": [
+        {
+          "kw": "alternate leaf",
+          "pos": 12,
+          "vol": 720,
+          "traffic": 5.08
+        },
+        {
+          "kw": "my leaf",
+          "pos": 22,
+          "vol": 2400,
+          "traffic": 4.96
+        },
+        {
+          "kw": "mindful leaf",
+          "pos": 8,
+          "vol": 210,
+          "traffic": 4.14
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "kw": 39,
+      "traffic": 23,
+      "examples": [
+        {
+          "kw": "true green health dispensary",
+          "pos": 58,
+          "vol": 2400,
+          "traffic": 5.04
+        },
+        {
+          "kw": "my leaf brisbane",
+          "pos": 7,
+          "vol": 90,
+          "traffic": 2.3
+        },
+        {
+          "kw": "medical marijuanas perth",
+          "pos": 80,
+          "vol": 1000,
+          "traffic": 2.1
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "kw": 5,
+      "traffic": 17,
+      "examples": [
+        {
+          "kw": "polln reviews",
+          "pos": 5,
+          "vol": 170,
+          "traffic": 7.97
+        },
+        {
+          "kw": "leaf doctors reviews",
+          "pos": 9,
+          "vol": 480,
+          "traffic": 7.2
+        },
+        {
+          "kw": "leaf doctors review",
+          "pos": 10,
+          "vol": 110,
+          "traffic": 1.24
+        }
+      ]
+    },
+    {
+      "name": "Login / Portal",
+      "kw": 6,
+      "traffic": 14,
+      "examples": [
+        {
+          "kw": "leaf doctors login",
+          "pos": 13,
+          "vol": 1600,
+          "traffic": 9.44
+        },
+        {
+          "kw": "easykind patient portal",
+          "pos": 39,
+          "vol": 590,
+          "traffic": 1.24
+        },
+        {
+          "kw": "my leaf login",
+          "pos": 14,
+          "vol": 210,
+          "traffic": 1.18
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "kw": 4,
+      "traffic": 3,
+      "examples": [
+        {
+          "kw": "leaf doctors price list",
+          "pos": 7,
+          "vol": 90,
+          "traffic": 2.3
+        },
+        {
+          "kw": "medical marijuanas brisbane cost",
+          "pos": 46,
+          "vol": 170,
+          "traffic": 0.36
+        },
+        {
+          "kw": "medical marijuanas qld free consultation",
+          "pos": 17,
+          "vol": 50,
+          "traffic": 0.22
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "kw": 4,
+      "traffic": 2,
+      "examples": [
+        {
+          "kw": "dispensed vs alternaleaf",
+          "pos": 9,
+          "vol": 90,
+          "traffic": 1.35
+        },
+        {
+          "kw": "what is easykind",
+          "pos": 11,
+          "vol": 50,
+          "traffic": 0.46
+        },
+        {
+          "kw": "what is alternative healing",
+          "pos": 84,
+          "vol": 140,
+          "traffic": 0.29
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "kw": 2,
+      "traffic": 2,
+      "examples": [
+        {
+          "kw": "how to get medical marijuanas",
+          "pos": 86,
+          "vol": 590,
+          "traffic": 1.24
+        },
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 86,
+          "vol": 390,
+          "traffic": 0.82
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "kw": 2,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "can i help clinic",
+          "pos": 47,
+          "vol": 140,
+          "traffic": 0.29
+        },
+        {
+          "kw": "dr canna contact",
+          "pos": 34,
+          "vol": 70,
+          "traffic": 0.15
+        }
+      ]
+    }
+  ],
+  "topic_detail": {
+    "Brand": {
+      "total_kw": 6,
+      "total_traffic": 682,
+      "top1_count": 3,
+      "page2_count": 0,
+      "avg_vol": 400,
+      "top_keywords": [
+        {
+          "kw": "healing leaves",
+          "pos": 1,
+          "vol": 1600,
+          "traffic": 486,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "healing leaves clinic",
+          "pos": 1,
+          "vol": 480,
+          "traffic": 146,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "healing leaves phone number",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 21,
+          "url": "https://www.healingleaves.com.au/contact"
+        },
+        {
+          "kw": "healing leaves products list",
+          "pos": 2,
+          "vol": 70,
+          "traffic": 11,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "healing leaves review",
+          "pos": 3,
+          "vol": 90,
+          "traffic": 9,
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-dispensed"
+        },
+        {
+          "kw": "healing leaves reviews",
+          "pos": 3,
+          "vol": 90,
+          "traffic": 9,
+          "url": "https://www.healingleaves.com.au/"
+        }
+      ],
+      "top_nonbrand": []
+    },
+    "Competitors": {
+      "total_kw": 5,
+      "total_traffic": 367,
+      "top1_count": 0,
+      "page2_count": 3,
+      "avg_vol": 5202,
+      "top_keywords": [
+        {
+          "kw": "easykind",
+          "pos": 9,
+          "vol": 22200,
+          "traffic": 333,
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind"
+        },
+        {
+          "kw": "polln",
+          "pos": 11,
+          "vol": 3600,
+          "traffic": 33,
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln"
+        },
+        {
+          "kw": "releaf byron bay",
+          "pos": 16,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "easykind products",
+          "pos": 17,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind"
+        },
+        {
+          "kw": "polln dashboard",
+          "pos": 21,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "easykind",
+          "pos": 9,
+          "vol": 22200,
+          "traffic": 333
+        },
+        {
+          "kw": "polln",
+          "pos": 11,
+          "vol": 3600,
+          "traffic": 33
+        },
+        {
+          "kw": "releaf byron bay",
+          "pos": 16,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "easykind products",
+          "pos": 17,
+          "vol": 50,
+          "traffic": 0
+        },
+        {
+          "kw": "polln dashboard",
+          "pos": 21,
+          "vol": 50,
+          "traffic": 0
+        }
+      ]
+    },
+    "Clinic / Doctor": {
+      "total_kw": 63,
+      "total_traffic": 114,
+      "top1_count": 0,
+      "page2_count": 6,
+      "avg_vol": 332,
+      "top_keywords": [
+        {
+          "kw": "leaf doctors",
+          "pos": 13,
+          "vol": 8100,
+          "traffic": 48,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "your script",
+          "pos": 2,
+          "vol": 70,
+          "traffic": 11,
+          "url": "https://www.healingleaves.com.au/faqs/how-do-i-setup-my-your-script-account"
+        },
+        {
+          "kw": "leaf doctor",
+          "pos": 12,
+          "vol": 1300,
+          "traffic": 10,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "little leaf clinic",
+          "pos": 3,
+          "vol": 70,
+          "traffic": 7,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "health summary from gp",
+          "pos": 5,
+          "vol": 90,
+          "traffic": 4,
+          "url": "https://www.healingleaves.com.au/education/how-to-get-a-health-summary"
+        },
+        {
+          "kw": "leaf doctors strathpine",
+          "pos": 8,
+          "vol": 210,
+          "traffic": 4,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "cannabis doctors tasmania",
+          "pos": 16,
+          "vol": 720,
+          "traffic": 3,
+          "url": "https://www.healingleaves.com.au/regions/regional-tasmania"
+        },
+        {
+          "kw": "derwent valley natural health clinic",
+          "pos": 7,
+          "vol": 90,
+          "traffic": 2,
+          "url": "https://www.healingleaves.com.au/regions/derwent-valley"
+        },
+        {
+          "kw": "lead doctor",
+          "pos": 8,
+          "vol": 90,
+          "traffic": 2,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "medreleaf clinic",
+          "pos": 45,
+          "vol": 720,
+          "traffic": 2,
+          "url": "https://www.healingleaves.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "leaf doctors",
+          "pos": 13,
+          "vol": 8100,
+          "traffic": 48
+        },
+        {
+          "kw": "your script",
+          "pos": 2,
+          "vol": 70,
+          "traffic": 11
+        },
+        {
+          "kw": "leaf doctor",
+          "pos": 12,
+          "vol": 1300,
+          "traffic": 10
+        },
+        {
+          "kw": "little leaf clinic",
+          "pos": 3,
+          "vol": 70,
+          "traffic": 7
+        },
+        {
+          "kw": "health summary from gp",
+          "pos": 5,
+          "vol": 90,
+          "traffic": 4
+        },
+        {
+          "kw": "leaf doctors strathpine",
+          "pos": 8,
+          "vol": 210,
+          "traffic": 4
+        },
+        {
+          "kw": "cannabis doctors tasmania",
+          "pos": 16,
+          "vol": 720,
+          "traffic": 3
+        },
+        {
+          "kw": "derwent valley natural health clinic",
+          "pos": 7,
+          "vol": 90,
+          "traffic": 2
+        }
+      ]
+    },
+    "Login / Portal": {
+      "total_kw": 6,
+      "total_traffic": 14,
+      "top1_count": 0,
+      "page2_count": 4,
+      "avg_vol": 505,
+      "top_keywords": [
+        {
+          "kw": "leaf doctors login",
+          "pos": 13,
+          "vol": 1600,
+          "traffic": 9,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "easykind patient portal",
+          "pos": 39,
+          "vol": 590,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind"
+        },
+        {
+          "kw": "my leaf login",
+          "pos": 14,
+          "vol": 210,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "leaf doctors portal",
+          "pos": 17,
+          "vol": 260,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "leaf doctor login",
+          "pos": 32,
+          "vol": 260,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/regions/queensland"
+        },
+        {
+          "kw": "leaf doctor portal",
+          "pos": 16,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "leaf doctors login",
+          "pos": 13,
+          "vol": 1600,
+          "traffic": 9
+        },
+        {
+          "kw": "easykind patient portal",
+          "pos": 39,
+          "vol": 590,
+          "traffic": 1
+        },
+        {
+          "kw": "my leaf login",
+          "pos": 14,
+          "vol": 210,
+          "traffic": 1
+        },
+        {
+          "kw": "leaf doctors portal",
+          "pos": 17,
+          "vol": 260,
+          "traffic": 1
+        },
+        {
+          "kw": "leaf doctor login",
+          "pos": 32,
+          "vol": 260,
+          "traffic": 1
+        },
+        {
+          "kw": "leaf doctor portal",
+          "pos": 16,
+          "vol": 110,
+          "traffic": 0
+        }
+      ]
+    },
+    "Reviews": {
+      "total_kw": 5,
+      "total_traffic": 17,
+      "top1_count": 0,
+      "page2_count": 2,
+      "avg_vol": 192,
+      "top_keywords": [
+        {
+          "kw": "polln reviews",
+          "pos": 5,
+          "vol": 170,
+          "traffic": 8,
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln"
+        },
+        {
+          "kw": "leaf doctors reviews",
+          "pos": 9,
+          "vol": 480,
+          "traffic": 7,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "leaf doctors review",
+          "pos": 10,
+          "vol": 110,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "cannabis doctors tasmania reviews",
+          "pos": 19,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/regions/regional-tasmania"
+        },
+        {
+          "kw": "telebuds review",
+          "pos": 19,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/regions/new-south-wales-telehealth-clinic"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "polln reviews",
+          "pos": 5,
+          "vol": 170,
+          "traffic": 8
+        },
+        {
+          "kw": "leaf doctors reviews",
+          "pos": 9,
+          "vol": 480,
+          "traffic": 7
+        },
+        {
+          "kw": "leaf doctors review",
+          "pos": 10,
+          "vol": 110,
+          "traffic": 1
+        },
+        {
+          "kw": "cannabis doctors tasmania reviews",
+          "pos": 19,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "telebuds review",
+          "pos": 19,
+          "vol": 90,
+          "traffic": 0
+        }
+      ]
+    },
+    "Other": {
+      "total_kw": 40,
+      "total_traffic": 34,
+      "top1_count": 0,
+      "page2_count": 8,
+      "avg_vol": 279,
+      "top_keywords": [
+        {
+          "kw": "alternate leaf",
+          "pos": 12,
+          "vol": 720,
+          "traffic": 5,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "my leaf",
+          "pos": 22,
+          "vol": 2400,
+          "traffic": 5,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "mindful leaf",
+          "pos": 8,
+          "vol": 210,
+          "traffic": 4,
+          "url": "https://www.healingleaves.com.au/education"
+        },
+        {
+          "kw": "triniti health",
+          "pos": 50,
+          "vol": 1000,
+          "traffic": 2,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "alternative medicine",
+          "pos": 65,
+          "vol": 880,
+          "traffic": 2,
+          "url": "https://www.healingleaves.com.au/regions/south-west-sydney"
+        },
+        {
+          "kw": "la feuille pharmacy",
+          "pos": 50,
+          "vol": 880,
+          "traffic": 2,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "leaf dr",
+          "pos": 15,
+          "vol": 320,
+          "traffic": 2,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "hello health townsville",
+          "pos": 19,
+          "vol": 320,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/regions/townsville-and-north-queensland"
+        },
+        {
+          "kw": "true leaf",
+          "pos": 43,
+          "vol": 390,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "alternative medical therapies",
+          "pos": 73,
+          "vol": 320,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/regions/metropolitan-australia"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "alternate leaf",
+          "pos": 12,
+          "vol": 720,
+          "traffic": 5
+        },
+        {
+          "kw": "my leaf",
+          "pos": 22,
+          "vol": 2400,
+          "traffic": 5
+        },
+        {
+          "kw": "mindful leaf",
+          "pos": 8,
+          "vol": 210,
+          "traffic": 4
+        },
+        {
+          "kw": "triniti health",
+          "pos": 50,
+          "vol": 1000,
+          "traffic": 2
+        },
+        {
+          "kw": "alternative medicine",
+          "pos": 65,
+          "vol": 880,
+          "traffic": 2
+        },
+        {
+          "kw": "la feuille pharmacy",
+          "pos": 50,
+          "vol": 880,
+          "traffic": 2
+        },
+        {
+          "kw": "leaf dr",
+          "pos": 15,
+          "vol": 320,
+          "traffic": 2
+        },
+        {
+          "kw": "hello health townsville",
+          "pos": 19,
+          "vol": 320,
+          "traffic": 1
+        }
+      ]
+    },
+    "Locations": {
+      "total_kw": 39,
+      "total_traffic": 23,
+      "top1_count": 0,
+      "page2_count": 6,
+      "avg_vol": 245,
+      "top_keywords": [
+        {
+          "kw": "true green health dispensary",
+          "pos": 58,
+          "vol": 2400,
+          "traffic": 5,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "my leaf brisbane",
+          "pos": 7,
+          "vol": 90,
+          "traffic": 2,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "medical marijuanas perth",
+          "pos": 80,
+          "vol": 1000,
+          "traffic": 2,
+          "url": "https://www.healingleaves.com.au/western-australia-telehealth-clinic"
+        },
+        {
+          "kw": "medical marijuanas south australia",
+          "pos": 50,
+          "vol": 480,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/south-australia-telehealth-clinic"
+        },
+        {
+          "kw": "medicinal marijuanas south australia",
+          "pos": 39,
+          "vol": 480,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/south-australia-telehealth-clinic"
+        },
+        {
+          "kw": "wild leaf dispensary",
+          "pos": 50,
+          "vol": 480,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "alternative medical treatment",
+          "pos": 68,
+          "vol": 320,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/regions/townsville-and-north-queensland"
+        },
+        {
+          "kw": "alternative medical treatments",
+          "pos": 65,
+          "vol": 320,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/regions/townsville-and-north-queensland"
+        },
+        {
+          "kw": "medical marijuanas adelaide",
+          "pos": 56,
+          "vol": 320,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/south-australia-telehealth-clinic"
+        },
+        {
+          "kw": "releaf dispensary",
+          "pos": 76,
+          "vol": 320,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "true green health dispensary",
+          "pos": 58,
+          "vol": 2400,
+          "traffic": 5
+        },
+        {
+          "kw": "my leaf brisbane",
+          "pos": 7,
+          "vol": 90,
+          "traffic": 2
+        },
+        {
+          "kw": "medical marijuanas perth",
+          "pos": 80,
+          "vol": 1000,
+          "traffic": 2
+        },
+        {
+          "kw": "medical marijuanas south australia",
+          "pos": 50,
+          "vol": 480,
+          "traffic": 1
+        },
+        {
+          "kw": "medicinal marijuanas south australia",
+          "pos": 39,
+          "vol": 480,
+          "traffic": 1
+        },
+        {
+          "kw": "wild leaf dispensary",
+          "pos": 50,
+          "vol": 480,
+          "traffic": 1
+        },
+        {
+          "kw": "alternative medical treatment",
+          "pos": 68,
+          "vol": 320,
+          "traffic": 1
+        },
+        {
+          "kw": "alternative medical treatments",
+          "pos": 65,
+          "vol": 320,
+          "traffic": 1
+        }
+      ]
+    },
+    "Pricing": {
+      "total_kw": 4,
+      "total_traffic": 3,
+      "top1_count": 0,
+      "page2_count": 1,
+      "avg_vol": 85,
+      "top_keywords": [
+        {
+          "kw": "leaf doctors price list",
+          "pos": 7,
+          "vol": 90,
+          "traffic": 2,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "medical marijuanas brisbane cost",
+          "pos": 46,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "medical marijuanas qld free consultation",
+          "pos": 17,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "medical cannabis free consultation",
+          "pos": 56,
+          "vol": 30,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/regions/act"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "leaf doctors price list",
+          "pos": 7,
+          "vol": 90,
+          "traffic": 2
+        },
+        {
+          "kw": "medical marijuanas brisbane cost",
+          "pos": 46,
+          "vol": 170,
+          "traffic": 0
+        },
+        {
+          "kw": "medical marijuanas qld free consultation",
+          "pos": 17,
+          "vol": 50,
+          "traffic": 0
+        },
+        {
+          "kw": "medical cannabis free consultation",
+          "pos": 56,
+          "vol": 30,
+          "traffic": 0
+        }
+      ]
+    },
+    "Education / How-to": {
+      "total_kw": 4,
+      "total_traffic": 2,
+      "top1_count": 0,
+      "page2_count": 1,
+      "avg_vol": 105,
+      "top_keywords": [
+        {
+          "kw": "dispensed vs alternaleaf",
+          "pos": 9,
+          "vol": 90,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-dispensed"
+        },
+        {
+          "kw": "what is easykind",
+          "pos": 11,
+          "vol": 50,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind"
+        },
+        {
+          "kw": "what is alternative healing",
+          "pos": 84,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/education/exploring-alternative-wellness-practices-what-you-should-know"
+        },
+        {
+          "kw": "what is alternative health care",
+          "pos": 57,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/education/exploring-alternative-wellness-practices-what-you-should-know"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "dispensed vs alternaleaf",
+          "pos": 9,
+          "vol": 90,
+          "traffic": 1
+        },
+        {
+          "kw": "what is easykind",
+          "pos": 11,
+          "vol": 50,
+          "traffic": 0
+        },
+        {
+          "kw": "what is alternative healing",
+          "pos": 84,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "what is alternative health care",
+          "pos": 57,
+          "vol": 140,
+          "traffic": 0
+        }
+      ]
+    },
+    "Eligibility / Legal": {
+      "total_kw": 2,
+      "total_traffic": 2,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 490,
+      "top_keywords": [
+        {
+          "kw": "how to get medical marijuanas",
+          "pos": 86,
+          "vol": 590,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/regions/act"
+        },
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 86,
+          "vol": 390,
+          "traffic": 1,
+          "url": "https://www.healingleaves.com.au/regions/act"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "how to get medical marijuanas",
+          "pos": 86,
+          "vol": 590,
+          "traffic": 1
+        },
+        {
+          "kw": "how to get prescribed cannabinoids",
+          "pos": 86,
+          "vol": 390,
+          "traffic": 1
+        }
+      ]
+    },
+    "Contact / Support": {
+      "total_kw": 2,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 105,
+      "top_keywords": [
+        {
+          "kw": "can i help clinic",
+          "pos": 47,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/"
+        },
+        {
+          "kw": "dr canna contact",
+          "pos": 34,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://www.healingleaves.com.au/regions/act"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "can i help clinic",
+          "pos": 47,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "dr canna contact",
+          "pos": 34,
+          "vol": 70,
+          "traffic": 0
+        }
+      ]
+    }
+  },
+  "pillars": [
+    {
+      "name": "Brand",
+      "total_kw": 6,
+      "total_traffic": 682,
+      "efficiency": 113.74,
+      "top1_count": 3,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 4,
+          "traffic": 650,
+          "examples": [
+            {
+              "kw": "healing leaves",
+              "pos": 1,
+              "traffic": 486
+            },
+            {
+              "kw": "healing leaves clinic",
+              "pos": 1,
+              "traffic": 146
+            }
+          ]
+        },
+        {
+          "label": "Phone Number",
+          "kw": 1,
+          "traffic": 21,
+          "examples": [
+            {
+              "kw": "healing leaves phone number",
+              "pos": 1,
+              "traffic": 21
+            }
+          ]
+        },
+        {
+          "label": "Products List",
+          "kw": 1,
+          "traffic": 11,
+          "examples": [
+            {
+              "kw": "healing leaves products list",
+              "pos": 2,
+              "traffic": 11
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.healingleaves.com.au/",
+          "traffic": 652,
+          "kw": 4
+        },
+        {
+          "url": "https://www.healingleaves.com.au/contact",
+          "traffic": 21,
+          "kw": 1
+        },
+        {
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-dispensed",
+          "traffic": 9,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "total_kw": 5,
+      "total_traffic": 367,
+      "efficiency": 73.31,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 2,
+          "traffic": 366,
+          "examples": [
+            {
+              "kw": "easykind",
+              "pos": 9,
+              "traffic": 333
+            },
+            {
+              "kw": "polln",
+              "pos": 11,
+              "traffic": 33
+            }
+          ]
+        },
+        {
+          "label": "Releaf Byron",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "releaf byron bay",
+              "pos": 16,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Easykind Products",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "easykind products",
+              "pos": 17,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Polln Dashboard",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "polln dashboard",
+              "pos": 21,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind",
+          "traffic": 333,
+          "kw": 2
+        },
+        {
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln",
+          "traffic": 33,
+          "kw": 2
+        },
+        {
+          "url": "https://www.healingleaves.com.au/",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "total_kw": 63,
+      "total_traffic": 114,
+      "efficiency": 1.81,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Leaf Doctors",
+          "kw": 3,
+          "traffic": 53,
+          "examples": [
+            {
+              "kw": "leaf doctors",
+              "pos": 13,
+              "traffic": 48
+            },
+            {
+              "kw": "leaf doctors strathpine",
+              "pos": 8,
+              "traffic": 4
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 36,
+          "traffic": 50,
+          "examples": [
+            {
+              "kw": "your script",
+              "pos": 2,
+              "traffic": 11
+            },
+            {
+              "kw": "leaf doctor",
+              "pos": 12,
+              "traffic": 10
+            }
+          ]
+        },
+        {
+          "label": "Releaf Clinic",
+          "kw": 6,
+          "traffic": 5,
+          "examples": [
+            {
+              "kw": "medreleaf clinic",
+              "pos": 45,
+              "traffic": 2
+            },
+            {
+              "kw": "medreleaf clinics",
+              "pos": 32,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "Medical Cannabis",
+          "kw": 7,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "doctors for medical cannabis",
+              "pos": 64,
+              "traffic": 1
+            },
+            {
+              "kw": "prescription for medical cannabis",
+              "pos": 91,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Prescription",
+          "kw": 3,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "cannabis prescription online",
+              "pos": 60,
+              "traffic": 1
+            },
+            {
+              "kw": "online cannabis prescription",
+              "pos": 62,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Medicinal Cannabis",
+          "kw": 5,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "medicinal cannabis clinic near me",
+              "pos": 75,
+              "traffic": 0
+            },
+            {
+              "kw": "medicinal cannabis prescriber",
+              "pos": 88,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Marijuanas",
+          "kw": 3,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "medical marijuanas doctors",
+              "pos": 75,
+              "traffic": 0
+            },
+            {
+              "kw": "medical marijuanas doctor near me",
+              "pos": 69,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.healingleaves.com.au/",
+          "traffic": 77,
+          "kw": 17
+        },
+        {
+          "url": "https://www.healingleaves.com.au/faqs/how-do-i-setup-my-your-script-account",
+          "traffic": 11,
+          "kw": 1
+        },
+        {
+          "url": "https://www.healingleaves.com.au/regions/act",
+          "traffic": 7,
+          "kw": 16
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "total_kw": 40,
+      "total_traffic": 34,
+      "efficiency": 0.84,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 30,
+          "traffic": 27,
+          "examples": [
+            {
+              "kw": "alternate leaf",
+              "pos": 12,
+              "traffic": 5
+            },
+            {
+              "kw": "my leaf",
+              "pos": 22,
+              "traffic": 5
+            }
+          ]
+        },
+        {
+          "label": "Alternative Medicine",
+          "kw": 2,
+          "traffic": 3,
+          "examples": [
+            {
+              "kw": "alternative medicine",
+              "pos": 65,
+              "traffic": 2
+            },
+            {
+              "kw": "alternative medicine therapy",
+              "pos": 91,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Health Townsville",
+          "kw": 2,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "hello health townsville",
+              "pos": 19,
+              "traffic": 1
+            },
+            {
+              "kw": "ariya health townsville",
+              "pos": 53,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "True Leaf",
+          "kw": 2,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "true leaf",
+              "pos": 43,
+              "traffic": 1
+            },
+            {
+              "kw": "true leaf prahran",
+              "pos": 33,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Alternative Medical",
+          "kw": 2,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "alternative medical therapies",
+              "pos": 73,
+              "traffic": 1
+            },
+            {
+              "kw": "alternative medical therapy",
+              "pos": 72,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "True Green",
+          "kw": 2,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "true green health",
+              "pos": 51,
+              "traffic": 1
+            },
+            {
+              "kw": "true green health newtown",
+              "pos": 43,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.healingleaves.com.au/",
+          "traffic": 22,
+          "kw": 24
+        },
+        {
+          "url": "https://www.healingleaves.com.au/education",
+          "traffic": 4,
+          "kw": 1
+        },
+        {
+          "url": "https://www.healingleaves.com.au/regions/south-west-sydney",
+          "traffic": 3,
+          "kw": 4
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "total_kw": 39,
+      "total_traffic": 23,
+      "efficiency": 0.59,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 13,
+          "traffic": 10,
+          "examples": []
+        },
+        {
+          "label": "National / \"Australia\"",
+          "kw": 10,
+          "traffic": 4,
+          "examples": []
+        },
+        {
+          "label": "Brisbane / QLD",
+          "kw": 4,
+          "traffic": 3,
+          "examples": []
+        },
+        {
+          "label": "Tasmania",
+          "kw": 4,
+          "traffic": 2,
+          "examples": []
+        },
+        {
+          "label": "Adelaide / SA",
+          "kw": 3,
+          "traffic": 1,
+          "examples": []
+        },
+        {
+          "label": "Perth / WA",
+          "kw": 2,
+          "traffic": 2,
+          "examples": []
+        },
+        {
+          "label": "Canberra / ACT",
+          "kw": 2,
+          "traffic": 0,
+          "examples": []
+        },
+        {
+          "label": "Sydney / NSW",
+          "kw": 1,
+          "traffic": 0,
+          "examples": []
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.healingleaves.com.au/",
+          "traffic": 11,
+          "kw": 12
+        },
+        {
+          "url": "https://www.healingleaves.com.au/western-australia-telehealth-clinic",
+          "traffic": 4,
+          "kw": 5
+        },
+        {
+          "url": "https://www.healingleaves.com.au/south-australia-telehealth-clinic",
+          "traffic": 3,
+          "kw": 6
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "total_kw": 5,
+      "total_traffic": 17,
+      "efficiency": 3.39,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Leaf Doctors",
+          "kw": 2,
+          "traffic": 8,
+          "examples": [
+            {
+              "kw": "leaf doctors reviews",
+              "pos": 9,
+              "traffic": 7
+            },
+            {
+              "kw": "leaf doctors review",
+              "pos": 10,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Polln Reviews",
+          "kw": 1,
+          "traffic": 8,
+          "examples": [
+            {
+              "kw": "polln reviews",
+              "pos": 5,
+              "traffic": 8
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Doctors",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "cannabis doctors tasmania reviews",
+              "pos": 19,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "telebuds review",
+              "pos": 19,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln",
+          "traffic": 8,
+          "kw": 1
+        },
+        {
+          "url": "https://www.healingleaves.com.au/",
+          "traffic": 8,
+          "kw": 2
+        },
+        {
+          "url": "https://www.healingleaves.com.au/regions/regional-tasmania",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Login / Portal",
+      "total_kw": 6,
+      "total_traffic": 14,
+      "efficiency": 2.33,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Leaf Doctors",
+          "kw": 2,
+          "traffic": 11,
+          "examples": [
+            {
+              "kw": "leaf doctors login",
+              "pos": 13,
+              "traffic": 9
+            },
+            {
+              "kw": "leaf doctors portal",
+              "pos": 17,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Leaf Doctor",
+          "kw": 2,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "leaf doctor login",
+              "pos": 32,
+              "traffic": 1
+            },
+            {
+              "kw": "leaf doctor portal",
+              "pos": 16,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Easykind Patient",
+          "kw": 1,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "easykind patient portal",
+              "pos": 39,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Leaf Login",
+          "kw": 1,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "my leaf login",
+              "pos": 14,
+              "traffic": 1
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.healingleaves.com.au/",
+          "traffic": 12,
+          "kw": 4
+        },
+        {
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind",
+          "traffic": 1,
+          "kw": 1
+        },
+        {
+          "url": "https://www.healingleaves.com.au/regions/queensland",
+          "traffic": 1,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "total_kw": 4,
+      "total_traffic": 3,
+      "efficiency": 0.73,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Leaf Doctors",
+          "kw": 1,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "leaf doctors price list",
+              "pos": 7,
+              "traffic": 2
+            }
+          ]
+        },
+        {
+          "label": "Medical Marijuanas",
+          "kw": 2,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "medical marijuanas brisbane cost",
+              "pos": 46,
+              "traffic": 0
+            },
+            {
+              "kw": "medical marijuanas qld free consultation",
+              "pos": 17,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "medical cannabis free consultation",
+              "pos": 56,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.healingleaves.com.au/",
+          "traffic": 3,
+          "kw": 3
+        },
+        {
+          "url": "https://www.healingleaves.com.au/regions/act",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "total_kw": 4,
+      "total_traffic": 2,
+      "efficiency": 0.6,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 3,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "dispensed vs alternaleaf",
+              "pos": 9,
+              "traffic": 1
+            },
+            {
+              "kw": "what is easykind",
+              "pos": 11,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Alternative Health",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "what is alternative health care",
+              "pos": 57,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-dispensed",
+          "traffic": 1,
+          "kw": 1
+        },
+        {
+          "url": "https://www.healingleaves.com.au/education/exploring-alternative-wellness-practices-what-you-should-know",
+          "traffic": 1,
+          "kw": 2
+        },
+        {
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "total_kw": 2,
+      "total_traffic": 2,
+      "efficiency": 1.03,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Get Medical",
+          "kw": 1,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "how to get medical marijuanas",
+              "pos": 86,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Get Prescribed",
+          "kw": 1,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "how to get prescribed cannabinoids",
+              "pos": 86,
+              "traffic": 1
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.healingleaves.com.au/regions/act",
+          "traffic": 2,
+          "kw": 2
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "total_kw": 2,
+      "total_traffic": 0,
+      "efficiency": 0.22,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Help Clinic",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "can i help clinic",
+              "pos": 47,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Canna Contact",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "dr canna contact",
+              "pos": 34,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://www.healingleaves.com.au/",
+          "traffic": 0,
+          "kw": 1
+        },
+        {
+          "url": "https://www.healingleaves.com.au/regions/act",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    }
+  ],
+  "content_clusters": [
+    {
+      "name": "Homepage",
+      "pages": 1,
+      "traffic": 786,
+      "kw": 68,
+      "examples": [
+        {
+          "url": "https://www.healingleaves.com.au/",
+          "traffic": 786,
+          "kw": 68,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    },
+    {
+      "name": "Comparison pages",
+      "pages": 3,
+      "traffic": 386,
+      "kw": 11,
+      "examples": [
+        {
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind",
+          "traffic": 335,
+          "kw": 6,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln",
+          "traffic": 41,
+          "kw": 3,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-dispensed",
+          "traffic": 10,
+          "kw": 2,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    },
+    {
+      "name": "Regions / locations",
+      "pages": 15,
+      "traffic": 40,
+      "kw": 81,
+      "examples": [
+        {
+          "url": "https://www.healingleaves.com.au/regions/act",
+          "traffic": 9,
+          "kw": 22,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://www.healingleaves.com.au/western-australia-telehealth-clinic",
+          "traffic": 7,
+          "kw": 12,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://www.healingleaves.com.au/regions/regional-tasmania",
+          "traffic": 5,
+          "kw": 6,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://www.healingleaves.com.au/south-australia-telehealth-clinic",
+          "traffic": 5,
+          "kw": 7,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    },
+    {
+      "name": "Contact / about",
+      "pages": 1,
+      "traffic": 21,
+      "kw": 1,
+      "examples": [
+        {
+          "url": "https://www.healingleaves.com.au/contact",
+          "traffic": 21,
+          "kw": 1,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    },
+    {
+      "name": "FAQs",
+      "pages": 1,
+      "traffic": 12,
+      "kw": 2,
+      "examples": [
+        {
+          "url": "https://www.healingleaves.com.au/faqs/how-do-i-setup-my-your-script-account",
+          "traffic": 12,
+          "kw": 2,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "pages": 4,
+      "traffic": 11,
+      "kw": 10,
+      "examples": [
+        {
+          "url": "https://www.healingleaves.com.au/education/how-to-get-a-health-summary",
+          "traffic": 6,
+          "kw": 4,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://www.healingleaves.com.au/education",
+          "traffic": 4,
+          "kw": 2,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://www.healingleaves.com.au/education/exploring-alternative-wellness-practices-what-you-should-know",
+          "traffic": 1,
+          "kw": 2,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://www.healingleaves.com.au/education/the-path-to-wellness-listening-to-your-bodys-natural-rhythm",
+          "traffic": 0,
+          "kw": 2,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    },
+    {
+      "name": "Other pages",
+      "pages": 2,
+      "traffic": 2,
+      "kw": 3,
+      "examples": [
+        {
+          "url": "https://www.healingleaves.com.au/find-a-pharmacy-or-dispensary-for-your-script",
+          "traffic": 1,
+          "kw": 2,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://www.healingleaves.com.au/pharmacies",
+          "traffic": 0,
+          "kw": 1,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "Other",
+      "kw": 13,
+      "traffic": 10
+    },
+    {
+      "name": "National / \"Australia\"",
+      "kw": 10,
+      "traffic": 4
+    },
+    {
+      "name": "Brisbane / QLD",
+      "kw": 4,
+      "traffic": 3
+    },
+    {
+      "name": "Tasmania",
+      "kw": 4,
+      "traffic": 2
+    },
+    {
+      "name": "Adelaide / SA",
+      "kw": 3,
+      "traffic": 1
+    },
+    {
+      "name": "Perth / WA",
+      "kw": 2,
+      "traffic": 2
+    },
+    {
+      "name": "Canberra / ACT",
+      "kw": 2,
+      "traffic": 0
+    },
+    {
+      "name": "Sydney / NSW",
+      "kw": 1,
+      "traffic": 0
+    }
+  ],
+  "conditions": [],
+  "position_distribution": [
+    {
+      "label": "#1",
+      "kw": 3,
+      "traffic": 654
+    },
+    {
+      "label": "#2\u20133",
+      "kw": 5,
+      "traffic": 47
+    },
+    {
+      "label": "#4\u201310",
+      "kw": 14,
+      "traffic": 373
+    },
+    {
+      "label": "#11\u201320",
+      "kw": 31,
+      "traffic": 121
+    },
+    {
+      "label": "#21\u201350",
+      "kw": 66,
+      "traffic": 32
+    },
+    {
+      "label": "#51\u2013100",
+      "kw": 57,
+      "traffic": 32
+    }
+  ],
+  "intents": [
+    {
+      "name": "Informational",
+      "kw": 91,
+      "traffic": 646
+    },
+    {
+      "name": "Navigational",
+      "kw": 52,
+      "traffic": 580
+    },
+    {
+      "name": "Commercial",
+      "kw": 29,
+      "traffic": 31
+    },
+    {
+      "name": "Transactional",
+      "kw": 4,
+      "traffic": 1
+    }
+  ],
+  "top_pages": [
+    {
+      "url": "https://www.healingleaves.com.au/",
+      "traffic": 786.27,
+      "kw": 68,
+      "traffic_pct": 62.49,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind",
+      "traffic": 335.38,
+      "kw": 6,
+      "traffic_pct": 26.65,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln",
+      "traffic": 40.85,
+      "kw": 3,
+      "traffic_pct": 3.25,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/contact",
+      "traffic": 21.28,
+      "kw": 1,
+      "traffic_pct": 1.69,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/faqs/how-do-i-setup-my-your-script-account",
+      "traffic": 11.73,
+      "kw": 2,
+      "traffic_pct": 0.93,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-dispensed",
+      "traffic": 10.11,
+      "kw": 2,
+      "traffic_pct": 0.8,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/regions/act",
+      "traffic": 9.26,
+      "kw": 22,
+      "traffic_pct": 0.74,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/western-australia-telehealth-clinic",
+      "traffic": 6.51,
+      "kw": 12,
+      "traffic_pct": 0.52,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/education/how-to-get-a-health-summary",
+      "traffic": 5.78,
+      "kw": 4,
+      "traffic_pct": 0.46,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/regions/regional-tasmania",
+      "traffic": 4.89,
+      "kw": 6,
+      "traffic_pct": 0.39,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/south-australia-telehealth-clinic",
+      "traffic": 4.54,
+      "kw": 7,
+      "traffic_pct": 0.36,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/education",
+      "traffic": 4.37,
+      "kw": 2,
+      "traffic_pct": 0.35,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    }
+  ],
+  "top_winners": [
+    {
+      "url": "https://www.healingleaves.com.au/",
+      "traffic": 786.27,
+      "kw": 68,
+      "traffic_pct": 62.49,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind",
+      "traffic": 335.38,
+      "kw": 6,
+      "traffic_pct": 26.65,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln",
+      "traffic": 40.85,
+      "kw": 3,
+      "traffic_pct": 3.25,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/contact",
+      "traffic": 21.28,
+      "kw": 1,
+      "traffic_pct": 1.69,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/faqs/how-do-i-setup-my-your-script-account",
+      "traffic": 11.73,
+      "kw": 2,
+      "traffic_pct": 0.93,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-dispensed",
+      "traffic": 10.11,
+      "kw": 2,
+      "traffic_pct": 0.8,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/regions/act",
+      "traffic": 9.26,
+      "kw": 22,
+      "traffic_pct": 0.74,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/western-australia-telehealth-clinic",
+      "traffic": 6.51,
+      "kw": 12,
+      "traffic_pct": 0.52,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/education/how-to-get-a-health-summary",
+      "traffic": 5.78,
+      "kw": 4,
+      "traffic_pct": 0.46,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/regions/regional-tasmania",
+      "traffic": 4.89,
+      "kw": 6,
+      "traffic_pct": 0.39,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    }
+  ],
+  "top_losers": [
+    {
+      "url": "https://www.healingleaves.com.au/south-australia-telehealth-clinic",
+      "traffic": 4.54,
+      "kw": 7,
+      "traffic_pct": 0.36,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/regions/regional-tasmania",
+      "traffic": 4.89,
+      "kw": 6,
+      "traffic_pct": 0.39,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/regions/south-west-sydney",
+      "traffic": 3.57,
+      "kw": 5,
+      "traffic_pct": 0.28,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/regions/townsville-and-north-queensland",
+      "traffic": 2.99,
+      "kw": 5,
+      "traffic_pct": 0.24,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/regions/new-south-wales-telehealth-clinic",
+      "traffic": 1.06,
+      "kw": 5,
+      "traffic_pct": 0.08,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/regions/gold-coast",
+      "traffic": 0.65,
+      "kw": 5,
+      "traffic_pct": 0.05,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/regions/northern-territory",
+      "traffic": 1.34,
+      "kw": 4,
+      "traffic_pct": 0.11,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://www.healingleaves.com.au/regions/queensland",
+      "traffic": 1.26,
+      "kw": 4,
+      "traffic_pct": 0.1,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    }
+  ],
+  "subdomains": [
+    {
+      "name": "www",
+      "traffic": 1258,
+      "pages": 27
+    }
+  ],
+  "top_keywords": [
+    {
+      "kw": "healing leaves",
+      "pos": 1,
+      "vol": 1600,
+      "kd": 0.0,
+      "cpc": 6.42,
+      "traffic": 486.4,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "informational",
+      "serp": "organic,images,people_also_ask,discussions_and_forums,related_searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "easykind",
+      "pos": 9,
+      "vol": 22200,
+      "kd": 1.0,
+      "cpc": 5.3,
+      "traffic": 333.0,
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind",
+      "intents": "navigational",
+      "serp": "organic,short_videos,related_searches,google_reviews,knowledge_graph",
+      "topic": "Competitors"
+    },
+    {
+      "kw": "healing leaves clinic",
+      "pos": 1,
+      "vol": 480,
+      "kd": 0.0,
+      "cpc": 8.91,
+      "traffic": 145.92,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "navigational",
+      "serp": "organic,people_also_ask,related_searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "leaf doctors",
+      "pos": 13,
+      "vol": 8100,
+      "kd": 0.0,
+      "cpc": 7.06,
+      "traffic": 47.79,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "navigational",
+      "serp": "organic,related_searches,knowledge_graph,google_reviews,images",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "polln",
+      "pos": 11,
+      "vol": 3600,
+      "kd": 0.0,
+      "cpc": 26.29,
+      "traffic": 32.76,
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln",
+      "intents": "informational",
+      "serp": "organic,related_searches,google_reviews,knowledge_graph",
+      "topic": "Competitors"
+    },
+    {
+      "kw": "healing leaves phone number",
+      "pos": 1,
+      "vol": 70,
+      "kd": 0.0,
+      "cpc": 6.12,
+      "traffic": 21.28,
+      "url": "https://www.healingleaves.com.au/contact",
+      "intents": "informational",
+      "serp": "organic,ai_overview,people_also_ask,related_searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "healing leaves products list",
+      "pos": 2,
+      "vol": 70,
+      "kd": 17.0,
+      "cpc": 21.05,
+      "traffic": 11.34,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "navigational",
+      "serp": "ai_overview,organic,people_also_ask,related_searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "your script",
+      "pos": 2,
+      "vol": 70,
+      "kd": 24.0,
+      "cpc": 22.21,
+      "traffic": 11.34,
+      "url": "https://www.healingleaves.com.au/faqs/how-do-i-setup-my-your-script-account",
+      "intents": "informational",
+      "serp": "organic,related_searches",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "leaf doctor",
+      "pos": 12,
+      "vol": 1300,
+      "kd": 4.0,
+      "cpc": 6.55,
+      "traffic": 9.75,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "informational",
+      "serp": "organic,people_also_ask,related_searches,knowledge_graph,google_reviews,images",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "leaf doctors login",
+      "pos": 13,
+      "vol": 1600,
+      "kd": 0.0,
+      "cpc": 5.56,
+      "traffic": 9.44,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "navigational",
+      "serp": "organic,related_searches",
+      "topic": "Login / Portal"
+    },
+    {
+      "kw": "healing leaves review",
+      "pos": 3,
+      "vol": 90,
+      "kd": 0.0,
+      "cpc": 24.85,
+      "traffic": 8.76,
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-dispensed",
+      "intents": "informational",
+      "serp": "organic,people_also_ask,ai_overview,related_searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "healing leaves reviews",
+      "pos": 3,
+      "vol": 90,
+      "kd": 0.0,
+      "cpc": 24.85,
+      "traffic": 8.76,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "informational",
+      "serp": "ai_overview,organic,people_also_ask,related_searches,images",
+      "topic": "Brand"
+    },
+    {
+      "kw": "polln reviews",
+      "pos": 5,
+      "vol": 170,
+      "kd": 0.0,
+      "cpc": 22.2,
+      "traffic": 7.97,
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln",
+      "intents": "informational",
+      "serp": "organic,ai_overview,people_also_ask,related_searches",
+      "topic": "Reviews"
+    },
+    {
+      "kw": "leaf doctors reviews",
+      "pos": 9,
+      "vol": 480,
+      "kd": 0.0,
+      "cpc": 13.23,
+      "traffic": 7.2,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "commercial",
+      "serp": "organic,people_also_ask,related_searches,google_reviews,knowledge_graph",
+      "topic": "Reviews"
+    },
+    {
+      "kw": "little leaf clinic",
+      "pos": 3,
+      "vol": 70,
+      "kd": 0.0,
+      "cpc": 9.66,
+      "traffic": 6.81,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "navigational",
+      "serp": "organic,knowledge_graph,google_reviews",
+      "topic": "Clinic / Doctor"
+    }
+  ],
+  "nonbrand_keywords": [
+    {
+      "kw": "easykind",
+      "pos": 9,
+      "vol": 22200,
+      "kd": 1.0,
+      "cpc": 5.3,
+      "traffic": 333.0,
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-easykind",
+      "intents": "navigational",
+      "serp": "organic,short_videos,related_searches,google_reviews,knowledge_graph",
+      "topic": "Competitors"
+    },
+    {
+      "kw": "leaf doctors",
+      "pos": 13,
+      "vol": 8100,
+      "kd": 0.0,
+      "cpc": 7.06,
+      "traffic": 47.79,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "navigational",
+      "serp": "organic,related_searches,knowledge_graph,google_reviews,images",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "polln",
+      "pos": 11,
+      "vol": 3600,
+      "kd": 0.0,
+      "cpc": 26.29,
+      "traffic": 32.76,
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln",
+      "intents": "informational",
+      "serp": "organic,related_searches,google_reviews,knowledge_graph",
+      "topic": "Competitors"
+    },
+    {
+      "kw": "your script",
+      "pos": 2,
+      "vol": 70,
+      "kd": 24.0,
+      "cpc": 22.21,
+      "traffic": 11.34,
+      "url": "https://www.healingleaves.com.au/faqs/how-do-i-setup-my-your-script-account",
+      "intents": "informational",
+      "serp": "organic,related_searches",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "leaf doctor",
+      "pos": 12,
+      "vol": 1300,
+      "kd": 4.0,
+      "cpc": 6.55,
+      "traffic": 9.75,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "informational",
+      "serp": "organic,people_also_ask,related_searches,knowledge_graph,google_reviews,images",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "leaf doctors login",
+      "pos": 13,
+      "vol": 1600,
+      "kd": 0.0,
+      "cpc": 5.56,
+      "traffic": 9.44,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "navigational",
+      "serp": "organic,related_searches",
+      "topic": "Login / Portal"
+    },
+    {
+      "kw": "polln reviews",
+      "pos": 5,
+      "vol": 170,
+      "kd": 0.0,
+      "cpc": 22.2,
+      "traffic": 7.97,
+      "url": "https://www.healingleaves.com.au/compare/healing-leaves-vs-polln",
+      "intents": "informational",
+      "serp": "organic,ai_overview,people_also_ask,related_searches",
+      "topic": "Reviews"
+    },
+    {
+      "kw": "leaf doctors reviews",
+      "pos": 9,
+      "vol": 480,
+      "kd": 0.0,
+      "cpc": 13.23,
+      "traffic": 7.2,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "commercial",
+      "serp": "organic,people_also_ask,related_searches,google_reviews,knowledge_graph",
+      "topic": "Reviews"
+    },
+    {
+      "kw": "little leaf clinic",
+      "pos": 3,
+      "vol": 70,
+      "kd": 0.0,
+      "cpc": 9.66,
+      "traffic": 6.81,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "navigational",
+      "serp": "organic,knowledge_graph,google_reviews",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "alternate leaf",
+      "pos": 12,
+      "vol": 720,
+      "kd": 2.0,
+      "cpc": 14.31,
+      "traffic": 5.08,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "informational",
+      "serp": "paid,organic,people_also_ask,related_searches,images",
+      "topic": "Other"
+    },
+    {
+      "kw": "true green health dispensary",
+      "pos": 58,
+      "vol": 2400,
+      "kd": 0.0,
+      "cpc": 11.64,
+      "traffic": 5.04,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "commercial",
+      "serp": "local_pack,organic,related_searches",
+      "topic": "Locations"
+    },
+    {
+      "kw": "my leaf",
+      "pos": 22,
+      "vol": 2400,
+      "kd": 0.0,
+      "cpc": 2.43,
+      "traffic": 4.96,
+      "url": "https://www.healingleaves.com.au/",
+      "intents": "informational",
+      "serp": "organic,people_also_ask,related_searches,paid,knowledge_graph,google_reviews,images",
+      "topic": "Other"
+    }
+  ],
+  "top_backlinks": [],
+  "backlink_groups": [],
+  "backlink_hosts": [],
+  "backlink_histogram": [
+    {
+      "label": "1",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "2\u20135",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "6\u201320",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "21\u201350",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "51\u2013200",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "200+",
+      "pages": 0,
+      "backlinks": 0
+    }
+  ],
+  "notes": {
+    "brand": {
+      "visual_system": [
+        "Direct, value-led look aimed at switchers.",
+        "Comparison pages pit them against named rivals.",
+        "Region pages give a local, accessible feel."
+      ],
+      "site_architecture": [
+        "Programmatic regions and state telehealth pages for local reach.",
+        "Versus pages: healing-leaves-vs-easykind, vs-polln, vs-dispensed.",
+        "Education and FAQ sections support the funnel."
+      ],
+      "tone_compliance": [
+        "Sits in the grey; comparison framing is aggressive.",
+        "Targets switchers and price talk more openly than the safe clinics.",
+        "Tighten claims and external links to stay onside."
+      ]
+    },
+    "verdict": {
+      "steal": [
+        {
+          "play": "Regional telehealth pages",
+          "effort": 3,
+          "impact": 4,
+          "note": "Cheap local reach across states and regions."
+        },
+        {
+          "play": "Comparison pages",
+          "effort": 2,
+          "impact": 3,
+          "note": "Capture brand-versus searches."
+        },
+        {
+          "play": "Suburb-deep region template",
+          "effort": 3,
+          "impact": 4,
+          "note": "Their regional model proves the demand. We can go deeper without the grey wording."
+        }
+      ],
+      "avoid": [
+        {
+          "trap": "Grey comparison claims",
+          "evidence": "Versus pages risk compliance if claims sharpen."
+        },
+        {
+          "trap": "External TGA-style links framed commercially",
+          "evidence": "Linking users to TGA-style content from commercial pages reads as advertising of restricted goods."
+        },
+        {
+          "trap": "Aggressive comparison claims",
+          "evidence": "Versus pages risk crossing the line if claims sharpen. Comparison intent is winnable without it."
+        }
+      ],
+      "implications": [
+        "Healing Leaves leans on programmatic regions and versus pages for reach.",
+        "Their regional play works; we can do it cleaner and compliant.",
+        "Comparison intent is winnable without the grey framing."
+      ]
+    },
+    "position": "careful",
+    "period": "June 2026",
+    "tagline": "A switcher-focused clinic with programmatic region pages and aggressive comparison content. The model works for reach; the framing is grey and needs cleaning before we borrow it.",
+    "verdict_label": "Careful \u00b7 don't copy",
+    "verdict_tone": "amber",
+    "eeat": {
+      "https": "green",
+      "schema_medical": "red",
+      "author_bylines": "red",
+      "medical_reviewer": "red",
+      "core_web_vitals": "amber",
+      "freshness": "amber",
+      "notes": "Grey terminology, comparison claims and TGA-style external links framed commercially. Schema and clinician bylines are missing. Effective for reach, fragile on regulatory review."
+    },
+    "gap_matrix": [
+      {
+        "topic": "Brand defence",
+        "healingleaves": 2,
+        "hellomello": 1,
+        "comment": "Small brand moat."
+      },
+      {
+        "topic": "Pricing transparency",
+        "healingleaves": 3,
+        "hellomello": 1,
+        "comment": "Match it cleanly."
+      },
+      {
+        "topic": "Clinic / doctor SEO",
+        "healingleaves": 2,
+        "hellomello": 0,
+        "comment": "Contested."
+      },
+      {
+        "topic": "Conditions content",
+        "healingleaves": 1,
+        "hellomello": 0,
+        "comment": "Open field \u2014 highest impact."
+      },
+      {
+        "topic": "Locations / pSEO",
+        "healingleaves": 3,
+        "hellomello": 0,
+        "comment": "Region template works."
+      },
+      {
+        "topic": "\"Near me\" queries",
+        "healingleaves": 1,
+        "hellomello": 0,
+        "comment": "Open."
+      },
+      {
+        "topic": "Wellness / lifestyle",
+        "healingleaves": 0,
+        "hellomello": 0,
+        "comment": "Skip."
+      },
+      {
+        "topic": "Reviews / social proof",
+        "healingleaves": 1,
+        "hellomello": 0,
+        "comment": "Replicate properly."
+      },
+      {
+        "topic": "Versus / comparison",
+        "healingleaves": 3,
+        "hellomello": 0,
+        "comment": "Borrow cleanly."
+      },
+      {
+        "topic": "Compliance posture",
+        "healingleaves": 1,
+        "hellomello": 3,
+        "comment": "Their risk \u2014 our edge."
+      }
+    ]
+  }
+}

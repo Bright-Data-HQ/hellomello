@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="robots" content="noindex,nofollow" />
+<title>Hellomello — Engagement Timeline · Bright Data</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green:#283718; --green-2:#1F2B12; --green-3:#34481F;
+    --cream:#FEFAE0; --cream-2:#F6F0CC; --cream-3:#FBF6D6;
+    --terra:#BC6C25; --terra-light:#DDA15E;
+    --lavender:#BEB8EB; --sage:#B2DCD0; --blue:#2A78A0;
+    --ink:#283718; --muted:#5F6B4C;
+    --border:#E6DEB4; --border-strong:#D8CE92;
+    --font-display:"League Spartan","Helvetica Neue",system-ui,sans-serif;
+    --font-body:"Inter",system-ui,sans-serif;
+    --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--cream);color:var(--ink);font-family:var(--font-body);-webkit-font-smoothing:antialiased}
+  .page{min-height:100vh;padding:48px clamp(24px,6vw,96px) 64px}
+  .wrap{max-width:1020px;margin:0 auto}
+  .head{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border-strong);padding-bottom:18px;margin-bottom:48px}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--green)}
+  .brand .dot{width:8px;height:8px;border-radius:50%;background:var(--terra)}
+  .meta{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  h1{font-family:var(--font-display);font-weight:900;letter-spacing:-.03em;line-height:.95;font-size:clamp(40px,6vw,68px);margin:0 0 18px;color:var(--green)}
+  .lede{font-family:var(--font-display);font-weight:400;font-size:clamp(17px,1.8vw,21px);line-height:1.45;color:var(--green);max-width:64ch;margin:0 0 14px}
+  .lede em{font-style:normal;color:var(--terra);font-weight:600}
+  .term{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 48px}
+  .bar{display:flex;height:14px;border-radius:8px;overflow:hidden;border:1px solid var(--border-strong);margin:0 0 8px}
+  .bar i{display:block;height:100%}
+  .bar .done{background:var(--green);flex: 0 0 62%}
+  .bar .now{background:var(--terra);flex:0 0 12%}
+  .bar .next{background:var(--sage);flex:1}
+  .legend{display:flex;gap:18px;font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:52px}
+  .legend span{display:flex;align-items:center;gap:6px}
+  .legend b{width:9px;height:9px;border-radius:2px;display:inline-block}
+  .eyebrow{font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);margin:0 0 22px;display:flex;align-items:center;gap:10px}
+  .eyebrow .num{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border:1px solid var(--border-strong);border-radius:50%;font-size:9.5px;color:var(--green);background:var(--cream-3)}
+  .phase{margin-bottom:56px}
+  .tl{list-style:none;margin:0;padding:0 0 0 26px;border-left:2px solid var(--border-strong)}
+  .tl li{position:relative;margin-bottom:22px;padding-left:8px}
+  .tl li::before{content:"";position:absolute;left:-33px;top:3px;width:12px;height:12px;border-radius:50%;background:var(--cream);border:2px solid var(--green)}
+  .tl.now li::before{border-color:var(--terra)} .tl.next li::before{border-color:var(--sage)}
+  .tl .when{font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--terra);display:block;margin-bottom:3px}
+  .tl .t{font-family:var(--font-display);font-weight:700;font-size:19px;color:var(--green);margin:0 0 4px}
+  .tl .d{font-size:13.5px;line-height:1.5;color:var(--muted);margin:0;max-width:70ch}
+  .pill{display:inline-block;font-family:var(--font-mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:999px;border:1px solid var(--border-strong);color:var(--green);background:var(--cream-3);margin-left:8px}
+  footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--border-strong);display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  a.back{color:var(--terra);text-decoration:none;font-weight:600}
+</style>
+</head>
+<body>
+<div class="page"><div class="wrap">
+  <div class="head">
+    <div class="brand"><span class="dot"></span> Bright Data × Hellomello</div>
+    <div class="meta"><a class="back" href="/hellomello/">← Workspace</a></div>
+  </div>
+
+  <h1>Engagement Timeline</h1>
+  <p class="lede">Six months of technical SEO, content, and a programmatic engine. <em>Build phase is all but done</em>; next few weeks are technical build and content writing.</p>
+  <p class="term">15 May → 14 Nov 2026 · 6-month term · status as at 28 Jun</p>
+
+  <div class="bar"><i class="done"></i><i class="next"></i></div>
+  <div class="legend">
+    <span><b style="background:#283718"></b> Delivered</span>
+    <span><b style="background:#B2DCD0"></b> Next few weeks (July)</span>
+  </div>
+
+  <div class="phase">
+    <p class="eyebrow"><span class="num">01</span> Delivered · build phase (15 May → late Jun)</p>
+    <ul class="tl">
+      <li><span class="when">15 May</span><p class="t">Proposal & kickoff</p><p class="d">Scope, six-month term, and five-pillar plan agreed. Engagement signed off.</p></li>
+      <li><span class="when">May</span><p class="t">Client workspace portal</p><p class="d">Single source of truth at clients.brightdata.com.au/hellomello: brand, strategy, competitors, projects, and timeline.</p></li>
+      <li><span class="when">May, weeks 1–2</span><p class="t">Platform access received</p><p class="d">Brand assets, Meta, GA4, Search Console, and Google Business Profile access in place.</p></li>
+      <li><span class="when">May → Jun</span><p class="t">Technical SEO foundation <span class="pill">8/10 live</span></p><p class="d">Sitemap, H1s, schema, 404 redirects, GA4 to Search Console, speed audit, 20 sitewide redirects cleaned. TGA-compliant, keyword-led meta titles and descriptions signed off and implemented across the main pages.</p></li>
+      <li><span class="when">Late May</span><p class="t">Strategy & five pillars</p><p class="d">Brand, location, condition, education, clinical expertise. Roadmap published to the workspace.</p></li>
+      <li><span class="when">Jun</span><p class="t">Brand guidelines & UI kit</p><p class="d">Brand guidelines and the design system / UI kit designed and built into the workspace.</p></li>
+      <li><span class="when">June</span><p class="t">New TGA rules reviewed</p><p class="d">Latest TGA position on restricted terms reviewed; compliant content angles mapped for the condition pillar.</p></li>
+      <li><span class="when">Jun</span><p class="t">Competitor profile build-out <span class="pill">10 decks</span></p><p class="d">Alternaleaf, Polln, Herbly, Candor, Acacia, Dispensed, Easykind, Greencare, Healing Leaves, Nuleaf.</p></li>
+      <li><span class="when">Jun</span><p class="t">Content pillars signed off</p><p class="d">10 educational topics approved by Rod via the sign-off form. Write list ready.</p></li>
+      <li><span class="when">Jun</span><p class="t">Sign-off form & approval pipeline</p><p class="d">Live questionnaire and content approval flow that captured Rod's topic sign-off, plus the approved write list.</p></li>
+      <li><span class="when">Jun</span><p class="t">Technical SEO scope table</p><p class="d">Health check mapping each item in-house / Bright Data / shared.</p></li>
+      <li><span class="when">Jun</span><p class="t">New homepage review</p><p class="d">CRO, UX, and SEO notes delivered on the mockup ahead of go-live.</p></li>
+      <li><span class="when">Jun</span><p class="t">Location pages + suburb data</p><p class="d">pSEO template and first suburbs (Caboolture, Coomera, Melbourne). Top 20 dataset received.</p></li>
+      <li><span class="when">Jun</span><p class="t">Journal prototype</p><p class="d">Hub and article mockup built.</p></li>
+    </ul>
+  </div>
+
+  <div class="phase">
+    <p class="eyebrow"><span class="num">02</span> Next few weeks (July) · technical build + content writing</p>
+    <ul class="tl next">
+      <li><span class="when">July</span><p class="t">Build the location pages</p><p class="d">Wire the top 20 suburbs into the template, set clean URLs, internal links, schema, and the pillar page. Delivery vs pickup split.</p></li>
+      <li><span class="when">July</span><p class="t">Write location content</p><p class="d">Write approved per-suburb copy and localised FAQs, then index the batch.</p></li>
+      <li><span class="when">July</span><p class="t">Apply technical changes sitewide</p><p class="d">Roll out the remaining technical SEO changes across all current live pages.</p></li>
+      <li><span class="when">July</span><p class="t">Build the Journal hub</p><p class="d">Build the Journal hub and article pages from the prototype, with topic sorting, internal links, and schema.</p></li>
+      <li><span class="when">July</span><p class="t">Write approved content</p><p class="d">Write the 10 approved educational articles, each within TGA boundaries and linking back to the Journal hub.</p></li>
+      <li><span class="when">July</span><p class="t">CTMO advisory meetings</p><p class="d">Strategic sessions across performance marketing, digital transformation, and CTMO guidance from the bundled advisory package.</p></li>
+    </ul>
+  </div>
+
+  <footer><span>Prepared by Bright Data</span><span>2026</span></footer>
+</div></div>
+</body>
+</html>

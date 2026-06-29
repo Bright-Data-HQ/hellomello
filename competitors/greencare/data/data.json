@@ -1,0 +1,2763 @@
+{
+  "totals": {
+    "traffic": 1100,
+    "keywords": 242,
+    "pages": 27,
+    "backlinks": 0,
+    "backlinked_pages": 0,
+    "brand_traffic": 563,
+    "nonbrand_traffic": 537,
+    "brand_kw": 4,
+    "nonbrand_kw": 238
+  },
+  "topics": [
+    {
+      "name": "Brand",
+      "kw": 9,
+      "traffic": 729,
+      "examples": [
+        {
+          "kw": "greencare",
+          "pos": 1,
+          "vol": 1300,
+          "traffic": 395.2
+        },
+        {
+          "kw": "folium dispensary",
+          "pos": 4,
+          "vol": 2400,
+          "traffic": 158.16
+        },
+        {
+          "kw": "greencare clinics",
+          "pos": 1,
+          "vol": 480,
+          "traffic": 145.92
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "kw": 103,
+      "traffic": 222,
+      "examples": [
+        {
+          "kw": "inner calmness",
+          "pos": 5,
+          "vol": 880,
+          "traffic": 41.27
+        },
+        {
+          "kw": "wellness routines",
+          "pos": 4,
+          "vol": 480,
+          "traffic": 31.63
+        },
+        {
+          "kw": "dean gladstone",
+          "pos": 4,
+          "vol": 210,
+          "traffic": 13.84
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "kw": 50,
+      "traffic": 71,
+      "examples": [
+        {
+          "kw": "green clinic",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 14.58
+        },
+        {
+          "kw": "green clinics",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 14.58
+        },
+        {
+          "kw": "my green clinic",
+          "pos": 7,
+          "vol": 170,
+          "traffic": 4.35
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "kw": 41,
+      "traffic": 53,
+      "examples": [
+        {
+          "kw": "greenacre medical centre",
+          "pos": 44,
+          "vol": 4400,
+          "traffic": 9.24
+        },
+        {
+          "kw": "meditation tantric",
+          "pos": 4,
+          "vol": 140,
+          "traffic": 9.23
+        },
+        {
+          "kw": "tantric meditation",
+          "pos": 4,
+          "vol": 140,
+          "traffic": 9.23
+        }
+      ]
+    },
+    {
+      "name": "Product / Strain",
+      "kw": 6,
+      "traffic": 11,
+      "examples": [
+        {
+          "kw": "alternative healthcare",
+          "pos": 5,
+          "vol": 170,
+          "traffic": 7.97
+        },
+        {
+          "kw": "green cross healthcare",
+          "pos": 9,
+          "vol": 90,
+          "traffic": 1.35
+        },
+        {
+          "kw": "greencross healthcare",
+          "pos": 13,
+          "vol": 90,
+          "traffic": 0.53
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "kw": 24,
+      "traffic": 11,
+      "examples": [
+        {
+          "kw": "what is calmness",
+          "pos": 8,
+          "vol": 70,
+          "traffic": 1.38
+        },
+        {
+          "kw": "hot and cold therapy benefits",
+          "pos": 10,
+          "vol": 110,
+          "traffic": 1.24
+        },
+        {
+          "kw": "benefits of a cold bath",
+          "pos": 16,
+          "vol": 140,
+          "traffic": 0.6
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "kw": 3,
+      "traffic": 2,
+      "examples": [
+        {
+          "kw": "how to get medical marijuanas card qld free",
+          "pos": 29,
+          "vol": 590,
+          "traffic": 1.24
+        },
+        {
+          "kw": "free medical cannabis consultation",
+          "pos": 34,
+          "vol": 140,
+          "traffic": 0.29
+        },
+        {
+          "kw": "medical cannabis free consultation",
+          "pos": 17,
+          "vol": 30,
+          "traffic": 0.13
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "kw": 4,
+      "traffic": 1,
+      "examples": [
+        {
+          "kw": "how to get out of fight or flight mode",
+          "pos": 33,
+          "vol": 170,
+          "traffic": 0.36
+        },
+        {
+          "kw": "how to apply for medicinal weed",
+          "pos": 79,
+          "vol": 110,
+          "traffic": 0.23
+        },
+        {
+          "kw": "how to get a medical marijuanas card",
+          "pos": 59,
+          "vol": 110,
+          "traffic": 0.23
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "kw": 1,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "can i help clinic",
+          "pos": 39,
+          "vol": 140,
+          "traffic": 0.29
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "kw": 1,
+      "traffic": 0,
+      "examples": [
+        {
+          "kw": "horizon medical weed",
+          "pos": 27,
+          "vol": 140,
+          "traffic": 0.29
+        }
+      ]
+    }
+  ],
+  "topic_detail": {
+    "Brand": {
+      "total_kw": 9,
+      "total_traffic": 729,
+      "top1_count": 3,
+      "page2_count": 4,
+      "avg_vol": 608,
+      "top_keywords": [
+        {
+          "kw": "greencare",
+          "pos": 1,
+          "vol": 1300,
+          "traffic": 395,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "folium dispensary",
+          "pos": 4,
+          "vol": 2400,
+          "traffic": 158,
+          "url": "https://greencare.com.au/pages/foliumdispensary/"
+        },
+        {
+          "kw": "greencare clinics",
+          "pos": 1,
+          "vol": 480,
+          "traffic": 146,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "greencare reviews",
+          "pos": 1,
+          "vol": 70,
+          "traffic": 21,
+          "url": "https://greencare.com.au/pages/greencare-treatments-w/"
+        },
+        {
+          "kw": "folium dispensary rose bay",
+          "pos": 11,
+          "vol": 590,
+          "traffic": 5,
+          "url": "https://greencare.com.au/pages/foliumdispensary/"
+        },
+        {
+          "kw": "folium rose bay",
+          "pos": 13,
+          "vol": 260,
+          "traffic": 2,
+          "url": "https://greencare.com.au/pages/foliumdispensary/"
+        },
+        {
+          "kw": "green care massage",
+          "pos": 15,
+          "vol": 110,
+          "traffic": 1,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "folium wellness rose bay",
+          "pos": 23,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://greencare.com.au/pages/foliumdispensary/"
+        },
+        {
+          "kw": "folium naturopathy",
+          "pos": 19,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://greencare.com.au/pages/foliumdispensary/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "folium dispensary",
+          "pos": 4,
+          "vol": 2400,
+          "traffic": 158
+        },
+        {
+          "kw": "folium dispensary rose bay",
+          "pos": 11,
+          "vol": 590,
+          "traffic": 5
+        },
+        {
+          "kw": "folium rose bay",
+          "pos": 13,
+          "vol": 260,
+          "traffic": 2
+        },
+        {
+          "kw": "folium wellness rose bay",
+          "pos": 23,
+          "vol": 170,
+          "traffic": 0
+        },
+        {
+          "kw": "folium naturopathy",
+          "pos": 19,
+          "vol": 90,
+          "traffic": 0
+        }
+      ]
+    },
+    "Other": {
+      "total_kw": 103,
+      "total_traffic": 222,
+      "top1_count": 0,
+      "page2_count": 17,
+      "avg_vol": 259,
+      "top_keywords": [
+        {
+          "kw": "inner calmness",
+          "pos": 5,
+          "vol": 880,
+          "traffic": 41,
+          "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/"
+        },
+        {
+          "kw": "wellness routines",
+          "pos": 4,
+          "vol": 480,
+          "traffic": 32,
+          "url": "https://greencare.com.au/tips-for-starting-and-maintaining-a-health-and-wellness-routine/"
+        },
+        {
+          "kw": "dean gladstone",
+          "pos": 4,
+          "vol": 210,
+          "traffic": 14,
+          "url": "https://greencare.com.au/dean-gladstone/"
+        },
+        {
+          "kw": "my green medical",
+          "pos": 9,
+          "vol": 880,
+          "traffic": 13,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "being calm",
+          "pos": 7,
+          "vol": 390,
+          "traffic": 10,
+          "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/"
+        },
+        {
+          "kw": "green health",
+          "pos": 4,
+          "vol": 140,
+          "traffic": 9,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "calm and peace",
+          "pos": 3,
+          "vol": 70,
+          "traffic": 7,
+          "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/"
+        },
+        {
+          "kw": "couple meditation",
+          "pos": 4,
+          "vol": 90,
+          "traffic": 6,
+          "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/"
+        },
+        {
+          "kw": "couples meditation",
+          "pos": 4,
+          "vol": 90,
+          "traffic": 6,
+          "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/"
+        },
+        {
+          "kw": "green life robina",
+          "pos": 56,
+          "vol": 2400,
+          "traffic": 5,
+          "url": "https://greencare.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "inner calmness",
+          "pos": 5,
+          "vol": 880,
+          "traffic": 41
+        },
+        {
+          "kw": "wellness routines",
+          "pos": 4,
+          "vol": 480,
+          "traffic": 32
+        },
+        {
+          "kw": "dean gladstone",
+          "pos": 4,
+          "vol": 210,
+          "traffic": 14
+        },
+        {
+          "kw": "my green medical",
+          "pos": 9,
+          "vol": 880,
+          "traffic": 13
+        },
+        {
+          "kw": "being calm",
+          "pos": 7,
+          "vol": 390,
+          "traffic": 10
+        },
+        {
+          "kw": "green health",
+          "pos": 4,
+          "vol": 140,
+          "traffic": 9
+        },
+        {
+          "kw": "calm and peace",
+          "pos": 3,
+          "vol": 70,
+          "traffic": 7
+        },
+        {
+          "kw": "couple meditation",
+          "pos": 4,
+          "vol": 90,
+          "traffic": 6
+        }
+      ]
+    },
+    "Clinic / Doctor": {
+      "total_kw": 50,
+      "total_traffic": 71,
+      "top1_count": 0,
+      "page2_count": 5,
+      "avg_vol": 323,
+      "top_keywords": [
+        {
+          "kw": "green clinic",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 15,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "green clinics",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 15,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "my green clinic",
+          "pos": 7,
+          "vol": 170,
+          "traffic": 4,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "greenlife clinics",
+          "pos": 45,
+          "vol": 1900,
+          "traffic": 4,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "green life clinics",
+          "pos": 41,
+          "vol": 1900,
+          "traffic": 4,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "kush clinics",
+          "pos": 26,
+          "vol": 1600,
+          "traffic": 3,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "verde clinic",
+          "pos": 51,
+          "vol": 1600,
+          "traffic": 3,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "medigreen dispensary and clinic",
+          "pos": 37,
+          "vol": 1300,
+          "traffic": 3,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "green life clinics and dispensaries robina",
+          "pos": 50,
+          "vol": 880,
+          "traffic": 2,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "health summary from gp",
+          "pos": 8,
+          "vol": 90,
+          "traffic": 2,
+          "url": "https://greencare.com.au/healthsummary/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "green clinic",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 15
+        },
+        {
+          "kw": "green clinics",
+          "pos": 2,
+          "vol": 90,
+          "traffic": 15
+        },
+        {
+          "kw": "my green clinic",
+          "pos": 7,
+          "vol": 170,
+          "traffic": 4
+        },
+        {
+          "kw": "greenlife clinics",
+          "pos": 45,
+          "vol": 1900,
+          "traffic": 4
+        },
+        {
+          "kw": "green life clinics",
+          "pos": 41,
+          "vol": 1900,
+          "traffic": 4
+        },
+        {
+          "kw": "kush clinics",
+          "pos": 26,
+          "vol": 1600,
+          "traffic": 3
+        },
+        {
+          "kw": "verde clinic",
+          "pos": 51,
+          "vol": 1600,
+          "traffic": 3
+        },
+        {
+          "kw": "medigreen dispensary and clinic",
+          "pos": 37,
+          "vol": 1300,
+          "traffic": 3
+        }
+      ]
+    },
+    "Locations": {
+      "total_kw": 41,
+      "total_traffic": 53,
+      "top1_count": 0,
+      "page2_count": 5,
+      "avg_vol": 339,
+      "top_keywords": [
+        {
+          "kw": "greenacre medical centre",
+          "pos": 44,
+          "vol": 4400,
+          "traffic": 9,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "meditation tantric",
+          "pos": 4,
+          "vol": 140,
+          "traffic": 9,
+          "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/"
+        },
+        {
+          "kw": "tantric meditation",
+          "pos": 4,
+          "vol": 140,
+          "traffic": 9,
+          "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/"
+        },
+        {
+          "kw": "green street dispensary",
+          "pos": 48,
+          "vol": 2900,
+          "traffic": 6,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "greentree medical",
+          "pos": 18,
+          "vol": 720,
+          "traffic": 2,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "patient health summary",
+          "pos": 8,
+          "vol": 110,
+          "traffic": 2,
+          "url": "https://greencare.com.au/healthsummary/"
+        },
+        {
+          "kw": "alternative health service",
+          "pos": 9,
+          "vol": 90,
+          "traffic": 1,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "green dispensary stirling",
+          "pos": 15,
+          "vol": 210,
+          "traffic": 1,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "best online medical cannabis australia",
+          "pos": 62,
+          "vol": 390,
+          "traffic": 1,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "green dispensary pharmacy",
+          "pos": 31,
+          "vol": 390,
+          "traffic": 1,
+          "url": "https://greencare.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "greenacre medical centre",
+          "pos": 44,
+          "vol": 4400,
+          "traffic": 9
+        },
+        {
+          "kw": "meditation tantric",
+          "pos": 4,
+          "vol": 140,
+          "traffic": 9
+        },
+        {
+          "kw": "tantric meditation",
+          "pos": 4,
+          "vol": 140,
+          "traffic": 9
+        },
+        {
+          "kw": "green street dispensary",
+          "pos": 48,
+          "vol": 2900,
+          "traffic": 6
+        },
+        {
+          "kw": "greentree medical",
+          "pos": 18,
+          "vol": 720,
+          "traffic": 2
+        },
+        {
+          "kw": "patient health summary",
+          "pos": 8,
+          "vol": 110,
+          "traffic": 2
+        },
+        {
+          "kw": "alternative health service",
+          "pos": 9,
+          "vol": 90,
+          "traffic": 1
+        },
+        {
+          "kw": "green dispensary stirling",
+          "pos": 15,
+          "vol": 210,
+          "traffic": 1
+        }
+      ]
+    },
+    "Product / Strain": {
+      "total_kw": 6,
+      "total_traffic": 11,
+      "top1_count": 0,
+      "page2_count": 1,
+      "avg_vol": 115,
+      "top_keywords": [
+        {
+          "kw": "alternative healthcare",
+          "pos": 5,
+          "vol": 170,
+          "traffic": 8,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "green cross healthcare",
+          "pos": 9,
+          "vol": 90,
+          "traffic": 1,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "greencross healthcare",
+          "pos": 13,
+          "vol": 90,
+          "traffic": 1,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "twin green healthcare",
+          "pos": 50,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "natura healthcare",
+          "pos": 21,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "healthcare greenacre",
+          "pos": 23,
+          "vol": 90,
+          "traffic": 0,
+          "url": "https://greencare.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "alternative healthcare",
+          "pos": 5,
+          "vol": 170,
+          "traffic": 8
+        },
+        {
+          "kw": "green cross healthcare",
+          "pos": 9,
+          "vol": 90,
+          "traffic": 1
+        },
+        {
+          "kw": "greencross healthcare",
+          "pos": 13,
+          "vol": 90,
+          "traffic": 1
+        },
+        {
+          "kw": "twin green healthcare",
+          "pos": 50,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "natura healthcare",
+          "pos": 21,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "healthcare greenacre",
+          "pos": 23,
+          "vol": 90,
+          "traffic": 0
+        }
+      ]
+    },
+    "Education / How-to": {
+      "total_kw": 24,
+      "total_traffic": 11,
+      "top1_count": 0,
+      "page2_count": 6,
+      "avg_vol": 152,
+      "top_keywords": [
+        {
+          "kw": "what is calmness",
+          "pos": 8,
+          "vol": 70,
+          "traffic": 1,
+          "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/"
+        },
+        {
+          "kw": "hot and cold therapy benefits",
+          "pos": 10,
+          "vol": 110,
+          "traffic": 1,
+          "url": "https://greencare.com.au/are-there-benefits-to-hot-and-cold-therapy/"
+        },
+        {
+          "kw": "benefits of a cold bath",
+          "pos": 16,
+          "vol": 140,
+          "traffic": 1,
+          "url": "https://greencare.com.au/hot-and-cold-for-long-term-health-benefits-of-ice-baths-and-saunas/"
+        },
+        {
+          "kw": "benefits for stretching",
+          "pos": 36,
+          "vol": 260,
+          "traffic": 1,
+          "url": "https://greencare.com.au/how-can-regular-stretching-contribute-to-your-long-term-health/"
+        },
+        {
+          "kw": "benefits of stretch",
+          "pos": 36,
+          "vol": 260,
+          "traffic": 1,
+          "url": "https://greencare.com.au/how-can-regular-stretching-contribute-to-your-long-term-health/"
+        },
+        {
+          "kw": "benefits of stretching exercise",
+          "pos": 72,
+          "vol": 260,
+          "traffic": 1,
+          "url": "https://greencare.com.au/how-can-regular-stretching-contribute-to-your-long-term-health/"
+        },
+        {
+          "kw": "benefits of stretching exercises",
+          "pos": 78,
+          "vol": 260,
+          "traffic": 1,
+          "url": "https://greencare.com.au/how-can-regular-stretching-contribute-to-your-long-term-health/"
+        },
+        {
+          "kw": "benefits to stretching",
+          "pos": 65,
+          "vol": 260,
+          "traffic": 1,
+          "url": "https://greencare.com.au/how-can-regular-stretching-contribute-to-your-long-term-health/"
+        },
+        {
+          "kw": "stretching benefit",
+          "pos": 69,
+          "vol": 260,
+          "traffic": 1,
+          "url": "https://greencare.com.au/how-can-regular-stretching-contribute-to-your-long-term-health/"
+        },
+        {
+          "kw": "stretching benefits",
+          "pos": 71,
+          "vol": 260,
+          "traffic": 1,
+          "url": "https://greencare.com.au/how-can-regular-stretching-contribute-to-your-long-term-health/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "what is calmness",
+          "pos": 8,
+          "vol": 70,
+          "traffic": 1
+        },
+        {
+          "kw": "hot and cold therapy benefits",
+          "pos": 10,
+          "vol": 110,
+          "traffic": 1
+        },
+        {
+          "kw": "benefits of a cold bath",
+          "pos": 16,
+          "vol": 140,
+          "traffic": 1
+        },
+        {
+          "kw": "benefits for stretching",
+          "pos": 36,
+          "vol": 260,
+          "traffic": 1
+        },
+        {
+          "kw": "benefits of stretch",
+          "pos": 36,
+          "vol": 260,
+          "traffic": 1
+        },
+        {
+          "kw": "benefits of stretching exercise",
+          "pos": 72,
+          "vol": 260,
+          "traffic": 1
+        },
+        {
+          "kw": "benefits of stretching exercises",
+          "pos": 78,
+          "vol": 260,
+          "traffic": 1
+        },
+        {
+          "kw": "benefits to stretching",
+          "pos": 65,
+          "vol": 260,
+          "traffic": 1
+        }
+      ]
+    },
+    "Pricing": {
+      "total_kw": 3,
+      "total_traffic": 2,
+      "top1_count": 0,
+      "page2_count": 1,
+      "avg_vol": 253,
+      "top_keywords": [
+        {
+          "kw": "how to get medical marijuanas card qld free",
+          "pos": 29,
+          "vol": 590,
+          "traffic": 1,
+          "url": "https://greencare.com.au/concession-program/"
+        },
+        {
+          "kw": "free medical cannabis consultation",
+          "pos": 34,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://greencare.com.au/"
+        },
+        {
+          "kw": "medical cannabis free consultation",
+          "pos": 17,
+          "vol": 30,
+          "traffic": 0,
+          "url": "https://greencare.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "how to get medical marijuanas card qld free",
+          "pos": 29,
+          "vol": 590,
+          "traffic": 1
+        },
+        {
+          "kw": "free medical cannabis consultation",
+          "pos": 34,
+          "vol": 140,
+          "traffic": 0
+        },
+        {
+          "kw": "medical cannabis free consultation",
+          "pos": 17,
+          "vol": 30,
+          "traffic": 0
+        }
+      ]
+    },
+    "Eligibility / Legal": {
+      "total_kw": 4,
+      "total_traffic": 1,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 115,
+      "top_keywords": [
+        {
+          "kw": "how to get out of fight or flight mode",
+          "pos": 33,
+          "vol": 170,
+          "traffic": 0,
+          "url": "https://greencare.com.au/how-to-escape-the-fight-or-flight-mode/"
+        },
+        {
+          "kw": "how to apply for medicinal weed",
+          "pos": 79,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://greencare.com.au/concession-program/"
+        },
+        {
+          "kw": "how to get a medical marijuanas card",
+          "pos": 59,
+          "vol": 110,
+          "traffic": 0,
+          "url": "https://greencare.com.au/concession-program/"
+        },
+        {
+          "kw": "how to get out of fight or flight",
+          "pos": 36,
+          "vol": 70,
+          "traffic": 0,
+          "url": "https://greencare.com.au/how-to-escape-the-fight-or-flight-mode/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "how to get out of fight or flight mode",
+          "pos": 33,
+          "vol": 170,
+          "traffic": 0
+        },
+        {
+          "kw": "how to apply for medicinal weed",
+          "pos": 79,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "how to get a medical marijuanas card",
+          "pos": 59,
+          "vol": 110,
+          "traffic": 0
+        },
+        {
+          "kw": "how to get out of fight or flight",
+          "pos": 36,
+          "vol": 70,
+          "traffic": 0
+        }
+      ]
+    },
+    "Contact / Support": {
+      "total_kw": 1,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 140,
+      "top_keywords": [
+        {
+          "kw": "can i help clinic",
+          "pos": 39,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://greencare.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "can i help clinic",
+          "pos": 39,
+          "vol": 140,
+          "traffic": 0
+        }
+      ]
+    },
+    "Competitors": {
+      "total_kw": 1,
+      "total_traffic": 0,
+      "top1_count": 0,
+      "page2_count": 0,
+      "avg_vol": 140,
+      "top_keywords": [
+        {
+          "kw": "horizon medical weed",
+          "pos": 27,
+          "vol": 140,
+          "traffic": 0,
+          "url": "https://greencare.com.au/"
+        }
+      ],
+      "top_nonbrand": [
+        {
+          "kw": "horizon medical weed",
+          "pos": 27,
+          "vol": 140,
+          "traffic": 0
+        }
+      ]
+    }
+  },
+  "pillars": [
+    {
+      "name": "Brand",
+      "total_kw": 9,
+      "total_traffic": 729,
+      "efficiency": 80.96,
+      "top1_count": 3,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 6,
+          "traffic": 721,
+          "examples": [
+            {
+              "kw": "greencare",
+              "pos": 1,
+              "traffic": 395
+            },
+            {
+              "kw": "folium dispensary",
+              "pos": 4,
+              "traffic": 158
+            }
+          ]
+        },
+        {
+          "label": "Rose Bay",
+          "kw": 3,
+          "traffic": 7,
+          "examples": [
+            {
+              "kw": "folium dispensary rose bay",
+              "pos": 11,
+              "traffic": 5
+            },
+            {
+              "kw": "folium rose bay",
+              "pos": 13,
+              "traffic": 2
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://greencare.com.au/",
+          "traffic": 542,
+          "kw": 3
+        },
+        {
+          "url": "https://greencare.com.au/pages/foliumdispensary/",
+          "traffic": 166,
+          "kw": 5
+        },
+        {
+          "url": "https://greencare.com.au/pages/greencare-treatments-w/",
+          "traffic": 21,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "total_kw": 103,
+      "total_traffic": 222,
+      "efficiency": 2.15,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 94,
+          "traffic": 215,
+          "examples": [
+            {
+              "kw": "inner calmness",
+              "pos": 5,
+              "traffic": 41
+            },
+            {
+              "kw": "wellness routines",
+              "pos": 4,
+              "traffic": 32
+            }
+          ]
+        },
+        {
+          "label": "Hot Cold",
+          "kw": 1,
+          "traffic": 3,
+          "examples": [
+            {
+              "kw": "hot cold therapy",
+              "pos": 16,
+              "traffic": 3
+            }
+          ]
+        },
+        {
+          "label": "Cold Therapy",
+          "kw": 3,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "hot to cold therapy",
+              "pos": 58,
+              "traffic": 1
+            },
+            {
+              "kw": "cold therapy",
+              "pos": 38,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Well Being",
+          "kw": 2,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "yoga for well being",
+              "pos": 7,
+              "traffic": 1
+            },
+            {
+              "kw": "well being goals",
+              "pos": 26,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Gut Microbiome",
+          "kw": 3,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "foods for gut microbiome",
+              "pos": 52,
+              "traffic": 0
+            },
+            {
+              "kw": "gut microbiome food",
+              "pos": 77,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/",
+          "traffic": 83,
+          "kw": 12
+        },
+        {
+          "url": "https://greencare.com.au/",
+          "traffic": 52,
+          "kw": 40
+        },
+        {
+          "url": "https://greencare.com.au/tips-for-starting-and-maintaining-a-health-and-wellness-routine/",
+          "traffic": 32,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Clinic / Doctor",
+      "total_kw": 50,
+      "total_traffic": 71,
+      "efficiency": 1.42,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 32,
+          "traffic": 53,
+          "examples": [
+            {
+              "kw": "green clinic",
+              "pos": 2,
+              "traffic": 15
+            },
+            {
+              "kw": "green clinics",
+              "pos": 2,
+              "traffic": 15
+            }
+          ]
+        },
+        {
+          "label": "Life Clinics",
+          "kw": 8,
+          "traffic": 11,
+          "examples": [
+            {
+              "kw": "greenlife clinics",
+              "pos": 45,
+              "traffic": 4
+            },
+            {
+              "kw": "green life clinics",
+              "pos": 41,
+              "traffic": 4
+            }
+          ]
+        },
+        {
+          "label": "Cannabis Prescription",
+          "kw": 4,
+          "traffic": 3,
+          "examples": [
+            {
+              "kw": "cannabis prescription online",
+              "pos": 47,
+              "traffic": 1
+            },
+            {
+              "kw": "online cannabis prescription",
+              "pos": 44,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Verde Clinic",
+          "kw": 2,
+          "traffic": 3,
+          "examples": [
+            {
+              "kw": "verde clinic",
+              "pos": 51,
+              "traffic": 3
+            },
+            {
+              "kw": "verde clinic perth",
+              "pos": 40,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medical Cannabis",
+          "kw": 3,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "medical cannabis telehealth",
+              "pos": 18,
+              "traffic": 0
+            },
+            {
+              "kw": "telehealth medical cannabis",
+              "pos": 15,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Prescription Online",
+          "kw": 1,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "weed prescription online",
+              "pos": 53,
+              "traffic": 1
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://greencare.com.au/",
+          "traffic": 69,
+          "kw": 48
+        },
+        {
+          "url": "https://greencare.com.au/healthsummary/",
+          "traffic": 2,
+          "kw": 1
+        },
+        {
+          "url": "https://greencare.com.au/general-practice/",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "total_kw": 41,
+      "total_traffic": 53,
+      "efficiency": 1.29,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 26,
+          "traffic": 47,
+          "examples": []
+        },
+        {
+          "label": "National / \"Australia\"",
+          "kw": 7,
+          "traffic": 3,
+          "examples": []
+        },
+        {
+          "label": "Brisbane / QLD",
+          "kw": 3,
+          "traffic": 1,
+          "examples": []
+        },
+        {
+          "label": "Adelaide / SA",
+          "kw": 3,
+          "traffic": 1,
+          "examples": []
+        },
+        {
+          "label": "Sydney / NSW",
+          "kw": 1,
+          "traffic": 1,
+          "examples": []
+        },
+        {
+          "label": "Perth / WA",
+          "kw": 1,
+          "traffic": 0,
+          "examples": []
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://greencare.com.au/",
+          "traffic": 31,
+          "kw": 33
+        },
+        {
+          "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/",
+          "traffic": 18,
+          "kw": 2
+        },
+        {
+          "url": "https://greencare.com.au/healthsummary/",
+          "traffic": 2,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Product / Strain",
+      "total_kw": 6,
+      "total_traffic": 11,
+      "efficiency": 1.76,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Alternative Healthcare",
+          "kw": 1,
+          "traffic": 8,
+          "examples": [
+            {
+              "kw": "alternative healthcare",
+              "pos": 5,
+              "traffic": 8
+            }
+          ]
+        },
+        {
+          "label": "Cross Healthcare",
+          "kw": 2,
+          "traffic": 2,
+          "examples": [
+            {
+              "kw": "green cross healthcare",
+              "pos": 9,
+              "traffic": 1
+            },
+            {
+              "kw": "greencross healthcare",
+              "pos": 13,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Natura Healthcare",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "natura healthcare",
+              "pos": 21,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Healthcare Greenacre",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "healthcare greenacre",
+              "pos": 23,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "twin green healthcare",
+              "pos": 50,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://greencare.com.au/",
+          "traffic": 11,
+          "kw": 6
+        }
+      ]
+    },
+    {
+      "name": "Education / How-to",
+      "total_kw": 24,
+      "total_traffic": 11,
+      "efficiency": 0.46,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Other",
+          "kw": 15,
+          "traffic": 7,
+          "examples": [
+            {
+              "kw": "what is calmness",
+              "pos": 8,
+              "traffic": 1
+            },
+            {
+              "kw": "benefits of a cold bath",
+              "pos": 16,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Cold Therapy",
+          "kw": 7,
+          "traffic": 3,
+          "examples": [
+            {
+              "kw": "hot and cold therapy benefits",
+              "pos": 10,
+              "traffic": 1
+            },
+            {
+              "kw": "benefits of hot and cold therapy",
+              "pos": 17,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Stretching Exercises",
+          "kw": 2,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "benefits of stretching exercises",
+              "pos": 78,
+              "traffic": 1
+            },
+            {
+              "kw": "stretching exercises benefits",
+              "pos": 60,
+              "traffic": 1
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://greencare.com.au/how-can-regular-stretching-contribute-to-your-long-term-health/",
+          "traffic": 5,
+          "kw": 11
+        },
+        {
+          "url": "https://greencare.com.au/are-there-benefits-to-hot-and-cold-therapy/",
+          "traffic": 2,
+          "kw": 5
+        },
+        {
+          "url": "https://greencare.com.au/hot-and-cold-for-long-term-health-benefits-of-ice-baths-and-saunas/",
+          "traffic": 2,
+          "kw": 5
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "total_kw": 3,
+      "total_traffic": 2,
+      "efficiency": 0.55,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Get Medical",
+          "kw": 1,
+          "traffic": 1,
+          "examples": [
+            {
+              "kw": "how to get medical marijuanas card qld free",
+              "pos": 29,
+              "traffic": 1
+            }
+          ]
+        },
+        {
+          "label": "Medical Cannabis",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "free medical cannabis consultation",
+              "pos": 34,
+              "traffic": 0
+            },
+            {
+              "kw": "medical cannabis free consultation",
+              "pos": 17,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://greencare.com.au/concession-program/",
+          "traffic": 1,
+          "kw": 1
+        },
+        {
+          "url": "https://greencare.com.au/",
+          "traffic": 0,
+          "kw": 2
+        }
+      ]
+    },
+    {
+      "name": "Eligibility / Legal",
+      "total_kw": 4,
+      "total_traffic": 1,
+      "efficiency": 0.24,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Flight Mode",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to get out of fight or flight mode",
+              "pos": 33,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Medicinal Weed",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to apply for medicinal weed",
+              "pos": 79,
+              "traffic": 0
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "kw": 2,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "how to get a medical marijuanas card",
+              "pos": 59,
+              "traffic": 0
+            },
+            {
+              "kw": "how to get out of fight or flight",
+              "pos": 36,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://greencare.com.au/how-to-escape-the-fight-or-flight-mode/",
+          "traffic": 1,
+          "kw": 2
+        },
+        {
+          "url": "https://greencare.com.au/concession-program/",
+          "traffic": 0,
+          "kw": 2
+        }
+      ]
+    },
+    {
+      "name": "Contact / Support",
+      "total_kw": 1,
+      "total_traffic": 0,
+      "efficiency": 0.29,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Help Clinic",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "can i help clinic",
+              "pos": 39,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://greencare.com.au/",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    },
+    {
+      "name": "Competitors",
+      "total_kw": 1,
+      "total_traffic": 0,
+      "efficiency": 0.29,
+      "top1_count": 0,
+      "sub_clusters": [
+        {
+          "label": "Horizon Medical",
+          "kw": 1,
+          "traffic": 0,
+          "examples": [
+            {
+              "kw": "horizon medical weed",
+              "pos": 27,
+              "traffic": 0
+            }
+          ]
+        }
+      ],
+      "top_urls": [
+        {
+          "url": "https://greencare.com.au/",
+          "traffic": 0,
+          "kw": 1
+        }
+      ]
+    }
+  ],
+  "content_clusters": [
+    {
+      "name": "Homepage",
+      "pages": 1,
+      "traffic": 705,
+      "kw": 134,
+      "examples": [
+        {
+          "url": "https://greencare.com.au/",
+          "traffic": 705,
+          "kw": 134,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    },
+    {
+      "name": "Dispensary",
+      "pages": 1,
+      "traffic": 166,
+      "kw": 5,
+      "examples": [
+        {
+          "url": "https://greencare.com.au/pages/foliumdispensary/",
+          "traffic": 166,
+          "kw": 5,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    },
+    {
+      "name": "Other pages",
+      "pages": 21,
+      "traffic": 138,
+      "kw": 94,
+      "examples": [
+        {
+          "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/",
+          "traffic": 84,
+          "kw": 14,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://greencare.com.au/dean-gladstone/",
+          "traffic": 14,
+          "kw": 1,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://greencare.com.au/are-there-benefits-to-hot-and-cold-therapy/",
+          "traffic": 6,
+          "kw": 9,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://greencare.com.au/hot-and-cold-for-long-term-health-benefits-of-ice-baths-and-saunas/",
+          "traffic": 5,
+          "kw": 13,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    },
+    {
+      "name": "Wellness blog",
+      "pages": 2,
+      "traffic": 62,
+      "kw": 5,
+      "examples": [
+        {
+          "url": "https://greencare.com.au/tips-for-starting-and-maintaining-a-health-and-wellness-routine/",
+          "traffic": 32,
+          "kw": 1,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        },
+        {
+          "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/",
+          "traffic": 30,
+          "kw": 4,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    },
+    {
+      "name": "Treatments",
+      "pages": 1,
+      "traffic": 21,
+      "kw": 1,
+      "examples": [
+        {
+          "url": "https://greencare.com.au/pages/greencare-treatments-w/",
+          "traffic": 21,
+          "kw": 1,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    },
+    {
+      "name": "Health summary",
+      "pages": 1,
+      "traffic": 8,
+      "kw": 3,
+      "examples": [
+        {
+          "url": "https://greencare.com.au/healthsummary/",
+          "traffic": 8,
+          "kw": 3,
+          "top_kw": "\u2014",
+          "intent": "\u2014"
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "Other",
+      "kw": 26,
+      "traffic": 47
+    },
+    {
+      "name": "National / \"Australia\"",
+      "kw": 7,
+      "traffic": 3
+    },
+    {
+      "name": "Brisbane / QLD",
+      "kw": 3,
+      "traffic": 1
+    },
+    {
+      "name": "Adelaide / SA",
+      "kw": 3,
+      "traffic": 1
+    },
+    {
+      "name": "Sydney / NSW",
+      "kw": 1,
+      "traffic": 1
+    },
+    {
+      "name": "Perth / WA",
+      "kw": 1,
+      "traffic": 0
+    }
+  ],
+  "conditions": [],
+  "position_distribution": [
+    {
+      "label": "#1",
+      "kw": 3,
+      "traffic": 562
+    },
+    {
+      "label": "#2\u20133",
+      "kw": 5,
+      "traffic": 46
+    },
+    {
+      "label": "#4\u201310",
+      "kw": 32,
+      "traffic": 352
+    },
+    {
+      "label": "#11\u201320",
+      "kw": 39,
+      "traffic": 33
+    },
+    {
+      "label": "#21\u201350",
+      "kw": 105,
+      "traffic": 74
+    },
+    {
+      "label": "#51\u2013100",
+      "kw": 58,
+      "traffic": 33
+    }
+  ],
+  "intents": [
+    {
+      "name": "Informational",
+      "kw": 138,
+      "traffic": 678
+    },
+    {
+      "name": "Navigational",
+      "kw": 66,
+      "traffic": 398
+    },
+    {
+      "name": "Commercial",
+      "kw": 34,
+      "traffic": 22
+    },
+    {
+      "name": "Transactional",
+      "kw": 4,
+      "traffic": 1
+    }
+  ],
+  "top_pages": [
+    {
+      "url": "https://greencare.com.au/",
+      "traffic": 704.99,
+      "kw": 134,
+      "traffic_pct": 64.11,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/pages/foliumdispensary/",
+      "traffic": 165.66,
+      "kw": 5,
+      "traffic_pct": 15.06,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/",
+      "traffic": 84.29,
+      "kw": 14,
+      "traffic_pct": 7.66,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/tips-for-starting-and-maintaining-a-health-and-wellness-routine/",
+      "traffic": 31.63,
+      "kw": 1,
+      "traffic_pct": 2.88,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/",
+      "traffic": 30.31,
+      "kw": 4,
+      "traffic_pct": 2.76,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/pages/greencare-treatments-w/",
+      "traffic": 21.28,
+      "kw": 1,
+      "traffic_pct": 1.94,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/dean-gladstone/",
+      "traffic": 13.84,
+      "kw": 1,
+      "traffic_pct": 1.26,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/healthsummary/",
+      "traffic": 7.52,
+      "kw": 3,
+      "traffic_pct": 0.68,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/are-there-benefits-to-hot-and-cold-therapy/",
+      "traffic": 6.4,
+      "kw": 9,
+      "traffic_pct": 0.58,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/hot-and-cold-for-long-term-health-benefits-of-ice-baths-and-saunas/",
+      "traffic": 4.98,
+      "kw": 13,
+      "traffic_pct": 0.45,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/how-can-regular-stretching-contribute-to-your-long-term-health/",
+      "traffic": 4.87,
+      "kw": 12,
+      "traffic_pct": 0.44,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/why-hair-health-matters-for-your-overall-wellbeing/",
+      "traffic": 4.21,
+      "kw": 4,
+      "traffic_pct": 0.38,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    }
+  ],
+  "top_winners": [
+    {
+      "url": "https://greencare.com.au/",
+      "traffic": 704.99,
+      "kw": 134,
+      "traffic_pct": 64.11,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/pages/foliumdispensary/",
+      "traffic": 165.66,
+      "kw": 5,
+      "traffic_pct": 15.06,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/",
+      "traffic": 84.29,
+      "kw": 14,
+      "traffic_pct": 7.66,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/tips-for-starting-and-maintaining-a-health-and-wellness-routine/",
+      "traffic": 31.63,
+      "kw": 1,
+      "traffic_pct": 2.88,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/",
+      "traffic": 30.31,
+      "kw": 4,
+      "traffic_pct": 2.76,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/pages/greencare-treatments-w/",
+      "traffic": 21.28,
+      "kw": 1,
+      "traffic_pct": 1.94,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/dean-gladstone/",
+      "traffic": 13.84,
+      "kw": 1,
+      "traffic_pct": 1.26,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/healthsummary/",
+      "traffic": 7.52,
+      "kw": 3,
+      "traffic_pct": 0.68,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/are-there-benefits-to-hot-and-cold-therapy/",
+      "traffic": 6.4,
+      "kw": 9,
+      "traffic_pct": 0.58,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/hot-and-cold-for-long-term-health-benefits-of-ice-baths-and-saunas/",
+      "traffic": 4.98,
+      "kw": 13,
+      "traffic_pct": 0.45,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    }
+  ],
+  "top_losers": [
+    {
+      "url": "https://greencare.com.au/hot-and-cold-for-long-term-health-benefits-of-ice-baths-and-saunas/",
+      "traffic": 4.98,
+      "kw": 13,
+      "traffic_pct": 0.45,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/how-can-regular-stretching-contribute-to-your-long-term-health/",
+      "traffic": 4.87,
+      "kw": 12,
+      "traffic_pct": 0.44,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/the-essential-guide-to-preventing-burnout/",
+      "traffic": 3.25,
+      "kw": 7,
+      "traffic_pct": 0.3,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/you-are-what-you-eat-foods-to-help-improve-your-gut-microbiome/",
+      "traffic": 0.78,
+      "kw": 5,
+      "traffic_pct": 0.07,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/why-hair-health-matters-for-your-overall-wellbeing/",
+      "traffic": 4.21,
+      "kw": 4,
+      "traffic_pct": 0.38,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/general-practice/",
+      "traffic": 0.88,
+      "kw": 4,
+      "traffic_pct": 0.08,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/why-men-should-not-ignore-the-early-signs-of-hair-loss/",
+      "traffic": 4.07,
+      "kw": 3,
+      "traffic_pct": 0.37,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/harmony-of-body-and-mind-unlocking-the-benefits-of-yoga/",
+      "traffic": 2.56,
+      "kw": 3,
+      "traffic_pct": 0.23,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/concession-program/",
+      "traffic": 1.7,
+      "kw": 3,
+      "traffic_pct": 0.15,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    },
+    {
+      "url": "https://greencare.com.au/a-practical-guide-to-crushing-your-new-years-health-and-wellness-resolutions/",
+      "traffic": 1.2,
+      "kw": 3,
+      "traffic_pct": 0.11,
+      "intent": "\u2014",
+      "top_kw": "\u2014"
+    }
+  ],
+  "subdomains": [
+    {
+      "name": "www",
+      "traffic": 1100,
+      "pages": 27
+    }
+  ],
+  "top_keywords": [
+    {
+      "kw": "greencare",
+      "pos": 1,
+      "vol": 1300,
+      "kd": 0.0,
+      "cpc": 7.59,
+      "traffic": 395.2,
+      "url": "https://greencare.com.au/",
+      "intents": "informational",
+      "serp": "organic,local_pack,related_searches,images",
+      "topic": "Brand"
+    },
+    {
+      "kw": "folium dispensary",
+      "pos": 4,
+      "vol": 2400,
+      "kd": 2.0,
+      "cpc": 5.5,
+      "traffic": 158.16,
+      "url": "https://greencare.com.au/pages/foliumdispensary/",
+      "intents": "navigational",
+      "serp": "local_pack,organic,related_searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "greencare clinics",
+      "pos": 1,
+      "vol": 480,
+      "kd": 2.0,
+      "cpc": 8.24,
+      "traffic": 145.92,
+      "url": "https://greencare.com.au/",
+      "intents": "navigational",
+      "serp": "organic,people_also_ask,related_searches,google_reviews,knowledge_graph",
+      "topic": "Brand"
+    },
+    {
+      "kw": "inner calmness",
+      "pos": 5,
+      "vol": 880,
+      "kd": 12.0,
+      "cpc": 1.24,
+      "traffic": 41.27,
+      "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/",
+      "intents": "informational",
+      "serp": "ai_overview,organic,people_also_ask,video,related_searches,images",
+      "topic": "Other"
+    },
+    {
+      "kw": "wellness routines",
+      "pos": 4,
+      "vol": 480,
+      "kd": 34.0,
+      "cpc": 1.12,
+      "traffic": 31.63,
+      "url": "https://greencare.com.au/tips-for-starting-and-maintaining-a-health-and-wellness-routine/",
+      "intents": "informational",
+      "serp": "ai_overview,organic,people_also_ask,images,video,related_searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "greencare reviews",
+      "pos": 1,
+      "vol": 70,
+      "kd": 0.0,
+      "cpc": 6.84,
+      "traffic": 21.28,
+      "url": "https://greencare.com.au/pages/greencare-treatments-w/",
+      "intents": "informational",
+      "serp": "organic,local_pack,people_also_ask,related_searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "green clinic",
+      "pos": 2,
+      "vol": 90,
+      "kd": 16.0,
+      "cpc": 10.8,
+      "traffic": 14.58,
+      "url": "https://greencare.com.au/",
+      "intents": "navigational",
+      "serp": "organic,related_searches",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "green clinics",
+      "pos": 2,
+      "vol": 90,
+      "kd": 20.0,
+      "cpc": 10.8,
+      "traffic": 14.58,
+      "url": "https://greencare.com.au/",
+      "intents": "informational",
+      "serp": "organic,local_pack,related_searches,images",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "dean gladstone",
+      "pos": 4,
+      "vol": 210,
+      "kd": 13.0,
+      "cpc": 0.91,
+      "traffic": 13.84,
+      "url": "https://greencare.com.au/dean-gladstone/",
+      "intents": "informational",
+      "serp": "knowledge_graph,organic,people_also_ask,perspectives,carousel,video,related_searches,images",
+      "topic": "Other"
+    },
+    {
+      "kw": "my green medical",
+      "pos": 9,
+      "vol": 880,
+      "kd": 8.0,
+      "cpc": 17.88,
+      "traffic": 13.2,
+      "url": "https://greencare.com.au/",
+      "intents": "navigational",
+      "serp": "organic,related_searches,knowledge_graph,google_reviews",
+      "topic": "Other"
+    },
+    {
+      "kw": "being calm",
+      "pos": 7,
+      "vol": 390,
+      "kd": 39.0,
+      "cpc": 0.69,
+      "traffic": 9.98,
+      "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/",
+      "intents": "informational",
+      "serp": "ai_overview,organic,people_also_ask,discussions_and_forums,video,images,related_searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "greenacre medical centre",
+      "pos": 44,
+      "vol": 4400,
+      "kd": 0.0,
+      "cpc": 3.16,
+      "traffic": 9.24,
+      "url": "https://greencare.com.au/",
+      "intents": "navigational",
+      "serp": "organic,people_also_ask,related_searches,google_reviews,knowledge_graph",
+      "topic": "Locations"
+    },
+    {
+      "kw": "green health",
+      "pos": 4,
+      "vol": 140,
+      "kd": 0.0,
+      "cpc": 16.56,
+      "traffic": 9.23,
+      "url": "https://greencare.com.au/",
+      "intents": "informational",
+      "serp": "ai_overview,organic,people_also_ask,images,related_searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "meditation tantric",
+      "pos": 4,
+      "vol": 140,
+      "kd": 0.0,
+      "cpc": 0.0,
+      "traffic": 9.23,
+      "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/",
+      "intents": "informational",
+      "serp": "ai_overview,video,people_also_ask,organic,discussions_and_forums,related_searches,images",
+      "topic": "Locations"
+    },
+    {
+      "kw": "tantric meditation",
+      "pos": 4,
+      "vol": 140,
+      "kd": 0.0,
+      "cpc": 0.0,
+      "traffic": 9.23,
+      "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/",
+      "intents": "informational",
+      "serp": "ai_overview,video,people_also_ask,organic,images",
+      "topic": "Locations"
+    }
+  ],
+  "nonbrand_keywords": [
+    {
+      "kw": "folium dispensary",
+      "pos": 4,
+      "vol": 2400,
+      "kd": 2.0,
+      "cpc": 5.5,
+      "traffic": 158.16,
+      "url": "https://greencare.com.au/pages/foliumdispensary/",
+      "intents": "navigational",
+      "serp": "local_pack,organic,related_searches",
+      "topic": "Brand"
+    },
+    {
+      "kw": "inner calmness",
+      "pos": 5,
+      "vol": 880,
+      "kd": 12.0,
+      "cpc": 1.24,
+      "traffic": 41.27,
+      "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/",
+      "intents": "informational",
+      "serp": "ai_overview,organic,people_also_ask,video,related_searches,images",
+      "topic": "Other"
+    },
+    {
+      "kw": "wellness routines",
+      "pos": 4,
+      "vol": 480,
+      "kd": 34.0,
+      "cpc": 1.12,
+      "traffic": 31.63,
+      "url": "https://greencare.com.au/tips-for-starting-and-maintaining-a-health-and-wellness-routine/",
+      "intents": "informational",
+      "serp": "ai_overview,organic,people_also_ask,images,video,related_searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "green clinic",
+      "pos": 2,
+      "vol": 90,
+      "kd": 16.0,
+      "cpc": 10.8,
+      "traffic": 14.58,
+      "url": "https://greencare.com.au/",
+      "intents": "navigational",
+      "serp": "organic,related_searches",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "green clinics",
+      "pos": 2,
+      "vol": 90,
+      "kd": 20.0,
+      "cpc": 10.8,
+      "traffic": 14.58,
+      "url": "https://greencare.com.au/",
+      "intents": "informational",
+      "serp": "organic,local_pack,related_searches,images",
+      "topic": "Clinic / Doctor"
+    },
+    {
+      "kw": "dean gladstone",
+      "pos": 4,
+      "vol": 210,
+      "kd": 13.0,
+      "cpc": 0.91,
+      "traffic": 13.84,
+      "url": "https://greencare.com.au/dean-gladstone/",
+      "intents": "informational",
+      "serp": "knowledge_graph,organic,people_also_ask,perspectives,carousel,video,related_searches,images",
+      "topic": "Other"
+    },
+    {
+      "kw": "my green medical",
+      "pos": 9,
+      "vol": 880,
+      "kd": 8.0,
+      "cpc": 17.88,
+      "traffic": 13.2,
+      "url": "https://greencare.com.au/",
+      "intents": "navigational",
+      "serp": "organic,related_searches,knowledge_graph,google_reviews",
+      "topic": "Other"
+    },
+    {
+      "kw": "being calm",
+      "pos": 7,
+      "vol": 390,
+      "kd": 39.0,
+      "cpc": 0.69,
+      "traffic": 9.98,
+      "url": "https://greencare.com.au/cultivating-a-sense-of-calm-your-guide-to-inner-peace/",
+      "intents": "informational",
+      "serp": "ai_overview,organic,people_also_ask,discussions_and_forums,video,images,related_searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "greenacre medical centre",
+      "pos": 44,
+      "vol": 4400,
+      "kd": 0.0,
+      "cpc": 3.16,
+      "traffic": 9.24,
+      "url": "https://greencare.com.au/",
+      "intents": "navigational",
+      "serp": "organic,people_also_ask,related_searches,google_reviews,knowledge_graph",
+      "topic": "Locations"
+    },
+    {
+      "kw": "green health",
+      "pos": 4,
+      "vol": 140,
+      "kd": 0.0,
+      "cpc": 16.56,
+      "traffic": 9.23,
+      "url": "https://greencare.com.au/",
+      "intents": "informational",
+      "serp": "ai_overview,organic,people_also_ask,images,related_searches",
+      "topic": "Other"
+    },
+    {
+      "kw": "meditation tantric",
+      "pos": 4,
+      "vol": 140,
+      "kd": 0.0,
+      "cpc": 0.0,
+      "traffic": 9.23,
+      "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/",
+      "intents": "informational",
+      "serp": "ai_overview,video,people_also_ask,organic,discussions_and_forums,related_searches,images",
+      "topic": "Locations"
+    },
+    {
+      "kw": "tantric meditation",
+      "pos": 4,
+      "vol": 140,
+      "kd": 0.0,
+      "cpc": 0.0,
+      "traffic": 9.23,
+      "url": "https://greencare.com.au/meditation-expert-shares-tantric-meditation-guide-to-enhance-intimacy-for-couples/",
+      "intents": "informational",
+      "serp": "ai_overview,video,people_also_ask,organic,images",
+      "topic": "Locations"
+    }
+  ],
+  "top_backlinks": [],
+  "backlink_groups": [],
+  "backlink_hosts": [],
+  "backlink_histogram": [
+    {
+      "label": "1",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "2\u20135",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "6\u201320",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "21\u201350",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "51\u2013200",
+      "pages": 0,
+      "backlinks": 0
+    },
+    {
+      "label": "200+",
+      "pages": 0,
+      "backlinks": 0
+    }
+  ],
+  "notes": {
+    "brand": {
+      "visual_system": [
+        "Wellness-first look that blends a clinic with a lifestyle blog.",
+        "Folium dispensary and treatments pages anchor the commercial side.",
+        "Soft, calming imagery and editorial article layouts."
+      ],
+      "site_architecture": [
+        "Single domain with a large wellness blog and a /pages/ commercial set.",
+        "Many general wellness articles: yoga, ice baths, hair loss, burnout.",
+        "Practitioner and health summary pages support the clinic offer."
+      ],
+      "tone_compliance": [
+        "Generally safe; cannabis kept at arm's length from the blog.",
+        "Wellness framing keeps most content low risk.",
+        "Consultation language is present on commercial pages."
+      ]
+    },
+    "verdict": {
+      "steal": [
+        {
+          "play": "Health summary explainer",
+          "effort": 2,
+          "impact": 3,
+          "note": "Useful eligibility content patients search for."
+        },
+        {
+          "play": "Practitioner credibility pages",
+          "effort": 3,
+          "impact": 3,
+          "note": "Clinician profile pages with credentials, used as authorship anchors for condition content."
+        },
+        {
+          "play": "Eligibility explainer template",
+          "effort": 2,
+          "impact": 3,
+          "note": "Their health-summary content captures useful pre-consult search intent."
+        }
+      ],
+      "avoid": [
+        {
+          "trap": "Generic wellness hub",
+          "evidence": "Most of 27 pages are off-topic wellness with little traffic."
+        },
+        {
+          "trap": "Broad wellness blogging",
+          "evidence": "Most of the 27 pages are off-topic wellness articles producing single-digit visits. Publishing volume without focus is a tax."
+        }
+      ],
+      "implications": [
+        "Greencare publishes broadly but earns from very few pages.",
+        "The wellness blog is bloat; on-topic eligibility and condition content wins.",
+        "We should target tighter cannabis intent rather than spray wellness articles."
+      ]
+    },
+    "position": "model",
+    "period": "June 2026",
+    "tagline": "A wellness-led clinic with a Folium dispensary and a long lifestyle blog. Publishes broadly, earns from very few pages \u2014 the blog is bloat and the cannabis intent sits underweighted.",
+    "verdict_label": "Model off this",
+    "verdict_tone": "green",
+    "eeat": {
+      "https": "green",
+      "schema_medical": "amber",
+      "author_bylines": "amber",
+      "medical_reviewer": "amber",
+      "core_web_vitals": "amber",
+      "freshness": "amber",
+      "notes": "Practitioner pages signal credibility but the clinical content layer is thin. Wellness positioning keeps risk low at the cost of focus. Schema and authorship signals lag the bigger players."
+    },
+    "gap_matrix": [
+      {
+        "topic": "Brand defence",
+        "greencare": 2,
+        "hellomello": 1,
+        "comment": "Small brand \u2014 fight here too."
+      },
+      {
+        "topic": "Pricing transparency",
+        "greencare": 2,
+        "hellomello": 1,
+        "comment": "Match cleanly."
+      },
+      {
+        "topic": "Clinic / doctor SEO",
+        "greencare": 2,
+        "hellomello": 0,
+        "comment": "Practitioner pages \u2014 contestable."
+      },
+      {
+        "topic": "Conditions content",
+        "greencare": 1,
+        "hellomello": 0,
+        "comment": "Open field \u2014 highest impact."
+      },
+      {
+        "topic": "Locations / pSEO",
+        "greencare": 1,
+        "hellomello": 0,
+        "comment": "Open field."
+      },
+      {
+        "topic": "\"Near me\" queries",
+        "greencare": 0,
+        "hellomello": 0,
+        "comment": "Undefended."
+      },
+      {
+        "topic": "Wellness / lifestyle",
+        "greencare": 4,
+        "hellomello": 0,
+        "comment": "Their bloat \u2014 skip."
+      },
+      {
+        "topic": "Reviews / social proof",
+        "greencare": 1,
+        "hellomello": 0,
+        "comment": "Replicate properly."
+      },
+      {
+        "topic": "Editorial link bait",
+        "greencare": 2,
+        "hellomello": 0,
+        "comment": "Cannabis explainers, not wellness."
+      },
+      {
+        "topic": "Dispensary integration",
+        "greencare": 3,
+        "hellomello": 0,
+        "comment": "Folium model worth studying."
+      }
+    ]
+  }
+}

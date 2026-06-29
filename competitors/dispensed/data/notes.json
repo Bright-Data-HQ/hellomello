@@ -1,0 +1,136 @@
+{
+  "brand": {
+    "visual_system": [
+      "Functional, no-frills clinic site; brand demand does the heavy lifting.",
+      "Reviews and login are pushed hard from the homepage.",
+      "Limited editorial polish; the build is conversion-first."
+    ],
+    "site_architecture": [
+      "Marketing site plus a large app/portal subdomain for patients.",
+      "Real location pages for Melbourne, Sydney, Brisbane, Perth and the Gold Coast.",
+      "Small blog and a few info pages; dev and qa subdomains leak into the index."
+    ],
+    "tone_compliance": [
+      "Sits in the grey; framing leans product over consultation in places.",
+      "Free consultation and pricing language is prominent.",
+      "Some surfaces should tighten compliance wording."
+    ]
+  },
+  "verdict": {
+    "steal": [
+      {
+        "play": "City location pages",
+        "effort": 3,
+        "impact": 4,
+        "note": "They cover the five majors; we can go deeper into suburbs."
+      },
+      {
+        "play": "Visible reviews funnel",
+        "effort": 2,
+        "impact": 3,
+        "note": "Social proof close to sign-up."
+      },
+      {
+        "play": "Suburb-deep location template",
+        "effort": 3,
+        "impact": 4,
+        "note": "Their five-city model proves the geo plays. Going deeper is unconfested."
+      }
+    ],
+    "avoid": [
+      {
+        "trap": "Leaving dev/qa subdomains crawlable",
+        "evidence": "Test subdomains rank and dilute trust."
+      },
+      {
+        "trap": "Grey consultation framing",
+        "evidence": "Product-led language sits in front of consultation framing on several pages. Higher CTR, higher regulator risk."
+      },
+      {
+        "trap": "Brand-only fortress",
+        "evidence": "92% of traffic is brand. The non-brand surface is small and easy to displace beneath the brand line."
+      }
+    ],
+    "implications": [
+      "Dispensed leans on brand and a thin location set, not deep content.",
+      "Their suburb-level coverage is shallow, so granular local pages are open to us.",
+      "Tidy site hygiene plus stronger education would beat them quickly."
+    ]
+  },
+  "position": "careful",
+  "period": "June 2026",
+  "tagline": "A big-brand telehealth player riding awareness, not content. Real location coverage on the five majors and a leaky dev / qa surface that needs tightening.",
+  "verdict_label": "Careful · model with edits",
+  "verdict_tone": "amber",
+  "eeat": {
+    "https": "green",
+    "schema_medical": "red",
+    "author_bylines": "red",
+    "medical_reviewer": "amber",
+    "core_web_vitals": "amber",
+    "freshness": "amber",
+    "notes": "Strong brand signal, weak hygiene. Dev and qa subdomains rank publicly, schema is shallow, clinician bylines are missing. Compliance framing leans product in places."
+  },
+  "gap_matrix": [
+    {
+      "topic": "Brand defence",
+      "dispensed": 5,
+      "hellomello": 1,
+      "comment": "Their moat."
+    },
+    {
+      "topic": "Pricing transparency",
+      "dispensed": 3,
+      "hellomello": 1,
+      "comment": "Match it cleanly."
+    },
+    {
+      "topic": "Clinic / doctor SEO",
+      "dispensed": 1,
+      "hellomello": 0,
+      "comment": "Open field."
+    },
+    {
+      "topic": "Conditions content",
+      "dispensed": 0,
+      "hellomello": 0,
+      "comment": "Open field — highest impact."
+    },
+    {
+      "topic": "Locations / pSEO",
+      "dispensed": 3,
+      "hellomello": 0,
+      "comment": "Capital cities only — go suburb-deep."
+    },
+    {
+      "topic": "\"Near me\" queries",
+      "dispensed": 1,
+      "hellomello": 0,
+      "comment": "Undefended."
+    },
+    {
+      "topic": "Wellness / lifestyle",
+      "dispensed": 0,
+      "hellomello": 0,
+      "comment": "Skip."
+    },
+    {
+      "topic": "Reviews / social proof",
+      "dispensed": 3,
+      "hellomello": 0,
+      "comment": "Replicate properly."
+    },
+    {
+      "topic": "Editorial link bait",
+      "dispensed": 1,
+      "hellomello": 0,
+      "comment": "Open field."
+    },
+    {
+      "topic": "Site hygiene",
+      "dispensed": 1,
+      "hellomello": 2,
+      "comment": "Their leak — our edge."
+    }
+  ]
+}

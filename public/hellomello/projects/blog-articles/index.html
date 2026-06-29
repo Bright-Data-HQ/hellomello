@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Hellomello, Journal Article Pages Build</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#283718; --green-2:#1F2B12; --green-3:#34481F;
+  --cream:#FEFAE0; --cream-2:#F6F0CC; --cream-3:#FBF6D6;
+  --terra:#BC6C25; --terra-light:#DDA15E;
+  --lavender:#BEB8EB; --sage:#B2DCD0; --blue:#2A78A0;
+  --paper:#FBF6D6; --paper-2:#F6F0CC; --surface:#FFFFFF; --surface-2:#FAF7E8;
+  --ink:#283718; --ink-2:#34481F; --muted:#5C6849; --muted-2:#8C9779;
+  --border:#E8E1B8; --border-strong:#CFC68C;
+  --ok-bg:#E4F1D6; --ok-fg:#3F6A1A; --ok-bd:#C5DFA6;
+  --warn-bg:#FBE7C4; --warn-fg:#8A4A0E; --warn-bd:#EFC788;
+  --bad-bg:#F8D7D2; --bad-fg:#9B2418; --bad-bd:#EDB5AC;
+  --font-display:"League Spartan","Helvetica Neue",system-ui,sans-serif;
+  --font-body:"Inter","Helvetica Neue",system-ui,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --content:1120px;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--font-body);color:var(--ink);background:var(--paper);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.page{max-width:var(--content);margin:0 auto;padding:64px 56px 160px}
+
+/* Header */
+.doc-header{padding-bottom:48px;border-bottom:1px solid var(--border-strong);margin-bottom:56px;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.doc-eyebrow{font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.doc-title{font-family:var(--font-display);font-weight:900;font-size:62px;letter-spacing:-.025em;line-height:.94;margin:0 0 20px;max-width:18ch}
+.doc-title em{font-style:normal;color:var(--terra)}
+.doc-lead{font-size:17px;line-height:1.55;color:var(--muted);max-width:64ch;margin:0}
+.doc-meta{display:flex;gap:24px;flex-wrap:wrap;margin-top:32px;font-family:var(--font-mono);font-size:11.5px;color:var(--muted)}
+.doc-meta strong{color:var(--ink);font-weight:600}
+.back{display:inline-block;font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-decoration:none;margin-bottom:28px}
+.back:hover{color:var(--terra)}
+
+.brandmark{display:flex;flex-direction:column;align-items:flex-end;gap:14px}
+.wordmark{font-family:var(--font-display);font-weight:900;font-size:32px;letter-spacing:-.02em;line-height:1}
+.wordmark span:nth-child(1){color:var(--green)}
+.wordmark span:nth-child(2){color:var(--terra)}
+.wordmark span:nth-child(3){color:var(--lavender)}
+.wordmark span:nth-child(4){color:var(--sage)}
+.wordmark span:nth-child(5){color:var(--blue)}
+.brandmark .tag{font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted)}
+.count{display:flex;flex-direction:column;align-items:center;gap:8px;background:var(--green);border-radius:18px;padding:20px 28px;color:var(--cream)}
+.count .ring{font-family:var(--font-display);font-weight:900;font-size:44px;line-height:1;letter-spacing:-.02em;color:var(--cream)}
+.count .lbl{font-family:var(--font-mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--sage);text-align:center}
+
+/* Sections */
+section{margin-bottom:80px;scroll-margin-top:32px}
+.sec-num{font-family:var(--font-mono);font-size:11.5px;color:var(--muted);letter-spacing:.1em;margin-bottom:10px;text-transform:uppercase}
+.sec-title{font-family:var(--font-display);font-weight:700;font-size:36px;letter-spacing:-.02em;line-height:1.05;margin:0 0 14px}
+.sec-lead{font-size:15.5px;line-height:1.65;color:var(--muted);max-width:64ch;margin:0 0 32px}
+
+/* Intro project cards */
+.projos{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:14px}
+.projo{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:24px 24px;display:flex;flex-direction:column;gap:12px;text-decoration:none;color:var(--ink);transition:transform .15s ease,border-color .15s ease}
+.projo:hover{transform:translateY(-2px);border-color:var(--terra-light)}
+.projo .pn{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--terra);font-weight:600}
+.projo h3{font-family:var(--font-display);font-weight:700;font-size:21px;margin:0;letter-spacing:-.01em;color:var(--green)}
+.projo p{font-size:13px;color:var(--muted);line-height:1.55;margin:0}
+.projo .n{font-family:var(--font-mono);font-size:11px;color:var(--blue);margin-top:auto;letter-spacing:.04em}
+
+/* Project block */
+.project{margin-top:18px;border:1px solid var(--border-strong);border-radius:16px;overflow:hidden;background:var(--surface)}
+.proj-head{padding:30px 32px 26px;background:var(--green);color:var(--cream)}
+.proj-head .top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+.proj-head .pn{font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--terra-light);font-weight:600}
+.proj-head .sep-pill{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:4px 11px;border-radius:9999px;background:rgba(254,250,224,.12);color:var(--cream);border:1px solid rgba(254,250,224,.3)}
+.proj-head h2{font-family:var(--font-display);font-weight:900;font-size:34px;letter-spacing:-.02em;line-height:1;margin:0 0 12px;color:var(--cream)}
+.proj-head .desc{font-size:14.5px;line-height:1.6;color:var(--cream-2);max-width:70ch;margin:0 0 22px}
+.proj-meta{display:grid;grid-template-columns:repeat(4,auto);gap:28px;justify-content:start;font-family:var(--font-mono);font-size:11px;color:var(--sage)}
+.proj-meta .v{display:block;color:var(--cream);margin-top:4px;font-size:11.5px}
+.progress{margin-top:22px}
+.progress .bar{height:8px;border-radius:9999px;background:rgba(254,250,224,.15);overflow:hidden}
+.progress .fill{height:100%;width:0;background:var(--terra-light);border-radius:9999px;transition:width .25s ease}
+.progress .pct{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--sage);margin-top:8px}
+.progress .pct b{color:var(--cream)}
+
+.proj-body{padding:14px 32px 30px}
+.phase{padding:24px 0 8px;border-bottom:1px solid var(--border)}
+.phase:last-child{border-bottom:0}
+.phase-h{display:flex;align-items:baseline;gap:12px;margin-bottom:14px}
+.phase-h .pnum{font-family:var(--font-mono);font-size:11px;color:var(--terra);font-weight:600;letter-spacing:.1em}
+.phase-h h4{font-family:var(--font-display);font-weight:700;font-size:18px;margin:0;color:var(--green);letter-spacing:-.005em}
+.phase-h .ph-note{font-size:12px;color:var(--muted);margin-left:auto;font-family:var(--font-mono)}
+
+.tasks{display:flex;flex-direction:column;gap:2px;margin:0}
+.task{display:flex;align-items:flex-start;gap:13px;padding:9px 10px;border-radius:9px;cursor:pointer;user-select:none}
+.task:hover{background:var(--surface-2)}
+.task input{position:absolute;opacity:0;width:0;height:0}
+.task .box{flex:0 0 auto;width:19px;height:19px;border:1.5px solid var(--border-strong);border-radius:5px;margin-top:1px;display:flex;align-items:center;justify-content:center;background:#fff;transition:background .12s ease,border-color .12s ease}
+.task .box svg{width:12px;height:12px;opacity:0;transform:scale(.6);transition:opacity .12s ease,transform .12s ease}
+.task input:checked + .box{background:var(--green);border-color:var(--green)}
+.task input:checked + .box svg{opacity:1;transform:scale(1)}
+.task .lbl{font-size:14px;line-height:1.5;color:var(--ink-2);flex:1}
+.task input:checked ~ .lbl{color:var(--muted-2);text-decoration:line-through;text-decoration-color:var(--border-strong)}
+.task .who{flex:0 0 auto;font-family:var(--font-mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:3px 8px;border-radius:9999px;margin-top:1px;white-space:nowrap}
+.who.des{background:#EFEDFB;color:#5a51b0}
+.who.bld{background:#E0EEF5;color:#1d5a7a}
+.who.con{background:var(--warn-bg);color:var(--warn-fg)}
+.who.seo{background:var(--ok-bg);color:var(--ok-fg)}
+.who.com{background:var(--bad-bg);color:var(--bad-fg)}
+.who.qa{background:var(--cream-2);color:var(--muted)}
+.who.dat{background:#E4F1EC;color:#2f6b5a}
+
+/* Legend + controls */
+.legend{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 0}
+.legend .who{font-family:var(--font-mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:3px 9px;border-radius:9999px}
+.controls{display:flex;gap:12px;align-items:center;margin-top:16px}
+.controls button{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:8px 14px;border-radius:9999px;border:1px solid var(--border-strong);background:var(--surface);color:var(--muted);cursor:pointer}
+.controls button:hover{border-color:var(--terra-light);color:var(--terra)}
+.controls .saved{font-family:var(--font-mono);font-size:10.5px;color:var(--muted-2)}
+
+.banner{background:var(--cream-2);border:1px solid var(--border-strong);border-radius:12px;padding:20px 24px;margin:24px 0}
+.banner b{display:block;font-family:var(--font-display);font-weight:700;font-size:13px;color:var(--green);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.banner p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.6}
+
+/* Technical development spec (for the build team) */
+.spec{margin:24px 0 6px;border-radius:14px;background:#1C2710;border:1px solid #34481F;overflow:hidden}
+.spec-h{display:flex;align-items:center;gap:12px;padding:16px 24px;border-bottom:1px solid #34481F;font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--terra-light);font-weight:600}
+.spec-h .badge{font-size:9px;letter-spacing:.1em;padding:4px 10px;border-radius:9999px;background:rgba(221,161,94,.16);color:var(--terra-light);border:1px solid rgba(221,161,94,.35);margin-left:auto}
+.spec-body{padding:6px 24px 22px}
+.spec-row{padding:18px 0;border-bottom:1px solid rgba(254,250,224,.08)}
+.spec-row:last-child{border-bottom:0}
+.spec-row h5{font-family:var(--font-display);font-weight:700;font-size:14px;margin:0 0 9px;color:var(--cream);text-transform:uppercase;letter-spacing:.05em}
+.spec-row p{margin:0 0 8px;font-size:13px;line-height:1.65;color:#C7CEB4}
+.spec-row p:last-child{margin-bottom:0}
+.spec-row ul{margin:6px 0 0;padding-left:18px;font-size:13px;line-height:1.7;color:#C7CEB4}
+.spec-row ul li{margin-bottom:3px}
+.spec code{font-family:var(--font-mono);font-size:12px;background:rgba(254,250,224,.09);padding:1px 6px;border-radius:5px;color:var(--terra-light)}
+.spec pre{margin:10px 0 0;background:#141D0B;border:1px solid #34481F;border-radius:10px;padding:15px 17px;overflow-x:auto;font-family:var(--font-mono);font-size:12px;line-height:1.65;color:#C7CEB4;white-space:pre}
+.spec pre .c{color:#8C9779}
+.spec pre .s{color:var(--sage)}
+
+.foot{border-top:1px solid var(--border-strong);padding-top:32px;margin-top:80px;display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-family:var(--font-mono);font-size:11.5px}
+
+@media (max-width:920px){
+  .page{padding:40px 22px 120px}
+  .doc-header{grid-template-columns:1fr;gap:26px}
+  .doc-title{font-size:40px}
+  .brandmark{flex-direction:row;align-items:center;justify-content:space-between}
+  .projos{grid-template-columns:1fr}
+  .proj-head,.proj-body{padding-left:22px;padding-right:22px}
+  .proj-meta{grid-template-columns:1fr 1fr;gap:16px}
+  .phase-h{flex-wrap:wrap}
+  .phase-h .ph-note{margin-left:0;width:100%}
+  .task .who{display:none}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <a class="back" href="/hellomello/projects">← All build projects</a>
+
+  <header class="doc-header">
+    <div>
+      <p class="doc-eyebrow">Hellomello × Bright Data · Project 03 · June 2026</p>
+      <h1 class="doc-title">Journal article pages, <em>built to be trusted</em>.</h1>
+      <p class="doc-lead">Every Journal article sits on one template: clinically authored, properly reviewed, and built to rank and to earn trust. Here is the full task list for the build, from the template through to publishing. Tick things off as you go and the page remembers.</p>
+      <div class="doc-meta">
+        <span>VERSION <strong>1.0</strong></span>
+        <span>UPDATED <strong>June 2026</strong></span>
+        <span>PREPARED BY <strong>Bright Data</strong></span>
+        <span>FOR <strong>Rod, Alex, Hellomello</strong></span>
+      </div>
+    </div>
+    <div class="brandmark">
+      <div class="wordmark"><span>h</span><span>e</span><span>l</span><span>l</span><span>o</span></div>
+      <div class="count">
+        <div class="ring">35</div>
+        <div class="lbl">Tasks in<br>this build</div>
+      </div>
+      <div class="tag">Build Project</div>
+    </div>
+  </header>
+
+  <div style="margin-bottom:44px">
+    <div class="legend">
+      <span style="font-family:var(--font-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-right:4px">Who does it:</span>
+      <span class="who des">Design</span>
+      <span class="who bld">Build</span>
+      <span class="who con">Content</span>
+      <span class="who seo">SEO</span>
+      <span class="who com">Compliance</span>
+      <span class="who qa">QA</span>
+      <span class="who dat">Data</span>
+    </div>
+    <div class="controls">
+      <button type="button" id="resetBtn">Clear all ticks</button>
+      <span class="saved">Your ticks are saved in this browser only.</span>
+    </div>
+  </div>
+
+  <!-- PROJECT 03 -->
+  <section id="blog-post">
+    <div class="project" data-proj="bp">
+      <div class="proj-head">
+        <div class="top">
+          <span class="pn">Project 03</span>
+          <span class="sep-pill">Separate project</span>
+        </div>
+        <h2>Journal article pages</h2>
+        <p class="desc">The template every article sits on. It has to read well, be clearly written by a real, named author, be reviewed by a registered practitioner, and carry the schema and structure that helps it rank and get trusted by Google and AI tools. This is the credibility layer of the content strategy.</p>
+        <div class="proj-meta">
+          <div>Goal<span class="v">Rank and earn trust</span></div>
+          <div>Pillar<span class="v">Conditions / education</span></div>
+          <div>Feeds<span class="v">The Journal hub</span></div>
+          <div>Sign-off<span class="v">Rod, per article</span></div>
+        </div>
+        <div class="progress"><div class="bar"><div class="fill"></div></div><div class="pct"><b><span class="done">0</span></b> of <span class="total">0</span> tasks done</div></div>
+      </div>
+      <div class="proj-body">
+
+        <div class="phase">
+          <div class="phase-h"><span class="pnum">Phase 1</span><h4>Template and structure</h4></div>
+          <div class="tasks">
+            <label class="task"><input type="checkbox" data-k="bp-1"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Build the article template from the brand kit</span><span class="who des">Design</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-2"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Design the article hero (title, category, author, date, reading time, image)</span><span class="who des">Design</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-3"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Style the body: headings, lists, quotes, images and callouts</span><span class="who des">Design</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-4"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Reuse the named-author bio block, and add a "reviewed by" line with a date</span><span class="who des">Design</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-5"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add a table of contents, related posts, a closing CTA band and share buttons</span><span class="who des">Design</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-32"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add a "key takeaways" summary block near the top</span><span class="who des">Design</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-33"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add a references and sources block at the foot of the article</span><span class="who des">Design</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-34"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add a newsletter sign-up block, and reuse the shared header, nav and footer</span><span class="who des">Design</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-6"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Design mobile first, with comfortable reading width and type</span><span class="who des">Design</span></label>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-h"><span class="pnum">Phase 2</span><h4>SEO and technical</h4></div>
+          <div class="tasks">
+            <label class="task"><input type="checkbox" data-k="bp-7"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">One H1 per article and a clean heading hierarchy</span><span class="who seo">SEO</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-8"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add Article or MedicalWebPage schema, with "reviewed by" and "last reviewed"</span><span class="who seo">SEO</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-9"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add breadcrumb schema and set a self-canonical on each article</span><span class="who seo">SEO</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-10"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Per-article meta title, description, and a social share image</span><span class="who con">Content</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-11"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Link each article to related conditions, locations and pricing</span><span class="who seo">SEO</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-12"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Image alt text, lazy-load, and confirm Core Web Vitals pass</span><span class="who bld">Build</span></label>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-h"><span class="pnum">Phase 3</span><h4>Editorial workflow</h4><span class="ph-note">How articles get made</span></div>
+          <div class="tasks">
+            <label class="task"><input type="checkbox" data-k="bp-13"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Build the topic list and calendar from the strategy doc</span><span class="who con">Content</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-14"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Set the writing and clinical-review process, step by step</span><span class="who con">Content</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-15"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Assign a named author and a named reviewer to each article</span><span class="who con">Content</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-16"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add citations and sources to back up the claims</span><span class="who con">Content</span></label>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-h"><span class="pnum">Phase 4</span><h4>Compliance (TGA and AHPRA)</h4><span class="ph-note">Per article</span></div>
+          <div class="tasks">
+            <label class="task"><input type="checkbox" data-k="bp-17"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">No therapeutic claims and no naming of restricted products</span><span class="who com">Compliance</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-18"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Keep an education-first, eligibility-first frame throughout</span><span class="who com">Compliance</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-19"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Have a registered practitioner review each clinical article before publish</span><span class="who com">Compliance</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-20"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Get Rod's sign-off on each article before it goes live</span><span class="who com">Compliance</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-35"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add the medical disclaimer block to the article template</span><span class="who com">Compliance</span></label>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-h"><span class="pnum">Phase 5</span><h4>QA and launch</h4></div>
+          <div class="tasks">
+            <label class="task"><input type="checkbox" data-k="bp-21"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Proofread and fact-check every article</span><span class="who qa">QA</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-22"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Validate the schema in the Rich Results Test</span><span class="who qa">QA</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-23"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Check the template across browsers and on mobile</span><span class="who qa">QA</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-24"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Publish the first batch of articles and add them to the sitemap</span><span class="who bld">Build</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-25"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Request indexing and link the new articles from the hub</span><span class="who seo">SEO</span></label>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-h"><span class="pnum">Phase 6</span><h4>Keep it going</h4><span class="ph-note">Ongoing</span></div>
+          <div class="tasks">
+            <label class="task"><input type="checkbox" data-k="bp-26"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Publish on a steady cadence so the library keeps growing</span><span class="who con">Content</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-27"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Refresh older articles and update the "last reviewed" dates</span><span class="who con">Content</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-28"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Track which articles rank and which earn citations, and do more of what works</span><span class="who seo">SEO</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-29"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Keep internal links between articles, conditions and locations up to date</span><span class="who seo">SEO</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-30"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Re-check older articles against current TGA and AHPRA guidance</span><span class="who com">Compliance</span></label>
+            <label class="task"><input type="checkbox" data-k="bp-31"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Report on traffic and leads from the blog each month</span><span class="who seo">SEO</span></label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <span>Bright Data × Hellomello · Build Projects &amp; Task Lists</span>
+    <span>June 2026</span>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  var KEY = 'hm-build-tasks-v1';
+  var store = {};
+  try { store = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { store = {}; }
+
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('.task input[type=checkbox]'));
+
+  function save(){
+    try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {}
+  }
+
+  function updateProject(proj){
+    var inputs = proj.querySelectorAll('.task input[type=checkbox]');
+    var total = inputs.length, done = 0;
+    for (var i = 0; i < inputs.length; i++) if (inputs[i].checked) done++;
+    var pct = total ? Math.round((done / total) * 100) : 0;
+    var fill = proj.querySelector('.progress .fill');
+    var doneEl = proj.querySelector('.progress .done');
+    var totalEl = proj.querySelector('.progress .total');
+    if (fill) fill.style.width = pct + '%';
+    if (doneEl) doneEl.textContent = done;
+    if (totalEl) totalEl.textContent = total;
+  }
+
+  function updateAll(){
+    var projects = document.querySelectorAll('.project');
+    for (var i = 0; i < projects.length; i++) updateProject(projects[i]);
+  }
+
+  boxes.forEach(function(box){
+    var k = box.getAttribute('data-k');
+    if (store[k]) box.checked = true;
+    box.addEventListener('change', function(){
+      if (box.checked) store[k] = 1; else delete store[k];
+      save();
+      var proj = box.closest('.project');
+      if (proj) updateProject(proj);
+    });
+  });
+
+  var reset = document.getElementById('resetBtn');
+  if (reset) reset.addEventListener('click', function(){
+    if (!confirm('Clear all your ticks on this page?')) return;
+    boxes.forEach(function(b){ delete store[b.getAttribute('data-k')]; b.checked = false; });
+    save();
+    updateAll();
+  });
+
+  updateAll();
+})();
+</script>
+</body>
+</html>

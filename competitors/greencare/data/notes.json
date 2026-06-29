@@ -1,0 +1,132 @@
+{
+  "brand": {
+    "visual_system": [
+      "Wellness-first look that blends a clinic with a lifestyle blog.",
+      "Folium dispensary and treatments pages anchor the commercial side.",
+      "Soft, calming imagery and editorial article layouts."
+    ],
+    "site_architecture": [
+      "Single domain with a large wellness blog and a /pages/ commercial set.",
+      "Many general wellness articles: yoga, ice baths, hair loss, burnout.",
+      "Practitioner and health summary pages support the clinic offer."
+    ],
+    "tone_compliance": [
+      "Generally safe; cannabis kept at arm's length from the blog.",
+      "Wellness framing keeps most content low risk.",
+      "Consultation language is present on commercial pages."
+    ]
+  },
+  "verdict": {
+    "steal": [
+      {
+        "play": "Health summary explainer",
+        "effort": 2,
+        "impact": 3,
+        "note": "Useful eligibility content patients search for."
+      },
+      {
+        "play": "Practitioner credibility pages",
+        "effort": 3,
+        "impact": 3,
+        "note": "Clinician profile pages with credentials, used as authorship anchors for condition content."
+      },
+      {
+        "play": "Eligibility explainer template",
+        "effort": 2,
+        "impact": 3,
+        "note": "Their health-summary content captures useful pre-consult search intent."
+      }
+    ],
+    "avoid": [
+      {
+        "trap": "Generic wellness hub",
+        "evidence": "Most of 27 pages are off-topic wellness with little traffic."
+      },
+      {
+        "trap": "Broad wellness blogging",
+        "evidence": "Most of the 27 pages are off-topic wellness articles producing single-digit visits. Publishing volume without focus is a tax."
+      }
+    ],
+    "implications": [
+      "Greencare publishes broadly but earns from very few pages.",
+      "The wellness blog is bloat; on-topic eligibility and condition content wins.",
+      "We should target tighter cannabis intent rather than spray wellness articles."
+    ]
+  },
+  "position": "model",
+  "period": "June 2026",
+  "tagline": "A wellness-led clinic with a Folium dispensary and a long lifestyle blog. Publishes broadly, earns from very few pages — the blog is bloat and the cannabis intent sits underweighted.",
+  "verdict_label": "Model off this",
+  "verdict_tone": "green",
+  "eeat": {
+    "https": "green",
+    "schema_medical": "amber",
+    "author_bylines": "amber",
+    "medical_reviewer": "amber",
+    "core_web_vitals": "amber",
+    "freshness": "amber",
+    "notes": "Practitioner pages signal credibility but the clinical content layer is thin. Wellness positioning keeps risk low at the cost of focus. Schema and authorship signals lag the bigger players."
+  },
+  "gap_matrix": [
+    {
+      "topic": "Brand defence",
+      "greencare": 2,
+      "hellomello": 1,
+      "comment": "Small brand — fight here too."
+    },
+    {
+      "topic": "Pricing transparency",
+      "greencare": 2,
+      "hellomello": 1,
+      "comment": "Match cleanly."
+    },
+    {
+      "topic": "Clinic / doctor SEO",
+      "greencare": 2,
+      "hellomello": 0,
+      "comment": "Practitioner pages — contestable."
+    },
+    {
+      "topic": "Conditions content",
+      "greencare": 1,
+      "hellomello": 0,
+      "comment": "Open field — highest impact."
+    },
+    {
+      "topic": "Locations / pSEO",
+      "greencare": 1,
+      "hellomello": 0,
+      "comment": "Open field."
+    },
+    {
+      "topic": "\"Near me\" queries",
+      "greencare": 0,
+      "hellomello": 0,
+      "comment": "Undefended."
+    },
+    {
+      "topic": "Wellness / lifestyle",
+      "greencare": 4,
+      "hellomello": 0,
+      "comment": "Their bloat — skip."
+    },
+    {
+      "topic": "Reviews / social proof",
+      "greencare": 1,
+      "hellomello": 0,
+      "comment": "Replicate properly."
+    },
+    {
+      "topic": "Editorial link bait",
+      "greencare": 2,
+      "hellomello": 0,
+      "comment": "Cannabis explainers, not wellness."
+    },
+    {
+      "topic": "Dispensary integration",
+      "greencare": 3,
+      "hellomello": 0,
+      "comment": "Folium model worth studying."
+    }
+  ]
+}

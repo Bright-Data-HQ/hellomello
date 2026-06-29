@@ -22,12 +22,14 @@ A running record of what is agreed and what is still open. Action items live sep
 | Item | Owner | Status / notes |
 | :-- | :-- | :-- |
 | Success metrics | Both | To be agreed jointly: which metrics, before/after baselines, results timeline. Raised by Rod, not yet locked. |
-| Top 20 suburbs list | Rod | Needed before 14 June to drive the location build. Rod has committed to send. |
-| Technical SEO scope table | Bright Data | To be shared as a table mapped to the handover doc, marking each item in-house / Bright Data / shared. Comes out of the sitewide audit underway. |
+| Top 20 suburbs list | Rod | Received. Drives the location build. |
+| Technical SEO scope table | Bright Data | Delivered as the technical SEO health check, mapped in-house / Bright Data / shared. |
 | Homepage review | Bright Data | CRO, UX, and SEO notes sent as annotations on the mockup, ready before go-live. (The "Tuesday" referenced has passed; review delivered.) |
-| Content pillars / educational topics | Bright Data | Being finalised for HM sign-off. |
-| Company profile build-out | Bright Data | https://client.brightdata.com.au/hellomello. Four major competitors done; rest being added. |
-| Follow-up call (performance + tech offload) | Bright Data | To be booked, 2 to 3 weeks out from 1 June. |
+| Content pillars / educational topics | Bright Data | Finalised and signed off. |
+| Company profile build-out | Bright Data | Done. 10 competitor decks live. |
+| Location landing pages | Bright Data | Delivered. Template plus first suburbs live. |
+| Follow-up call (performance + tech offload) | Bright Data | Done. |
+| Meta titles and descriptions | Bright Data | Signed off and implemented across the main pages. |
 | Wix → headless / custom CMS | Both | Discovery only, scoped for FY27. |
 
 ## Things to watch

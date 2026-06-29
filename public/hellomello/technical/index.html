@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Hellomello, Technical SEO Health Check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#283718; --green-2:#1F2B12; --green-3:#34481F;
+  --cream:#FEFAE0; --cream-2:#F6F0CC; --cream-3:#FBF6D6;
+  --terra:#BC6C25; --terra-light:#DDA15E;
+  --lavender:#BEB8EB; --sage:#B2DCD0; --blue:#2A78A0;
+  --paper:#FBF6D6; --paper-2:#F6F0CC; --surface:#FFFFFF; --surface-2:#FAF7E8;
+  --ink:#283718; --ink-2:#34481F; --muted:#5C6849; --muted-2:#8C9779;
+  --border:#E8E1B8; --border-strong:#CFC68C;
+  --ok-bg:#E4F1D6; --ok-fg:#3F6A1A; --ok-bd:#C5DFA6;
+  --warn-bg:#FBE7C4; --warn-fg:#8A4A0E; --warn-bd:#EFC788;
+  --bad-bg:#F8D7D2; --bad-fg:#9B2418; --bad-bd:#EDB5AC;
+  --font-display:"League Spartan","Helvetica Neue",system-ui,sans-serif;
+  --font-body:"Inter","Helvetica Neue",system-ui,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --sh-soft:0 1px 16px rgba(40,55,24,.07);
+  --content:1120px;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--font-body);color:var(--ink);background:var(--paper);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.page{max-width:var(--content);margin:0 auto;padding:64px 56px 160px}
+
+/* Header */
+.doc-header{padding-bottom:48px;border-bottom:1px solid var(--border-strong);margin-bottom:56px;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.doc-eyebrow{font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.doc-title{font-family:var(--font-display);font-weight:900;font-size:64px;letter-spacing:-.025em;line-height:.94;margin:0 0 20px;max-width:18ch}
+.doc-title em{font-style:normal;color:var(--terra)}
+.doc-lead{font-size:17px;line-height:1.55;color:var(--muted);max-width:62ch;margin:0}
+.doc-meta{display:flex;gap:24px;flex-wrap:wrap;margin-top:32px;font-family:var(--font-mono);font-size:11.5px;color:var(--muted)}
+.doc-meta strong{color:var(--ink);font-weight:600}
+.back{display:inline-block;font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-decoration:none;margin-bottom:28px}
+.back:hover{color:var(--terra)}
+
+.brandmark{display:flex;flex-direction:column;align-items:flex-end;gap:14px}
+.wordmark{font-family:var(--font-display);font-weight:900;font-size:32px;letter-spacing:-.02em;line-height:1}
+.wordmark span:nth-child(1){color:var(--green)}
+.wordmark span:nth-child(2){color:var(--terra)}
+.wordmark span:nth-child(3){color:var(--lavender)}
+.wordmark span:nth-child(4){color:var(--sage)}
+.wordmark span:nth-child(5){color:var(--blue)}
+.brandmark .tag{font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted)}
+
+/* Score ring */
+.score{display:flex;flex-direction:column;align-items:center;gap:8px;background:var(--green);border-radius:18px;padding:22px 30px;color:var(--cream)}
+.score .ring{font-family:var(--font-display);font-weight:900;font-size:46px;line-height:1;letter-spacing:-.02em;color:var(--cream)}
+.score .ring small{font-size:20px;color:var(--terra-light)}
+.score .lbl{font-family:var(--font-mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--sage);text-align:center}
+
+/* Sections */
+section{margin-bottom:88px;scroll-margin-top:32px}
+.sec-num{font-family:var(--font-mono);font-size:11.5px;color:var(--muted);letter-spacing:.1em;margin-bottom:10px;text-transform:uppercase}
+.sec-title{font-family:var(--font-display);font-weight:700;font-size:38px;letter-spacing:-.02em;line-height:1.05;margin:0 0 14px}
+.sec-lead{font-size:15.5px;line-height:1.65;color:var(--muted);max-width:64ch;margin:0 0 36px}
+.prose{font-size:15.5px;line-height:1.7;color:var(--ink-2);max-width:70ch}
+.prose p{margin:0 0 18px}
+.prose b{color:var(--green)}
+.sub-title{font-family:var(--font-display);font-weight:600;font-size:18px;margin:40px 0 18px;letter-spacing:-.005em;text-transform:uppercase;color:var(--ink-2)}
+
+/* TOC */
+.toc{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:22px 26px;margin-bottom:80px}
+.toc h3{font-family:var(--font-mono);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin:0 0 12px}
+.toc ol{margin:0;padding-left:22px;columns:2;column-gap:36px;font-size:13.5px;line-height:2}
+.toc a{color:var(--ink);text-decoration:none}
+.toc a:hover{color:var(--terra)}
+
+/* Stat tiles */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:8px 0 16px}
+.stat{background:var(--green);color:var(--cream);border-radius:14px;padding:22px 22px}
+.stat .n{font-family:var(--font-display);font-weight:900;font-size:38px;letter-spacing:-.02em;line-height:1;color:var(--cream)}
+.stat .n small{font-size:16px;color:var(--terra-light);font-weight:700;margin-left:4px}
+.stat .l{font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--sage);margin-top:10px;line-height:1.5}
+
+/* Scorecard */
+.scorecard{border:1px solid var(--border-strong);border-radius:14px;overflow:hidden;background:var(--surface);margin-top:14px}
+.scorecard .r{display:grid;grid-template-columns:230px 130px 1fr;gap:18px;padding:14px 20px;border-bottom:1px solid var(--border);font-size:13.5px;align-items:center}
+.scorecard .r:last-child{border-bottom:0}
+.scorecard .r.head{background:var(--cream-2);font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}
+.scorecard .area{font-family:var(--font-display);font-weight:700;font-size:15px;color:var(--green)}
+.scorecard .note{color:var(--ink-2);line-height:1.55}
+.pos{display:inline-block;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;padding:4px 11px;border-radius:9999px;font-weight:600;white-space:nowrap}
+.pos.green{background:var(--ok-bg);color:var(--ok-fg)}
+.pos.amber{background:var(--warn-bg);color:var(--warn-fg)}
+.pos.red{background:var(--bad-bg);color:var(--bad-fg)}
+
+/* Cause cards */
+.causes{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:8px}
+.cause{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:24px 26px;display:flex;flex-direction:column;gap:12px}
+.cause .c-n{font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--terra);font-weight:600}
+.cause h3{font-family:var(--font-display);font-weight:700;font-size:20px;margin:0;letter-spacing:-.01em;color:var(--green)}
+.cause p{font-size:13.5px;color:var(--ink-2);line-height:1.6;margin:0}
+.cause .fix{font-size:13px;color:var(--blue);line-height:1.55;border-top:1px solid var(--border);padding-top:12px;margin-top:auto}
+.cause .fix b{color:var(--green)}
+
+/* Leftover table */
+.matrix{border:1px solid var(--border-strong);border-radius:14px;overflow:hidden;background:var(--surface);margin-top:14px}
+.matrix .r{display:grid;grid-template-columns:1.1fr 1.3fr 1.1fr;gap:18px;padding:14px 20px;border-bottom:1px solid var(--border);font-size:13.5px;align-items:start}
+.matrix .r:last-child{border-bottom:0}
+.matrix .r.head{background:var(--cream-2);font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+.matrix .who{font-family:var(--font-mono);font-size:12.5px;color:var(--green);font-weight:600;word-break:break-word}
+.matrix .what{color:var(--ink-2);line-height:1.55}
+.matrix .gap{color:var(--terra);line-height:1.55}
+
+/* Action list */
+.actions{display:flex;flex-direction:column;gap:14px;margin-top:14px}
+.act{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:20px 24px;display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center}
+.act .idx{font-family:var(--font-display);font-weight:900;font-size:28px;color:var(--terra-light);line-height:1;width:34px;text-align:center}
+.act h4{font-family:var(--font-display);font-weight:700;font-size:17px;margin:0 0 5px;color:var(--green);letter-spacing:-.01em}
+.act p{margin:0;font-size:13.5px;color:var(--muted);line-height:1.55}
+.wt{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border-radius:9999px;font-weight:600;white-space:nowrap}
+.wt.set{background:#E0EEF5;color:#1d5a7a}
+.wt.con{background:var(--warn-bg);color:var(--warn-fg)}
+.wt.cod{background:#EFEDFB;color:#5a51b0}
+.wt.dev{background:var(--bad-bg);color:var(--bad-fg)}
+.wt.rev{background:var(--ok-bg);color:var(--ok-fg)}
+.wt.ong{background:var(--cream-2);color:var(--muted)}
+.tier-label{font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--terra);font-weight:600;margin:30px 0 10px}
+.tier-label:first-of-type{margin-top:8px}
+.tier-label span{color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0}
+
+/* Two columns generic */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:var(--surface);border:1px solid var(--border-strong);border-radius:12px;padding:22px 24px}
+.card h4{font-family:var(--font-display);font-weight:700;font-size:15px;margin:0 0 14px;text-transform:uppercase;letter-spacing:.04em;color:var(--green)}
+.card ul{margin:0;padding-left:18px;font-size:13.5px;line-height:1.7;color:var(--ink-2)}
+.card.bad{border-left:3px solid var(--bad-fg)}
+.card.bad h4{color:var(--bad-fg)}
+.card.ok{border-left:3px solid var(--ok-fg)}
+.card.ok h4{color:var(--ok-fg)}
+
+/* Title rewrite table */
+.rewrite{border:1px solid var(--border-strong);border-radius:14px;overflow:hidden;background:var(--surface);margin-top:14px}
+.rewrite .r{display:grid;grid-template-columns:150px 1fr 1fr;gap:18px;padding:15px 20px;border-bottom:1px solid var(--border);font-size:13px;align-items:start}
+.rewrite .r:last-child{border-bottom:0}
+.rewrite .r.head{background:var(--cream-2);font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+.rewrite .pg{font-family:var(--font-mono);font-size:12px;color:var(--green);font-weight:600}
+.rewrite .old{color:var(--muted);line-height:1.5;text-decoration:line-through;text-decoration-color:var(--bad-bd)}
+.rewrite .new{color:var(--green);line-height:1.5;font-weight:500}
+
+/* Banner */
+.banner{background:var(--cream-2);border:1px solid var(--border-strong);border-radius:12px;padding:20px 24px;margin:24px 0}
+.banner.good{background:var(--ok-bg);border-color:var(--ok-bd)}
+.banner b{display:block;font-family:var(--font-display);font-weight:700;font-size:13px;color:var(--green);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.banner.good b{color:var(--ok-fg)}
+.banner p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.6}
+
+/* Glossary */
+.glossary{border:1px solid var(--border-strong);border-radius:14px;background:var(--surface);margin-top:14px;overflow:hidden}
+.glossary dl{margin:0;display:grid;grid-template-columns:190px 1fr}
+.glossary dt{font-family:var(--font-mono);font-size:11.5px;font-weight:600;letter-spacing:.04em;color:var(--green);padding:16px 18px;border-bottom:1px solid var(--border);background:var(--cream-2);display:flex;align-items:flex-start}
+.glossary dd{margin:0;padding:16px 20px;font-size:13.5px;color:var(--ink-2);line-height:1.6;border-bottom:1px solid var(--border)}
+.glossary dl > dt:last-of-type,.glossary dl > dd:last-of-type{border-bottom:0}
+
+/* Task list */
+.tasklist{border:1px solid var(--border-strong);border-radius:16px;overflow:hidden;background:var(--surface);margin-top:14px}
+.tl-head{padding:22px 26px 20px;background:var(--green);color:var(--cream)}
+.tl-head h3{font-family:var(--font-display);font-weight:900;font-size:22px;letter-spacing:-.01em;margin:0 0 14px;color:var(--cream)}
+.tl-progress .bar{height:8px;border-radius:9999px;background:rgba(254,250,224,.15);overflow:hidden}
+.tl-progress .fill{height:100%;width:0;background:var(--terra-light);border-radius:9999px;transition:width .25s ease}
+.tl-progress .pct{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--sage);margin-top:9px}
+.tl-progress .pct b{color:var(--cream)}
+.tl-body{padding:8px 26px 24px}
+.round{padding:22px 0 6px;border-bottom:1px solid var(--border)}
+.round:last-child{border-bottom:0}
+.round-h{font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--terra);font-weight:600;margin:0 0 12px}
+.round-h span{color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0}
+.task{display:flex;align-items:flex-start;gap:13px;padding:9px 10px;border-radius:9px;cursor:pointer;user-select:none}
+.task:hover{background:var(--surface-2)}
+.task input{position:absolute;opacity:0;width:0;height:0}
+.task .box{flex:0 0 auto;width:19px;height:19px;border:1.5px solid var(--border-strong);border-radius:5px;margin-top:1px;display:flex;align-items:center;justify-content:center;background:#fff;transition:background .12s ease,border-color .12s ease}
+.task .box svg{width:12px;height:12px;opacity:0;transform:scale(.6);transition:opacity .12s ease,transform .12s ease}
+.task input:checked + .box{background:var(--green);border-color:var(--green)}
+.task input:checked + .box svg{opacity:1;transform:scale(1)}
+.task .lbl{font-size:14px;line-height:1.5;color:var(--ink-2);flex:1}
+.task input:checked ~ .lbl{color:var(--muted-2);text-decoration:line-through;text-decoration-color:var(--border-strong)}
+.tl-controls{display:flex;gap:12px;align-items:center;margin-top:18px}
+.tl-controls button{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:8px 14px;border-radius:9999px;border:1px solid var(--border-strong);background:var(--surface);color:var(--muted);cursor:pointer}
+.tl-controls button:hover{border-color:var(--terra-light);color:var(--terra)}
+.tl-controls .saved{font-family:var(--font-mono);font-size:10.5px;color:var(--muted-2)}
+
+/* Foot */
+.foot{border-top:1px solid var(--border-strong);padding-top:32px;margin-top:80px;display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-family:var(--font-mono);font-size:11.5px}
+
+@media (max-width:920px){
+  .page{padding:40px 24px 120px}
+  .doc-header{grid-template-columns:1fr;gap:28px}
+  .doc-title{font-size:42px}
+  .brandmark{flex-direction:row;align-items:center;justify-content:space-between}
+  .stats,.causes,.two{grid-template-columns:1fr 1fr}
+  .scorecard .r,.matrix .r,.rewrite .r{grid-template-columns:1fr;gap:8px}
+  .act{grid-template-columns:1fr;gap:10px}
+  .act .idx{text-align:left}
+  .glossary dl{grid-template-columns:1fr}
+  .glossary dt{border-bottom:0}
+  .toc ol{columns:1}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <a class="back" href="/hellomello">← Back to workspace</a>
+
+  <header class="doc-header">
+    <div>
+      <p class="doc-eyebrow">Hellomello × Bright Data · Technical SEO Health Check · June 2026</p>
+      <h1 class="doc-title">Strong foundations, with <em>real work</em> ahead.</h1>
+      <p class="doc-lead">We went through the whole website the way Google does, page by page. The good news first: there are no penalties, nothing is broken in a scary way, and your main pages are showing up in search and bringing in visitors. On top of that, though, there's a genuine list of work across the whole site that's getting in Google's way and holding back what the site could do.</p>
+      <div class="doc-meta">
+        <span>VERSION <strong>1.0</strong></span>
+        <span>CHECKED <strong>June 2026</strong></span>
+        <span>PREPARED BY <strong>Bright Data</strong></span>
+        <span>FOR <strong>Rod, Alex, Hellomello</strong></span>
+      </div>
+    </div>
+    <div class="brandmark">
+      <div class="wordmark"><span>h</span><span>e</span><span>l</span><span>l</span><span>o</span></div>
+      <div class="score">
+        <div class="ring">8<small>/10</small></div>
+        <div class="lbl">Overall<br>health</div>
+      </div>
+      <div class="tag">Health Check</div>
+    </div>
+  </header>
+
+  <nav class="toc">
+    <h3>What's inside</h3>
+    <ol>
+      <li><a href="#summary">The short version</a></li>
+      <li><a href="#scorecard">Health scorecard</a></li>
+      <li><a href="#causes">Why most of it traces back to a few things</a></li>
+      <li><a href="#leftover">The leftover pages</a></li>
+      <li><a href="#plan">What to fix, in order</a></li>
+      <li><a href="#tasklist">Track the work (checklist)</a></li>
+      <li><a href="#working">What's already working</a></li>
+      <li><a href="#titles">Page titles and descriptions</a></li>
+      <li><a href="#performance">Speed and page weight</a></li>
+      <li><a href="#glossary">Plain-English glossary</a></li>
+    </ol>
+  </nav>
+
+  <!-- 01 -->
+  <section id="summary">
+    <p class="sec-num">01 / The short version</p>
+    <h2 class="sec-title">Healthy foundations, with a real list of work on top.</h2>
+    <p class="sec-lead">If you only read one section, read this one. The foundations are solid, and that matters. But there's a fair amount to work through, right across the site. The good part is that many of the issues share the same few roots, so the work is organised into rounds, not scattered.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="n">8<small>/10</small></div><div class="l">Overall technical health. Strong base, real work on top</div></div>
+      <div class="stat"><div class="n">30+</div><div class="l">Separate issues the scan turned up across the site</div></div>
+      <div class="stat"><div class="n">19</div><div class="l">Actions to work through, across three rounds</div></div>
+      <div class="stat"><div class="n">21</div><div class="l">Pages we checked, one page at a time</div></div>
+    </div>
+
+    <div class="prose" style="margin-top:24px">
+      <p><b>Here's the honest picture.</b> Your site loads fine for real people, it's fully secure, the web address is set up cleanly, and Google has the pages it should have. There's no fire to put out.</p>
+      <p>The issues we found fall into a few small buckets. A few old, retired pages are still sitting around and quietly causing noise. One menu link is pointing at the wrong place on every page. The little behind-the-scenes labels that help Google understand each page are a bit thin. And the site is heavier than it needs to be, which slows the first moment of load.</p>
+      <p>None of it is an emergency. But make no mistake, it's a real body of work. There's plenty to get through, and it spans Wix settings, page content, some behind-the-scenes code and a bit of developer time. The next sections lay it all out, round by round, so it's clear what's involved and in what order.</p>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section id="scorecard">
+    <p class="sec-num">02 / Health scorecard</p>
+    <h2 class="sec-title">Area by area, where things stand.</h2>
+    <p class="sec-lead">An at-a-glance traffic-light read on each part of the site. Green means it's healthy and needs nothing. Amber means it's working but could be better. Red means it's worth fixing soon.</p>
+
+    <div class="scorecard">
+      <div class="r head"><div>Area</div><div>Status</div><div>In plain terms</div></div>
+      <div class="r"><div class="area">Showing in Google</div><div><span class="pos green">Healthy</span></div><div class="note">The right pages are in search. A few retired ones to tidy up, but nothing important is missing.</div></div>
+      <div class="r"><div class="area">Can Google read it</div><div><span class="pos green">Healthy</span></div><div class="note">Google can find and crawl the site properly. The map of your pages is in place.</div></div>
+      <div class="r"><div class="area">Links and redirects</div><div><span class="pos red">Fix soon</span></div><div class="note">The "Home" menu link points at an old page on every page of the site. One change fixes it everywhere.</div></div>
+      <div class="r"><div class="area">Old leftover pages</div><div><span class="pos red">Fix soon</span></div><div class="note">Five or six retired pages are still live and still listed. They cause most of the smaller warnings.</div></div>
+      <div class="r"><div class="area">Titles and descriptions</div><div><span class="pos amber">Could be better</span></div><div class="note">The text Google shows in search is generic and misses the words people actually search for.</div></div>
+      <div class="r"><div class="area">Page headings</div><div><span class="pos green">Healthy</span></div><div class="note">Every main page has one clear heading. Good as is.</div></div>
+      <div class="r"><div class="area">Image labels</div><div><span class="pos amber">Could be better</span></div><div class="note">About 14 to 16 images have no description text. That hurts accessibility and image search.</div></div>
+      <div class="r"><div class="area">Page labelling for Google</div><div><span class="pos red">Fix soon</span></div><div class="note">The hidden data that tells Google what your business is has one error and is very thin.</div></div>
+      <div class="r"><div class="area">Speed for real users</div><div><span class="pos green">Healthy</span></div><div class="note">Real-world speed passes on both mobile and desktop. This is the bit Google scores you on.</div></div>
+      <div class="r"><div class="area">Page weight</div><div><span class="pos red">Fix soon</span></div><div class="note">The homepage is heavier than Google's limit, so it risks not being read in full.</div></div>
+      <div class="r"><div class="area">Security</div><div><span class="pos green">Healthy</span></div><div class="note">Fully secure, no issues, no penalties. Nothing to do here.</div></div>
+      <div class="r"><div class="area">Ready for AI search</div><div><span class="pos amber">Could be better</span></div><div class="note">There's a file for AI tools, but it's mostly auto-generated filler rather than real info about you.</div></div>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section id="causes">
+    <p class="sec-num">03 / The root causes</p>
+    <h2 class="sec-title">Most of the long list comes from four things.</h2>
+    <p class="sec-lead">A scan like this throws up thirty-odd warnings, which sounds like a lot. But once you group them, they trace back to just four causes. Fix the cause and a whole row of warnings disappears at once.</p>
+
+    <div class="causes">
+      <div class="cause">
+        <div class="c-n">Cause 01</div>
+        <h3>The "Home" menu link</h3>
+        <p>An old version of your homepage still exists and bounces visitors to the real one. Trouble is, the "Home" button in your menu points at that old page, and the menu sits on every page. So that little detour is repeated site-wide.</p>
+        <div class="fix"><b>The fix:</b> repoint the "Home" link to the real homepage and retire the old page. It needs doing carefully across the templates so it holds on every page.</div>
+      </div>
+      <div class="cause">
+        <div class="c-n">Cause 02</div>
+        <h3>Old leftover pages</h3>
+        <p>A few retired and duplicate pages were never fully removed. They're still published and still in your site map, so Google keeps tripping over them and flagging things like "orphan page" and "duplicate".</p>
+        <div class="fix"><b>The fix:</b> work through the retired pages one by one, deleting or redirecting each to the right place.</div>
+      </div>
+      <div class="cause">
+        <div class="c-n">Cause 03</div>
+        <h3>Wix builds heavy pages</h3>
+        <p>Wix tends to produce very large, code-heavy pages. Your homepage is big enough to go over Google's reading limit, which can mean part of the page doesn't get read. It also slows the first moment of load.</p>
+        <div class="fix"><b>The work:</b> trim apps and widgets on the homepage to get it under the limit. This is involved, and likely needs a Wix specialist.</div>
+      </div>
+      <div class="cause">
+        <div class="c-n">Cause 04</div>
+        <h3>Thin labels and one broken label</h3>
+        <p>The titles, descriptions and the hidden "business card" data that Google reads were never fully filled in, and the one bit you do have has an invalid value, so it doesn't count.</p>
+        <div class="fix"><b>The work:</b> rewrite every title and description, and fix the one invalid value. There's a fair bit here, page by page.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section id="leftover">
+    <p class="sec-num">04 / The leftover pages</p>
+    <h2 class="sec-title">The pages to clean up.</h2>
+    <p class="sec-lead">This little group is the single biggest source of small warnings, so it's worth pulling together in one place. Every one of these should be either deleted or pointed somewhere sensible.</p>
+
+    <div class="matrix">
+      <div class="r head"><div>Page</div><div>What it is</div><div>What to do</div></div>
+      <div class="r"><div class="who">/home-3-1-1-1</div><div class="what">An old version of your homepage. The "Home" menu link still points here.</div><div class="gap">Repoint the "Home" link to the real homepage, then remove this page.</div></div>
+      <div class="r"><div class="who">/contact-us-1</div><div class="what">A leftover copy of your contact page. Has duplicate headings.</div><div class="gap">Delete it, or send it to the real contact page.</div></div>
+      <div class="r"><div class="who">/switching-clinics-lp</div><div class="what">A retired landing page that already bounces to the homepage.</div><div class="gap">Remove it from your site map.</div></div>
+      <div class="r"><div class="who">/switching-clinics-lp-1</div><div class="what">A second retired version of the same landing page.</div><div class="gap">Remove it from your site map.</div></div>
+      <div class="r"><div class="who">/bring-a-friend</div><div class="what">An old referral landing page, also bouncing to the homepage.</div><div class="gap">Remove it from your site map.</div></div>
+      <div class="r"><div class="who">/pricing-plans/list</div><div class="what">A stray pricing page with no heading and no description.</div><div class="gap">Point it to your main pricing page.</div></div>
+      <div class="r"><div class="who">/start-first-consult</div><div class="what">A duplicate of your "get started" page.</div><div class="gap">Send it to the real "get started" page.</div></div>
+    </div>
+
+    <div class="banner">
+      <b>Why it matters</b>
+      <p>Your site map is the list of pages you hand to Google and say "these are the ones that count". Right now it includes pages you retired ages ago. Tidying it up means Google spends its time on the pages you actually care about.</p>
+    </div>
+  </section>
+
+  <!-- 05 -->
+  <section id="plan">
+    <p class="sec-num">05 / The plan</p>
+    <h2 class="sec-title">The full list of work, in the order it should be done.</h2>
+    <p class="sec-lead">There's a lot here, so we've grouped it into three rounds by impact, not by effort. The badge on each item shows the kind of work it is, so you can see where it lands: Wix settings, page content, behind-the-scenes code, developer work, a review, or something ongoing.</p>
+
+    <p class="tier-label">Round one <span>— the foundations and the highest-impact fixes</span></p>
+    <div class="actions">
+      <div class="act">
+        <div class="idx">1</div>
+        <div><h4>Point the "Home" menu link at the real homepage</h4><p>Repoint the menu link and retire the old homepage. It needs checking across the page templates so the change holds everywhere, not just in one spot.</p></div>
+        <span class="wt set">Wix settings</span>
+      </div>
+      <div class="act">
+        <div class="idx">2</div>
+        <div><h4>Fix the invalid value in your Google "business card"</h4><p>Your homepage tells Google it's an "Alternative Medicine" business, but Google only accepts certain set values, so this one is being ignored. Swap it for an accepted one.</p></div>
+        <span class="wt cod">Code</span>
+      </div>
+      <div class="act">
+        <div class="idx">3</div>
+        <div><h4>Bring the homepage under Google's size limit</h4><p>Trim apps, widgets and embedded bits so the homepage isn't too heavy for Google to read in full. This is involved and likely needs a Wix specialist.</p></div>
+        <span class="wt dev">Build / dev</span>
+      </div>
+      <div class="act">
+        <div class="idx">4</div>
+        <div><h4>Confirm the "Register" button works for real people</h4><p>The scan flagged your registration link as blocked, but that's almost certainly because it blocks bots, not people. Check it in a browser, then we can mark it as fine.</p></div>
+        <span class="wt rev">Review</span>
+      </div>
+    </div>
+
+    <p class="tier-label">Round two <span>— cleanup, and the words Google shows in search</span></p>
+    <div class="actions">
+      <div class="act">
+        <div class="idx">5</div>
+        <div><h4>Delete or redirect the leftover pages</h4><p>The five or six retired and duplicate pages from the previous section. Each one needs handling individually, deleting it or pointing it at the right place.</p></div>
+        <span class="wt set">Wix settings</span>
+      </div>
+      <div class="act">
+        <div class="idx">6</div>
+        <div><h4>Remove the dead site map file</h4><p>An old, broken site map is still being submitted to Google and returns an error every time it's checked. Take it out of the list.</p></div>
+        <span class="wt set">Wix settings</span>
+      </div>
+      <div class="act">
+        <div class="idx">7</div>
+        <div><h4>Redirect the duplicate "start first consult" page</h4><p>It's a copy of your "get started" page, so the two compete. Send it to the real one.</p></div>
+        <span class="wt set">Wix settings</span>
+      </div>
+      <div class="act">
+        <div class="idx">8</div>
+        <div><h4>Fix the stray pricing page</h4><p>The spare pricing page has no heading and no description. Give it both and link to it, or point it at your main pricing page.</p></div>
+        <span class="wt set">Wix settings</span>
+      </div>
+      <div class="act">
+        <div class="idx">9</div>
+        <div><h4>Rewrite every page title and description</h4><p>Use the words people actually search for, fix the "FAQ's" typo, and get every description to a sensible length. This is a page-by-page job across the whole site. Suggestions further down.</p></div>
+        <span class="wt con">Content</span>
+      </div>
+      <div class="act">
+        <div class="idx">10</div>
+        <div><h4>Add description text to your images</h4><p>Around 14 to 16 images have none. They need writing one by one. Start with the About and Team pages, which share the same set. Helps accessibility and image search.</p></div>
+        <span class="wt con">Content</span>
+      </div>
+    </div>
+
+    <p class="tier-label">Round three <span>— depth, authority and resilience</span></p>
+    <div class="actions">
+      <div class="act">
+        <div class="idx">11</div>
+        <div><h4>Add full "business card" data across the site</h4><p>Tell Google clearly who you are: the clinic, the organisation, and a search box. Right now only the homepage has any of this, and the part it does have is broken.</p></div>
+        <span class="wt cod">Code</span>
+      </div>
+      <div class="act">
+        <div class="idx">12</div>
+        <div><h4>Add breadcrumb trails to every page</h4><p>The little "Home › Pricing" trail data that Google still shows in results. It needs adding to every page that isn't the homepage.</p></div>
+        <span class="wt cod">Code</span>
+      </div>
+      <div class="act">
+        <div class="idx">13</div>
+        <div><h4>Add a profile for each team member</h4><p>A data profile for every practitioner, with their role. For a health business this is a strong trust signal with Google, and it's a page of its own to build out.</p></div>
+        <span class="wt cod">Code</span>
+      </div>
+      <div class="act">
+        <div class="idx">14</div>
+        <div><h4>Add your services and pricing as data</h4><p>Spell out your services and your prices in the data Google reads, not just in the words on the page.</p></div>
+        <span class="wt cod">Code</span>
+      </div>
+      <div class="act">
+        <div class="idx">15</div>
+        <div><h4>Add real content to the thin pages</h4><p>Several pages are very light on actual words compared to code. They need genuine, useful content written so they carry more weight in search.</p></div>
+        <span class="wt con">Content</span>
+      </div>
+      <div class="act">
+        <div class="idx">16</div>
+        <div><h4>Improve how fast the server responds</h4><p>The server takes longer than ideal to first respond. Tidy Wix settings and cut back third-party apps to bring it down.</p></div>
+        <span class="wt dev">Build / dev</span>
+      </div>
+      <div class="act">
+        <div class="idx">17</div>
+        <div><h4>Replace the AI-tools file with a real one</h4><p>Swap the auto-generated filler for a proper summary of your pages, services and FAQs, so AI assistants describe you accurately.</p></div>
+        <span class="wt con">Content</span>
+      </div>
+      <div class="act">
+        <div class="idx">18</div>
+        <div><h4>Add security headers on the subdomains</h4><p>Two of your subdomains are missing a standard security header. Add it where the server settings allow.</p></div>
+        <span class="wt dev">Build / dev</span>
+      </div>
+      <div class="act">
+        <div class="idx">19</div>
+        <div><h4>Finish and maintain your business profile</h4><p>Your Google business profile needs its description, photos and services completed, then kept up to date. This one is ongoing, not one-and-done.</p></div>
+        <span class="wt ong">Ongoing</span>
+      </div>
+    </div>
+
+    <div class="banner">
+      <b>The bigger picture</b>
+      <p>Taken together, this is a programme of work, not a single afternoon. It runs across Wix settings, page content, behind-the-scenes code and some developer time, and it's best done in the rounds above so the highest-impact items land first. Start at the top, but plan for the whole list to get the real benefit.</p>
+    </div>
+  </section>
+
+  <!-- 05b -->
+  <section id="tasklist">
+    <p class="sec-num">05b / The checklist</p>
+    <h2 class="sec-title">Tick it off as you go.</h2>
+    <p class="sec-lead">The same 19 actions, set up as a live checklist. Tick each one as it's done and the bar fills. Your ticks are saved in this browser only, so it's safe to share and track from your own machine.</p>
+
+    <div class="tasklist">
+      <div class="tl-head">
+        <h3>Technical SEO fixes</h3>
+        <div class="tl-progress"><div class="bar"><div class="fill"></div></div><div class="pct"><b><span class="done">0</span></b> of <span class="total">0</span> done</div></div>
+      </div>
+      <div class="tl-body">
+
+        <div class="round">
+          <p class="round-h">Round one <span>— the foundations and the highest-impact fixes</span></p>
+          <label class="task"><input type="checkbox" data-k="tsa-1"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Point the "Home" menu link at the real homepage and retire the old one</span><span class="wt set">Wix settings</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-2"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Fix the invalid value in the Google "business card" (accepted type)</span><span class="wt cod">Code</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-3"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Bring the homepage under Google's size limit (trim apps and embeds)</span><span class="wt dev">Build / dev</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-4"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Confirm the "Register" button works for real people</span><span class="wt rev">Review</span></label>
+        </div>
+
+        <div class="round">
+          <p class="round-h">Round two <span>— cleanup, and the words Google shows in search</span></p>
+          <label class="task"><input type="checkbox" data-k="tsa-5"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Delete or redirect the leftover pages, one at a time</span><span class="wt set">Wix settings</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-6"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Remove the dead site map file from Google</span><span class="wt set">Wix settings</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-7"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Redirect the duplicate "start first consult" page to "get started"</span><span class="wt set">Wix settings</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-8"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Fix the stray pricing page (heading + description, or redirect it)</span><span class="wt set">Wix settings</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-9"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Rewrite every page title and description, page by page</span><span class="wt con">Content</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-10"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add description (alt) text to the 14 to 16 images that have none</span><span class="wt con">Content</span></label>
+        </div>
+
+        <div class="round">
+          <p class="round-h">Round three <span>— depth, authority and resilience</span></p>
+          <label class="task"><input type="checkbox" data-k="tsa-11"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add full "business card" data across the site (clinic, organisation, search box)</span><span class="wt cod">Code</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-12"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add breadcrumb trails to every page that isn't the homepage</span><span class="wt cod">Code</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-13"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add a profile for each team member, with their role</span><span class="wt cod">Code</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-14"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add services and pricing as structured data, not just on-page text</span><span class="wt cod">Code</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-15"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add real, useful content to the thin pages</span><span class="wt con">Content</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-16"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Improve server response time (tidy Wix settings, cut third-party apps)</span><span class="wt dev">Build / dev</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-17"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Replace the AI-tools file with a real summary of pages, services and FAQs</span><span class="wt con">Content</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-18"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Add security headers on the two subdomains that are missing them</span><span class="wt dev">Build / dev</span></label>
+          <label class="task"><input type="checkbox" data-k="tsa-19"><span class="box"><svg viewBox="0 0 12 12"><path fill="none" stroke="#FEFAE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 6.5 5 9l5-6"/></svg></span><span class="lbl">Finish and maintain the Google business profile (description, photos, services)</span><span class="wt ong">Ongoing</span></label>
+        </div>
+
+      </div>
+    </div>
+    <div class="tl-controls">
+      <button type="button" id="tsResetBtn">Clear all ticks</button>
+      <span class="saved">Your ticks are saved in this browser only.</span>
+    </div>
+  </section>
+
+  <!-- 06 -->
+  <section id="working">
+    <p class="sec-num">06 / Credit where it's due</p>
+    <h2 class="sec-title">What's already working well.</h2>
+    <p class="sec-lead">It's easy to focus on the fixes, but a lot was done right, and some earlier SEO work has clearly stuck. Worth knowing what you don't need to touch.</p>
+
+    <div class="two">
+      <div class="card ok">
+        <h4>Solid and done</h4>
+        <ul>
+          <li>The site is fully secure, with no penalties or security issues.</li>
+          <li>Your web address is set up cleanly, so there's only one version of the site.</li>
+          <li>Real-world speed passes on both mobile and desktop.</li>
+          <li>The right main pages are showing in Google search.</li>
+          <li>Every main page has one clear, sensible heading.</li>
+          <li>Four old broken links were redirected and are working.</li>
+        </ul>
+      </div>
+      <div class="card bad">
+        <h4>Two earlier fixes that didn't fully land</h4>
+        <ul>
+          <li>The logo link was fixed, but the <b>"Home" menu link</b> was missed, so the old-page detour is still there on every page. That's fix number one.</li>
+          <li>The Google "business card" data was added, but one value in it is invalid, so it isn't counting. That's fix number two.</li>
+          <li>Both are at the top of the plan for a reason.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 -->
+  <section id="titles">
+    <p class="sec-num">07 / Titles and descriptions</p>
+    <h2 class="sec-title">The words Google shows people.</h2>
+    <p class="sec-lead">When someone searches, Google shows a title and a short blurb for each result. Right now yours lead with generic words like "Pricing" and "About Us", which nobody searches for. Here's the bigger insight, then the suggested rewrites.</p>
+
+    <div class="banner">
+      <b>The key insight</b>
+      <p>Your tagline "Feel Good Healthcare" gets close to zero searches a month. The phrase "alternative healthcare" and its variations get over 4,500. So keep "Feel Good Healthcare" as your hero line on the page, but use "alternative healthcare" in the titles and descriptions Google reads. Same brand, far more reach.</p>
+    </div>
+
+    <div class="rewrite">
+      <div class="r head"><div>Page</div><div>What it says now</div><div>Suggested instead</div></div>
+      <div class="r"><div class="pg">Home</div><div class="old">Hellomello | Home | Alternative Healthcare</div><div class="new">Online Alternative Healthcare Australia | HelloMello™</div></div>
+      <div class="r"><div class="pg">Get started</div><div class="old">Get Started | Hellomello</div><div class="new">Start Your Online Health Consultation, From $49 | HelloMello™</div></div>
+      <div class="r"><div class="pg">Pricing</div><div class="old">Pricing | Hellomello</div><div class="new">Alternative Healthcare Pricing, From $49 | HelloMello™</div></div>
+      <div class="r"><div class="pg">How it works</div><div class="old">How it Works | Hellomello</div><div class="new">How Online Alternative Healthcare Works | HelloMello™</div></div>
+      <div class="r"><div class="pg">About us</div><div class="old">About Us | Hellomello</div><div class="new">About HelloMello™, Alternative Healthcare Australia</div></div>
+      <div class="r"><div class="pg">FAQs</div><div class="old">FAQ's | Hellomello</div><div class="new">FAQs, Common Questions About Alternative Healthcare | HelloMello™</div></div>
+    </div>
+
+    <div class="banner" style="margin-top:24px">
+      <b>Keeping it safe</b>
+      <p>All of this stays inside the rules. No therapeutic claims, accurate words for the team (practitioners, not doctors, where that's the truth), and only facts we can stand behind. The aim is more reach, not more risk.</p>
+    </div>
+  </section>
+
+  <!-- 08 -->
+  <section id="performance">
+    <p class="sec-num">08 / Speed and weight</p>
+    <h2 class="sec-title">Fast enough for people, heavy for Google.</h2>
+    <p class="sec-lead">There's a nice distinction here that's worth understanding, because it changes how worried you should be.</p>
+
+    <div class="prose">
+      <p><b>The speed real people feel is fine.</b> Google measures the actual experience of your visitors, and on that score you pass on both mobile and desktop. That's the number that affects your ranking, and it's green.</p>
+      <p><b>But the pages are heavier than they should be.</b> This is a Wix thing more than anything you did. The homepage is big enough to go over the limit Google sets for reading a page, which risks part of it not being read. A few other pages are on the heavy side too.</p>
+      <p>The fix is to trim some of the apps, widgets and embedded bits on the homepage to bring the weight down. It's an involved job, likely needing a Wix specialist, but it helps both the reading limit and the speed at the same time, so it earns its place on the list.</p>
+    </div>
+  </section>
+
+  <!-- 09 -->
+  <section id="glossary">
+    <p class="sec-num">09 / Glossary</p>
+    <h2 class="sec-title">The jargon, in plain English.</h2>
+    <p class="sec-lead">A few terms come up a lot in SEO. Here's what they actually mean, no fluff.</p>
+
+    <div class="glossary">
+      <dl>
+        <dt>Redirect</dt>
+        <dd>An automatic forward from one web address to another. Handy when a page moves, but a link that points at a redirect makes everyone take a small detour they don't need.</dd>
+        <dt>Site map</dt>
+        <dd>A list of your pages that you hand to Google so it knows what to look at. It should only list real, current pages, not retired ones.</dd>
+        <dt>Orphan page</dt>
+        <dd>A page that nothing else links to. Visitors and Google can't easily find it, so it just floats there causing confusion.</dd>
+        <dt>Indexed</dt>
+        <dd>A page is "indexed" when Google has it in its records and can show it in search. Pages you don't want found, like a login screen, are deliberately kept out.</dd>
+        <dt>Structured data</dt>
+        <dd>Hidden labels on a page that spell out what it is, like a business card for Google. Done well, it helps you show up richer in search and get quoted by AI tools.</dd>
+        <dt>Title and description</dt>
+        <dd>The headline and the short blurb Google shows for your page in search results. The first thing people read before they decide to click.</dd>
+        <dt>Alt text</dt>
+        <dd>A short written description of an image. It helps people using screen readers, and it helps your images turn up in image search.</dd>
+        <dt>Page weight</dt>
+        <dd>How much data a page is made of. Heavier pages take longer to load and, past a point, Google may not read all of them.</dd>
+      </dl>
+    </div>
+  </section>
+
+  <div class="foot">
+    <span>Bright Data × Hellomello · Technical SEO Health Check</span>
+    <span>June 2026</span>
+  </div>
+
+</div>
+<script>
+(function(){
+  var KEY = 'hm-techseo-tasks-v1';
+  var store = {};
+  try { store = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { store = {}; }
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('.task input[type=checkbox]'));
+  var fill = document.querySelector('.tl-progress .fill');
+  var doneEl = document.querySelector('.tl-progress .done');
+  var totalEl = document.querySelector('.tl-progress .total');
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
+  function update(){
+    var total = boxes.length, done = 0;
+    for (var i = 0; i < boxes.length; i++) if (boxes[i].checked) done++;
+    if (fill) fill.style.width = (total ? Math.round(done/total*100) : 0) + '%';
+    if (doneEl) doneEl.textContent = done;
+    if (totalEl) totalEl.textContent = total;
+  }
+  boxes.forEach(function(box){
+    var k = box.getAttribute('data-k');
+    if (store[k]) box.checked = true;
+    box.addEventListener('change', function(){
+      if (box.checked) store[k] = 1; else delete store[k];
+      save(); update();
+    });
+  });
+  var reset = document.getElementById('tsResetBtn');
+  if (reset) reset.addEventListener('click', function(){
+    if (!confirm('Clear all your ticks on this page?')) return;
+    boxes.forEach(function(b){ delete store[b.getAttribute('data-k')]; b.checked = false; });
+    save(); update();
+  });
+  update();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+{
+  "brand": {
+    "visual_system": [
+      "Direct, value-led look aimed at switchers.",
+      "Comparison pages pit them against named rivals.",
+      "Region pages give a local, accessible feel."
+    ],
+    "site_architecture": [
+      "Programmatic regions and state telehealth pages for local reach.",
+      "Versus pages: healing-leaves-vs-easykind, vs-polln, vs-dispensed.",
+      "Education and FAQ sections support the funnel."
+    ],
+    "tone_compliance": [
+      "Sits in the grey; comparison framing is aggressive.",
+      "Targets switchers and price talk more openly than the safe clinics.",
+      "Tighten claims and external links to stay onside."
+    ]
+  },
+  "verdict": {
+    "steal": [
+      {
+        "play": "Regional telehealth pages",
+        "effort": 3,
+        "impact": 4,
+        "note": "Cheap local reach across states and regions."
+      },
+      {
+        "play": "Comparison pages",
+        "effort": 2,
+        "impact": 3,
+        "note": "Capture brand-versus searches."
+      },
+      {
+        "play": "Suburb-deep region template",
+        "effort": 3,
+        "impact": 4,
+        "note": "Their regional model proves the demand. We can go deeper without the grey wording."
+      }
+    ],
+    "avoid": [
+      {
+        "trap": "Grey comparison claims",
+        "evidence": "Versus pages risk compliance if claims sharpen."
+      },
+      {
+        "trap": "External TGA-style links framed commercially",
+        "evidence": "Linking users to TGA-style content from commercial pages reads as advertising of restricted goods."
+      },
+      {
+        "trap": "Aggressive comparison claims",
+        "evidence": "Versus pages risk crossing the line if claims sharpen. Comparison intent is winnable without it."
+      }
+    ],
+    "implications": [
+      "Healing Leaves leans on programmatic regions and versus pages for reach.",
+      "Their regional play works; we can do it cleaner and compliant.",
+      "Comparison intent is winnable without the grey framing."
+    ]
+  },
+  "position": "careful",
+  "period": "June 2026",
+  "tagline": "A switcher-focused clinic with programmatic region pages and aggressive comparison content. The model works for reach; the framing is grey and needs cleaning before we borrow it.",
+  "verdict_label": "Careful · don't copy",
+  "verdict_tone": "amber",
+  "eeat": {
+    "https": "green",
+    "schema_medical": "red",
+    "author_bylines": "red",
+    "medical_reviewer": "red",
+    "core_web_vitals": "amber",
+    "freshness": "amber",
+    "notes": "Grey terminology, comparison claims and TGA-style external links framed commercially. Schema and clinician bylines are missing. Effective for reach, fragile on regulatory review."
+  },
+  "gap_matrix": [
+    {
+      "topic": "Brand defence",
+      "healingleaves": 2,
+      "hellomello": 1,
+      "comment": "Small brand moat."
+    },
+    {
+      "topic": "Pricing transparency",
+      "healingleaves": 3,
+      "hellomello": 1,
+      "comment": "Match it cleanly."
+    },
+    {
+      "topic": "Clinic / doctor SEO",
+      "healingleaves": 2,
+      "hellomello": 0,
+      "comment": "Contested."
+    },
+    {
+      "topic": "Conditions content",
+      "healingleaves": 1,
+      "hellomello": 0,
+      "comment": "Open field — highest impact."
+    },
+    {
+      "topic": "Locations / pSEO",
+      "healingleaves": 3,
+      "hellomello": 0,
+      "comment": "Region template works."
+    },
+    {
+      "topic": "\"Near me\" queries",
+      "healingleaves": 1,
+      "hellomello": 0,
+      "comment": "Open."
+    },
+    {
+      "topic": "Wellness / lifestyle",
+      "healingleaves": 0,
+      "hellomello": 0,
+      "comment": "Skip."
+    },
+    {
+      "topic": "Reviews / social proof",
+      "healingleaves": 1,
+      "hellomello": 0,
+      "comment": "Replicate properly."
+    },
+    {
+      "topic": "Versus / comparison",
+      "healingleaves": 3,
+      "hellomello": 0,
+      "comment": "Borrow cleanly."
+    },
+    {
+      "topic": "Compliance posture",
+      "healingleaves": 1,
+      "hellomello": 3,
+      "comment": "Their risk — our edge."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "brand": {
+    "visual_system": [
+      "Clean, youthful telehealth look aimed at a younger demographic.",
+      "Conversion-led homepage: sign-up and patient portal are the main calls to action.",
+      "Light editorial footprint; most polish sits in the app, not in content."
+    ],
+    "site_architecture": [
+      "Three-property setup: marketing site (easykind.com.au) plus app and portal subdomains.",
+      "Only a handful of marketing pages: home, pricing, contact, careers, a couple of guides.",
+      "Almost no programmatic surface; near zero location or condition pages."
+    ],
+    "tone_compliance": [
+      "Sits a little in the grey; consultation framing is light in places.",
+      "Pricing is public and upfront, which suits a price-aware younger audience.",
+      "Thin disclaimers compared with the safer clinics."
+    ]
+  },
+  "verdict": {
+    "steal": [
+      {
+        "play": "Upfront, simple pricing page",
+        "effort": 2,
+        "impact": 3,
+        "note": "Removes friction for price-sensitive patients."
+      },
+      {
+        "play": "Portal-first onboarding",
+        "effort": 3,
+        "impact": 3,
+        "note": "Brand demand funnels straight into app and portal."
+      },
+      {
+        "play": "Tighter portal onboarding flow",
+        "effort": 3,
+        "impact": 3,
+        "note": "Their portal sits very close to the brand search; we should mirror the funnel without copying the grey framing."
+      }
+    ],
+    "avoid": [
+      {
+        "trap": "Almost no organic content",
+        "evidence": "9 ranking pages and 182 keywords, nearly all brand."
+      },
+      {
+        "trap": "Thin compliance disclaimers",
+        "evidence": "Pricing and product framing run ahead of disclaimers in places. Borrow the clarity, never the grey edges."
+      },
+      {
+        "trap": "Brand-only fortress",
+        "evidence": "98% of traffic comes from brand spellings. A single non-brand displacement weakens the whole strategy."
+      }
+    ],
+    "implications": [
+      "Easykind wins on brand demand, not search content; the non-brand gap is wide open.",
+      "Their volume comes from awareness, so location and condition pages are ours to take.",
+      "Match their pricing clarity, then out-publish them on education."
+    ]
+  },
+  "position": "model",
+  "period": "June 2026",
+  "tagline": "A brand-led, app-first clinic targeting a younger price-aware audience. Big on awareness, almost invisible in organic content.",
+  "verdict_label": "Model off this",
+  "verdict_tone": "green",
+  "eeat": {
+    "https": "green",
+    "schema_medical": "red",
+    "author_bylines": "red",
+    "medical_reviewer": "amber",
+    "core_web_vitals": "amber",
+    "freshness": "amber",
+    "notes": "App polish does not extend to the content surface. No clinician bylines or medical-page schema. Pricing is public and clear — the strongest commercial signal on the site."
+  },
+  "gap_matrix": [
+    {
+      "topic": "Brand defence",
+      "easykind": 5,
+      "hellomello": 1,
+      "comment": "Their moat. Owned."
+    },
+    {
+      "topic": "Pricing transparency",
+      "easykind": 4,
+      "hellomello": 1,
+      "comment": "Match it on day one."
+    },
+    {
+      "topic": "Clinic / doctor SEO",
+      "easykind": 1,
+      "hellomello": 0,
+      "comment": "Open field."
+    },
+    {
+      "topic": "Conditions content",
+      "easykind": 0,
+      "hellomello": 0,
+      "comment": "Open field — highest impact."
+    },
+    {
+      "topic": "Locations / pSEO",
+      "easykind": 1,
+      "hellomello": 0,
+      "comment": "Open field."
+    },
+    {
+      "topic": "\"Near me\" queries",
+      "easykind": 0,
+      "hellomello": 0,
+      "comment": "Undefended."
+    },
+    {
+      "topic": "Wellness / lifestyle",
+      "easykind": 0,
+      "hellomello": 0,
+      "comment": "Skip."
+    },
+    {
+      "topic": "Reviews / social proof",
+      "easykind": 2,
+      "hellomello": 0,
+      "comment": "Replicate properly."
+    },
+    {
+      "topic": "Editorial link bait",
+      "easykind": 0,
+      "hellomello": 0,
+      "comment": "Open field."
+    },
+    {
+      "topic": "Help / support SEO",
+      "easykind": 0,
+      "hellomello": 0,
+      "comment": "Open field."
+    }
+  ]
+}

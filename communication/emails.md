@@ -363,6 +363,36 @@ Next step: Bright Data prepares the wireframe with a few short SEO notes for Zac
 
 ---
 
+## 2026-06-15 (Mon, 15:50) — Rod → Vahid, Zac
+**Topics:** blog page design progress, Zac working on the dot points, working designs to follow
+
+- Confirms **Zac is working on all the dot points** from the blog page wireframe brief.
+- Zac will **update Vahid with some working designs** once ready.
+
+---
+
+## 2026-06-15 (Mon, 15:52) — Rod → Vahid, Alex
+**Topics:** location landing pages chase, suburb data, contextual copy, 14 June deadline
+
+- Checks in on progress with **building out the location landing pages and contextual copy** once the suburb data is in hand (originally due before 14 June).
+
+---
+
+## 2026-06-16 (Tue, 08:57) — Vahid → Rod, Zac
+**Topics:** acknowledgement, blog designs
+
+- Acknowledges Zac's progress on the blog page. Looking forward to seeing the working designs.
+
+---
+
+## 2026-06-16 (Tue, 08:58) — Vahid → Rod, Alex
+**Topics:** location landing pages status, Thursday handover commitment
+
+- Confirms the location landing pages and contextual copy are being **finalised now**.
+- Commits to **handing them over to Rod by Thursday (18 June)**.
+
+---
+
 ## Open Items / Commitments
 
 | Item | Owner | Status |
@@ -385,14 +415,14 @@ Next step: Bright Data prepares the wireframe with a few short SEO notes for Zac
 | Clarify YMYL content sign-off (HM doctors vs 3rd-party) | Vahid | Asked by Rod 2026-06-02 |
 | Share list of technical SEO work + scope vs in-house | Vahid | Asked by Rod 2026-06-02 |
 | Education content pillar topic sign-off | Rod | Completed 2026-06-10 |
-| Confirm blog page requirements (design, structure, footnotes, guidance doc) for Zac | Vahid | Asked by Rod 2026-06-10 |
+| Confirm blog page requirements (design, structure, footnotes, guidance doc) for Zac | Vahid | Wireframe approach proposed 2026-06-10; Zac working on designs (per 2026-06-15) |
 | Clarify homepage CRO/UX review date ("Tuesday") | Vahid | Asked by Rod 2026-06-02 |
 | Company profile (single source of truth) build-out | Vahid | In progress (this week, per 2026-06-01) |
 | 4 major competitor deep-dives | Vahid | Complete (per 2026-06-01); rest being added |
 | Suggested content pillars / topics for sign-off | Vahid | This week (per 2026-06-01) |
 | Sitewide technical SEO review + rewrite | Vahid | This week (per 2026-06-01) |
 | Homepage CRO + UX/UI + SEO review | Vahid | Targeted Tuesday (per 2026-06-01) |
-| Location landing pages build | Vahid | Before 14 June (per 2026-06-01) |
+| Location landing pages build | Vahid | Originally before 14 June; finalising — handover committed by Thu 18 June (per 2026-06-16) |
 | One-hour follow-up (performance + tech offload) | Vahid | In 2–3 weeks (per 2026-06-01) |
 | TGA warning letter | Rod | Received (per 2026-06-01) |
 | List of 20 best-performing suburbs | Rod | Delivered 2026-06-03 (Google Sheet shared) |

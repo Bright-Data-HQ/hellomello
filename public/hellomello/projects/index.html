@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Hellomello, Build Projects &amp; Task Lists</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#283718; --green-2:#1F2B12; --green-3:#34481F;
+  --cream:#FEFAE0; --cream-2:#F6F0CC; --cream-3:#FBF6D6;
+  --terra:#BC6C25; --terra-light:#DDA15E;
+  --lavender:#BEB8EB; --sage:#B2DCD0; --blue:#2A78A0;
+  --paper:#FBF6D6; --paper-2:#F6F0CC; --surface:#FFFFFF; --surface-2:#FAF7E8;
+  --ink:#283718; --ink-2:#34481F; --muted:#5C6849; --muted-2:#8C9779;
+  --border:#E8E1B8; --border-strong:#CFC68C;
+  --ok-bg:#E4F1D6; --ok-fg:#3F6A1A; --ok-bd:#C5DFA6;
+  --warn-bg:#FBE7C4; --warn-fg:#8A4A0E; --warn-bd:#EFC788;
+  --bad-bg:#F8D7D2; --bad-fg:#9B2418; --bad-bd:#EDB5AC;
+  --font-display:"League Spartan","Helvetica Neue",system-ui,sans-serif;
+  --font-body:"Inter","Helvetica Neue",system-ui,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --content:1120px;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--font-body);color:var(--ink);background:var(--paper);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.page{max-width:var(--content);margin:0 auto;padding:64px 56px 160px}
+
+/* Header */
+.doc-header{padding-bottom:48px;border-bottom:1px solid var(--border-strong);margin-bottom:56px;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.doc-eyebrow{font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.doc-title{font-family:var(--font-display);font-weight:900;font-size:62px;letter-spacing:-.025em;line-height:.94;margin:0 0 20px;max-width:18ch}
+.doc-title em{font-style:normal;color:var(--terra)}
+.doc-lead{font-size:17px;line-height:1.55;color:var(--muted);max-width:64ch;margin:0}
+.doc-meta{display:flex;gap:24px;flex-wrap:wrap;margin-top:32px;font-family:var(--font-mono);font-size:11.5px;color:var(--muted)}
+.doc-meta strong{color:var(--ink);font-weight:600}
+.back{display:inline-block;font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-decoration:none;margin-bottom:28px}
+.back:hover{color:var(--terra)}
+
+.brandmark{display:flex;flex-direction:column;align-items:flex-end;gap:14px}
+.wordmark{font-family:var(--font-display);font-weight:900;font-size:32px;letter-spacing:-.02em;line-height:1}
+.wordmark span:nth-child(1){color:var(--green)}
+.wordmark span:nth-child(2){color:var(--terra)}
+.wordmark span:nth-child(3){color:var(--lavender)}
+.wordmark span:nth-child(4){color:var(--sage)}
+.wordmark span:nth-child(5){color:var(--blue)}
+.brandmark .tag{font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted)}
+.count{display:flex;flex-direction:column;align-items:center;gap:8px;background:var(--green);border-radius:18px;padding:20px 28px;color:var(--cream)}
+.count .ring{font-family:var(--font-display);font-weight:900;font-size:44px;line-height:1;letter-spacing:-.02em;color:var(--cream)}
+.count .lbl{font-family:var(--font-mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--sage);text-align:center}
+
+/* Sections */
+section{margin-bottom:80px;scroll-margin-top:32px}
+.sec-num{font-family:var(--font-mono);font-size:11.5px;color:var(--muted);letter-spacing:.1em;margin-bottom:10px;text-transform:uppercase}
+.sec-title{font-family:var(--font-display);font-weight:700;font-size:36px;letter-spacing:-.02em;line-height:1.05;margin:0 0 14px}
+.sec-lead{font-size:15.5px;line-height:1.65;color:var(--muted);max-width:64ch;margin:0 0 32px}
+
+/* Intro project cards */
+.projos{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:14px}
+.projo{background:var(--surface);border:1px solid var(--border-strong);border-radius:14px;padding:24px 24px;display:flex;flex-direction:column;gap:12px;text-decoration:none;color:var(--ink);transition:transform .15s ease,border-color .15s ease}
+.projo:hover{transform:translateY(-2px);border-color:var(--terra-light)}
+.projo .pn{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--terra);font-weight:600}
+.projo h3{font-family:var(--font-display);font-weight:700;font-size:21px;margin:0;letter-spacing:-.01em;color:var(--green)}
+.projo p{font-size:13px;color:var(--muted);line-height:1.55;margin:0}
+.projo .n{font-family:var(--font-mono);font-size:11px;color:var(--blue);margin-top:auto;letter-spacing:.04em}
+
+/* Project block */
+.project{margin-top:18px;border:1px solid var(--border-strong);border-radius:16px;overflow:hidden;background:var(--surface)}
+.proj-head{padding:30px 32px 26px;background:var(--green);color:var(--cream)}
+.proj-head .top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+.proj-head .pn{font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--terra-light);font-weight:600}
+.proj-head .sep-pill{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:4px 11px;border-radius:9999px;background:rgba(254,250,224,.12);color:var(--cream);border:1px solid rgba(254,250,224,.3)}
+.proj-head h2{font-family:var(--font-display);font-weight:900;font-size:34px;letter-spacing:-.02em;line-height:1;margin:0 0 12px;color:var(--cream)}
+.proj-head .desc{font-size:14.5px;line-height:1.6;color:var(--cream-2);max-width:70ch;margin:0 0 22px}
+.proj-meta{display:grid;grid-template-columns:repeat(4,auto);gap:28px;justify-content:start;font-family:var(--font-mono);font-size:11px;color:var(--sage)}
+.proj-meta .v{display:block;color:var(--cream);margin-top:4px;font-size:11.5px}
+.progress{margin-top:22px}
+.progress .bar{height:8px;border-radius:9999px;background:rgba(254,250,224,.15);overflow:hidden}
+.progress .fill{height:100%;width:0;background:var(--terra-light);border-radius:9999px;transition:width .25s ease}
+.progress .pct{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--sage);margin-top:8px}
+.progress .pct b{color:var(--cream)}
+
+.proj-body{padding:14px 32px 30px}
+.phase{padding:24px 0 8px;border-bottom:1px solid var(--border)}
+.phase:last-child{border-bottom:0}
+.phase-h{display:flex;align-items:baseline;gap:12px;margin-bottom:14px}
+.phase-h .pnum{font-family:var(--font-mono);font-size:11px;color:var(--terra);font-weight:600;letter-spacing:.1em}
+.phase-h h4{font-family:var(--font-display);font-weight:700;font-size:18px;margin:0;color:var(--green);letter-spacing:-.005em}
+.phase-h .ph-note{font-size:12px;color:var(--muted);margin-left:auto;font-family:var(--font-mono)}
+
+.tasks{display:flex;flex-direction:column;gap:2px;margin:0}
+.task{display:flex;align-items:flex-start;gap:13px;padding:9px 10px;border-radius:9px;cursor:pointer;user-select:none}
+.task:hover{background:var(--surface-2)}
+.task input{position:absolute;opacity:0;width:0;height:0}
+.task .box{flex:0 0 auto;width:19px;height:19px;border:1.5px solid var(--border-strong);border-radius:5px;margin-top:1px;display:flex;align-items:center;justify-content:center;background:#fff;transition:background .12s ease,border-color .12s ease}
+.task .box svg{width:12px;height:12px;opacity:0;transform:scale(.6);transition:opacity .12s ease,transform .12s ease}
+.task input:checked + .box{background:var(--green);border-color:var(--green)}
+.task input:checked + .box svg{opacity:1;transform:scale(1)}
+.task .lbl{font-size:14px;line-height:1.5;color:var(--ink-2);flex:1}
+.task input:checked ~ .lbl{color:var(--muted-2);text-decoration:line-through;text-decoration-color:var(--border-strong)}
+.task .who{flex:0 0 auto;font-family:var(--font-mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:3px 8px;border-radius:9999px;margin-top:1px;white-space:nowrap}
+.who.des{background:#EFEDFB;color:#5a51b0}
+.who.bld{background:#E0EEF5;color:#1d5a7a}
+.who.con{background:var(--warn-bg);color:var(--warn-fg)}
+.who.seo{background:var(--ok-bg);color:var(--ok-fg)}
+.who.com{background:var(--bad-bg);color:var(--bad-fg)}
+.who.qa{background:var(--cream-2);color:var(--muted)}
+.who.dat{background:#E4F1EC;color:#2f6b5a}
+
+/* Legend + controls */
+.legend{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 0}
+.legend .who{font-family:var(--font-mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:3px 9px;border-radius:9999px}
+.controls{display:flex;gap:12px;align-items:center;margin-top:16px}
+.controls button{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:8px 14px;border-radius:9999px;border:1px solid var(--border-strong);background:var(--surface);color:var(--muted);cursor:pointer}
+.controls button:hover{border-color:var(--terra-light);color:var(--terra)}
+.controls .saved{font-family:var(--font-mono);font-size:10.5px;color:var(--muted-2)}
+
+.banner{background:var(--cream-2);border:1px solid var(--border-strong);border-radius:12px;padding:20px 24px;margin:24px 0}
+.banner b{display:block;font-family:var(--font-display);font-weight:700;font-size:13px;color:var(--green);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.banner p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.6}
+
+/* Technical development spec (for the build team) */
+.spec{margin:24px 0 6px;border-radius:14px;background:#1C2710;border:1px solid #34481F;overflow:hidden}
+.spec-h{display:flex;align-items:center;gap:12px;padding:16px 24px;border-bottom:1px solid #34481F;font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--terra-light);font-weight:600}
+.spec-h .badge{font-size:9px;letter-spacing:.1em;padding:4px 10px;border-radius:9999px;background:rgba(221,161,94,.16);color:var(--terra-light);border:1px solid rgba(221,161,94,.35);margin-left:auto}
+.spec-body{padding:6px 24px 22px}
+.spec-row{padding:18px 0;border-bottom:1px solid rgba(254,250,224,.08)}
+.spec-row:last-child{border-bottom:0}
+.spec-row h5{font-family:var(--font-display);font-weight:700;font-size:14px;margin:0 0 9px;color:var(--cream);text-transform:uppercase;letter-spacing:.05em}
+.spec-row p{margin:0 0 8px;font-size:13px;line-height:1.65;color:#C7CEB4}
+.spec-row p:last-child{margin-bottom:0}
+.spec-row ul{margin:6px 0 0;padding-left:18px;font-size:13px;line-height:1.7;color:#C7CEB4}
+.spec-row ul li{margin-bottom:3px}
+.spec code{font-family:var(--font-mono);font-size:12px;background:rgba(254,250,224,.09);padding:1px 6px;border-radius:5px;color:var(--terra-light)}
+.spec pre{margin:10px 0 0;background:#141D0B;border:1px solid #34481F;border-radius:10px;padding:15px 17px;overflow-x:auto;font-family:var(--font-mono);font-size:12px;line-height:1.65;color:#C7CEB4;white-space:pre}
+.spec pre .c{color:#8C9779}
+.spec pre .s{color:var(--sage)}
+
+.foot{border-top:1px solid var(--border-strong);padding-top:32px;margin-top:80px;display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-family:var(--font-mono);font-size:11.5px}
+
+@media (max-width:920px){
+  .page{padding:40px 22px 120px}
+  .doc-header{grid-template-columns:1fr;gap:26px}
+  .doc-title{font-size:40px}
+  .brandmark{flex-direction:row;align-items:center;justify-content:space-between}
+  .projos{grid-template-columns:1fr}
+  .proj-head,.proj-body{padding-left:22px;padding-right:22px}
+  .proj-meta{grid-template-columns:1fr 1fr;gap:16px}
+  .phase-h{flex-wrap:wrap}
+  .phase-h .ph-note{margin-left:0;width:100%}
+  .task .who{display:none}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <a class="back" href="/hellomello">← Back to workspace</a>
+
+  <header class="doc-header">
+    <div>
+      <p class="doc-eyebrow">Hellomello × Bright Data · Build Projects · June 2026</p>
+      <h1 class="doc-title">Three new builds, <em>three separate projects</em>.</h1>
+      <p class="doc-lead">Next up we are building the location landing pages, the Journal hub, and the individual Journal articles. Each one is its own project, with its own scope, its own team mix and its own task list. Pick a project below to see everything that goes into it.</p>
+      <div class="doc-meta">
+        <span>VERSION <strong>1.0</strong></span>
+        <span>UPDATED <strong>June 2026</strong></span>
+        <span>PREPARED BY <strong>Bright Data</strong></span>
+        <span>FOR <strong>Rod, Alex, Hellomello</strong></span>
+      </div>
+    </div>
+    <div class="brandmark">
+      <div class="wordmark"><span>h</span><span>e</span><span>l</span><span>l</span><span>o</span></div>
+      <div class="count">
+        <div class="ring">3</div>
+        <div class="lbl">Separate<br>projects</div>
+      </div>
+      <div class="tag">Build Plan</div>
+    </div>
+  </header>
+
+  <section id="overview">
+    <p class="sec-num">00 / Overview</p>
+    <h2 class="sec-title">What we are building, and why they are separate.</h2>
+    <p class="sec-lead">These three builds are related, but they run as their own projects. Different work, different owners, different timelines. Keeping them apart means each can move at its own pace, get signed off on its own, and not hold the others up. Each one has its own page and its own task list.</p>
+
+    <div class="projos">
+      <a class="projo" href="/hellomello/projects/location">
+        <div class="pn">Project 01</div>
+        <h3>Location landing pages</h3>
+        <p>One flexible template, filled per suburb. The first SEO pillar (pSEO), starting with the top 20 suburbs and scaling from there.</p>
+        <div class="n">6 phases · 45 tasks →</div>
+      </a>
+      <a class="projo" href="/hellomello/projects/blog-hub">
+        <div class="pn">Project 02</div>
+        <h3>Journal hub (list page)</h3>
+        <p>The home of the Journal. The page that lists every article, sorts it by topic, and sends readers and Google into the content.</p>
+        <div class="n">5 phases · 29 tasks →</div>
+      </a>
+      <a class="projo" href="/hellomello/projects/blog-articles">
+        <div class="pn">Project 03</div>
+        <h3>Journal article pages</h3>
+        <p>The template every article is built on. Clinically authored, properly reviewed, and built to rank and to be trusted.</p>
+        <div class="n">6 phases · 35 tasks →</div>
+      </a>
+    </div>
+
+    <div class="legend">
+      <span style="font-family:var(--font-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-right:4px">Who does it:</span>
+      <span class="who des">Design</span>
+      <span class="who bld">Build</span>
+      <span class="who con">Content</span>
+      <span class="who seo">SEO</span>
+      <span class="who com">Compliance</span>
+      <span class="who qa">QA</span>
+      <span class="who dat">Data</span>
+    </div>
+  </section>
+
+  <div class="foot">
+    <span>Bright Data × Hellomello · Build Projects &amp; Task Lists</span>
+    <span>June 2026</span>
+  </div>
+
+</div>
+</body>
+</html>

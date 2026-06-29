@@ -41,6 +41,7 @@ A working overview of competitors in the Australian medicinal cannabis telehealt
 
 ### Dispensed
 **Position:** ⚠️ Dodgy — need to be careful.
+**domain:** dispensed.com.au
 
 - Big player in the space.
 
@@ -78,6 +79,7 @@ A working overview of competitors in the Australian medicinal cannabis telehealt
 
 ### Healing Leaves
 **Position:** ⚠️ Dodgy — need to be careful.
+**domain:** healingleaves.com.au
 
 - Mature player.
 - Targeting the recreational user.
@@ -120,6 +122,7 @@ A working overview of competitors in the Australian medicinal cannabis telehealt
 
 ### Greencare
 **Position:** ✅ Happy to model.
+**domain:** greencare.com.au
 
 *No additional notes yet.*
 
@@ -127,6 +130,7 @@ A working overview of competitors in the Australian medicinal cannabis telehealt
 
 ### Horizon Health
 **Position:** ✅ Happy to model.
+**domain:** *unconfirmed — not built (no clear AU cannabis domain found)*
 
 - High volume clinic.
 
@@ -134,6 +138,7 @@ A working overview of competitors in the Australian medicinal cannabis telehealt
 
 ### Econohealth
 **Position:** ✅ Happy to model.
+**domain:** *unconfirmed — not built (no AU search footprint found)*
 
 - New clinic.
 - Competing on price.

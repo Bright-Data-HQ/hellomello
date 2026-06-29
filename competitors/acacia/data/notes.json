@@ -1,0 +1,132 @@
+{
+  "brand": {
+    "visual_system": [
+      "Calm, clinical and trustworthy; very brand-led.",
+      "Clear pharmacy and product access framing.",
+      "Small site that prioritises credibility over volume."
+    ],
+    "site_architecture": [
+      "Tiny footprint: home, pharmacies and compassionate access pages.",
+      "No programmatic location or condition surface.",
+      "Single domain, no separate app subdomain in the index."
+    ],
+    "tone_compliance": [
+      "Generally safe; consultation-led framing.",
+      "Compassionate access pages are partner focused, not pushy.",
+      "Light on disclaimers but nothing high risk."
+    ]
+  },
+  "verdict": {
+    "steal": [
+      {
+        "play": "Pharmacy partner pages",
+        "effort": 2,
+        "impact": 3,
+        "note": "Co-branded access pages build trust."
+      },
+      {
+        "play": "Conservative consultation tone",
+        "effort": 1,
+        "impact": 3,
+        "note": "A safe reference point for compliance language and product framing."
+      },
+      {
+        "play": "Compassionate-access framing",
+        "effort": 2,
+        "impact": 2,
+        "note": "Partner-focused page that adds credibility without pushing product."
+      }
+    ],
+    "avoid": [
+      {
+        "trap": "Near-zero content",
+        "evidence": "Four ranking pages, 141 keywords, almost all brand."
+      },
+      {
+        "trap": "Safety over visibility",
+        "evidence": "Four ranking pages and a footprint that depends entirely on brand demand. Compliance must not become invisibility."
+      }
+    ],
+    "implications": [
+      "Acacia is a safe brand fortress with no search content to speak of.",
+      "Every non-brand topic is white space against them.",
+      "We can model their compliance tone and out-build their content."
+    ]
+  },
+  "position": "model",
+  "period": "June 2026",
+  "tagline": "A small, compliant clinic with a tiny but loyal brand footprint. Almost no non-brand search surface — every category topic is white space against them.",
+  "verdict_label": "Model off this",
+  "verdict_tone": "green",
+  "eeat": {
+    "https": "green",
+    "schema_medical": "amber",
+    "author_bylines": "red",
+    "medical_reviewer": "amber",
+    "core_web_vitals": "amber",
+    "freshness": "red",
+    "notes": "Clinical posture is sound but credibility signals are largely visual. No clinician bylines, no medical-page schema, freshness lags. The safe positioning is real, the visibility is thin."
+  },
+  "gap_matrix": [
+    {
+      "topic": "Brand defence",
+      "acacia": 4,
+      "hellomello": 1,
+      "comment": "Owned."
+    },
+    {
+      "topic": "Pricing transparency",
+      "acacia": 2,
+      "hellomello": 1,
+      "comment": "Worth matching."
+    },
+    {
+      "topic": "Clinic / doctor SEO",
+      "acacia": 1,
+      "hellomello": 0,
+      "comment": "Open field."
+    },
+    {
+      "topic": "Conditions content",
+      "acacia": 0,
+      "hellomello": 0,
+      "comment": "Open field — highest impact."
+    },
+    {
+      "topic": "Locations / pSEO",
+      "acacia": 1,
+      "hellomello": 0,
+      "comment": "Open field."
+    },
+    {
+      "topic": "\"Near me\" queries",
+      "acacia": 0,
+      "hellomello": 0,
+      "comment": "Undefended."
+    },
+    {
+      "topic": "Wellness / lifestyle",
+      "acacia": 0,
+      "hellomello": 0,
+      "comment": "Skip."
+    },
+    {
+      "topic": "Reviews / social proof",
+      "acacia": 1,
+      "hellomello": 0,
+      "comment": "Replicate properly."
+    },
+    {
+      "topic": "Editorial link bait",
+      "acacia": 0,
+      "hellomello": 0,
+      "comment": "Open field."
+    },
+    {
+      "topic": "Pharmacy partners",
+      "acacia": 3,
+      "hellomello": 0,
+      "comment": "Borrow the model."
+    }
+  ]
+}

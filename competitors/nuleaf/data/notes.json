@@ -1,0 +1,130 @@
+{
+  "brand": {
+    "visual_system": [
+      "Small, early-stage clinic site.",
+      "Minimal brand presence in search.",
+      "Light content and few entry points."
+    ],
+    "site_architecture": [
+      "Essentially a homepage plus one explainer.",
+      "No programmatic location or condition pages.",
+      "Some crossover with the Cannihelp brand."
+    ],
+    "tone_compliance": [
+      "Too little content to read a clear posture.",
+      "Consultation framing where present.",
+      "Worth watching as they grow."
+    ]
+  },
+  "verdict": {
+    "steal": [
+      {
+        "play": "Nothing material yet",
+        "effort": 1,
+        "impact": 1,
+        "note": "Watch for growth signals; revisit if the footprint expands."
+      },
+      {
+        "play": "Re-audit on growth",
+        "effort": 1,
+        "impact": 1,
+        "note": "Set a six-month check-in to re-run the deck if their content surface grows."
+      }
+    ],
+    "avoid": [
+      {
+        "trap": "No content footprint",
+        "evidence": "21 keywords and 2 ranking pages."
+      },
+      {
+        "trap": "Dismissing early-stage entrants",
+        "evidence": "Small footprints can scale fast in this category. Today&rsquo;s 21 keywords can become tomorrow&rsquo;s 500."
+      },
+      {
+        "trap": "Brand-only fortress",
+        "evidence": "~96% of traffic is brand and Cannihelp crossover. Any non-brand competitor walks past them."
+      }
+    ],
+    "implications": [
+      "Nuleaf has almost no organic presence yet.",
+      "Nothing to copy; everything is white space against them.",
+      "Monitor in case their footprint grows."
+    ]
+  },
+  "position": "watch",
+  "period": "June 2026",
+  "tagline": "An early-stage clinic with almost no organic surface. Two ranking pages, twenty-one keywords, and some crossover with the Cannihelp brand. Nothing to copy yet — everything is white space.",
+  "verdict_label": "Watch · too thin",
+  "verdict_tone": "amber",
+  "eeat": {
+    "https": "green",
+    "schema_medical": "red",
+    "author_bylines": "red",
+    "medical_reviewer": "red",
+    "core_web_vitals": "amber",
+    "freshness": "red",
+    "notes": "Too little content to assess meaningfully. HTTPS in place, everything else missing. Worth re-auditing in six months if the site grows."
+  },
+  "gap_matrix": [
+    {
+      "topic": "Brand defence",
+      "nuleaf": 2,
+      "hellomello": 1,
+      "comment": "Small brand only."
+    },
+    {
+      "topic": "Pricing transparency",
+      "nuleaf": 1,
+      "hellomello": 1,
+      "comment": "Open."
+    },
+    {
+      "topic": "Clinic / doctor SEO",
+      "nuleaf": 0,
+      "hellomello": 0,
+      "comment": "Open field."
+    },
+    {
+      "topic": "Conditions content",
+      "nuleaf": 0,
+      "hellomello": 0,
+      "comment": "Open field — highest impact."
+    },
+    {
+      "topic": "Locations / pSEO",
+      "nuleaf": 0,
+      "hellomello": 0,
+      "comment": "Open field."
+    },
+    {
+      "topic": "\"Near me\" queries",
+      "nuleaf": 0,
+      "hellomello": 0,
+      "comment": "Undefended."
+    },
+    {
+      "topic": "Wellness / lifestyle",
+      "nuleaf": 0,
+      "hellomello": 0,
+      "comment": "Skip."
+    },
+    {
+      "topic": "Reviews / social proof",
+      "nuleaf": 0,
+      "hellomello": 0,
+      "comment": "Open."
+    },
+    {
+      "topic": "Editorial link bait",
+      "nuleaf": 0,
+      "hellomello": 0,
+      "comment": "Open."
+    },
+    {
+      "topic": "Help / support SEO",
+      "nuleaf": 0,
+      "hellomello": 0,
+      "comment": "Open."
+    }
+  ]
+}
