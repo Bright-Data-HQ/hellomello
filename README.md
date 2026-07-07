@@ -12,7 +12,7 @@ Start with the [knowledge base](knowledge-base/README.md). It is the single sour
 | [proposal/](proposal/) | The signed proposal and scope of work. |
 | [strategy/](strategy/) | The published strategy document (HTML source). |
 | [competitors/](competitors/) | Per-competitor analysis. Each competitor has `code/` (analysis scripts), `data/` (raw and processed), and `presentation/` (the deck). `_template/` is the starting point for a new competitor. |
-| [brand/](brand/) | Brand guidelines and kit (HTML source). |
+| [brand/](brand/README.md) | Brand guidelines and UI kit. Markdown reference (`README.md`) plus the HTML source and Brand Bible PDF. |
 | [communication/](communication/) | Email thread log and draft replies. |
 | [meetings/](meetings/) | Meeting notes and transcripts. |
 | [reference/](reference/) | Supporting reference material: meta tags, and `screenshots/` of the live site. |
